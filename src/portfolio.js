@@ -23,9 +23,10 @@ const greeting = {
   username: "Brilliant Fikri",
   title: "Hello, I'm Liant",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web, Mobile, and desktop applications with JavaScript / PHP / Java / React Native and some other cool libraries and frameworks."
+    "I am a Full Stack Web and Mobile Application Developer 🚀 having an experience of building Web, Mobile, and desktop applications with JavaScript (React.js) / PHP (Laravel) / React Native / Java and some other cool libraries and frameworks."
   ),
-  resumeLink: "", // Set to empty to hide the button
+  resumeLink:
+    "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -45,11 +46,11 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "A FULL STACK DEVELOPER WHO EXPLORING SOFTWARE DEVELOPMENT WORLD",
+  title: "What I do 💻",
+  subTitle: "I do full stack development of web and mobile applications",
   skills: [
     emoji(
-      "⚡ Develop responsive and user friendly web, mobile, and desktop applications"
+      "⚡ Develop responsive and user friendly web and mobile applications match your business needs"
     ),
     emoji(
       "⚡ Integration of third party services like hosting / API integration / etc"
@@ -169,7 +170,7 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Desktop App Development",
+      Stack: "UI / UX Design",
       progressPercentage: "50%"
     }
   ],
@@ -180,6 +181,7 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
+  subtitle: "This is my work experience on some great companies / instances!",
   experience: [
     {
       role: "Website Developer Intern",
@@ -213,41 +215,43 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Big Projects 🚀",
+  subtitle: "SOME COMPANIES THAT I HELPED TO BUILD THEIR COOL PROJECTS!",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Lintasarta Customer Network Data",
-      projectDesc: "Lintasarta customer network data management",
+      image: require("./assets/images/logoigi.png"),
+      projectName: "Human Resources Information System PT. Indo Global Impex",
+      projectDesc:
+        "HRIS IGI is a web based application that can handle the employee data, attendance, and payroll. This project is build with Laravel and Mysql for PT. Indo Global Impex.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://lintasarta.com/"
+          name: "Show Portfolio",
+          url: "https://drive.google.com/drive/folders/1jJlkhVb9g3y-d5u3fUa-PQOH4pGvir0b?usp=drive_link"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/kejatiJatimLogo.png"),
+      projectName: "Geographic Information System for Echelon Maping",
+      projectDesc:
+        "GIS for echelon maping is a web based application that can handle the availability of personnel in each position in the organization on many location of Kejati office (province level) and kejari office (city or district level). This project is build with Laravel and Mysql for Kejaksaan Tinggi Jawa Timur.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Show Portfolio",
+          url: "https://drive.google.com/drive/folders/1OcKJ93x-dqBF_9f6ei_XfbERiXbS-ekM?usp=drive_link"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -266,11 +270,11 @@ const achievementSection = {
       imageAlt: "Udemy Logo",
       footerLink: [
         {
-          name: "Certificate",
+          name: "Show Certificate",
           url: "https://www.udemy.com/certificate/UC-798ad0c7-a839-4216-830e-bead6e44d858/"
         },
         {
-          name: "Project",
+          name: "Show Project",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         }
       ]
@@ -280,15 +284,15 @@ const achievementSection = {
       subtitle:
         "Developed a website based on laravel that can do transaction inside it.",
       image: require("./assets/images/bwaLogo.png"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "BuildwithAngga Logo",
       footerLink: [
         {
-          name: "Certificate",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Show Certificate",
+          url: "https://drive.google.com/file/d/1zbuLFEeMzO_2d0-Kc777-mKIqQRCPlXf/view?usp=sharing"
         },
         {
-          name: "Project",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Show Project",
+          url: "https://drive.google.com/drive/folders/11gSoG0N_vbzZ3ZC6Y8U-CnXBX7_WrYlR?usp=drive_link"
         }
       ]
     },
@@ -298,8 +302,17 @@ const achievementSection = {
       subtitle:
         "Completed internship at Kejaksaan Tinggi Jawa Timur as website developer to create maping for availability of echelon position in work sub unit of Kejaksaan Tinggi Jawa Timur or known as Kejaksaan Negeri and Kejaksaan Tinggi itself.",
       image: require("./assets/images/kejatiJatimLogo.png"),
-      imageAlt: "PWA Logo",
-      footerLink: [{name: "Certificate", url: ""}]
+      imageAlt: "Kejati Jatim Logo",
+      footerLink: [
+        {
+          name: "Show Certificate",
+          url: "https://drive.google.com/file/d/1ZE-ye8t4ea-8fGL5btvS92pV_vhJD_Kt/view?usp=sharing"
+        },
+        {
+          name: "Show Project",
+          url: "https://drive.google.com/drive/folders/1OcKJ93x-dqBF_9f6ei_XfbERiXbS-ekM?usp=drive_link"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -371,11 +384,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("📞 My Contact Information"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all!",
-  number: "+62-813-3148-7753",
-  email_address: "briliantfikri@gmail.com"
+  number: "📱 +62-813-3148-7753",
+  email_address: " 📧 briliantfikri@gmail.com"
 };
 
 // Twitter Section

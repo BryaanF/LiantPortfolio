@@ -10,7 +10,7 @@
   font-size: 1.375rem;
   line-height: 24px;
   font-weight: 700;
-  margin: 15px 0 0 0;
+  margin-bottom: 15px;
 }
 .card-subtitle {
   color: $cardSubtitle;
@@ -26,9 +26,13 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .certificate-detail-div {
   text-align: center;
+  flex-grow: 1;
 }
 .certificate-card:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;

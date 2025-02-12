@@ -11,12 +11,17 @@
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
+  margin-bottom: 50px; /* Mengurangi jarak antara judul dan deskripsi */
 }
+
 .card-subtitle {
   color: $cardSubtitle;
   font-size: 17px;
   line-height: 1.5rem;
+  text-align: justify;
+  margin-top: 0;
 }
+
 .project-card {
   display: flex;
   flex-direction: column;
@@ -24,8 +29,9 @@
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
-  justify-content: center;
+  justify-content: space-between; /* Memastikan footer tetap di bawah */
 }
+
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   -webkit-transition: all 0.3s ease;
@@ -42,6 +48,10 @@
 
 .project-detail {
   text-align: center;
+  flex-grow: 1; /* Membuat area detail fleksibel agar footer tetap di bawah */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Menjaga agar elemen tetap tersusun ke atas */
 }
 .project-card-light:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
@@ -62,6 +72,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
+  align-items: stretch; /* Menyamakan tinggi card */
 }
 
 .project-card-footer span.project-tag {
@@ -70,7 +81,7 @@
   vertical-align: middle;
   align-items: center;
   border-radius: 4px;
-  display: inline-flex;
+  display: flex;
   font-size: 0.75rem;
   height: 2em;
   justify-content: center;
@@ -80,6 +91,13 @@
   padding: 0 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
+}
+
+.project-subtitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
