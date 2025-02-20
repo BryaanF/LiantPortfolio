@@ -67,7 +67,7 @@
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
     "predeploy": "npm run build && xcopy CNAME build\\ /Y",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run format && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
