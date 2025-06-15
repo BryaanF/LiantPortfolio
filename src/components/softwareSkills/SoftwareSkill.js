@@ -11,7 +11,7 @@ export default function SoftwareSkill() {
             return (
               <li
                 key={i}
-                className="software-skill-inline"
+                className="software-skill-inline notranslate"
                 name={skills.skillName}
               >
                 <i className={skills.fontAwesomeClassname}></i>

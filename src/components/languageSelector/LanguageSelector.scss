@@ -1,0 +1,27 @@
+@import "../../_globalColor";
+
+.language-dropdown {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    border-color: #999;
+    color: #ccc;
+  }
+
+  option {
+    color: black; // dropdown option tetap readable
+    background: white;
+  }
+}
+
+.language-dropdown:focus {
+  outline: none;
+  border-color: #007bff; // highlight border saat dropdown fokus
+}

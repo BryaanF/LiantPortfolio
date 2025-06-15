@@ -127,6 +127,26 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.whatsapp ? (
+        <a
+          href={socialMediaLinks.whatsapp}
+          className="icon-button whatsapp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i
+            className="fab fa-whatsapp"
+            style={{
+              backgroundColor: "#25D366",
+              color: "white",
+              borderRadius: "50%",
+              fontSize: "24px"
+            }}
+          ></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }

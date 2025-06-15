@@ -23,7 +23,7 @@ const greeting = {
   username: "Brilliant Fikri",
   title: "Hello, I'm Liant",
   subTitle: emoji(
-    "I am a Full Stack Application Developer 🚀 having an experience of building Web, Mobile, and desktop applications with JavaScript (React.js) / PHP (Laravel) / React Native / Java and some other cool libraries and frameworks."
+    "I am a Full Stack Application Developer 🚀 having an experience of building Web, Mobile, and Desktop Applications with JavaScript (Express, React, React Native) / PHP (Laravel, CodeIgniter) / Java and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link", // Set to empty to hide the button
@@ -38,6 +38,8 @@ const socialMediaLinks = {
   gmail: "briliantfikri@gmail.com",
   medium: "https://medium.com/@briliantfikri",
   stackoverflow: "https://stackoverflow.com/users/14787789/briliant-fikri",
+  whatsapp:
+    "https://wa.me/6281331487753?text=Halo%20Liant,%20Saya%20tertarik%20untuk%20bekerja%20sama%20terkait%20...",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -127,8 +129,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Website Development (Full - Stack)", //Insert stack or technology you have experience in
+      Stack: "Backend Development", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Website Development (Full-Stack)", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Network Engineering / IT Support",
+      progressPercentage: "80%"
     },
     {
       Stack: "UI / UX Design",
@@ -386,7 +396,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("📞  Contact Information  ✉️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all!",
+    "Want to discuss a project or just want to say hi? My Inbox is open for all!",
   number: "+62-813-3148-7753",
   email_address: "briliantfikri@gmail.com"
 };

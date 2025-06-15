@@ -96,6 +96,55 @@
       href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css"
     />
 
+    <style>
+      /* Sembunyikan elemen branding & frame Google */
+      .goog-logo-link,
+      .goog-te-banner-frame.skiptranslate,
+      body > .goog-te-banner-frame,
+      #goog-gt-tt,
+      .goog-te-balloon-frame {
+        display: none !important;
+      }
+
+      body {
+        top: 0px !important;
+      }
+
+      .goog-te-gadget {
+        font-size: 0 !important;
+      }
+
+      /* Custom dropdown */
+      #custom-lang {
+        padding: 6px 12px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: white;
+        color: #333;
+        cursor: pointer;
+      }
+
+      @media (max-width: 600px) {
+        #custom-lang {
+          font-size: 12px;
+          padding: 5px 10px;
+        }
+      }
+
+      #google_translate_wrapper {
+        overflow: hidden;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        background: white;
+        padding: 4px 0;
+      }
+    </style>
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -108,6 +157,19 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Google Translate Wrapper -->
+    <div id="google_translate_wrapper">
+      <div id="google_translate_element" style="display: none"></div>
+
+      <select id="custom-lang">
+        <option value="">🌐 Translate</option>
+        <option value="en">English</option>
+        <option value="id">Bahasa Indonesia</option>
+        <option value="ja">日本語</option>
+      </select>
+    </div>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -119,5 +181,49 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- Google Translate Init -->
+    <script>
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          new google.translate.TranslateElement(
+            {
+              pageLanguage: "en",
+              includedLanguages: "en,id,ja",
+              layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+              autoDisplay: false
+            },
+            "google_translate_element"
+          );
+        }, 500); // kasih delay kecil setelah semua load
+      });
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const customSelect = document.getElementById("custom-lang");
+
+        // Polling untuk menunggu <select.goog-te-combo> muncul
+        const interval = setInterval(() => {
+          const googleCombo = document.querySelector(".goog-te-combo");
+
+          if (googleCombo) {
+            clearInterval(interval); // stop polling
+            console.log("[i] Google Translate combo box detected.");
+
+            // Langsung sembunyikan sekarang setelah muncul
+            googleCombo.style.display = "none";
+
+            customSelect.addEventListener("change", function () {
+              const lang = this.value;
+              if (lang && googleCombo) {
+                googleCombo.value = lang;
+                googleCombo.dispatchEvent(new Event("change"));
+              }
+            });
+          }
+        }, 500); // cek tiap 500ms
+      });
+    </script>
+
+    <!-- Load Google Translate script -->
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>

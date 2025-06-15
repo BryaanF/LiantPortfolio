@@ -13,6 +13,7 @@ import {
   achievementSection,
   resumeSection
 } from "../../portfolio";
+// import LanguageSelector from "../languageSelector/LanguageSelector";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
@@ -29,7 +30,7 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
+          <span className="logo-name notranslate">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -72,6 +73,11 @@ function Header() {
               <ToggleSwitch />
             </a>
           </li>
+          {/* <li>
+            <a>
+              <LanguageSelector />
+            </a>
+          </li> */}
         </ul>
       </header>
     </Headroom>
