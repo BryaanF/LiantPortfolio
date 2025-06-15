@@ -38,12 +38,15 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="🤝 Hire Me!" href="#contact"></Button>
+                <span translate="no" className="notranslate">
+                  <Button text="🤝 Build a Project" href="#contact" />
+                </span>
                 {greeting.resumeLink && (
                   <a
                     href="/resume.pdf"
                     download="Liant_Resume.pdf"
-                    className="download-link-button"
+                    className="download-link-button notranslate"
+                    translate="no"
                   >
                     <Button text="📄 Resume / CV" />
                   </a>

@@ -241,7 +241,7 @@ const bigProjects = {
         "HRIS IGI is a web based application that can handle the employee data, attendance, and payroll. This project is build with Laravel and Mysql for PT. Indo Global Impex.",
       footerLink: [
         {
-          name: "Show Portfolio",
+          name: "Show Project",
           url: "https://drive.google.com/drive/folders/1jJlkhVb9g3y-d5u3fUa-PQOH4pGvir0b?usp=drive_link"
         }
         //  you can add extra buttons here.
@@ -254,8 +254,20 @@ const bigProjects = {
         "GIS for echelon maping is a web based application that can handle the availability of personnel in each position in the organization on many location of Kejati office (province level) and kejari office (city or district level). This project is build with Laravel and Mysql for Kejaksaan Tinggi Jawa Timur.",
       footerLink: [
         {
-          name: "Show Portfolio",
+          name: "Show Project",
           url: "https://drive.google.com/drive/folders/1OcKJ93x-dqBF_9f6ei_XfbERiXbS-ekM?usp=drive_link"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/contactZainzoLogo.png"),
+      projectName: "Contact Zainzo for Broadcasting Message",
+      projectDesc:
+        "Contact Zainzo is a web based application that can handle broadcasting message to many users using whatsapp and email. This project is build with Laravel, ExpressJS, and Mysql back when I work for Peduly. I ensure the API documentation is well maintained so that the frontend developer and next backend developer can continue the project easily.",
+      footerLink: [
+        {
+          name: "Go to Website",
+          url: "https://zainzo.com"
         }
       ]
     }
