@@ -1,4 +1,4 @@
-/*! For license information please see main.4a8148d6.js.LICENSE.txt */
+/*! For license information please see main.ed8536a1.js.LICENSE.txt */
 (() => {
   var __webpack_modules__ = {
       3401: (t, e, i) => {
@@ -131,6 +131,26 @@
                           (0, a.jsx)("span", {})
                         ]
                       })
+                    : null,
+                  r.ze.whatsapp
+                    ? (0, a.jsxs)("a", {
+                        href: r.ze.whatsapp,
+                        className: "icon-button whatsapp",
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        children: [
+                          (0, a.jsx)("i", {
+                            className: "fab fa-whatsapp",
+                            style: {
+                              backgroundColor: "#25D366",
+                              color: "white",
+                              borderRadius: "50%",
+                              fontSize: "24px"
+                            }
+                          }),
+                          (0, a.jsx)("span", {})
+                        ]
+                      })
                     : null
                 ]
               })
@@ -173,7 +193,7 @@
             username: "Brilliant Fikri",
             title: "Hello, I'm Liant",
             subTitle: a()(
-              "I am a Full Stack Application Developer \ud83d\ude80 having an experience of building Web, Mobile, and desktop applications with JavaScript (React.js) / PHP (Laravel) / React Native / Java and some other cool libraries and frameworks."
+              "I am a Full Stack Application Developer \ud83d\ude80 having an experience of building Web, Mobile, and Desktop Applications with JavaScript (Express, React, React Native) / PHP (Laravel, CodeIgniter) / Java and some other cool libraries and frameworks."
             ),
             resumeLink:
               "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link",
@@ -186,6 +206,8 @@
             medium: "https://medium.com/@briliantfikri",
             stackoverflow:
               "https://stackoverflow.com/users/14787789/briliant-fikri",
+            whatsapp:
+              "https://wa.me/6281331487753?text=Halo%20Liant,%20Saya%20tertarik%20untuk%20bekerja%20sama%20terkait%20...",
             display: !0
           },
           c = {
@@ -229,9 +251,14 @@
           h = {
             viewSkillBars: !0,
             experience: [
+              {Stack: "Backend Development", progressPercentage: "95%"},
               {
-                Stack: "Website Development (Full - Stack)",
+                Stack: "Website Development (Full-Stack)",
                 progressPercentage: "90%"
+              },
+              {
+                Stack: "Network Engineering / IT Support",
+                progressPercentage: "80%"
               },
               {Stack: "UI / UX Design", progressPercentage: "60%"},
               {Stack: "Android Development", progressPercentage: "30%"}
@@ -447,7 +474,7 @@
           k = {
             title: a()("\ud83d\udcde  Contact Information  \u2709\ufe0f"),
             subtitle:
-              "Discuss a project or just want to say hi? My Inbox is open for all!",
+              "Want to discuss a project or just want to say hi? My Inbox is open for all!",
             number: "+62-813-3148-7753",
             email_address: "briliantfikri@gmail.com"
           },
@@ -34531,7 +34558,7 @@
               children: [
                 (0, c.jsx)("span", {className: "grey-color", children: " <"}),
                 (0, c.jsx)("span", {
-                  className: "logo-name",
+                  className: "logo-name notranslate",
                   children: u.O$.username
                 }),
                 (0, c.jsx)("span", {className: "grey-color", children: "/>"})
@@ -34702,10 +34729,10 @@
                             u.O$.resumeLink &&
                               (0, c.jsx)("a", {
                                 href: "/resume.pdf",
-                                download: "CV_Liant_WebDeveloper.pdf",
+                                download: "Liant_Resume.pdf",
                                 className: "download-link-button",
                                 children: (0, c.jsx)(k, {
-                                  text: "\ud83d\udce5 Resume / CV"
+                                  text: "\ud83d\udcc4 Resume / CV"
                                 })
                               })
                           ]
@@ -34738,7 +34765,7 @@
               (0, c.jsxs)(
                 "li",
                 {
-                  className: "software-skill-inline",
+                  className: "software-skill-inline notranslate",
                   name: t.skillName,
                   children: [
                     (0, c.jsx)("i", {className: t.fontAwesomeClassname}),
@@ -40110,7 +40137,7 @@
             children: [
               (0, c.jsx)("span", {className: "grey-color", children: " <"}),
               (0, c.jsx)("span", {
-                className: "splash-title",
+                className: "splash-title notranslate",
                 children: u.O$.username
               }),
               (0, c.jsx)("span", {className: "grey-color", children: "/>"})
@@ -40203,4 +40230,4 @@
         });
   })();
 })();
-//# sourceMappingURL=main.4a8148d6.js.map
+//# sourceMappingURL=main.ed8536a1.js.map

@@ -117,7 +117,7 @@ body {
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
+  float: none;
   padding: 28px 20px;
   position: relative;
   -webkit-user-select: none;
@@ -1730,11 +1730,14 @@ span.certificate-tag:hover {
     font-size: 56px;
     font-size: 40px;
     font-weight: 400;
+    font-weight: 900;
     text-align: center;
   }
   .contact-subtitle {
-    font-size: 16px;
+    font-size: 25px;
     line-height: normal;
+    padding-left: 8%;
+    padding-right: 8%;
     text-align: center;
   }
   .contact-text-div {
@@ -1776,4 +1779,4 @@ span.certificate-tag:hover {
   color: #fff;
   transition: "0.1s";
 }
-/*# sourceMappingURL=main.754e69e9.css.map*/
+/*# sourceMappingURL=main.8a52d999.css.map*/
