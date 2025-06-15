@@ -6,6 +6,9 @@ import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faSquareWhatsapp} from "@fortawesome/free-brands-svg-icons";
+import {faSquareEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
@@ -38,16 +41,25 @@ export default function Contact() {
                     href={
                       "https://wa.me/" +
                       onlyNumbers +
-                      "?text=Halo,%20Saya%20ingin%20bertanya%20tentang%20produk%20Anda%20..."
+                      "?text=Halo%20Liant,%20Saya%20tertarik%20untuk%20bekerja%20sama%20terkait%20..."
                     }
                   >
+                    <FontAwesomeIcon
+                      icon={faSquareWhatsapp}
+                      style={{marginRight: "8px"}}
+                    />
                     {contactInfo.number}
                   </a>
                   <br />
                   <br />
                 </>
               )}
+
               <a className="contact-detail-email" href={"mailto:" + onlyEmail}>
+                <FontAwesomeIcon
+                  icon={faSquareEnvelope}
+                  style={{marginRight: "8px"}}
+                />
                 {contactInfo.email_address}
               </a>
               <br />

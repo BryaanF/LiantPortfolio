@@ -23,7 +23,7 @@ const greeting = {
   username: "Brilliant Fikri",
   title: "Hello, I'm Liant",
   subTitle: emoji(
-    "I am a Full Stack Web and Mobile Application Developer 🚀 having an experience of building Web, Mobile, and desktop applications with JavaScript (React.js) / PHP (Laravel) / React Native / Java and some other cool libraries and frameworks."
+    "I am a Full Stack Application Developer 🚀 having an experience of building Web, Mobile, and desktop applications with JavaScript (React.js) / PHP (Laravel) / React Native / Java and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link", // Set to empty to hide the button
@@ -46,11 +46,12 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do 💻",
-  subTitle: "I do full stack development of web and mobile applications",
+  title: "What I do as a professional 💻",
+  subTitle:
+    "I do UI / UX and Full - Stack Applications Development to help companies and individuals to achieve their goals!",
   skills: [
     emoji(
-      "⚡ Develop responsive and user friendly web and mobile applications match your business needs"
+      "⚡ Develop responsive and user friendly applications match your needs"
     ),
     emoji(
       "⚡ Integration of third party services like hosting / API integration / etc"
@@ -65,19 +66,19 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html 5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css 3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "SASS",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
+      skillName: "JavaScript (Express, React)",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -93,27 +94,23 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "nodejs",
+      skillName: "NodeJS",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL Database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "invision",
+      skillName: "Invision",
       fontAwesomeClassname: "fab fa-invision"
     },
     {
@@ -124,10 +121,32 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
+// Your top 3 proficient stacks/tech experience
+
+const techStack = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Website Development (Full - Stack)", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "UI / UX Design",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Android Development",
+      progressPercentage: "30%"
+    }
+  ],
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
+
 // Education Section
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
+  title: emoji("Education 🎓"),
   schools: [
     {
       schoolName: "Telkom Schools Malang",
@@ -156,31 +175,11 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Website Development", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Android Development",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "UI / UX Design",
-      progressPercentage: "50%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
-
 // Work experience section
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
+  title: emoji("Work Experience 💼"),
   subtitle: "This is my work experience on some great companies / instances!",
   experience: [
     {
@@ -202,11 +201,11 @@ const workExperiences = {
       desc: "I do internship for kejaksaan tinggi jawa timur to create a website (laravel based with jquery to handle the maping) maping availability of personnel in each position in the organization on many location of Kejati office (province level) and kejari office (city or district level)."
     },
     {
-      role: "Lab Assistant ",
-      company: "Tel U Surabaya",
-      companylogo: require("./assets/images/telkomUniversityLogo.png"),
-      date: "Janary 2024 – June 2024",
-      desc: "I work part time as lab assistant to teaching about framework programming and basic computer network subjet. I learn many from this experience how to communicate the material to the student and collaborate with other lab assitant to ensure quality of teaching."
+      role: "Backend Developer",
+      company: "Peduly",
+      companylogo: require("./assets/images/pedulyLogo.png"),
+      date: "March 2025 – June 2025",
+      desc: "I work as backend developer for peduly to create a website that can handle message broadcaster which is whatsapp and email to send message effectively for the users. In this project I use Laravel and ExpressJs to create the backend API and use MySQL as the database. I contribute pretty much of my time to maintain the robust documentation of the API so that the frontend developer can use it easily and the project can be maintained well for the next developer to come."
     }
   ]
 };
@@ -222,7 +221,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects 🚀",
+  title: emoji("Big Projects 🚀"),
   subtitle: "SOME COMPANIES THAT I HELPED TO BUILD THEIR COOL PROJECTS!",
   projects: [
     {
@@ -259,7 +258,8 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements and Certifications that I have done !",
+  subtitle:
+    "Achievements and Certifications that I have acquired during this recent time !",
 
   achievementsCards: [
     {
@@ -354,7 +354,7 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://bit.ly/liant",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
@@ -384,11 +384,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("📞 My Contact Information"),
+  title: emoji("📞  Contact Information  ✉️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all!",
-  number: "📱 +62-813-3148-7753",
-  email_address: " 📧 briliantfikri@gmail.com"
+  number: "+62-813-3148-7753",
+  email_address: "briliantfikri@gmail.com"
 };
 
 // Twitter Section

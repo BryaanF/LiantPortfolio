@@ -7,9 +7,9 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
-  blogSection,
-  talkSection,
+  // openSource,
+  // blogSection,
+  // talkSection,
   achievementSection,
   resumeSection
 } from "../../portfolio";
