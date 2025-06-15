@@ -2,7 +2,7 @@
   "data": {
     "user": {
       "name": "Liant",
-      "bio": "Web and Mobile Developer",
+      "bio": "Full-Stack Website and Mobile App Developer, UI/UX Designer, Project Management, Leader, Problem Solver.",
       "avatarUrl": "https://avatars.githubusercontent.com/u/42240127?u=e702d11dced78b7b04142d7bb9430ec60abf1019&v=4",
       "location": "Surabaya",
       "pinnedItems": {
@@ -10,38 +10,14 @@
         "edges": [
           {
             "node": {
-              "name": "SewaLapangan",
-              "description": "Laravel based project to rent a badminton, futsal, etc field.",
+              "name": "hris-igi",
+              "description": "A human resource information system website application project for PT. Indo Global Impex",
               "forkCount": 0,
               "stargazers": {"totalCount": 0},
-              "url": "https://github.com/BryaanF/SewaLapangan",
-              "id": "R_kgDOJ9uUmA",
-              "diskUsage": 542,
-              "primaryLanguage": {"name": "PHP", "color": "#4F5D95"}
-            }
-          },
-          {
-            "node": {
-              "name": "Daily-Task",
-              "description": "The local software that help you organize your daily task better with good experience!",
-              "forkCount": 0,
-              "stargazers": {"totalCount": 0},
-              "url": "https://github.com/BryaanF/Daily-Task",
-              "id": "MDEwOlJlcG9zaXRvcnkyNDA0OTg5MTU=",
-              "diskUsage": 620,
-              "primaryLanguage": {"name": "JavaScript", "color": "#f1e05a"}
-            }
-          },
-          {
-            "node": {
-              "name": "My-Media-Player",
-              "description": "Media player made with PYQT5 with metadata editor.",
-              "forkCount": 0,
-              "stargazers": {"totalCount": 0},
-              "url": "https://github.com/BryaanF/My-Media-Player",
-              "id": "MDEwOlJlcG9zaXRvcnkzODUyMzQ3MjA=",
-              "diskUsage": 16871,
-              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+              "url": "https://github.com/BryaanF/hris-igi",
+              "id": "R_kgDOLxPNmA",
+              "diskUsage": 5000,
+              "primaryLanguage": {"name": "Blade", "color": "#f7523f"}
             }
           },
           {
@@ -58,14 +34,38 @@
           },
           {
             "node": {
-              "name": "hris-igi",
-              "description": "A human resource information system website application project for PT. Indo Global Impex",
+              "name": "NomadsByLiant",
+              "description": "Nomads Travel Apps (could be updated more)",
               "forkCount": 0,
               "stargazers": {"totalCount": 0},
-              "url": "https://github.com/BryaanF/hris-igi",
-              "id": "R_kgDOLxPNmA",
-              "diskUsage": 4994,
-              "primaryLanguage": {"name": "Blade", "color": "#f7523f"}
+              "url": "https://github.com/BryaanF/NomadsByLiant",
+              "id": "R_kgDONLFluw",
+              "diskUsage": 14110,
+              "primaryLanguage": {"name": "HTML", "color": "#e34c26"}
+            }
+          },
+          {
+            "node": {
+              "name": "My-Media-Player",
+              "description": "Media player made with PYQT5 with metadata editor.",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/BryaanF/My-Media-Player",
+              "id": "MDEwOlJlcG9zaXRvcnkzODUyMzQ3MjA=",
+              "diskUsage": 16871,
+              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+            }
+          },
+          {
+            "node": {
+              "name": "Daily-Task",
+              "description": "The local software that help you organize your daily task better with good experience!",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/BryaanF/Daily-Task",
+              "id": "MDEwOlJlcG9zaXRvcnkyNDA0OTg5MTU=",
+              "diskUsage": 620,
+              "primaryLanguage": {"name": "JavaScript", "color": "#f1e05a"}
             }
           }
         ]

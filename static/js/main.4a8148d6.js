@@ -1,4 +1,4 @@
-/*! For license information please see main.8e65bafa.js.LICENSE.txt */
+/*! For license information please see main.4a8148d6.js.LICENSE.txt */
 (() => {
   var __webpack_modules__ = {
       3401: (t, e, i) => {
@@ -143,21 +143,21 @@
           dF: () => m,
           fU: () => p,
           y8: () => y,
-          r_: () => v,
-          Vi: () => h,
+          r_: () => k,
+          Vi: () => u,
           O$: () => s,
           bm: () => o,
           zq: () => A,
-          oD: () => f,
+          oD: () => d,
           UM: () => g,
-          L$: () => k,
+          L$: () => v,
           KN: () => c,
           ze: () => l,
           Qw: () => n,
           u3: () => x,
-          p7: () => u,
+          p7: () => h,
           _7: () => b,
-          Ny: () => d
+          Ny: () => f
         });
         var r = i(2439),
           a = i.n(r);
@@ -173,7 +173,7 @@
             username: "Brilliant Fikri",
             title: "Hello, I'm Liant",
             subTitle: a()(
-              "I am a Full Stack Web and Mobile Application Developer \ud83d\ude80 having an experience of building Web, Mobile, and desktop applications with JavaScript (React.js) / PHP (Laravel) / React Native / Java and some other cool libraries and frameworks."
+              "I am a Full Stack Application Developer \ud83d\ude80 having an experience of building Web, Mobile, and desktop applications with JavaScript (React.js) / PHP (Laravel) / React Native / Java and some other cool libraries and frameworks."
             ),
             resumeLink:
               "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link",
@@ -189,12 +189,12 @@
             display: !0
           },
           c = {
-            title: "What I do \ud83d\udcbb",
+            title: "What I do as a professional \ud83d\udcbb",
             subTitle:
-              "I do full stack development of web and mobile applications",
+              "I do UI / UX and Full - Stack Applications Development to help companies and individuals to achieve their goals!",
             skills: [
               a()(
-                "\u26a1 Develop responsive and user friendly web and mobile applications match your business needs"
+                "\u26a1 Develop responsive and user friendly applications match your needs"
               ),
               a()(
                 "\u26a1 Integration of third party services like hosting / API integration / etc"
@@ -204,28 +204,43 @@
               )
             ],
             softwareSkills: [
-              {skillName: "html 5", fontAwesomeClassname: "fab fa-html5"},
-              {skillName: "css 3", fontAwesomeClassname: "fab fa-css3-alt"},
-              {skillName: "sass", fontAwesomeClassname: "fab fa-sass"},
-              {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+              {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
+              {skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt"},
+              {skillName: "SASS", fontAwesomeClassname: "fab fa-sass"},
+              {
+                skillName: "JavaScript (Express, React)",
+                fontAwesomeClassname: "fab fa-js"
+              },
               {skillName: "PHP", fontAwesomeClassname: "fab fa-php"},
               {skillName: "Laravel", fontAwesomeClassname: "fab fa-laravel"},
               {skillName: "Java", fontAwesomeClassname: "fab fa-java"},
-              {skillName: "nodejs", fontAwesomeClassname: "fab fa-node"},
-              {skillName: "npm", fontAwesomeClassname: "fab fa-npm"},
+              {skillName: "NodeJS", fontAwesomeClassname: "fab fa-node"},
+              {skillName: "NPM", fontAwesomeClassname: "fab fa-npm"},
               {
-                skillName: "sql-database",
+                skillName: "SQL Database",
                 fontAwesomeClassname: "fas fa-database"
               },
-              {skillName: "firebase", fontAwesomeClassname: "fas fa-fire"},
-              {skillName: "python", fontAwesomeClassname: "fab fa-python"},
-              {skillName: "invision", fontAwesomeClassname: "fab fa-invision"},
+              {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+              {skillName: "Invision", fontAwesomeClassname: "fab fa-invision"},
               {skillName: "Figma", fontAwesomeClassname: "fab fa-figma"}
             ],
             display: !0
           },
           h = {
+            viewSkillBars: !0,
+            experience: [
+              {
+                Stack: "Website Development (Full - Stack)",
+                progressPercentage: "90%"
+              },
+              {Stack: "UI / UX Design", progressPercentage: "60%"},
+              {Stack: "Android Development", progressPercentage: "30%"}
+            ],
+            displayCodersrank: !1
+          },
+          u = {
             display: !0,
+            title: a()("Education \ud83c\udf93"),
             schools: [
               {
                 schoolName: "Telkom Schools Malang",
@@ -253,17 +268,9 @@
               }
             ]
           },
-          u = {
-            viewSkillBars: !0,
-            experience: [
-              {Stack: "Website Development", progressPercentage: "90%"},
-              {Stack: "Android Development", progressPercentage: "70%"},
-              {Stack: "UI / UX Design", progressPercentage: "50%"}
-            ],
-            displayCodersrank: !1
-          },
-          d = {
+          f = {
             display: !0,
+            title: a()("Work Experience \ud83d\udcbc"),
             subtitle:
               "This is my work experience on some great companies / instances!",
             experience: [
@@ -286,17 +293,17 @@
                 desc: "I do internship for kejaksaan tinggi jawa timur to create a website (laravel based with jquery to handle the maping) maping availability of personnel in each position in the organization on many location of Kejati office (province level) and kejari office (city or district level)."
               },
               {
-                role: "Lab Assistant ",
-                company: "Tel U Surabaya",
-                companylogo: i(9776),
-                date: "Janary 2024 \u2013 June 2024",
-                desc: "I work part time as lab assistant to teaching about framework programming and basic computer network subjet. I learn many from this experience how to communicate the material to the student and collaborate with other lab assitant to ensure quality of teaching."
+                role: "Backend Developer",
+                company: "Peduly",
+                companylogo: i(855),
+                date: "March 2025 \u2013 June 2025",
+                desc: "I work as backend developer for peduly to create a website that can handle message broadcaster which is whatsapp and email to send message effectively for the users. In this project I use Laravel and ExpressJs to create the backend API and use MySQL as the database. I contribute pretty much of my time to maintain the robust documentation of the API so that the frontend developer can use it easily and the project can be maintained well for the next developer to come."
               }
             ]
           },
-          f = {showGithubProfile: "false", display: !1},
+          d = {showGithubProfile: "false", display: !1},
           p = {
-            title: "Big Projects \ud83d\ude80",
+            title: a()("Big Projects \ud83d\ude80"),
             subtitle:
               "SOME COMPANIES THAT I HELPED TO BUILD THEIR COOL PROJECTS!",
             projects: [
@@ -330,7 +337,8 @@
           },
           m = {
             title: a()("Achievements And Certifications \ud83c\udfc6 "),
-            subtitle: "Achievements and Certifications that I have done !",
+            subtitle:
+              "Achievements and Certifications that I have acquired during this recent time !",
             achievementsCards: [
               {
                 title: "Figma UI UX Design Essentials",
@@ -417,7 +425,7 @@
               {
                 title: "Build Actions For Google Assistant",
                 subtitle: "Codelab at GDG DevFest Karachi 2019",
-                slides_url: "https://bit.ly/saadpasta-slides",
+                slides_url: "https://bit.ly/liant",
                 event_url: "https://www.facebook.com/events/2339906106275053/"
               }
             ],
@@ -431,17 +439,17 @@
             ],
             display: !1
           },
-          k = {
+          v = {
             title: "Resume",
             subtitle: "Feel free to download my resume",
             display: !0
           },
-          v = {
-            title: a()("\ud83d\udcde My Contact Information"),
+          k = {
+            title: a()("\ud83d\udcde  Contact Information  \u2709\ufe0f"),
             subtitle:
               "Discuss a project or just want to say hi? My Inbox is open for all!",
-            number: "\ud83d\udcf1 +62-813-3148-7753",
-            email_address: " \ud83d\udce7 briliantfikri@gmail.com"
+            number: "+62-813-3148-7753",
+            email_address: "briliantfikri@gmail.com"
           },
           b = {userName: "twitter", display: !1},
           A = !0;
@@ -558,7 +566,7 @@
             }
             return i;
           }
-          function d(t) {
+          function f(t) {
             for (var e = 1; e < arguments.length; e++) {
               var i = null != arguments[e] ? arguments[e] : {};
               e % 2
@@ -580,7 +588,7 @@
             }
             return t;
           }
-          function f(t, e) {
+          function d(t, e) {
             if (null == t) return {};
             var i,
               r,
@@ -638,7 +646,7 @@
               );
             }
           }
-          var k = [
+          var v = [
               "animationData",
               "loop",
               "autoplay",
@@ -659,7 +667,7 @@
               "assetsPath",
               "rendererSettings"
             ],
-            v = function (t, e) {
+            k = function (t, e) {
               var r = t.animationData,
                 o = t.loop,
                 s = t.autoplay,
@@ -671,68 +679,68 @@
                 y = t.onConfigReady,
                 x = t.onDataReady,
                 g = t.onDataFailed,
-                v = t.onLoadedImages,
+                k = t.onLoadedImages,
                 b = t.onDOMLoaded,
                 A = t.onDestroy;
               t.lottieRef, t.renderer, t.name, t.assetsPath, t.rendererSettings;
-              var E = f(t, k),
+              var E = d(t, v),
                 w = m(i.useState(!1), 2),
                 S = w[0],
-                D = w[1],
-                P = i.useRef(),
+                P = w[1],
+                D = i.useRef(),
                 C = i.useRef(null),
                 _ = function () {
                   var t;
-                  null === (t = P.current) || void 0 === t || t.play();
+                  null === (t = D.current) || void 0 === t || t.play();
                 },
                 B = function () {
                   var t;
-                  null === (t = P.current) || void 0 === t || t.stop();
+                  null === (t = D.current) || void 0 === t || t.stop();
                 },
                 M = function () {
                   var t;
-                  null === (t = P.current) || void 0 === t || t.pause();
+                  null === (t = D.current) || void 0 === t || t.pause();
                 },
                 T = function (t) {
                   var e;
-                  null === (e = P.current) || void 0 === e || e.setSpeed(t);
+                  null === (e = D.current) || void 0 === e || e.setSpeed(t);
                 },
                 F = function (t, e) {
                   var i;
-                  null === (i = P.current) ||
+                  null === (i = D.current) ||
                     void 0 === i ||
                     i.goToAndPlay(t, e);
                 },
                 V = function (t, e) {
                   var i;
-                  null === (i = P.current) ||
+                  null === (i = D.current) ||
                     void 0 === i ||
                     i.goToAndStop(t, e);
                 },
                 G = function (t) {
                   var e;
-                  null === (e = P.current) || void 0 === e || e.setDirection(t);
+                  null === (e = D.current) || void 0 === e || e.setDirection(t);
                 },
                 I = function (t, e) {
                   var i;
-                  null === (i = P.current) ||
+                  null === (i = D.current) ||
                     void 0 === i ||
                     i.playSegments(t, e);
                 },
                 L = function (t) {
                   var e;
-                  null === (e = P.current) || void 0 === e || e.setSubframe(t);
+                  null === (e = D.current) || void 0 === e || e.setSubframe(t);
                 },
                 O = function (t) {
                   var e;
-                  return null === (e = P.current) || void 0 === e
+                  return null === (e = D.current) || void 0 === e
                     ? void 0
                     : e.getDuration(t);
                 },
                 N = function () {
                   var t;
-                  null === (t = P.current) || void 0 === t || t.destroy(),
-                    (P.current = void 0);
+                  null === (t = D.current) || void 0 === t || t.destroy(),
+                    (D.current = void 0);
                 },
                 j = function () {
                   var e,
@@ -741,15 +749,15 @@
                         ? arguments[0]
                         : {};
                   if (C.current) {
-                    null === (e = P.current) || void 0 === e || e.destroy();
-                    var r = d(d(d({}, t), i), {}, {container: C.current});
+                    null === (e = D.current) || void 0 === e || e.destroy();
+                    var r = f(f(f({}, t), i), {}, {container: C.current});
                     return (
-                      (P.current = a.default.loadAnimation(r)),
-                      D(!!P.current),
+                      (D.current = a.default.loadAnimation(r)),
+                      P(!!D.current),
                       function () {
                         var t;
-                        null === (t = P.current) || void 0 === t || t.destroy(),
-                          (P.current = void 0);
+                        null === (t = D.current) || void 0 === t || t.destroy(),
+                          (D.current = void 0);
                       }
                     );
                   }
@@ -766,21 +774,21 @@
                 ),
                 i.useEffect(
                   function () {
-                    P.current && (P.current.autoplay = !!s);
+                    D.current && (D.current.autoplay = !!s);
                   },
                   [s]
                 ),
                 i.useEffect(
                   function () {
-                    P.current &&
+                    D.current &&
                       (l
                         ? Array.isArray(l) &&
                           l.length &&
-                          ((P.current.currentRawFrame < l[0] ||
-                            P.current.currentRawFrame > l[1]) &&
-                            (P.current.currentRawFrame = l[0]),
-                          P.current.setSegment(l[0], l[1]))
-                        : P.current.resetSegments(!0));
+                          ((D.current.currentRawFrame < l[0] ||
+                            D.current.currentRawFrame > l[1]) &&
+                            (D.current.currentRawFrame = l[0]),
+                          D.current.setSegment(l[0], l[1]))
+                        : D.current.resetSegments(!0));
                   },
                   [l]
                 ),
@@ -794,7 +802,7 @@
                       {name: "config_ready", handler: y},
                       {name: "data_ready", handler: x},
                       {name: "data_failed", handler: g},
-                      {name: "loaded_images", handler: v},
+                      {name: "loaded_images", handler: k},
                       {name: "DOMLoaded", handler: b},
                       {name: "destroy", handler: A}
                     ].filter(function (t) {
@@ -804,12 +812,12 @@
                       var e = t.map(function (t) {
                         var e;
                         return (
-                          null === (e = P.current) ||
+                          null === (e = D.current) ||
                             void 0 === e ||
                             e.addEventListener(t.name, t.handler),
                           function () {
                             var e;
-                            null === (e = P.current) ||
+                            null === (e = D.current) ||
                               void 0 === e ||
                               e.removeEventListener(t.name, t.handler);
                           }
@@ -822,12 +830,12 @@
                       };
                     }
                   },
-                  [c, h, u, p, y, x, g, v, b, A]
+                  [c, h, u, p, y, x, g, k, b, A]
                 ),
                 {
                   View: n.default.createElement(
                     "div",
-                    d({style: e, ref: C}, E)
+                    f({style: e, ref: C}, E)
                   ),
                   play: _,
                   stop: B,
@@ -842,7 +850,7 @@
                   destroy: N,
                   animationContainerRef: C,
                   animationLoaded: S,
-                  animationItem: P.current
+                  animationItem: D.current
                 }
               );
             };
@@ -1004,29 +1012,29 @@
               );
             },
             S = ["style", "interactivity"],
-            D = function (t) {
+            P = function (t) {
               var e,
                 r,
                 a,
                 n = t.style,
                 o = t.interactivity,
-                s = f(t, S),
-                l = v(s, n),
+                s = d(t, S),
+                l = k(s, n),
                 c = l.View,
                 h = l.play,
                 u = l.stop,
-                d = l.pause,
+                f = l.pause,
                 p = l.setSpeed,
                 m = l.goToAndStop,
                 y = l.goToAndPlay,
                 x = l.setDirection,
                 g = l.playSegments,
-                k = l.setSubframe,
+                v = l.setSubframe,
                 b = l.getDuration,
                 A = l.destroy,
                 E = l.animationContainerRef,
-                D = l.animationLoaded,
-                P = l.animationItem;
+                P = l.animationLoaded,
+                D = l.animationItem;
               return (
                 i.useEffect(
                   function () {
@@ -1034,18 +1042,18 @@
                       (t.lottieRef.current = {
                         play: h,
                         stop: u,
-                        pause: d,
+                        pause: f,
                         setSpeed: p,
                         goToAndPlay: y,
                         goToAndStop: m,
                         setDirection: x,
                         playSegments: g,
-                        setSubframe: k,
+                        setSubframe: v,
                         getDuration: b,
                         destroy: A,
                         animationContainerRef: E,
-                        animationLoaded: D,
-                        animationItem: P
+                        animationLoaded: P,
+                        animationItem: D
                       });
                   },
                   [
@@ -1059,18 +1067,18 @@
                     View: c,
                     play: h,
                     stop: u,
-                    pause: d,
+                    pause: f,
                     setSpeed: p,
                     goToAndStop: m,
                     goToAndPlay: y,
                     setDirection: x,
                     playSegments: g,
-                    setSubframe: k,
+                    setSubframe: v,
                     getDuration: b,
                     destroy: A,
                     animationContainerRef: E,
-                    animationLoaded: D,
-                    animationItem: P
+                    animationLoaded: P,
+                    animationItem: D
                   },
                   actions:
                     null !==
@@ -1093,8 +1101,8 @@
               return a.default;
             }
           }),
-            (t.default = D),
-            (t.useLottie = v),
+            (t.default = P),
+            (t.useLottie = k),
             (t.useLottieInteractivity = w),
             Object.defineProperty(t, "__esModule", {value: !0});
         })(e, i(1302), i(5043));
@@ -1584,9 +1592,9 @@
                                 l,
                                 c,
                                 u,
-                                d,
-                                f = a.length;
-                              for (s = 0; s < f; s += 1)
+                                f,
+                                d = a.length;
+                              for (s = 0; s < d; s += 1)
                                 if ("ks" in (o = a[s]) && !o.completed) {
                                   if (((o.completed = !0), o.hasMask)) {
                                     var p = o.masksProperties;
@@ -1594,8 +1602,8 @@
                                       if (p[l].pt.k.i) r(p[l].pt.k);
                                       else
                                         for (
-                                          d = p[l].pt.k.length, u = 0;
-                                          u < d;
+                                          f = p[l].pt.k.length, u = 0;
+                                          u < f;
                                           u += 1
                                         )
                                           p[l].pt.k[u].s &&
@@ -3029,17 +3037,17 @@
                     e.push({elem: i, animation: t}),
                     (r += 1);
                 }
-                function d(t) {
+                function f(t) {
                   var s,
                     l = t - i;
                   for (s = 0; s < r; s += 1) e[s].animation.advanceTime(l);
-                  (i = t), a && !o ? window.requestAnimationFrame(d) : (n = !0);
+                  (i = t), a && !o ? window.requestAnimationFrame(f) : (n = !0);
                 }
-                function f(t) {
-                  (i = t), window.requestAnimationFrame(d);
+                function d(t) {
+                  (i = t), window.requestAnimationFrame(f);
                 }
                 function p() {
-                  !o && a && n && (window.requestAnimationFrame(f), (n = !1));
+                  !o && a && n && (window.requestAnimationFrame(d), (n = !1));
                 }
                 return (
                   (t.registerAnimation = l),
@@ -3226,8 +3234,8 @@
                       )
                         o += r;
                       var u = o + ((t - n[--s]) / (n[s + 1] - n[s])) * r,
-                        d = c(u, e, a);
-                      return d >= 0.001
+                        f = c(u, e, a);
+                      return f >= 0.001
                         ? (function (t, e, i, r) {
                             for (var a = 0; a < 4; ++a) {
                               var n = c(e, i, r);
@@ -3236,7 +3244,7 @@
                             }
                             return e;
                           })(t, u, e, a)
-                        : 0 === d
+                        : 0 === f
                         ? u
                         : (function (t, e, i, r, a) {
                             var n,
@@ -3316,8 +3324,8 @@
                   c,
                   h = getDefaultCurveSegments(),
                   u = 0,
-                  d = [],
                   f = [],
+                  d = [],
                   p = bezierLengthPool.newElement();
                 for (o = i.length, a = 0; a < h; a += 1) {
                   for (l = a / (h - 1), c = 0, n = 0; n < o; n += 1)
@@ -3326,9 +3334,9 @@
                       3 * bmPow(1 - l, 2) * l * i[n] +
                       3 * (1 - l) * bmPow(l, 2) * r[n] +
                       bmPow(l, 3) * e[n]),
-                      (d[n] = s),
-                      null !== f[n] && (c += bmPow(d[n] - f[n], 2)),
-                      (f[n] = d[n]);
+                      (f[n] = s),
+                      null !== d[n] && (c += bmPow(f[n] - d[n], 2)),
+                      (d[n] = f[n]);
                   c && (u += c = bmSqrt(c)),
                     (p.percents[a] = l),
                     (p.lengths[a] = u);
@@ -3365,8 +3373,8 @@
                     var c,
                       h,
                       u,
-                      d,
                       f,
+                      d,
                       p,
                       m,
                       y = getDefaultCurveSegments(),
@@ -3377,25 +3385,25 @@
                       e(i[0], i[1], n[0], n[1], i[0] + o[0], i[1] + o[1]) &&
                       e(i[0], i[1], n[0], n[1], n[0] + s[0], n[1] + s[1]) &&
                       (y = 2);
-                    var k = new r(y);
+                    var v = new r(y);
                     for (u = o.length, c = 0; c < y; c += 1) {
                       for (
-                        m = createSizedArray(u), f = c / (y - 1), p = 0, h = 0;
+                        m = createSizedArray(u), d = c / (y - 1), p = 0, h = 0;
                         h < u;
                         h += 1
                       )
-                        (d =
-                          bmPow(1 - f, 3) * i[h] +
-                          3 * bmPow(1 - f, 2) * f * (i[h] + o[h]) +
-                          3 * (1 - f) * bmPow(f, 2) * (n[h] + s[h]) +
-                          bmPow(f, 3) * n[h]),
-                          (m[h] = d),
+                        (f =
+                          bmPow(1 - d, 3) * i[h] +
+                          3 * bmPow(1 - d, 2) * d * (i[h] + o[h]) +
+                          3 * (1 - d) * bmPow(d, 2) * (n[h] + s[h]) +
+                          bmPow(d, 3) * n[h]),
+                          (m[h] = f),
                           null !== g && (p += bmPow(m[h] - g[h], 2));
                       (x += p = bmSqrt(p)),
-                        (k.points[c] = new a(p, m)),
+                        (v.points[c] = new a(p, m)),
                         (g = m);
                     }
-                    (k.segmentLength = x), (t[l] = k);
+                    (v.segmentLength = x), (t[l] = v);
                   }
                   return t[l];
                 };
@@ -3448,38 +3456,38 @@
                   n < 0 ? (n = 0) : n > 1 && (n = 1);
                   var h,
                     u = o(n, c),
-                    d = o((l = l > 1 ? 1 : l), c),
-                    f = e.length,
+                    f = o((l = l > 1 ? 1 : l), c),
+                    d = e.length,
                     p = 1 - u,
-                    m = 1 - d,
+                    m = 1 - f,
                     y = p * p * p,
                     x = u * p * p * 3,
                     g = u * u * p * 3,
-                    k = u * u * u,
-                    v = p * p * m,
-                    b = u * p * m + p * u * m + p * p * d,
-                    A = u * u * m + p * u * d + u * p * d,
-                    E = u * u * d,
+                    v = u * u * u,
+                    k = p * p * m,
+                    b = u * p * m + p * u * m + p * p * f,
+                    A = u * u * m + p * u * f + u * p * f,
+                    E = u * u * f,
                     w = p * m * m,
-                    S = u * m * m + p * d * m + p * m * d,
-                    D = u * d * m + p * d * d + u * m * d,
-                    P = u * d * d,
+                    S = u * m * m + p * f * m + p * m * f,
+                    P = u * f * m + p * f * f + u * m * f,
+                    D = u * f * f,
                     C = m * m * m,
-                    _ = d * m * m + m * d * m + m * m * d,
-                    B = d * d * m + m * d * d + d * m * d,
-                    M = d * d * d;
-                  for (h = 0; h < f; h += 1)
+                    _ = f * m * m + m * f * m + m * m * f,
+                    B = f * f * m + m * f * f + f * m * f,
+                    M = f * f * f;
+                  for (h = 0; h < d; h += 1)
                     (s[4 * h] =
                       t.round(
-                        1e3 * (y * e[h] + x * r[h] + g * a[h] + k * i[h])
+                        1e3 * (y * e[h] + x * r[h] + g * a[h] + v * i[h])
                       ) / 1e3),
                       (s[4 * h + 1] =
                         t.round(
-                          1e3 * (v * e[h] + b * r[h] + A * a[h] + E * i[h])
+                          1e3 * (k * e[h] + b * r[h] + A * a[h] + E * i[h])
                         ) / 1e3),
                       (s[4 * h + 2] =
                         t.round(
-                          1e3 * (w * e[h] + S * r[h] + D * a[h] + P * i[h])
+                          1e3 * (w * e[h] + S * r[h] + P * a[h] + D * i[h])
                         ) / 1e3),
                       (s[4 * h + 3] =
                         t.round(
@@ -3512,10 +3520,10 @@
                 pointOnLine3D: function (i, r, a, n, o, s, l, c, h) {
                   if (0 === a && 0 === s && 0 === h) return e(i, r, n, o, l, c);
                   var u,
-                    d = t.sqrt(
+                    f = t.sqrt(
                       t.pow(n - i, 2) + t.pow(o - r, 2) + t.pow(s - a, 2)
                     ),
-                    f = t.sqrt(
+                    d = t.sqrt(
                       t.pow(l - i, 2) + t.pow(c - r, 2) + t.pow(h - a, 2)
                     ),
                     p = t.sqrt(
@@ -3523,13 +3531,13 @@
                     );
                   return (
                     (u =
-                      d > f
-                        ? d > p
-                          ? d - f - p
-                          : p - f - d
-                        : p > f
-                        ? p - f - d
-                        : f - d - p) > -1e-4 && u < 1e-4
+                      f > d
+                        ? f > p
+                          ? f - d - p
+                          : p - d - f
+                        : p > d
+                        ? p - d - f
+                        : d - f - p) > -1e-4 && u < 1e-4
                   );
                 }
               };
@@ -3551,9 +3559,9 @@
                   c,
                   h,
                   u,
-                  d,
-                  f = e.lastIndex,
-                  p = f,
+                  f,
+                  d = e.lastIndex,
+                  p = d,
                   m = this.keyframes.length - 1,
                   y = !0;
                 y;
@@ -3564,19 +3572,19 @@
                   (n = this.keyframes[p + 1]),
                   p === m - 1 && t >= n.t - r)
                 ) {
-                  a.h && (a = n), (f = 0);
+                  a.h && (a = n), (d = 0);
                   break;
                 }
                 if (n.t - r > t) {
-                  f = p;
+                  d = p;
                   break;
                 }
-                p < m - 1 ? (p += 1) : ((f = 0), (y = !1));
+                p < m - 1 ? (p += 1) : ((d = 0), (y = !1));
               }
               o = this.keyframesMetadata[p] || {};
               var x,
                 g = n.t - r,
-                k = a.t - r;
+                v = a.t - r;
               if (a.to) {
                 o.bezierData ||
                   (o.bezierData = bez.buildBezierData(
@@ -3585,25 +3593,25 @@
                     a.to,
                     a.ti
                   ));
-                var v = o.bezierData;
-                if (t >= g || t < k) {
-                  var b = t >= g ? v.points.length - 1 : 0;
-                  for (l = v.points[b].point.length, s = 0; s < l; s += 1)
-                    i[s] = v.points[b].point[s];
+                var k = o.bezierData;
+                if (t >= g || t < v) {
+                  var b = t >= g ? k.points.length - 1 : 0;
+                  for (l = k.points[b].point.length, s = 0; s < l; s += 1)
+                    i[s] = k.points[b].point[s];
                 } else {
                   o.__fnct
-                    ? (d = o.__fnct)
-                    : ((d = BezierFactory.getBezierEasing(
+                    ? (f = o.__fnct)
+                    : ((f = BezierFactory.getBezierEasing(
                         a.o.x,
                         a.o.y,
                         a.i.x,
                         a.i.y,
                         a.n
                       ).get),
-                      (o.__fnct = d)),
-                    (c = d((t - k) / (g - k)));
+                      (o.__fnct = f)),
+                    (c = f((t - v) / (g - v)));
                   var A,
-                    E = v.segmentLength * c,
+                    E = k.segmentLength * c,
                     w =
                       e.lastFrame < t && e._lastKeyframeIndex === p
                         ? e._lastAddedLength
@@ -3614,50 +3622,50 @@
                         ? e._lastPoint
                         : 0,
                       y = !0,
-                      h = v.points.length;
+                      h = k.points.length;
                     y;
 
                   ) {
                     if (
-                      ((w += v.points[u].partialLength),
-                      0 === E || 0 === c || u === v.points.length - 1)
+                      ((w += k.points[u].partialLength),
+                      0 === E || 0 === c || u === k.points.length - 1)
                     ) {
-                      for (l = v.points[u].point.length, s = 0; s < l; s += 1)
-                        i[s] = v.points[u].point[s];
+                      for (l = k.points[u].point.length, s = 0; s < l; s += 1)
+                        i[s] = k.points[u].point[s];
                       break;
                     }
-                    if (E >= w && E < w + v.points[u + 1].partialLength) {
+                    if (E >= w && E < w + k.points[u + 1].partialLength) {
                       for (
-                        A = (E - w) / v.points[u + 1].partialLength,
-                          l = v.points[u].point.length,
+                        A = (E - w) / k.points[u + 1].partialLength,
+                          l = k.points[u].point.length,
                           s = 0;
                         s < l;
                         s += 1
                       )
                         i[s] =
-                          v.points[u].point[s] +
-                          (v.points[u + 1].point[s] - v.points[u].point[s]) * A;
+                          k.points[u].point[s] +
+                          (k.points[u + 1].point[s] - k.points[u].point[s]) * A;
                       break;
                     }
                     u < h - 1 ? (u += 1) : (y = !1);
                   }
                   (e._lastPoint = u),
-                    (e._lastAddedLength = w - v.points[u].partialLength),
+                    (e._lastAddedLength = w - k.points[u].partialLength),
                     (e._lastKeyframeIndex = p);
                 }
               } else {
-                var S, D, P, C, _;
+                var S, P, D, C, _;
                 if (((m = a.s.length), (x = n.s || a.e), this.sh && 1 !== a.h))
                   t >= g
                     ? ((i[0] = x[0]), (i[1] = x[1]), (i[2] = x[2]))
-                    : t <= k
+                    : t <= v
                     ? ((i[0] = a.s[0]), (i[1] = a.s[1]), (i[2] = a.s[2]))
                     : quaternionToEuler(
                         i,
                         slerp(
                           createQuaternion(a.s),
                           createQuaternion(x),
-                          (t - k) / (g - k)
+                          (t - v) / (g - v)
                         )
                       );
                 else
@@ -3665,48 +3673,48 @@
                     1 !== a.h &&
                       (t >= g
                         ? (c = 1)
-                        : t < k
+                        : t < v
                         ? (c = 0)
                         : (a.o.x.constructor === Array
                             ? (o.__fnct || (o.__fnct = []),
                               o.__fnct[p]
-                                ? (d = o.__fnct[p])
+                                ? (f = o.__fnct[p])
                                 : ((S =
                                     void 0 === a.o.x[p] ? a.o.x[0] : a.o.x[p]),
-                                  (D =
-                                    void 0 === a.o.y[p] ? a.o.y[0] : a.o.y[p]),
                                   (P =
+                                    void 0 === a.o.y[p] ? a.o.y[0] : a.o.y[p]),
+                                  (D =
                                     void 0 === a.i.x[p] ? a.i.x[0] : a.i.x[p]),
                                   (C =
                                     void 0 === a.i.y[p] ? a.i.y[0] : a.i.y[p]),
-                                  (d = BezierFactory.getBezierEasing(
+                                  (f = BezierFactory.getBezierEasing(
                                     S,
-                                    D,
                                     P,
+                                    D,
                                     C
                                   ).get),
-                                  (o.__fnct[p] = d)))
+                                  (o.__fnct[p] = f)))
                             : o.__fnct
-                            ? (d = o.__fnct)
+                            ? (f = o.__fnct)
                             : ((S = a.o.x),
-                              (D = a.o.y),
-                              (P = a.i.x),
+                              (P = a.o.y),
+                              (D = a.i.x),
                               (C = a.i.y),
-                              (d = BezierFactory.getBezierEasing(
+                              (f = BezierFactory.getBezierEasing(
                                 S,
-                                D,
                                 P,
+                                D,
                                 C
                               ).get),
-                              (a.keyframeMetadata = d)),
-                          (c = d((t - k) / (g - k))))),
+                              (a.keyframeMetadata = f)),
+                          (c = f((t - v) / (g - v))))),
                       (x = n.s || a.e),
                       (_ = 1 === a.h ? a.s[p] : a.s[p] + (x[p] - a.s[p]) * c),
                       "multidimensional" === this.propType
                         ? (i[p] = _)
                         : (i = _);
               }
-              return (e.lastIndex = f), i;
+              return (e.lastIndex = d), i;
             }
             function slerp(t, e, i) {
               var r,
@@ -3718,24 +3726,24 @@
                 c = t[0],
                 h = t[1],
                 u = t[2],
-                d = t[3],
-                f = e[0],
+                f = t[3],
+                d = e[0],
                 p = e[1],
                 m = e[2],
                 y = e[3];
               return (
-                (a = c * f + h * p + u * m + d * y) < 0 &&
-                  ((a = -a), (f = -f), (p = -p), (m = -m), (y = -y)),
+                (a = c * d + h * p + u * m + f * y) < 0 &&
+                  ((a = -a), (d = -d), (p = -p), (m = -m), (y = -y)),
                 1 - a > 1e-6
                   ? ((r = Math.acos(a)),
                     (n = Math.sin(r)),
                     (o = Math.sin((1 - i) * r) / n),
                     (s = Math.sin(i * r) / n))
                   : ((o = 1 - i), (s = i)),
-                (l[0] = o * c + s * f),
+                (l[0] = o * c + s * d),
                 (l[1] = o * h + s * p),
                 (l[2] = o * u + s * m),
-                (l[3] = o * d + s * y),
+                (l[3] = o * f + s * y),
                 l
               );
             }
@@ -4246,42 +4254,42 @@
                     c,
                     h,
                     u,
-                    d = i.lastIndex,
-                    f = this.keyframes;
-                  if (t < f[0].t - this.offsetTime)
-                    (r = f[0].s[0]), (n = !0), (d = 0);
-                  else if (t >= f[f.length - 1].t - this.offsetTime)
-                    (r = f[f.length - 1].s
-                      ? f[f.length - 1].s[0]
-                      : f[f.length - 2].e[0]),
+                    f = i.lastIndex,
+                    d = this.keyframes;
+                  if (t < d[0].t - this.offsetTime)
+                    (r = d[0].s[0]), (n = !0), (f = 0);
+                  else if (t >= d[d.length - 1].t - this.offsetTime)
+                    (r = d[d.length - 1].s
+                      ? d[d.length - 1].s[0]
+                      : d[d.length - 2].e[0]),
                       (n = !0);
                   else {
                     for (
-                      var p, m, y, x = d, g = f.length - 1, k = !0;
-                      k &&
-                      ((p = f[x]), !((m = f[x + 1]).t - this.offsetTime > t));
+                      var p, m, y, x = f, g = d.length - 1, v = !0;
+                      v &&
+                      ((p = d[x]), !((m = d[x + 1]).t - this.offsetTime > t));
 
                     )
-                      x < g - 1 ? (x += 1) : (k = !1);
+                      x < g - 1 ? (x += 1) : (v = !1);
                     if (
                       ((y = this.keyframesMetadata[x] || {}),
-                      (d = x),
+                      (f = x),
                       !(n = 1 === p.h))
                     ) {
                       if (t >= m.t - this.offsetTime) h = 1;
                       else if (t < p.t - this.offsetTime) h = 0;
                       else {
-                        var v;
+                        var k;
                         y.__fnct
-                          ? (v = y.__fnct)
-                          : ((v = BezierFactory.getBezierEasing(
+                          ? (k = y.__fnct)
+                          : ((k = BezierFactory.getBezierEasing(
                               p.o.x,
                               p.o.y,
                               p.i.x,
                               p.i.y
                             ).get),
-                            (y.__fnct = v)),
-                          (h = v(
+                            (y.__fnct = k)),
+                          (h = k(
                             (t - (p.t - this.offsetTime)) /
                               (m.t - this.offsetTime - (p.t - this.offsetTime))
                           ));
@@ -4291,7 +4299,7 @@
                     r = p.s[0];
                   }
                   for (
-                    l = e._length, c = r.i[0].length, i.lastIndex = d, o = 0;
+                    l = e._length, c = r.i[0].length, i.lastIndex = f, o = 0;
                     o < l;
                     o += 1
                   )
@@ -4579,14 +4587,14 @@
                             c = this.os.v,
                             h = this.is.v,
                             u = (2 * Math.PI * s) / (2 * a),
-                            d = (2 * Math.PI * l) / (2 * a),
-                            f = -Math.PI / 2;
-                          f += this.r.v;
+                            f = (2 * Math.PI * l) / (2 * a),
+                            d = -Math.PI / 2;
+                          d += this.r.v;
                           var p = 3 === this.data.d ? -1 : 1;
                           for (this.v._length = 0, t = 0; t < a; t += 1) {
-                            (i = o ? c : h), (r = o ? u : d);
-                            var m = (e = o ? s : l) * Math.cos(f),
-                              y = e * Math.sin(f),
+                            (i = o ? c : h), (r = o ? u : f);
+                            var m = (e = o ? s : l) * Math.cos(d),
+                              y = e * Math.sin(d),
                               x =
                                 0 === m && 0 === y
                                   ? 0
@@ -4608,7 +4616,7 @@
                                 !0
                               ),
                               (o = !o),
-                              (f += n * p);
+                              (d += n * p);
                           }
                         },
                         convertPolygonToPath: function () {
@@ -4910,7 +4918,7 @@
                       t
                     );
                   })(),
-                  d = {
+                  f = {
                     getShapeProp: function (t, e, i) {
                       var r;
                       return (
@@ -4934,7 +4942,7 @@
                       return l;
                     }
                   };
-                return d;
+                return f;
               })(),
               Matrix = (function () {
                 var t = Math.cos,
@@ -5084,7 +5092,7 @@
                     ._t(1, 0, 0, 0, i(r), 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
                     ._t(n, -o, 0, 0, o, n, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
                 }
-                function d(t, e, i) {
+                function f(t, e, i) {
                   return (
                     i || 0 === i || (i = 1),
                     1 === t && 1 === e && 1 === i
@@ -5092,7 +5100,7 @@
                       : this._t(t, 0, 0, 0, 0, e, 0, 0, 0, 0, i, 0, 0, 0, 0, 1)
                   );
                 }
-                function f(t, e, i, r, a, n, o, s, l, c, h, u, d, f, p, m) {
+                function d(t, e, i, r, a, n, o, s, l, c, h, u, f, d, p, m) {
                   return (
                     (this.props[0] = t),
                     (this.props[1] = e),
@@ -5106,8 +5114,8 @@
                     (this.props[9] = c),
                     (this.props[10] = h),
                     (this.props[11] = u),
-                    (this.props[12] = d),
-                    (this.props[13] = f),
+                    (this.props[12] = f),
+                    (this.props[13] = d),
                     (this.props[14] = p),
                     (this.props[15] = m),
                     this
@@ -5121,7 +5129,7 @@
                       : this
                   );
                 }
-                function m(t, e, i, r, a, n, o, s, l, c, h, u, d, f, p, m) {
+                function m(t, e, i, r, a, n, o, s, l, c, h, u, f, d, p, m) {
                   var y = this.props;
                   if (
                     1 === t &&
@@ -5138,8 +5146,8 @@
                     0 === u
                   )
                     return (
-                      (y[12] = y[12] * t + y[15] * d),
-                      (y[13] = y[13] * n + y[15] * f),
+                      (y[12] = y[12] * t + y[15] * f),
+                      (y[13] = y[13] * n + y[15] * d),
                       (y[14] = y[14] * h + y[15] * p),
                       (y[15] *= m),
                       (this._identityCalculated = !1),
@@ -5147,35 +5155,35 @@
                     );
                   var x = y[0],
                     g = y[1],
-                    k = y[2],
-                    v = y[3],
+                    v = y[2],
+                    k = y[3],
                     b = y[4],
                     A = y[5],
                     E = y[6],
                     w = y[7],
                     S = y[8],
-                    D = y[9],
-                    P = y[10],
+                    P = y[9],
+                    D = y[10],
                     C = y[11],
                     _ = y[12],
                     B = y[13],
                     M = y[14],
                     T = y[15];
                   return (
-                    (y[0] = x * t + g * a + k * l + v * d),
-                    (y[1] = x * e + g * n + k * c + v * f),
-                    (y[2] = x * i + g * o + k * h + v * p),
-                    (y[3] = x * r + g * s + k * u + v * m),
-                    (y[4] = b * t + A * a + E * l + w * d),
-                    (y[5] = b * e + A * n + E * c + w * f),
+                    (y[0] = x * t + g * a + v * l + k * f),
+                    (y[1] = x * e + g * n + v * c + k * d),
+                    (y[2] = x * i + g * o + v * h + k * p),
+                    (y[3] = x * r + g * s + v * u + k * m),
+                    (y[4] = b * t + A * a + E * l + w * f),
+                    (y[5] = b * e + A * n + E * c + w * d),
                     (y[6] = b * i + A * o + E * h + w * p),
                     (y[7] = b * r + A * s + E * u + w * m),
-                    (y[8] = S * t + D * a + P * l + C * d),
-                    (y[9] = S * e + D * n + P * c + C * f),
-                    (y[10] = S * i + D * o + P * h + C * p),
-                    (y[11] = S * r + D * s + P * u + C * m),
-                    (y[12] = _ * t + B * a + M * l + T * d),
-                    (y[13] = _ * e + B * n + M * c + T * f),
+                    (y[8] = S * t + P * a + D * l + C * f),
+                    (y[9] = S * e + P * n + D * c + C * d),
+                    (y[10] = S * i + P * o + D * h + C * p),
+                    (y[11] = S * r + P * s + D * u + C * m),
+                    (y[12] = _ * t + B * a + M * l + T * f),
+                    (y[13] = _ * e + B * n + M * c + T * d),
                     (y[14] = _ * i + B * o + M * h + T * p),
                     (y[15] = _ * r + B * s + M * u + T * m),
                     (this._identityCalculated = !1),
@@ -5235,12 +5243,12 @@
                   }
                   return !0;
                 }
-                function k(t) {
+                function v(t) {
                   var e;
                   for (e = 0; e < 16; e += 1) t.props[e] = this.props[e];
                   return t;
                 }
-                function v(t) {
+                function k(t) {
                   var e;
                   for (e = 0; e < 16; e += 1) this.props[e] = t[e];
                 }
@@ -5315,18 +5323,18 @@
                     s
                   );
                 }
-                function D(t) {
+                function P(t) {
                   return this.getInverseMatrix().applyToPointArray(
                     t[0],
                     t[1],
                     t[2] || 0
                   );
                 }
-                function P(t) {
+                function D(t) {
                   var e,
                     i = t.length,
                     r = [];
-                  for (e = 0; e < i; e += 1) r[e] = D(t[e]);
+                  for (e = 0; e < i; e += 1) r[e] = P(t[e]);
                   return r;
                 }
                 function C(t, e, i) {
@@ -5420,8 +5428,8 @@
                     (this.skew = h),
                     (this.skewFromAxis = u),
                     (this.shear = c),
-                    (this.scale = d),
-                    (this.setTransform = f),
+                    (this.scale = f),
+                    (this.setTransform = d),
                     (this.translate = p),
                     (this.transform = m),
                     (this.multiply = y),
@@ -5434,11 +5442,11 @@
                     (this.applyToPointStringified = B),
                     (this.toCSS = M),
                     (this.to2dCSS = F),
-                    (this.clone = k),
-                    (this.cloneFromProps = v),
+                    (this.clone = v),
+                    (this.cloneFromProps = k),
                     (this.equals = g),
-                    (this.inversePoints = P),
-                    (this.inversePoint = D),
+                    (this.inversePoints = D),
+                    (this.inversePoint = P),
                     (this.getInverseMatrix = S),
                     (this._t = this.transform),
                     (this.isIdentity = x),
@@ -5722,10 +5730,10 @@
                   c,
                   h,
                   u,
-                  d = this.shapes.length,
-                  f = 0;
+                  f = this.shapes.length,
+                  d = 0;
                 if (i === e)
-                  for (a = 0; a < d; a += 1)
+                  for (a = 0; a < f; a += 1)
                     this.shapes[a].localShapeCollection.releaseShapes(),
                       (this.shapes[a].shape._mdf = !0),
                       (this.shapes[a].shape.paths =
@@ -5733,14 +5741,14 @@
                       this._mdf && (this.shapes[a].pathsData.length = 0);
                 else if ((1 === i && 0 === e) || (0 === i && 1 === e)) {
                   if (this._mdf)
-                    for (a = 0; a < d; a += 1)
+                    for (a = 0; a < f; a += 1)
                       (this.shapes[a].pathsData.length = 0),
                         (this.shapes[a].shape._mdf = !0);
                 } else {
                   var p,
                     m,
                     y = [];
-                  for (a = 0; a < d; a += 1)
+                  for (a = 0; a < f; a += 1)
                     if (
                       (p = this.shapes[a]).shape._mdf ||
                       this._mdf ||
@@ -5764,49 +5772,49 @@
                             (u += h.totalLength);
                         (p.totalShapeLength = u), (p.pathsData = c);
                       }
-                      (f += u), (p.shape._mdf = !0);
+                      (d += u), (p.shape._mdf = !0);
                     } else p.shape.paths = p.localShapeCollection;
                   var x,
                     g = e,
-                    k = i,
-                    v = 0;
-                  for (a = d - 1; a >= 0; a -= 1)
+                    v = i,
+                    k = 0;
+                  for (a = f - 1; a >= 0; a -= 1)
                     if ((p = this.shapes[a]).shape._mdf) {
                       for (
                         (m = p.localShapeCollection).releaseShapes(),
-                          2 === this.m && d > 1
+                          2 === this.m && f > 1
                             ? ((x = this.calculateShapeEdges(
                                 e,
                                 i,
                                 p.totalShapeLength,
-                                v,
-                                f
+                                k,
+                                d
                               )),
-                              (v += p.totalShapeLength))
-                            : (x = [[g, k]]),
+                              (k += p.totalShapeLength))
+                            : (x = [[g, v]]),
                           l = x.length,
                           s = 0;
                         s < l;
                         s += 1
                       ) {
                         (g = x[s][0]),
-                          (k = x[s][1]),
+                          (v = x[s][1]),
                           (y.length = 0),
-                          k <= 1
+                          v <= 1
                             ? y.push({
                                 s: p.totalShapeLength * g,
-                                e: p.totalShapeLength * k
+                                e: p.totalShapeLength * v
                               })
                             : g >= 1
                             ? y.push({
                                 s: p.totalShapeLength * (g - 1),
-                                e: p.totalShapeLength * (k - 1)
+                                e: p.totalShapeLength * (v - 1)
                               })
                             : (y.push({
                                 s: p.totalShapeLength * g,
                                 e: p.totalShapeLength
                               }),
-                              y.push({s: 0, e: p.totalShapeLength * (k - 1)}));
+                              y.push({s: 0, e: p.totalShapeLength * (v - 1)}));
                         var b = this.addShapes(p, y[0]);
                         if (y[0].s !== y[0].e) {
                           if (y.length > 1)
@@ -5866,8 +5874,8 @@
                   c,
                   h,
                   u = t.pathsData,
-                  d = t.shape.paths.shapes,
-                  f = t.shape.paths._length,
+                  f = t.shape.paths.shapes,
+                  d = t.shape.paths._length,
                   p = 0,
                   m = [],
                   y = !0;
@@ -5877,13 +5885,13 @@
                     : ((i = shapePool.newElement()), (s = 0), (h = 0)),
                     m.push(i),
                     r = 0;
-                  r < f;
+                  r < d;
                   r += 1
                 ) {
                   for (
                     l = u[r].lengths,
-                      i.c = d[r].c,
-                      n = d[r].c ? l.length : l.length + 1,
+                      i.c = f[r].c,
+                      n = f[r].c ? l.length : l.length + 1,
                       a = 1;
                     a < n;
                     a += 1
@@ -5897,20 +5905,20 @@
                       }
                       e.s <= p && e.e >= p + o.addedLength
                         ? (this.addSegment(
-                            d[r].v[a - 1],
-                            d[r].o[a - 1],
-                            d[r].i[a],
-                            d[r].v[a],
+                            f[r].v[a - 1],
+                            f[r].o[a - 1],
+                            f[r].i[a],
+                            f[r].v[a],
                             i,
                             s,
                             y
                           ),
                           (y = !1))
                         : ((c = bez.getNewSegment(
-                            d[r].v[a - 1],
-                            d[r].v[a],
-                            d[r].o[a - 1],
-                            d[r].i[a],
+                            f[r].v[a - 1],
+                            f[r].v[a],
+                            f[r].o[a - 1],
+                            f[r].i[a],
                             (e.s - p) / o.addedLength,
                             (e.e - p) / o.addedLength,
                             l[a - 1]
@@ -5921,25 +5929,25 @@
                         (p += o.addedLength),
                         (s += 1);
                     }
-                  if (d[r].c && l.length) {
+                  if (f[r].c && l.length) {
                     if (((o = l[a - 1]), p <= e.e)) {
                       var x = l[a - 1].addedLength;
                       e.s <= p && e.e >= p + x
                         ? (this.addSegment(
-                            d[r].v[a - 1],
-                            d[r].o[a - 1],
-                            d[r].i[0],
-                            d[r].v[0],
+                            f[r].v[a - 1],
+                            f[r].o[a - 1],
+                            f[r].i[0],
+                            f[r].v[0],
                             i,
                             s,
                             y
                           ),
                           (y = !1))
                         : ((c = bez.getNewSegment(
-                            d[r].v[a - 1],
-                            d[r].v[0],
-                            d[r].o[a - 1],
-                            d[r].i[0],
+                            f[r].v[a - 1],
+                            f[r].v[0],
+                            f[r].o[a - 1],
+                            f[r].i[0],
                             (e.s - p) / x,
                             (e.e - p) / x,
                             l[a - 1]
@@ -5962,7 +5970,7 @@
                     p > e.e)
                   )
                     break;
-                  r < f - 1 &&
+                  r < d - 1 &&
                     ((i = shapePool.newElement()),
                     (y = !0),
                     m.push(i),
@@ -5997,16 +6005,16 @@
                   c,
                   h,
                   u,
-                  d = shapePool.newElement();
-                for (d.c = t.c, n = 0; n < a; n += 1)
+                  f = shapePool.newElement();
+                for (f.c = t.c, n = 0; n < a; n += 1)
                   (o = t.v[n][0] + (r[0] - t.v[n][0]) * i),
                     (s = t.v[n][1] + (r[1] - t.v[n][1]) * i),
                     (l = t.o[n][0] + (r[0] - t.o[n][0]) * -i),
                     (c = t.o[n][1] + (r[1] - t.o[n][1]) * -i),
                     (h = t.i[n][0] + (r[0] - t.i[n][0]) * -i),
                     (u = t.i[n][1] + (r[1] - t.i[n][1]) * -i),
-                    d.setTripleAt(o, s, l, c, h, u, n);
-                return d;
+                    f.setTripleAt(o, s, l, c, h, u, n);
+                return f;
               }),
               (PuckerAndBloatModifier.prototype.processShapes = function (t) {
                 var e,
@@ -6565,7 +6573,7 @@
                         Math.pow(l[0] - c[0], 2) + Math.pow(l[1] - c[1], 2)
                       )
                     : 0,
-                d =
+                f =
                   2 === n
                     ? Math.sqrt(
                         Math.pow(l[0] - h[0], 2) + Math.pow(l[1] - h[1], 2)
@@ -6577,7 +6585,7 @@
                 s,
                 o,
                 r,
-                d / (2 * (a + 1)),
+                f / (2 * (a + 1)),
                 u / (2 * (a + 1)),
                 n
               );
@@ -6647,23 +6655,23 @@
                   o
                 );
               }
-              var d = lineIntersection(
+              var f = lineIntersection(
                 pointEqual(n, e.points[2]) ? e.points[0] : e.points[2],
                 n,
                 o,
                 pointEqual(o, i.points[1]) ? i.points[3] : i.points[1]
               );
-              return d && pointDistance(d, n) < a
+              return f && pointDistance(f, n) < a
                 ? (t.setTripleAt(
-                    d[0],
-                    d[1],
-                    d[0],
-                    d[1],
-                    d[0],
-                    d[1],
+                    f[0],
+                    f[1],
+                    f[0],
+                    f[1],
+                    f[0],
+                    f[1],
                     t.length()
                   ),
-                  d)
+                  f)
                 : n;
             }
             function getIntersection(t, e) {
@@ -6905,9 +6913,9 @@
                     n += 1;
                   }
                   this._currentCopies = l;
-                  var d = this.o.v,
-                    f = d % 1,
-                    p = d > 0 ? Math.floor(d) : Math.ceil(d),
+                  var f = this.o.v,
+                    d = f % 1,
+                    p = f > 0 ? Math.floor(f) : Math.ceil(f),
                     m = this.pMatrix.props,
                     y = this.rMatrix.props,
                     x = this.sMatrix.props;
@@ -6917,10 +6925,10 @@
                     this.tMatrix.reset(),
                     this.matrix.reset();
                   var g,
-                    k,
-                    v = 0;
-                  if (d > 0) {
-                    for (; v < p; )
+                    v,
+                    k = 0;
+                  if (f > 0) {
+                    for (; k < p; )
                       this.applyTransforms(
                         this.pMatrix,
                         this.rMatrix,
@@ -6929,19 +6937,19 @@
                         1,
                         !1
                       ),
-                        (v += 1);
-                    f &&
+                        (k += 1);
+                    d &&
                       (this.applyTransforms(
                         this.pMatrix,
                         this.rMatrix,
                         this.sMatrix,
                         this.tr,
-                        f,
+                        d,
                         !1
                       ),
-                      (v += f));
-                  } else if (d < 0) {
-                    for (; v > p; )
+                      (k += d));
+                  } else if (f < 0) {
+                    for (; k > p; )
                       this.applyTransforms(
                         this.pMatrix,
                         this.rMatrix,
@@ -6950,17 +6958,17 @@
                         1,
                         !0
                       ),
-                        (v -= 1);
-                    f &&
+                        (k -= 1);
+                    d &&
                       (this.applyTransforms(
                         this.pMatrix,
                         this.rMatrix,
                         this.sMatrix,
                         this.tr,
-                        -f,
+                        -d,
                         !0
                       ),
-                      (v -= f));
+                      (k -= d));
                   }
                   for (
                     r = 1 === this.data.m ? 0 : this._currentCopies - 1,
@@ -6970,7 +6978,7 @@
 
                   ) {
                     if (
-                      ((k = (i = (e = this.elemsData[r].it)[e.length - 1]
+                      ((v = (i = (e = this.elemsData[r].it)[e.length - 1]
                         .transform.mProps.v.props).length),
                       (e[e.length - 1].transform.mProps._mdf = !0),
                       (e[e.length - 1].transform.op._mdf = !0),
@@ -6980,7 +6988,7 @@
                           : this.so.v +
                             (this.eo.v - this.so.v) *
                               (r / (this._currentCopies - 1))),
-                      0 !== v)
+                      0 !== k)
                     ) {
                       for (
                         ((0 !== r && 1 === a) ||
@@ -7048,15 +7056,15 @@
                             m[15]
                           ),
                           g = 0;
-                        g < k;
+                        g < v;
                         g += 1
                       )
                         i[g] = this.matrix.props[g];
                       this.matrix.reset();
                     } else
-                      for (this.matrix.reset(), g = 0; g < k; g += 1)
+                      for (this.matrix.reset(), g = 0; g < v; g += 1)
                         i[g] = this.matrix.props[g];
-                    (v += 1), (n -= 1), (r += a);
+                    (k += 1), (n -= 1), (r += a);
                   }
                 } else
                   for (n = this._currentCopies, r = 0, a = 1; n; )
@@ -7088,8 +7096,8 @@
                   c,
                   h,
                   u,
-                  d,
                   f,
+                  d,
                   p,
                   m,
                   y = t._length,
@@ -7111,9 +7119,9 @@
                             : 0),
                           (h = p = a[0] + (s[0] - a[0]) * c),
                           (u = m = a[1] - (a[1] - s[1]) * c),
-                          (d = h - (h - a[0]) * roundCorner),
-                          (f = u - (u - a[1]) * roundCorner),
-                          r.setTripleAt(h, u, d, f, p, m, x),
+                          (f = h - (h - a[0]) * roundCorner),
+                          (d = u - (u - a[1]) * roundCorner),
+                          r.setTripleAt(h, u, f, d, p, m, x),
                           (x += 1),
                           (s = i === y - 1 ? t.v[0] : t.v[i + 1]),
                           (c = (l = Math.sqrt(
@@ -7121,11 +7129,11 @@
                           ))
                             ? Math.min(l / 2, e) / l
                             : 0),
-                          (h = d = a[0] + (s[0] - a[0]) * c),
-                          (u = f = a[1] + (s[1] - a[1]) * c),
+                          (h = f = a[0] + (s[0] - a[0]) * c),
+                          (u = d = a[1] + (s[1] - a[1]) * c),
                           (p = h - (h - a[0]) * roundCorner),
                           (m = u - (u - a[1]) * roundCorner),
-                          r.setTripleAt(h, u, d, f, p, m, x),
+                          r.setTripleAt(h, u, f, d, p, m, x),
                           (x += 1))
                         : (r.setTripleAt(a[0], a[1], o[0], o[1], n[0], n[1], x),
                           (x += 1))
@@ -7395,15 +7403,15 @@
                 var h = null,
                   u = null;
                 for (n = 0; n < c.length; n += 1) {
-                  var d = c[n];
+                  var f = c[n];
                   for (
-                    u && (h = joinLines(a, u, d[0], i, r)),
-                      u = d[d.length - 1],
+                    u && (h = joinLines(a, u, f[0], i, r)),
+                      u = f[f.length - 1],
                       o = 0;
-                    o < d.length;
+                    o < f.length;
                     o += 1
                   )
-                    (s = d[o]),
+                    (s = f[o]),
                       h && pointEqual(s.points[0], h)
                         ? a.setXYAt(
                             s.points[1][0],
@@ -7681,13 +7689,13 @@
                           )
                             -1 !== l[c].href.indexOf(r[i].fPath) && (h = !1);
                           if (h) {
-                            var d = createTag("link");
-                            d.setAttribute("f-forigin", r[i].fOrigin),
-                              d.setAttribute("f-origin", r[i].origin),
-                              (d.type = "text/css"),
-                              (d.rel = "stylesheet"),
-                              (d.href = r[i].fPath),
-                              document.body.appendChild(d);
+                            var f = createTag("link");
+                            f.setAttribute("f-forigin", r[i].fOrigin),
+                              f.setAttribute("f-origin", r[i].origin),
+                              (f.type = "text/css"),
+                              (f.rel = "stylesheet"),
+                              (f.href = r[i].fPath),
+                              document.body.appendChild(f);
                           }
                         } else if ("t" === r[i].fOrigin || 2 === r[i].origin) {
                           for (
@@ -7700,12 +7708,12 @@
                           )
                             r[i].fPath === l[c].src && (h = !1);
                           if (h) {
-                            var f = createTag("link");
-                            f.setAttribute("f-forigin", r[i].fOrigin),
-                              f.setAttribute("f-origin", r[i].origin),
-                              f.setAttribute("rel", "stylesheet"),
-                              f.setAttribute("href", r[i].fPath),
-                              e.appendChild(f);
+                            var d = createTag("link");
+                            d.setAttribute("f-forigin", r[i].fOrigin),
+                              d.setAttribute("f-origin", r[i].origin),
+                              d.setAttribute("rel", "stylesheet"),
+                              d.setAttribute("href", r[i].fPath),
+                              e.appendChild(d);
                           }
                         }
                       } else (r[i].loaded = !0), (s -= 1);
@@ -8356,8 +8364,8 @@
                 c,
                 h,
                 u,
-                d,
-                f = this.masksProperties,
+                f,
+                d = this.masksProperties,
                 p = 0,
                 m = [],
                 y = createElementID(),
@@ -8365,31 +8373,31 @@
                 g = "clip-path";
               for (r = 0; r < o; r += 1)
                 if (
-                  ((("a" !== f[r].mode && "n" !== f[r].mode) ||
-                    f[r].inv ||
-                    100 !== f[r].o.k ||
-                    f[r].o.x) &&
+                  ((("a" !== d[r].mode && "n" !== d[r].mode) ||
+                    d[r].inv ||
+                    100 !== d[r].o.k ||
+                    d[r].o.x) &&
                     ((x = "mask"), (g = "mask")),
-                  ("s" !== f[r].mode && "i" !== f[r].mode) || 0 !== p
+                  ("s" !== d[r].mode && "i" !== d[r].mode) || 0 !== p
                     ? (c = null)
                     : ((c = createNS("rect")).setAttribute("fill", "#ffffff"),
                       c.setAttribute("width", this.element.comp.data.w || 0),
                       c.setAttribute("height", this.element.comp.data.h || 0),
                       m.push(c)),
                   (a = createNS("path")),
-                  "n" === f[r].mode)
+                  "n" === d[r].mode)
                 )
                   (this.viewData[r] = {
                     op: PropertyFactory.getProp(
                       this.element,
-                      f[r].o,
+                      d[r].o,
                       0,
                       0.01,
                       this.element
                     ),
                     prop: ShapePropertyFactory.getShapeProp(
                       this.element,
-                      f[r],
+                      d[r],
                       3
                     ),
                     elem: a,
@@ -8397,26 +8405,26 @@
                   }),
                     n.appendChild(a);
                 else {
-                  var k;
+                  var v;
                   if (
                     ((p += 1),
                     a.setAttribute(
                       "fill",
-                      "s" === f[r].mode ? "#000000" : "#ffffff"
+                      "s" === d[r].mode ? "#000000" : "#ffffff"
                     ),
                     a.setAttribute("clip-rule", "nonzero"),
-                    0 !== f[r].x.k
+                    0 !== d[r].x.k
                       ? ((x = "mask"),
                         (g = "mask"),
-                        (d = PropertyFactory.getProp(
+                        (f = PropertyFactory.getProp(
                           this.element,
-                          f[r].x,
+                          d[r].x,
                           0,
                           null,
                           this.element
                         )),
-                        (k = createElementID()),
-                        (h = createNS("filter")).setAttribute("id", k),
+                        (v = createElementID()),
+                        (h = createNS("filter")).setAttribute("id", v),
                         (u = createNS("feMorphology")).setAttribute(
                           "operator",
                           "erode"
@@ -8427,36 +8435,36 @@
                         n.appendChild(h),
                         a.setAttribute(
                           "stroke",
-                          "s" === f[r].mode ? "#000000" : "#ffffff"
+                          "s" === d[r].mode ? "#000000" : "#ffffff"
                         ))
-                      : ((u = null), (d = null)),
+                      : ((u = null), (f = null)),
                     (this.storedData[r] = {
                       elem: a,
-                      x: d,
+                      x: f,
                       expan: u,
                       lastPath: "",
                       lastOperator: "",
-                      filterId: k,
+                      filterId: v,
                       lastRadius: 0
                     }),
-                    "i" === f[r].mode)
+                    "i" === d[r].mode)
                   ) {
                     l = m.length;
-                    var v = createNS("g");
-                    for (s = 0; s < l; s += 1) v.appendChild(m[s]);
+                    var k = createNS("g");
+                    for (s = 0; s < l; s += 1) k.appendChild(m[s]);
                     var b = createNS("mask");
                     b.setAttribute("mask-type", "alpha"),
                       b.setAttribute("id", y + "_" + p),
                       b.appendChild(a),
                       n.appendChild(b),
-                      v.setAttribute(
+                      k.setAttribute(
                         "mask",
                         "url(" + getLocationHref() + "#" + y + "_" + p + ")"
                       ),
                       (m.length = 0),
-                      m.push(v);
+                      m.push(k);
                   } else m.push(a);
-                  f[r].inv &&
+                  d[r].inv &&
                     !this.solidPath &&
                     (this.solidPath = this.createLayerSolidPath()),
                     (this.viewData[r] = {
@@ -8464,21 +8472,21 @@
                       lastPath: "",
                       op: PropertyFactory.getProp(
                         this.element,
-                        f[r].o,
+                        d[r].o,
                         0,
                         0.01,
                         this.element
                       ),
                       prop: ShapePropertyFactory.getShapeProp(
                         this.element,
-                        f[r],
+                        d[r],
                         3
                       ),
                       invRect: c
                     }),
                     this.viewData[r].prop.k ||
                       this.drawPath(
-                        f[r],
+                        d[r],
                         this.viewData[r].prop.v,
                         this.viewData[r]
                       );
@@ -9562,39 +9570,39 @@
                     c,
                     h,
                     u,
-                    d,
                     f,
+                    d,
                     p,
                     m = r.styles.length,
                     y = r.lvl;
                   for (h = 0; h < m; h += 1) {
                     if (((l = r.sh._mdf || a), r.styles[h].lvl < y)) {
                       for (
-                        d = e.reset(),
-                          f = y - r.styles[h].lvl,
+                        f = e.reset(),
+                          d = y - r.styles[h].lvl,
                           p = r.transformers.length - 1;
-                        !l && f > 0;
+                        !l && d > 0;
 
                       )
                         (l = r.transformers[p].mProps._mdf || l),
-                          (f -= 1),
+                          (d -= 1),
                           (p -= 1);
                       if (l)
                         for (
-                          f = y - r.styles[h].lvl,
+                          d = y - r.styles[h].lvl,
                             p = r.transformers.length - 1;
-                          f > 0;
+                          d > 0;
 
                         )
-                          d.multiply(r.transformers[p].mProps.v),
-                            (f -= 1),
+                          f.multiply(r.transformers[p].mProps.v),
+                            (d -= 1),
                             (p -= 1);
-                    } else d = t;
+                    } else f = t;
                     if (((o = (u = r.sh.paths)._length), l)) {
                       for (s = "", n = 0; n < o; n += 1)
                         (c = u.shapes[n]) &&
                           c._length &&
-                          (s += buildShapeString(c, c._length, c.c, d));
+                          (s += buildShapeString(c, c._length, c.c, f));
                       r.caches[h] = s;
                     } else s = r.caches[h];
                     (r.styles[h].d += !0 === i.hd ? "" : s),
@@ -9631,17 +9639,17 @@
                     h = e.s.v,
                     u = e.e.v;
                   if (e.o._mdf || i) {
-                    var d = "gf" === t.ty ? "fill-opacity" : "stroke-opacity";
-                    e.style.pElem.setAttribute(d, e.o.v);
+                    var f = "gf" === t.ty ? "fill-opacity" : "stroke-opacity";
+                    e.style.pElem.setAttribute(f, e.o.v);
                   }
                   if (e.s._mdf || i) {
-                    var f = 1 === t.t ? "x1" : "cx",
-                      p = "x1" === f ? "y1" : "cy";
-                    l.setAttribute(f, h[0]),
+                    var d = 1 === t.t ? "x1" : "cx",
+                      p = "x1" === d ? "y1" : "cy";
+                    l.setAttribute(d, h[0]),
                       l.setAttribute(p, h[1]),
                       c &&
                         !e.g._collapsable &&
-                        (e.of.setAttribute(f, h[0]),
+                        (e.of.setAttribute(d, h[0]),
                         e.of.setAttribute(p, h[1]));
                   }
                   if (e.g._cmdf || i) {
@@ -9696,14 +9704,14 @@
                     var x = Math.atan2(u[1] - h[1], u[0] - h[0]),
                       g = e.h.v;
                     g >= 1 ? (g = 0.99) : g <= -1 && (g = -0.99);
-                    var k = s * g,
-                      v = Math.cos(x + e.a.v) * k + h[0],
-                      b = Math.sin(x + e.a.v) * k + h[1];
-                    l.setAttribute("fx", v),
+                    var v = s * g,
+                      k = Math.cos(x + e.a.v) * v + h[0],
+                      b = Math.sin(x + e.a.v) * v + h[1];
+                    l.setAttribute("fx", k),
                       l.setAttribute("fy", b),
                       c &&
                         !e.g._collapsable &&
-                        (e.of.setAttribute("fx", v),
+                        (e.of.setAttribute("fx", k),
                         e.of.setAttribute("fy", b));
                   }
                 }
@@ -10023,15 +10031,15 @@
                   c,
                   h,
                   u,
-                  d,
-                  f = [].concat(n),
+                  f,
+                  d = [].concat(n),
                   p = t.length - 1,
                   m = [],
                   y = [];
                 for (s = p; s >= 0; s -= 1) {
                   if (
-                    ((d = this.searchProcessedElement(t[s]))
-                      ? (e[s] = i[d - 1])
+                    ((f = this.searchProcessedElement(t[s]))
+                      ? (e[s] = i[f - 1])
                       : (t[s]._render = o),
                     "fl" === t[s].ty ||
                       "st" === t[s].ty ||
@@ -10039,7 +10047,7 @@
                       "gs" === t[s].ty ||
                       "no" === t[s].ty)
                   )
-                    d
+                    f
                       ? (e[s].style.closed = !1)
                       : (e[s] = this.createStyleElement(t[s], a)),
                       t[s]._render &&
@@ -10047,7 +10055,7 @@
                         r.appendChild(e[s].style.pElem),
                       m.push(e[s].style);
                   else if ("gr" === t[s].ty) {
-                    if (d)
+                    if (f)
                       for (c = e[s].it.length, l = 0; l < c; l += 1)
                         e[s].prevViewData[l] = e[s].it[l];
                     else e[s] = this.createGroupElement(t[s]);
@@ -10057,7 +10065,7 @@
                       e[s].prevViewData,
                       e[s].gr,
                       a + 1,
-                      f,
+                      d,
                       o
                     ),
                       t[s]._render &&
@@ -10065,14 +10073,14 @@
                         r.appendChild(e[s].gr);
                   } else
                     "tr" === t[s].ty
-                      ? (d || (e[s] = this.createTransformElement(t[s], r)),
+                      ? (f || (e[s] = this.createTransformElement(t[s], r)),
                         (h = e[s].transform),
-                        f.push(h))
+                        d.push(h))
                       : "sh" === t[s].ty ||
                         "rc" === t[s].ty ||
                         "el" === t[s].ty ||
                         "sr" === t[s].ty
-                      ? (d || (e[s] = this.createShapeElement(t[s], f, a)),
+                      ? (f || (e[s] = this.createShapeElement(t[s], d, a)),
                         this.setElementStyles(e[s]))
                       : "tm" === t[s].ty ||
                         "rd" === t[s].ty ||
@@ -10080,7 +10088,7 @@
                         "pb" === t[s].ty ||
                         "zz" === t[s].ty ||
                         "op" === t[s].ty
-                      ? (d
+                      ? (f
                           ? ((u = e[s]).closed = !1)
                           : ((u = ShapeModifiers.getModifier(t[s].ty)).init(
                               this,
@@ -10090,7 +10098,7 @@
                             this.shapeModifiers.push(u)),
                         y.push(u))
                       : "rp" === t[s].ty &&
-                        (d
+                        (f
                           ? ((u = e[s]).closed = !0)
                           : ((u = ShapeModifiers.getModifier(t[s].ty)),
                             (e[s] = u),
@@ -10278,16 +10286,16 @@
                   c = this.data,
                   h = [],
                   u = 0,
-                  d = c.m.g,
-                  f = 0,
+                  f = c.m.g,
+                  d = 0,
                   p = 0,
                   m = 0,
                   y = [],
                   x = 0,
                   g = 0,
-                  k = l.getFontByName(t.f),
-                  v = 0,
-                  b = getFontProperties(k);
+                  v = l.getFontByName(t.f),
+                  k = 0,
+                  b = getFontProperties(v);
                 (t.fWeight = b.weight),
                   (t.fStyle = b.style),
                   (t.finalSize = t.s),
@@ -10297,7 +10305,7 @@
                 var A,
                   E = (t.tr / 1e3) * t.finalSize;
                 if (t.sz)
-                  for (var w, S, D = !0, P = t.sz[0], C = t.sz[1]; D; ) {
+                  for (var w, S, P = !0, D = t.sz[0], C = t.sz[1]; P; ) {
                     (w = 0),
                       (x = 0),
                       (i = (S = this.buildFinalText(t.t)).length),
@@ -10313,17 +10321,17 @@
                             (r = !0),
                             (w += t.finalLineHeight || 1.2 * t.finalSize)),
                         l.chars
-                          ? ((s = l.getCharData(S[e], k.fStyle, k.fFamily)),
-                            (v = r ? 0 : (s.w * t.finalSize) / 100))
-                          : (v = l.measureText(S[e], t.f, t.finalSize)),
-                        x + v > P && " " !== S[e]
+                          ? ((s = l.getCharData(S[e], v.fStyle, v.fFamily)),
+                            (k = r ? 0 : (s.w * t.finalSize) / 100))
+                          : (k = l.measureText(S[e], t.f, t.finalSize)),
+                        x + k > D && " " !== S[e]
                           ? (-1 === _ ? (i += 1) : (e = _),
                             (w += t.finalLineHeight || 1.2 * t.finalSize),
                             S.splice(e, _ === e ? 1 : 0, "\r"),
                             (_ = -1),
                             (x = 0))
-                          : ((x += v), (x += E));
-                    (w += (k.ascent * t.finalSize) / 100),
+                          : ((x += k), (x += E));
+                    (w += (v.ascent * t.finalSize) / 100),
                       this.canResize &&
                       t.finalSize > this.minimumFontSize &&
                       C < w
@@ -10331,9 +10339,9 @@
                           (t.finalLineHeight = (t.finalSize * t.lh) / t.s))
                         : ((t.finalText = S),
                           (i = t.finalText.length),
-                          (D = !1));
+                          (P = !1));
                   }
-                (x = -E), (v = 0);
+                (x = -E), (k = 0);
                 var B,
                   M = 0;
                 for (e = 0; e < i; e += 1)
@@ -10351,40 +10359,40 @@
                     l.chars
                       ? ((s = l.getCharData(
                           B,
-                          k.fStyle,
+                          v.fStyle,
                           l.getFontByName(t.f).fFamily
                         )),
-                        (v = r ? 0 : (s.w * t.finalSize) / 100))
-                      : (v = l.measureText(a, t.f, t.finalSize)),
-                    " " === B ? (M += v + E) : ((x += v + E + M), (M = 0)),
+                        (k = r ? 0 : (s.w * t.finalSize) / 100))
+                      : (k = l.measureText(a, t.f, t.finalSize)),
+                    " " === B ? (M += k + E) : ((x += k + E + M), (M = 0)),
                     h.push({
-                      l: v,
-                      an: v,
-                      add: f,
+                      l: k,
+                      an: k,
+                      add: d,
                       n: r,
                       anIndexes: [],
                       val: a,
                       line: m,
                       animatorJustifyOffset: 0
                     }),
-                    2 == d)
+                    2 == f)
                   ) {
-                    if (((f += v), "" === a || " " === a || e === i - 1)) {
-                      for (("" !== a && " " !== a) || (f -= v); p <= e; )
-                        (h[p].an = f),
+                    if (((d += k), "" === a || " " === a || e === i - 1)) {
+                      for (("" !== a && " " !== a) || (d -= k); p <= e; )
+                        (h[p].an = d),
                           (h[p].ind = u),
-                          (h[p].extra = v),
+                          (h[p].extra = k),
                           (p += 1);
-                      (u += 1), (f = 0);
+                      (u += 1), (d = 0);
                     }
-                  } else if (3 == d) {
-                    if (((f += v), "" === a || e === i - 1)) {
-                      for ("" === a && (f -= v); p <= e; )
-                        (h[p].an = f),
+                  } else if (3 == f) {
+                    if (((d += k), "" === a || e === i - 1)) {
+                      for ("" === a && (d -= k); p <= e; )
+                        (h[p].an = d),
                           (h[p].ind = u),
-                          (h[p].extra = v),
+                          (h[p].extra = k),
                           (p += 1);
-                      (f = 0), (u += 1);
+                      (d = 0), (u += 1);
                     }
                   } else (h[u].ind = u), (h[u].extra = 0), (u += 1);
                 if (((t.l = h), (g = x > g ? x : g), y.push(x), t.sz))
@@ -10441,7 +10449,7 @@
                 }
                 (t.yOffset = t.finalLineHeight || 1.2 * t.finalSize),
                   (t.ls = t.ls || 0),
-                  (t.ascent = (k.ascent * t.finalSize) / 100);
+                  (t.ascent = (v.ascent * t.finalSize) / 100);
               }),
               (TextProperty.prototype.updateDocumentData = function (t, e) {
                 e = void 0 === e ? this.keysIndex : e;
@@ -10544,8 +10552,8 @@
                       c = 0,
                       h = this.finalS,
                       u = this.finalE,
-                      d = this.data.sh;
-                    if (2 === d)
+                      f = this.data.sh;
+                    if (2 === f)
                       c = l(
                         (c =
                           u === h
@@ -10554,7 +10562,7 @@
                               : 0
                             : t(0, e(0.5 / (u - h) + (r - h) / (u - h), 1)))
                       );
-                    else if (3 === d)
+                    else if (3 === f)
                       c = l(
                         (c =
                           u === h
@@ -10563,7 +10571,7 @@
                               : 1
                             : 1 - t(0, e(0.5 / (u - h) + (r - h) / (u - h), 1)))
                       );
-                    else if (4 === d)
+                    else if (4 === f)
                       u === h
                         ? (c = 0)
                         : (c = t(0, e(0.5 / (u - h) + (r - h) / (u - h), 1))) <
@@ -10571,17 +10579,17 @@
                         ? (c *= 2)
                         : (c = 1 - 2 * (c - 0.5)),
                         (c = l(c));
-                    else if (5 === d) {
+                    else if (5 === f) {
                       if (u === h) c = 0;
                       else {
-                        var f = u - h,
-                          p = -f / 2 + (r = e(t(0, r + 0.5 - h), u - h)),
-                          m = f / 2;
+                        var d = u - h,
+                          p = -d / 2 + (r = e(t(0, r + 0.5 - h), u - h)),
+                          m = d / 2;
                         c = Math.sqrt(1 - (p * p) / (m * m));
                       }
                       c = l(c);
                     } else
-                      6 === d
+                      6 === f
                         ? (u === h
                             ? (c = 0)
                             : ((r = e(t(0, r + 0.5 - h), u - h)),
@@ -10727,29 +10735,29 @@
                     c,
                     h,
                     u,
-                    d,
                     f,
+                    d,
                     p,
                     m,
                     y,
                     x,
                     g,
-                    k,
                     v,
+                    k,
                     b = this._moreOptions.alignment.v,
                     A = this._animatorsData,
                     E = this._textData,
                     w = this.mHelper,
                     S = this._renderType,
-                    D = this.renderedLetters.length,
-                    P = t.l;
+                    P = this.renderedLetters.length,
+                    D = t.l;
                   if (this._hasMaskedPath) {
                     if (
-                      ((v = this._pathData.m),
+                      ((k = this._pathData.m),
                       !this._pathData.n || this._pathData._mdf)
                     ) {
                       var C,
-                        _ = v.v;
+                        _ = k.v;
                       for (
                         this._pathData.r.v && (_ = _.reverse()),
                           o = {tLength: 0, segments: []},
@@ -10772,7 +10780,7 @@
                           o.segments.push(C),
                           (x += C.segmentLength);
                       (a = n),
-                        v.v.c &&
+                        k.v.c &&
                           ((C = bez.buildBezierData(
                             _.v[a],
                             _.v[0],
@@ -10787,27 +10795,27 @@
                     if (
                       ((o = this._pathData.pi),
                       (s = this._pathData.f.v),
-                      (d = 0),
+                      (f = 0),
                       (u = 1),
                       (c = 0),
                       (h = !0),
                       (m = o.segments),
-                      s < 0 && v.v.c)
+                      s < 0 && k.v.c)
                     )
                       for (
                         o.tLength < Math.abs(s) &&
                           (s = -Math.abs(s) % o.tLength),
-                          u = (p = m[(d = m.length - 1)].points).length - 1;
+                          u = (p = m[(f = m.length - 1)].points).length - 1;
                         s < 0;
 
                       )
                         (s += p[u].partialLength),
                           (u -= 1) < 0 &&
-                            (u = (p = m[(d -= 1)].points).length - 1);
-                    (f = (p = m[d].points)[u - 1]),
+                            (u = (p = m[(f -= 1)].points).length - 1);
+                    (d = (p = m[f].points)[u - 1]),
                       (y = (l = p[u]).partialLength);
                   }
-                  (n = P.length), (i = 0), (r = 0);
+                  (n = D.length), (i = 0), (r = 0);
                   var B,
                     M,
                     T,
@@ -10822,15 +10830,15 @@
                     j,
                     R,
                     z,
-                    Z,
                     Y,
+                    Z,
                     H,
                     W,
                     q,
                     $,
                     Q = -1,
                     U = s,
-                    J = d,
+                    J = f,
                     K = u,
                     X = -1,
                     tt = "",
@@ -10842,16 +10850,16 @@
                       nt = 0,
                       ot = !0;
                     for (a = 0; a < n; a += 1)
-                      if (P[a].n) {
+                      if (D[a].n) {
                         for (it && (it += rt); nt < a; )
-                          (P[nt].animatorJustifyOffset = it), (nt += 1);
+                          (D[nt].animatorJustifyOffset = it), (nt += 1);
                         (it = 0), (ot = !0);
                       } else {
                         for (M = 0; M < T; M += 1)
                           (B = A[M].a).t.propType &&
                             (ot && 2 === t.j && (rt += B.t.v * at),
                             (V = A[M].s.getMult(
-                              P[a].anIndexes[M],
+                              D[a].anIndexes[M],
                               E.a[M].s.totalChars
                             )).length
                               ? (it += B.t.v * V[0] * at)
@@ -10859,10 +10867,10 @@
                         ot = !1;
                       }
                     for (it && (it += rt); nt < a; )
-                      (P[nt].animatorJustifyOffset = it), (nt += 1);
+                      (D[nt].animatorJustifyOffset = it), (nt += 1);
                   }
                   for (a = 0; a < n; a += 1) {
-                    if ((w.reset(), (j = 1), P[a].n))
+                    if ((w.reset(), (j = 1), D[a].n))
                       (i = 0),
                         (r += t.yOffset),
                         (r += I ? 1 : 0),
@@ -10870,7 +10878,7 @@
                         (I = !1),
                         this._hasMaskedPath &&
                           ((u = K),
-                          (f = (p = m[(d = J)].points)[u - 1]),
+                          (d = (p = m[(f = J)].points)[u - 1]),
                           (y = (l = p[u]).partialLength),
                           (c = 0)),
                         (tt = ""),
@@ -10880,33 +10888,33 @@
                         (et = this.defaultPropsArray);
                     else {
                       if (this._hasMaskedPath) {
-                        if (X !== P[a].line) {
+                        if (X !== D[a].line) {
                           switch (t.j) {
                             case 1:
-                              s += x - t.lineWidths[P[a].line];
+                              s += x - t.lineWidths[D[a].line];
                               break;
                             case 2:
-                              s += (x - t.lineWidths[P[a].line]) / 2;
+                              s += (x - t.lineWidths[D[a].line]) / 2;
                           }
-                          X = P[a].line;
+                          X = D[a].line;
                         }
-                        Q !== P[a].ind &&
-                          (P[Q] && (s += P[Q].extra),
-                          (s += P[a].an / 2),
-                          (Q = P[a].ind)),
-                          (s += b[0] * P[a].an * 0.005);
+                        Q !== D[a].ind &&
+                          (D[Q] && (s += D[Q].extra),
+                          (s += D[a].an / 2),
+                          (Q = D[a].ind)),
+                          (s += b[0] * D[a].an * 0.005);
                         var st = 0;
                         for (M = 0; M < T; M += 1)
                           (B = A[M].a).p.propType &&
                             ((V = A[M].s.getMult(
-                              P[a].anIndexes[M],
+                              D[a].anIndexes[M],
                               E.a[M].s.totalChars
                             )).length
                               ? (st += B.p.v[0] * V[0])
                               : (st += B.p.v[0] * V)),
                             B.a.propType &&
                               ((V = A[M].s.getMult(
-                                P[a].anIndexes[M],
+                                D[a].anIndexes[M],
                                 E.a[M].s.totalChars
                               )).length
                                 ? (st += B.a.v[0] * V[0])
@@ -10915,11 +10923,11 @@
                           h = !0,
                             this._pathData.a.v &&
                               ((s =
-                                0.5 * P[0].an +
+                                0.5 * D[0].an +
                                 ((x -
                                   this._pathData.f.v -
-                                  0.5 * P[0].an -
-                                  0.5 * P[P.length - 1].an) *
+                                  0.5 * D[0].an -
+                                  0.5 * D[D.length - 1].an) *
                                   Q) /
                                   (n - 1)),
                               (s += this._pathData.f.v));
@@ -10928,10 +10936,10 @@
                         )
                           c + y >= s + st || !p
                             ? ((g = (s + st - c) / l.partialLength),
-                              (O = f.point[0] + (l.point[0] - f.point[0]) * g),
-                              (N = f.point[1] + (l.point[1] - f.point[1]) * g),
+                              (O = d.point[0] + (l.point[0] - d.point[0]) * g),
+                              (N = d.point[1] + (l.point[1] - d.point[1]) * g),
                               w.translate(
-                                -b[0] * P[a].an * 0.005,
+                                -b[0] * D[a].an * 0.005,
                                 -b[1] * G * 0.01
                               ),
                               (h = !1))
@@ -10939,25 +10947,25 @@
                               ((c += l.partialLength),
                               (u += 1) >= p.length &&
                                 ((u = 0),
-                                m[(d += 1)]
-                                  ? (p = m[d].points)
-                                  : v.v.c
-                                  ? ((u = 0), (p = m[(d = 0)].points))
+                                m[(f += 1)]
+                                  ? (p = m[f].points)
+                                  : k.v.c
+                                  ? ((u = 0), (p = m[(f = 0)].points))
                                   : ((c -= l.partialLength), (p = null))),
-                              p && ((f = l), (y = (l = p[u]).partialLength)));
-                        (L = P[a].an / 2 - P[a].add), w.translate(-L, 0, 0);
+                              p && ((d = l), (y = (l = p[u]).partialLength)));
+                        (L = D[a].an / 2 - D[a].add), w.translate(-L, 0, 0);
                       } else
-                        (L = P[a].an / 2 - P[a].add),
+                        (L = D[a].an / 2 - D[a].add),
                           w.translate(-L, 0, 0),
                           w.translate(
-                            -b[0] * P[a].an * 0.005,
+                            -b[0] * D[a].an * 0.005,
                             -b[1] * G * 0.01,
                             0
                           );
                       for (M = 0; M < T; M += 1)
                         (B = A[M].a).t.propType &&
                           ((V = A[M].s.getMult(
-                            P[a].anIndexes[M],
+                            D[a].anIndexes[M],
                             E.a[M].s.totalChars
                           )),
                           (0 === i && 0 === t.j) ||
@@ -10976,14 +10984,14 @@
                               : [0, 0, 0]),
                           t.fillColorAnim &&
                             t.fc &&
-                            (Z = [t.fc[0], t.fc[1], t.fc[2]]),
+                            (Y = [t.fc[0], t.fc[1], t.fc[2]]),
                           M = 0;
                         M < T;
                         M += 1
                       )
                         (B = A[M].a).a.propType &&
                           ((V = A[M].s.getMult(
-                            P[a].anIndexes[M],
+                            D[a].anIndexes[M],
                             E.a[M].s.totalChars
                           )).length
                             ? w.translate(
@@ -10999,7 +11007,7 @@
                       for (M = 0; M < T; M += 1)
                         (B = A[M].a).s.propType &&
                           ((V = A[M].s.getMult(
-                            P[a].anIndexes[M],
+                            D[a].anIndexes[M],
                             E.a[M].s.totalChars
                           )).length
                             ? w.scale(
@@ -11016,7 +11024,7 @@
                         if (
                           ((B = A[M].a),
                           (V = A[M].s.getMult(
-                            P[a].anIndexes[M],
+                            D[a].anIndexes[M],
                             E.a[M].s.totalChars
                           )),
                           B.sk.propType &&
@@ -11046,34 +11054,34 @@
                               : (z += B.sw.v * V)),
                           t.strokeColorAnim && B.sc.propType)
                         )
-                          for (Y = 0; Y < 3; Y += 1)
+                          for (Z = 0; Z < 3; Z += 1)
                             V.length
-                              ? (R[Y] += (B.sc.v[Y] - R[Y]) * V[0])
-                              : (R[Y] += (B.sc.v[Y] - R[Y]) * V);
+                              ? (R[Z] += (B.sc.v[Z] - R[Z]) * V[0])
+                              : (R[Z] += (B.sc.v[Z] - R[Z]) * V);
                         if (t.fillColorAnim && t.fc) {
                           if (B.fc.propType)
-                            for (Y = 0; Y < 3; Y += 1)
+                            for (Z = 0; Z < 3; Z += 1)
                               V.length
-                                ? (Z[Y] += (B.fc.v[Y] - Z[Y]) * V[0])
-                                : (Z[Y] += (B.fc.v[Y] - Z[Y]) * V);
+                                ? (Y[Z] += (B.fc.v[Z] - Y[Z]) * V[0])
+                                : (Y[Z] += (B.fc.v[Z] - Y[Z]) * V);
                           B.fh.propType &&
-                            (Z = V.length
-                              ? addHueToRGB(Z, B.fh.v * V[0])
-                              : addHueToRGB(Z, B.fh.v * V)),
+                            (Y = V.length
+                              ? addHueToRGB(Y, B.fh.v * V[0])
+                              : addHueToRGB(Y, B.fh.v * V)),
                             B.fs.propType &&
-                              (Z = V.length
-                                ? addSaturationToRGB(Z, B.fs.v * V[0])
-                                : addSaturationToRGB(Z, B.fs.v * V)),
+                              (Y = V.length
+                                ? addSaturationToRGB(Y, B.fs.v * V[0])
+                                : addSaturationToRGB(Y, B.fs.v * V)),
                             B.fb.propType &&
-                              (Z = V.length
-                                ? addBrightnessToRGB(Z, B.fb.v * V[0])
-                                : addBrightnessToRGB(Z, B.fb.v * V));
+                              (Y = V.length
+                                ? addBrightnessToRGB(Y, B.fb.v * V[0])
+                                : addBrightnessToRGB(Y, B.fb.v * V));
                         }
                       }
                       for (M = 0; M < T; M += 1)
                         (B = A[M].a).p.propType &&
                           ((V = A[M].s.getMult(
-                            P[a].anIndexes[M],
+                            D[a].anIndexes[M],
                             E.a[M].s.totalChars
                           )),
                           this._hasMaskedPath
@@ -11110,11 +11118,11 @@
                           t.fc &&
                           (q =
                             "rgb(" +
-                            Math.round(255 * Z[0]) +
+                            Math.round(255 * Y[0]) +
                             "," +
-                            Math.round(255 * Z[1]) +
+                            Math.round(255 * Y[1]) +
                             "," +
-                            Math.round(255 * Z[2]) +
+                            Math.round(255 * Y[2]) +
                             ")"),
                         this._hasMaskedPath)
                       ) {
@@ -11123,18 +11131,18 @@
                           w.translate(0, b[1] * G * 0.01 + r, 0),
                           this._pathData.p.v)
                         ) {
-                          k =
-                            (l.point[1] - f.point[1]) /
-                            (l.point[0] - f.point[0]);
-                          var lt = (180 * Math.atan(k)) / Math.PI;
-                          l.point[0] < f.point[0] && (lt += 180),
+                          v =
+                            (l.point[1] - d.point[1]) /
+                            (l.point[0] - d.point[0]);
+                          var lt = (180 * Math.atan(v)) / Math.PI;
+                          l.point[0] < d.point[0] && (lt += 180),
                             w.rotate((-lt * Math.PI) / 180);
                         }
                         w.translate(O, N, 0),
-                          (s -= b[0] * P[a].an * 0.005),
-                          P[a + 1] &&
-                            Q !== P[a + 1].ind &&
-                            ((s += P[a].an / 2),
+                          (s -= b[0] * D[a].an * 0.005),
+                          D[a + 1] &&
+                            Q !== D[a + 1].ind &&
+                            ((s += D[a].an / 2),
                             (s += 0.001 * t.tr * t.finalSize));
                       } else {
                         switch (
@@ -11144,18 +11152,18 @@
                         ) {
                           case 1:
                             w.translate(
-                              P[a].animatorJustifyOffset +
+                              D[a].animatorJustifyOffset +
                                 t.justifyOffset +
-                                (t.boxWidth - t.lineWidths[P[a].line]),
+                                (t.boxWidth - t.lineWidths[D[a].line]),
                               0,
                               0
                             );
                             break;
                           case 2:
                             w.translate(
-                              P[a].animatorJustifyOffset +
+                              D[a].animatorJustifyOffset +
                                 t.justifyOffset +
-                                (t.boxWidth - t.lineWidths[P[a].line]) / 2,
+                                (t.boxWidth - t.lineWidths[D[a].line]) / 2,
                               0,
                               0
                             );
@@ -11163,11 +11171,11 @@
                         w.translate(0, -t.ls),
                           w.translate(L, 0, 0),
                           w.translate(
-                            b[0] * P[a].an * 0.005,
+                            b[0] * D[a].an * 0.005,
                             b[1] * G * 0.01,
                             0
                           ),
-                          (i += P[a].l + 0.001 * t.tr * t.finalSize);
+                          (i += D[a].l + 0.001 * t.tr * t.finalSize);
                       }
                       "html" === S
                         ? (tt = w.toCSS())
@@ -11193,10 +11201,10 @@
                           ]),
                         ($ = j);
                     }
-                    D <= a
+                    P <= a
                       ? ((F = new LetterProps($, H, W, q, tt, et)),
                         this.renderedLetters.push(F),
-                        (D += 1),
+                        (P += 1),
                         (this.lettersChangedFlag = !0))
                       : ((F = this.renderedLetters[a]),
                         (this.lettersChangedFlag =
@@ -11480,8 +11488,8 @@
                 var c = this.mHelper,
                   h = this.data.singleShape,
                   u = 0,
-                  d = 0,
-                  f = !0,
+                  f = 0,
+                  d = !0,
                   p = 0.001 * i.tr * i.finalSize;
                 if (!h || l || i.sz) {
                   var m,
@@ -11523,10 +11531,10 @@
                       h &&
                         (s[t].n &&
                           ((u = -p),
-                          (d += i.yOffset),
-                          (d += f ? 1 : 0),
-                          (f = !1)),
-                        this.applyTextPropertiesToMatrix(i, c, s[t].line, u, d),
+                          (f += i.yOffset),
+                          (f += d ? 1 : 0),
+                          (d = !1)),
+                        this.applyTextPropertiesToMatrix(i, c, s[t].line, u, f),
                         (u += s[t].l || 0),
                         (u += p)),
                       l)
@@ -11542,16 +11550,16 @@
                       )
                         g = new SVGCompElement(m.data, this.globalData, this);
                       else {
-                        var k = emptyShapeData;
+                        var v = emptyShapeData;
                         m.data &&
                           m.data.shapes &&
-                          (k = this.buildShapeData(m.data, i.finalSize)),
-                          (g = new SVGShapeElement(k, this.globalData, this));
+                          (v = this.buildShapeData(m.data, i.finalSize)),
+                          (g = new SVGShapeElement(v, this.globalData, this));
                       }
                       if (this.textSpans[t].glyph) {
-                        var v = this.textSpans[t].glyph;
-                        this.textSpans[t].childSpan.removeChild(v.layerElement),
-                          v.destroy();
+                        var k = this.textSpans[t].glyph;
+                        this.textSpans[t].childSpan.removeChild(k.layerElement),
+                          k.destroy();
                       }
                       (this.textSpans[t].glyph = g),
                         (g._debug = !0),
@@ -11598,7 +11606,7 @@
                     b.setAttribute("letter-spacing", p);
                   var E = this.buildTextContents(i.finalText);
                   for (
-                    e = E.length, d = i.ps ? i.ps[1] + i.ascent : 0, t = 0;
+                    e = E.length, f = i.ps ? i.ps[1] + i.ascent : 0, t = 0;
                     t < e;
                     t += 1
                   )
@@ -11606,13 +11614,13 @@
                       this.textSpans[t].span || createNS("tspan")).textContent =
                       E[t]),
                       o.setAttribute("x", 0),
-                      o.setAttribute("y", d),
+                      o.setAttribute("y", f),
                       (o.style.display = "inherit"),
                       b.appendChild(o),
                       this.textSpans[t] ||
                         (this.textSpans[t] = {span: null, glyph: null}),
                       (this.textSpans[t].span = o),
-                      (d += i.finalLineHeight);
+                      (f += i.finalLineHeight);
                   this.layerElement.appendChild(b);
                 }
                 for (; t < this.textSpans.length; )
@@ -12834,8 +12842,8 @@
                   c,
                   h,
                   u = t.length - 1,
-                  d = [],
                   f = [],
+                  d = [],
                   p = [].concat(a);
                 for (n = u; n >= 0; n -= 1) {
                   if (
@@ -12850,7 +12858,7 @@
                     l
                       ? (e[n].style.closed = !1)
                       : (e[n] = this.createStyleElement(t[n], p)),
-                      d.push(e[n].style);
+                      f.push(e[n].style);
                   else if ("gr" === t[n].ty) {
                     if (l)
                       for (s = e[n].it.length, o = 0; o < s; o += 1)
@@ -12887,7 +12895,7 @@
                             ),
                             (e[n] = c),
                             this.shapeModifiers.push(c)),
-                        f.push(c))
+                        d.push(c))
                       : "rp" === t[n].ty &&
                         (l
                           ? ((c = e[n]).closed = !0)
@@ -12896,18 +12904,18 @@
                             c.init(this, t, n, e),
                             this.shapeModifiers.push(c),
                             (r = !1)),
-                        f.push(c));
+                        d.push(c));
                   this.addProcessedElement(t[n], n + 1);
                 }
                 for (
                   this.removeTransformFromStyleList(),
-                    this.closeStyles(d),
-                    u = f.length,
+                    this.closeStyles(f),
+                    u = d.length,
                     n = 0;
                   n < u;
                   n += 1
                 )
-                  f[n].closed = !0;
+                  d[n].closed = !0;
               }),
               (CVShapeElement.prototype.renderInnerContent = function () {
                 (this.transformHelper.opacity = 1),
@@ -13117,10 +13125,10 @@
                       h = Math.atan2(l[1] - s[1], l[0] - s[0]),
                       u = e.h.v;
                     u >= 1 ? (u = 0.99) : u <= -1 && (u = -0.99);
-                    var d = c * u,
-                      f = Math.cos(h + e.a.v) * d + s[0],
-                      p = Math.sin(h + e.a.v) * d + s[1];
-                    r = o.createRadialGradient(f, p, 0, s[0], s[1], c);
+                    var f = c * u,
+                      d = Math.cos(h + e.a.v) * f + s[0],
+                      p = Math.sin(h + e.a.v) * f + s[1];
+                    r = o.createRadialGradient(d, p, 0, s[0], s[1], c);
                   }
                   var m = t.g.p,
                     y = e.g.c,
@@ -13207,8 +13215,8 @@
                   c,
                   h,
                   u,
-                  d,
                   f,
+                  d,
                   p,
                   m = this.globalData.fontManager.getFontByName(t.f),
                   y = t.l,
@@ -13220,8 +13228,8 @@
                     this.globalData.fontManager.getFontByName(t.f).fFamily),
                   (a = t.finalText.length);
                 var g = this.data.singleShape,
-                  k = 0.001 * t.tr * t.finalSize,
-                  v = 0,
+                  v = 0.001 * t.tr * t.finalSize,
+                  k = 0,
                   b = 0,
                   A = !0,
                   E = 0;
@@ -13237,48 +13245,48 @@
                     x.reset(),
                     g &&
                       y[r].n &&
-                      ((v = -k), (b += t.yOffset), (b += A ? 1 : 0), (A = !1)),
+                      ((k = -v), (b += t.yOffset), (b += A ? 1 : 0), (A = !1)),
                     (u = (c = o.shapes ? o.shapes[0].it : []).length),
                     x.scale(t.finalSize / 100, t.finalSize / 100),
                     g &&
-                      this.applyTextPropertiesToMatrix(t, x, y[r].line, v, b),
-                    (f = createSizedArray(u - 1));
+                      this.applyTextPropertiesToMatrix(t, x, y[r].line, k, b),
+                    (d = createSizedArray(u - 1));
                   var w = 0;
                   for (h = 0; h < u; h += 1)
                     if ("sh" === c[h].ty) {
                       for (
-                        l = c[h].ks.k.i.length, d = c[h].ks.k, p = [], s = 1;
+                        l = c[h].ks.k.i.length, f = c[h].ks.k, p = [], s = 1;
                         s < l;
                         s += 1
                       )
                         1 === s &&
                           p.push(
-                            x.applyToX(d.v[0][0], d.v[0][1], 0),
-                            x.applyToY(d.v[0][0], d.v[0][1], 0)
+                            x.applyToX(f.v[0][0], f.v[0][1], 0),
+                            x.applyToY(f.v[0][0], f.v[0][1], 0)
                           ),
                           p.push(
-                            x.applyToX(d.o[s - 1][0], d.o[s - 1][1], 0),
-                            x.applyToY(d.o[s - 1][0], d.o[s - 1][1], 0),
-                            x.applyToX(d.i[s][0], d.i[s][1], 0),
-                            x.applyToY(d.i[s][0], d.i[s][1], 0),
-                            x.applyToX(d.v[s][0], d.v[s][1], 0),
-                            x.applyToY(d.v[s][0], d.v[s][1], 0)
+                            x.applyToX(f.o[s - 1][0], f.o[s - 1][1], 0),
+                            x.applyToY(f.o[s - 1][0], f.o[s - 1][1], 0),
+                            x.applyToX(f.i[s][0], f.i[s][1], 0),
+                            x.applyToY(f.i[s][0], f.i[s][1], 0),
+                            x.applyToX(f.v[s][0], f.v[s][1], 0),
+                            x.applyToY(f.v[s][0], f.v[s][1], 0)
                           );
                       p.push(
-                        x.applyToX(d.o[s - 1][0], d.o[s - 1][1], 0),
-                        x.applyToY(d.o[s - 1][0], d.o[s - 1][1], 0),
-                        x.applyToX(d.i[0][0], d.i[0][1], 0),
-                        x.applyToY(d.i[0][0], d.i[0][1], 0),
-                        x.applyToX(d.v[0][0], d.v[0][1], 0),
-                        x.applyToY(d.v[0][0], d.v[0][1], 0)
+                        x.applyToX(f.o[s - 1][0], f.o[s - 1][1], 0),
+                        x.applyToY(f.o[s - 1][0], f.o[s - 1][1], 0),
+                        x.applyToX(f.i[0][0], f.i[0][1], 0),
+                        x.applyToY(f.i[0][0], f.i[0][1], 0),
+                        x.applyToX(f.v[0][0], f.v[0][1], 0),
+                        x.applyToY(f.v[0][0], f.v[0][1], 0)
                       ),
-                        (f[w] = p),
+                        (d[w] = p),
                         (w += 1);
                     }
-                  g && ((v += y[r].l), (v += k)),
+                  g && ((k += y[r].l), (k += v)),
                     this.textSpans[E]
-                      ? (this.textSpans[E].elem = f)
-                      : (this.textSpans[E] = {elem: f}),
+                      ? (this.textSpans[E].elem = d)
+                      : (this.textSpans[E] = {elem: d}),
                     (E += 1);
                 }
               }),
@@ -13301,8 +13309,8 @@
                 var c,
                   h,
                   u = null,
-                  d = null,
                   f = null,
+                  d = null,
                   p = this.globalData.renderer;
                 for (t = 0; t < e; t += 1)
                   if (!l[t].n) {
@@ -13343,14 +13351,14 @@
                     if (this.stroke) {
                       for (
                         o && o.sw
-                          ? f !== o.sw && ((f = o.sw), p.ctxLineWidth(o.sw))
-                          : f !== this.values.sWidth &&
-                            ((f = this.values.sWidth),
+                          ? d !== o.sw && ((d = o.sw), p.ctxLineWidth(o.sw))
+                          : d !== this.values.sWidth &&
+                            ((d = this.values.sWidth),
                             p.ctxLineWidth(this.values.sWidth)),
                           o && o.sc
-                            ? d !== o.sc && ((d = o.sc), p.ctxStrokeStyle(o.sc))
-                            : d !== this.values.stroke &&
-                              ((d = this.values.stroke),
+                            ? f !== o.sc && ((f = o.sc), p.ctxStrokeStyle(o.sc))
+                            : f !== this.values.stroke &&
+                              ((f = this.values.stroke),
                               p.ctxStrokeStyle(this.values.stroke)),
                           r = (c = this.textSpans[t].elem).length,
                           this.globalData.canvasContext.beginPath(),
@@ -14184,27 +14192,27 @@
                       [t[0], r[0]],
                       [t[1], r[1]]
                     ],
-                    d = 0;
-                  d < 2;
-                  ++d
+                    f = 0;
+                  f < 2;
+                  ++f
                 )
-                  (n = 6 * t[d] - 12 * e[d] + 6 * i[d]),
-                    (a = -3 * t[d] + 9 * e[d] - 9 * i[d] + 3 * r[d]),
-                    (o = 3 * e[d] - 3 * t[d]),
+                  (n = 6 * t[f] - 12 * e[f] + 6 * i[f]),
+                    (a = -3 * t[f] + 9 * e[f] - 9 * i[f] + 3 * r[f]),
+                    (o = 3 * e[f] - 3 * t[f]),
                     (n |= 0),
                     (o |= 0),
                     (0 === (a |= 0) && 0 === n) ||
                       (0 === a
                         ? (s = -o / n) > 0 &&
                           s < 1 &&
-                          u[d].push(this.calculateF(s, t, e, i, r, d))
+                          u[f].push(this.calculateF(s, t, e, i, r, f))
                         : (l = n * n - 4 * o * a) >= 0 &&
                           ((c = (-n + bmSqrt(l)) / (2 * a)) > 0 &&
                             c < 1 &&
-                            u[d].push(this.calculateF(c, t, e, i, r, d)),
+                            u[f].push(this.calculateF(c, t, e, i, r, f)),
                           (h = (-n - bmSqrt(l)) / (2 * a)) > 0 &&
                             h < 1 &&
-                            u[d].push(this.calculateF(h, t, e, i, r, d))));
+                            u[f].push(this.calculateF(h, t, e, i, r, f))));
                 (this.shapeBoundingBox.left = bmMin.apply(null, u[0])),
                   (this.shapeBoundingBox.top = bmMin.apply(null, u[1])),
                   (this.shapeBoundingBox.right = bmMax.apply(null, u[0])),
@@ -14375,8 +14383,8 @@
                   h,
                   u = t.l;
                 a = u.length;
-                var d,
-                  f = this.mHelper,
+                var f,
+                  d = this.mHelper,
                   p = "",
                   m = 0;
                 for (r = 0; r < a; r += 1) {
@@ -14415,13 +14423,13 @@
                       );
                     if (
                       ((y = x ? x.data : null),
-                      f.reset(),
+                      d.reset(),
                       y &&
                         y.shapes &&
                         y.shapes.length &&
-                        ((d = y.shapes[0].it),
-                        f.scale(t.finalSize / 100, t.finalSize / 100),
-                        (p = this.createPathShape(f, d)),
+                        ((f = y.shapes[0].it),
+                        d.scale(t.finalSize / 100, t.finalSize / 100),
+                        (p = this.createPathShape(d, f)),
                         l.setAttribute("d", p)),
                       this.isMasked)
                     )
@@ -14443,15 +14451,15 @@
                               " " +
                               (g.height + 2)
                           );
-                        var k = h.style,
-                          v =
+                        var v = h.style,
+                          k =
                             "translate(" +
                             (g.x - 1) +
                             "px," +
                             (g.y - 1) +
                             "px)";
-                        (k.transform = v),
-                          (k.webkitTransform = v),
+                        (v.transform = k),
+                          (v.webkitTransform = k),
                           (u[r].yOffset = g.y - 1);
                       } else
                         h.setAttribute("width", 1), h.setAttribute("height", 1);
@@ -14702,7 +14710,7 @@
                     this.mat.translate(0, 0, this.pe.v);
                   var h = !this._prevMat.equals(this.mat);
                   if ((h || this.pe._mdf) && this.comp.threeDElements) {
-                    var u, d, f;
+                    var u, f, d;
                     for (
                       e = this.comp.threeDElements.length, t = 0;
                       t < e;
@@ -14711,13 +14719,13 @@
                       if ("3d" === (u = this.comp.threeDElements[t]).type) {
                         if (h) {
                           var p = this.mat.toCSS();
-                          ((f = u.container.style).transform = p),
-                            (f.webkitTransform = p);
+                          ((d = u.container.style).transform = p),
+                            (d.webkitTransform = p);
                         }
                         this.pe._mdf &&
-                          (((d = u.perspectiveElem.style).perspective =
+                          (((f = u.perspectiveElem.style).perspective =
                             this.pe.v + "px"),
-                          (d.webkitPerspective = this.pe.v + "px"));
+                          (f.webkitPerspective = this.pe.v + "px"));
                       }
                     this.mat.clone(this._prevMat);
                   }
@@ -15150,32 +15158,32 @@
                     } catch (n) {}
                 return r.length ? r : "string" == a ? t : t + "\0";
               }
-              function d(t, e) {
+              function f(t, e) {
                 for (var i, r = t + "", a = 0; a < r.length; )
                   e[l & a] = l & ((i ^= 19 * e[l & a]) + r.charCodeAt(a++));
-                return f(e);
+                return d(e);
               }
-              function f(t) {
+              function d(t) {
                 return String.fromCharCode.apply(0, t);
               }
               (e["seed" + a] = function (l, p, m) {
                 var y = [],
-                  x = d(
+                  x = f(
                     u(
                       (p = !0 === p ? {entropy: !0} : p || {}).entropy
-                        ? [l, f(t)]
+                        ? [l, d(t)]
                         : null === l
                         ? (function () {
                             try {
                               var e = new Uint8Array(r);
                               return (
                                 (i.crypto || i.msCrypto).getRandomValues(e),
-                                f(e)
+                                d(e)
                               );
                             } catch (o) {
                               var a = i.navigator,
                                 n = a && a.plugins;
-                              return [+new Date(), i, n, i.screen, f(t)];
+                              return [+new Date(), i, n, i.screen, d(t)];
                             }
                           })()
                         : l,
@@ -15184,21 +15192,21 @@
                     y
                   ),
                   g = new c(y),
-                  k = function () {
+                  v = function () {
                     for (var t = g.g(6), e = n, i = 0; t < o; )
                       (t = (t + i) * r), (e *= r), (i = g.g(1));
                     for (; t >= s; ) (t /= 2), (e /= 2), (i >>>= 1);
                     return (t + i) / e;
                   };
                 return (
-                  (k.int32 = function () {
+                  (v.int32 = function () {
                     return 0 | g.g(4);
                   }),
-                  (k.quick = function () {
+                  (v.quick = function () {
                     return g.g(4) / 4294967296;
                   }),
-                  (k.double = k),
-                  d(f(g.S), t),
+                  (v.double = v),
+                  f(d(g.S), t),
                   (
                     p.pass ||
                     m ||
@@ -15212,10 +15220,10 @@
                         r ? ((e[a] = t), i) : t
                       );
                     }
-                  )(k, x, "global" in p ? p.global : this == e, p.state)
+                  )(v, x, "global" in p ? p.global : this == e, p.state)
                 );
               }),
-                d(e.random(), t);
+                f(e.random(), t);
             }
             function initialize$2(t) {
               seedRandom([], t);
@@ -16296,7 +16304,7 @@
                     (u.sampleImage = l),
                     (u.sourceRectAtTime = c.sourceRectAtTime.bind(c)),
                     (u._elem = c);
-                  var d = getDescriptor(
+                  var f = getDescriptor(
                     (h = TransformExpressionInterface(c.finalTransform.mProp)),
                     "anchorPoint"
                   );
@@ -16316,8 +16324,8 @@
                       scale: getDescriptor(h, "scale"),
                       position: getDescriptor(h, "position"),
                       opacity: getDescriptor(h, "opacity"),
-                      anchorPoint: d,
-                      anchor_point: d,
+                      anchorPoint: f,
+                      anchor_point: f,
                       transform: {
                         get: function () {
                           return h;
@@ -16483,37 +16491,37 @@
                 );
               },
               ShapeExpressionInterface = (function () {
-                function t(t, o, d) {
-                  var f,
+                function t(t, o, f) {
+                  var d,
                     p = [],
                     m = t ? t.length : 0;
-                  for (f = 0; f < m; f += 1)
-                    "gr" === t[f].ty
-                      ? p.push(e(t[f], o[f], d))
-                      : "fl" === t[f].ty
-                      ? p.push(i(t[f], o[f], d))
-                      : "st" === t[f].ty
-                      ? p.push(a(t[f], o[f], d))
-                      : "tm" === t[f].ty
-                      ? p.push(n(t[f], o[f], d))
-                      : "tr" === t[f].ty ||
-                        ("el" === t[f].ty
-                          ? p.push(s(t[f], o[f], d))
-                          : "sr" === t[f].ty
-                          ? p.push(l(t[f], o[f], d))
-                          : "sh" === t[f].ty
-                          ? p.push(ShapePathInterface(t[f], o[f], d))
-                          : "rc" === t[f].ty
-                          ? p.push(c(t[f], o[f], d))
-                          : "rd" === t[f].ty
-                          ? p.push(h(t[f], o[f], d))
-                          : "rp" === t[f].ty
-                          ? p.push(u(t[f], o[f], d))
-                          : "gf" === t[f].ty
-                          ? p.push(r(t[f], o[f], d))
+                  for (d = 0; d < m; d += 1)
+                    "gr" === t[d].ty
+                      ? p.push(e(t[d], o[d], f))
+                      : "fl" === t[d].ty
+                      ? p.push(i(t[d], o[d], f))
+                      : "st" === t[d].ty
+                      ? p.push(a(t[d], o[d], f))
+                      : "tm" === t[d].ty
+                      ? p.push(n(t[d], o[d], f))
+                      : "tr" === t[d].ty ||
+                        ("el" === t[d].ty
+                          ? p.push(s(t[d], o[d], f))
+                          : "sr" === t[d].ty
+                          ? p.push(l(t[d], o[d], f))
+                          : "sh" === t[d].ty
+                          ? p.push(ShapePathInterface(t[d], o[d], f))
+                          : "rc" === t[d].ty
+                          ? p.push(c(t[d], o[d], f))
+                          : "rd" === t[d].ty
+                          ? p.push(h(t[d], o[d], f))
+                          : "rp" === t[d].ty
+                          ? p.push(u(t[d], o[d], f))
+                          : "gf" === t[d].ty
+                          ? p.push(r(t[d], o[d], f))
                           : p.push(
-                              (t[f],
-                              o[f],
+                              (t[d],
+                              o[d],
                               function () {
                                 return null;
                               })
@@ -17135,11 +17143,11 @@
                         a / this.comp.globalData.frameRate,
                         0
                       ),
-                      d = this.getValueAtTime(
+                      f = this.getValueAtTime(
                         h / this.comp.globalData.frameRate,
                         0
                       ),
-                      f = this.getValueAtTime(
+                      d = this.getValueAtTime(
                         (((l - a) % r) + a) / this.comp.globalData.frameRate,
                         0
                       ),
@@ -17150,10 +17158,10 @@
                         n < o;
                         n += 1
                       )
-                        s[n] = (d[n] - u[n]) * p + f[n];
+                        s[n] = (f[n] - u[n]) * p + d[n];
                       return s;
                     }
-                    return (d - u) * p + f;
+                    return (f - u) * p + d;
                   }
                   if ("continue" === t) {
                     var m = this.getValueAtTime(
@@ -17219,11 +17227,11 @@
                         h / this.comp.globalData.frameRate,
                         0
                       ),
-                      d = this.getValueAtTime(
+                      f = this.getValueAtTime(
                         a / this.comp.globalData.frameRate,
                         0
                       ),
-                      f = this.getValueAtTime(
+                      d = this.getValueAtTime(
                         (r - ((h - l) % r) + h) /
                           this.comp.globalData.frameRate,
                         0
@@ -17235,10 +17243,10 @@
                         n < o;
                         n += 1
                       )
-                        s[n] = f[n] - (d[n] - u[n]) * p;
+                        s[n] = d[n] - (f[n] - u[n]) * p;
                       return s;
                     }
-                    return f - (d - u) * p;
+                    return d - (f - u) * p;
                   }
                   if ("continue" === t) {
                     var m = this.getValueAtTime(
@@ -17339,15 +17347,15 @@
                 }
                 if (this.data.p && this.data.p.s) {
                   var u = this.px.getValueAtTime(t),
-                    d = this.py.getValueAtTime(t);
+                    f = this.py.getValueAtTime(t);
                   if (this.data.p.z) {
-                    var f = this.pz.getValueAtTime(t);
+                    var d = this.pz.getValueAtTime(t);
                     e.translate(
                       u * this.px.mult,
-                      d * this.py.mult,
-                      -f * this.pz.mult
+                      f * this.py.mult,
+                      -d * this.pz.mult
                     );
-                  } else e.translate(u * this.px.mult, d * this.py.mult, 0);
+                  } else e.translate(u * this.px.mult, f * this.py.mult, 0);
                 } else {
                   var p = this.p.getValueAtTime(t);
                   e.translate(
@@ -17461,13 +17469,13 @@
                     if (c + n[s].addedLength > o) {
                       var h = s,
                         u = i.c && s === l - 1 ? 0 : s + 1,
-                        d = (o - c) / n[s].addedLength;
+                        f = (o - c) / n[s].addedLength;
                       r = bez.getPointInSegment(
                         i.v[h],
                         i.v[u],
                         i.o[h],
                         i.i[u],
-                        d,
+                        f,
                         n[s]
                       );
                       break;
@@ -17936,8 +17944,8 @@
                             this.filterManager.effectElements[4].p.v *
                             this.filterManager.effectElements[9].p.v *
                             0.01,
-                        d = Math.floor(h / u);
-                      for (c = 0; c < d; c += 1)
+                        f = Math.floor(h / u);
+                      for (c = 0; c < f; c += 1)
                         n +=
                           "1 " +
                           2 *
@@ -17970,15 +17978,15 @@
                     2 === this.filterManager.effectElements[10].p.v) &&
                     (t || this.filterManager.effectElements[3].p._mdf))
                 ) {
-                  var f = this.filterManager.effectElements[3].p.v;
+                  var d = this.filterManager.effectElements[3].p.v;
                   this.pathMasker.setAttribute(
                     "stroke",
                     "rgb(" +
-                      bmFloor(255 * f[0]) +
+                      bmFloor(255 * d[0]) +
                       "," +
-                      bmFloor(255 * f[1]) +
+                      bmFloor(255 * d[1]) +
                       "," +
-                      bmFloor(255 * f[2]) +
+                      bmFloor(255 * d[2]) +
                       ")"
                   );
                 }
@@ -18015,21 +18023,21 @@
                     c = Math.max(t, e),
                     h = Array.call(null, {length: 256}),
                     u = 0,
-                    d = a - r,
-                    f = e - t;
+                    f = a - r,
+                    d = e - t;
                   s <= 256;
 
                 )
                   (o =
                     (n = s / 256) <= l
-                      ? f < 0
+                      ? d < 0
                         ? a
                         : r
                       : n >= c
-                      ? f < 0
+                      ? d < 0
                         ? r
                         : a
-                      : r + d * Math.pow((n - t) / f, 1 / i)),
+                      : r + f * Math.pow((n - t) / d, 1 / i)),
                     (h[u] = o),
                     (u += 1),
                     (s += 256 / 255);
@@ -18496,16 +18504,16 @@
         if (!s || !l) {
           var h = 0,
             u = 0,
-            d = [],
-            f = 1e3 / 60;
+            f = [],
+            d = 1e3 / 60;
           (s = function (t) {
-            if (0 === d.length) {
+            if (0 === f.length) {
               var e = r(),
-                i = Math.max(0, f - (e - h));
+                i = Math.max(0, d - (e - h));
               (h = i + e),
                 setTimeout(function () {
-                  var t = d.slice(0);
-                  d.length = 0;
+                  var t = f.slice(0);
+                  f.length = 0;
                   for (var e = 0; e < t.length; e++)
                     if (!t[e].cancelled)
                       try {
@@ -18517,11 +18525,11 @@
                       }
                 }, Math.round(i));
             }
-            return d.push({handle: ++u, callback: t, cancelled: !1}), u;
+            return f.push({handle: ++u, callback: t, cancelled: !1}), u;
           }),
             (l = function (t) {
-              for (var e = 0; e < d.length; e++)
-                d[e].handle === t && (d[e].cancelled = !0);
+              for (var e = 0; e < f.length; e++)
+                f[e].handle === t && (f[e].cancelled = !0);
             });
         }
         (t.exports = function (t) {
@@ -18571,13 +18579,13 @@
           c = null,
           h = !1,
           u = null,
-          d = {
+          f = {
             onError: function (t) {
               (l = !0), (c = t);
             }
           };
-        function f(t, e, i, r, a, n, o, h, u) {
-          (l = !1), (c = null), s.apply(d, arguments);
+        function d(t, e, i, r, a, n, o, h, u) {
+          (l = !1), (c = null), s.apply(f, arguments);
         }
         var p = null,
           m = null,
@@ -18585,8 +18593,8 @@
         function x(t, e, i) {
           var r = t.type || "unknown-event";
           (t.currentTarget = y(i)),
-            (function (t, e, i, r, a, n, s, d, p) {
-              if ((f.apply(this, arguments), l)) {
+            (function (t, e, i, r, a, n, s, f, p) {
+              if ((d.apply(this, arguments), l)) {
                 if (!l) throw Error(o(198));
                 var m = c;
                 (l = !1), (c = null), h || ((h = !0), (u = m));
@@ -18595,11 +18603,11 @@
             (t.currentTarget = null);
         }
         var g = null,
-          k = {};
-        function v() {
+          v = {};
+        function k() {
           if (g)
-            for (var t in k) {
-              var e = k[t],
+            for (var t in v) {
+              var e = v[t],
                 i = g.indexOf(t);
               if (!(-1 < i)) throw Error(o(96, t));
               if (!A[i]) {
@@ -18632,20 +18640,20 @@
           E = {},
           w = {},
           S = {};
-        function D(t) {
+        function P(t) {
           var e,
             i = !1;
           for (e in t)
             if (t.hasOwnProperty(e)) {
               var r = t[e];
-              if (!k.hasOwnProperty(e) || k[e] !== r) {
-                if (k[e]) throw Error(o(102, e));
-                (k[e] = r), (i = !0);
+              if (!v.hasOwnProperty(e) || v[e] !== r) {
+                if (v[e]) throw Error(o(102, e));
+                (v[e] = r), (i = !0);
               }
             }
-          i && v();
+          i && k();
         }
-        var P = !(
+        var D = !(
             "undefined" === typeof window ||
             "undefined" === typeof window.document ||
             "undefined" === typeof window.document.createElement
@@ -18695,8 +18703,8 @@
         }
         var z =
             /^[:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD][:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD\-.0-9\u00B7\u0300-\u036F\u203F-\u2040]*$/,
-          Z = Object.prototype.hasOwnProperty,
-          Y = {},
+          Y = Object.prototype.hasOwnProperty,
+          Z = {},
           H = {};
         function W(t, e, i, r, a, n) {
           (this.acceptsBooleans = 2 === e || 3 === e || 4 === e),
@@ -18843,9 +18851,9 @@
             r || null === a
               ? (function (t) {
                   return (
-                    !!Z.call(H, t) ||
-                    (!Z.call(Y, t) &&
-                      (z.test(t) ? (H[t] = !0) : ((Y[t] = !0), !1)))
+                    !!Y.call(H, t) ||
+                    (!Y.call(Z, t) &&
+                      (z.test(t) ? (H[t] = !0) : ((Z[t] = !0), !1)))
                   );
                 })(e) &&
                 (null === i ? t.removeAttribute(e) : t.setAttribute(e, "" + i))
@@ -18879,8 +18887,8 @@
           ct = X ? Symbol.for("react.suspense") : 60113,
           ht = X ? Symbol.for("react.suspense_list") : 60120,
           ut = X ? Symbol.for("react.memo") : 60115,
-          dt = X ? Symbol.for("react.lazy") : 60116,
-          ft = X ? Symbol.for("react.block") : 60121,
+          ft = X ? Symbol.for("react.lazy") : 60116,
+          dt = X ? Symbol.for("react.block") : 60121,
           pt = "function" === typeof Symbol && Symbol.iterator;
         function mt(t) {
           return null === t || "object" !== typeof t
@@ -18922,9 +18930,9 @@
                 );
               case ut:
                 return yt(t.type);
-              case ft:
-                return yt(t.render);
               case dt:
+                return yt(t.render);
+              case ft:
                 if ((t = 1 === t._status ? t._result : null)) return yt(t);
             }
           return null;
@@ -18975,7 +18983,7 @@
               return "";
           }
         }
-        function kt(t) {
+        function vt(t) {
           var e = t.type;
           return (
             (t = t.nodeName) &&
@@ -18983,10 +18991,10 @@
             ("checkbox" === e || "radio" === e)
           );
         }
-        function vt(t) {
+        function kt(t) {
           t._valueTracker ||
             (t._valueTracker = (function (t) {
-              var e = kt(t) ? "checked" : "value",
+              var e = vt(t) ? "checked" : "value",
                 i = Object.getOwnPropertyDescriptor(t.constructor.prototype, e),
                 r = "" + t[e];
               if (
@@ -19030,7 +19038,7 @@
           var i = e.getValue(),
             r = "";
           return (
-            t && (r = kt(t) ? (t.checked ? "true" : "false") : t.value),
+            t && (r = vt(t) ? (t.checked ? "true" : "false") : t.value),
             (t = r) !== i && (e.setValue(t), !0)
           );
         }
@@ -19071,14 +19079,14 @@
           else if ("submit" === r || "reset" === r)
             return void t.removeAttribute("value");
           e.hasOwnProperty("value")
-            ? Pt(t, e.type, i)
+            ? Dt(t, e.type, i)
             : e.hasOwnProperty("defaultValue") &&
-              Pt(t, e.type, gt(e.defaultValue)),
+              Dt(t, e.type, gt(e.defaultValue)),
             null == e.checked &&
               null != e.defaultChecked &&
               (t.defaultChecked = !!e.defaultChecked);
         }
-        function Dt(t, e, i) {
+        function Pt(t, e, i) {
           if (e.hasOwnProperty("value") || e.hasOwnProperty("defaultValue")) {
             var r = e.type;
             if (
@@ -19096,7 +19104,7 @@
             (t.defaultChecked = !!t._wrapperState.initialChecked),
             "" !== i && (t.name = i);
         }
-        function Pt(t, e, i) {
+        function Dt(t, e, i) {
           ("number" === e && t.ownerDocument.activeElement === t) ||
             (null == i
               ? (t.defaultValue = "" + t._wrapperState.initialValue)
@@ -19236,30 +19244,30 @@
             i
           );
         }
-        var Zt = {
+        var Yt = {
             animationend: zt("Animation", "AnimationEnd"),
             animationiteration: zt("Animation", "AnimationIteration"),
             animationstart: zt("Animation", "AnimationStart"),
             transitionend: zt("Transition", "TransitionEnd")
           },
-          Yt = {},
+          Zt = {},
           Ht = {};
         function Wt(t) {
-          if (Yt[t]) return Yt[t];
-          if (!Zt[t]) return t;
+          if (Zt[t]) return Zt[t];
+          if (!Yt[t]) return t;
           var e,
-            i = Zt[t];
+            i = Yt[t];
           for (e in i)
-            if (i.hasOwnProperty(e) && e in Ht) return (Yt[t] = i[e]);
+            if (i.hasOwnProperty(e) && e in Ht) return (Zt[t] = i[e]);
           return t;
         }
-        P &&
+        D &&
           ((Ht = document.createElement("div").style),
           "AnimationEvent" in window ||
-            (delete Zt.animationend.animation,
-            delete Zt.animationiteration.animation,
-            delete Zt.animationstart.animation),
-          "TransitionEvent" in window || delete Zt.transitionend.transition);
+            (delete Yt.animationend.animation,
+            delete Yt.animationiteration.animation,
+            delete Yt.animationstart.animation),
+          "TransitionEvent" in window || delete Yt.transitionend.transition);
         var qt = Wt("animationend"),
           $t = Wt("animationiteration"),
           Qt = Wt("animationstart"),
@@ -19422,7 +19430,7 @@
           );
         }
         function he(t) {
-          if (!P) return !1;
+          if (!D) return !1;
           var e = (t = "on" + t) in document;
           return (
             e ||
@@ -19432,14 +19440,14 @@
           );
         }
         var ue = [];
-        function de(t) {
+        function fe(t) {
           (t.topLevelType = null),
             (t.nativeEvent = null),
             (t.targetInst = null),
             (t.ancestors.length = 0),
             10 > ue.length && ue.push(t);
         }
-        function fe(t, e, i, r) {
+        function de(t, e, i, r) {
           if (ue.length) {
             var a = ue.pop();
             return (
@@ -19519,15 +19527,15 @@
         var ye,
           xe,
           ge,
-          ke = !1,
-          ve = [],
+          ve = !1,
+          ke = [],
           be = null,
           Ae = null,
           Ee = null,
           we = new Map(),
           Se = new Map(),
-          De = [],
-          Pe =
+          Pe = [],
+          De =
             "mousedown mouseup touchcancel touchend touchstart auxclick dblclick pointercancel pointerdown pointerup dragend dragstart drop compositionend compositionstart keydown keypress keyup input textInput close cancel copy cut paste click change contextmenu reset submit".split(
               " "
             ),
@@ -19611,8 +19619,8 @@
           Fe(t) && i.delete(e);
         }
         function Ge() {
-          for (ke = !1; 0 < ve.length; ) {
-            var t = ve[0];
+          for (ve = !1; 0 < ke.length; ) {
+            var t = ke[0];
             if (null !== t.blockedOn) {
               null !== (t = Fi(t.blockedOn)) && ye(t);
               break;
@@ -19623,7 +19631,7 @@
               t.container,
               t.nativeEvent
             );
-            null !== e ? (t.blockedOn = e) : ve.shift();
+            null !== e ? (t.blockedOn = e) : ke.shift();
           }
           null !== be && Fe(be) && (be = null),
             null !== Ae && Fe(Ae) && (Ae = null),
@@ -19634,18 +19642,18 @@
         function Ie(t, e) {
           t.blockedOn === e &&
             ((t.blockedOn = null),
-            ke ||
-              ((ke = !0),
+            ve ||
+              ((ve = !0),
               n.unstable_scheduleCallback(n.unstable_NormalPriority, Ge)));
         }
         function Le(t) {
           function e(e) {
             return Ie(e, t);
           }
-          if (0 < ve.length) {
-            Ie(ve[0], t);
-            for (var i = 1; i < ve.length; i++) {
-              var r = ve[i];
+          if (0 < ke.length) {
+            Ie(ke[0], t);
+            for (var i = 1; i < ke.length; i++) {
+              var r = ke[i];
               r.blockedOn === t && (r.blockedOn = null);
             }
           }
@@ -19656,12 +19664,12 @@
               we.forEach(e),
               Se.forEach(e),
               i = 0;
-            i < De.length;
+            i < Pe.length;
             i++
           )
-            (r = De[i]).blockedOn === t && (r.blockedOn = null);
-          for (; 0 < De.length && null === (i = De[0]).blockedOn; )
-            Te(i), null === i.blockedOn && De.shift();
+            (r = Pe[i]).blockedOn === t && (r.blockedOn = null);
+          for (; 0 < Pe.length && null === (i = Pe[0]).blockedOn; )
+            Te(i), null === i.blockedOn && Pe.shift();
         }
         var Oe = {},
           Ne = new Map(),
@@ -19747,15 +19755,15 @@
           ),
           ze(Re, 2);
         for (
-          var Ze =
+          var Ye =
               "change selectionchange textInput compositionstart compositionend compositionupdate".split(
                 " "
               ),
-            Ye = 0;
-          Ye < Ze.length;
-          Ye++
+            Ze = 0;
+          Ze < Ye.length;
+          Ze++
         )
-          je.set(Ze[Ye], 0);
+          je.set(Ye[Ze], 0);
         var He = n.unstable_UserBlockingPriority,
           We = n.unstable_runWithPriority,
           qe = !0;
@@ -19792,12 +19800,12 @@
         }
         function Ke(t, e, i, r) {
           if (qe)
-            if (0 < ve.length && -1 < Pe.indexOf(t))
-              (t = _e(null, t, e, i, r)), ve.push(t);
+            if (0 < ke.length && -1 < De.indexOf(t))
+              (t = _e(null, t, e, i, r)), ke.push(t);
             else {
               var a = Xe(t, e, i, r);
               if (null === a) Be(t, r);
-              else if (-1 < Pe.indexOf(t)) (t = _e(a, t, e, i, r)), ve.push(t);
+              else if (-1 < De.indexOf(t)) (t = _e(a, t, e, i, r)), ke.push(t);
               else if (
                 !(function (t, e, i, r, a) {
                   switch (e) {
@@ -19822,11 +19830,11 @@
                   return !1;
                 })(a, t, e, i, r)
               ) {
-                Be(t, r), (t = fe(t, r, null, e));
+                Be(t, r), (t = de(t, r, null, e));
                 try {
                   R(pe, t);
                 } finally {
-                  de(t);
+                  fe(t);
                 }
               }
             }
@@ -19847,11 +19855,11 @@
               } else a !== i && (i = null);
             }
           }
-          t = fe(t, r, i, e);
+          t = de(t, r, i, e);
           try {
             R(pe, t);
           } finally {
-            de(t);
+            fe(t);
           }
           return null;
         }
@@ -20006,7 +20014,7 @@
           for (; t && t.firstChild; ) t = t.firstChild;
           return t;
         }
-        function di(t, e) {
+        function fi(t, e) {
           var i,
             r = ui(t);
           for (t = 0; r; ) {
@@ -20028,13 +20036,13 @@
             r = ui(r);
           }
         }
-        function fi(t, e) {
+        function di(t, e) {
           return (
             !(!t || !e) &&
             (t === e ||
               ((!t || 3 !== t.nodeType) &&
                 (e && 3 === e.nodeType
-                  ? fi(t, e.parentNode)
+                  ? di(t, e.parentNode)
                   : "contains" in t
                   ? t.contains(e)
                   : !!t.compareDocumentPosition &&
@@ -20070,8 +20078,8 @@
         var yi = "$",
           xi = "/$",
           gi = "$?",
-          ki = "$!",
-          vi = null,
+          vi = "$!",
+          ki = null,
           bi = null;
         function Ai(t, e) {
           switch (t) {
@@ -20097,19 +20105,19 @@
         }
         var wi = "function" === typeof setTimeout ? setTimeout : void 0,
           Si = "function" === typeof clearTimeout ? clearTimeout : void 0;
-        function Di(t) {
+        function Pi(t) {
           for (; null != t; t = t.nextSibling) {
             var e = t.nodeType;
             if (1 === e || 3 === e) break;
           }
           return t;
         }
-        function Pi(t) {
+        function Di(t) {
           t = t.previousSibling;
           for (var e = 0; t; ) {
             if (8 === t.nodeType) {
               var i = t.data;
-              if (i === yi || i === ki || i === gi) {
+              if (i === yi || i === vi || i === gi) {
                 if (0 === e) return t;
                 e--;
               } else i === xi && e++;
@@ -20131,9 +20139,9 @@
                 ((i = e.alternate),
                 null !== e.child || (null !== i && null !== i.child))
               )
-                for (t = Pi(t); null !== t; ) {
+                for (t = Di(t); null !== t; ) {
                   if ((i = t[_i])) return i;
-                  t = Pi(t);
+                  t = Di(t);
                 }
               return e;
             }
@@ -20220,16 +20228,16 @@
         function zi(t) {
           ne(t, Ni);
         }
-        var Zi = null,
-          Yi = null,
+        var Yi = null,
+          Zi = null,
           Hi = null;
         function Wi() {
           if (Hi) return Hi;
           var t,
             e,
-            i = Yi,
+            i = Zi,
             r = i.length,
-            a = "value" in Zi ? Zi.value : Zi.textContent,
+            a = "value" in Yi ? Yi.value : Yi.textContent,
             n = a.length;
           for (t = 0; t < r && i[t] === a[t]; t++);
           var o = r - t;
@@ -20347,11 +20355,11 @@
         var Xi = Qi.extend({data: null}),
           tr = Qi.extend({data: null}),
           er = [9, 13, 27, 32],
-          ir = P && "CompositionEvent" in window,
+          ir = D && "CompositionEvent" in window,
           rr = null;
-        P && "documentMode" in document && (rr = document.documentMode);
-        var ar = P && "TextEvent" in window && !rr,
-          nr = P && (!ir || (rr && 8 < rr && 11 >= rr)),
+        D && "documentMode" in document && (rr = document.documentMode);
+        var ar = D && "TextEvent" in window && !rr,
+          nr = D && (!ir || (rr && 8 < rr && 11 >= rr)),
           or = String.fromCharCode(32),
           sr = {
             beforeInput: {
@@ -20413,7 +20421,7 @@
             : null;
         }
         var ur = !1;
-        var dr = {
+        var fr = {
             eventTypes: sr,
             extractEvents: function (t, e, i, r) {
               var a;
@@ -20444,8 +20452,8 @@
                       "ko" !== i.locale &&
                       (ur || n !== sr.compositionStart
                         ? n === sr.compositionEnd && ur && (a = Wi())
-                        : ((Yi =
-                            "value" in (Zi = r) ? Zi.value : Zi.textContent),
+                        : ((Zi =
+                            "value" in (Yi = r) ? Yi.value : Yi.textContent),
                           (ur = !0))),
                     (n = Xi.getPooled(n, e, i, r)),
                     a ? (n.data = a) : null !== (a = hr(i)) && (n.data = a),
@@ -20468,7 +20476,7 @@
                   : (function (t, e) {
                       if (ur)
                         return "compositionend" === t || (!ir && cr(t, e))
-                          ? ((t = Wi()), (Hi = Yi = Zi = null), (ur = !1), t)
+                          ? ((t = Wi()), (Hi = Zi = Yi = null), (ur = !1), t)
                           : null;
                       switch (t) {
                         case "paste":
@@ -20494,7 +20502,7 @@
               );
             }
           },
-          fr = {
+          dr = {
             color: !0,
             date: !0,
             datetime: !0,
@@ -20513,7 +20521,7 @@
           };
         function pr(t) {
           var e = t && t.nodeName && t.nodeName.toLowerCase();
-          return "input" === e ? !!fr[t.type] : "textarea" === e;
+          return "input" === e ? !!dr[t.type] : "textarea" === e;
         }
         var mr = {
           change: {
@@ -20537,10 +20545,10 @@
         }
         var xr = null,
           gr = null;
-        function kr(t) {
+        function vr(t) {
           le(t);
         }
-        function vr(t) {
+        function kr(t) {
           if (bt(Vi(t))) return t;
         }
         function br(t, e) {
@@ -20551,12 +20559,12 @@
           xr && (xr.detachEvent("onpropertychange", wr), (gr = xr = null));
         }
         function wr(t) {
-          if ("value" === t.propertyName && vr(gr))
+          if ("value" === t.propertyName && kr(gr))
             if (((t = yr(gr, t, ce(t))), O)) le(t);
             else {
               O = !0;
               try {
-                V(kr, t);
+                V(vr, t);
               } finally {
                 (O = !1), j();
               }
@@ -20567,17 +20575,17 @@
             ? (Er(), (gr = i), (xr = e).attachEvent("onpropertychange", wr))
             : "blur" === t && Er();
         }
-        function Dr(t) {
+        function Pr(t) {
           if ("selectionchange" === t || "keyup" === t || "keydown" === t)
-            return vr(gr);
+            return kr(gr);
         }
-        function Pr(t, e) {
-          if ("click" === t) return vr(e);
+        function Dr(t, e) {
+          if ("click" === t) return kr(e);
         }
         function Cr(t, e) {
-          if ("input" === t || "change" === t) return vr(e);
+          if ("input" === t || "change" === t) return kr(e);
         }
-        P &&
+        D &&
           (Ar =
             he("input") &&
             (!document.documentMode || 9 < document.documentMode));
@@ -20592,21 +20600,21 @@
               else if (pr(a))
                 if (Ar) o = Cr;
                 else {
-                  o = Dr;
+                  o = Pr;
                   var s = Sr;
                 }
               else
                 (n = a.nodeName) &&
                   "input" === n.toLowerCase() &&
                   ("checkbox" === a.type || "radio" === a.type) &&
-                  (o = Pr);
+                  (o = Dr);
               if (o && (o = o(t, e))) return yr(o, i, r);
               s && s(t, a, e),
                 "blur" === t &&
                   (t = a._wrapperState) &&
                   t.controlled &&
                   "number" === a.type &&
-                  Pt(a, "number", a.value);
+                  Dt(a, "number", a.value);
             }
           },
           Br = Qi.extend({view: null, detail: null}),
@@ -20789,8 +20797,8 @@
                     (t !== t && e !== e)
                   );
                 },
-          Zr = Object.prototype.hasOwnProperty;
-        function Yr(t, e) {
+          Yr = Object.prototype.hasOwnProperty;
+        function Zr(t, e) {
           if (zr(t, e)) return !0;
           if (
             "object" !== typeof t ||
@@ -20803,10 +20811,10 @@
             r = Object.keys(e);
           if (i.length !== r.length) return !1;
           for (r = 0; r < i.length; r++)
-            if (!Zr.call(e, i[r]) || !zr(t[i[r]], e[i[r]])) return !1;
+            if (!Yr.call(e, i[r]) || !zr(t[i[r]], e[i[r]])) return !1;
           return !0;
         }
-        var Hr = P && "documentMode" in document && 11 >= document.documentMode,
+        var Hr = D && "documentMode" in document && 11 >= document.documentMode,
           Wr = {
             select: {
               phasedRegistrationNames: {
@@ -20843,7 +20851,7 @@
                     focusNode: i.focusNode,
                     focusOffset: i.focusOffset
                   }),
-              Qr && Yr(Qr, i)
+              Qr && Zr(Qr, i)
                 ? null
                 : ((Qr = i),
                   ((t = Qi.getPooled(Wr.select, $r, t, e)).type = "select"),
@@ -21131,30 +21139,30 @@
             " "
           )
         )),
-          v(),
+          k(),
           (p = Gi),
           (m = Fi),
           (y = Vi),
-          D({
+          P({
             SimpleEventPlugin: ha,
             EnterLeaveEventPlugin: Rr,
             ChangeEventPlugin: _r,
             SelectEventPlugin: Kr,
-            BeforeInputEventPlugin: dr
+            BeforeInputEventPlugin: fr
           });
         var ua = [],
-          da = -1;
-        function fa(t) {
-          0 > da || ((t.current = ua[da]), (ua[da] = null), da--);
+          fa = -1;
+        function da(t) {
+          0 > fa || ((t.current = ua[fa]), (ua[fa] = null), fa--);
         }
         function pa(t, e) {
-          da++, (ua[da] = t.current), (t.current = e);
+          fa++, (ua[fa] = t.current), (t.current = e);
         }
         var ma = {},
           ya = {current: ma},
           xa = {current: !1},
           ga = ma;
-        function ka(t, e) {
+        function va(t, e) {
           var i = t.type.contextTypes;
           if (!i) return ma;
           var r = t.stateNode;
@@ -21171,11 +21179,11 @@
             n
           );
         }
-        function va(t) {
+        function ka(t) {
           return null !== (t = t.childContextTypes) && void 0 !== t;
         }
         function ba() {
-          fa(xa), fa(ya);
+          da(xa), da(ya);
         }
         function Aa(t, e, i) {
           if (ya.current !== ma) throw Error(o(168));
@@ -21209,14 +21217,14 @@
           i
             ? ((t = Ea(t, e, ga)),
               (r.__reactInternalMemoizedMergedChildContext = t),
-              fa(xa),
-              fa(ya),
+              da(xa),
+              da(ya),
               pa(ya, t))
-            : fa(xa),
+            : da(xa),
             pa(xa, i);
         }
-        var Da = n.unstable_runWithPriority,
-          Pa = n.unstable_scheduleCallback,
+        var Pa = n.unstable_runWithPriority,
+          Da = n.unstable_scheduleCallback,
           Ca = n.unstable_cancelCallback,
           _a = n.unstable_requestPaint,
           Ba = n.unstable_now,
@@ -21232,12 +21240,12 @@
           ja = null,
           Ra = null,
           za = !1,
-          Za = Ba(),
-          Ya =
-            1e4 > Za
+          Ya = Ba(),
+          Za =
+            1e4 > Ya
               ? Ba
               : function () {
-                  return Ba() - Za;
+                  return Ba() - Ya;
                 };
         function Ha() {
           switch (Ma()) {
@@ -21272,13 +21280,13 @@
           }
         }
         function qa(t, e) {
-          return (t = Wa(t)), Da(t, e);
+          return (t = Wa(t)), Pa(t, e);
         }
         function $a(t, e, i) {
-          return (t = Wa(t)), Pa(t, e, i);
+          return (t = Wa(t)), Da(t, e, i);
         }
         function Qa(t) {
-          return null === ja ? ((ja = [t]), (Ra = Pa(Ta, Ja))) : ja.push(t), La;
+          return null === ja ? ((ja = [t]), (Ra = Da(Ta, Ja))) : ja.push(t), La;
         }
         function Ua() {
           if (null !== Ra) {
@@ -21303,7 +21311,7 @@
               }),
                 (ja = null);
             } catch (i) {
-              throw (null !== ja && (ja = ja.slice(t + 1)), Pa(Ta, Ua), i);
+              throw (null !== ja && (ja = ja.slice(t + 1)), Da(Ta, Ua), i);
             } finally {
               za = !1;
             }
@@ -21329,7 +21337,7 @@
         }
         function on(t) {
           var e = tn.current;
-          fa(tn), (t.type._context._currentValue = e);
+          da(tn), (t.type._context._currentValue = e);
         }
         function sn(t, e) {
           for (; null !== t; ) {
@@ -21380,7 +21388,7 @@
             effects: null
           };
         }
-        function dn(t, e) {
+        function fn(t, e) {
           (t = t.updateQueue),
             e.updateQueue === t &&
               (e.updateQueue = {
@@ -21390,7 +21398,7 @@
                 effects: t.effects
               });
         }
-        function fn(t, e) {
+        function dn(t, e) {
           return ((t = {
             expirationTime: t,
             suspenseConfig: e,
@@ -21409,7 +21417,7 @@
         }
         function mn(t, e) {
           var i = t.alternate;
-          null !== i && dn(i, t),
+          null !== i && fn(i, t),
             null === (i = (t = t.updateQueue).baseQueue)
               ? ((t.baseQueue = e.next = e), (e.next = e))
               : ((e.next = i.next), (i.next = e));
@@ -21435,8 +21443,8 @@
             var c = n.baseState,
               h = 0,
               u = null,
-              d = null,
-              f = null;
+              f = null,
+              d = null;
             if (null !== l)
               for (var p = l; ; ) {
                 if ((s = p.expirationTime) < r) {
@@ -21448,11 +21456,11 @@
                     callback: p.callback,
                     next: null
                   };
-                  null === f ? ((d = f = m), (u = c)) : (f = f.next = m),
+                  null === d ? ((f = d = m), (u = c)) : (d = d.next = m),
                     s > h && (h = s);
                 } else {
-                  null !== f &&
-                    (f = f.next =
+                  null !== d &&
+                    (d = d.next =
                       {
                         expirationTime: 1073741823,
                         suspenseConfig: p.suspenseConfig,
@@ -21503,9 +21511,9 @@
                     (n.shared.pending = null);
                 }
               }
-            null === f ? (u = c) : (f.next = d),
+            null === d ? (u = c) : (d.next = f),
               (n.baseState = u),
-              (n.baseQueue = f),
+              (n.baseQueue = d),
               El(h),
               (t.expirationTime = h),
               (t.memoizedState = c);
@@ -21529,8 +21537,8 @@
             }
         }
         var gn = U.ReactCurrentBatchConfig,
-          kn = new r.Component().refs;
-        function vn(t, e, i, r) {
+          vn = new r.Component().refs;
+        function kn(t, e, i, r) {
           (i =
             null === (i = i(r, (e = t.memoizedState))) || void 0 === i
               ? e
@@ -21546,7 +21554,7 @@
             t = t._reactInternalFiber;
             var r = cl(),
               a = gn.suspense;
-            ((a = fn((r = hl(r, t, a)), a)).payload = e),
+            ((a = dn((r = hl(r, t, a)), a)).payload = e),
               void 0 !== i && null !== i && (a.callback = i),
               pn(t, a),
               ul(t, r);
@@ -21555,7 +21563,7 @@
             t = t._reactInternalFiber;
             var r = cl(),
               a = gn.suspense;
-            ((a = fn((r = hl(r, t, a)), a)).tag = 1),
+            ((a = dn((r = hl(r, t, a)), a)).tag = 1),
               (a.payload = e),
               void 0 !== i && null !== i && (a.callback = i),
               pn(t, a),
@@ -21565,7 +21573,7 @@
             t = t._reactInternalFiber;
             var i = cl(),
               r = gn.suspense;
-            ((r = fn((i = hl(i, t, r)), r)).tag = 2),
+            ((r = dn((i = hl(i, t, r)), r)).tag = 2),
               void 0 !== e && null !== e && (r.callback = e),
               pn(t, r),
               ul(t, i);
@@ -21576,8 +21584,8 @@
             ? t.shouldComponentUpdate(r, n, o)
             : !e.prototype ||
                 !e.prototype.isPureReactComponent ||
-                !Yr(i, r) ||
-                !Yr(a, n);
+                !Zr(i, r) ||
+                !Zr(a, n);
         }
         function En(t, e, i) {
           var r = !1,
@@ -21586,9 +21594,9 @@
           return (
             "object" === typeof n && null !== n
               ? (n = cn(n))
-              : ((a = va(e) ? ga : ya.current),
+              : ((a = ka(e) ? ga : ya.current),
                 (n = (r = null !== (r = e.contextTypes) && void 0 !== r)
-                  ? ka(t, a)
+                  ? va(t, a)
                   : ma)),
             (e = new e(i, n)),
             (t.memoizedState =
@@ -21613,15 +21621,15 @@
         }
         function Sn(t, e, i, r) {
           var a = t.stateNode;
-          (a.props = i), (a.state = t.memoizedState), (a.refs = kn), un(t);
+          (a.props = i), (a.state = t.memoizedState), (a.refs = vn), un(t);
           var n = e.contextType;
           "object" === typeof n && null !== n
             ? (a.context = cn(n))
-            : ((n = va(e) ? ga : ya.current), (a.context = ka(t, n))),
+            : ((n = ka(e) ? ga : ya.current), (a.context = va(t, n))),
             yn(t, i, a, r),
             (a.state = t.memoizedState),
             "function" === typeof (n = e.getDerivedStateFromProps) &&
-              (vn(t, e, n, i), (a.state = t.memoizedState)),
+              (kn(t, e, n, i), (a.state = t.memoizedState)),
             "function" === typeof e.getDerivedStateFromProps ||
               "function" === typeof a.getSnapshotBeforeUpdate ||
               ("function" !== typeof a.UNSAFE_componentWillMount &&
@@ -21636,8 +21644,8 @@
               (a.state = t.memoizedState)),
             "function" === typeof a.componentDidMount && (t.effectTag |= 4);
         }
-        var Dn = Array.isArray;
-        function Pn(t, e, i) {
+        var Pn = Array.isArray;
+        function Dn(t, e, i) {
           if (
             null !== (t = i.ref) &&
             "function" !== typeof t &&
@@ -21657,7 +21665,7 @@
                 ? e.ref
                 : ((e = function (t) {
                     var e = r.refs;
-                    e === kn && (e = r.refs = {}),
+                    e === vn && (e = r.refs = {}),
                       null === t ? delete e[a] : (e[a] = t);
                   }),
                   (e._stringRef = a),
@@ -21703,7 +21711,7 @@
             return t;
           }
           function a(t, e) {
-            return ((t = Zl(t, e)).index = 0), (t.sibling = null), t;
+            return ((t = Yl(t, e)).index = 0), (t.sibling = null), t;
           }
           function n(e, i, r) {
             return (
@@ -21727,8 +21735,8 @@
           }
           function c(t, e, i, r) {
             return null !== e && e.elementType === i.type
-              ? (((r = a(e, i.props)).ref = Pn(t, e, i)), (r.return = t), r)
-              : (((r = Yl(i.type, i.key, i.props, null, t.mode, r)).ref = Pn(
+              ? (((r = a(e, i.props)).ref = Dn(t, e, i)), (r.return = t), r)
+              : (((r = Zl(i.type, i.key, i.props, null, t.mode, r)).ref = Dn(
                   t,
                   e,
                   i
@@ -21749,14 +21757,14 @@
               ? (((e = Hl(i, t.mode, r, n)).return = t), e)
               : (((e = a(e, i)).return = t), e);
           }
-          function d(t, e, i) {
+          function f(t, e, i) {
             if ("string" === typeof e || "number" === typeof e)
               return ((e = Wl("" + e, t.mode, i)).return = t), e;
             if ("object" === typeof e && null !== e) {
               switch (e.$$typeof) {
                 case tt:
                   return (
-                    ((i = Yl(e.type, e.key, e.props, null, t.mode, i)).ref = Pn(
+                    ((i = Zl(e.type, e.key, e.props, null, t.mode, i)).ref = Dn(
                       t,
                       null,
                       e
@@ -21767,13 +21775,13 @@
                 case et:
                   return ((e = ql(e, t.mode, i)).return = t), e;
               }
-              if (Dn(e) || mt(e))
+              if (Pn(e) || mt(e))
                 return ((e = Hl(e, t.mode, i, null)).return = t), e;
               Cn(t, e);
             }
             return null;
           }
-          function f(t, e, i, r) {
+          function d(t, e, i, r) {
             var a = null !== e ? e.key : null;
             if ("string" === typeof i || "number" === typeof i)
               return null !== a ? null : l(t, e, "" + i, r);
@@ -21788,7 +21796,7 @@
                 case et:
                   return i.key === a ? h(t, e, i, r) : null;
               }
-              if (Dn(i) || mt(i))
+              if (Pn(i) || mt(i))
                 return null !== a ? null : u(t, e, i, r, null);
               Cn(t, i);
             }
@@ -21814,7 +21822,7 @@
                     a
                   );
               }
-              if (Dn(r) || mt(r))
+              if (Pn(r) || mt(r))
                 return u(e, (t = t.get(i) || null), r, a, null);
               Cn(e, r);
             }
@@ -21827,7 +21835,7 @@
               m++
             ) {
               u.index > m ? ((y = u), (u = null)) : (y = u.sibling);
-              var x = f(a, u, s[m], l);
+              var x = d(a, u, s[m], l);
               if (null === x) {
                 null === u && (u = y);
                 break;
@@ -21841,7 +21849,7 @@
             if (m === s.length) return i(a, u), c;
             if (null === u) {
               for (; m < s.length; m++)
-                null !== (u = d(a, s[m], l)) &&
+                null !== (u = f(a, s[m], l)) &&
                   ((o = n(u, o, m)),
                   null === h ? (c = u) : (h.sibling = u),
                   (h = u));
@@ -21873,21 +21881,21 @@
               y++, g = l.next()
             ) {
               m.index > y ? ((x = m), (m = null)) : (x = m.sibling);
-              var k = f(a, m, g.value, c);
-              if (null === k) {
+              var v = d(a, m, g.value, c);
+              if (null === v) {
                 null === m && (m = x);
                 break;
               }
-              t && m && null === k.alternate && e(a, m),
-                (s = n(k, s, y)),
-                null === u ? (h = k) : (u.sibling = k),
-                (u = k),
+              t && m && null === v.alternate && e(a, m),
+                (s = n(v, s, y)),
+                null === u ? (h = v) : (u.sibling = v),
+                (u = v),
                 (m = x);
             }
             if (g.done) return i(a, m), h;
             if (null === m) {
               for (; !g.done; y++, g = l.next())
-                null !== (g = d(a, g.value, c)) &&
+                null !== (g = f(a, g.value, c)) &&
                   ((s = n(g, s, y)),
                   null === u ? (h = g) : (u.sibling = g),
                   (u = g));
@@ -21932,7 +21940,7 @@
                           }
                         } else if (c.elementType === n.type) {
                           i(t, c.sibling),
-                            ((r = a(c, n.props)).ref = Pn(t, c, n)),
+                            ((r = a(c, n.props)).ref = Dn(t, c, n)),
                             (r.return = t),
                             (t = r);
                           break t;
@@ -21946,14 +21954,14 @@
                       ? (((r = Hl(n.props.children, t.mode, l, n.key)).return =
                           t),
                         (t = r))
-                      : (((l = Yl(
+                      : (((l = Zl(
                           n.type,
                           n.key,
                           n.props,
                           null,
                           t.mode,
                           l
-                        )).ref = Pn(t, r, n)),
+                        )).ref = Dn(t, r, n)),
                         (l.return = t),
                         (t = l));
                   }
@@ -21989,7 +21997,7 @@
                   : (i(t, r), ((r = Wl(n, t.mode, l)).return = t), (t = r)),
                 s(t)
               );
-            if (Dn(n)) return m(t, r, n, l);
+            if (Pn(n)) return m(t, r, n, l);
             if (mt(n)) return y(t, r, n, l);
             if ((h && Cn(t, n), "undefined" === typeof n && !c))
               switch (t.tag) {
@@ -22025,10 +22033,10 @@
                 (t = t.tagName)
               );
           }
-          fa(Fn), pa(Fn, e);
+          da(Fn), pa(Fn, e);
         }
         function On() {
-          fa(Fn), fa(Vn), fa(Gn);
+          da(Fn), da(Vn), da(Gn);
         }
         function Nn(t) {
           In(Gn.current);
@@ -22037,7 +22045,7 @@
           e !== i && (pa(Vn, t), pa(Fn, i));
         }
         function jn(t) {
-          Vn.current === t && (fa(Fn), fa(Vn));
+          Vn.current === t && (da(Fn), da(Vn));
         }
         var Rn = {current: 0};
         function zn(t) {
@@ -22046,7 +22054,7 @@
               var i = e.memoizedState;
               if (
                 null !== i &&
-                (null === (i = i.dehydrated) || i.data === gi || i.data === ki)
+                (null === (i = i.dehydrated) || i.data === gi || i.data === vi)
               )
                 return e;
             } else if (19 === e.tag && void 0 !== e.memoizedProps.revealOrder) {
@@ -22064,10 +22072,10 @@
           }
           return null;
         }
-        function Zn(t, e) {
+        function Yn(t, e) {
           return {responder: t, props: e};
         }
-        var Yn = U.ReactCurrentDispatcher,
+        var Zn = U.ReactCurrentDispatcher,
           Hn = U.ReactCurrentBatchConfig,
           Wn = 0,
           qn = null,
@@ -22090,7 +22098,7 @@
             (e.memoizedState = null),
             (e.updateQueue = null),
             (e.expirationTime = 0),
-            (Yn.current = null === t || null === t.memoizedState ? Eo : wo),
+            (Zn.current = null === t || null === t.memoizedState ? Eo : wo),
             (t = i(r, a)),
             e.expirationTime === Wn)
           ) {
@@ -22100,12 +22108,12 @@
               (n += 1),
                 (Qn = $n = null),
                 (e.updateQueue = null),
-                (Yn.current = So),
+                (Zn.current = So),
                 (t = i(r, a));
             } while (e.expirationTime === Wn);
           }
           if (
-            ((Yn.current = Ao),
+            ((Zn.current = Ao),
             (e = null !== $n && null !== $n.next),
             (Wn = 0),
             (Qn = $n = qn = null),
@@ -22317,7 +22325,7 @@
             ? r[0]
             : ((i.memoizedState = [t, e]), t);
         }
-        function ko(t, e) {
+        function vo(t, e) {
           var i = eo();
           e = void 0 === e ? null : e;
           var r = i.memoizedState;
@@ -22325,7 +22333,7 @@
             ? r[0]
             : ((t = t()), (i.memoizedState = [t, e]), t);
         }
-        function vo(t, e, i) {
+        function ko(t, e, i) {
           var r = Ha();
           qa(98 > r ? 98 : r, function () {
             t(!0);
@@ -22434,7 +22442,7 @@
             },
             useState: no,
             useDebugValue: yo,
-            useResponder: Zn,
+            useResponder: Yn,
             useDeferredValue: function (t, e) {
               var i = no(t),
                 r = i[0],
@@ -22458,7 +22466,7 @@
             useTransition: function (t) {
               var e = no(!1),
                 i = e[0];
-              return (e = e[1]), [xo(vo.bind(null, e, t), [e, t]), i];
+              return (e = e[1]), [xo(ko.bind(null, e, t), [e, t]), i];
             }
           },
           wo = {
@@ -22468,14 +22476,14 @@
             useEffect: uo,
             useImperativeHandle: mo,
             useLayoutEffect: fo,
-            useMemo: ko,
+            useMemo: vo,
             useReducer: ro,
             useRef: so,
             useState: function () {
               return ro(io);
             },
             useDebugValue: yo,
-            useResponder: Zn,
+            useResponder: Yn,
             useDeferredValue: function (t, e) {
               var i = ro(io),
                 r = i[0],
@@ -22499,7 +22507,7 @@
             useTransition: function (t) {
               var e = ro(io),
                 i = e[0];
-              return (e = e[1]), [go(vo.bind(null, e, t), [e, t]), i];
+              return (e = e[1]), [go(ko.bind(null, e, t), [e, t]), i];
             }
           },
           So = {
@@ -22509,14 +22517,14 @@
             useEffect: uo,
             useImperativeHandle: mo,
             useLayoutEffect: fo,
-            useMemo: ko,
+            useMemo: vo,
             useReducer: ao,
             useRef: so,
             useState: function () {
               return ao(io);
             },
             useDebugValue: yo,
-            useResponder: Zn,
+            useResponder: Yn,
             useDeferredValue: function (t, e) {
               var i = ao(io),
                 r = i[0],
@@ -22540,11 +22548,11 @@
             useTransition: function (t) {
               var e = ao(io),
                 i = e[0];
-              return (e = e[1]), [go(vo.bind(null, e, t), [e, t]), i];
+              return (e = e[1]), [go(ko.bind(null, e, t), [e, t]), i];
             }
           },
-          Do = null,
           Po = null,
+          Do = null,
           Co = !1;
         function _o(t, e) {
           var i = Rl(5, null, null, 0);
@@ -22581,21 +22589,21 @@
         }
         function Mo(t) {
           if (Co) {
-            var e = Po;
+            var e = Do;
             if (e) {
               var i = e;
               if (!Bo(t, e)) {
-                if (!(e = Di(i.nextSibling)) || !Bo(t, e))
+                if (!(e = Pi(i.nextSibling)) || !Bo(t, e))
                   return (
                     (t.effectTag = (-1025 & t.effectTag) | 2),
                     (Co = !1),
-                    void (Do = t)
+                    void (Po = t)
                   );
-                _o(Do, i);
+                _o(Po, i);
               }
-              (Do = t), (Po = Di(e.firstChild));
+              (Po = t), (Do = Pi(e.firstChild));
             } else
-              (t.effectTag = (-1025 & t.effectTag) | 2), (Co = !1), (Do = t);
+              (t.effectTag = (-1025 & t.effectTag) | 2), (Co = !1), (Po = t);
           }
         }
         function To(t) {
@@ -22605,17 +22613,17 @@
 
           )
             t = t.return;
-          Do = t;
+          Po = t;
         }
         function Fo(t) {
-          if (t !== Do) return !1;
+          if (t !== Po) return !1;
           if (!Co) return To(t), (Co = !0), !1;
           var e = t.type;
           if (
             5 !== t.tag ||
             ("head" !== e && "body" !== e && !Ei(e, t.memoizedProps))
           )
-            for (e = Po; e; ) _o(t, e), (e = Di(e.nextSibling));
+            for (e = Do; e; ) _o(t, e), (e = Pi(e.nextSibling));
           if ((To(t), 13 === t.tag)) {
             if (!(t = null !== (t = t.memoizedState) ? t.dehydrated : null))
               throw Error(o(317));
@@ -22625,21 +22633,21 @@
                   var i = t.data;
                   if (i === xi) {
                     if (0 === e) {
-                      Po = Di(t.nextSibling);
+                      Do = Pi(t.nextSibling);
                       break t;
                     }
                     e--;
-                  } else (i !== yi && i !== ki && i !== gi) || e++;
+                  } else (i !== yi && i !== vi && i !== gi) || e++;
                 }
                 t = t.nextSibling;
               }
-              Po = null;
+              Do = null;
             }
-          } else Po = Do ? Di(t.stateNode.nextSibling) : null;
+          } else Do = Po ? Pi(t.stateNode.nextSibling) : null;
           return !0;
         }
         function Vo() {
-          (Po = Do = null), (Co = !1);
+          (Do = Po = null), (Co = !1);
         }
         var Go = U.ReactCurrentOwner,
           Io = !1;
@@ -22668,7 +22676,7 @@
               void 0 !== o.defaultProps ||
               null !== i.compare ||
               void 0 !== i.defaultProps
-              ? (((t = Yl(i.type, null, r, null, e.mode, n)).ref = e.ref),
+              ? (((t = Zl(i.type, null, r, null, e.mode, n)).ref = e.ref),
                 (t.return = e),
                 (e.child = t))
               : ((e.tag = 15), (e.type = o), jo(t, e, o, r, a, n));
@@ -22677,17 +22685,17 @@
             (o = t.child),
             a < n &&
             ((a = o.memoizedProps),
-            (i = null !== (i = i.compare) ? i : Yr)(a, r) && t.ref === e.ref)
+            (i = null !== (i = i.compare) ? i : Zr)(a, r) && t.ref === e.ref)
               ? es(t, e, n)
               : ((e.effectTag |= 1),
-                ((t = Zl(o, r)).ref = e.ref),
+                ((t = Yl(o, r)).ref = e.ref),
                 (t.return = e),
                 (e.child = t))
           );
         }
         function jo(t, e, i, r, a, n) {
           return null !== t &&
-            Yr(t.memoizedProps, r) &&
+            Zr(t.memoizedProps, r) &&
             t.ref === e.ref &&
             ((Io = !1), a < n)
             ? ((e.expirationTime = t.expirationTime), es(t, e, n))
@@ -22699,9 +22707,9 @@
             (e.effectTag |= 128);
         }
         function zo(t, e, i, r, a) {
-          var n = va(i) ? ga : ya.current;
+          var n = ka(i) ? ga : ya.current;
           return (
-            (n = ka(e, n)),
+            (n = va(e, n)),
             ln(e, a),
             (i = Xn(t, e, i, r, n, a)),
             null === t || Io
@@ -22712,8 +22720,8 @@
                 es(t, e, a))
           );
         }
-        function Zo(t, e, i, r, a) {
-          if (va(i)) {
+        function Yo(t, e, i, r, a) {
+          if (ka(i)) {
             var n = !0;
             wa(e);
           } else n = !1;
@@ -22731,7 +22739,7 @@
               c = i.contextType;
             "object" === typeof c && null !== c
               ? (c = cn(c))
-              : (c = ka(e, (c = va(i) ? ga : ya.current)));
+              : (c = va(e, (c = ka(i) ? ga : ya.current)));
             var h = i.getDerivedStateFromProps,
               u =
                 "function" === typeof h ||
@@ -22741,14 +22749,14 @@
                 "function" !== typeof o.componentWillReceiveProps) ||
               ((s !== r || l !== c) && wn(e, o, r, c)),
               (hn = !1);
-            var d = e.memoizedState;
-            (o.state = d),
+            var f = e.memoizedState;
+            (o.state = f),
               yn(e, r, o, a),
               (l = e.memoizedState),
-              s !== r || d !== l || xa.current || hn
+              s !== r || f !== l || xa.current || hn
                 ? ("function" === typeof h &&
-                    (vn(e, i, h, r), (l = e.memoizedState)),
-                  (s = hn || An(e, i, s, r, d, l, c))
+                    (kn(e, i, h, r), (l = e.memoizedState)),
+                  (s = hn || An(e, i, s, r, f, l, c))
                     ? (u ||
                         ("function" !== typeof o.UNSAFE_componentWillMount &&
                           "function" !== typeof o.componentWillMount) ||
@@ -22771,13 +22779,13 @@
                   (r = !1));
           } else
             (o = e.stateNode),
-              dn(t, e),
+              fn(t, e),
               (s = e.memoizedProps),
               (o.props = e.type === e.elementType ? s : Xa(e.type, s)),
               (l = o.context),
               "object" === typeof (c = i.contextType) && null !== c
                 ? (c = cn(c))
-                : (c = ka(e, (c = va(i) ? ga : ya.current))),
+                : (c = va(e, (c = ka(i) ? ga : ya.current))),
               (u =
                 "function" === typeof (h = i.getDerivedStateFromProps) ||
                 "function" === typeof o.getSnapshotBeforeUpdate) ||
@@ -22788,18 +22796,18 @@
               (l = e.memoizedState),
               (o.state = l),
               yn(e, r, o, a),
-              (d = e.memoizedState),
-              s !== r || l !== d || xa.current || hn
+              (f = e.memoizedState),
+              s !== r || l !== f || xa.current || hn
                 ? ("function" === typeof h &&
-                    (vn(e, i, h, r), (d = e.memoizedState)),
-                  (h = hn || An(e, i, s, r, l, d, c))
+                    (kn(e, i, h, r), (f = e.memoizedState)),
+                  (h = hn || An(e, i, s, r, l, f, c))
                     ? (u ||
                         ("function" !== typeof o.UNSAFE_componentWillUpdate &&
                           "function" !== typeof o.componentWillUpdate) ||
                         ("function" === typeof o.componentWillUpdate &&
-                          o.componentWillUpdate(r, d, c),
+                          o.componentWillUpdate(r, f, c),
                         "function" === typeof o.UNSAFE_componentWillUpdate &&
-                          o.UNSAFE_componentWillUpdate(r, d, c)),
+                          o.UNSAFE_componentWillUpdate(r, f, c)),
                       "function" === typeof o.componentDidUpdate &&
                         (e.effectTag |= 4),
                       "function" === typeof o.getSnapshotBeforeUpdate &&
@@ -22811,9 +22819,9 @@
                         (s === t.memoizedProps && l === t.memoizedState) ||
                         (e.effectTag |= 256),
                       (e.memoizedProps = r),
-                      (e.memoizedState = d)),
+                      (e.memoizedState = f)),
                   (o.props = r),
-                  (o.state = d),
+                  (o.state = f),
                   (o.context = c),
                   (r = h))
                 : ("function" !== typeof o.componentDidUpdate ||
@@ -22823,9 +22831,9 @@
                     (s === t.memoizedProps && l === t.memoizedState) ||
                     (e.effectTag |= 256),
                   (r = !1));
-          return Yo(t, e, i, r, n, a);
+          return Zo(t, e, i, r, n, a);
         }
-        function Yo(t, e, i, r, a, n) {
+        function Zo(t, e, i, r, a, n) {
           Ro(t, e);
           var o = 0 !== (64 & e.effectTag);
           if (!r && !o) return a && Sa(e, i, !1), es(t, e, n);
@@ -22906,14 +22914,14 @@
             if (((a = (t = t.child).sibling), s)) {
               if (
                 ((n = n.fallback),
-                ((i = Zl(t, t.pendingProps)).return = e),
+                ((i = Yl(t, t.pendingProps)).return = e),
                 0 === (2 & e.mode) &&
                   (s = null !== e.memoizedState ? e.child.child : e.child) !==
                     t.child)
               )
                 for (i.child = s; null !== s; ) (s.return = i), (s = s.sibling);
               return (
-                ((a = Zl(a, n)).return = e),
+                ((a = Yl(a, n)).return = e),
                 (i.sibling = a),
                 (i.childExpirationTime = 0),
                 (e.memoizedState = Uo),
@@ -23043,12 +23051,12 @@
           if (null !== t && e.child !== t.child) throw Error(o(153));
           if (null !== e.child) {
             for (
-              i = Zl((t = e.child), t.pendingProps), e.child = i, i.return = e;
+              i = Yl((t = e.child), t.pendingProps), e.child = i, i.return = e;
               null !== t.sibling;
 
             )
               (t = t.sibling),
-                ((i = i.sibling = Zl(t, t.pendingProps)).return = e);
+                ((i = i.sibling = Yl(t, t.pendingProps)).return = e);
             i.sibling = null;
           }
           return e.child;
@@ -23088,12 +23096,12 @@
               return null;
             case 1:
             case 17:
-              return va(e.type) && ba(), null;
+              return ka(e.type) && ba(), null;
             case 3:
               return (
                 On(),
-                fa(xa),
-                fa(ya),
+                da(xa),
+                da(ya),
                 (i = e.stateNode).pendingContext &&
                   ((i.context = i.pendingContext), (i.pendingContext = null)),
                 (null !== t && null !== t.child) ||
@@ -23163,10 +23171,10 @@
                     }
                   switch (n) {
                     case "input":
-                      vt(r), Dt(r, s, !0);
+                      kt(r), Pt(r, s, !0);
                       break;
                     case "textarea":
-                      vt(r), Ft(r);
+                      kt(r), Ft(r);
                       break;
                     case "select":
                     case "option":
@@ -23272,10 +23280,10 @@
                     }
                   switch (n) {
                     case "input":
-                      vt(t), Dt(t, r, !1);
+                      kt(t), Pt(t, r, !1);
                       break;
                     case "textarea":
-                      vt(t), Ft(t);
+                      kt(t), Ft(t);
                       break;
                     case "option":
                       null != r.value &&
@@ -23316,7 +23324,7 @@
               return null;
             case 13:
               return (
-                fa(Rn),
+                da(Rn),
                 (r = e.memoizedState),
                 0 !== (64 & e.effectTag)
                   ? ((e.expirationTime = i), e)
@@ -23339,8 +23347,8 @@
                       ((null === t &&
                         !0 !== e.memoizedProps.unstable_avoidThisFallback) ||
                       0 !== (1 & Rn.current)
-                        ? Zs === Fs && (Zs = Is)
-                        : ((Zs !== Fs && Zs !== Is) || (Zs = Ls),
+                        ? Ys === Fs && (Ys = Is)
+                        : ((Ys !== Fs && Ys !== Is) || (Ys = Ls),
                           0 !== $s && null !== js && (Ul(js, zs), Jl(js, $s)))),
                     (i || r) && (e.effectTag |= 4),
                     null)
@@ -23350,12 +23358,12 @@
             case 10:
               return on(e), null;
             case 19:
-              if ((fa(Rn), null === (r = e.memoizedState))) return null;
+              if ((da(Rn), null === (r = e.memoizedState))) return null;
               if (
                 ((n = 0 !== (64 & e.effectTag)), null === (s = r.rendering))
               ) {
                 if (n) is(r, !1);
-                else if (Zs !== Fs || (null !== t && 0 !== (64 & t.effectTag)))
+                else if (Ys !== Fs || (null !== t && 0 !== (64 & t.effectTag)))
                   for (s = e.child; null !== s; ) {
                     if (null !== (t = zn(s))) {
                       for (
@@ -23421,7 +23429,7 @@
                         null
                       );
                   } else
-                    2 * Ya() - r.renderingStartTime > r.tailExpiration &&
+                    2 * Za() - r.renderingStartTime > r.tailExpiration &&
                       1 < i &&
                       ((e.effectTag |= 64),
                       (n = !0),
@@ -23433,12 +23441,12 @@
                     (r.last = s));
               }
               return null !== r.tail
-                ? (0 === r.tailExpiration && (r.tailExpiration = Ya() + 500),
+                ? (0 === r.tailExpiration && (r.tailExpiration = Za() + 500),
                   (i = r.tail),
                   (r.rendering = i),
                   (r.tail = i.sibling),
                   (r.lastEffect = e.lastEffect),
-                  (r.renderingStartTime = Ya()),
+                  (r.renderingStartTime = Za()),
                   (i.sibling = null),
                   (e = Rn.current),
                   pa(Rn, n ? (1 & e) | 2 : 1 & e),
@@ -23450,24 +23458,24 @@
         function as(t) {
           switch (t.tag) {
             case 1:
-              va(t.type) && ba();
+              ka(t.type) && ba();
               var e = t.effectTag;
               return 4096 & e ? ((t.effectTag = (-4097 & e) | 64), t) : null;
             case 3:
-              if ((On(), fa(xa), fa(ya), 0 !== (64 & (e = t.effectTag))))
+              if ((On(), da(xa), da(ya), 0 !== (64 & (e = t.effectTag))))
                 throw Error(o(285));
               return (t.effectTag = (-4097 & e) | 64), t;
             case 5:
               return jn(t), null;
             case 13:
               return (
-                fa(Rn),
+                da(Rn),
                 4096 & (e = t.effectTag)
                   ? ((t.effectTag = (-4097 & e) | 64), t)
                   : null
               );
             case 19:
-              return fa(Rn), null;
+              return da(Rn), null;
             case 4:
               return On(), null;
             case 10:
@@ -23656,7 +23664,7 @@
             } while (i !== e);
           }
         }
-        function ds(t, e, i) {
+        function fs(t, e, i) {
           switch (i.tag) {
             case 0:
             case 11:
@@ -23718,7 +23726,7 @@
           }
           throw Error(o(163));
         }
-        function fs(t, e, i) {
+        function ds(t, e, i) {
           switch (("function" === typeof Nl && Nl(e), e.tag)) {
             case 0:
             case 11:
@@ -23761,7 +23769,7 @@
               ls(e);
               break;
             case 4:
-              ks(t, e, i);
+              vs(t, e, i);
           }
         }
         function ps(t) {
@@ -23858,7 +23866,7 @@
             for (gs(t, e, i), t = t.sibling; null !== t; )
               gs(t, e, i), (t = t.sibling);
         }
-        function ks(t, e, i) {
+        function vs(t, e, i) {
           for (var r, a, n = e, s = !1; ; ) {
             if (!s) {
               s = n.return;
@@ -23879,7 +23887,7 @@
             }
             if (5 === n.tag || 6 === n.tag) {
               t: for (var l = t, c = n, h = i, u = c; ; )
-                if ((fs(l, u, h), null !== u.child && 4 !== u.tag))
+                if ((ds(l, u, h), null !== u.child && 4 !== u.tag))
                   (u.child.return = u), (u = u.child);
                 else {
                   if (u === c) break t;
@@ -23904,7 +23912,7 @@
                   (n = n.child);
                 continue;
               }
-            } else if ((fs(t, n, i), null !== n.child)) {
+            } else if ((ds(t, n, i), null !== n.child)) {
               (n.child.return = n), (n = n.child);
               continue;
             }
@@ -23916,7 +23924,7 @@
             (n.sibling.return = n.return), (n = n.sibling);
           }
         }
-        function vs(t, e) {
+        function ks(t, e) {
           switch (e.tag) {
             case 0:
             case 11:
@@ -23991,7 +23999,7 @@
                 ((i = e),
                 null === e.memoizedState
                   ? (r = !1)
-                  : ((r = !0), (i = e.child), (Us = Ya())),
+                  : ((r = !0), (i = e.child), (Us = Za())),
                 null !== i)
               )
                 t: for (t = i; ; ) {
@@ -24052,7 +24060,7 @@
         }
         var As = "function" === typeof WeakMap ? WeakMap : Map;
         function Es(t, e, i) {
-          ((i = fn(i, null)).tag = 3), (i.payload = {element: null});
+          ((i = dn(i, null)).tag = 3), (i.payload = {element: null});
           var r = e.value;
           return (
             (i.callback = function () {
@@ -24062,7 +24070,7 @@
           );
         }
         function ws(t, e, i) {
-          (i = fn(i, null)).tag = 3;
+          (i = dn(i, null)).tag = 3;
           var r = t.type.getDerivedStateFromError;
           if ("function" === typeof r) {
             var a = e.value;
@@ -24087,8 +24095,8 @@
           );
         }
         var Ss,
-          Ds = Math.ceil,
-          Ps = U.ReactCurrentDispatcher,
+          Ps = Math.ceil,
+          Ds = U.ReactCurrentDispatcher,
           Cs = U.ReactCurrentOwner,
           _s = 0,
           Bs = 8,
@@ -24104,8 +24112,8 @@
           js = null,
           Rs = null,
           zs = 0,
-          Zs = Fs,
-          Ys = null,
+          Ys = Fs,
+          Zs = null,
           Hs = 1073741823,
           Ws = 1073741823,
           qs = null,
@@ -24126,10 +24134,10 @@
           ll = 0;
         function cl() {
           return (Ns & (Ms | Ts)) !== _s
-            ? 1073741821 - ((Ya() / 10) | 0)
+            ? 1073741821 - ((Za() / 10) | 0)
             : 0 !== ll
             ? ll
-            : (ll = 1073741821 - ((Ya() / 10) | 0));
+            : (ll = 1073741821 - ((Za() / 10) | 0));
         }
         function hl(t, e, i) {
           if (0 === (2 & (e = e.mode))) return 1073741823;
@@ -24159,7 +24167,7 @@
         }
         function ul(t, e) {
           if (50 < ol) throw ((ol = 0), (sl = null), Error(o(185)));
-          if (null !== (t = dl(t, e))) {
+          if (null !== (t = fl(t, e))) {
             var i = Ha();
             1073741823 === e
               ? (Ns & Bs) !== _s && (Ns & (Ms | Ts)) === _s
@@ -24173,7 +24181,7 @@
                   : (void 0 === (i = nl.get(t)) || i > e) && nl.set(t, e));
           }
         }
-        function dl(t, e) {
+        function fl(t, e) {
           t.expirationTime < e && (t.expirationTime = e);
           var i = t.alternate;
           null !== i && i.expirationTime < e && (i.expirationTime = e);
@@ -24197,11 +24205,11 @@
             }
           return (
             null !== a &&
-              (js === a && (El(e), Zs === Ls && Ul(a, zs)), Jl(a, e)),
+              (js === a && (El(e), Ys === Ls && Ul(a, zs)), Jl(a, e)),
             a
           );
         }
-        function fl(t) {
+        function dl(t) {
           var e = t.lastExpiredTime;
           if (0 !== e) return e;
           if (!Ql(t, (e = t.firstPendingTime))) return e;
@@ -24216,7 +24224,7 @@
               (t.callbackPriority = 99),
               (t.callbackNode = Qa(yl.bind(null, t)));
           else {
-            var e = fl(t),
+            var e = dl(t),
               i = t.callbackNode;
             if (0 === e)
               null !== i &&
@@ -24250,7 +24258,7 @@
                   1073741823 === e
                     ? Qa(yl.bind(null, t))
                     : $a(r, ml.bind(null, t), {
-                        timeout: 10 * (1073741821 - e) - Ya()
+                        timeout: 10 * (1073741821 - e) - Za()
                       })),
                 (t.callbackNode = e);
             }
@@ -24258,11 +24266,11 @@
         }
         function ml(t, e) {
           if (((ll = 0), e)) return Kl(t, (e = cl())), pl(t), null;
-          var i = fl(t);
+          var i = dl(t);
           if (0 !== i) {
             if (((e = t.callbackNode), (Ns & (Ms | Ts)) !== _s))
               throw Error(o(327));
-            if ((Tl(), (t === js && i === zs) || kl(t, i), null !== Rs)) {
+            if ((Tl(), (t === js && i === zs) || vl(t, i), null !== Rs)) {
               var r = Ns;
               Ns |= Ms;
               for (var a = bl(); ; )
@@ -24270,15 +24278,15 @@
                   Sl();
                   break;
                 } catch (l) {
-                  vl(t, l);
+                  kl(t, l);
                 }
-              if ((nn(), (Ns = r), (Ps.current = a), Zs === Vs))
-                throw ((e = Ys), kl(t, i), Ul(t, i), pl(t), e);
+              if ((nn(), (Ns = r), (Ds.current = a), Ys === Vs))
+                throw ((e = Zs), vl(t, i), Ul(t, i), pl(t), e);
               if (null === Rs)
                 switch (
                   ((a = t.finishedWork = t.current.alternate),
                   (t.finishedExpirationTime = i),
-                  (r = Zs),
+                  (r = Ys),
                   (js = null),
                   r)
                 ) {
@@ -24293,16 +24301,16 @@
                       (Ul(t, i),
                       i === (r = t.lastSuspendedTime) &&
                         (t.nextKnownPendingLevel = Cl(a)),
-                      1073741823 === Hs && 10 < (a = Us + Js - Ya()))
+                      1073741823 === Hs && 10 < (a = Us + Js - Za()))
                     ) {
                       if (Qs) {
                         var n = t.lastPingedTime;
                         if (0 === n || n >= i) {
-                          (t.lastPingedTime = i), kl(t, i);
+                          (t.lastPingedTime = i), vl(t, i);
                           break;
                         }
                       }
-                      if (0 !== (n = fl(t)) && n !== i) break;
+                      if (0 !== (n = dl(t)) && n !== i) break;
                       if (0 !== r && r !== i) {
                         t.lastPingedTime = r;
                         break;
@@ -24319,21 +24327,21 @@
                         (t.nextKnownPendingLevel = Cl(a)),
                       Qs && (0 === (a = t.lastPingedTime) || a >= i))
                     ) {
-                      (t.lastPingedTime = i), kl(t, i);
+                      (t.lastPingedTime = i), vl(t, i);
                       break;
                     }
-                    if (0 !== (a = fl(t)) && a !== i) break;
+                    if (0 !== (a = dl(t)) && a !== i) break;
                     if (0 !== r && r !== i) {
                       t.lastPingedTime = r;
                       break;
                     }
                     if (
                       (1073741823 !== Ws
-                        ? (r = 10 * (1073741821 - Ws) - Ya())
+                        ? (r = 10 * (1073741821 - Ws) - Za())
                         : 1073741823 === Hs
                         ? (r = 0)
                         : ((r = 10 * (1073741821 - Hs) - 5e3),
-                          0 > (r = (a = Ya()) - r) && (r = 0),
+                          0 > (r = (a = Za()) - r) && (r = 0),
                           (i = 10 * (1073741821 - i) - a) <
                             (r =
                               (120 > r
@@ -24348,7 +24356,7 @@
                                 ? 3e3
                                 : 4320 > r
                                 ? 4320
-                                : 1960 * Ds(r / 1960)) - r) && (r = i)),
+                                : 1960 * Ps(r / 1960)) - r) && (r = i)),
                       10 < r)
                     ) {
                       t.timeoutHandle = wi(_l.bind(null, t), r);
@@ -24366,7 +24374,7 @@
                           : ((a = 0 | s.busyDelayMs),
                             (r =
                               (n =
-                                Ya() -
+                                Za() -
                                 (10 * (1073741821 - n) -
                                   (0 | s.timeoutMs || 5e3))) <= a
                                 ? 0
@@ -24391,7 +24399,7 @@
           var e = t.lastExpiredTime;
           if (((e = 0 !== e ? e : 1073741823), (Ns & (Ms | Ts)) !== _s))
             throw Error(o(327));
-          if ((Tl(), (t === js && e === zs) || kl(t, e), null !== Rs)) {
+          if ((Tl(), (t === js && e === zs) || vl(t, e), null !== Rs)) {
             var i = Ns;
             Ns |= Ms;
             for (var r = bl(); ; )
@@ -24399,10 +24407,10 @@
                 wl();
                 break;
               } catch (a) {
-                vl(t, a);
+                kl(t, a);
               }
-            if ((nn(), (Ns = i), (Ps.current = r), Zs === Vs))
-              throw ((i = Ys), kl(t, e), Ul(t, e), pl(t), i);
+            if ((nn(), (Ns = i), (Ds.current = r), Ys === Vs))
+              throw ((i = Zs), vl(t, e), Ul(t, e), pl(t), i);
             if (null !== Rs) throw Error(o(261));
             (t.finishedWork = t.current.alternate),
               (t.finishedExpirationTime = e),
@@ -24430,7 +24438,7 @@
             (Ns = i) === _s && Ua();
           }
         }
-        function kl(t, e) {
+        function vl(t, e) {
           (t.finishedWork = null), (t.finishedExpirationTime = 0);
           var i = t.timeoutHandle;
           if ((-1 !== i && ((t.timeoutHandle = -1), Si(i)), null !== Rs))
@@ -24443,7 +24451,7 @@
                     ba();
                   break;
                 case 3:
-                  On(), fa(xa), fa(ya);
+                  On(), da(xa), da(ya);
                   break;
                 case 5:
                   jn(r);
@@ -24453,7 +24461,7 @@
                   break;
                 case 13:
                 case 19:
-                  fa(Rn);
+                  da(Rn);
                   break;
                 case 10:
                   on(r);
@@ -24461,19 +24469,19 @@
               i = i.return;
             }
           (js = t),
-            (Rs = Zl(t.current, null)),
+            (Rs = Yl(t.current, null)),
             (zs = e),
-            (Zs = Fs),
-            (Ys = null),
+            (Ys = Fs),
+            (Zs = null),
             (Ws = Hs = 1073741823),
             (qs = null),
             ($s = 0),
             (Qs = !1);
         }
-        function vl(t, e) {
+        function kl(t, e) {
           for (;;) {
             try {
-              if ((nn(), (Yn.current = Ao), Un))
+              if ((nn(), (Zn.current = Ao), Un))
                 for (var i = qn.memoizedState; null !== i; ) {
                   var r = i.queue;
                   null !== r && (r.pending = null), (i = i.next);
@@ -24484,7 +24492,7 @@
                 (Un = !1),
                 null === Rs || null === Rs.return)
               )
-                return (Zs = Vs), (Ys = e), (Rs = null);
+                return (Ys = Vs), (Zs = e), (Rs = null);
               t: {
                 var a = t,
                   n = Rs.return,
@@ -24510,18 +24518,18 @@
                   var h = 0 !== (1 & Rn.current),
                     u = n;
                   do {
-                    var d;
-                    if ((d = 13 === u.tag)) {
-                      var f = u.memoizedState;
-                      if (null !== f) d = null !== f.dehydrated;
+                    var f;
+                    if ((f = 13 === u.tag)) {
+                      var d = u.memoizedState;
+                      if (null !== d) f = null !== d.dehydrated;
                       else {
                         var p = u.memoizedProps;
-                        d =
+                        f =
                           void 0 !== p.fallback &&
                           (!0 !== p.unstable_avoidThisFallback || !h);
                       }
                     }
-                    if (d) {
+                    if (f) {
                       var m = u.updateQueue;
                       if (null === m) {
                         var y = new Set();
@@ -24535,7 +24543,7 @@
                         )
                           if (null === o.alternate) o.tag = 17;
                           else {
-                            var x = fn(1073741823, null);
+                            var x = dn(1073741823, null);
                             (x.tag = 2), pn(o, x);
                           }
                         o.expirationTime = 1073741823;
@@ -24553,8 +24561,8 @@
                         !s.has(o))
                       ) {
                         s.add(o);
-                        var k = Il.bind(null, a, l, o);
-                        l.then(k, k);
+                        var v = Il.bind(null, a, l, o);
+                        l.then(v, v);
                       }
                       (u.effectTag |= 4096), (u.expirationTime = e);
                       break t;
@@ -24567,7 +24575,7 @@
                       xt(o)
                   );
                 }
-                Zs !== Os && (Zs = Gs), (s = ns(s, o)), (u = n);
+                Ys !== Os && (Ys = Gs), (s = ns(s, o)), (u = n);
                 do {
                   switch (u.tag) {
                     case 3:
@@ -24578,11 +24586,11 @@
                       break t;
                     case 1:
                       l = s;
-                      var v = u.type,
+                      var k = u.type,
                         b = u.stateNode;
                       if (
                         0 === (64 & u.effectTag) &&
-                        ("function" === typeof v.getDerivedStateFromError ||
+                        ("function" === typeof k.getDerivedStateFromError ||
                           (null !== b &&
                             "function" === typeof b.componentDidCatch &&
                             (null === el || !el.has(b))))
@@ -24596,7 +24604,7 @@
                   u = u.return;
                 } while (null !== u);
               }
-              Rs = Pl(Rs);
+              Rs = Dl(Rs);
             } catch (A) {
               e = A;
               continue;
@@ -24605,8 +24613,8 @@
           }
         }
         function bl() {
-          var t = Ps.current;
-          return (Ps.current = Ao), null === t ? Ao : t;
+          var t = Ds.current;
+          return (Ds.current = Ao), null === t ? Ao : t;
         }
         function Al(t, e) {
           t < Hs && 2 < t && (Hs = t),
@@ -24616,21 +24624,21 @@
           t > $s && ($s = t);
         }
         function wl() {
-          for (; null !== Rs; ) Rs = Dl(Rs);
+          for (; null !== Rs; ) Rs = Pl(Rs);
         }
         function Sl() {
-          for (; null !== Rs && !Oa(); ) Rs = Dl(Rs);
+          for (; null !== Rs && !Oa(); ) Rs = Pl(Rs);
         }
-        function Dl(t) {
+        function Pl(t) {
           var e = Ss(t.alternate, t, zs);
           return (
             (t.memoizedProps = t.pendingProps),
-            null === e && (e = Pl(t)),
+            null === e && (e = Dl(t)),
             (Cs.current = null),
             e
           );
         }
-        function Pl(t) {
+        function Dl(t) {
           Rs = t;
           do {
             var e = Rs.alternate;
@@ -24666,7 +24674,7 @@
             if (null !== (e = Rs.sibling)) return e;
             Rs = t;
           } while (null !== Rs);
-          return Zs === Fs && (Zs = Os), null;
+          return Ys === Fs && (Ys = Os), null;
         }
         function Cl(t) {
           var e = t.expirationTime;
@@ -24714,7 +24722,7 @@
             null !== a)
           ) {
             var n = Ns;
-            (Ns |= Ts), (Cs.current = null), (vi = qe);
+            (Ns |= Ts), (Cs.current = null), (ki = qe);
             var s = pi();
             if (mi(s)) {
               if ("selectionStart" in s)
@@ -24731,12 +24739,12 @@
                     c = c.focusOffset;
                     try {
                       l.nodeType, u.nodeType;
-                    } catch (D) {
+                    } catch (P) {
                       l = null;
                       break t;
                     }
-                    var d = 0,
-                      f = -1,
+                    var f = 0,
+                      d = -1,
                       p = -1,
                       m = 0,
                       y = 0,
@@ -24744,29 +24752,29 @@
                       g = null;
                     e: for (;;) {
                       for (
-                        var k;
-                        x !== l || (0 !== h && 3 !== x.nodeType) || (f = d + h),
+                        var v;
+                        x !== l || (0 !== h && 3 !== x.nodeType) || (d = f + h),
                           x !== u ||
                             (0 !== c && 3 !== x.nodeType) ||
-                            (p = d + c),
-                          3 === x.nodeType && (d += x.nodeValue.length),
-                          null !== (k = x.firstChild);
+                            (p = f + c),
+                          3 === x.nodeType && (f += x.nodeValue.length),
+                          null !== (v = x.firstChild);
 
                       )
-                        (g = x), (x = k);
+                        (g = x), (x = v);
                       for (;;) {
                         if (x === s) break e;
                         if (
-                          (g === l && ++m === h && (f = d),
-                          g === u && ++y === c && (p = d),
-                          null !== (k = x.nextSibling))
+                          (g === l && ++m === h && (d = f),
+                          g === u && ++y === c && (p = f),
+                          null !== (v = x.nextSibling))
                         )
                           break;
                         g = (x = g).parentNode;
                       }
-                      x = k;
+                      x = v;
                     }
-                    l = -1 === f || -1 === p ? null : {start: f, end: p};
+                    l = -1 === d || -1 === p ? null : {start: d, end: p};
                   } else l = null;
                 }
               l = l || {start: 0, end: 0};
@@ -24781,17 +24789,17 @@
             do {
               try {
                 Ml();
-              } catch (D) {
+              } catch (P) {
                 if (null === Ks) throw Error(o(330));
-                Gl(Ks, D), (Ks = Ks.nextEffect);
+                Gl(Ks, P), (Ks = Ks.nextEffect);
               }
             } while (null !== Ks);
             Ks = a;
             do {
               try {
                 for (s = t, l = e; null !== Ks; ) {
-                  var v = Ks.effectTag;
-                  if ((16 & v && Rt(Ks.stateNode, ""), 128 & v)) {
+                  var k = Ks.effectTag;
+                  if ((16 & k && Rt(Ks.stateNode, ""), 128 & k)) {
                     var b = Ks.alternate;
                     if (null !== b) {
                       var A = b.ref;
@@ -24801,59 +24809,59 @@
                           : (A.current = null));
                     }
                   }
-                  switch (1038 & v) {
+                  switch (1038 & k) {
                     case 2:
                       ys(Ks), (Ks.effectTag &= -3);
                       break;
                     case 6:
-                      ys(Ks), (Ks.effectTag &= -3), vs(Ks.alternate, Ks);
+                      ys(Ks), (Ks.effectTag &= -3), ks(Ks.alternate, Ks);
                       break;
                     case 1024:
                       Ks.effectTag &= -1025;
                       break;
                     case 1028:
-                      (Ks.effectTag &= -1025), vs(Ks.alternate, Ks);
+                      (Ks.effectTag &= -1025), ks(Ks.alternate, Ks);
                       break;
                     case 4:
-                      vs(Ks.alternate, Ks);
+                      ks(Ks.alternate, Ks);
                       break;
                     case 8:
-                      ks(s, (h = Ks), l), ps(h);
+                      vs(s, (h = Ks), l), ps(h);
                   }
                   Ks = Ks.nextEffect;
                 }
-              } catch (D) {
+              } catch (P) {
                 if (null === Ks) throw Error(o(330));
-                Gl(Ks, D), (Ks = Ks.nextEffect);
+                Gl(Ks, P), (Ks = Ks.nextEffect);
               }
             } while (null !== Ks);
             if (
               ((A = bi),
               (b = pi()),
-              (v = A.focusedElem),
+              (k = A.focusedElem),
               (l = A.selectionRange),
-              b !== v &&
-                v &&
-                v.ownerDocument &&
-                fi(v.ownerDocument.documentElement, v))
+              b !== k &&
+                k &&
+                k.ownerDocument &&
+                di(k.ownerDocument.documentElement, k))
             ) {
               null !== l &&
-                mi(v) &&
+                mi(k) &&
                 ((b = l.start),
                 void 0 === (A = l.end) && (A = b),
-                "selectionStart" in v
-                  ? ((v.selectionStart = b),
-                    (v.selectionEnd = Math.min(A, v.value.length)))
+                "selectionStart" in k
+                  ? ((k.selectionStart = b),
+                    (k.selectionEnd = Math.min(A, k.value.length)))
                   : (A =
-                      ((b = v.ownerDocument || document) && b.defaultView) ||
+                      ((b = k.ownerDocument || document) && b.defaultView) ||
                       window).getSelection &&
                     ((A = A.getSelection()),
-                    (h = v.textContent.length),
+                    (h = k.textContent.length),
                     (s = Math.min(l.start, h)),
                     (l = void 0 === l.end ? s : Math.min(l.end, h)),
                     !A.extend && s > l && ((h = l), (l = s), (s = h)),
-                    (h = di(v, s)),
-                    (u = di(v, l)),
+                    (h = fi(k, s)),
+                    (u = fi(k, l)),
                     h &&
                       u &&
                       (1 !== A.rangeCount ||
@@ -24867,23 +24875,23 @@
                         ? (A.addRange(b), A.extend(u.node, u.offset))
                         : (b.setEnd(u.node, u.offset), A.addRange(b))))),
                 (b = []);
-              for (A = v; (A = A.parentNode); )
+              for (A = k; (A = A.parentNode); )
                 1 === A.nodeType &&
                   b.push({element: A, left: A.scrollLeft, top: A.scrollTop});
               for (
-                "function" === typeof v.focus && v.focus(), v = 0;
-                v < b.length;
-                v++
+                "function" === typeof k.focus && k.focus(), k = 0;
+                k < b.length;
+                k++
               )
-                ((A = b[v]).element.scrollLeft = A.left),
+                ((A = b[k]).element.scrollLeft = A.left),
                   (A.element.scrollTop = A.top);
             }
-            (qe = !!vi), (bi = vi = null), (t.current = i), (Ks = a);
+            (qe = !!ki), (bi = ki = null), (t.current = i), (Ks = a);
             do {
               try {
-                for (v = t; null !== Ks; ) {
+                for (k = t; null !== Ks; ) {
                   var E = Ks.effectTag;
-                  if ((36 & E && ds(v, Ks.alternate, Ks), 128 & E)) {
+                  if ((36 & E && fs(k, Ks.alternate, Ks), 128 & E)) {
                     b = void 0;
                     var w = Ks.ref;
                     if (null !== w) {
@@ -24895,9 +24903,9 @@
                   }
                   Ks = Ks.nextEffect;
                 }
-              } catch (D) {
+              } catch (P) {
                 if (null === Ks) throw Error(o(330));
-                Gl(Ks, D), (Ks = Ks.nextEffect);
+                Gl(Ks, P), (Ks = Ks.nextEffect);
               }
             } while (null !== Ks);
             (Ks = null), Na(), (Ns = n);
@@ -24965,7 +24973,7 @@
         }
         function Vl(t, e, i) {
           pn(t, (e = Es(t, (e = ns(i, e)), 1073741823))),
-            null !== (t = dl(t, 1073741823)) && pl(t);
+            null !== (t = fl(t, 1073741823)) && pl(t);
         }
         function Gl(t, e) {
           if (3 === t.tag) Vl(t, t, e);
@@ -24983,7 +24991,7 @@
                     (null === el || !el.has(r)))
                 ) {
                   pn(i, (t = ws(i, (t = ns(e, t)), 1073741823))),
-                    null !== (i = dl(i, 1073741823)) && pl(i);
+                    null !== (i = fl(i, 1073741823)) && pl(i);
                   break;
                 }
               }
@@ -24994,8 +25002,8 @@
           var r = t.pingCache;
           null !== r && r.delete(e),
             js === t && zs === i
-              ? Zs === Ls || (Zs === Is && 1073741823 === Hs && Ya() - Us < Js)
-                ? kl(t, zs)
+              ? Ys === Ls || (Ys === Is && 1073741823 === Hs && Za() - Us < Js)
+                ? vl(t, zs)
                 : (Qs = !0)
               : Ql(t, i) &&
                 ((0 !== (e = t.lastPingedTime) && e < i) ||
@@ -25005,7 +25013,7 @@
           var i = t.stateNode;
           null !== i && i.delete(e),
             0 === (e = 0) && (e = hl((e = cl()), t, null)),
-            null !== (t = dl(t, e)) && pl(t);
+            null !== (t = fl(t, e)) && pl(t);
         }
         Ss = function (t, e, i) {
           var r = e.expirationTime;
@@ -25025,7 +25033,7 @@
                       );
                     break;
                   case 1:
-                    va(e.type) && wa(e);
+                    ka(e.type) && wa(e);
                     break;
                   case 4:
                     Ln(e, e.stateNode.containerInfo);
@@ -25074,7 +25082,7 @@
                   (e.alternate = null),
                   (e.effectTag |= 2)),
                 (t = e.pendingProps),
-                (a = ka(e, ya.current)),
+                (a = va(e, ya.current)),
                 ln(e, i),
                 (a = Xn(null, e, r, t, a, i)),
                 (e.effectTag |= 1),
@@ -25087,7 +25095,7 @@
                   ((e.tag = 1),
                   (e.memoizedState = null),
                   (e.updateQueue = null),
-                  va(r))
+                  ka(r))
                 ) {
                   var n = !0;
                   wa(e);
@@ -25096,12 +25104,12 @@
                   null !== a.state && void 0 !== a.state ? a.state : null),
                   un(e);
                 var s = r.getDerivedStateFromProps;
-                "function" === typeof s && vn(e, r, s, t),
+                "function" === typeof s && kn(e, r, s, t),
                   (a.updater = bn),
                   (e.stateNode = a),
                   (a._reactInternalFiber = e),
                   Sn(e, r, t, i),
-                  (e = Yo(null, e, r, !0, n, i));
+                  (e = Zo(null, e, r, !0, n, i));
               } else (e.tag = 0), Lo(null, e, a, i), (e = e.child);
               return e;
             case 16:
@@ -25155,7 +25163,7 @@
                     e = zo(null, e, a, t, i);
                     break t;
                   case 1:
-                    e = Zo(null, e, a, t, i);
+                    e = Yo(null, e, a, t, i);
                     break t;
                   case 11:
                     e = Oo(null, e, a, t, i);
@@ -25177,7 +25185,7 @@
               return (
                 (r = e.type),
                 (a = e.pendingProps),
-                Zo(t, e, r, (a = e.elementType === r ? a : Xa(r, a)), i)
+                Yo(t, e, r, (a = e.elementType === r ? a : Xa(r, a)), i)
               );
             case 3:
               if ((Ho(e), (r = e.updateQueue), null === t || null === r))
@@ -25185,7 +25193,7 @@
               if (
                 ((r = e.pendingProps),
                 (a = null !== (a = e.memoizedState) ? a.element : null),
-                dn(t, e),
+                fn(t, e),
                 yn(e, r, null, i),
                 (r = e.memoizedState.element) === a)
               )
@@ -25193,8 +25201,8 @@
               else {
                 if (
                   ((a = e.stateNode.hydrate) &&
-                    ((Po = Di(e.stateNode.containerInfo.firstChild)),
-                    (Do = e),
+                    ((Do = Pi(e.stateNode.containerInfo.firstChild)),
+                    (Po = e),
                     (a = Co = !0)),
                   a)
                 )
@@ -25279,7 +25287,7 @@
                         for (var h = c.firstContext; null !== h; ) {
                           if (h.context === r && 0 !== (h.observedBits & n)) {
                             1 === l.tag &&
-                              (((h = fn(i, null)).tag = 2), pn(l, h)),
+                              (((h = dn(i, null)).tag = 2), pn(l, h)),
                               l.expirationTime < i && (l.expirationTime = i),
                               null !== (h = l.alternate) &&
                                 h.expirationTime < i &&
@@ -25337,11 +25345,11 @@
                   (e.alternate = null),
                   (e.effectTag |= 2)),
                 (e.tag = 1),
-                va(r) ? ((t = !0), wa(e)) : (t = !1),
+                ka(r) ? ((t = !0), wa(e)) : (t = !1),
                 ln(e, i),
                 En(e, r, a),
                 Sn(e, r, a, i),
-                Yo(null, e, r, !0, t, i)
+                Zo(null, e, r, !0, t, i)
               );
             case 19:
               return ts(t, e, i);
@@ -25380,7 +25388,7 @@
         function zl(t) {
           return !(!(t = t.prototype) || !t.isReactComponent);
         }
-        function Zl(t, e) {
+        function Yl(t, e) {
           var i = t.alternate;
           return (
             null === i
@@ -25416,7 +25424,7 @@
             i
           );
         }
-        function Yl(t, e, i, r, a, n) {
+        function Zl(t, e, i, r, a, n) {
           var s = 2;
           if (((r = t), "function" === typeof t)) zl(t) && (s = 1);
           else if ("string" === typeof t) s = 5;
@@ -25465,10 +25473,10 @@
                     case ut:
                       s = 14;
                       break t;
-                    case dt:
+                    case ft:
                       (s = 16), (r = null);
                       break t;
-                    case ft:
+                    case dt:
                       s = 22;
                       break t;
                   }
@@ -25567,7 +25575,7 @@
                     l = l.stateNode.context;
                     break e;
                   case 1:
-                    if (va(l.type)) {
+                    if (ka(l.type)) {
                       l = l.stateNode.__reactInternalMemoizedMergedChildContext;
                       break e;
                     }
@@ -25578,7 +25586,7 @@
             }
             if (1 === i.tag) {
               var c = i.type;
-              if (va(c)) {
+              if (ka(c)) {
                 i = Ea(i, c, l);
                 break t;
               }
@@ -25587,7 +25595,7 @@
           } else i = ma;
           return (
             null === e.context ? (e.context = i) : (e.pendingContext = i),
-            ((e = fn(n, s)).payload = {element: t}),
+            ((e = dn(n, s)).payload = {element: t}),
             null !== (r = void 0 === r ? null : r) && (e.callback = r),
             pn(a, e),
             ul(a, n),
@@ -25619,7 +25627,7 @@
               0 !== e &&
               (function (t, e) {
                 var i = Xt(e);
-                Pe.forEach(function (t) {
+                De.forEach(function (t) {
                   me(t, e, i);
                 }),
                   Ce.forEach(function (t) {
@@ -25797,7 +25805,7 @@
             Fi,
             Vi,
             Gi,
-            D,
+            P,
             E,
             zi,
             function (t) {
@@ -26056,16 +26064,16 @@
             };
           })(),
           n = i(5043),
-          o = d(n),
-          s = d(i(5173)),
-          l = d(i(7324)),
-          c = d(i(8073)),
-          h = d(i(8852)),
-          u = d(i(7376));
-        function d(t) {
+          o = f(n),
+          s = f(i(5173)),
+          l = f(i(7324)),
+          c = f(i(8073)),
+          h = f(i(8852)),
+          u = f(i(7376));
+        function f(t) {
           return t && t.__esModule ? t : {default: t};
         }
-        function f(t, e) {
+        function d(t, e) {
           var i = {};
           for (var r in t)
             e.indexOf(r) >= 0 ||
@@ -26387,7 +26395,7 @@
                     var t = this.props,
                       e = t.className,
                       i = t.tag,
-                      a = f(t, ["className", "tag"]);
+                      a = d(t, ["className", "tag"]);
                     delete a.onUnpin,
                       delete a.onPin,
                       delete a.onUnfix,
@@ -26402,7 +26410,7 @@
                       delete a.calcHeightOnResize;
                     var n = a.style,
                       s = a.wrapperStyle,
-                      l = f(a, ["style", "wrapperStyle"]),
+                      l = d(a, ["style", "wrapperStyle"]),
                       c = {
                         position:
                           this.props.disable || "unfixed" === this.state.state
@@ -26432,10 +26440,10 @@
                     var u = r({}, s, {
                         height: this.state.height ? this.state.height : null
                       }),
-                      d = e ? e + " headroom-wrapper" : "headroom-wrapper";
+                      f = e ? e + " headroom-wrapper" : "headroom-wrapper";
                     return o.default.createElement(
                       i,
-                      {style: u, className: d},
+                      {style: u, className: f},
                       o.default.createElement(
                         "div",
                         r({ref: this.setRef}, l, {style: c, className: h}),
@@ -26618,7 +26626,7 @@
             s = e.bottom,
             l = e.mirror,
             h = e.opposite,
-            d =
+            f =
               (i ? 1 : 0) |
               (r ? 2 : 0) |
               (o || n ? 4 : 0) |
@@ -26626,36 +26634,36 @@
               (l ? 16 : 0) |
               (h ? 32 : 0) |
               (t ? 64 : 0);
-          if (u.hasOwnProperty(d)) return u[d];
+          if (u.hasOwnProperty(f)) return u[f];
           if (!l != !(t && h)) {
-            var f = [r, i, s, o, n, a];
-            (i = f[0]),
-              (r = f[1]),
-              (o = f[2]),
-              (s = f[3]),
-              (a = f[4]),
-              (n = f[5]);
+            var d = [r, i, s, o, n, a];
+            (i = d[0]),
+              (r = d[1]),
+              (o = d[2]),
+              (s = d[3]),
+              (a = d[4]),
+              (n = d[5]);
           }
           var p,
             m = i || r,
             y = o || s || a || n,
             x = void 0,
             g = void 0,
-            k = void 0,
             v = void 0,
+            k = void 0,
             b = void 0,
             A = void 0,
             E = void 0,
             w = void 0,
             S = void 0,
-            D = void 0,
             P = void 0,
+            D = void 0,
             C = void 0,
             _ = void 0;
           return (
             t
-              ? ((k = m ? (r ? "-" : "") + "20px" : 0),
-                (v = y ? (a || s ? "" : "-") + "10px" : "0"),
+              ? ((v = m ? (r ? "-" : "") + "20px" : 0),
+                (k = y ? (a || s ? "" : "-") + "10px" : "0"),
                 (b = (n || o ? "" : "-") + "20px"),
                 (C = m ? (i ? "-" : "") + "2000px" : "0"),
                 (_ = y ? (n || o ? "-" : "") + "2000px" : "0"))
@@ -26665,15 +26673,15 @@
                 (E = y ? (a || s ? "-" : "") + "25px" : "0"),
                 (w = m ? (i ? "-" : "") + "10px" : "0"),
                 (S = y ? (n || o ? "-" : "") + "10px" : "0"),
-                (D = m ? (r ? "-" : "") + "5px" : "0"),
-                (P = y ? (a || s ? "-" : "") + "5px" : "0")),
+                (P = m ? (r ? "-" : "") + "5px" : "0"),
+                (D = y ? (a || s ? "-" : "") + "5px" : "0")),
             (p =
               m || y
                 ? t
                   ? "\n        20% {\n          transform: translate3d(" +
-                    k +
-                    ", " +
                     v +
+                    ", " +
+                    k +
                     ", 0);\n          }\n        " +
                     (y
                       ? "40%, 45% {\n            opacity: 1;\n            transform: translate3d(0, " +
@@ -26698,15 +26706,15 @@
                     ", " +
                     S +
                     ", 0);\n      }\n      90% {\n        transform: translate3d(" +
-                    D +
-                    ", " +
                     P +
+                    ", " +
+                    D +
                     ", 0);\n      }\n      to {\n        transform: none;\n      }"
                 : t
                 ? "20% {\n          transform: scale3d(.9, .9, .9);\n        }\n        50%, 55% {\n          opacity: 1;\n          transform: scale3d(1.1, 1.1, 1.1);\n        }\n        to {\n          opacity: 0;\n          transform: scale3d(.3, .3, .3);\n      }"
                 : "from, 20%, 40%, 60%, 80%, to {\n        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);\n      }\n      0% {\n        opacity: 0;\n        transform: scale3d(.3, .3, .3);\n      }\n      20% {\n        transform: scale3d(1.1, 1.1, 1.1);\n      }\n      40% {\n        transform: scale3d(.9, .9, .9);\n      }\n      60% {\n        opacity: 1;\n        transform: scale3d(1.03, 1.03, 1.03);\n      }\n      80% {\n        transform: scale3d(.97, .97, .97);\n      }\n      to {\n        opacity: 1;\n        transform: scale3d(1, 1, 1);\n      }"),
-            (u[d] = (0, c.animation)(p)),
-            u[d]
+            (u[f] = (0, c.animation)(p)),
+            u[f]
           );
         }
         function a() {
@@ -26722,8 +26730,8 @@
             s = t.delay,
             h = void 0 === s ? c.defaults.delay : s,
             u = t.count,
-            d = void 0 === u ? c.defaults.count : u,
-            f = (function (t, e) {
+            f = void 0 === u ? c.defaults.count : u,
+            d = (function (t, e) {
               var i = {};
               for (var r in t)
                 e.indexOf(r) >= 0 ||
@@ -26743,11 +26751,11 @@
               duration: void 0 === a ? o : a,
               delay: h,
               forever: i,
-              count: d,
+              count: f,
               style: {animationFillMode: "both"},
-              reverse: f.left
+              reverse: d.left
             };
-          return (0, l.default)(f, p, p, e);
+          return (0, l.default)(d, p, p, e);
         }
         Object.defineProperty(e, "__esModule", {value: !0});
         var n,
@@ -26783,16 +26791,16 @@
             l = e.top,
             c = e.bottom,
             h = e.big,
-            d = e.mirror,
-            f = e.opposite,
+            f = e.mirror,
+            d = e.opposite,
             p =
               (i ? i.toString() : 0) +
               ((r ? 1 : 0) |
                 (a ? 2 : 0) |
                 (l || o ? 4 : 0) |
                 (c || n ? 8 : 0) |
-                (d ? 16 : 0) |
-                (f ? 32 : 0) |
+                (f ? 16 : 0) |
+                (d ? 32 : 0) |
                 (t ? 64 : 0) |
                 (h ? 128 : 0));
           if (u.hasOwnProperty(p)) return u[p];
@@ -26800,7 +26808,7 @@
             y = void 0,
             x = void 0;
           if (m) {
-            if (!d != !(t && f)) {
+            if (!f != !(t && d)) {
               var g = [a, r, c, l, o, n];
               (r = g[0]),
                 (a = g[1]),
@@ -26809,9 +26817,9 @@
                 (n = g[4]),
                 (o = g[5]);
             }
-            var k = i || (h ? "2000px" : "100%");
-            (y = r ? "-" + k : a ? k : "0"),
-              (x = o || l ? "-" + k : n || c ? k : "0");
+            var v = i || (h ? "2000px" : "100%");
+            (y = r ? "-" + v : a ? v : "0"),
+              (x = o || l ? "-" + v : n || c ? v : "0");
           }
           return (
             (u[p] = (0, s.animation)(
@@ -26838,8 +26846,8 @@
             l = void 0 === o ? s.defaults.duration : o,
             h = t.delay,
             u = void 0 === h ? s.defaults.delay : h,
-            d = t.count,
-            f = void 0 === d ? s.defaults.count : d,
+            f = t.count,
+            d = void 0 === f ? s.defaults.count : f,
             p = (function (t, e) {
               var i = {};
               for (var r in t)
@@ -26860,7 +26868,7 @@
               duration: void 0 === n ? l : n,
               delay: u,
               forever: a,
-              count: f,
+              count: d,
               style: {animationFillMode: "both"},
               reverse: p.left
             };
@@ -26902,7 +26910,7 @@
             s = e.y,
             l = e.mirror,
             h = e.opposite,
-            d =
+            f =
               (i ? 1 : 0) |
               (r || s ? 2 : 0) |
               (a || o ? 4 : 0) |
@@ -26910,15 +26918,15 @@
               (l ? 16 : 0) |
               (h ? 32 : 0) |
               (t ? 64 : 0);
-          if (u.hasOwnProperty(d)) return u[d];
+          if (u.hasOwnProperty(f)) return u[f];
           if (!l != !(t && h)) {
-            var f = [r, i, n, a, s, o];
-            (i = f[0]),
-              (r = f[1]),
-              (a = f[2]),
-              (n = f[3]),
-              (o = f[4]),
-              (s = f[5]);
+            var d = [r, i, n, a, s, o];
+            (i = d[0]),
+              (r = d[1]),
+              (a = d[2]),
+              (n = d[3]),
+              (o = d[4]),
+              (s = d[5]);
           }
           var p = void 0;
           if (o || s || i || r || a || n) {
@@ -26958,7 +26966,7 @@
               ";\n        }\n        40% {\n          transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);\n          animation-timing-function: ease-out;\n        }\n        50% {\n          transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);\n          animation-timing-function: ease-in;\n        }\n        to {\n          transform: perspective(400px);\n          animation-timing-function: ease-in;\n          opacity: " +
               (t ? "0" : "1") +
               ";\n        }";
-          return (u[d] = (0, c.animation)(p)), u[d];
+          return (u[f] = (0, c.animation)(p)), u[f];
         }
         function a() {
           var t =
@@ -26973,8 +26981,8 @@
             s = t.delay,
             h = void 0 === s ? c.defaults.delay : s,
             u = t.count,
-            d = void 0 === u ? c.defaults.count : u,
-            f = (function (t, e) {
+            f = void 0 === u ? c.defaults.count : u,
+            d = (function (t, e) {
               var i = {};
               for (var r in t)
                 e.indexOf(r) >= 0 ||
@@ -26994,10 +27002,10 @@
               duration: void 0 === a ? o : a,
               delay: h,
               forever: i,
-              count: d,
+              count: f,
               style: {animationFillMode: "both", backfaceVisibility: "visible"}
             };
-          return (0, l.default)(f, p, p, e);
+          return (0, l.default)(d, p, p, e);
         }
         Object.defineProperty(e, "__esModule", {value: !0});
         var n,
@@ -27063,8 +27071,8 @@
             l = t.delay,
             h = void 0 === l ? c.defaults.delay : l,
             u = t.count,
-            d = void 0 === u ? c.defaults.count : u,
-            f = (function (t, e) {
+            f = void 0 === u ? c.defaults.count : u,
+            d = (function (t, e) {
               var i = {};
               for (var r in t)
                 e.indexOf(r) >= 0 ||
@@ -27084,11 +27092,11 @@
               duration: void 0 === a ? o : a,
               delay: h,
               forever: i,
-              count: d,
+              count: f,
               style: {animationFillMode: "both"}
             };
           return (
-            f.left, f.right, f.mirror, f.opposite, (0, s.default)(f, p, p, e)
+            d.left, d.right, d.mirror, d.opposite, (0, s.default)(d, p, p, e)
           );
         }
         Object.defineProperty(e, "__esModule", {value: !0});
@@ -27125,18 +27133,18 @@
                     duration: c,
                     delay: h,
                     count: u,
-                    forever: d,
+                    forever: f,
                     className: p,
                     style: {}
                   }
                 : y
-              : f
+              : d
               ? {
                   duration: void 0 === r ? a : r,
                   delay: n,
                   count: o,
                   forever: s,
-                  className: f,
+                  className: d,
                   style: {}
                 }
               : m;
@@ -27150,8 +27158,8 @@
             c = t.durationOut,
             h = t.delayOut,
             u = t.countOut,
-            d = t.foreverOut,
-            f = t.effect,
+            f = t.foreverOut,
+            d = t.effect,
             p = t.effectOut,
             m = t.inEffect,
             y = t.outEffect,
@@ -27297,7 +27305,7 @@
           c = (r = l) && r.__esModule ? r : {default: r},
           h = i(5173),
           u = i(6919),
-          d = (0, h.shape)({
+          f = (0, h.shape)({
             make: h.func,
             duration: h.number.isRequired,
             delay: h.number.isRequired,
@@ -27306,7 +27314,7 @@
             style: h.object.isRequired,
             reverse: h.bool
           }),
-          f = {
+          d = {
             collapse: h.bool,
             collapseEl: h.element,
             cascade: h.bool,
@@ -27322,8 +27330,8 @@
             onReveal: h.func,
             unmountOnExit: h.bool,
             mountOnEnter: h.bool,
-            inEffect: d.isRequired,
-            outEffect: (0, h.oneOfType)([d, (0, h.oneOf)([!1])]).isRequired,
+            inEffect: f.isRequired,
+            outEffect: (0, h.oneOfType)([f, (0, h.oneOf)([!1])]).isRequired,
             ssrReveal: h.bool,
             collapseOnly: h.bool,
             ssrFadeout: h.bool
@@ -27713,7 +27721,7 @@
                       this.props.collapse &&
                         ((h = parseInt(this.state.style.animationDuration, 10)),
                         (n = h / 2));
-                      var d = s ? l : 0;
+                      var f = s ? l : 0;
                       return i.map(function (t) {
                         return "object" ===
                           (void 0 === t ? "undefined" : a(t)) && t
@@ -27721,7 +27729,7 @@
                               style: o({}, t.props.style, e.state.style, {
                                 animationDuration:
                                   Math.round(
-                                    (0, u.cascade)(s ? d-- : d++, 0, l, n, h)
+                                    (0, u.cascade)(s ? f-- : f++, 0, l, n, h)
                                   ) + "ms"
                               })
                             })
@@ -27813,7 +27821,7 @@
                           : (h = this.props.disabled
                               ? a
                               : o({}, a, this.state.style));
-                      var d = o(
+                      var f = o(
                           {},
                           this.props.props,
                           (function (t, e, i) {
@@ -27834,7 +27842,7 @@
                             this.saveRef
                           )
                         ),
-                        f = c.default.cloneElement(e, d, t ? i || s : void 0);
+                        d = c.default.cloneElement(e, f, t ? i || s : void 0);
                       return void 0 !== this.props.collapse
                         ? this.props.collapseEl
                           ? c.default.cloneElement(this.props.collapseEl, {
@@ -27845,15 +27853,15 @@
                                   ? void 0
                                   : this.state.collapse
                               ),
-                              children: f
+                              children: d
                             })
                           : c.default.createElement("div", {
                               style: this.props.disabled
                                 ? void 0
                                 : this.state.collapse,
-                              children: f
+                              children: d
                             })
-                        : f;
+                        : d;
                     }
                   },
                   {
@@ -27997,7 +28005,7 @@
               e
             );
           })(c.default.Component);
-        (m.propTypes = f),
+        (m.propTypes = d),
           (m.defaultProps = {fraction: 0.2, refProp: "ref"}),
           (m.contextTypes = p),
           (m.displayName = "RevealBase"),
@@ -28015,18 +28023,18 @@
             s = e.bottom,
             l = e.big,
             h = e.mirror,
-            d = e.opposite,
-            f =
+            f = e.opposite,
+            d =
               (i ? 1 : 0) |
               (r ? 2 : 0) |
               (o || n ? 4 : 0) |
               (s || a ? 8 : 0) |
               (h ? 16 : 0) |
-              (d ? 32 : 0) |
+              (f ? 32 : 0) |
               (t ? 64 : 0) |
               (l ? 128 : 0);
-          if (u.hasOwnProperty(f)) return u[f];
-          if (!h != !(t && d)) {
+          if (u.hasOwnProperty(d)) return u[d];
+          if (!h != !(t && f)) {
             var p = [r, i, s, o, n, a];
             (i = p[0]),
               (r = p[1]),
@@ -28039,7 +28047,7 @@
             y = i ? "-" + m : r ? m : "0",
             x = n || o ? "-" + m : a || s ? m : "0";
           return (
-            (u[f] = (0, c.animation)(
+            (u[d] = (0, c.animation)(
               "\n    " +
                 (t ? "to" : "from") +
                 " {opacity: 0;transform: translate3d(" +
@@ -28050,7 +28058,7 @@
                 (t ? "from" : "to") +
                 " {opacity: 1;transform: none}\n  "
             )),
-            u[f]
+            u[d]
           );
         }
         function a() {
@@ -28066,8 +28074,8 @@
             l = t.delay,
             h = void 0 === l ? c.defaults.delay : l,
             u = t.count,
-            d = void 0 === u ? c.defaults.count : u,
-            f = (function (t, e) {
+            f = void 0 === u ? c.defaults.count : u,
+            d = (function (t, e) {
               var i = {};
               for (var r in t)
                 e.indexOf(r) >= 0 ||
@@ -28087,10 +28095,10 @@
               duration: void 0 === a ? o : a,
               delay: h,
               forever: i,
-              count: d,
+              count: f,
               style: {animationFillMode: "both"}
             };
-          return (0, s.default)(f, p, p, e);
+          return (0, s.default)(d, p, p, e);
         }
         Object.defineProperty(e, "__esModule", {value: !0});
         var n,
@@ -28127,7 +28135,7 @@
             s = e.bottom,
             l = e.mirror,
             h = e.opposite,
-            d =
+            f =
               (i ? 1 : 0) |
               (r ? 2 : 0) |
               (o || n ? 4 : 0) |
@@ -28135,15 +28143,15 @@
               (l ? 16 : 0) |
               (h ? 32 : 0) |
               (t ? 64 : 0);
-          if (u.hasOwnProperty(d)) return u[d];
+          if (u.hasOwnProperty(f)) return u[f];
           if (!l != !(t && h)) {
-            var f = [r, i, s, o, n, a];
-            (i = f[0]),
-              (r = f[1]),
-              (o = f[2]),
-              (s = f[3]),
-              (a = f[4]),
-              (n = f[5]);
+            var d = [r, i, s, o, n, a];
+            (i = d[0]),
+              (r = d[1]),
+              (o = d[2]),
+              (s = d[3]),
+              (a = d[4]),
+              (n = d[5]);
           }
           var p = "-200deg",
             m = "center";
@@ -28152,7 +28160,7 @@
             (((n || o) && r) || ((a || s) && i)) && (p = "45deg"),
             (a || s) && r && (p = "-90deg"),
             (i || r) && (m = (i ? "left" : "right") + " bottom"),
-            (u[d] = (0, c.animation)(
+            (u[f] = (0, c.animation)(
               "\n    " +
                 (t ? "to" : "from") +
                 " { opacity: 0; transform-origin: " +
@@ -28165,7 +28173,7 @@
                 m +
                 "; transform: none;}\n  "
             )),
-            u[d]
+            u[f]
           );
         }
         function a() {
@@ -28181,8 +28189,8 @@
             s = t.delay,
             h = void 0 === s ? c.defaults.delay : s,
             u = t.count,
-            d = void 0 === u ? c.defaults.count : u,
-            f = (function (t, e) {
+            f = void 0 === u ? c.defaults.count : u,
+            d = (function (t, e) {
               var i = {};
               for (var r in t)
                 e.indexOf(r) >= 0 ||
@@ -28202,10 +28210,10 @@
               duration: void 0 === a ? o : a,
               delay: h,
               forever: i,
-              count: d,
+              count: f,
               style: {animationFillMode: "both"}
             };
-          return (0, l.default)(f, p, p, e);
+          return (0, l.default)(d, p, p, e);
         }
         Object.defineProperty(e, "__esModule", {value: !0});
         var n,
@@ -28241,22 +28249,22 @@
             s = e.bottom,
             l = e.big,
             h = e.mirror,
-            d = e.opposite,
-            f =
+            f = e.opposite,
+            d =
               (i ? 1 : 0) |
               (r ? 2 : 0) |
               (o || n ? 4 : 0) |
               (s || a ? 8 : 0) |
               (h ? 16 : 0) |
-              (d ? 32 : 0) |
+              (f ? 32 : 0) |
               (t ? 64 : 0) |
               (l ? 128 : 0);
-          if (u.hasOwnProperty(f)) return u[f];
+          if (u.hasOwnProperty(d)) return u[d];
           var p = i || r || a || n || o || s,
             m = void 0,
             y = void 0;
           if (p) {
-            if (!h != !(t && d)) {
+            if (!h != !(t && f)) {
               var x = [r, i, s, o, n, a];
               (i = x[0]),
                 (r = x[1]),
@@ -28270,7 +28278,7 @@
               (y = n || o ? "-" + g : a || s ? g : "0");
           }
           return (
-            (u[f] = (0, c.animation)(
+            (u[d] = (0, c.animation)(
               (t ? "to" : "from") +
                 " {" +
                 (p ? " transform: translate3d(" + m + ", " + y + ", 0);" : "") +
@@ -28278,7 +28286,7 @@
                 (t ? "from" : "to") +
                 " {transform: none;} "
             )),
-            u[f]
+            u[d]
           );
         }
         function a() {
@@ -28294,8 +28302,8 @@
             s = t.delay,
             h = void 0 === s ? c.defaults.delay : s,
             u = t.count,
-            d = void 0 === u ? c.defaults.count : u,
-            f = (function (t, e) {
+            f = void 0 === u ? c.defaults.count : u,
+            d = (function (t, e) {
               var i = {};
               for (var r in t)
                 e.indexOf(r) >= 0 ||
@@ -28315,11 +28323,11 @@
               duration: void 0 === a ? o : a,
               delay: h,
               forever: i,
-              count: d,
+              count: f,
               style: {animationFillMode: "both"},
-              reverse: f.left
+              reverse: d.left
             };
-          return (0, l.default)(f, p, p, e);
+          return (0, l.default)(d, p, p, e);
         }
         Object.defineProperty(e, "__esModule", {value: !0});
         var n,
@@ -28356,7 +28364,7 @@
             s = e.bottom,
             l = e.mirror,
             h = e.opposite,
-            d =
+            f =
               (i ? 1 : 0) |
               (r ? 2 : 0) |
               (o || n ? 4 : 0) |
@@ -28364,15 +28372,15 @@
               (l ? 16 : 0) |
               (h ? 32 : 0) |
               (t ? 64 : 0);
-          if (u.hasOwnProperty(d)) return u[d];
+          if (u.hasOwnProperty(f)) return u[f];
           if (!l != !(t && h)) {
-            var f = [r, i, s, o, n, a];
-            (i = f[0]),
-              (r = f[1]),
-              (o = f[2]),
-              (s = f[3]),
-              (a = f[4]),
-              (n = f[5]);
+            var d = [r, i, s, o, n, a];
+            (i = d[0]),
+              (r = d[1]),
+              (o = d[2]),
+              (s = d[3]),
+              (a = d[4]),
+              (n = d[5]);
           }
           var p = i || r,
             m = o || s || a || n,
@@ -28407,8 +28415,8 @@
                   " {opacity: 0; transform: scale3d(.1, .1, .1);} " +
                   (t ? "from" : "to") +
                   " { opacity: 1; transform: none;}"),
-            (u[d] = (0, c.animation)(y)),
-            u[d]
+            (u[f] = (0, c.animation)(y)),
+            u[f]
           );
         }
         function a() {
@@ -28424,8 +28432,8 @@
             s = t.delay,
             h = void 0 === s ? c.defaults.delay : s,
             u = t.count,
-            d = void 0 === u ? c.defaults.count : u,
-            f = (function (t, e) {
+            f = void 0 === u ? c.defaults.count : u,
+            d = (function (t, e) {
               var i = {};
               for (var r in t)
                 e.indexOf(r) >= 0 ||
@@ -28445,11 +28453,11 @@
               duration: void 0 === a ? o : a,
               delay: h,
               forever: i,
-              count: d,
+              count: f,
               style: {animationFillMode: "both"},
-              reverse: f.left
+              reverse: d.left
             };
-          return (0, l.default)(f, p, p, e);
+          return (0, l.default)(d, p, p, e);
         }
         Object.defineProperty(e, "__esModule", {value: !0});
         var n,
@@ -28478,7 +28486,7 @@
         "use strict";
         function i(t) {
           try {
-            return f.insertRule(t, f.cssRules.length);
+            return d.insertRule(t, d.cssRules.length);
           } catch (t) {
             console.warn("react-reveal - animation failed");
           }
@@ -28499,12 +28507,12 @@
             return Math.exp(n + o * (t - e));
           }),
           (e.animation = function (t) {
-            if (!f) return "";
+            if (!d) return "";
             var e = "@keyframes " + (p + u) + "{" + t + "}",
-              i = d[t];
+              i = f[t];
             return i
               ? "" + p + i
-              : (f.insertRule(e, f.cssRules.length), (d[t] = u), "" + p + u++);
+              : (d.insertRule(e, d.cssRules.length), (f[t] = u), "" + p + u++);
           }),
           (e.hideAll = r),
           (e.default = function (t) {
@@ -28531,8 +28539,8 @@
             (e.globalHide = !1)),
           h = ((e.ie10 = !1), (e.collapseend = void 0)),
           u = 1,
-          d = {},
-          f = !1,
+          f = {},
+          d = !1,
           p = a + "-" + Math.floor(1e15 * Math.random()) + "-";
         if (
           "undefined" != typeof window &&
@@ -28570,7 +28578,7 @@
             m.sheet &&
               m.sheet.cssRules &&
               m.sheet.insertRule &&
-              ((f = m.sheet),
+              ((d = m.sheet),
               window.addEventListener("scroll", r, !0),
               window.addEventListener("orientationchange", r, !0),
               window.document.addEventListener("visibilitychange", r));
@@ -28601,7 +28609,7 @@
         var c = i(6052);
         var h = i(160);
         var u = i(8144);
-        var d = i(7556);
+        var f = i(7556);
       },
       9199: (t, e, i) => {
         "use strict";
@@ -28691,8 +28699,8 @@
           c = a ? Symbol.for("react.profiler") : 60114,
           h = a ? Symbol.for("react.provider") : 60109,
           u = a ? Symbol.for("react.context") : 60110,
-          d = a ? Symbol.for("react.forward_ref") : 60112,
-          f = a ? Symbol.for("react.suspense") : 60113,
+          f = a ? Symbol.for("react.forward_ref") : 60112,
+          d = a ? Symbol.for("react.suspense") : 60113,
           p = a ? Symbol.for("react.memo") : 60115,
           m = a ? Symbol.for("react.lazy") : 60116,
           y = "function" === typeof Symbol && Symbol.iterator;
@@ -28721,36 +28729,36 @@
             enqueueReplaceState: function () {},
             enqueueSetState: function () {}
           },
-          k = {};
-        function v(t, e, i) {
+          v = {};
+        function k(t, e, i) {
           (this.props = t),
             (this.context = e),
-            (this.refs = k),
+            (this.refs = v),
             (this.updater = i || g);
         }
         function b() {}
         function A(t, e, i) {
           (this.props = t),
             (this.context = e),
-            (this.refs = k),
+            (this.refs = v),
             (this.updater = i || g);
         }
-        (v.prototype.isReactComponent = {}),
-          (v.prototype.setState = function (t, e) {
+        (k.prototype.isReactComponent = {}),
+          (k.prototype.setState = function (t, e) {
             if ("object" !== typeof t && "function" !== typeof t && null != t)
               throw Error(x(85));
             this.updater.enqueueSetState(this, t, e, "setState");
           }),
-          (v.prototype.forceUpdate = function (t) {
+          (k.prototype.forceUpdate = function (t) {
             this.updater.enqueueForceUpdate(this, t, "forceUpdate");
           }),
-          (b.prototype = v.prototype);
+          (b.prototype = k.prototype);
         var E = (A.prototype = new b());
-        (E.constructor = A), r(E, v.prototype), (E.isPureReactComponent = !0);
+        (E.constructor = A), r(E, k.prototype), (E.isPureReactComponent = !0);
         var w = {current: null},
           S = Object.prototype.hasOwnProperty,
-          D = {key: !0, ref: !0, __self: !0, __source: !0};
-        function P(t, e, i) {
+          P = {key: !0, ref: !0, __self: !0, __source: !0};
+        function D(t, e, i) {
           var r,
             a = {},
             o = null,
@@ -28759,7 +28767,7 @@
             for (r in (void 0 !== e.ref && (s = e.ref),
             void 0 !== e.key && (o = "" + e.key),
             e))
-              S.call(e, r) && !D.hasOwnProperty(r) && (a[r] = e[r]);
+              S.call(e, r) && !P.hasOwnProperty(r) && (a[r] = e[r]);
           var l = arguments.length - 2;
           if (1 === l) a.children = i;
           else if (1 < l) {
@@ -28954,12 +28962,12 @@
             return t;
           }
         }),
-          (e.Component = v),
+          (e.Component = k),
           (e.Fragment = s),
           (e.Profiler = c),
           (e.PureComponent = A),
           (e.StrictMode = l),
-          (e.Suspense = f),
+          (e.Suspense = d),
           (e.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = R),
           (e.cloneElement = function (t, e, i) {
             if (null === t || void 0 === t) throw Error(x(267, t));
@@ -28976,7 +28984,7 @@
                 var c = t.type.defaultProps;
               for (h in e)
                 S.call(e, h) &&
-                  !D.hasOwnProperty(h) &&
+                  !P.hasOwnProperty(h) &&
                   (a[h] = void 0 === e[h] && void 0 !== c ? c[h] : e[h]);
             }
             var h = arguments.length - 2;
@@ -29010,16 +29018,16 @@
               (t.Consumer = t)
             );
           }),
-          (e.createElement = P),
+          (e.createElement = D),
           (e.createFactory = function (t) {
-            var e = P.bind(null, t);
+            var e = D.bind(null, t);
             return (e.type = t), e;
           }),
           (e.createRef = function () {
             return {current: null};
           }),
           (e.forwardRef = function (t) {
-            return {$$typeof: d, render: t};
+            return {$$typeof: f, render: t};
           }),
           (e.isValidElement = C),
           (e.lazy = function (t) {
@@ -29103,8 +29111,8 @@
             (o = e.unstable_forceFrameRate = function () {});
         } else {
           var u = window.performance,
-            d = window.Date,
-            f = window.setTimeout,
+            f = window.Date,
+            d = window.setTimeout,
             p = window.clearTimeout;
           if ("undefined" !== typeof console) {
             var m = window.cancelAnimationFrame;
@@ -29122,15 +29130,15 @@
               return u.now();
             };
           else {
-            var y = d.now();
+            var y = f.now();
             e.unstable_now = function () {
-              return d.now() - y;
+              return f.now() - y;
             };
           }
           var x = !1,
             g = null,
-            k = -1,
-            v = 5,
+            v = -1,
+            k = 5,
             b = 0;
           (n = function () {
             return e.unstable_now() >= b;
@@ -29141,14 +29149,14 @@
                 ? console.error(
                     "forceFrameRate takes a positive int between 0 and 125, forcing framerates higher than 125 fps is not unsupported"
                   )
-                : (v = 0 < t ? Math.floor(1e3 / t) : 5);
+                : (k = 0 < t ? Math.floor(1e3 / t) : 5);
             });
           var A = new MessageChannel(),
             E = A.port2;
           (A.port1.onmessage = function () {
             if (null !== g) {
               var t = e.unstable_now();
-              b = t + v;
+              b = t + k;
               try {
                 g(!0, t) ? E.postMessage(null) : ((x = !1), (g = null));
               } catch (i) {
@@ -29160,12 +29168,12 @@
               (g = t), x || ((x = !0), E.postMessage(null));
             }),
             (r = function (t, i) {
-              k = f(function () {
+              v = d(function () {
                 t(e.unstable_now());
               }, i);
             }),
             (a = function () {
-              p(k), (k = -1);
+              p(v), (v = -1);
             });
         }
         function w(t, e) {
@@ -29174,14 +29182,14 @@
           t: for (;;) {
             var r = (i - 1) >>> 1,
               a = t[r];
-            if (!(void 0 !== a && 0 < P(a, e))) break t;
+            if (!(void 0 !== a && 0 < D(a, e))) break t;
             (t[r] = e), (t[i] = a), (i = r);
           }
         }
         function S(t) {
           return void 0 === (t = t[0]) ? null : t;
         }
-        function D(t) {
+        function P(t) {
           var e = t[0];
           if (void 0 !== e) {
             var i = t.pop();
@@ -29192,12 +29200,12 @@
                   o = t[n],
                   s = n + 1,
                   l = t[s];
-                if (void 0 !== o && 0 > P(o, i))
-                  void 0 !== l && 0 > P(l, o)
+                if (void 0 !== o && 0 > D(o, i))
+                  void 0 !== l && 0 > D(l, o)
                     ? ((t[r] = l), (t[s] = i), (r = s))
                     : ((t[r] = o), (t[n] = i), (r = n));
                 else {
-                  if (!(void 0 !== l && 0 > P(l, i))) break t;
+                  if (!(void 0 !== l && 0 > D(l, i))) break t;
                   (t[r] = l), (t[s] = i), (r = s);
                 }
               }
@@ -29206,7 +29214,7 @@
           }
           return null;
         }
-        function P(t, e) {
+        function D(t, e) {
           var i = t.sortIndex - e.sortIndex;
           return 0 !== i ? i : t.id - e.id;
         }
@@ -29220,10 +29228,10 @@
           G = !1;
         function I(t) {
           for (var e = S(_); null !== e; ) {
-            if (null === e.callback) D(_);
+            if (null === e.callback) P(_);
             else {
               if (!(e.startTime <= t)) break;
-              D(_), (e.sortIndex = e.expirationTime), w(C, e);
+              P(_), (e.sortIndex = e.expirationTime), w(C, e);
             }
             e = S(_);
           }
@@ -29252,9 +29260,9 @@
                 (i = e.unstable_now()),
                   "function" === typeof l
                     ? (M.callback = l)
-                    : M === S(C) && D(C),
+                    : M === S(C) && P(C),
                   I(i);
-              } else D(C);
+              } else P(C);
               M = S(C);
             }
             if (null !== M) var c = !0;
@@ -29414,12 +29422,12 @@
             for (var i = 0, r = t.length; i < r; ++i) if (!e(t[i])) return !1;
             return 1;
           }
-          function d(t, e) {
+          function f(t, e) {
             u(t, function (t) {
               return e(t), 1;
             });
           }
-          function f(e, i, r) {
+          function d(e, i, r) {
             e = e[a] ? e : [e];
             var n = i && i.call,
               o = n ? i : r,
@@ -29431,11 +29439,11 @@
             function g() {
               if (!--y)
                 for (var t in ((s[m] = 1), o && o(), c))
-                  u(t.split("|"), x) && !d(c[t], x) && (c[t] = []);
+                  u(t.split("|"), x) && !f(c[t], x) && (c[t] = []);
             }
             return (
               setTimeout(function () {
-                d(e, function e(i, r) {
+                f(e, function e(i, r) {
                   return null === i
                     ? g()
                     : (r ||
@@ -29452,7 +29460,7 @@
                         : ((h[i] = 1), m && (l[m] = 1), void p(i, g)));
                 });
               }, 0),
-              f
+              d
             );
           }
           function p(t, a) {
@@ -29471,24 +29479,24 @@
               r.insertBefore(l, r.lastChild);
           }
           return (
-            (f.get = p),
-            (f.order = function (t, e, i) {
+            (d.get = p),
+            (d.order = function (t, e, i) {
               !(function r(a) {
-                (a = t.shift()), t.length ? f(a, r) : f(a, e, i);
+                (a = t.shift()), t.length ? d(a, r) : d(a, e, i);
               })();
             }),
-            (f.path = function (e) {
+            (d.path = function (e) {
               t = e;
             }),
-            (f.urlArgs = function (t) {
+            (d.urlArgs = function (t) {
               e = t;
             }),
-            (f.ready = function (t, e, i) {
+            (d.ready = function (t, e, i) {
               t = t[a] ? t : [t];
               var r,
                 n = [];
               return (
-                !d(t, function (t) {
+                !f(t, function (t) {
                   s[t] || n[a](t);
                 }) &&
                 u(t, function (t) {
@@ -29499,13 +29507,13 @@
                     (c[r] = c[r] || []),
                     c[r][a](e),
                     i && i(n)),
-                f
+                d
               );
             }),
-            (f.done = function (t) {
-              f([null], t);
+            (d.done = function (t) {
+              d([null], t);
             }),
-            f
+            d
           );
         }),
           t.exports
@@ -29612,22 +29620,22 @@
           c,
           h,
           u,
-          d,
           f,
+          d,
           p,
           m,
           y,
           x,
           g,
-          k,
           v,
+          k,
           b,
           A,
           E,
           w,
           S,
-          D,
           P,
+          D,
           C,
           _,
           B,
@@ -29643,8 +29651,8 @@
           j,
           R,
           z,
-          Z,
           Y,
+          Z,
           H,
           W,
           q,
@@ -29666,22 +29674,22 @@
           ct,
           ht,
           ut,
-          dt,
           ft,
+          dt,
           pt,
           mt,
           yt,
           xt,
           gt,
-          kt,
           vt,
+          kt,
           bt,
           At,
           Et,
           wt,
           St,
-          Dt,
           Pt,
+          Dt,
           Ct,
           _t,
           Bt,
@@ -29697,8 +29705,8 @@
           jt,
           Rt,
           zt,
-          Zt,
           Yt,
+          Zt,
           Ht = i(5043);
         function Wt() {
           return (
@@ -29824,14 +29832,14 @@
                 transform: "translate(-82.53 -34.2)",
                 fill: "#6c63ff"
               })),
-            d ||
-              (d = Ht.createElement("path", {
+            f ||
+              (f = Ht.createElement("path", {
                 d: "M232.91,711.89c-5.6,6.93-35.12,17.43-35.12,17.43s3-29.65,8.56-36.57a17.38,17.38,0,0,1,23.42-3A15.2,15.2,0,0,1,232.91,711.89Z",
                 transform: "translate(-82.53 -34.2)",
                 fill: "#6c63ff"
               })),
-            f ||
-              (f = Ht.createElement("path", {
+            d ||
+              (d = Ht.createElement("path", {
                 d: "M272.73,774.92c-4.28,7.72-31.49,22.78-31.49,22.78s-2.39-29.69,1.89-37.41,14.37-10.7,22.55-6.66S277,767.2,272.73,774.92Z",
                 transform: "translate(-82.53 -34.2)",
                 fill: "#6c63ff"
@@ -29866,14 +29874,14 @@
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.25
               })),
-            k ||
-              (k = Ht.createElement("path", {
+            v ||
+              (v = Ht.createElement("path", {
                 d: "M232.91,711.89c-5.6,6.93-35.12,17.43-35.12,17.43s3-29.65,8.56-36.57a17.38,17.38,0,0,1,23.42-3A15.2,15.2,0,0,1,232.91,711.89Z",
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.25
               })),
-            v ||
-              (v = Ht.createElement("path", {
+            k ||
+              (k = Ht.createElement("path", {
                 d: "M272.73,774.92c-4.28,7.72-31.49,22.78-31.49,22.78s-2.39-29.69,1.89-37.41,14.37-10.7,22.55-6.66S277,767.2,272.73,774.92Z",
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.25
@@ -29911,14 +29919,14 @@
                 transform: "translate(-82.53 -34.2)",
                 fill: "#6c63ff"
               })),
-            D ||
-              (D = Ht.createElement("path", {
+            P ||
+              (P = Ht.createElement("path", {
                 d: "M264.9,640.73c-6.4,6.28-37,13.57-37,13.57s6.49-29.15,12.88-35.43a17.42,17.42,0,0,1,23.63-.44A15.16,15.16,0,0,1,264.9,640.73Z",
                 transform: "translate(-82.53 -34.2)",
                 fill: "#6c63ff"
               })),
-            P ||
-              (P = Ht.createElement("path", {
+            D ||
+              (D = Ht.createElement("path", {
                 d: "M285,713.08c-8.09,4.19-39.58,2.5-39.58,2.5s15.43-26,23.52-30.16,18.25-1.39,22.68,6.25S293.13,708.89,285,713.08Z",
                 transform: "translate(-82.53 -34.2)",
                 fill: "#6c63ff"
@@ -30013,14 +30021,14 @@
                 transform: "translate(-82.53 -34.2)",
                 fill: "#fbbebe"
               })),
-            Z ||
-              (Z = Ht.createElement("path", {
+            Y ||
+              (Y = Ht.createElement("path", {
                 d: "M968.28,290c-1.51,3-2.23,3.32-1.29,6.59C960.57,303.46,952.4,311,942.24,311a35.06,35.06,0,0,1-15.67-3.67c-1-8.2-3.26-17.63-3.26-17.63S972.42,281.7,968.28,290Z",
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.1
               })),
-            Y ||
-              (Y = Ht.createElement("path", {
+            Z ||
+              (Z = Ht.createElement("path", {
                 d: "M977.46,274.89a35.22,35.22,0,0,1-70.43,0c0-.17,0-.34,0-.5a35.21,35.21,0,0,1,70.42.5Z",
                 transform: "translate(-82.53 -34.2)",
                 fill: "#fbbebe"
@@ -30151,14 +30159,14 @@
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.1
               })),
-            dt ||
-              (dt = Ht.createElement("path", {
+            ft ||
+              (ft = Ht.createElement("path", {
                 d: "M880.55,695.78s-9.17,2.66-.29,8S880.55,695.78,880.55,695.78Z",
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.1
               })),
-            ft ||
-              (ft = Ht.createElement("path", {
+            dt ||
+              (dt = Ht.createElement("path", {
                 d: "M921.24,553.61c1,0,17.16-5.32,22.78-3A37.49,37.49,0,0,0,956.59,553Z",
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.1
@@ -30193,14 +30201,14 @@
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.1
               })),
-            kt ||
-              (kt = Ht.createElement("path", {
+            vt ||
+              (vt = Ht.createElement("path", {
                 d: "M1021.54,349.75s-8.88.89-9.17,8.58Z",
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.1
               })),
-            vt ||
-              (vt = Ht.createElement("path", {
+            kt ||
+              (kt = Ht.createElement("path", {
                 d: "M939.29,471.06c.88-.89,21.3-31.07,26-28.4Z",
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.1
@@ -30235,14 +30243,14 @@
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.1
               })),
-            Dt ||
-              (Dt = Ht.createElement("path", {
+            Pt ||
+              (Pt = Ht.createElement("path", {
                 d: "M1018.14,483.19s-1.33,3.3-2.69,6.14c-5.16-7.07-12.25-15.42-17.91-17l2.69-2.62Z",
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.1
               })),
-            Pt ||
-              (Pt = Ht.createElement("path", {
+            Dt ||
+              (Dt = Ht.createElement("path", {
                 d: "M1032.93,363.51l5.33,4.14s8.87.15,9.76,7.55,9,10.8,9,10.8,6.06,6.06,6.06,8.87,4.59,7.84,4.59,8.29,4.44,9.47,3.84,11.09,4.74,8.73,3.11,11.39a65.63,65.63,0,0,0-3.55,7.4s-6.95,13.32-10.5,15.83-19.83,23.67-19.83,23.67-17.45,20.12-17.45,26.33c0,0-17-28.4-27.08-27.66l19.68-22.64s3.4-3.69,3.55-5.91,9.47-12.43,13.91-12.87c0,0,.73-6.07-1.19-6.22s-3.55-4.88-3.55-4.88-13-15.38-13.17-25.15S1032.93,363.51,1032.93,363.51Z",
                 transform: "translate(-82.53 -34.2)",
                 fill: "#65617d"
@@ -30356,14 +30364,14 @@
                 transform: "translate(-82.53 -34.2)",
                 fill: "#dcdfed"
               })),
-            Zt ||
-              (Zt = Ht.createElement("path", {
+            Yt ||
+              (Yt = Ht.createElement("path", {
                 d: "M306,730.57,552,578.8a18.06,18.06,0,0,1,23,3.6L795.18,839.19c.8.92,1.19.26,0,0L306,730.57C304.6,730.26,304.78,731.3,306,730.57Z",
                 transform: "translate(-82.53 -34.2)",
                 opacity: 0.1
               })),
-            Yt ||
-              (Yt = Ht.createElement("path", {
+            Zt ||
+              (Zt = Ht.createElement("path", {
                 d: "M307.76,730.32,551.22,583.25a19.09,19.09,0,0,1,24.28,3.82L793.69,838a2.63,2.63,0,0,1-2.55,4.29L308.55,735.13A2.62,2.62,0,0,1,307.76,730.32Z",
                 transform: "translate(-82.53 -34.2)",
                 fill: "#e3e5f1"
@@ -30387,22 +30395,22 @@
           c,
           h,
           u,
-          d,
           f,
+          d,
           p,
           m,
           y,
           x,
           g,
-          k,
           v,
+          k,
           b,
           A,
           E,
           w,
           S,
-          D,
           P,
+          D,
           C,
           _,
           B,
@@ -30418,8 +30426,8 @@
           j,
           R,
           z,
-          Z,
           Y,
+          Z,
           H,
           W,
           q,
@@ -30441,22 +30449,22 @@
           ct,
           ht,
           ut,
-          dt,
           ft,
+          dt,
           pt,
           mt,
           yt,
           xt,
           gt,
-          kt,
           vt,
+          kt,
           bt,
           At,
           Et,
           wt,
           St,
-          Dt,
           Pt,
+          Dt,
           Ct,
           _t,
           Bt,
@@ -30472,8 +30480,8 @@
           jt,
           Rt,
           zt,
-          Zt,
           Yt,
+          Zt,
           Ht,
           Wt,
           qt,
@@ -30495,22 +30503,22 @@
           ce,
           he,
           ue,
-          de,
           fe,
+          de,
           pe,
           me,
           ye,
           xe,
           ge,
-          ke,
           ve,
+          ke,
           be,
           Ae,
           Ee,
           we,
           Se,
-          De,
           Pe,
+          De,
           Ce,
           _e,
           Be,
@@ -30526,8 +30534,8 @@
           je,
           Re,
           ze,
-          Ze,
           Ye,
+          Ze,
           He,
           We,
           qe,
@@ -30549,22 +30557,22 @@
           ci,
           hi,
           ui,
-          di,
           fi,
+          di,
           pi,
           mi,
           yi,
           xi,
           gi,
-          ki,
           vi,
+          ki,
           bi,
           Ai,
           Ei,
           wi,
           Si,
-          Di,
           Pi,
+          Di,
           Ci,
           _i,
           Bi,
@@ -30580,8 +30588,8 @@
           ji,
           Ri,
           zi,
-          Zi,
           Yi,
+          Zi,
           Hi,
           Wi,
           qi = i(5043);
@@ -30698,8 +30706,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            d ||
-              (d = qi.createElement("rect", {
+            f ||
+              (f = qi.createElement("rect", {
                 x: 489.08,
                 y: 111.02,
                 width: 25.51,
@@ -30707,8 +30715,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            f ||
-              (f = qi.createElement("rect", {
+            d ||
+              (d = qi.createElement("rect", {
                 x: 523.94,
                 y: 111.02,
                 width: 25.51,
@@ -30760,8 +30768,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            k ||
-              (k = qi.createElement("rect", {
+            v ||
+              (v = qi.createElement("rect", {
                 x: 733.14,
                 y: 111.02,
                 width: 25.51,
@@ -30769,8 +30777,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            v ||
-              (v = qi.createElement("rect", {
+            k ||
+              (k = qi.createElement("rect", {
                 x: 768.01,
                 y: 111.02,
                 width: 25.51,
@@ -30820,16 +30828,16 @@
                 height: 25.51,
                 fill: "#6c63ff"
               })),
-            D ||
-              (D = qi.createElement("rect", {
+            P ||
+              (P = qi.createElement("rect", {
                 x: 977.2,
                 y: 111.02,
                 width: 25.51,
                 height: 25.51,
                 fill: "#6c63ff"
               })),
-            P ||
-              (P = qi.createElement("path", {
+            D ||
+              (D = qi.createElement("path", {
                 d: "M228.8,298.08v12.1h-8.18Q224.52,304,228.8,298.08Z",
                 transform: "translate(-28 -141.34)",
                 fill: "#6c63ff"
@@ -30966,8 +30974,8 @@
                 fill: "#6c63ff",
                 opacity: 0.4
               })),
-            Z ||
-              (Z = qi.createElement("rect", {
+            Y ||
+              (Y = qi.createElement("rect", {
                 x: 733.14,
                 y: 143.33,
                 width: 25.51,
@@ -30975,8 +30983,8 @@
                 fill: "#6c63ff",
                 opacity: 0.4
               })),
-            Y ||
-              (Y = qi.createElement("rect", {
+            Z ||
+              (Z = qi.createElement("rect", {
                 x: 768.01,
                 y: 143.33,
                 width: 25.51,
@@ -31162,8 +31170,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            dt ||
-              (dt = qi.createElement("rect", {
+            ft ||
+              (ft = qi.createElement("rect", {
                 x: 628.54,
                 y: 175.65,
                 width: 25.51,
@@ -31171,8 +31179,8 @@
                 fill: "#6c63ff",
                 opacity: 0.4
               })),
-            ft ||
-              (ft = qi.createElement("rect", {
+            dt ||
+              (dt = qi.createElement("rect", {
                 x: 663.41,
                 y: 175.65,
                 width: 25.51,
@@ -31224,8 +31232,8 @@
                 fill: "#6c63ff",
                 opacity: 0.4
               })),
-            kt ||
-              (kt = qi.createElement("rect", {
+            vt ||
+              (vt = qi.createElement("rect", {
                 x: 872.61,
                 y: 175.65,
                 width: 25.51,
@@ -31233,8 +31241,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            vt ||
-              (vt = qi.createElement("rect", {
+            kt ||
+              (kt = qi.createElement("rect", {
                 x: 907.47,
                 y: 175.65,
                 width: 25.51,
@@ -31284,8 +31292,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            Dt ||
-              (Dt = qi.createElement("rect", {
+            Pt ||
+              (Pt = qi.createElement("rect", {
                 x: 210.15,
                 y: 207.96,
                 width: 25.51,
@@ -31293,8 +31301,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            Pt ||
-              (Pt = qi.createElement("rect", {
+            Dt ||
+              (Dt = qi.createElement("rect", {
                 x: 245.02,
                 y: 207.96,
                 width: 25.51,
@@ -31435,8 +31443,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            Zt ||
-              (Zt = qi.createElement("rect", {
+            Yt ||
+              (Yt = qi.createElement("rect", {
                 x: 802.87,
                 y: 207.96,
                 width: 25.51,
@@ -31444,8 +31452,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            Yt ||
-              (Yt = qi.createElement("rect", {
+            Zt ||
+              (Zt = qi.createElement("rect", {
                 x: 837.74,
                 y: 207.96,
                 width: 25.51,
@@ -31636,8 +31644,8 @@
                 height: 25.51,
                 fill: "#6c63ff"
               })),
-            de ||
-              (de = qi.createElement("rect", {
+            fe ||
+              (fe = qi.createElement("rect", {
                 x: 698.28,
                 y: 240.28,
                 width: 25.51,
@@ -31645,8 +31653,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            fe ||
-              (fe = qi.createElement("rect", {
+            de ||
+              (de = qi.createElement("rect", {
                 x: 733.14,
                 y: 240.28,
                 width: 25.51,
@@ -31699,8 +31707,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            ke ||
-              (ke = qi.createElement("rect", {
+            ve ||
+              (ve = qi.createElement("rect", {
                 x: 942.34,
                 y: 240.28,
                 width: 25.51,
@@ -31708,8 +31716,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            ve ||
-              (ve = qi.createElement("rect", {
+            ke ||
+              (ke = qi.createElement("rect", {
                 x: 977.2,
                 y: 240.28,
                 width: 25.51,
@@ -31761,8 +31769,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            De ||
-              (De = qi.createElement("rect", {
+            Pe ||
+              (Pe = qi.createElement("rect", {
                 x: 279.88,
                 y: 272.59,
                 width: 25.51,
@@ -31770,8 +31778,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            Pe ||
-              (Pe = qi.createElement("rect", {
+            De ||
+              (De = qi.createElement("rect", {
                 x: 314.75,
                 y: 272.59,
                 width: 25.51,
@@ -31911,8 +31919,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            Ze ||
-              (Ze = qi.createElement("rect", {
+            Ye ||
+              (Ye = qi.createElement("rect", {
                 x: 872.61,
                 y: 272.59,
                 width: 25.51,
@@ -31920,8 +31928,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            Ye ||
-              (Ye = qi.createElement("rect", {
+            Ze ||
+              (Ze = qi.createElement("rect", {
                 x: 907.47,
                 y: 272.59,
                 width: 25.51,
@@ -32115,8 +32123,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            di ||
-              (di = qi.createElement("rect", {
+            fi ||
+              (fi = qi.createElement("rect", {
                 x: 768.01,
                 y: 304.91,
                 width: 25.51,
@@ -32124,8 +32132,8 @@
                 fill: "#6c63ff",
                 opacity: 0.2
               })),
-            fi ||
-              (fi = qi.createElement("rect", {
+            di ||
+              (di = qi.createElement("rect", {
                 x: 802.87,
                 y: 304.91,
                 width: 25.51,
@@ -32177,15 +32185,15 @@
                 height: 25.51,
                 fill: "#6c63ff"
               })),
-            ki ||
-              (ki = qi.createElement("circle", {
+            vi ||
+              (vi = qi.createElement("circle", {
                 cx: 734.52,
                 cy: 363.89,
                 r: 34.87,
                 fill: "#767d9f"
               })),
-            vi ||
-              (vi = qi.createElement("path", {
+            ki ||
+              (ki = qi.createElement("path", {
                 d: "M760.71,460.87q5.22,22.78,8.86,45.9c.73,4.58,1.38,9.41-.28,13.74-1.39,3.61-4.22,6.43-6.44,9.59s-3.9,7.21-2.55,10.83,5.29,5.6,9.05,6.62c10.76,2.9,22.23.79,32.94-2.35a53.29,53.29,0,0,0,13.81-5.72c4.54-2.88,8.26-6.88,11.68-11,15.61-18.93,25.83-41.65,35.45-64.23a39.12,39.12,0,0,1-33.11-13.34c-3.94-4.63-6.83-11.08-4.61-16.74-6.51,3.57-14.24,3.81-21.25,6.25a75.49,75.49,0,0,0-12.5,6.15q-7.18,4.15-14.28,8.46C772.07,458.29,767,461.19,760.71,460.87Z",
                 transform: "translate(-28 -141.34)",
                 fill: "#ae6e79"
@@ -32220,14 +32228,14 @@
                 transform: "translate(-28 -141.34)",
                 fill: "#4c4981"
               })),
-            Di ||
-              (Di = qi.createElement("path", {
+            Pi ||
+              (Pi = qi.createElement("path", {
                 d: "M1063,715.56v29.9a167.3,167.3,0,0,1-64.73,12.8H728.58c-.14.14-.29.27-.44.4l-3.24-.4H245.17c-40.25,0-77.55-10.86-108.14-29.36V683.25l230.72-26.63.18,0L502.29,668l34.77,3,18.06,1.53,37.38,3.17,19.23,1.63,28,2.38,3.94.33,20.18,1.71L691.23,684l38.5,3.26,64.18,5.45,45.15,3.83,74.14,6.29,14.1,1.19,1.52.13,1.32.11,18.62,1.58,20.44,1.74,2.37.2Z",
                 transform: "translate(-28 -141.34)",
                 fill: "#504f60"
               })),
-            Pi ||
-              (Pi = qi.createElement("polygon", {
+            Di ||
+              (Di = qi.createElement("polygon", {
                 points:
                   "764 573.12 474.86 523.77 463.65 580.46 596.19 596.33 637 601.44 749.26 579.33 764 573.12",
                 fill: "#9c9ca1"
@@ -32332,14 +32340,14 @@
                 transform: "translate(-28 -141.34)",
                 fill: "#6c63ff"
               })),
-            Zi ||
-              (Zi = qi.createElement("path", {
+            Yi ||
+              (Yi = qi.createElement("path", {
                 d: "M825.73,425.3c0,40.23-27.53,79-67.76,79a72.85,72.85,0,0,1,0-145.7C798.2,358.64,825.73,385.06,825.73,425.3Z",
                 transform: "translate(-28 -141.34)",
                 opacity: 0.1
               })),
-            Yi ||
-              (Yi = qi.createElement("circle", {
+            Zi ||
+              (Zi = qi.createElement("circle", {
                 cx: 729.97,
                 cy: 288.15,
                 r: 72.85,
@@ -32376,22 +32384,22 @@
           c,
           h,
           u,
-          d,
           f,
+          d,
           p,
           m,
           y,
           x,
           g,
-          k,
           v,
+          k,
           b,
           A,
           E,
           w,
           S,
-          D,
           P,
+          D,
           C,
           _,
           B,
@@ -32407,8 +32415,8 @@
           j,
           R,
           z,
-          Z,
           Y,
+          Z,
           H,
           W,
           q,
@@ -32430,22 +32438,22 @@
           ct,
           ht,
           ut,
-          dt,
           ft,
+          dt,
           pt,
           mt,
           yt,
           xt,
           gt,
-          kt,
           vt,
+          kt,
           bt,
           At,
           Et,
           wt,
           St,
-          Dt,
           Pt,
+          Dt,
           Ct,
           _t,
           Bt,
@@ -32461,8 +32469,8 @@
           jt,
           Rt,
           zt,
-          Zt,
           Yt,
+          Zt,
           Ht,
           Wt,
           qt,
@@ -32484,22 +32492,22 @@
           ce,
           he,
           ue,
-          de,
           fe,
+          de,
           pe,
           me,
           ye,
           xe,
           ge,
-          ke,
           ve,
+          ke,
           be,
           Ae,
           Ee,
           we,
           Se,
-          De,
           Pe,
+          De,
           Ce,
           _e,
           Be,
@@ -32515,8 +32523,8 @@
           je,
           Re,
           ze,
-          Ze,
           Ye,
+          Ze,
           He,
           We,
           qe,
@@ -32538,24 +32546,24 @@
           ci,
           hi,
           ui,
-          di,
           fi,
+          di,
           pi,
           mi,
           yi,
           xi,
           gi,
-          ki,
           vi,
+          ki,
           bi,
           Ai,
           Ei,
           wi,
           Si,
-          Di = i(5043);
-        function Pi() {
+          Pi = i(5043);
+        function Di() {
           return (
-            (Pi = Object.assign
+            (Di = Object.assign
               ? Object.assign.bind()
               : function (t) {
                   for (var e = 1; e < arguments.length; e++) {
@@ -32565,14 +32573,14 @@
                   }
                   return t;
                 }),
-            Pi.apply(null, arguments)
+            Di.apply(null, arguments)
           );
         }
         function Ci(t, e) {
           let {title: i, titleId: Ci, ..._i} = t;
-          return Di.createElement(
+          return Pi.createElement(
             "svg",
-            Pi(
+            Di(
               {
                 id: "bfc59778-adb9-4ded-81d5-12977ec092f3",
                 "data-name": "Layer 1",
@@ -32587,10 +32595,10 @@
               _i
             ),
             r ||
-              (r = Di.createElement(
+              (r = Pi.createElement(
                 "defs",
                 null,
-                Di.createElement(
+                Pi.createElement(
                   "linearGradient",
                   {
                     id: "e507827f-2863-48fa-82fe-b741cb149057",
@@ -32601,17 +32609,17 @@
                     gradientTransform: "matrix(-1, 0, 0, 1, -573.82, 0)",
                     gradientUnits: "userSpaceOnUse"
                   },
-                  Di.createElement("stop", {
+                  Pi.createElement("stop", {
                     offset: 0,
                     stopColor: "gray",
                     stopOpacity: 0.25
                   }),
-                  Di.createElement("stop", {
+                  Pi.createElement("stop", {
                     offset: 0.54,
                     stopColor: "gray",
                     stopOpacity: 0.12
                   }),
-                  Di.createElement("stop", {
+                  Pi.createElement("stop", {
                     offset: 1,
                     stopColor: "gray",
                     stopOpacity: 0.1
@@ -32619,61 +32627,61 @@
                 )
               )),
             void 0 === i
-              ? Di.createElement("title", {id: Ci}, "on the office")
+              ? Pi.createElement("title", {id: Ci}, "on the office")
               : i
-              ? Di.createElement("title", {id: Ci}, i)
+              ? Pi.createElement("title", {id: Ci}, i)
               : null,
             a ||
-              (a = Di.createElement("path", {
+              (a = Pi.createElement("path", {
                 d: "M1096.36,308.36h-91.94V419.81h85.22c.22,1.15.43,2.3.68,3.44h-85.9v89.86l.43-.14q3.64-1.28,7.23-2.72l1.54-.63q3.68-1.51,7.23-3.23c.85-.39,1.69-.8,2.52-1.22a149.83,149.83,0,0,0,36.17-25c.31-.27.6-.55.88-.82,1.47-1.42,2.91-2.85,4.31-4.32l1.54-1.64c1.65-1.79,3.24-3.64,4.79-5.51l.68-.82a116.4,116.4,0,0,0,15.58-25c.13-.27.24-.55.36-.82,1.25-2.82,2.38-5.68,3.36-8.59.42-1.23.82-2.46,1.17-3.69.12-.37.23-.73.33-1.09,5.1-17.85,5.69-36.4,5.69-54.85,0-2.15,0-4.31,0-6.45,0-7.45-.11-15-.25-22.45,0-1.94-.09-3.87-.14-5.82q-.18-7.43-.54-14.84c-.06-1.38-.12-2.75-.21-4.11,0-.79-.08-1.58-.13-2.37C1096.76,314.05,1096.58,311.21,1096.36,308.36Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             n ||
-              (n = Di.createElement("path", {
+              (n = Pi.createElement("path", {
                 d: "M1004.42,184.29h50.43A344.83,344.83,0,0,0,1028,151.45c-7.5-8.18-15.37-16.16-23.61-23.84Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             o ||
-              (o = Di.createElement("path", {
+              (o = Pi.createElement("path", {
                 d: "M1004.42,187.73V304.92h91.65c0-.34-.06-.69-.09-1-.08-.92-.16-1.84-.25-2.77s-.21-2.16-.33-3.25-.24-2.35-.38-3.51-.26-2.35-.41-3.52-.29-2.34-.45-3.5-.31-2.34-.49-3.5c-.14-1-.27-1.92-.42-2.89-.21-1.36-.43-2.73-.66-4.08a5.78,5.78,0,0,0-.11-.6,251.24,251.24,0,0,0-6.74-29.43A202.47,202.47,0,0,0,1074.37,217a216.88,216.88,0,0,0-17.11-29.3Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             s ||
-              (s = Di.createElement("path", {
+              (s = Pi.createElement("path", {
                 d: "M786.08,308.36V419.81H982.46V308.36Zm0,114.89v75.47c22.86-7.31,49-4.36,72.7,1.64,18.35,4.66,36.23,11,54.55,15.56a200.08,200.08,0,0,0,24.87,4.7l2.06.22c1,.1,2,.2,3,.28l3,.21.31,0,1.34,0a3.55,3.55,0,0,0,.46,0l1.62.06h.05c.77,0,1.55,0,2.33.06h1c.77,0,1.55,0,2.33,0l1.71,0,1.38,0c.59,0,1.17,0,1.75-.06.94,0,1.88-.08,2.83-.15a0,0,0,0,0,0,0l1.75-.11,2.16-.17c1.53-.12,3-.28,4.55-.46.6-.07,1.21-.14,1.81-.23l.89-.11c1.51-.2,3-.44,4.51-.69,1.11-.17,2.22-.38,3.34-.58V423.25Zm146.06-239v3.44H786.08V304.92H982.46V187.73h-9.85v-3.44h9.85V108.55c-38.2-30.77-82.85-54.87-132.58-66a282,282,0,0,0-63.8-6.65V184.29Zm-449-.66.69.66H764.11V36.93c-49.9,4.15-98.56,20.91-137.79,48.68-18.85,13.33-35.78,29.13-56.93,39.36a89.15,89.15,0,0,1-35.6,9.2Zm-1.93-60.44v33.35l27.08-26.43C498.22,126.59,490.28,124.21,481.17,123.19Zm-.9,419.56.9,0v73.1q15.33-1.14,30.54-3.14A546.44,546.44,0,0,0,644,578.41h0q6.84-2.74,13.58-5.66,4.49-1.95,8.93-4,6.66-3.06,13.22-6.29A465.15,465.15,0,0,0,735.6,530c1.11-.75,2.23-1.51,3.33-2.28q3.32-2.3,6.59-4.64c1.09-.79,2.18-1.58,3.26-2.38L751,519c2.24-1.67,4.47-3.35,6.73-5h0c2.09-1.5,4.2-3,6.34-4.4v-86.4H538.92c.16-.51.31-1,.48-1.54-.18.52-.34,1-.49,1.54H481.17V542.69Zm.9-355V304.92H764.11V187.73Zm0,120.63V419.81H764.11V308.36ZM424.65,126.58l34.56,33.73V123Q441.84,124.08,424.65,126.58ZM184,308.36V419.81H459.21V308.36Zm66.52,275.25a511.15,511.15,0,0,0,129.73,30.78l.19,0q12.59,1.33,25.25,2.06l.31,0h0c17.69,1,35.45,1.23,53.18.57V423.25H184l1,128.32M107.77,419.81h54.28V308.36H140.58c-2.23,3.92-4.39,7.86-6.44,11.86q-1.65,3.19-3.21,6.45C116.8,356,107.82,388.24,107.77,419.81Zm0,3.44c.44,22.64,5.54,44.86,16.73,65.39,9.3,17.05,22.22,32,37.51,45V423.25Zm34.78-118.33h19.46v-29A309.35,309.35,0,0,0,142.59,304.92ZM264.48,184.29H452.72l.68-.66-1-1h0L399.47,131A429.83,429.83,0,0,0,353,143.45c-1.44.47-2.88,1-4.31,1.45A421.47,421.47,0,0,0,264.48,184.29ZM184,249.66v55.26H425.36l0,0,.05,0h33.83v-114l-3.86-3.14H258.94A377.73,377.73,0,0,0,184,249.66Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             l ||
-              (l = Di.createElement("path", {
+              (l = Pi.createElement("path", {
                 d: "M1004.42,246.84v58.08h91.65c0-.34-.06-.69-.09-1-.08-.92-.16-1.84-.25-2.77s-.21-2.16-.33-3.25-.24-2.35-.38-3.51-.26-2.35-.41-3.52-.29-2.34-.45-3.5-.31-2.34-.49-3.5c-.14-1-.27-1.92-.42-2.89-.21-1.36-.43-2.73-.66-4.08a5.78,5.78,0,0,0-.11-.6,251.24,251.24,0,0,0-6.74-29.43Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             c ||
-              (c = Di.createElement("path", {
+              (c = Pi.createElement("path", {
                 d: "M1096.36,308.36h-91.94V419.81h85.22c.22,1.15.43,2.3.68,3.44h-85.9v89.86l.43-.14q3.64-1.28,7.23-2.72l1.54-.63q3.68-1.51,7.23-3.23c.85-.39,1.69-.8,2.52-1.22a149.83,149.83,0,0,0,36.17-25c.31-.27.6-.55.88-.82,1.47-1.42,2.91-2.85,4.31-4.32l1.54-1.64c1.65-1.79,3.24-3.64,4.79-5.51l.68-.82a116.4,116.4,0,0,0,15.58-25c.13-.27.24-.55.36-.82,1.25-2.82,2.38-5.68,3.36-8.59.42-1.23.82-2.46,1.17-3.69.12-.37.23-.73.33-1.09,5.1-17.85,5.69-36.4,5.69-54.85,0-2.15,0-4.31,0-6.45,0-7.45-.11-15-.25-22.45,0-1.94-.09-3.87-.14-5.82q-.18-7.43-.54-14.84c-.06-1.38-.12-2.75-.21-4.11,0-.79-.08-1.58-.13-2.37C1096.76,314.05,1096.58,311.21,1096.36,308.36Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             h ||
-              (h = Di.createElement("polygon", {
+              (h = Pi.createElement("polygon", {
                 points:
                   "811.56 168.6 811.56 269.01 880.69 269.01 880.69 168.6 870.84 168.6 870.84 134.6 830.37 134.6 830.37 168.6 811.56 168.6",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             u ||
-              (u = Di.createElement("rect", {
+              (u = Pi.createElement("rect", {
                 x: 811.56,
                 y: 272.45,
                 width: 69.13,
@@ -32681,15 +32689,15 @@
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
-            d ||
-              (d = Di.createElement("path", {
+            f ||
+              (f = Pi.createElement("path", {
                 d: "M982.46,423.25H913.34v92.67a201.42,201.42,0,0,0,24.86,4.7l2.06.22c1,.11,2,.2,3,.28l3,.21c.1,0,.21,0,.31,0,.44,0,.89,0,1.34.06l.46,0c.54,0,1.08,0,1.63.06h0c.77,0,1.55,0,2.33.06h1c.78,0,1.55,0,2.33,0l1.71,0,1.38,0,1.76-.06c.93,0,1.88-.08,2.82-.15a0,0,0,0,0,0,0l1.74-.11,2.17-.17c1.52-.13,3-.28,4.54-.46l1.81-.23.89-.11c1.51-.21,3-.43,4.51-.69,1.12-.17,2.22-.38,3.34-.58Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
-            f ||
-              (f = Di.createElement("rect", {
+            d ||
+              (d = Pi.createElement("rect", {
                 x: 379.4,
                 y: 156.74,
                 width: 57.01,
@@ -32698,56 +32706,56 @@
                 opacity: 0.1
               })),
             p ||
-              (p = Di.createElement("polygon", {
+              (p = Pi.createElement("polygon", {
                 points:
                   "379.4 272.45 379.4 383.9 662.34 383.9 662.34 335.83 511.63 335.83 511.63 364.19 436.4 364.19 436.4 272.45 379.4 272.45",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             m ||
-              (m = Di.createElement("path", {
+              (m = Pi.createElement("path", {
                 d: "M480.27,542.75l.9,0v73.11q15.33-1.16,30.54-3.14A547.41,547.41,0,0,0,644,578.41q18.24-7.32,35.73-15.94A465.15,465.15,0,0,0,735.6,530q6.69-4.54,13.17-9.29c3-2.21,6-4.46,9-6.65,2.09-1.5,4.2-3,6.34-4.41V423.25H538.93c.16-.51.31-1,.47-1.53-.17.51-.34,1-.49,1.53H481.17V542.7Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             y ||
-              (y = Di.createElement("path", {
+              (y = Pi.createElement("path", {
                 d: "M332.5,184.29h37.14V174H353V143.45c-1.44.47-2.88,1-4.31,1.45V174H332.5Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             x ||
-              (x = Di.createElement("path", {
+              (x = Pi.createElement("path", {
                 d: "M243,304.92H425.36l-.06,0,.09,0h33.82V192.65h-9.58v83h-43.8V226.53H369.64v-38.8H332.5v38.8H296.32v49.11H243Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             g ||
-              (g = Di.createElement("path", {
+              (g = Pi.createElement("path", {
                 d: "M243,308.36V419.81H459.21V308.36Zm7.55,275.25a511.15,511.15,0,0,0,129.73,30.78l.19,0q12.59,1.33,25.25,2.06l.31,0h0c17.69,1,35.45,1.23,53.18.57V423.25H243v39.51H184l.31,88.21",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
-            k ||
-              (k = Di.createElement("path", {
+            v ||
+              (v = Pi.createElement("path", {
                 d: "M158.24,423.25H107.81c.44,22.64,5.55,44.86,16.73,65.39,9.3,17.06,22.23,32,37.51,45V462.76h-3.81Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
-            v ||
-              (v = Di.createElement("path", {
+            k ||
+              (k = Pi.createElement("path", {
                 d: "M107.77,419.81h50.47V326.67H130.93C116.8,356,107.82,388.24,107.77,419.81Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             b ||
-              (b = Di.createElement("rect", {
+              (b = Pi.createElement("rect", {
                 x: 379.4,
                 y: 187.95,
                 width: 30.54,
@@ -32756,7 +32764,7 @@
                 opacity: 0.1
               })),
             A ||
-              (A = Di.createElement("rect", {
+              (A = Pi.createElement("rect", {
                 x: 379.4,
                 y: 260.91,
                 width: 30.54,
@@ -32765,7 +32773,7 @@
                 opacity: 0.1
               })),
             E ||
-              (E = Di.createElement("rect", {
+              (E = Pi.createElement("rect", {
                 x: 379.4,
                 y: 272.45,
                 width: 30.54,
@@ -32774,7 +32782,7 @@
                 opacity: 0.1
               })),
             w ||
-              (w = Di.createElement("rect", {
+              (w = Pi.createElement("rect", {
                 x: 379.4,
                 y: 333.86,
                 width: 30.54,
@@ -32783,7 +32791,7 @@
                 opacity: 0.1
               })),
             S ||
-              (S = Di.createElement("rect", {
+              (S = Pi.createElement("rect", {
                 x: 379.4,
                 y: 406.82,
                 width: 30.54,
@@ -32791,22 +32799,22 @@
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
-            D ||
-              (D = Di.createElement("path", {
+            P ||
+              (P = Pi.createElement("path", {
                 d: "M481.17,542.7l-.9,0,.9,0v8.17h30.54v-35.2H481.17Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
-            P ||
-              (P = Di.createElement("path", {
+            D ||
+              (D = Pi.createElement("path", {
                 d: "M481.17,588.63v27.19q15.33-1.16,30.54-3.14v-24Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             C ||
-              (C = Di.createElement("rect", {
+              (C = Pi.createElement("rect", {
                 x: 531.46,
                 y: 381.31,
                 width: 130.88,
@@ -32815,7 +32823,7 @@
                 opacity: 0.1
               })),
             _ ||
-              (_ = Di.createElement("rect", {
+              (_ = Pi.createElement("rect", {
                 x: 531.46,
                 y: 387.34,
                 width: 130.88,
@@ -32824,7 +32832,7 @@
                 opacity: 0.1
               })),
             B ||
-              (B = Di.createElement("rect", {
+              (B = Pi.createElement("rect", {
                 x: 531.46,
                 y: 429.73,
                 width: 130.88,
@@ -32833,21 +32841,21 @@
                 opacity: 0.1
               })),
             M ||
-              (M = Di.createElement("path", {
+              (M = Pi.createElement("path", {
                 d: "M633.23,514.06V530H735.61q6.67-4.53,13.17-9.3c3-2.2,6-4.45,9-6.63Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             T ||
-              (T = Di.createElement("path", {
+              (T = Pi.createElement("path", {
                 d: "M633.23,562.47v15.94H644q18.23-7.3,35.72-15.94Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             F ||
-              (F = Di.createElement("rect", {
+              (F = Pi.createElement("rect", {
                 x: 380.26,
                 y: 319.16,
                 width: 25.76,
@@ -32857,7 +32865,7 @@
                 opacity: 0.1
               })),
             V ||
-              (V = Di.createElement("rect", {
+              (V = Pi.createElement("rect", {
                 x: 938.14,
                 y: 212.41,
                 width: 25.76,
@@ -32867,7 +32875,7 @@
                 opacity: 0.1
               })),
             G ||
-              (G = Di.createElement("rect", {
+              (G = Pi.createElement("rect", {
                 x: 938.14,
                 y: 265.63,
                 width: 25.76,
@@ -32877,7 +32885,7 @@
                 opacity: 0.1
               })),
             I ||
-              (I = Di.createElement("rect", {
+              (I = Pi.createElement("rect", {
                 x: 938.14,
                 y: 318.85,
                 width: 25.76,
@@ -32887,7 +32895,7 @@
                 opacity: 0.1
               })),
             L ||
-              (L = Di.createElement("rect", {
+              (L = Pi.createElement("rect", {
                 x: 938.14,
                 y: 372.07,
                 width: 25.76,
@@ -32897,7 +32905,7 @@
                 opacity: 0.1
               })),
             O ||
-              (O = Di.createElement("rect", {
+              (O = Pi.createElement("rect", {
                 x: 938.14,
                 y: 425.28,
                 width: 25.76,
@@ -32907,7 +32915,7 @@
                 opacity: 0.1
               })),
             N ||
-              (N = Di.createElement("rect", {
+              (N = Pi.createElement("rect", {
                 x: 938.14,
                 y: 478.5,
                 width: 25.76,
@@ -32917,7 +32925,7 @@
                 opacity: 0.1
               })),
             j ||
-              (j = Di.createElement("rect", {
+              (j = Pi.createElement("rect", {
                 x: 281.9,
                 y: 319.16,
                 width: 25.76,
@@ -32927,7 +32935,7 @@
                 opacity: 0.1
               })),
             R ||
-              (R = Di.createElement("rect", {
+              (R = Pi.createElement("rect", {
                 x: 380.26,
                 y: 375.68,
                 width: 25.76,
@@ -32937,7 +32945,7 @@
                 opacity: 0.1
               })),
             z ||
-              (z = Di.createElement("rect", {
+              (z = Pi.createElement("rect", {
                 x: 281.9,
                 y: 375.68,
                 width: 25.76,
@@ -32946,8 +32954,8 @@
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
-            Z ||
-              (Z = Di.createElement("rect", {
+            Y ||
+              (Y = Pi.createElement("rect", {
                 x: 380.26,
                 y: 432.19,
                 width: 25.76,
@@ -32956,8 +32964,8 @@
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
-            Y ||
-              (Y = Di.createElement("rect", {
+            Z ||
+              (Z = Pi.createElement("rect", {
                 x: 281.9,
                 y: 432.19,
                 width: 25.76,
@@ -32967,7 +32975,7 @@
                 opacity: 0.1
               })),
             H ||
-              (H = Di.createElement("rect", {
+              (H = Pi.createElement("rect", {
                 x: 380.26,
                 y: 488.7,
                 width: 25.76,
@@ -32977,7 +32985,7 @@
                 opacity: 0.1
               })),
             W ||
-              (W = Di.createElement("rect", {
+              (W = Pi.createElement("rect", {
                 x: 281.9,
                 y: 488.7,
                 width: 25.76,
@@ -32987,7 +32995,7 @@
                 opacity: 0.1
               })),
             q ||
-              (q = Di.createElement("rect", {
+              (q = Pi.createElement("rect", {
                 x: 380.26,
                 y: 545.21,
                 width: 25.76,
@@ -32997,7 +33005,7 @@
                 opacity: 0.1
               })),
             $ ||
-              ($ = Di.createElement("rect", {
+              ($ = Pi.createElement("rect", {
                 x: 281.9,
                 y: 545.21,
                 width: 25.76,
@@ -33007,70 +33015,70 @@
                 opacity: 0.1
               })),
             Q ||
-              (Q = Di.createElement("polygon", {
+              (Q = Pi.createElement("polygon", {
                 points:
                   "304.25 580.58 304.25 565.81 278.5 565.81 278.5 578.48 304.25 580.58",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             U ||
-              (U = Di.createElement("path", {
+              (U = Pi.createElement("path", {
                 d: "M1004.42,276.26v13.11h88.17V276.26Zm79.39.83H1091v11.46h-7.23Zm-8.78,0h7.23v11.46H1075Zm-8.76,0h7.23v11.46h-7.23Zm-8.78,0h7.23v11.46h-7.23Zm-8.77,0H1056v11.46h-7.23Zm-8.78,0h7.23v11.46h-7.23Zm-8.78,0h7.23v11.46h-7.23Zm-8.77,0h7.23v11.46h-7.23Zm-8.77,0h7.23v11.46h-7.23Zm-8.77,0h7.23v11.46h-7.23Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             J ||
-              (J = Di.createElement("path", {
+              (J = Pi.createElement("path", {
                 d: "M1004.42,314.42v13.11h88.17V314.42Zm79.39.83H1091V326.7h-7.23Zm-8.78,0h7.23V326.7H1075Zm-8.76,0h7.23V326.7h-7.23Zm-8.78,0h7.23V326.7h-7.23Zm-8.77,0H1056V326.7h-7.23Zm-8.78,0h7.23V326.7h-7.23Zm-8.78,0h7.23V326.7h-7.23Zm-8.77,0h7.23V326.7h-7.23Zm-8.77,0h7.23V326.7h-7.23Zm-8.77,0h7.23V326.7h-7.23Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             K ||
-              (K = Di.createElement("path", {
+              (K = Pi.createElement("path", {
                 d: "M1004.42,352.57v13.1h88.17v-13.1Zm79.39.82H1091v11.46h-7.23Zm-8.78,0h7.23v11.46H1075Zm-8.76,0h7.23v11.46h-7.23Zm-8.78,0h7.23v11.46h-7.23Zm-8.77,0H1056v11.46h-7.23Zm-8.78,0h7.23v11.46h-7.23Zm-8.78,0h7.23v11.46h-7.23Zm-8.77,0h7.23v11.46h-7.23Zm-8.77,0h7.23v11.46h-7.23Zm-8.77,0h7.23v11.46h-7.23Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             X ||
-              (X = Di.createElement("path", {
+              (X = Pi.createElement("path", {
                 d: "M1004.42,390.72v13.1h88.17v-13.1Zm79.39.82H1091V403h-7.23Zm-8.78,0h7.23V403H1075Zm-8.76,0h7.23V403h-7.23Zm-8.78,0h7.23V403h-7.23Zm-8.77,0H1056V403h-7.23Zm-8.78,0h7.23V403h-7.23Zm-8.78,0h7.23V403h-7.23Zm-8.77,0h7.23V403h-7.23Zm-8.77,0h7.23V403h-7.23Zm-8.77,0h7.23V403h-7.23Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             tt ||
-              (tt = Di.createElement("path", {
+              (tt = Pi.createElement("path", {
                 d: "M1004.42,428.87V442h82.9c.12-.27.24-.55.35-.82h-3.86V429.7H1091v2.85c.42-1.22.82-2.44,1.17-3.68Zm70.61.83h7.23v11.45H1075Zm-8.76,0h7.23v11.45h-7.23Zm-8.78,0h7.23v11.45h-7.23Zm-8.77,0H1056v11.45h-7.23Zm-8.78,0h7.23v11.45h-7.23Zm-8.78,0h7.23v11.45h-7.23Zm-8.77,0h7.23v11.45h-7.23Zm-8.77,0h7.23v11.45h-7.23Zm-8.77,0h7.23v11.45h-7.23Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             et ||
-              (et = Di.createElement("path", {
+              (et = Pi.createElement("path", {
                 d: "M1004.42,467v13.1h55.11c.32-.27.6-.56.89-.82h-2.93V467.85h7.23V475l1.55-1.65v-5.5h4.79c.23-.28.45-.56.68-.82Zm44.3.82H1056v11.46h-7.23Zm-8.78,0h7.23v11.46h-7.23Zm-8.78,0h7.23v11.46h-7.23Zm-8.77,0h7.23v11.46h-7.23Zm-8.77,0h7.23v11.46h-7.23Zm-8.77,0h7.23v11.46h-7.23Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             it ||
-              (it = Di.createElement("path", {
+              (it = Pi.createElement("path", {
                 d: "M1004.42,505.18v7.93a3.12,3.12,0,0,0,.43-.15v-7h7.23v4.26l1.54-.63V506h7.23v.4c.85-.39,1.69-.8,2.52-1.21Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             rt ||
-              (rt = Di.createElement("path", {
+              (rt = Pi.createElement("path", {
                 d: "M425.33,304.94l.05,0h0Zm54.94,237.81.9,0v0Zm58.64-119.5h0c.16-.51.31-1,.48-1.54C539.22,422.23,539.06,422.74,538.91,423.25ZM425.33,304.94l.05,0h0ZM932.14,184.29v3.44h40.47v-3.44ZM480.27,542.75l.9,0v0Zm58.64-119.5h0c.16-.51.31-1,.48-1.54C539.22,422.23,539.06,422.74,538.91,423.25ZM425.33,304.94l.05,0h0Zm54.94,237.81.9,0v0Zm58.64-119.5h0c.16-.51.31-1,.48-1.54C539.22,422.23,539.06,422.74,538.91,423.25Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff",
                 opacity: 0.1
               })),
             at ||
-              (at = Di.createElement("ellipse", {
+              (at = Pi.createElement("ellipse", {
                 cx: 902.95,
                 cy: 820.59,
                 rx: 34.58,
@@ -33079,326 +33087,326 @@
                 opacity: 0.1
               })),
             nt ||
-              (nt = Di.createElement("polygon", {
+              (nt = Pi.createElement("polygon", {
                 points:
                   "668.32 535.25 651.04 534.3 649.87 484.67 649.6 472.85 667.83 469.49 667.95 484.73 668.32 535.25",
                 fill: "#d48a9b"
               })),
             ot ||
-              (ot = Di.createElement("polygon", {
+              (ot = Pi.createElement("polygon", {
                 points:
                   "654.87 526.61 566.07 581.82 564.15 598.62 573.75 599.1 573.75 587.1 631.83 554.46 561.75 641.34 561.75 654.78 573.27 654.78 572.31 639.9 653.43 547.74 663.51 548.7 748.96 645.66 750.88 661.99 762.4 662.47 760.48 645.66 692.8 561.18 737.92 592.38 738.88 605.82 748 606.3 747.04 589.98 661.11 523.73 654.87 526.61",
                 fill: "#d48a9b"
               })),
             st ||
-              (st = Di.createElement("path", {
+              (st = Pi.createElement("path", {
                 d: "M645.08,468.09A158.41,158.41,0,0,0,666,434c6.11-13.52,12.81-29.13,13.32-33.75,1-8.64,25.44-25.92,52.32-26.88,17.53-.63,44.84-14.31,61.74-23.76a125.67,125.67,0,0,1,51.8-16c19.77-1.49,38.36,2.39,29,25.33L748.48,511.16s-107.2,18.89-113.81-11.48a25.26,25.26,0,0,0-1.53-4.46C631.89,492.35,631.56,484.86,645.08,468.09Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
             lt ||
-              (lt = Di.createElement("path", {
+              (lt = Pi.createElement("path", {
                 d: "M654.52,471.11a163.07,163.07,0,0,0,21.13-34.4c5.7-12.64,11.75-26.81,12.23-31.1.92-8.25,24.34-24.76,50.06-25.68,16.77-.6,42.9-13.66,59.06-22.69A120.41,120.41,0,0,1,846.58,342c18.91-1.42,36.7,2.29,27.78,24.2l-99.71,146s-123,17.45-129.51-11.42a28.87,28.87,0,0,0-1.53-4.48C642.47,493.44,642.31,486.43,654.52,471.11Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#dda2a6",
                 opacity: 0.2
               })),
             ct ||
-              (ct = Di.createElement("path", {
+              (ct = Pi.createElement("path", {
                 d: "M769.72,520.64c-5.78,0-11.87,0-18.08-.06l-.27-11.82,18.23-3.35Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             ht ||
-              (ht = Di.createElement(
+              (ht = Pi.createElement(
                 "g",
                 {opacity: 0.1},
-                Di.createElement("polygon", {
+                Pi.createElement("polygon", {
                   points:
                     "737.92 589.5 692.8 558.3 697.97 564.75 737.92 592.38 738.88 605.82 748 606.3 747.83 603.41 738.88 602.94 737.92 589.5"
                 }),
-                Di.createElement("polygon", {
+                Pi.createElement("polygon", {
                   points:
                     "573.75 584.22 573.75 587.1 627.58 556.85 631.83 551.58 573.75 584.22"
                 }),
-                Di.createElement("polygon", {
+                Pi.createElement("polygon", {
                   points:
                     "561.75 651.9 561.75 654.78 573.27 654.78 573.08 651.9 561.75 651.9"
                 }),
-                Di.createElement("polygon", {
+                Pi.createElement("polygon", {
                   points:
                     "573.75 596.22 564.47 595.76 564.15 598.62 573.75 599.1 573.75 596.22"
                 }),
-                Di.createElement("polygon", {
+                Pi.createElement("polygon", {
                   points:
                     "750.88 659.11 748.96 642.78 663.51 545.82 653.43 544.86 572.31 637.02 572.48 639.71 653.43 547.74 663.51 548.7 748.96 645.66 750.88 661.99 762.4 662.47 762.07 659.57 750.88 659.11"
                 })
               )),
             ut ||
-              (ut = Di.createElement("path", {
+              (ut = Pi.createElement("path", {
                 d: "M759.52,426.06S782,442.5,772.16,442.69,759.52,426.06,759.52,426.06Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
-            dt ||
-              (dt = Di.createElement("path", {
+            ft ||
+              (ft = Pi.createElement("path", {
                 d: "M665.2,516s37.2-2.88,51.12-29.76c0,0,28.32-56.17,51.37-62.41s65.76-20.16,83.52-41.76,25.21-38.16,25.21-38.16S881,361.39,866.57,382,846.89,434.35,836.81,468s-13.92,47-32.16,49c-13.75,1.45-86.45.72-121.21,0C672.07,516.69,665.2,516,665.2,516Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
-            ft ||
-              (ft = Di.createElement("path", {
+            dt ||
+              (dt = Pi.createElement("path", {
                 d: "M665.2,516s37.2-2.88,51.12-29.76c0,0,28.32-56.17,51.37-62.41s65.76-20.16,83.52-41.76,25.21-38.16,25.21-38.16S881,361.39,866.57,382,846.89,434.35,836.81,468s-13.92,47-32.16,49c-13.75,1.45-86.45.72-121.21,0C672.07,516.69,665.2,516,665.2,516Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#dda2a6",
                 opacity: 0.2
               })),
             pt ||
-              (pt = Di.createElement("path", {
+              (pt = Pi.createElement("path", {
                 d: "M674.56,516s35.56-2.79,48.86-28.82c0,0,27.08-54.38,49.1-60.42s62.86-19.53,79.84-40.44,24.09-36.95,24.09-36.95,4.35,17-9.41,36.95-18.81,50.66-28.45,83.2-13.3,45.55-30.74,47.41c-13.14,1.4-82.63.69-115.86,0C681.13,516.72,674.56,516,674.56,516Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
             mt ||
-              (mt = Di.createElement("path", {
+              (mt = Pi.createElement("path", {
                 d: "M645.76,502s19.44,7.44,30.48,3.36,38.4-16.08,38.4-16.08S668.56,492.2,645.76,502Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             yt ||
-              (yt = Di.createElement("path", {
+              (yt = Pi.createElement("path", {
                 d: "M775.74,851.35s-55.88-3-69.5-11-32.9-8-33-8l-222.5-48.5-92.5-22-16.5-2.17,54.5-62.36,1.66-.72,80.34-34.75s36,2,43.11,25.46a28.33,28.33,0,0,1,1,5.06,29.36,29.36,0,0,1-5.68,20.54c-2.84,3.88-6.33,9.39-7.43,14.24-.62,2.74-.48,5.27,1,7.2a58.69,58.69,0,0,0,9.88,7.89c19.59,13,69.11,34.42,155.62,1.61,0,0,37-36.5,65-21S775.74,851.35,775.74,851.35Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#e1dee5"
               })),
             xt ||
-              (xt = Di.createElement("path", {
+              (xt = Pi.createElement("path", {
                 d: "M509.28,727.15c-.62,2.74-.48,5.27,1,7.2a58.69,58.69,0,0,0,9.88,7.89L351.74,754.85,397.9,696.6l80.34-34.75s36,2,43.11,25.46a28.33,28.33,0,0,1,1,5.06,29.36,29.36,0,0,1-5.68,20.54C513.87,716.79,510.38,722.3,509.28,727.15Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             gt ||
-              (gt = Di.createElement("polygon", {
+              (gt = Pi.createElement("polygon", {
                 points:
                   "242.97 461.94 380.97 464.94 380.97 630.13 249.97 718.94 218.47 689.94 224.97 593.94 218.47 504.44 242.97 461.94",
                 fill: "#a36468"
               })),
-            kt ||
-              (kt = Di.createElement("path", {
+            vt ||
+              (vt = Pi.createElement("path", {
                 d: "M266.24,470.85,427.36,421.2a24.41,24.41,0,0,1,8.95-1l384.9,28.09a181.82,181.82,0,0,1,91.66,32.33c24.91,17.57,49.58,44.54,61,85.38a163.05,163.05,0,0,1-1.65,91.83l-34,110s25.5-239-229-251Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#d9d6df"
               })),
-            vt ||
-              (vt = Di.createElement("path", {
+            kt ||
+              (kt = Pi.createElement("path", {
                 d: "M351.74,494.35V759.68s-44.15-6.21-52-14.83c-6.44-7.07-43.75-27-59.94-47.53-3.55-4.5-6.09-9-7.06-13.47-5.42-24.68-27.5-83-27.5-83l6-57,25-37,48.5-22h37.5Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#b8797d"
               })),
             bt ||
-              (bt = Di.createElement("path", {
+              (bt = Pi.createElement("path", {
                 d: "M281.74,497.85s-71.76,45-56.06,117.41c1.28,5.9,2.39,11.83,3.12,17.83,2.87,23.42,20.09,90.72,122.94,121.76v7l-43.63-12.17-29.62-16.33-22.61-20.28-27.64-33.72-12.83-27.5-4.7-36.22L208,574.28l6.61-35.47,15.59-23.08,19-14.77Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#d9d6df"
               })),
             At ||
-              (At = Di.createElement("path", {
+              (At = Pi.createElement("path", {
                 d: "M351.74,494.35v42.21c-31.3,3.4-128.21,23-111,135l-.95,25.72c-3.55-4.5-6.09-9-7.06-13.47-5.42-24.68-27.5-83-27.5-83l6-57,25-37,48.5-22h37.5Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Et ||
-              (Et = Di.createElement("path", {
+              (Et = Pi.createElement("path", {
                 d: "M516.71,712.91c-2.84,3.88-6.33,9.39-7.43,14.24-4.36-5-5.3-10.75,1-15.3,7.89-5.74,10.52-15.7,11.11-24.54a28.33,28.33,0,0,1,1,5.06A29.36,29.36,0,0,1,516.71,712.91Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#fff",
                 opacity: 0.1
               })),
             wt ||
-              (wt = Di.createElement("path", {
+              (wt = Pi.createElement("path", {
                 d: "M920.74,739.85l-19,64.5-43,42-54,11-84-15V543.85s14.5-9.5,16-9.5,42,6.5,42,6.5l91.7,65.77,3.8,2.73,41,61Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#b8797d"
               })),
             St ||
-              (St = Di.createElement("polygon", {
+              (St = Pi.createElement("polygon", {
                 points:
                   "618.97 495.44 618.97 806.44 627.07 807.89 627.07 495.44 618.97 495.44",
                 fill: "#a36468"
               })),
-            Dt ||
-              (Dt = Di.createElement("path", {
+            Pt ||
+              (Pt = Pi.createElement("path", {
                 d: "M872.24,627.35c-60-49.3-126.7-56.55-151.5-57.45v-26s14.5-9.5,16-9.5,42,6.5,42,6.5l91.7,65.77Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
-            Pt ||
-              (Pt = Di.createElement("path", {
+            Dt ||
+              (Dt = Pi.createElement("path", {
                 d: "M708.07,511.35l-375.83-41L290,468.11a86.81,86.81,0,0,0-70.21,29.35c-22,25.3-38.63,69.93-14.34,146.56,0,0,25.33,99.33,148,120.67l356.44,80.77c7.9,1.79,15.7,4,23.4,6.51,32.36,10.63,142,38.17,193.65-55.45,17.7-32.1,23-69.53,16.18-105.56C930.69,625.06,883.76,513.23,708.07,511.35ZM892.2,792.24C844,870.76,744.68,847.39,714.82,838.17c-7.31-2.26-14.71-4.23-22.2-5.83L363.36,761.9C249.92,743.27,226.49,656.54,226.49,656.54c-19.15-57-10.78-93.78,4.7-117.06,16.21-24.37,44.43-38,73.67-36.52l38.92,2,336.16,44.91c6.8.91,13.65,1.51,20.51,1.74,149.49,5.07,196,87.27,207.82,143.92C915.21,728.64,909.93,763.38,892.2,792.24Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#e1dee5"
               })),
             Ct ||
-              (Ct = Di.createElement("path", {
+              (Ct = Pi.createElement("path", {
                 d: "M106,678.46c12.31,8.24,31,4.32,31,4.32s28.19-13.35,36.52-13.35,28.59-8.25,28.59-8.25l-.69-5.56-2.06-16.75c12.83,10,27.09,6.55,34.11,5.82,7.54-.78,47.83-24.73,51.71-26.31,1.05-.42,2.28-1.79,3.53-3.56h0a90.77,90.77,0,0,0,6.82-12.46h0c2.52-2.22,4.36-4,4.23-4.39s1-3.31,2.47-6.6c5.72-1,10.65-3.12,12.22-4.4a10.67,10.67,0,0,0,4-8.64s39.31-39.65,34.14-56.14,12.71-16.89,12.71-16.89,27.39-11.78,31.2-18.84c2.35-4.35,22.9-13.9,38.36-20.6l1.9-.82c6,13.15,36.48,3,42.48-2.53,6.35-5.89,25-8.64,25-8.64s.8-77,6.75-86.78c2.83-4.65,3.51-19.85,3.44-34.53,0-.52,0-1,0-1.56,8.34-1.63,28.18-5.4,37.39-6.31,5.84-.58,11.93-4.22,16.6-7.76l.55.69a11.4,11.4,0,0,0,5.07.83,7.76,7.76,0,0,0,4.45-.83c3.58-2,16.68-5.89,21.44-7.85s-.79-16.1-4.36-18.85-6-6.28-4-7.85-4.76-5.5-8.73-6.29-15.88-6.28-15.88-6.28-4.37-9-11.51-9-16.68-7.07-16.68-7.07c-.39-3.14-7.94-3.53-7.94-3.53s-28.58-22-33.35-19.24-17.86-4.32-17.86-4.32-16.07,1.8-19.85-1.16v0a4.46,4.46,0,0,0-1-2.66c-.85-2.66-5-6.3-9-9.33a35.4,35.4,0,0,0,.46-5.68c0-.82,0-1.64-.09-2.45,0-.14,0-.27,0-.41l.57-5.53a11.42,11.42,0,0,1,1.38-5.2c.67-1,1.66-1.85,2.41-2.84a7.06,7.06,0,0,0,.48-.73l.12-.21a6.54,6.54,0,0,0,.3-.59l.09-.2a9.6,9.6,0,0,0,.51-1.68l0-.13c.05-.26.09-.52.12-.79a.45.45,0,0,1,0-.11,16.75,16.75,0,0,0-.9-6.74c-1.19-3.71-3.05-7.29-3.25-11.16-.1-1.92.22-3.88-.2-5.76-1-4.29-5.37-7-9.62-8.8-5.87-2.46-8.83-5.15-13.54-8.81-4-3.1-10.62-1.54-15.66-1.22-11.52.74-22.89,4.21-33.73,7.79-4.21,1.4-8.5,3-11.78,5.85a13,13,0,0,0-4.31,7.28h0a9.52,9.52,0,0,0-.13,2c0,.06,0,.12,0,.17,0,.26,0,.51.09.76a1.87,1.87,0,0,0,0,.25,5.9,5.9,0,0,0,.22.9v0c.46,1.45,1.31,2.76,1.8,4.2a8.21,8.21,0,0,1,.27,1s0,.07,0,.1c.07.32.12.63.16,1h0c.44,3.57-.88,7.3-1.46,10.94-.08.51-.14,1-.18,1.56h0v0a18.64,18.64,0,0,0,.55,6.27.19.19,0,0,0,0,.07c.06.25.15.5.23.74a3,3,0,0,0,.1.32c.07.21.16.42.24.62l.17.42c.08.18.17.36.26.54s.15.3.23.44a5.46,5.46,0,0,0,.27.48c.09.16.19.31.29.46s.19.29.3.43.23.31.35.46l.31.38.42.44.33.33.49.42c.12.09.22.19.34.27s.41.29.62.42l.29.2c.32.19.66.36,1,.52,2.28,1,5.16,1.41,6.53,3.42a4.22,4.22,0,0,1,.67,1.56c0,.13,0,.27,0,.4v.35c0,1.16.08,2.31.2,3.44a12.73,12.73,0,0,0,.11,1.86,5.33,5.33,0,0,0,.38,1.35,35.68,35.68,0,0,0,12,20.22c.12.61.26,1.32.41,2.12a39.71,39.71,0,0,1-11.55,6c-9.53,2.79-23,15.66-23,15.66s-6.7,48.29-8.31,54.18-2.8,28.67-2.8,28.67-1.59,9.42-4,14.13c-1.69,3.32-1.38,17.59,3.32,26.26a21.9,21.9,0,0,1-2.92,4.76c-9.53,11-38.12,10.6-47.65,10.6-8.77,0-11.48,5.32-11.85,6.16-17.45,5-73.95,21.08-80.65,24-7.94,3.47-12.31,37.76-12.31,37.76S172.68,523,173.47,530.46s-5.56,28.24-5.56,28.24,0,23.49-2.69,25.08a.25.25,0,0,1-.08.05c-2.78,1.18-2.39,12.57-2.39,12.57s2.05.59,5.24,1.4c-.85,5.75-4,13.8-6.43,19.52-1.24-1.57-2.45-2.22-3.17-.4-2,5-31.76,40.34-39.31,40.34-3.59,0-9.53,2.94-13.44,6.91C101.36,668.54,99.54,674.15,106,678.46ZM242.55,473.89c33.75,3.14,69.88-2.39,69.88-2.39s-2.78,9.85-5.16,13.78-9.14,26.31-9.14,31-10.72,45.15-13.89,47.11c-1.33.83-2.52,2.89-3.46,5a46.94,46.94,0,0,0-2.1,6q.07,1.53.27,2.91c-2.37,2.17-4.88,4.45-7.11,6.47h0s-14.2,7.9-19,12.22-27,9.62-27,9.62a138.21,138.21,0,0,0-16,8.15c-6.89,4.15-13.78,9.43-15.58,14.64.78-8.78,2.05-19.35,2.9-26.07l1.26-.05c11.13-.69,9.47-11.31,8.88-13.94-.08-.38-.14-.59-.14-.59,7.94-8.64,25.8-73,23.42-80.1s2-13.35,2.93-13.35,2.23-7.85.25-12.17S242.55,473.89,242.55,473.89Zm272.9-173.22-2.11.52,0-.45S514.11,300.74,515.45,300.67ZM400.09,241.42c-.32.4-.64.78-1,1.15l-.41.42c0-.73,0-1.47,0-2.18C399.16,241,399.62,241.23,400.09,241.42ZM360.32,317.6l.14,2.21s-.21,1.35-.61,3.66Zm182.45-21.94-6.93,1.19c1-.37,1.95-.77,2.89-1.22a6.65,6.65,0,0,1,2.21-.6,12.69,12.69,0,0,1,2.58.55A4.78,4.78,0,0,0,542.77,295.66Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "url(#e507827f-2863-48fa-82fe-b741cb149057)"
               })),
             _t ||
-              (_t = Di.createElement("path", {
+              (_t = Pi.createElement("path", {
                 d: "M308.48,579.14s-8,16.51-7.59,17.68S283.74,612,283.74,612l-19.09-13.63,2-9.36s21.43-19.31,23-21.54S308.48,579.14,308.48,579.14Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#efb7b9"
               })),
             Bt ||
-              (Bt = Di.createElement("path", {
+              (Bt = Pi.createElement("path", {
                 d: "M199.58,635c13.25,12.86,28.83,9,36.24,8.19s46.94-24.55,50.74-26.11c1-.42,2.25-1.78,3.47-3.54h0a89.92,89.92,0,0,0,6.69-12.37c-.26.07-13.22,3.78-16.49,0,0,0-5.46-6.69-6.63-6.69s-.09-11.74-.09-11.74-13.94,7.84-18.61,12.13-26.5,9.54-26.5,9.54a134,134,0,0,0-15.68,8.09C202.4,618.8,192,627.69,199.58,635Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#67647e"
               })),
             Mt ||
-              (Mt = Di.createElement("path", {
+              (Mt = Pi.createElement("path", {
                 d: "M199.58,635c13.25,12.86,28.83,9,36.24,8.19s46.94-24.55,50.74-26.11c1-.42,2.25-1.78,3.47-3.54-4.61-2.75-34.73,16.4-43.16,19.91S217.11,635,205,629.94c-6-2.53.08-10.3,7.7-17.44C202.4,618.8,192,627.69,199.58,635Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Tt ||
-              (Tt = Di.createElement("path", {
+              (Tt = Pi.createElement("path", {
                 d: "M201.14,594.48s-5.55,41.69-4.14,47.15-34.83-18.7-34.83-18.7,12.68-26.13,9-32.13S201.14,594.48,201.14,594.48Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#efb7b9"
               })),
             Ft ||
-              (Ft = Di.createElement("path", {
+              (Ft = Pi.createElement("path", {
                 d: "M166.46,595.26s22.6,6.62,35.06,5.84c10.92-.68,9.29-11.22,8.72-13.83-.08-.37-.14-.58-.14-.58,7.79-8.58,25.33-72.48,23-79.49S235,494,236,494s2.19-7.8.24-12.08,8.58-8.18,8.58-8.18c33.12,3.11,68.58-2.38,68.58-2.38s-2.73,9.78-5.07,13.68-9,26.1-9,30.78-10.52,44.81-13.64,46.76c-1.3.82-2.47,2.86-3.39,5a46.75,46.75,0,0,0-2.06,6c1.17,26.11,30.78,16,35.07,12.47a11.5,11.5,0,0,0,1.66-1.7,10.9,10.9,0,0,0,2.23-6.88s38.58-39.35,33.51-55.72,12.47-16.75,12.47-16.75,26.89-11.69,30.63-18.71c2.31-4.31,22.47-13.78,37.65-20.44,9.51-4.17,17.06-7.22,17.06-7.22l-6.32-22.66-5-17.87-9.38-3.52-30-11.28L346,395.75l-4.93.64-52.29,6.77S212.44,425,204.64,428.42s-12.08,37.47-12.08,37.47S176.2,522.39,177,529.83s-5.46,28-5.46,28,0,23.31-2.65,24.89a.14.14,0,0,1-.08,0C166.07,584,166.46,595.26,166.46,595.26Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#444053"
               })),
             Vt ||
-              (Vt = Di.createElement("path", {
+              (Vt = Pi.createElement("path", {
                 d: "M244.78,473.69c33.12,3.11,68.58-2.38,68.58-2.38,2.34-7.37,35.09-27.63,35.09-27.63C321.58,437.06,244.78,473.69,244.78,473.69Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Gt ||
-              (Gt = Di.createElement("path", {
+              (Gt = Pi.createElement("path", {
                 d: "M280.24,573.44c1.17,26.11,30.78,16,35.07,12.47a11.5,11.5,0,0,0,1.66-1.7c-10.35,3.81-28.7,6.76-34.67-16.73A46.75,46.75,0,0,0,280.24,573.44Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#444053"
               })),
             It ||
-              (It = Di.createElement("path", {
+              (It = Pi.createElement("path", {
                 d: "M166.46,595.26s22.6,6.62,35.06,5.84c10.92-.68,9.29-11.22,8.72-13.83-11.44-.36-31.14-1.43-41.37-4.53a.14.14,0,0,1-.08,0C166.07,584,166.46,595.26,166.46,595.26Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#444053"
               })),
             Lt ||
-              (Lt = Di.createElement("path", {
+              (Lt = Pi.createElement("path", {
                 d: "M280.24,573.44c1.17,26.11,30.78,16,35.07,12.47a11.5,11.5,0,0,0,1.66-1.7c-10.35,3.81-28.7,6.76-34.67-16.73A46.75,46.75,0,0,0,280.24,573.44Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Ot ||
-              (Ot = Di.createElement("path", {
+              (Ot = Pi.createElement("path", {
                 d: "M166.46,595.26s22.6,6.62,35.06,5.84c10.92-.68,9.29-11.22,8.72-13.83-11.44-.36-31.14-1.43-41.37-4.53a.14.14,0,0,1-.08,0C166.07,584,166.46,595.26,166.46,595.26Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Nt ||
-              (Nt = Di.createElement("path", {
+              (Nt = Pi.createElement("path", {
                 d: "M110.73,676.7c12.08,8.18,30.4,4.28,30.4,4.28s27.66-13.24,35.85-13.24S205,659.55,205,659.55l-.67-5.51-3.22-26.44s-30.35-.78-31.57-3.51c0,0-5.45-13.42-7.4-8.46s-31.17,40-38.58,40c-3.53,0-9.36,2.92-13.19,6.86C106.2,666.86,104.41,672.42,110.73,676.7Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#67647e"
               })),
             jt ||
-              (jt = Di.createElement("path", {
+              (jt = Pi.createElement("path", {
                 d: "M215.55,446.41s25.33,16,18.32,19.48S215.55,446.41,215.55,446.41Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Rt ||
-              (Rt = Di.createElement("path", {
+              (Rt = Pi.createElement("path", {
                 d: "M205,477.19s21.82,20.72,13.64,21.27S205,477.19,205,477.19Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             zt ||
-              (zt = Di.createElement("path", {
+              (zt = Pi.createElement("path", {
                 d: "M181.65,543s11.08,20.83,6.91,24.44S181.65,543,181.65,543Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
-            Zt ||
-              (Zt = Di.createElement("path", {
+            Yt ||
+              (Yt = Pi.createElement("path", {
                 d: "M303.62,564.09c-3.9,3.89,37-12.86,27.66-13.64S303.62,564.09,303.62,564.09Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
-            Yt ||
-              (Yt = Di.createElement("path", {
+            Zt ||
+              (Zt = Pi.createElement("path", {
                 d: "M385.44,271.84l1.31-.19c4.84-.74,22.41-3.5,38.17-6.92,3.84-.84,7.56-1.71,11-2.61,12.07-3.16,20.17-6.57,15-9.37-6.84-3.71-10.44-10.45-12.34-16.25-.18-.57-.35-1.12-.51-1.67a43.31,43.31,0,0,1-1.57-9s-44-15.59-35.46,0c4.21,7.65,1.38,13.89-2.59,18.26a34.28,34.28,0,0,1-9.49,7.07Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#efb7b9"
               })),
             Ht ||
-              (Ht = Di.createElement("path", {
+              (Ht = Pi.createElement("path", {
                 d: "M432.59,259.76s-15.75,11.3-31.84,1.95-37.13,82.61-37.13,82.61L341.8,398.09s-14.13,11.69,3.46,16.76,56.61-5.07,66.52,9.74,28.67,17.14,30.59,17.14S451.71,386,451.71,386l1.93-80.66Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Wt ||
-              (Wt = Di.createElement("path", {
+              (Wt = Pi.createElement("path", {
                 d: "M346,411.73c17.59,5.06,56.62-5.07,66.53,9.74A38.06,38.06,0,0,0,429.32,435a44,44,0,0,0,13.83,3.66c.25,0,.62-1,1.05-2.79,2.74-11.28,8.29-52.94,8.29-52.94l1.92-80.66L435.9,262.12l-2.53-5.48a33.39,33.39,0,0,1-8,3.91c-6.09,2.06-14.9,3.22-23.82-2-4.72-2.74-9.87,3.24-14.78,13.06-11.84,23.64-22.35,69.55-22.35,69.55L342.58,395a18.52,18.52,0,0,0-1.48,1.42C338,399.66,332.19,407.75,346,411.73Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#f3f5f9"
               })),
             qt ||
-              (qt = Di.createElement("path", {
+              (qt = Pi.createElement("path", {
                 d: "M429.84,414.44a102.22,102.22,0,0,0-.52,20.52,240.33,240.33,0,0,0,3.66,29,11.43,11.43,0,0,0,.48,1.77c9.51-4.17,17.06-7.22,17.06-7.22l-6.32-22.66c2.74-11.28,8.29-52.94,8.29-52.94l1.92-80.66L435.9,262.12c12.07-3.16,20.17-6.57,15-9.37-7.5-4.07-11.11-11.79-12.85-17.92A65.05,65.05,0,0,1,427,246.75l-.24.2-1.4,13.6-.43,4.18-.9,8.67s4.29,102.48,7.4,108.33,1.56,17.14-1.16,30.39C430.1,412.87,430,413.64,429.84,414.44Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             $t ||
-              ($t = Di.createElement("path", {
+              ($t = Pi.createElement("path", {
                 d: "M431.81,410.56c-2.72,13.25-.39,35.07,2.73,51.82s36.24,5.85,42.48,0,24.54-8.57,24.54-8.57.78-76.37,6.63-86.11c2.77-4.62,3.44-19.7,3.37-34.27-.05-13.08-.7-25.75-.94-30-.06-1-.09-1.55-.09-1.55s25.32-42.86,24.93-46-7.79-3.5-7.79-3.5-28-21.82-32.73-19.1S477.4,229,477.4,229s-16.29,1.85-19.66-1.3a1.72,1.72,0,0,1-.6-1.43c.38-5-16.6-15.64-17.13-16,14.32,12.88-8.83,32.73-11.46,34.91l-.24.2-2.73,26.45s4.29,102.48,7.4,108.33S434.54,397.31,431.81,410.56Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#67647e"
               })),
             Qt ||
-              (Qt = Di.createElement("circle", {
+              (Qt = Pi.createElement("circle", {
                 cx: 331.55,
                 cy: 263.33,
                 r: 1.95,
                 fill: "#444053"
               })),
             Ut ||
-              (Ut = Di.createElement("path", {
+              (Ut = Pi.createElement("path", {
                 d: "M429.33,246.75l11.84,11.45,17.35-29a1.72,1.72,0,0,1-.6-1.43c.38-5-16.61-15.64-17.13-16C455.11,224.72,432,244.57,429.33,246.75Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Jt ||
-              (Jt = Di.createElement("circle", {
+              (Jt = Pi.createElement("circle", {
                 cx: 335.45,
                 cy: 325.67,
                 r: 1.95,
                 opacity: 0.1
               })),
             Kt ||
-              (Kt = Di.createElement("circle", {
+              (Kt = Pi.createElement("circle", {
                 cx: 335.45,
                 cy: 324.89,
                 r: 1.95,
                 fill: "#444053"
               })),
             Xt ||
-              (Xt = Di.createElement("path", {
+              (Xt = Pi.createElement("path", {
                 d: "M428.55,245.19l11.84,11.45,17.35-29a1.72,1.72,0,0,1-.6-1.43c.38-5-16.6-15.64-17.13-16C454.33,223.16,431.18,243,428.55,245.19Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#67647e"
               })),
             te ||
-              (te = Di.createElement("rect", {
+              (te = Pi.createElement("rect", {
                 x: 416.9,
                 y: 297.32,
                 width: 27.12,
@@ -33409,7 +33417,7 @@
                 fill: "#d1d9ec"
               })),
             ee ||
-              (ee = Di.createElement("rect", {
+              (ee = Pi.createElement("rect", {
                 x: 417.05,
                 y: 298.58,
                 width: 27.12,
@@ -33420,229 +33428,229 @@
                 fill: "#dfe6f5"
               })),
             ie ||
-              (ie = Di.createElement("circle", {
+              (ie = Pi.createElement("circle", {
                 cx: 329.56,
                 cy: 279.43,
                 r: 4.26,
                 fill: "#fff"
               })),
             re ||
-              (re = Di.createElement("path", {
+              (re = Pi.createElement("path", {
                 d: "M284.52,407.05c9.74,4.29,73.65-7,83-9.74s23-23.77,16.37-39,2.33-30,2.33-30,14-30,17.15-35.85,9.62-22.86,10.52-25.71a2.34,2.34,0,0,0-.55-1.79C410.8,261.13,401,254.31,401,254.31c-2.75,1-3.09-6.89-3-12.68.06-3.24.25-5.82.25-5.82s-1.29,1.31-3.4,3.1c-.77.65-1.65,1.37-2.63,2.11A40.43,40.43,0,0,1,380,247.73c-9.35,2.77-22.6,15.54-22.6,15.54l3.9,59.84s-9,56.28-18.32,67.19-37.41,10.52-46.76,10.52S284.52,407.05,284.52,407.05Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             ae ||
-              (ae = Di.createElement("path", {
+              (ae = Pi.createElement("path", {
                 d: "M283.74,404.72c9.74,4.28,73.65-7,83-9.75s23-23.77,16.37-39,2.33-30,2.33-30,14-30,17.15-35.85,9.62-22.86,10.52-25.71a2.35,2.35,0,0,0-.55-1.79C410,258.8,400.25,252,400.25,252c-2.75,1-3.09-6.88-3-12.67.06-3.25.25-5.83.25-5.83s-1.29,1.31-3.4,3.11c-.77.64-1.65,1.36-2.63,2.1a40.43,40.43,0,0,1-12.28,6.71c-9.35,2.77-22.6,15.54-22.6,15.54l3.9,59.84s-9,56.28-18.32,67.19-37.4,10.52-46.76,10.52S283.74,404.72,283.74,404.72Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#67647e"
               })),
             ne ||
-              (ne = Di.createElement("path", {
+              (ne = Pi.createElement("path", {
                 d: "M389.73,235s.37,2.05,1,5.21c2.1,10.7,7.1,34.06,10.71,33.16,2.59-.65,7-5.23,10.36-9.19-2.53-3.86-12.31-10.68-12.31-10.68-2.75,1-3.09-6.88-3-12.67l-3.15-2.72Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             oe ||
-              (oe = Di.createElement("path", {
+              (oe = Pi.createElement("path", {
                 d: "M390.51,233.47s.37,2.05,1,5.21c2.1,10.7,7.1,34.06,10.71,33.16,2.59-.65,7-5.23,10.36-9.19C410,258.8,400.25,252,400.25,252c-2.75,1-3.09-6.88-3-12.67l-3.15-2.72Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#67647e"
               })),
             se ||
-              (se = Di.createElement("path", {
+              (se = Pi.createElement("path", {
                 d: "M365.57,348.21s19.49-3.89,24.94-12.46,42.57-16,38-7-38,38.29-38,38.29L376,387.81l-19.38-4.92L348.45,367Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#efb7b9"
               })),
             le ||
-              (le = Di.createElement("path", {
+              (le = Pi.createElement("path", {
                 d: "M411.67,370.45s-18.87,7-21.71,16.36S411.67,370.45,411.67,370.45Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             ce ||
-              (ce = Di.createElement("path", {
+              (ce = Pi.createElement("path", {
                 d: "M423.24,381.34s1.72,9.73-21.93,9Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             he ||
-              (he = Di.createElement("path", {
+              (he = Pi.createElement("path", {
                 d: "M525.33,256.64l8.58-.78s9.35,7,16.36,7,11.3,9,11.3,9,11.69,5.46,15.59,6.24,10.52,4.67,8.57,6.23.39,5.07,3.9,7.79,9,16.76,4.28,18.71-17.53,5.84-21,7.79-7.79,0-7.79,0-20.64-26.89-31.17-21.82S509,301.84,509,301.84l-11.3-23.76Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             ue ||
-              (ue = Di.createElement("path", {
+              (ue = Pi.createElement("path", {
                 d: "M346,384.86c1.84,2.74,4.22,4.66,7.27,5.05a55,55,0,0,0,22.69-2.1s-39.25-12.47-1.46-42.79H364.4L361,343.74l1.54-8.07,2.22-72.79-8.18-1.95s-6.59,47.93-8.16,53.77-2.75,28.45-2.75,28.45-1.56,9.35-3.9,14C340,360.69,340.49,376.54,346,384.86Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#67647e"
               })),
-            de ||
-              (de = Di.createElement("path", {
+            fe ||
+              (fe = Pi.createElement("path", {
                 d: "M347.59,384.86c1.83,2.74,4.22,4.66,7.27,5.05a55,55,0,0,0,22.69-2.1S338.3,375.34,376.09,345H366l-3.37-1.28C357,353.57,348.3,371.06,347.59,384.86Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
-            fe ||
-              (fe = Di.createElement("path", {
+            de ||
+              (de = Pi.createElement("path", {
                 d: "M346,384.86c1.84,2.74,4.22,4.66,7.27,5.05a55,55,0,0,0,22.69-2.1s-39.25-12.47-1.46-42.79H364.4L361,343.74C355.48,353.57,346.74,371.06,346,384.86Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "none"
               })),
             pe ||
-              (pe = Di.createElement("path", {
+              (pe = Pi.createElement("path", {
                 d: "M346,384.86c1.84,2.74,4.22,4.66,7.27,5.05a55,55,0,0,0,22.69-2.1s-39.25-12.47-1.46-42.79H364.4L361,343.74C355.48,353.57,346.74,371.06,346,384.86Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#67647e"
               })),
             me ||
-              (me = Di.createElement("path", {
+              (me = Pi.createElement("path", {
                 d: "M398.44,244.12a35.47,35.47,0,0,0,40.13-7.62c-.18-.57-.35-1.12-.51-1.67a43.31,43.31,0,0,1-1.57-9s-44-15.59-35.46,0C405.24,233.51,402.41,239.75,398.44,244.12Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             ye ||
-              (ye = Di.createElement("path", {
+              (ye = Pi.createElement("path", {
                 d: "M377.65,210.27v.35c0,1.15.08,2.29.2,3.41s.28,2.14.48,3.19a35.47,35.47,0,0,0,68.32,4.58c.24-.69.45-1.38.64-2.08a35.06,35.06,0,0,0,1.28-9.45c0-.81,0-1.63-.09-2.43a35.46,35.46,0,0,0-70.83,2.43Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#efb7b9"
               })),
             xe ||
-              (xe = Di.createElement("path", {
+              (xe = Pi.createElement("path", {
                 d: "M377.65,210.62a15.27,15.27,0,0,1,.2,3.41,12.67,12.67,0,0,0,.1,1.85,5.25,5.25,0,0,0,.38,1.34c1.43,3.36,6.11,5.54,9.2,3.37a9.86,9.86,0,0,0,2.76-3.62c3.28-6.09,7.83-13.09,15-13.21,3.06-.06,5.93,1.23,8.89,2s6.46.84,8.66-1.17c1.7-1.55,2.5-4.19,4.77-4.73s4.37,1.54,5.41,3.58,1.87,4.44,4,5.5c.94.46,2,.6,3,1.1,4.24,2.32,2.29,10.45,6.69,11.77a3.2,3.2,0,0,0,.42.1c.07-.72.15-1.46.22-2.18q.6-5.94,1.19-11.88a35.46,35.46,0,0,0-70.83,2.43Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             ge ||
-              (ge = Di.createElement("path", {
+              (ge = Pi.createElement("path", {
                 d: "M440.64,157.34c4.17,1.77,8.51,4.49,9.44,8.74.41,1.87.1,3.81.2,5.71.2,3.84,2,7.4,3.19,11.08s1.59,8-.75,11.1c-.73,1-1.7,1.79-2.36,2.81A11.5,11.5,0,0,0,449,202l-1.93,19.18c-4.94-.93-2.74-9.5-7.12-11.88-.91-.5-2-.64-2.95-1.11-2.11-1-2.93-3.45-4-5.49s-3.1-4.13-5.41-3.58-3.07,3.19-4.76,4.73c-2.21,2-5.72,1.92-8.67,1.17s-5.83-2-8.88-2c-7.18.12-11.74,7.12-15,13.21a9.89,9.89,0,0,1-2.77,3.63c-3.48,2.44-9-.64-9.57-4.72-.34-2.29.38-4.84-.94-6.78s-4.18-2.35-6.41-3.39c-5.7-2.62-7.46-9.73-6.52-15.69.69-4.3,2.4-8.72,1-12.86-.49-1.43-1.32-2.73-1.77-4.16-1.25-4,.79-8.44,4-11.29s7.42-4.42,11.56-5.8c10.63-3.57,21.79-7,33.1-7.74,4.95-.32,11.44-1.87,15.37,1.22C432,152.23,434.88,154.9,440.64,157.34Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#585268"
               })),
-            ke ||
-              (ke = Di.createElement("circle", {
+            ve ||
+              (ve = Pi.createElement("circle", {
                 cx: 329.6,
                 cy: 232.54,
                 r: 1.95,
                 opacity: 0.1
               })),
-            ve ||
-              (ve = Di.createElement("circle", {
+            ke ||
+              (ke = Pi.createElement("circle", {
                 cx: 329.6,
                 cy: 231.76,
                 r: 1.95,
                 fill: "#444053"
               })),
             be ||
-              (be = Di.createElement("circle", {
+              (be = Pi.createElement("circle", {
                 cx: 342.07,
                 cy: 354.9,
                 r: 1.95,
                 opacity: 0.1
               })),
             Ae ||
-              (Ae = Di.createElement("circle", {
+              (Ae = Pi.createElement("circle", {
                 cx: 342.07,
                 cy: 354.12,
                 r: 1.95,
                 fill: "#444053"
               })),
             Ee ||
-              (Ee = Di.createElement("circle", {
+              (Ee = Pi.createElement("circle", {
                 cx: 335.45,
                 cy: 387.24,
                 r: 1.95,
                 opacity: 0.1
               })),
             we ||
-              (we = Di.createElement("circle", {
+              (we = Pi.createElement("circle", {
                 cx: 335.45,
                 cy: 386.46,
                 r: 1.95,
                 fill: "#444053"
               })),
             Se ||
-              (Se = Di.createElement("path", {
+              (Se = Pi.createElement("path", {
                 d: "M370.25,299.24s-4.29,29.1,0,34.17S370.25,299.24,370.25,299.24Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
-            De ||
-              (De = Di.createElement("path", {
+            Pe ||
+              (Pe = Pi.createElement("path", {
                 d: "M497.67,353.28s8.18,17.63,0,34.53-13.25,23.77-10.52,34.56S497.67,353.28,497.67,353.28Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
-            Pe ||
-              (Pe = Di.createElement("path", {
+            De ||
+              (De = Pi.createElement("path", {
                 d: "M110.73,676.7c12.08,8.18,30.4,4.28,30.4,4.28s27.66-13.24,35.85-13.24S205,659.55,205,659.55l-.67-5.51c-8.07,1.55-26.43,5.26-28.55,7.07-2.73,2.34-36.24,13.64-36.24,13.64s-22.82-2.85-29.17-12.23C106.2,666.86,104.41,672.42,110.73,676.7Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Ce ||
-              (Ce = Di.createElement(
+              (Ce = Pi.createElement(
                 "g",
                 {opacity: 0.1},
-                Di.createElement("path", {
+                Pi.createElement("path", {
                   d: "M450.28,168.67c0-.42,0-.84,0-1.27,0,.49,0,1,0,1.46C450.3,168.8,450.28,168.74,450.28,168.67Z",
                   transform: "translate(-101.77 -35.91)"
                 }),
-                Di.createElement("path", {
+                Pi.createElement("path", {
                   d: "M370.6,201.82c2.23,1,5,1.4,6.41,3.38s.6,4.49.94,6.78c.59,4.08,6.09,7.17,9.57,4.72a9.89,9.89,0,0,0,2.77-3.63c3.27-6.09,7.83-13.09,15-13.21,3.06-.05,5.93,1.24,8.89,2s6.46.84,8.67-1.17c1.69-1.54,2.49-4.19,4.76-4.73s4.36,1.54,5.41,3.58,1.87,4.44,4,5.5c.94.46,2,.6,2.95,1.1,4.38,2.39,2.18,11,7.12,11.88q1-9.6,1.93-19.18a11.46,11.46,0,0,1,1.36-5.16c.66-1,1.63-1.84,2.36-2.82a8.59,8.59,0,0,0,1.6-4.12,10,10,0,0,1-1.6,7.24c-.73,1-1.7,1.79-2.36,2.81A11.5,11.5,0,0,0,449,202q-1,9.59-1.93,19.18c-4.94-.93-2.74-9.5-7.12-11.88-.91-.5-2-.64-2.95-1.11-2.11-1-2.93-3.45-4-5.49s-3.1-4.13-5.41-3.58-3.07,3.19-4.76,4.73c-2.21,2-5.72,1.92-8.67,1.17s-5.83-2-8.89-2c-7.17.12-11.73,7.12-15,13.21a9.89,9.89,0,0,1-2.77,3.63c-3.48,2.44-9-.64-9.57-4.72-.34-2.29.38-4.84-.94-6.78s-4.18-2.35-6.41-3.39c-5.21-2.4-7.13-8.55-6.69-14.14C364.29,195.4,366.35,199.86,370.6,201.82Z",
                   transform: "translate(-101.77 -35.91)"
                 }),
-                Di.createElement("path", {
+                Pi.createElement("path", {
                   d: "M363.31,169.1c.45,1.43,1.28,2.74,1.77,4.16a12,12,0,0,1,.44,5.13,10,10,0,0,0-.44-2c-.49-1.43-1.32-2.73-1.77-4.16a8.78,8.78,0,0,1-.23-4.07A8.2,8.2,0,0,0,363.31,169.1Z",
                   transform: "translate(-101.77 -35.91)"
                 })
               )),
             _e ||
-              (_e = Di.createElement("path", {
+              (_e = Pi.createElement("path", {
                 d: "M583.14,490.05,502.82,480a3.07,3.07,0,0,1-1.83-5.18l33.69-35a3.06,3.06,0,0,1,2.56-.92l61.41,6.88a3.07,3.07,0,0,1,2.52,4.16l-14.78,38.19A3.08,3.08,0,0,1,583.14,490.05Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#746d83"
               })),
             Be ||
-              (Be = Di.createElement("path", {
+              (Be = Pi.createElement("path", {
                 d: "M583.14,490.05,502.82,480a3.07,3.07,0,0,1-1.83-5.18l33.69-35a3.06,3.06,0,0,1,2.56-.92l61.41,6.88a3.07,3.07,0,0,1,2.52,4.16l-14.78,38.19A3.08,3.08,0,0,1,583.14,490.05Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Me ||
-              (Me = Di.createElement("path", {
+              (Me = Pi.createElement("path", {
                 d: "M582.23,489.15l-80.31-10.09a3.08,3.08,0,0,1-1.83-5.19l33.69-35a3.1,3.1,0,0,1,2.56-.93l61.4,6.88a3.08,3.08,0,0,1,2.53,4.17l-14.79,38.19A3.09,3.09,0,0,1,582.23,489.15Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#746d83"
               })),
             Te ||
-              (Te = Di.createElement("path", {
+              (Te = Pi.createElement("path", {
                 d: "M534.37,452.58l24.12,1.94,34.4-2.24-.59,0-31.87-3.08c-7.3-2.68-2.24-18.46-2.24-18.46l-24.41,1.24-1.95.1C523.2,452.28,534.37,452.58,534.37,452.58Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#d1d9ec"
               })),
             Fe ||
-              (Fe = Di.createElement("path", {
+              (Fe = Pi.createElement("path", {
                 d: "M534.37,452.58l24.12,1.94,34.4-2.24-.59,0-34.78,1.24-23.3-2.53c-6.62-1.74-2.83-13.22-.44-19l-1.95.1C523.2,452.28,534.37,452.58,534.37,452.58Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Ve ||
-              (Ve = Di.createElement("path", {
+              (Ve = Pi.createElement("path", {
                 d: "M492.12,309.15,499.5,415l1,13.89a6,6,0,0,0,6.06,5.61h2.24l111.1-.67a3.13,3.13,0,0,0,3.08-3.43l-1-13.9-7.82-93.08a6.39,6.39,0,0,0-4.27-5.4L504,302.14c-3.6-1.25-7.27-.81-9.56,1.1A6.72,6.72,0,0,0,492.12,309.15Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#4c4c56"
               })),
             Ge ||
-              (Ge = Di.createElement("path", {
+              (Ge = Pi.createElement("path", {
                 d: "M499.5,415l1,13.89a6,6,0,0,0,6.06,5.61h2.24l111.1-.67a3.13,3.13,0,0,0,3.08-3.43l-1-13.9Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#dfe6f5"
               })),
             Ie ||
-              (Ie = Di.createElement("ellipse", {
+              (Ie = Pi.createElement("ellipse", {
                 cx: 472.21,
                 cy: 390.61,
                 rx: 1.49,
@@ -33650,121 +33658,121 @@
                 fill: "#fff"
               })),
             Le ||
-              (Le = Di.createElement("path", {
+              (Le = Pi.createElement("path", {
                 d: "M569.66,466.13s-30.38-11.47-38.57-3.13c0,0-1.34,2.54,4.17,3.13l22.26,1.79S566.68,468.81,569.66,466.13Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#d1d9ec"
               })),
             Oe ||
-              (Oe = Di.createElement("path", {
+              (Oe = Pi.createElement("path", {
                 d: "M568.85,463.15c-6-2.44-23.93-8.75-35.43-1.77,0,0,12.72-1.41,19.71,2.63s16.53,2.12,16.53,2.12l.14-.25A1.93,1.93,0,0,0,568.85,463.15Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#dfe6f5"
               })),
             Ne ||
-              (Ne = Di.createElement("path", {
+              (Ne = Pi.createElement("path", {
                 d: "M492.12,309.15l8.34,119.76a6,6,0,0,0,6.06,5.61h2.24a21.34,21.34,0,0,1-3.88-5s-8.19-120.34-8.79-123.32a6.1,6.1,0,0,0-1.65-2.94A6.72,6.72,0,0,0,492.12,309.15Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#dfe6f5"
               })),
             je ||
-              (je = Di.createElement("path", {
+              (je = Pi.createElement("path", {
                 d: "M492.12,309.15l8.34,119.76a6,6,0,0,0,6.06,5.61h2.24a21.34,21.34,0,0,1-3.88-5s-8.19-120.34-8.79-123.32a6.1,6.1,0,0,0-1.65-2.94A6.72,6.72,0,0,0,492.12,309.15Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Re ||
-              (Re = Di.createElement("path", {
+              (Re = Pi.createElement("path", {
                 d: "M477.79,342.35c9-2,30-8.16,30-8.16l3.76-.76c-.05-13.08-.7-25.75-.94-30h-.09s-17.93,5.85-22.21,9-17.54,2.33-17.54,2.33S450.13,315.87,433,335,468.83,344.32,477.79,342.35Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             ze ||
-              (ze = Di.createElement("path", {
+              (ze = Pi.createElement("path", {
                 d: "M565.38,307.58a5.21,5.21,0,0,1,1.17,8.74c-4.75,3.93-11.68,8.63-18.3,9.29-11,1.11-37.6,6.44-40.24,7a3.2,3.2,0,0,0-.42.1c-2.19.64-21.35,6.25-29.8,8.1-9,2-62,11.71-44.81-7.38,15.78-17.58,34.53-20,37.42-20.23a4,4,0,0,1,.69,0c2,.09,13.32.48,17.23-2.35a36.81,36.81,0,0,1,6.44-3.21,123.2,123.2,0,0,1,26.35-7.6l18.33-3.2a5.26,5.26,0,0,1,3.08.4Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#efb7b9"
               })),
-            Ze ||
-              (Ze = Di.createElement("path", {
+            Ye ||
+              (Ye = Pi.createElement("path", {
                 d: "M526.89,256.64l8.57-.78s9.36,7,16.37,7,11.3,9,11.3,9,11.69,5.46,15.59,6.24,10.52,4.67,8.57,6.23.39,5.07,3.9,7.79,9,16.76,4.28,18.71-17.53,5.84-21,7.79-7.79,0-7.79,0S546,291.71,535.47,296.78s-24.94,5.06-24.94,5.06l-11.3-23.76Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#67647e"
               })),
-            Ye ||
-              (Ye = Di.createElement("path", {
+            Ze ||
+              (Ze = Pi.createElement("path", {
                 d: "M1040,746.64a16.86,16.86,0,0,0-2.27,4.29c-.15.37-.28.8-.42,1.21a4.65,4.65,0,0,0-.79-.28,11,11,0,0,0-3.57-.3c0-.47,0-.95.07-1.47.14-5.27-.48-12.61-5.5-9.5-4.83,3-1.39,8,1.72,11.2l.8.79c-2.83,2-3.37,6.73-3.85,11.64s-4.64,10.28-7.4,13.33c-.28.32-.54.59-.78.85a10.15,10.15,0,0,0-8-2.07l-.37-1.35c-2.24-8.09-6.89-22.1-12.82-25.17.25-.31.51-.63.78-1,2.52-3.29,5.35-8.19,1.16-9.44s-4.56,4.25-4.33,8.36q0,.78.12,1.47a6.15,6.15,0,0,0-4.39,2.14l-.64-.77c-3.4-4-9.64-10.37-11.52-5.56-1.76,4.48,3.73,10.3,7.59,13.67l.24.21c-2.6,10.51,8.72,19.08,14.81,22.83l.78.48c-8.4,9.9-13.58,28.46-13.58,28.46l23.52,4.2s15.59-13.46,13.6-26.1l.16,0c15.58-3.12,19.13-19.74,16.7-29.6l.28-.12a17.69,17.69,0,0,0,7.21-5.46C1053.62,747.53,1044.47,740.69,1040,746.64Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
             He ||
-              (He = Di.createElement("path", {
+              (He = Pi.createElement("path", {
                 d: "M1040,746.64a16.86,16.86,0,0,0-2.27,4.29c-.15.37-.28.8-.42,1.21a4.65,4.65,0,0,0-.79-.28,11,11,0,0,0-3.57-.3c0-.47,0-.95.07-1.47.14-5.27-.48-12.61-5.5-9.5-4.83,3-1.39,8,1.72,11.2l.8.79c-2.83,2-3.37,6.73-3.85,11.64s-4.64,10.28-7.4,13.33c-.28.32-.54.59-.78.85a10.15,10.15,0,0,0-8-2.07l-.37-1.35c-2.24-8.09-6.89-22.1-12.82-25.17.25-.31.51-.63.78-1,2.52-3.29,5.35-8.19,1.16-9.44s-4.56,4.25-4.33,8.36q0,.78.12,1.47a6.15,6.15,0,0,0-4.39,2.14l-.64-.77c-3.4-4-9.64-10.37-11.52-5.56-1.76,4.48,3.73,10.3,7.59,13.67l.24.21c-2.6,10.51,8.72,19.08,14.81,22.83l.78.48c-8.4,9.9-13.58,28.46-13.58,28.46l23.52,4.2s15.59-13.46,13.6-26.1l.16,0c15.58-3.12,19.13-19.74,16.7-29.6l.28-.12a17.69,17.69,0,0,0,7.21-5.46C1053.62,747.53,1044.47,740.69,1040,746.64Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             We ||
-              (We = Di.createElement("path", {
+              (We = Pi.createElement("path", {
                 d: "M993.17,753.42l-2.75,8.05s-1.52-1.08-3.45-2.78c-3.86-3.37-9.35-9.19-7.59-13.67,1.88-4.81,8.12,1.54,11.52,5.56C992.27,752.18,993.17,753.42,993.17,753.42Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
             qe ||
-              (qe = Di.createElement("path", {
+              (qe = Pi.createElement("path", {
                 d: "M999,748.82A38.1,38.1,0,0,1,996.3,752a39,39,0,0,1-.49-4.24c-.23-4.11.2-9.59,4.33-8.36S1001.5,745.53,999,748.82Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
             $e ||
-              ($e = Di.createElement("path", {
+              ($e = Pi.createElement("path", {
                 d: "M1034.45,750.09c-.09,2.65-.35,4.77-.35,4.77a34.68,34.68,0,0,1-3.43-3.07c-3.11-3.22-6.55-8.21-1.72-11.2C1034,737.48,1034.59,744.82,1034.45,750.09Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
             Qe ||
-              (Qe = Di.createElement("path", {
+              (Qe = Pi.createElement("path", {
                 d: "M1050.69,753.56a17.69,17.69,0,0,1-7.21,5.46,19.38,19.38,0,0,1-2.42.88l-3.24-4.55a32.17,32.17,0,0,1,1.34-4.42,16.86,16.86,0,0,1,2.27-4.29C1045.91,740.69,1055.06,747.53,1050.69,753.56Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
             Ue ||
-              (Ue = Di.createElement("path", {
+              (Ue = Pi.createElement("path", {
                 d: "M990.9,750.58c1.37,1.6,2.27,2.84,2.27,2.84l-2.75,8.05s-1.52-1.08-3.45-2.78a15.68,15.68,0,0,1,3.09-7.07C990.34,751.24,990.63,750.9,990.9,750.58Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Je ||
-              (Je = Di.createElement("path", {
+              (Je = Pi.createElement("path", {
                 d: "M999,748.82A38.1,38.1,0,0,1,996.3,752a39,39,0,0,1-.49-4.24A5.55,5.55,0,0,1,999,748.82Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             Ke ||
-              (Ke = Di.createElement("path", {
+              (Ke = Pi.createElement("path", {
                 d: "M1012.5,780.78l-6.84,3a41.38,41.38,0,0,1-3.64-2.06c-7.19-4.42-21.65-15.55-12-28.67s17.77,10.41,21,21.92C1012,778.42,1012.5,780.78,1012.5,780.78Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
             Xe ||
-              (Xe = Di.createElement("path", {
+              (Xe = Pi.createElement("path", {
                 d: "M1030.67,751.79a5.67,5.67,0,0,1,3.78-1.7c-.09,2.65-.35,4.77-.35,4.77A34.68,34.68,0,0,1,1030.67,751.79Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             ti ||
-              (ti = Di.createElement("path", {
+              (ti = Pi.createElement("path", {
                 d: "M1043.48,759a19.38,19.38,0,0,1-2.42.88l-3.24-4.55a32.17,32.17,0,0,1,1.34-4.42C1041.25,752.15,1042.79,755.19,1043.48,759Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             ei ||
-              (ei = Di.createElement("path", {
+              (ei = Pi.createElement("path", {
                 d: "M1026.5,788.74c-.38.08-.76.15-1.15.21-22.93,3.48-7.56-8.89-7.56-8.89s1-.95,2.43-2.51c2.76-3,6.93-8.39,7.4-13.33.72-7.43,1.56-14.4,10.33-12.36C1046.56,753.88,1048.2,784.4,1026.5,788.74Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
             ii ||
-              (ii = Di.createElement("rect", {
+              (ii = Pi.createElement("rect", {
                 x: 880.49,
                 y: 809.92,
                 width: 43.81,
@@ -33772,7 +33780,7 @@
                 fill: "#d4dfec"
               })),
             ri ||
-              (ri = Di.createElement("rect", {
+              (ri = Pi.createElement("rect", {
                 x: 873.53,
                 y: 772.48,
                 width: 57.24,
@@ -33780,7 +33788,7 @@
                 fill: "#d4dfec"
               })),
             ai ||
-              (ai = Di.createElement("rect", {
+              (ai = Pi.createElement("rect", {
                 x: 880.49,
                 y: 809.92,
                 width: 43.81,
@@ -33788,7 +33796,7 @@
                 opacity: 0.1
               })),
             ni ||
-              (ni = Di.createElement("rect", {
+              (ni = Pi.createElement("rect", {
                 x: 873.53,
                 y: 772.48,
                 width: 57.24,
@@ -33796,7 +33804,7 @@
                 opacity: 0.1
               })),
             oi ||
-              (oi = Di.createElement("rect", {
+              (oi = Pi.createElement("rect", {
                 x: 883.37,
                 y: 809.92,
                 width: 43.81,
@@ -33804,109 +33812,109 @@
                 fill: "#d4dfec"
               })),
             si ||
-              (si = Di.createElement("path", {
+              (si = Pi.createElement("path", {
                 d: "M1011,775c1,3.44,1.48,5.8,1.48,5.8l-6.84,3a41.38,41.38,0,0,1-3.64-2.06C1004.7,778.33,1007.72,775.77,1011,775Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             li ||
-              (li = Di.createElement("path", {
+              (li = Pi.createElement("path", {
                 d: "M1026.5,788.74c-.38.08-.76.15-1.15.21-22.93,3.48-7.56-8.89-7.56-8.89s1-.95,2.43-2.51C1024.5,781,1026.27,784.84,1026.5,788.74Z",
                 transform: "translate(-101.77 -35.91)",
                 opacity: 0.1
               })),
             ci ||
-              (ci = Di.createElement("path", {
+              (ci = Pi.createElement("path", {
                 d: "M989.22,810.67s12.84-46,30.84-31.8-7.32,36-7.32,36Z",
                 transform: "translate(-101.77 -35.91)",
                 fill: "#6c63ff"
               })),
             hi ||
-              (hi = Di.createElement("circle", {
+              (hi = Pi.createElement("circle", {
                 cx: 893.93,
                 cy: 724.35,
                 r: 1.44,
                 opacity: 0.1
               })),
             ui ||
-              (ui = Di.createElement("circle", {
+              (ui = Pi.createElement("circle", {
                 cx: 893.81,
                 cy: 731.07,
                 r: 1.44,
                 opacity: 0.1
               })),
-            di ||
-              (di = Di.createElement("circle", {
+            fi ||
+              (fi = Pi.createElement("circle", {
                 cx: 935.57,
                 cy: 725.67,
                 r: 1.44,
                 opacity: 0.1
               })),
-            fi ||
-              (fi = Di.createElement("circle", {
+            di ||
+              (di = Pi.createElement("circle", {
                 cx: 901.97,
                 cy: 760.12,
                 r: 1.44,
                 opacity: 0.1
               })),
             pi ||
-              (pi = Di.createElement("circle", {
+              (pi = Pi.createElement("circle", {
                 cx: 932.57,
                 cy: 736.83,
                 r: 1.44,
                 opacity: 0.1
               })),
             mi ||
-              (mi = Di.createElement("circle", {
+              (mi = Pi.createElement("circle", {
                 cx: 917.69,
                 cy: 751.72,
                 r: 1.44,
                 opacity: 0.1
               })),
             yi ||
-              (yi = Di.createElement("circle", {
+              (yi = Pi.createElement("circle", {
                 cx: 898.85,
                 cy: 727.23,
                 r: 1.44,
                 opacity: 0.1
               })),
             xi ||
-              (xi = Di.createElement("circle", {
+              (xi = Pi.createElement("circle", {
                 cx: 931.61,
                 cy: 729.99,
                 r: 1.44,
                 opacity: 0.1
               })),
             gi ||
-              (gi = Di.createElement("circle", {
+              (gi = Pi.createElement("circle", {
                 cx: 926.69,
                 cy: 741.15,
                 r: 1.44,
                 opacity: 0.1
               })),
-            ki ||
-              (ki = Di.createElement("circle", {
+            vi ||
+              (vi = Pi.createElement("circle", {
                 cx: 911.57,
                 cy: 759.04,
                 r: 1.44,
                 opacity: 0.1
               })),
-            vi ||
-              (vi = Di.createElement("circle", {
+            ki ||
+              (ki = Pi.createElement("circle", {
                 cx: 908.45,
                 cy: 751.96,
                 r: 1.44,
                 opacity: 0.1
               })),
             bi ||
-              (bi = Di.createElement("circle", {
+              (bi = Pi.createElement("circle", {
                 cx: 901.01,
                 cy: 735.99,
                 r: 1.44,
                 opacity: 0.1
               })),
             Ai ||
-              (Ai = Di.createElement("rect", {
+              (Ai = Pi.createElement("rect", {
                 x: 883.37,
                 y: 809.92,
                 width: 43.81,
@@ -33914,7 +33922,7 @@
                 opacity: 0.1
               })),
             Ei ||
-              (Ei = Di.createElement("rect", {
+              (Ei = Pi.createElement("rect", {
                 x: 876.41,
                 y: 772.48,
                 width: 57.24,
@@ -33922,14 +33930,14 @@
                 fill: "#d4dfec"
               })),
             wi ||
-              (wi = Di.createElement("circle", {
+              (wi = Pi.createElement("circle", {
                 cx: 913.49,
                 cy: 765.52,
                 r: 1.44,
                 opacity: 0.1
               })),
             Si ||
-              (Si = Di.createElement("circle", {
+              (Si = Pi.createElement("circle", {
                 cx: 904.85,
                 cy: 767.32,
                 r: 1.44,
@@ -33937,7 +33945,7 @@
               }))
           );
         }
-        const _i = Di.forwardRef(Ci),
+        const _i = Pi.forwardRef(Ci),
           Bi =
             i.p +
             "static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg";
@@ -33954,22 +33962,22 @@
           c,
           h,
           u,
-          d,
           f,
+          d,
           p,
           m,
           y,
           x,
           g,
-          k,
           v,
+          k,
           b,
           A,
           E,
           w,
           S,
-          D,
           P,
+          D,
           C,
           _ = i(5043);
         function B() {
@@ -34066,15 +34074,15 @@
                 r: 17,
                 fill: "#f2f2f2"
               })),
-            d ||
-              (d = _.createElement("circle", {
+            f ||
+              (f = _.createElement("circle", {
                 cx: 155.86663,
                 cy: 339.75661,
                 r: 17,
                 fill: "#f2f2f2"
               })),
-            f ||
-              (f = _.createElement("rect", {
+            d ||
+              (d = _.createElement("rect", {
                 x: 85.547,
                 y: 213.46424,
                 width: 1.8747,
@@ -34116,15 +34124,15 @@
                 transform: "translate(-55.06669 -38.74669)",
                 fill: "#2f2e41"
               })),
-            k ||
-              (k = _.createElement("circle", {
+            v ||
+              (v = _.createElement("circle", {
                 cx: 874.18164,
                 cy: 209.15673,
                 r: 61.36379,
                 fill: "#ffb8b8"
               })),
-            v ||
-              (v = _.createElement("path", {
+            k ||
+              (k = _.createElement("path", {
                 d: "M894.1833,286.475s5.25975,56.104,0,59.61054,84.15606,1.75326,84.15606,1.75326-12.27276-50.84429,0-75.38981Z",
                 transform: "translate(-55.06669 -38.74669)",
                 fill: "#ffb8b8"
@@ -34159,14 +34167,14 @@
                 transform: "translate(-55.06669 -38.74669)",
                 fill: "#ffb8b8"
               })),
-            D ||
-              (D = _.createElement("path", {
+            P ||
+              (P = _.createElement("path", {
                 d: "M956.49132,158.01513a3.38451,3.38451,0,0,1,3.25676-1.93273c-28.09345-1.68046-57.68462,1.59391-81.18765,17.0753-6.58229,4.33573-12.72923,9.6376-20.22289,12.081l6.08267,4.77011-7.26763,2.21543,10.69544,6.91263a9.27045,9.27045,0,0,1-8.82861,2.95773c4.64818,1.358,8.07046,5.49439,9.80869,10.01416s2.05052,9.44217,2.34418,14.27575c1.79656-6.9743,9.408-11.07972,16.59785-11.49687s14.2019,1.95512,21.19907,3.66045a117.27154,117.27154,0,0,0,46.548,1.79065c-5.25649,10.54877-.82242,23.13119,3.63955,34.03981L968.066,276.1598c4.94626.49749,8.44239-4.42141,12.16886-7.71176,3.39641-2.99892-10.12543,23.37638-8.03185,22.41,2.71982-1.25539,31.42131-32.94373,32.76537-35.62084,6.13213-12.21409,9.81123-25.8377,9.25789-39.4935s-5.55-27.31832-14.96291-37.2275c-6.39033-6.72714-15.23132-7.90529-21.746-13.49635-2.56408-2.20055-2.57349-3.91969-6.09717-5.20273C970.24979,159.391,956.68486,157.58563,956.49132,158.01513Z",
                 transform: "translate(-55.06669 -38.74669)",
                 fill: "#2f2e41"
               })),
-            P ||
-              (P = _.createElement("path", {
+            D ||
+              (D = _.createElement("path", {
                 d: "M792.49472,353.0985,780.222,347.83875,682.0399,509.13786s-17.53252,42.078,14.026,61.3638S801.261,647.64471,801.261,647.64471l42.078-64.8703s-85.90931-40.32478-80.64956-56.104,33.31178-57.85729,33.31178-57.85729Z",
                 transform: "translate(-55.06669 -38.74669)",
                 fill: "#3f3d56"
@@ -34199,6 +34207,10 @@
       4269: (t, e, i) => {
         "use strict";
         t.exports = i.p + "static/media/logoigi.dbbfaffb21011246f1d0.png";
+      },
+      855: (t, e, i) => {
+        "use strict";
+        t.exports = i.p + "static/media/pedulyLogo.9ec9603e1431a51e85ac.png";
       },
       5863: (t, e, i) => {
         "use strict";
@@ -34300,7 +34312,7 @@
             (o.src = i)),
             (t[i] = [r]);
           var u = (e, r) => {
-              (o.onerror = o.onload = null), clearTimeout(d);
+              (o.onerror = o.onload = null), clearTimeout(f);
               var a = t[i];
               if (
                 (delete t[i],
@@ -34310,7 +34322,7 @@
               )
                 return e(r);
             },
-            d = setTimeout(
+            f = setTimeout(
               u.bind(null, void 0, {type: "timeout", target: o}),
               12e4
             );
@@ -34503,7 +34515,7 @@
       });
     };
     var u = __webpack_require__(7794);
-    const d = function () {
+    const f = function () {
       const {isDark: e} = (0, t.useContext)(l),
         i = u.Ny.display,
         a = u.KN.display,
@@ -34585,7 +34597,7 @@
         })
       });
     };
-    var f = __webpack_require__(2919);
+    var d = __webpack_require__(2919);
     const p = JSON.parse(
       '{"v":"5.6.5","fr":60,"ip":0,"op":240,"w":1600,"h":1200,"nm":"6_Targeting","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":5,"ty":4,"nm":"Bee Wing 1","parent":6,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":0,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":2.527,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":5.055,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":7.584,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":10.111,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":12.639,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":15.166,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":17.695,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":20.223,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":22.75,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":25.277,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":27.805,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":30.334,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":32.861,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":35.389,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":37.916,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":40.445,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":42.973,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":45.5,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":48.027,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":50.555,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":53.084,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":55.611,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":58.139,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":60.666,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":63.195,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":65.723,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":68.25,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":70.777,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":73.305,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":75.834,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":78.361,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":80.889,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":83.416,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":85.945,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":88.473,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":91,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":93.527,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":96.055,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":98.584,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":101.111,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":103.639,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":106.166,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":108.695,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":111.223,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":113.75,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":116.277,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":118.805,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":121.334,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":123.861,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":126.389,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":128.916,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":131.445,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":133.973,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":136.5,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":139.027,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":141.555,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":144.084,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":146.611,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":149.139,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":151.666,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":154.195,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":156.723,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":159.25,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":161.777,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":164.305,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":166.834,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":169.361,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":171.889,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":174.416,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":176.945,"s":[23.551]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":179.473,"s":[-18.216]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":182,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":184.527,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":187.055,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":189.584,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":192.111,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":194.639,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":197.166,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":199.695,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":202.223,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":204.75,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":207.277,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":209.805,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":212.334,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":214.861,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":217.389,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":219.916,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":222.445,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":224.973,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":227.5,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":230.027,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":232.555,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":235.084,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":237.611,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":240.139,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":242.666,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":245.195,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":247.723,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":250.25,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":252.777,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":255.305,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":257.834,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":260.361,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":262.889,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":265.416,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":267.945,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":270.473,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":273,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":275.527,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":278.055,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":280.584,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":283.111,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":285.639,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":288.166,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":290.695,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":293.223,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":295.75,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":298.277,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":300.805,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":303.334,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":305.861,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":308.389,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":310.916,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":313.445,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":315.973,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":318.5,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":321.027,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":323.555,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":326.084,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":328.611,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":331.139,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":333.666,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":336.195,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":338.723,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":341.25,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":343.777,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":346.305,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":348.834,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":351.361,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":353.889,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":356.416,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":358.945,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":361.473,"s":[16.863]},{"t":364,"s":[-25.114]}],"ix":10},"p":{"a":0,"k":[21.353,63.58,0],"ix":2},"a":{"a":0,"k":[-0.477,21.656,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[12.463,0.648],[0,0],[-12.463,-0.648],[-0.648,12.463]],"o":[[-12.394,-0.498],[0,0],[12.394,0.498],[0.649,-12.462]],"v":[[7.621,-22.534],[-29.772,-1.688],[5.56,22.534],[29.124,1.03]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.889999988032,0.823999980852,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Pink\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[30.023,23.282],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"Bee Body","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":53.692,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":0,"s":[1009.309,64.051,0],"to":[1.691,129.949,0],"ti":[-39.691,35.051,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":120,"s":[1162.309,207.051,0],"to":[39.691,-35.051,0],"ti":[70.309,-59.949,0]},{"t":240,"s":[1009.309,64.051,0]}],"ix":2},"a":{"a":0,"k":[17.405,54.523,0],"ix":1},"s":{"a":0,"k":[85.9,85.9,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-1.38,0.038],[-0.038,-1.381]],"o":[[-0.038,-1.38],[1.38,-0.038],[0,0]],"v":[[-2.689,-6.79],[-0.259,-9.358],[2.309,-6.927]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[1.381,-0.038],[0.038,1.38]],"o":[[0.039,1.379],[-1.38,0.039],[0,0]],"v":[[2.689,6.789],[0.259,9.357],[-2.31,6.927]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[2.309,-6.927],[2.689,6.789],[-2.31,6.927],[-2.689,-6.79]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[20.945,99.4],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":5,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-14.837,-9.318],[14.794,-10.63],[14.837,9.687],[-14.782,10.63]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[19.722,60.463],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.372,0.158],[-0.158,1.371]],"o":[[-0.158,1.372],[-1.372,-0.157],[0,0]],"v":[[0.723,15.573],[-2.048,17.77],[-4.245,15.001]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-1.372,-0.158],[0.159,-1.371]],"o":[[0.158,-1.372],[1.372,0.157],[0,0]],"v":[[-0.724,-15.574],[2.046,-17.771],[4.243,-15.001]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-4.245,15.001],[-0.724,-15.574],[4.243,-15.001],[0.723,15.573]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[21.066,18.179],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":5,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-1.167,0.738],[-0.738,-1.167]],"o":[[-0.738,-1.167],[1.167,-0.737],[0,0]],"v":[[-10.032,-11.2],[-9.254,-14.649],[-5.805,-13.869]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[1.167,-0.737],[0.738,1.167]],"o":[[0.738,1.168],[-1.167,0.738],[0,0]],"v":[[10.032,11.198],[9.254,14.647],[5.805,13.869]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-5.805,-13.869],[10.032,11.198],[5.805,13.869],[-10.032,-11.2]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[11.02,21.916],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":5,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-8.129,0.091],[0.091,8.13],[0,0],[8.129,-0.091],[-0.091,-8.129],[0,0]],"o":[[8.239,-0.05],[0,0],[-0.05,-8.239],[-8.239,0.051],[0,0],[0.091,8.13]],"v":[[0.067,33.652],[14.795,18.828],[14.758,-18.924],[-0.067,-33.653],[-14.796,-18.828],[-14.758,18.924]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[19.673,62.622],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 5","np":2,"cix":2,"bm":0,"ix":5,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":7,"ty":4,"nm":"Bee Wing 2","parent":6,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":0,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":2.527,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":5.055,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":7.584,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":10.111,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":12.639,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":15.166,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":17.695,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":20.223,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":22.75,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":25.277,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":27.805,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":30.334,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":32.861,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":35.389,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":37.916,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":40.445,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":42.973,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":45.5,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":48.027,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":50.555,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":53.084,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":55.611,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":58.139,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":60.666,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":63.195,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":65.723,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":68.25,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":70.777,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":73.305,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":75.834,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":78.361,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":80.889,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":83.416,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":85.945,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":88.473,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":91,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":93.527,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":96.055,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":98.584,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":101.111,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":103.639,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":106.166,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":108.695,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":111.223,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":113.75,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":116.277,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":118.805,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":121.334,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":123.861,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":126.389,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":128.916,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":131.445,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":133.973,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":136.5,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":139.027,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":141.555,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":144.084,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":146.611,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":149.139,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":151.666,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":154.195,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":156.723,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":159.25,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":161.777,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":164.305,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":166.834,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":169.361,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":171.889,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":174.416,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":176.945,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":179.473,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":182,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":184.527,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":187.055,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":189.584,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":192.111,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":194.639,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":197.166,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":199.695,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":202.223,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":204.75,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":207.277,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":209.805,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":212.334,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":214.861,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":217.389,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":219.916,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":222.445,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":224.973,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":227.5,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":230.027,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":232.555,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":235.084,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":237.611,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":240.139,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":242.666,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":245.195,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":247.723,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":250.25,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":252.777,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":255.305,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":257.834,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":260.361,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":262.889,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":265.416,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":267.945,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":270.473,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":273,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":275.527,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":278.055,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":280.584,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":283.111,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":285.639,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":288.166,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":290.695,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":293.223,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":295.75,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":298.277,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":300.805,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":303.334,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":305.861,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":308.389,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":310.916,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":313.445,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":315.973,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":318.5,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":321.027,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":323.555,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":326.084,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":328.611,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":331.139,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":333.666,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":336.195,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":338.723,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":341.25,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":343.777,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":346.305,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":348.834,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":351.361,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":353.889,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":356.416,"s":[16.863]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":358.945,"s":[-25.114]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":361.473,"s":[16.863]},{"t":364,"s":[-25.114]}],"ix":10},"p":{"a":0,"k":[16.683,63.318,0],"ix":2},"a":{"a":0,"k":[59.342,24.907,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-12.394,-0.498],[0,0],[12.463,0.649],[0.648,-12.463]],"o":[[12.394,0.499],[0,0],[-12.394,-0.498],[-0.539,12.503]],"v":[[-7.675,22.533],[29.717,1.688],[-5.616,-22.534],[-29.178,-1.03]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.889999988032,0.823999980852,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Pink\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[29.967,23.282],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":8,"ty":4,"nm":"Arrow","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":30,"s":[0]},{"i":{"x":[0.794],"y":[0.931]},"o":{"x":[0.382],"y":[0]},"t":90,"s":[13.039]},{"t":92,"s":[0]}],"ix":10,"x":"var $bm_rt;\\nvar amp, freq, decay, n, t, v;\\ntry {\\n    amp = $bm_div(effect(\'Rotation - Overshoot\')(\'ADBE Slider Control-0001\'), 2.5), freq = $bm_div(effect(\'Rotation - Bounce\')(\'ADBE Slider Control-0001\'), 20), decay = $bm_div(effect(\'Rotation - Friction\')(\'ADBE Slider Control-0001\'), 20), n = 0, 0 < numKeys && (n = nearestKey(time).index, key(n).time > time && n--), t = 0 === n ? 0 : $bm_sub(time, key(n).time), $bm_rt = 0 < n ? (v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10))), $bm_sum(value, $bm_div($bm_mul($bm_mul($bm_div(v, 100), amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))))) : value;\\n} catch (e$$4) {\\n    $bm_rt = value = value;\\n}"},"p":{"a":0,"k":[481.25,587.75,0],"ix":2},"a":{"a":0,"k":[-318.75,-12.25,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ef":[{"ty":5,"nm":"Rotation - Overshoot","np":3,"mn":"ADBE Slider Control","ix":1,"en":1,"ef":[{"ty":0,"nm":"Slider","mn":"ADBE Slider Control-0001","ix":1,"v":{"a":0,"k":20,"ix":1,"x":"var $bm_rt;\\n$bm_rt = clamp(value, 0, 100);"}}]},{"ty":5,"nm":"Rotation - Bounce","np":3,"mn":"ADBE Slider Control","ix":2,"en":1,"ef":[{"ty":0,"nm":"Slider","mn":"ADBE Slider Control-0001","ix":1,"v":{"a":0,"k":40,"ix":1,"x":"var $bm_rt;\\n$bm_rt = clamp(value, 0, 100);"}}]},{"ty":5,"nm":"Rotation - Friction","np":3,"mn":"ADBE Slider Control","ix":3,"en":1,"ef":[{"ty":0,"nm":"Slider","mn":"ADBE Slider Control-0001","ix":1,"v":{"a":0,"k":40,"ix":1,"x":"var $bm_rt;\\n$bm_rt = clamp(value, 0, 100);"}}]}],"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-319,-12.5],[-194.5,-137]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[0.03137254902,0,0.223529426724,1],"ix":3,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":5,"ix":5},"lc":2,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-11.451,50.398],[-43.907,43.907],[-50.398,11.329],[11.451,-50.398],[17.943,-17.942],[50.398,-11.451]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Light Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-176.564,-154.852],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":9,"ty":4,"nm":"Head","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":11,"s":[0]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":34,"s":[-16.344]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":108,"s":[-16.344]},{"t":122,"s":[0]}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.5,"y":1},"o":{"x":0.5,"y":0},"t":11,"s":[952.061,255.901,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.5,"y":0.5},"o":{"x":0.5,"y":0.5},"t":34,"s":[928.061,255.901,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.5,"y":1},"o":{"x":0.5,"y":0},"t":108,"s":[928.061,255.901,0],"to":[0,0,0],"ti":[0,0,0]},{"t":122,"s":[952.061,255.901,0]}],"ix":2},"a":{"a":0,"k":[38.75,22.35,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-2.209,0],[0,2.209],[2.209,0],[0,-2.209]],"o":[[2.209,0],[0,-2.209],[-2.209,0],[0,2.209]],"v":[[0,4],[4,0],[0,-4],[-4,0]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[57.051,18.449],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-2.209,0],[0,2.209],[2.209,0],[0,-2.209]],"o":[[2.209,0],[0,-2.209],[-2.209,0],[0,2.209]],"v":[[0,4],[4,0],[0,-4],[-4,0]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[21.051,18.449],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.38,-0.032],[-0.031,-1.381]],"o":[[-0.031,-1.38],[-1.381,0.031],[0,0]],"v":[[10.434,-4.157],[7.878,-6.599],[5.435,-4.043]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0.019,-0.001]],"o":[[0,0],[-0.019,0],[0,0]],"v":[[0.034,4],[0.034,1.5],[-0.023,1.501]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[1.381,0],[0,-1.381]],"o":[[0,-1.381],[-1.381,0],[0,0]],"v":[[-5.565,-3.9],[-8.065,-6.4],[-10.565,-3.9]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[2.99,0],[0,0],[0.132,5.795]],"o":[[0.068,3.004],[0,0],[5.81,0],[0,0]],"v":[[5.435,-4.043],[0.034,1.5],[0.034,6.5],[10.434,-4.157]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ind":4,"ty":"sh","ix":5,"ks":{"a":0,"k":{"i":[[0,0],[0,2.99],[0,0],[-5.796,0.132]],"o":[[-3.005,0.068],[0,0],[0,5.81],[0,0]],"v":[[-0.023,1.501],[-5.565,-3.9],[-10.565,-3.9],[0.091,6.499]],"c":true},"ix":2},"nm":"Path 5","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[38.816,29.95],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":7,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.2,-11.9],[12,0.2],[0,0],[-0.2,12],[-12,-0.2],[0,0]],"o":[[-0.199,12],[0,0],[-11.899,-0.2],[0.201,-11.9],[0,0],[12,0.2]],"v":[[38.3,0.6],[16.3,21.9],[-17,21.4],[-38.3,-0.6],[-16.3,-21.9],[17,-21.4]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[38.75,22.35],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":2,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":10,"ty":4,"nm":"Hair 1","parent":9,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":26,"s":[93.751,-7.851,0],"to":[-0.167,0,0],"ti":[0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":27,"s":[92.75,-7.851,0],"to":[-0.334,0,0],"ti":[0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":28,"s":[91.744,-7.851,0],"to":[-0.334,0,0],"ti":[0.332,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":29,"s":[90.748,-7.851,0],"to":[-0.332,0,0],"ti":[0.333,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":30,"s":[89.754,-7.851,0],"to":[-0.333,0,0],"ti":[0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":31,"s":[88.751,-7.851,0],"to":[-0.334,0,0],"ti":[0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":32,"s":[87.751,-7.851,0],"to":[-0.334,0,0],"ti":[0.316,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":33,"s":[86.748,-7.851,0],"to":[-0.316,0,0],"ti":[0.275,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":34,"s":[85.853,-7.851,0],"to":[-0.275,0,0],"ti":[0.224,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":35,"s":[85.098,-7.851,0],"to":[-0.224,0,0],"ti":[0.167,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":36,"s":[84.506,-7.851,0],"to":[-0.167,0,0],"ti":[0.107,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":37,"s":[84.094,-7.851,0],"to":[-0.107,0,0],"ti":[0.045,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":38,"s":[83.866,-7.851,0],"to":[-0.045,0,0],"ti":[-0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":39,"s":[83.822,-7.851,0],"to":[0.014,0,0],"ti":[-0.069,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":40,"s":[83.951,-7.851,0],"to":[0.069,0,0],"ti":[-0.117,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":41,"s":[84.236,-7.851,0],"to":[0.117,0,0],"ti":[-0.158,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":42,"s":[84.655,-7.851,0],"to":[0.158,0,0],"ti":[-0.188,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":43,"s":[85.182,-7.851,0],"to":[0.188,0,0],"ti":[-0.209,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":44,"s":[85.785,-7.851,0],"to":[0.209,0,0],"ti":[-0.219,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":45,"s":[86.436,-7.851,0],"to":[0.219,0,0],"ti":[-0.219,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":46,"s":[87.101,-7.851,0],"to":[0.219,0,0],"ti":[-0.21,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":47,"s":[87.751,-7.851,0],"to":[0.21,0,0],"ti":[-0.192,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":48,"s":[88.36,-7.851,0],"to":[0.192,0,0],"ti":[-0.167,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":49,"s":[88.903,-7.851,0],"to":[0.167,0,0],"ti":[-0.136,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":50,"s":[89.361,-7.851,0],"to":[0.136,0,0],"ti":[-0.101,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":51,"s":[89.719,-7.851,0],"to":[0.101,0,0],"ti":[-0.065,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":52,"s":[89.97,-7.851,0],"to":[0.065,0,0],"ti":[-0.027,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":53,"s":[90.108,-7.851,0],"to":[0.027,0,0],"ti":[0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":54,"s":[90.134,-7.851,0],"to":[-0.009,0,0],"ti":[0.042,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":55,"s":[90.056,-7.851,0],"to":[-0.042,0,0],"ti":[0.071,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":56,"s":[89.883,-7.851,0],"to":[-0.071,0,0],"ti":[0.096,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":57,"s":[89.629,-7.851,0],"to":[-0.096,0,0],"ti":[0.114,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":58,"s":[89.31,-7.851,0],"to":[-0.114,0,0],"ti":[0.127,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":59,"s":[88.944,-7.851,0],"to":[-0.127,0,0],"ti":[0.133,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":60,"s":[88.549,-7.851,0],"to":[-0.133,0,0],"ti":[0.133,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":61,"s":[88.146,-7.851,0],"to":[-0.133,0,0],"ti":[0.127,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":62,"s":[87.751,-7.851,0],"to":[-0.127,0,0],"ti":[0.116,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":63,"s":[87.382,-7.851,0],"to":[-0.116,0,0],"ti":[0.101,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":64,"s":[87.053,-7.851,0],"to":[-0.101,0,0],"ti":[0.083,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":65,"s":[86.775,-7.851,0],"to":[-0.083,0,0],"ti":[0.062,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":66,"s":[86.557,-7.851,0],"to":[-0.062,0,0],"ti":[0.039,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":67,"s":[86.406,-7.851,0],"to":[-0.039,0,0],"ti":[0.017,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":68,"s":[86.322,-7.851,0],"to":[-0.017,0,0],"ti":[-0.005,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":69,"s":[86.306,-7.851,0],"to":[0.005,0,0],"ti":[-0.025,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":70,"s":[86.353,-7.851,0],"to":[0.025,0,0],"ti":[-0.043,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":71,"s":[86.458,-7.851,0],"to":[0.043,0,0],"ti":[-0.058,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":72,"s":[86.612,-7.851,0],"to":[0.058,0,0],"ti":[-0.069,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":73,"s":[86.806,-7.851,0],"to":[0.069,0,0],"ti":[-0.077,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":74,"s":[87.028,-7.851,0],"to":[0.077,0,0],"ti":[-0.081,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":75,"s":[87.267,-7.851,0],"to":[0.081,0,0],"ti":[-0.081,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":76,"s":[87.512,-7.851,0],"to":[0.081,0,0],"ti":[-0.077,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":77,"s":[87.751,-7.851,0],"to":[0.077,0,0],"ti":[-0.071,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":78,"s":[87.975,-7.851,0],"to":[0.071,0,0],"ti":[-0.061,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":79,"s":[88.175,-7.851,0],"to":[0.061,0,0],"ti":[-0.05,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":80,"s":[88.343,-7.851,0],"to":[0.05,0,0],"ti":[-0.037,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":81,"s":[88.475,-7.851,0],"to":[0.037,0,0],"ti":[-0.024,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":82,"s":[88.567,-7.851,0],"to":[0.024,0,0],"ti":[-0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":83,"s":[88.618,-7.851,0],"to":[0.01,0,0],"ti":[0.003,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":84,"s":[88.628,-7.851,0],"to":[-0.003,0,0],"ti":[0.015,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":85,"s":[88.599,-7.851,0],"to":[-0.015,0,0],"ti":[0.026,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":86,"s":[88.536,-7.851,0],"to":[-0.026,0,0],"ti":[0.035,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":87,"s":[88.442,-7.851,0],"to":[-0.035,0,0],"ti":[0.042,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":88,"s":[88.325,-7.851,0],"to":[-0.042,0,0],"ti":[0.047,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":89,"s":[88.19,-7.851,0],"to":[-0.047,0,0],"ti":[0.049,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":90,"s":[88.045,-7.851,0],"to":[-0.049,0,0],"ti":[0.049,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":91,"s":[87.896,-7.851,0],"to":[-0.049,0,0],"ti":[0.047,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":92,"s":[87.751,-7.851,0],"to":[-0.047,0,0],"ti":[0.043,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":93,"s":[87.615,-7.851,0],"to":[-0.043,0,0],"ti":[0.037,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":94,"s":[87.494,-7.851,0],"to":[-0.037,0,0],"ti":[0.03,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":95,"s":[87.392,-7.851,0],"to":[-0.03,0,0],"ti":[0.023,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":96,"s":[87.312,-7.851,0],"to":[-0.023,0,0],"ti":[0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":97,"s":[87.256,-7.851,0],"to":[-0.014,0,0],"ti":[0.006,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":98,"s":[87.225,-7.851,0],"to":[-0.006,0,0],"ti":[-0.002,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":99,"s":[87.219,-7.851,0],"to":[0.002,0,0],"ti":[-0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":100,"s":[87.237,-7.851,0],"to":[0.009,0,0],"ti":[-0.016,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":101,"s":[87.275,-7.851,0],"to":[0.016,0,0],"ti":[-0.021,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":102,"s":[87.332,-7.851,0],"to":[0.021,0,0],"ti":[-0.025,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":103,"s":[87.403,-7.851,0],"to":[0.025,0,0],"ti":[-0.028,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":104,"s":[87.485,-7.851,0],"to":[0.028,0,0],"ti":[-0.03,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":105,"s":[87.573,-7.851,0],"to":[0.03,0,0],"ti":[-0.03,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":106,"s":[87.663,-7.851,0],"to":[0.03,0,0],"ti":[-0.028,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":107,"s":[87.751,-7.851,0],"to":[0.028,0,0],"ti":[-0.026,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":108,"s":[87.834,-7.851,0],"to":[0.026,0,0],"ti":[-0.023,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":109,"s":[87.907,-7.851,0],"to":[0.023,0,0],"ti":[-0.018,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":110,"s":[87.969,-7.851,0],"to":[0.018,0,0],"ti":[-0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":111,"s":[88.018,-7.851,0],"to":[0.014,0,0],"ti":[-0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":112,"s":[88.051,-7.851,0],"to":[0.009,0,0],"ti":[-0.004,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":113,"s":[88.07,-7.851,0],"to":[0.004,0,0],"ti":[0.001,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":114,"s":[88.074,-7.851,0],"to":[-0.001,0,0],"ti":[0.054,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":115,"s":[88.063,-7.851,0],"to":[-0.054,0,0],"ti":[-0.115,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":116,"s":[87.751,-7.851,0],"to":[0.115,0,0],"ti":[-0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":117,"s":[88.751,-7.851,0],"to":[0.334,0,0],"ti":[-0.333,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":118,"s":[89.754,-7.851,0],"to":[0.333,0,0],"ti":[-0.332,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":119,"s":[90.748,-7.851,0],"to":[0.332,0,0],"ti":[-0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":120,"s":[91.744,-7.851,0],"to":[0.334,0,0],"ti":[-0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":121,"s":[92.75,-7.851,0],"to":[0.334,0,0],"ti":[-0.336,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":122,"s":[93.751,-7.851,0],"to":[0.336,0,0],"ti":[-0.32,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":123,"s":[94.766,-7.851,0],"to":[0.32,0,0],"ti":[-0.278,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":124,"s":[95.672,-7.851,0],"to":[0.278,0,0],"ti":[-0.227,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":125,"s":[96.436,-7.851,0],"to":[0.227,0,0],"ti":[-0.169,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":126,"s":[97.035,-7.851,0],"to":[0.169,0,0],"ti":[-0.108,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":127,"s":[97.452,-7.851,0],"to":[0.108,0,0],"ti":[-0.046,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":128,"s":[97.682,-7.851,0],"to":[0.046,0,0],"ti":[0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":129,"s":[97.727,-7.851,0],"to":[-0.014,0,0],"ti":[0.07,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":130,"s":[97.597,-7.851,0],"to":[-0.07,0,0],"ti":[0.119,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":131,"s":[97.308,-7.851,0],"to":[-0.119,0,0],"ti":[0.159,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":132,"s":[96.884,-7.851,0],"to":[-0.159,0,0],"ti":[0.191,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":133,"s":[96.351,-7.851,0],"to":[-0.191,0,0],"ti":[0.211,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":134,"s":[95.74,-7.851,0],"to":[-0.211,0,0],"ti":[0.222,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":135,"s":[95.083,-7.851,0],"to":[-0.222,0,0],"ti":[0.222,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":136,"s":[94.409,-7.851,0],"to":[-0.222,0,0],"ti":[0.212,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":137,"s":[93.751,-7.851,0],"to":[-0.212,0,0],"ti":[0.194,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":138,"s":[93.135,-7.851,0],"to":[-0.194,0,0],"ti":[0.169,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":139,"s":[92.586,-7.851,0],"to":[-0.169,0,0],"ti":[0.138,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":140,"s":[92.123,-7.851,0],"to":[-0.138,0,0],"ti":[0.103,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":141,"s":[91.76,-7.851,0],"to":[-0.103,0,0],"ti":[0.065,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":142,"s":[91.507,-7.851,0],"to":[-0.065,0,0],"ti":[0.028,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":143,"s":[91.367,-7.851,0],"to":[-0.028,0,0],"ti":[-0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":144,"s":[91.34,-7.851,0],"to":[0.009,0,0],"ti":[-0.042,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":145,"s":[91.419,-7.851,0],"to":[0.042,0,0],"ti":[-0.072,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":146,"s":[91.594,-7.851,0],"to":[0.072,0,0],"ti":[-0.097,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":147,"s":[91.851,-7.851,0],"to":[0.097,0,0],"ti":[-0.116,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":148,"s":[92.174,-7.851,0],"to":[0.116,0,0],"ti":[-0.128,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":149,"s":[92.545,-7.851,0],"to":[0.128,0,0],"ti":[-0.135,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":150,"s":[92.944,-7.851,0],"to":[0.135,0,0],"ti":[-0.135,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":151,"s":[93.352,-7.851,0],"to":[0.135,0,0],"ti":[-0.129,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":152,"s":[93.751,-7.851,0],"to":[0.129,0,0],"ti":[-0.118,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":153,"s":[94.125,-7.851,0],"to":[0.118,0,0],"ti":[-0.102,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":154,"s":[94.458,-7.851,0],"to":[0.102,0,0],"ti":[-0.084,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":155,"s":[94.739,-7.851,0],"to":[0.084,0,0],"ti":[-0.062,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":156,"s":[94.959,-7.851,0],"to":[0.062,0,0],"ti":[-0.04,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":157,"s":[95.113,-7.851,0],"to":[0.04,0,0],"ti":[-0.017,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":158,"s":[95.197,-7.851,0],"to":[0.017,0,0],"ti":[0.005,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":159,"s":[95.214,-7.851,0],"to":[-0.005,0,0],"ti":[0.026,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":160,"s":[95.166,-7.851,0],"to":[-0.026,0,0],"ti":[0.044,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":161,"s":[95.06,-7.851,0],"to":[-0.044,0,0],"ti":[0.059,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":162,"s":[94.904,-7.851,0],"to":[-0.059,0,0],"ti":[0.07,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":163,"s":[94.708,-7.851,0],"to":[-0.07,0,0],"ti":[0.078,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":164,"s":[94.483,-7.851,0],"to":[-0.078,0,0],"ti":[0.082,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":165,"s":[94.241,-7.851,0],"to":[-0.082,0,0],"ti":[0.082,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":166,"s":[93.993,-7.851,0],"to":[-0.082,0,0],"ti":[0.078,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":167,"s":[93.751,-7.851,0],"to":[-0.078,0,0],"ti":[0.071,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":168,"s":[93.525,-7.851,0],"to":[-0.071,0,0],"ti":[0.062,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":169,"s":[93.323,-7.851,0],"to":[-0.062,0,0],"ti":[0.051,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":170,"s":[93.152,-7.851,0],"to":[-0.051,0,0],"ti":[0.038,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":171,"s":[93.019,-7.851,0],"to":[-0.038,0,0],"ti":[0.024,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":172,"s":[92.925,-7.851,0],"to":[-0.024,0,0],"ti":[0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":173,"s":[92.874,-7.851,0],"to":[-0.01,0,0],"ti":[-0.003,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":174,"s":[92.864,-7.851,0],"to":[0.003,0,0],"ti":[-0.016,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":175,"s":[92.893,-7.851,0],"to":[0.016,0,0],"ti":[-0.027,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":176,"s":[92.958,-7.851,0],"to":[0.027,0,0],"ti":[-0.036,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":177,"s":[93.052,-7.851,0],"to":[0.036,0,0],"ti":[-0.043,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":178,"s":[93.171,-7.851,0],"to":[0.043,0,0],"ti":[-0.047,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":179,"s":[93.307,-7.851,0],"to":[0.047,0,0],"ti":[-0.049,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":180,"s":[93.454,-7.851,0],"to":[0.049,0,0],"ti":[-0.05,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":181,"s":[93.604,-7.851,0],"to":[0.05,0,0],"ti":[-0.047,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":182,"s":[93.751,-7.851,0],"to":[0.047,0,0],"ti":[-0.043,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":183,"s":[93.889,-7.851,0],"to":[0.043,0,0],"ti":[-0.038,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":184,"s":[94.011,-7.851,0],"to":[0.038,0,0],"ti":[-0.031,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":185,"s":[94.115,-7.851,0],"to":[0.031,0,0],"ti":[-0.023,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":186,"s":[94.196,-7.851,0],"to":[0.023,0,0],"ti":[-0.015,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":187,"s":[94.252,-7.851,0],"to":[0.015,0,0],"ti":[-0.006,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":188,"s":[94.283,-7.851,0],"to":[0.006,0,0],"ti":[0.002,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":189,"s":[94.289,-7.851,0],"to":[-0.002,0,0],"ti":[0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":190,"s":[94.272,-7.851,0],"to":[-0.009,0,0],"ti":[0.016,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":191,"s":[94.233,-7.851,0],"to":[-0.016,0,0],"ti":[0.022,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":192,"s":[94.175,-7.851,0],"to":[-0.022,0,0],"ti":[0.026,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":193,"s":[94.103,-7.851,0],"to":[-0.026,0,0],"ti":[0.029,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":194,"s":[94.02,-7.851,0],"to":[-0.029,0,0],"ti":[0.03,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":195,"s":[93.931,-7.851,0],"to":[-0.03,0,0],"ti":[0.03,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":196,"s":[93.84,-7.851,0],"to":[-0.03,0,0],"ti":[0.029,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":197,"s":[93.751,-7.851,0],"to":[-0.029,0,0],"ti":[0.026,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":198,"s":[93.668,-7.851,0],"to":[-0.026,0,0],"ti":[0.023,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":199,"s":[93.594,-7.851,0],"to":[-0.023,0,0],"ti":[0.019,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":200,"s":[93.531,-7.851,0],"to":[-0.019,0,0],"ti":[0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":201,"s":[93.482,-7.851,0],"to":[-0.014,0,0],"ti":[0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":202,"s":[93.447,-7.851,0],"to":[-0.009,0,0],"ti":[0.004,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":203,"s":[93.429,-7.851,0],"to":[-0.004,0,0],"ti":[-0.001,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":204,"s":[93.425,-7.851,0],"to":[0.001,0,0],"ti":[-0.006,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":205,"s":[93.436,-7.851,0],"to":[0.006,0,0],"ti":[-0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":206,"s":[93.459,-7.851,0],"to":[0.01,0,0],"ti":[-0.013,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":207,"s":[93.494,-7.851,0],"to":[0.013,0,0],"ti":[-0.016,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":208,"s":[93.538,-7.851,0],"to":[0.016,0,0],"ti":[-0.017,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":209,"s":[93.588,-7.851,0],"to":[0.017,0,0],"ti":[-0.018,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":210,"s":[93.642,-7.851,0],"to":[0.018,0,0],"ti":[-0.018,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":211,"s":[93.697,-7.851,0],"to":[0.018,0,0],"ti":[-0.017,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":212,"s":[93.751,-7.851,0],"to":[0.017,0,0],"ti":[-0.016,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":213,"s":[93.802,-7.851,0],"to":[0.016,0,0],"ti":[-0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":214,"s":[93.847,-7.851,0],"to":[0.014,0,0],"ti":[-0.011,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":215,"s":[93.885,-7.851,0],"to":[0.011,0,0],"ti":[-0.008,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":216,"s":[93.915,-7.851,0],"to":[0.008,0,0],"ti":[-0.005,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":217,"s":[93.935,-7.851,0],"to":[0.005,0,0],"ti":[-0.002,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":218,"s":[93.947,-7.851,0],"to":[0.002,0,0],"ti":[0.001,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":219,"s":[93.949,-7.851,0],"to":[-0.001,0,0],"ti":[0.003,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":220,"s":[93.943,-7.851,0],"to":[-0.003,0,0],"ti":[0.006,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":221,"s":[93.928,-7.851,0],"to":[-0.006,0,0],"ti":[0.008,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":222,"s":[93.907,-7.851,0],"to":[-0.008,0,0],"ti":[0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":223,"s":[93.881,-7.851,0],"to":[-0.009,0,0],"ti":[0.011,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":224,"s":[93.85,-7.851,0],"to":[-0.011,0,0],"ti":[0.011,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":225,"s":[93.817,-7.851,0],"to":[-0.011,0,0],"ti":[0.011,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":226,"s":[93.784,-7.851,0],"to":[-0.011,0,0],"ti":[0.011,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":227,"s":[93.751,-7.851,0],"to":[-0.011,0,0],"ti":[0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":228,"s":[93.721,-7.851,0],"to":[-0.01,0,0],"ti":[0.008,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":229,"s":[93.693,-7.851,0],"to":[-0.008,0,0],"ti":[0.007,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":230,"s":[93.67,-7.851,0],"to":[-0.007,0,0],"ti":[0.005,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":231,"s":[93.652,-7.851,0],"to":[-0.005,0,0],"ti":[0.003,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":232,"s":[93.639,-7.851,0],"to":[-0.003,0,0],"ti":[0.001,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":233,"s":[93.632,-7.851,0],"to":[-0.001,0,0],"ti":[0,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":234,"s":[93.631,-7.851,0],"to":[0,0,0],"ti":[-0.002,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":235,"s":[93.635,-7.851,0],"to":[0.002,0,0],"ti":[-0.004,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":236,"s":[93.644,-7.851,0],"to":[0.004,0,0],"ti":[-0.005,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":237,"s":[93.657,-7.851,0],"to":[0.005,0,0],"ti":[-0.006,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":238,"s":[93.673,-7.851,0],"to":[0.006,0,0],"ti":[-0.003,0,0]},{"t":239,"s":[93.691,-7.851,0]}],"ix":2},"a":{"a":0,"k":[16.95,16.95,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ef":[{"ty":5,"nm":"Position - Overshoot","np":3,"mn":"ADBE Slider Control","ix":1,"en":1,"ef":[{"ty":0,"nm":"Slider","mn":"ADBE Slider Control-0001","ix":1,"v":{"a":0,"k":20,"ix":1,"x":"var $bm_rt;\\n$bm_rt = clamp(value, 0, 100);"}}]},{"ty":5,"nm":"Position - Bounce","np":3,"mn":"ADBE Slider Control","ix":2,"en":1,"ef":[{"ty":0,"nm":"Slider","mn":"ADBE Slider Control-0001","ix":1,"v":{"a":0,"k":40,"ix":1,"x":"var $bm_rt;\\n$bm_rt = clamp(value, 0, 100);"}}]},{"ty":5,"nm":"Position - Friction","np":3,"mn":"ADBE Slider Control","ix":3,"en":1,"ef":[{"ty":0,"nm":"Slider","mn":"ADBE Slider Control-0001","ix":1,"v":{"a":0,"k":40,"ix":1,"x":"var $bm_rt;\\n$bm_rt = clamp(value, 0, 100);"}}]}],"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-9.224,0],[0,9.223],[9.223,0],[0,-9.223]],"o":[[9.223,0],[0,-9.223],[-9.224,0],[0,9.223]],"v":[[0,16.7],[16.7,0],[0,-16.7],[-16.7,0]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[16.95,16.95],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":11,"ty":4,"nm":"Hair 2","parent":9,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":28,"s":[88.551,-39.051,0],"to":[-0.167,0,0],"ti":[0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":29,"s":[87.551,-39.051,0],"to":[-0.334,0,0],"ti":[0.333,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":30,"s":[86.548,-39.051,0],"to":[-0.333,0,0],"ti":[0.332,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":31,"s":[85.554,-39.051,0],"to":[-0.332,0,0],"ti":[0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":32,"s":[84.558,-39.051,0],"to":[-0.334,0,0],"ti":[0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":33,"s":[83.552,-39.051,0],"to":[-0.334,0,0],"ti":[0.336,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":34,"s":[82.551,-39.051,0],"to":[-0.336,0,0],"ti":[0.32,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":35,"s":[81.536,-39.051,0],"to":[-0.32,0,0],"ti":[0.278,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":36,"s":[80.63,-39.051,0],"to":[-0.278,0,0],"ti":[0.227,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":37,"s":[79.866,-39.051,0],"to":[-0.227,0,0],"ti":[0.169,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":38,"s":[79.268,-39.051,0],"to":[-0.169,0,0],"ti":[0.108,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":39,"s":[78.85,-39.051,0],"to":[-0.108,0,0],"ti":[0.046,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":40,"s":[78.62,-39.051,0],"to":[-0.046,0,0],"ti":[-0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":41,"s":[78.575,-39.051,0],"to":[0.014,0,0],"ti":[-0.07,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":42,"s":[78.705,-39.051,0],"to":[0.07,0,0],"ti":[-0.119,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":43,"s":[78.994,-39.051,0],"to":[0.119,0,0],"ti":[-0.159,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":44,"s":[79.418,-39.051,0],"to":[0.159,0,0],"ti":[-0.191,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":45,"s":[79.951,-39.051,0],"to":[0.191,0,0],"ti":[-0.211,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":46,"s":[80.562,-39.051,0],"to":[0.211,0,0],"ti":[-0.222,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":47,"s":[81.22,-39.051,0],"to":[0.222,0,0],"ti":[-0.222,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":48,"s":[81.893,-39.051,0],"to":[0.222,0,0],"ti":[-0.212,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":49,"s":[82.551,-39.051,0],"to":[0.212,0,0],"ti":[-0.194,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":50,"s":[83.167,-39.051,0],"to":[0.194,0,0],"ti":[-0.169,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":51,"s":[83.716,-39.051,0],"to":[0.169,0,0],"ti":[-0.138,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":52,"s":[84.18,-39.051,0],"to":[0.138,0,0],"ti":[-0.103,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":53,"s":[84.543,-39.051,0],"to":[0.103,0,0],"ti":[-0.065,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":54,"s":[84.796,-39.051,0],"to":[0.065,0,0],"ti":[-0.028,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":55,"s":[84.935,-39.051,0],"to":[0.028,0,0],"ti":[0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":56,"s":[84.963,-39.051,0],"to":[-0.009,0,0],"ti":[0.042,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":57,"s":[84.883,-39.051,0],"to":[-0.042,0,0],"ti":[0.072,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":58,"s":[84.708,-39.051,0],"to":[-0.072,0,0],"ti":[0.097,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":59,"s":[84.451,-39.051,0],"to":[-0.097,0,0],"ti":[0.116,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":60,"s":[84.128,-39.051,0],"to":[-0.116,0,0],"ti":[0.128,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":61,"s":[83.757,-39.051,0],"to":[-0.128,0,0],"ti":[0.135,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":62,"s":[83.358,-39.051,0],"to":[-0.135,0,0],"ti":[0.135,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":63,"s":[82.95,-39.051,0],"to":[-0.135,0,0],"ti":[0.129,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":64,"s":[82.551,-39.051,0],"to":[-0.129,0,0],"ti":[0.118,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":65,"s":[82.178,-39.051,0],"to":[-0.118,0,0],"ti":[0.102,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":66,"s":[81.844,-39.051,0],"to":[-0.102,0,0],"ti":[0.084,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":67,"s":[81.563,-39.051,0],"to":[-0.084,0,0],"ti":[0.062,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":68,"s":[81.343,-39.051,0],"to":[-0.062,0,0],"ti":[0.04,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":69,"s":[81.19,-39.051,0],"to":[-0.04,0,0],"ti":[0.017,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":70,"s":[81.105,-39.051,0],"to":[-0.017,0,0],"ti":[-0.005,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":71,"s":[81.088,-39.051,0],"to":[0.005,0,0],"ti":[-0.026,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":72,"s":[81.136,-39.051,0],"to":[0.026,0,0],"ti":[-0.044,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":73,"s":[81.242,-39.051,0],"to":[0.044,0,0],"ti":[-0.059,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":74,"s":[81.399,-39.051,0],"to":[0.059,0,0],"ti":[-0.07,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":75,"s":[81.594,-39.051,0],"to":[0.07,0,0],"ti":[-0.078,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":76,"s":[81.819,-39.051,0],"to":[0.078,0,0],"ti":[-0.082,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":77,"s":[82.061,-39.051,0],"to":[0.082,0,0],"ti":[-0.082,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":78,"s":[82.309,-39.051,0],"to":[0.082,0,0],"ti":[-0.078,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":79,"s":[82.551,-39.051,0],"to":[0.078,0,0],"ti":[-0.071,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":80,"s":[82.778,-39.051,0],"to":[0.071,0,0],"ti":[-0.062,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":81,"s":[82.98,-39.051,0],"to":[0.062,0,0],"ti":[-0.051,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":82,"s":[83.15,-39.051,0],"to":[0.051,0,0],"ti":[-0.038,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":83,"s":[83.284,-39.051,0],"to":[0.038,0,0],"ti":[-0.024,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":84,"s":[83.377,-39.051,0],"to":[0.024,0,0],"ti":[-0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":85,"s":[83.428,-39.051,0],"to":[0.01,0,0],"ti":[0.003,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":86,"s":[83.438,-39.051,0],"to":[-0.003,0,0],"ti":[0.016,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":87,"s":[83.409,-39.051,0],"to":[-0.016,0,0],"ti":[0.027,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":88,"s":[83.345,-39.051,0],"to":[-0.027,0,0],"ti":[0.036,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":89,"s":[83.25,-39.051,0],"to":[-0.036,0,0],"ti":[0.043,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":90,"s":[83.131,-39.051,0],"to":[-0.043,0,0],"ti":[0.047,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":91,"s":[82.995,-39.051,0],"to":[-0.047,0,0],"ti":[0.049,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":92,"s":[82.848,-39.051,0],"to":[-0.049,0,0],"ti":[0.05,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":93,"s":[82.698,-39.051,0],"to":[-0.05,0,0],"ti":[0.047,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":94,"s":[82.551,-39.051,0],"to":[-0.047,0,0],"ti":[0.043,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":95,"s":[82.414,-39.051,0],"to":[-0.043,0,0],"ti":[0.038,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":96,"s":[82.291,-39.051,0],"to":[-0.038,0,0],"ti":[0.031,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":97,"s":[82.188,-39.051,0],"to":[-0.031,0,0],"ti":[0.023,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":98,"s":[82.107,-39.051,0],"to":[-0.023,0,0],"ti":[0.015,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":99,"s":[82.05,-39.051,0],"to":[-0.015,0,0],"ti":[0.006,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":100,"s":[82.019,-39.051,0],"to":[-0.006,0,0],"ti":[-0.002,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":101,"s":[82.013,-39.051,0],"to":[0.002,0,0],"ti":[-0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":102,"s":[82.031,-39.051,0],"to":[0.009,0,0],"ti":[-0.016,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":103,"s":[82.07,-39.051,0],"to":[0.016,0,0],"ti":[-0.022,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":104,"s":[82.127,-39.051,0],"to":[0.022,0,0],"ti":[-0.026,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":105,"s":[82.199,-39.051,0],"to":[0.026,0,0],"ti":[-0.029,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":106,"s":[82.282,-39.051,0],"to":[0.029,0,0],"ti":[-0.03,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":107,"s":[82.371,-39.051,0],"to":[0.03,0,0],"ti":[-0.03,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":108,"s":[82.462,-39.051,0],"to":[0.03,0,0],"ti":[-0.029,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":109,"s":[82.551,-39.051,0],"to":[0.029,0,0],"ti":[-0.026,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":110,"s":[82.634,-39.051,0],"to":[0.026,0,0],"ti":[-0.023,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":111,"s":[82.709,-39.051,0],"to":[0.023,0,0],"ti":[-0.019,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":112,"s":[82.771,-39.051,0],"to":[0.019,0,0],"ti":[-0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":113,"s":[82.821,-39.051,0],"to":[0.014,0,0],"ti":[-0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":114,"s":[82.855,-39.051,0],"to":[0.009,0,0],"ti":[-0.004,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":115,"s":[82.874,-39.051,0],"to":[0.004,0,0],"ti":[0.001,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":116,"s":[82.877,-39.051,0],"to":[-0.001,0,0],"ti":[0.006,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":117,"s":[82.867,-39.051,0],"to":[-0.006,0,0],"ti":[0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":118,"s":[82.843,-39.051,0],"to":[-0.01,0,0],"ti":[0.013,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":119,"s":[82.808,-39.051,0],"to":[-0.013,0,0],"ti":[0.043,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":120,"s":[82.764,-39.051,0],"to":[-0.043,0,0],"ti":[-0.131,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":121,"s":[82.551,-39.051,0],"to":[0.131,0,0],"ti":[-0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":122,"s":[83.552,-39.051,0],"to":[0.334,0,0],"ti":[-0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":123,"s":[84.558,-39.051,0],"to":[0.334,0,0],"ti":[-0.332,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":124,"s":[85.554,-39.051,0],"to":[0.332,0,0],"ti":[-0.333,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":125,"s":[86.548,-39.051,0],"to":[0.333,0,0],"ti":[-0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":126,"s":[87.551,-39.051,0],"to":[0.334,0,0],"ti":[-0.334,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":127,"s":[88.551,-39.051,0],"to":[0.334,0,0],"ti":[-0.316,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":128,"s":[89.554,-39.051,0],"to":[0.316,0,0],"ti":[-0.275,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":129,"s":[90.449,-39.051,0],"to":[0.275,0,0],"ti":[-0.224,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":130,"s":[91.205,-39.051,0],"to":[0.224,0,0],"ti":[-0.167,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":131,"s":[91.796,-39.051,0],"to":[0.167,0,0],"ti":[-0.107,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":132,"s":[92.209,-39.051,0],"to":[0.107,0,0],"ti":[-0.045,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":133,"s":[92.436,-39.051,0],"to":[0.045,0,0],"ti":[0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":134,"s":[92.48,-39.051,0],"to":[-0.014,0,0],"ti":[0.069,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":135,"s":[92.351,-39.051,0],"to":[-0.069,0,0],"ti":[0.117,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":136,"s":[92.066,-39.051,0],"to":[-0.117,0,0],"ti":[0.158,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":137,"s":[91.647,-39.051,0],"to":[-0.158,0,0],"ti":[0.188,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":138,"s":[91.121,-39.051,0],"to":[-0.188,0,0],"ti":[0.209,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":139,"s":[90.517,-39.051,0],"to":[-0.209,0,0],"ti":[0.219,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":140,"s":[89.867,-39.051,0],"to":[-0.219,0,0],"ti":[0.219,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":141,"s":[89.202,-39.051,0],"to":[-0.219,0,0],"ti":[0.21,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":142,"s":[88.551,-39.051,0],"to":[-0.21,0,0],"ti":[0.192,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":143,"s":[87.942,-39.051,0],"to":[-0.192,0,0],"ti":[0.167,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":144,"s":[87.4,-39.051,0],"to":[-0.167,0,0],"ti":[0.136,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":145,"s":[86.942,-39.051,0],"to":[-0.136,0,0],"ti":[0.101,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":146,"s":[86.583,-39.051,0],"to":[-0.101,0,0],"ti":[0.065,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":147,"s":[86.333,-39.051,0],"to":[-0.065,0,0],"ti":[0.027,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":148,"s":[86.195,-39.051,0],"to":[-0.027,0,0],"ti":[-0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":149,"s":[86.168,-39.051,0],"to":[0.009,0,0],"ti":[-0.042,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":150,"s":[86.246,-39.051,0],"to":[0.042,0,0],"ti":[-0.071,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":151,"s":[86.419,-39.051,0],"to":[0.071,0,0],"ti":[-0.096,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":152,"s":[86.673,-39.051,0],"to":[0.096,0,0],"ti":[-0.114,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":153,"s":[86.992,-39.051,0],"to":[0.114,0,0],"ti":[-0.127,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":154,"s":[87.359,-39.051,0],"to":[0.127,0,0],"ti":[-0.133,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":155,"s":[87.753,-39.051,0],"to":[0.133,0,0],"ti":[-0.133,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":156,"s":[88.156,-39.051,0],"to":[0.133,0,0],"ti":[-0.127,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":157,"s":[88.551,-39.051,0],"to":[0.127,0,0],"ti":[-0.116,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":158,"s":[88.92,-39.051,0],"to":[0.116,0,0],"ti":[-0.101,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":159,"s":[89.249,-39.051,0],"to":[0.101,0,0],"ti":[-0.083,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":160,"s":[89.527,-39.051,0],"to":[0.083,0,0],"ti":[-0.062,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":161,"s":[89.745,-39.051,0],"to":[0.062,0,0],"ti":[-0.039,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":162,"s":[89.897,-39.051,0],"to":[0.039,0,0],"ti":[-0.017,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":163,"s":[89.98,-39.051,0],"to":[0.017,0,0],"ti":[0.005,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":164,"s":[89.997,-39.051,0],"to":[-0.005,0,0],"ti":[0.025,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":165,"s":[89.949,-39.051,0],"to":[-0.025,0,0],"ti":[0.043,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":166,"s":[89.844,-39.051,0],"to":[-0.043,0,0],"ti":[0.058,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":167,"s":[89.69,-39.051,0],"to":[-0.058,0,0],"ti":[0.069,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":168,"s":[89.496,-39.051,0],"to":[-0.069,0,0],"ti":[0.077,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":169,"s":[89.274,-39.051,0],"to":[-0.077,0,0],"ti":[0.081,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":170,"s":[89.035,-39.051,0],"to":[-0.081,0,0],"ti":[0.081,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":171,"s":[88.79,-39.051,0],"to":[-0.081,0,0],"ti":[0.077,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":172,"s":[88.551,-39.051,0],"to":[-0.077,0,0],"ti":[0.071,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":173,"s":[88.327,-39.051,0],"to":[-0.071,0,0],"ti":[0.061,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":174,"s":[88.127,-39.051,0],"to":[-0.061,0,0],"ti":[0.05,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":175,"s":[87.959,-39.051,0],"to":[-0.05,0,0],"ti":[0.037,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":176,"s":[87.827,-39.051,0],"to":[-0.037,0,0],"ti":[0.024,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":177,"s":[87.735,-39.051,0],"to":[-0.024,0,0],"ti":[0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":178,"s":[87.684,-39.051,0],"to":[-0.01,0,0],"ti":[-0.003,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":179,"s":[87.674,-39.051,0],"to":[0.003,0,0],"ti":[-0.015,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":180,"s":[87.703,-39.051,0],"to":[0.015,0,0],"ti":[-0.026,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":181,"s":[87.767,-39.051,0],"to":[0.026,0,0],"ti":[-0.035,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":182,"s":[87.86,-39.051,0],"to":[0.035,0,0],"ti":[-0.042,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":183,"s":[87.978,-39.051,0],"to":[0.042,0,0],"ti":[-0.047,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":184,"s":[88.112,-39.051,0],"to":[0.047,0,0],"ti":[-0.049,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":185,"s":[88.257,-39.051,0],"to":[0.049,0,0],"ti":[-0.049,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":186,"s":[88.406,-39.051,0],"to":[0.049,0,0],"ti":[-0.047,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":187,"s":[88.551,-39.051,0],"to":[0.047,0,0],"ti":[-0.043,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":188,"s":[88.687,-39.051,0],"to":[0.043,0,0],"ti":[-0.037,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":189,"s":[88.808,-39.051,0],"to":[0.037,0,0],"ti":[-0.03,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":190,"s":[88.91,-39.051,0],"to":[0.03,0,0],"ti":[-0.023,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":191,"s":[88.99,-39.051,0],"to":[0.023,0,0],"ti":[-0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":192,"s":[89.046,-39.051,0],"to":[0.014,0,0],"ti":[-0.006,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":193,"s":[89.077,-39.051,0],"to":[0.006,0,0],"ti":[0.002,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":194,"s":[89.083,-39.051,0],"to":[-0.002,0,0],"ti":[0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":195,"s":[89.065,-39.051,0],"to":[-0.009,0,0],"ti":[0.016,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":196,"s":[89.027,-39.051,0],"to":[-0.016,0,0],"ti":[0.021,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":197,"s":[88.97,-39.051,0],"to":[-0.021,0,0],"ti":[0.025,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":198,"s":[88.899,-39.051,0],"to":[-0.025,0,0],"ti":[0.028,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":199,"s":[88.817,-39.051,0],"to":[-0.028,0,0],"ti":[0.03,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":200,"s":[88.729,-39.051,0],"to":[-0.03,0,0],"ti":[0.03,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":201,"s":[88.639,-39.051,0],"to":[-0.03,0,0],"ti":[0.028,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":202,"s":[88.551,-39.051,0],"to":[-0.028,0,0],"ti":[0.026,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":203,"s":[88.469,-39.051,0],"to":[-0.026,0,0],"ti":[0.023,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":204,"s":[88.395,-39.051,0],"to":[-0.023,0,0],"ti":[0.018,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":205,"s":[88.333,-39.051,0],"to":[-0.018,0,0],"ti":[0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":206,"s":[88.285,-39.051,0],"to":[-0.014,0,0],"ti":[0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":207,"s":[88.251,-39.051,0],"to":[-0.009,0,0],"ti":[0.004,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":208,"s":[88.232,-39.051,0],"to":[-0.004,0,0],"ti":[-0.001,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":209,"s":[88.228,-39.051,0],"to":[0.001,0,0],"ti":[-0.006,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":210,"s":[88.239,-39.051,0],"to":[0.006,0,0],"ti":[-0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":211,"s":[88.262,-39.051,0],"to":[0.01,0,0],"ti":[-0.013,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":212,"s":[88.297,-39.051,0],"to":[0.013,0,0],"ti":[-0.015,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":213,"s":[88.34,-39.051,0],"to":[0.015,0,0],"ti":[-0.017,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":214,"s":[88.39,-39.051,0],"to":[0.017,0,0],"ti":[-0.018,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":215,"s":[88.443,-39.051,0],"to":[0.018,0,0],"ti":[-0.018,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":216,"s":[88.498,-39.051,0],"to":[0.018,0,0],"ti":[-0.017,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":217,"s":[88.551,-39.051,0],"to":[0.017,0,0],"ti":[-0.016,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":218,"s":[88.601,-39.051,0],"to":[0.016,0,0],"ti":[-0.014,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":219,"s":[88.646,-39.051,0],"to":[0.014,0,0],"ti":[-0.011,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":220,"s":[88.683,-39.051,0],"to":[0.011,0,0],"ti":[-0.008,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":221,"s":[88.713,-39.051,0],"to":[0.008,0,0],"ti":[-0.005,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":222,"s":[88.733,-39.051,0],"to":[0.005,0,0],"ti":[-0.002,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":223,"s":[88.744,-39.051,0],"to":[0.002,0,0],"ti":[0.001,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":224,"s":[88.747,-39.051,0],"to":[-0.001,0,0],"ti":[0.003,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":225,"s":[88.74,-39.051,0],"to":[-0.003,0,0],"ti":[0.006,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":226,"s":[88.726,-39.051,0],"to":[-0.006,0,0],"ti":[0.008,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":227,"s":[88.705,-39.051,0],"to":[-0.008,0,0],"ti":[0.009,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":228,"s":[88.679,-39.051,0],"to":[-0.009,0,0],"ti":[0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":229,"s":[88.649,-39.051,0],"to":[-0.01,0,0],"ti":[0.011,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":230,"s":[88.617,-39.051,0],"to":[-0.011,0,0],"ti":[0.011,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":231,"s":[88.583,-39.051,0],"to":[-0.011,0,0],"ti":[0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":232,"s":[88.551,-39.051,0],"to":[-0.01,0,0],"ti":[0.01,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":233,"s":[88.521,-39.051,0],"to":[-0.01,0,0],"ti":[0.008,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":234,"s":[88.494,-39.051,0],"to":[-0.008,0,0],"ti":[0.007,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":235,"s":[88.471,-39.051,0],"to":[-0.007,0,0],"ti":[0.005,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":236,"s":[88.453,-39.051,0],"to":[-0.005,0,0],"ti":[0.003,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":237,"s":[88.441,-39.051,0],"to":[-0.003,0,0],"ti":[0.001,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":238,"s":[88.434,-39.051,0],"to":[-0.001,0,0],"ti":[0,0,0]},{"t":239,"s":[88.432,-39.051,0]}],"ix":2},"a":{"a":0,"k":[8.75,8.75,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"ef":[{"ty":5,"nm":"Position - Overshoot","np":3,"mn":"ADBE Slider Control","ix":1,"en":1,"ef":[{"ty":0,"nm":"Slider","mn":"ADBE Slider Control-0001","ix":1,"v":{"a":0,"k":20,"ix":1,"x":"var $bm_rt;\\n$bm_rt = clamp(value, 0, 100);"}}]},{"ty":5,"nm":"Position - Bounce","np":3,"mn":"ADBE Slider Control","ix":2,"en":1,"ef":[{"ty":0,"nm":"Slider","mn":"ADBE Slider Control-0001","ix":1,"v":{"a":0,"k":40,"ix":1,"x":"var $bm_rt;\\n$bm_rt = clamp(value, 0, 100);"}}]},{"ty":5,"nm":"Position - Friction","np":3,"mn":"ADBE Slider Control","ix":3,"en":1,"ef":[{"ty":0,"nm":"Slider","mn":"ADBE Slider Control-0001","ix":1,"v":{"a":0,"k":40,"ix":1,"x":"var $bm_rt;\\n$bm_rt = clamp(value, 0, 100);"}}]}],"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-4.694,0],[0,4.694],[4.694,0],[0,-4.694]],"o":[[4.694,0],[0,-4.694],[-4.694,0],[0,4.694]],"v":[[0,8.5],[8.5,0],[0,-8.5],[-8.5,0]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[8.75,8.75],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":12,"ty":4,"nm":"Cloud 1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.43,"y":1},"o":{"x":0.57,"y":0},"t":0,"s":[302.145,338.274,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.43,"y":1},"o":{"x":0.57,"y":0},"t":120,"s":[228.145,338.274,0],"to":[0,0,0],"ti":[0,0,0]},{"t":240,"s":[302.145,338.274,0]}],"ix":2},"a":{"a":0,"k":[197.395,83.381,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,-41.274],[-41.275,0],[0,0],[0,29.793],[29.793,0],[8.865,-17.585],[0,3.488],[42.728,0],[9.301,-32.119],[28.485,0]],"o":[[0,41.42],[0,0],[29.938,0],[0,-29.939],[-21.219,0],[0.436,-3.488],[0,-42.728],[-35.171,0],[-12.644,-23.253],[-41.42,0]],"v":[[-197.145,8.284],[-122.298,83.131],[143.08,83.131],[197.145,29.067],[143.08,-24.997],[94.684,4.796],[95.41,-5.668],[17.949,-83.131],[-56.316,-27.468],[-122.153,-66.563]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.889999988032,0.823999980852,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Pink\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[197.395,83.381],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":13,"ty":4,"nm":"Cloud 2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.43,"y":1},"o":{"x":0.57,"y":0},"t":0,"s":[671.806,826.665,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.43,"y":1},"o":{"x":0.57,"y":0},"t":120,"s":[771.806,826.665,0],"to":[0,0,0],"ti":[0,0,0]},{"t":240,"s":[671.806,826.665,0]}],"ix":2},"a":{"a":0,"k":[116.073,49.089,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,-24.249],[24.248,0],[0,0],[0,17.504],[-17.504,0],[-5.209,-10.331],[0,2.049],[-25.103,0],[-5.465,-18.869],[-16.735,0]],"o":[[0,24.334],[0,0],[-17.589,0],[0,-17.589],[12.466,0],[-0.257,-2.049],[0,-25.103],[20.663,0],[7.428,-13.661],[24.334,0]],"v":[[115.823,4.867],[71.85,48.839],[-84.06,48.839],[-115.823,17.076],[-84.06,-14.686],[-55.627,2.817],[-56.054,-3.33],[-10.544,-48.839],[33.086,-16.138],[71.764,-39.106]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.889999988032,0.823999980852,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Pink\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[116.072,49.089],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":14,"ty":4,"nm":"Forearm Left","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":0,"s":[0]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":120,"s":[9.094]},{"t":240,"s":[0]}],"ix":10},"p":{"a":0,"k":[706.484,264,0],"ix":2},"a":{"a":0,"k":[49.372,45.95,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0.976,-0.977],[-0.977,-0.977]],"o":[[-0.976,-0.977],[-0.977,0.976],[0,0]],"v":[[-48.482,-52.018],[-52.017,-52.018],[-52.017,-48.482]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-0.977,0.976],[0.976,0.976]],"o":[[0.976,0.976],[0.976,-0.977],[0,0]],"v":[[48.482,52.018],[52.018,52.018],[52.018,48.482]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-52.017,-48.482],[48.482,52.018],[52.018,48.482],[-48.482,-52.018]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[157,89.7],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":5,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[-2.2,15.7],[-26.7,-3.7],[-7.6,-9.8]],"o":[[0,0],[0,0],[0,0],[-10.3,-10.4],[3.7,-26.7],[13.2,1.8],[0,0]],"v":[[104.15,36.65],[34.85,105.45],[-88.55,-18.75],[-88.25,-19.05],[-101.95,-60.15],[-46.85,-101.75],[-14.85,-83.15]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Light Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[104.4,105.7],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":15,"ty":4,"nm":"Hand Left","parent":14,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":0,"s":[0]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":120,"s":[18.811]},{"t":240,"s":[0]}],"ix":10},"p":{"a":0,"k":[191.705,175.949,0],"ix":2},"a":{"a":0,"k":[41.998,37.25,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-30.428,25.425],[30.428,-3.902],[15.691,-25.425],[-21.728,-7.276]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[40.774,25.676],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-1.566,-0.462],[-0.462,1.567]],"o":[[-0.462,1.566],[1.566,0.461],[0,0]],"v":[[-8.237,40.178],[-6.237,43.85],[-2.565,41.849]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0.051,0.403]],"o":[[0,0],[0.114,-0.389],[0,0]],"v":[[5.715,3.29],[8.551,4.125],[8.649,2.923]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[1.62,-0.202],[-0.202,-1.62]],"o":[[-0.203,-1.62],[-1.62,0.203],[0,0]],"v":[[3.09,-41.542],[-0.21,-44.109],[-2.777,-40.808]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-2.565,41.849],[8.551,4.125],[2.879,2.454],[-8.237,40.178]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ind":4,"ty":"sh","ix":5,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[8.649,2.923],[3.09,-41.542],[-2.777,-40.808],[2.782,3.657]],"c":true},"ix":2},"nm":"Path 5","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[97.182,154.952],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":7,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-1.529,-0.571],[-0.57,1.53]],"o":[[-0.571,1.53],[1.531,0.571],[0,0]],"v":[[-2.904,19.418],[-1.169,23.222],[2.635,21.486]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0.103,0.532]],"o":[[0,0],[0.189,-0.508],[0,0]],"v":[[3.177,11.583],[5.947,12.617],[6.08,11.028]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[1.603,-0.306],[-0.306,-1.604]],"o":[[-0.307,-1.604],[-1.605,0.307],[0,0]],"v":[[-0.068,-21.138],[-3.527,-23.487],[-5.877,-20.028]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[2.635,21.486],[5.947,12.617],[0.408,10.549],[-2.904,19.418]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ind":4,"ty":"sh","ix":5,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[6.08,11.028],[-0.068,-21.138],[-5.877,-20.028],[0.273,12.138]],"c":true},"ix":2},"nm":"Path 5","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[65.78,137.79],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":7,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-0.37,1.59],[1.591,0.37]],"o":[[1.59,0.37],[0.37,-1.59],[0,0]],"v":[[6.981,-10.243],[10.529,-12.452],[8.32,-16.001]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,-0.225]],"o":[[0,0],[-0.051,0.22],[0,0]],"v":[[-3.703,-6.027],[-6.583,-6.697],[-6.659,-6.027]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0.223]],"o":[[0,0],[0.05,-0.218],[0,0]],"v":[[-3.703,-5.79],[-0.821,-5.126],[-0.747,-5.79]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-0.419,-0.666],[-0.766,-0.173]],"o":[[0,0],[-0.177,0.767],[0.419,0.666],[0,0]],"v":[[-7.841,12.186],[-10.722,11.522],[-10.344,13.759],[-8.492,15.069]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ind":4,"ty":"sh","ix":5,"ks":{"a":0,"k":{"i":[[0,0],[-0.358,1.593],[1.593,0.358]],"o":[[1.593,0.359],[0.359,-1.593],[0,0]],"v":[[0.969,17.197],[4.503,14.962],[2.268,11.43]],"c":true},"ix":2},"nm":"Path 5","mn":"ADBE Vector Shape - Group","hd":false},{"ind":5,"ty":"sh","ix":6,"ks":{"a":0,"k":{"i":[[0,0],[1.549,-6.662],[0,0],[-3.482,-0.81]],"o":[[-6.688,-1.555],[0,0],[0.816,-3.508],[0,0]],"v":[[8.32,-16.001],[-6.583,-6.697],[-0.823,-5.356],[6.981,-10.243]],"c":true},"ix":2},"nm":"Path 6","mn":"ADBE Vector Shape - Group","hd":false},{"ind":6,"ty":"sh","ix":7,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-6.659,-6.027],[-6.659,-6.025],[-6.659,-6.025],[-6.659,-6.023],[-6.659,-6.022],[-6.659,-6.022],[-6.659,-6.02],[-6.659,-6.02],[-6.659,-6.018],[-6.659,-6.017],[-6.659,-6.017],[-6.659,-6.015],[-6.659,-6.014],[-6.659,-6.014],[-6.659,-6.012],[-6.659,-6.012],[-6.659,-6.01],[-6.659,-6.009],[-6.659,-6.009],[-6.659,-6.007],[-6.659,-6.007],[-6.659,-6.005],[-6.659,-6.004],[-6.659,-6.004],[-6.659,-6.002],[-6.659,-6.001],[-6.659,-6.001],[-6.659,-5.999],[-6.659,-5.999],[-6.659,-5.997],[-6.659,-5.996],[-6.659,-5.996],[-6.659,-5.994],[-6.659,-5.993],[-6.659,-5.993],[-6.659,-5.991],[-6.659,-5.991],[-6.659,-5.989],[-6.659,-5.988],[-6.659,-5.988],[-6.659,-5.986],[-6.659,-5.986],[-6.659,-5.984],[-6.659,-5.983],[-6.659,-5.983],[-6.659,-5.981],[-6.659,-5.98],[-6.659,-5.98],[-6.659,-5.978],[-6.659,-5.978],[-6.659,-5.976],[-6.659,-5.975],[-6.659,-5.975],[-6.659,-5.973],[-6.659,-5.973],[-6.659,-5.971],[-6.659,-5.97],[-6.659,-5.97],[-6.659,-5.968],[-6.659,-5.967],[-6.659,-5.967],[-6.659,-5.965],[-6.659,-5.965],[-6.659,-5.963],[-6.659,-5.962],[-6.659,-5.962],[-6.659,-5.96],[-6.659,-5.96],[-6.659,-5.958],[-6.659,-5.957],[-6.659,-5.957],[-6.659,-5.955],[-6.659,-5.954],[-6.659,-5.954],[-6.659,-5.952],[-6.659,-5.952],[-6.659,-5.95],[-6.659,-5.949],[-6.659,-5.949],[-6.659,-5.947],[-6.659,-5.947],[-6.659,-5.945],[-6.659,-5.944],[-6.659,-5.944],[-6.659,-5.942],[-6.659,-5.941],[-6.659,-5.941],[-6.659,-5.939],[-6.659,-5.939],[-6.659,-5.937],[-6.659,-5.936],[-6.659,-5.936],[-6.659,-5.934],[-6.659,-5.934],[-6.659,-5.932],[-6.659,-5.931],[-6.659,-5.931],[-6.659,-5.929],[-6.659,-5.928],[-6.659,-5.928],[-6.659,-5.926],[-6.659,-5.926],[-6.659,-5.924],[-6.659,-5.923],[-6.659,-5.923],[-6.659,-5.921],[-6.659,-5.921],[-6.659,-5.919],[-6.659,-5.918],[-6.659,-5.918],[-6.659,-5.916],[-6.659,-5.915],[-6.659,-5.915],[-6.659,-5.913],[-6.659,-5.913],[-6.659,-5.911],[-6.659,-5.91],[-6.659,-5.91],[-6.659,-5.908],[-6.659,-5.908],[-6.659,-5.906],[-6.659,-5.905],[-6.659,-5.905],[-6.659,-5.903],[-6.659,-5.902],[-6.659,-5.902],[-6.659,-5.9],[-6.659,-5.9],[-6.659,-5.898],[-6.659,-5.897],[-6.659,-5.897],[-6.659,-5.895],[-6.659,-5.895],[-6.659,-5.893],[-6.659,-5.892],[-6.659,-5.892],[-6.659,-5.89],[-6.659,-5.889],[-6.659,-5.889],[-6.659,-5.887],[-6.659,-5.887],[-6.659,-5.885],[-6.659,-5.884],[-6.659,-5.884],[-6.659,-5.882],[-6.659,-5.882],[-6.659,-5.88],[-6.659,-5.879],[-6.659,-5.879],[-6.659,-5.877],[-6.659,-5.876],[-6.659,-5.876],[-6.659,-5.874],[-6.659,-5.874],[-6.659,-5.872],[-6.659,-5.871],[-6.659,-5.871],[-6.659,-5.869],[-6.659,-5.868],[-6.659,-5.868],[-6.659,-5.866],[-6.659,-5.866],[-6.659,-5.864],[-6.659,-5.863],[-6.659,-5.863],[-6.659,-5.861],[-6.659,-5.861],[-6.659,-5.859],[-6.659,-5.858],[-6.659,-5.858],[-6.659,-5.856],[-6.659,-5.855],[-6.659,-5.855],[-6.659,-5.853],[-6.659,-5.853],[-6.659,-5.851],[-6.659,-5.85],[-6.659,-5.85],[-6.659,-5.848],[-6.659,-5.848],[-6.659,-5.846],[-6.659,-5.845],[-6.659,-5.845],[-6.659,-5.843],[-6.659,-5.842],[-6.659,-5.842],[-6.659,-5.84],[-6.659,-5.84],[-6.659,-5.838],[-6.659,-5.837],[-6.659,-5.837],[-6.659,-5.835],[-6.659,-5.835],[-6.659,-5.833],[-6.659,-5.832],[-6.659,-5.832],[-6.659,-5.83],[-6.659,-5.829],[-6.659,-5.829],[-6.659,-5.827],[-6.659,-5.827],[-6.659,-5.825],[-6.659,-5.824],[-6.659,-5.824],[-6.659,-5.822],[-6.659,-5.822],[-6.659,-5.82],[-6.659,-5.819],[-6.659,-5.819],[-6.659,-5.817],[-6.659,-5.816],[-6.659,-5.816],[-6.659,-5.814],[-6.659,-5.814],[-6.659,-5.812],[-6.659,-5.811],[-6.659,-5.811],[-6.659,-5.809],[-6.659,-5.809],[-6.659,-5.807],[-6.659,-5.806],[-6.659,-5.806],[-6.659,-5.804],[-6.659,-5.803],[-6.659,-5.803],[-6.659,-5.801],[-6.659,-5.801],[-6.659,-5.799],[-6.659,-5.798],[-6.659,-5.798],[-6.659,-5.796],[-6.659,-5.796],[-6.659,-5.794],[-6.659,-5.793],[-6.659,-5.793],[-6.659,-5.791],[-6.659,-5.79],[-6.659,-5.79],[-0.747,-5.79],[-0.747,-5.79],[-0.747,-5.791],[-0.747,-5.793],[-0.747,-5.793],[-0.747,-5.794],[-0.747,-5.796],[-0.747,-5.796],[-0.747,-5.798],[-0.747,-5.798],[-0.747,-5.799],[-0.747,-5.801],[-0.747,-5.801],[-0.747,-5.803],[-0.747,-5.803],[-0.747,-5.804],[-0.747,-5.806],[-0.747,-5.806],[-0.747,-5.807],[-0.747,-5.809],[-0.747,-5.809],[-0.747,-5.811],[-0.747,-5.811],[-0.747,-5.812],[-0.747,-5.814],[-0.747,-5.814],[-0.747,-5.816],[-0.747,-5.816],[-0.747,-5.817],[-0.747,-5.819],[-0.747,-5.819],[-0.747,-5.82],[-0.747,-5.822],[-0.747,-5.822],[-0.747,-5.824],[-0.747,-5.824],[-0.747,-5.825],[-0.747,-5.827],[-0.747,-5.827],[-0.747,-5.829],[-0.747,-5.829],[-0.747,-5.83],[-0.747,-5.832],[-0.747,-5.832],[-0.747,-5.833],[-0.747,-5.835],[-0.747,-5.835],[-0.747,-5.837],[-0.747,-5.837],[-0.747,-5.838],[-0.747,-5.84],[-0.747,-5.84],[-0.747,-5.842],[-0.747,-5.842],[-0.747,-5.843],[-0.747,-5.845],[-0.747,-5.845],[-0.747,-5.846],[-0.747,-5.848],[-0.747,-5.848],[-0.747,-5.85],[-0.747,-5.85],[-0.747,-5.851],[-0.747,-5.853],[-0.747,-5.853],[-0.747,-5.855],[-0.747,-5.855],[-0.747,-5.856],[-0.747,-5.858],[-0.747,-5.858],[-0.747,-5.859],[-0.747,-5.861],[-0.747,-5.861],[-0.747,-5.863],[-0.747,-5.863],[-0.747,-5.864],[-0.747,-5.866],[-0.747,-5.866],[-0.747,-5.868],[-0.747,-5.868],[-0.747,-5.869],[-0.747,-5.871],[-0.747,-5.871],[-0.747,-5.872],[-0.747,-5.874],[-0.747,-5.874],[-0.747,-5.876],[-0.747,-5.876],[-0.747,-5.877],[-0.747,-5.879],[-0.747,-5.879],[-0.747,-5.88],[-0.747,-5.882],[-0.747,-5.882],[-0.747,-5.884],[-0.747,-5.884],[-0.747,-5.885],[-0.747,-5.887],[-0.747,-5.887],[-0.747,-5.889],[-0.747,-5.889],[-0.747,-5.89],[-0.747,-5.892],[-0.747,-5.892],[-0.747,-5.893],[-0.747,-5.895],[-0.747,-5.895],[-0.747,-5.897],[-0.747,-5.897],[-0.747,-5.898],[-0.747,-5.9],[-0.747,-5.9],[-0.747,-5.902],[-0.747,-5.902],[-0.747,-5.903],[-0.747,-5.905],[-0.747,-5.905],[-0.747,-5.906],[-0.747,-5.908],[-0.747,-5.908],[-0.747,-5.91],[-0.747,-5.91],[-0.747,-5.911],[-0.747,-5.913],[-0.747,-5.913],[-0.747,-5.915],[-0.747,-5.915],[-0.747,-5.916],[-0.747,-5.918],[-0.747,-5.918],[-0.747,-5.919],[-0.747,-5.921],[-0.747,-5.921],[-0.747,-5.923],[-0.747,-5.923],[-0.747,-5.924],[-0.747,-5.926],[-0.747,-5.926],[-0.747,-5.928],[-0.747,-5.928],[-0.747,-5.929],[-0.747,-5.931],[-0.747,-5.931],[-0.747,-5.932],[-0.747,-5.934],[-0.747,-5.934],[-0.747,-5.936],[-0.747,-5.936],[-0.747,-5.937],[-0.747,-5.939],[-0.747,-5.939],[-0.747,-5.941],[-0.747,-5.941],[-0.747,-5.942],[-0.747,-5.944],[-0.747,-5.944],[-0.747,-5.945],[-0.747,-5.947],[-0.747,-5.947],[-0.747,-5.949],[-0.747,-5.949],[-0.747,-5.95],[-0.747,-5.952],[-0.747,-5.952],[-0.747,-5.954],[-0.747,-5.954],[-0.747,-5.955],[-0.747,-5.957],[-0.747,-5.957],[-0.747,-5.958],[-0.747,-5.96],[-0.747,-5.96],[-0.747,-5.962],[-0.747,-5.962],[-0.747,-5.963],[-0.747,-5.965],[-0.747,-5.965],[-0.747,-5.967],[-0.747,-5.967],[-0.747,-5.968],[-0.747,-5.97],[-0.747,-5.97],[-0.747,-5.971],[-0.747,-5.973],[-0.747,-5.973],[-0.747,-5.975],[-0.747,-5.975],[-0.747,-5.976],[-0.747,-5.978],[-0.747,-5.978],[-0.747,-5.98],[-0.747,-5.98],[-0.747,-5.981],[-0.747,-5.983],[-0.747,-5.983],[-0.747,-5.984],[-0.747,-5.986],[-0.747,-5.986],[-0.747,-5.988],[-0.747,-5.988],[-0.747,-5.989],[-0.747,-5.991],[-0.747,-5.991],[-0.747,-5.993],[-0.747,-5.993],[-0.747,-5.994],[-0.747,-5.996],[-0.747,-5.996],[-0.747,-5.997],[-0.747,-5.999],[-0.747,-5.999],[-0.747,-6.001],[-0.747,-6.001],[-0.747,-6.002],[-0.747,-6.004],[-0.747,-6.004],[-0.747,-6.005],[-0.747,-6.007],[-0.747,-6.007],[-0.747,-6.009],[-0.747,-6.009],[-0.747,-6.01],[-0.747,-6.012],[-0.747,-6.012],[-0.747,-6.014],[-0.747,-6.014],[-0.747,-6.015],[-0.747,-6.017],[-0.747,-6.017],[-0.747,-6.018],[-0.747,-6.02],[-0.747,-6.02],[-0.747,-6.022],[-0.747,-6.022],[-0.747,-6.023],[-0.747,-6.025],[-0.747,-6.025],[-0.747,-6.027]],"c":true},"ix":2},"nm":"Path 7","mn":"ADBE Vector Shape - Group","hd":false},{"ind":7,"ty":"sh","ix":8,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-6.583,-6.454],[-10.722,11.522],[-4.961,12.848],[-0.821,-5.126]],"c":true},"ix":2},"nm":"Path 8","mn":"ADBE Vector Shape - Group","hd":false},{"ind":8,"ty":"sh","ix":9,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-8.492,15.069],[0.969,17.197],[2.268,11.43],[-7.193,9.301]],"c":true},"ix":2},"nm":"Path 9","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[116.061,197.854],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":11,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-0.449,1.57],[1.57,0.449]],"o":[[1.57,0.449],[0.449,-1.571],[0,0]],"v":[[7.643,-10.055],[11.298,-12.084],[9.267,-15.74]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,-0.269]],"o":[[0,0],[-0.072,0.258],[0,0]],"v":[[-3.253,-6.392],[-6.1,-7.188],[-6.209,-6.392]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0.138,-0.482]],"o":[[0,0],[-0.355,0.354],[0,0]],"v":[[-3.371,-6.156],[-5.461,-8.246],[-6.212,-6.971]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-1.563,-0.455]],"o":[[0,0],[-0.45,1.565],[0,0]],"v":[[-8.456,11.583],[-11.297,10.768],[-9.282,14.421]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ind":4,"ty":"sh","ix":5,"ks":{"a":0,"k":{"i":[[0,0],[-0.456,1.567],[1.568,0.456]],"o":[[1.568,0.456],[0.457,-1.568],[0,0]],"v":[[0.06,17.141],[3.725,15.129],[1.713,11.464]],"c":true},"ix":2},"nm":"Path 5","mn":"ADBE Vector Shape - Group","hd":false},{"ind":5,"ty":"sh","ix":6,"ks":{"a":0,"k":{"i":[[0,0],[1.873,-6.71],[0,0],[-3.436,-0.981]],"o":[[-6.498,-1.856],[0,0],[0.966,-3.46],[0,0]],"v":[[9.267,-15.74],[-6.1,-7.188],[-0.405,-5.598],[7.643,-10.055]],"c":true},"ix":2},"nm":"Path 6","mn":"ADBE Vector Shape - Group","hd":false},{"ind":6,"ty":"sh","ix":7,"ks":{"a":0,"k":{"i":[[0,0],[-0.016,0.161],[-0.191,0.384],[-0.053,0.06],[0.052,-0.052],[0,0],[-0.081,0.091],[-0.181,0.363],[-0.028,0.28],[-0.001,0.049],[0,0.006]],"o":[[0,0.084],[0.025,-0.242],[0.167,-0.333],[0.047,-0.053],[0,0],[0.007,-0.007],[0.086,-0.096],[0.207,-0.414],[0.012,-0.119],[0.001,-0.047],[0,0]],"v":[[-6.209,-6.392],[-6.196,-6.616],[-5.912,-7.596],[-5.5,-8.204],[-5.461,-8.246],[-1.28,-4.066],[-1.104,-4.249],[-0.623,-4.953],[-0.312,-6.029],[-0.296,-6.294],[-0.295,-6.392]],"c":true},"ix":2},"nm":"Path 7","mn":"ADBE Vector Shape - Group","hd":false},{"ind":7,"ty":"sh","ix":8,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-6.212,-6.971],[-11.297,10.768],[-5.614,12.397],[-0.529,-5.341]],"c":true},"ix":2},"nm":"Path 8","mn":"ADBE Vector Shape - Group","hd":false},{"ind":8,"ty":"sh","ix":9,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-9.282,14.421],[0.06,17.141],[1.713,11.464],[-7.629,8.744]],"c":true},"ix":2},"nm":"Path 9","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[84.389,209.1],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 5","np":11,"cix":2,"bm":0,"ix":5,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-0.775,1.437],[1.437,0.774]],"o":[[1.437,0.774],[0.773,-1.438],[0,0]],"v":[[9.141,-8.677],[13.145,-9.878],[11.944,-13.883]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,-0.479]],"o":[[0,0],[-0.223,0.424],[0,0]],"v":[[-2.23,-7.259],[-4.847,-8.634],[-5.186,-7.259]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0.476]],"o":[[0,0],[0.22,-0.422],[0,0]],"v":[[-2.348,-7.023],[0.274,-5.655],[0.608,-7.023]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-0.236,-0.748],[-0.695,-0.362]],"o":[[0,0],[-0.363,0.696],[0.236,0.749],[0,0]],"v":[[-10.863,9.297],[-13.483,7.929],[-13.683,10.184],[-12.228,11.919]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ind":4,"ty":"sh","ix":5,"ks":{"a":0,"k":{"i":[[0,0],[-0.754,1.448],[1.448,0.754]],"o":[[1.448,0.754],[0.754,-1.449],[0,0]],"v":[[-3.595,16.413],[0.392,15.156],[-0.864,11.168]],"c":true},"ix":2},"nm":"Path 5","mn":"ADBE Vector Shape - Group","hd":false},{"ind":5,"ty":"sh","ix":6,"ks":{"a":0,"k":{"i":[[0,0],[3.227,-6.148],[0,0],[-3.126,-1.683]],"o":[[-6.099,-3.284],[0,0],[1.739,-3.312],[0,0]],"v":[[11.944,-13.883],[-4.847,-8.634],[0.387,-5.885],[9.141,-8.677]],"c":true},"ix":2},"nm":"Path 6","mn":"ADBE Vector Shape - Group","hd":false},{"ind":6,"ty":"sh","ix":7,"ks":{"a":0,"k":{"i":[[0,0],[-0.074,0.265],[-0.117,0.195],[-0.072,0.082],[-0.017,0.017],[0.007,-0.007],[0.022,-0.023],[0.043,-0.049],[0.124,-0.207],[0.081,-0.289],[0,-0.266],[0,0],[0.074,-0.265],[0.118,-0.194],[0.072,-0.082],[0.017,-0.017],[-0.006,0.006],[-0.022,0.023],[-0.043,0.049],[-0.124,0.207],[-0.081,0.289],[0,0.266]],"o":[[0,-0.236],[0.076,-0.266],[0.113,-0.189],[0.036,-0.041],[0.016,-0.016],[0,0.001],[-0.025,0.025],[-0.087,0.098],[-0.129,0.214],[-0.081,0.288],[0,0],[0,0.237],[-0.074,0.266],[-0.113,0.19],[-0.038,0.042],[-0.015,0.016],[0.001,-0.001],[0.024,-0.025],[0.086,-0.098],[0.128,-0.214],[0.081,-0.288],[0,0]],"v":[[-5.186,-7.259],[-5.082,-8.017],[-4.783,-8.71],[-4.484,-9.119],[-4.402,-9.209],[-4.381,-9.231],[-4.423,-9.187],[-4.527,-9.074],[-4.864,-8.614],[-5.189,-7.859],[-5.304,-7.023],[0.608,-7.023],[0.504,-6.265],[0.205,-5.573],[-0.092,-5.163],[-0.176,-5.073],[-0.199,-5.051],[-0.155,-5.095],[-0.049,-5.208],[0.287,-5.668],[0.613,-6.423],[0.727,-7.259]],"c":true},"ix":2},"nm":"Path 7","mn":"ADBE Vector Shape - Group","hd":false},{"ind":7,"ty":"sh","ix":8,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-4.968,-8.39],[-13.483,7.929],[-8.241,10.664],[0.274,-5.655]],"c":true},"ix":2},"nm":"Path 8","mn":"ADBE Vector Shape - Group","hd":false},{"ind":8,"ty":"sh","ix":9,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-12.228,11.919],[-3.595,16.413],[-0.864,11.168],[-9.497,6.675]],"c":true},"ix":2},"nm":"Path 9","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[48.008,190.572],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 6","np":11,"cix":2,"bm":0,"ix":6,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-17.621,-4.257],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[-4.257,17.738]],"v":[[7.332,32.521],[21.168,-24.834],[-10.762,-32.521],[-16.911,-7.213]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[106.444,184.377],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 7","np":2,"cix":2,"bm":0,"ix":7,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-17.62,-4.257],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[-4.258,17.738]],"v":[[7.332,32.521],[21.168,-24.833],[-10.762,-32.521],[-16.91,-7.213]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[76.289,195.729],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 8","np":2,"cix":2,"bm":0,"ix":8,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-16.556,-7.332],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[-7.332,16.437]],"v":[[0.059,33.585],[23.947,-20.222],[-5.972,-33.585],[-16.615,-9.697]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[42.762,175.981],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 9","np":2,"cix":2,"bm":0,"ix":9,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-16.438,23.297],[16.438,23.297],[16.438,-23.297],[-16.438,-23.297]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[48.761,138.417],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 10","np":2,"cix":2,"bm":0,"ix":10,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-16.438,26.076],[16.438,26.076],[16.438,-26.076],[-16.438,-26.076]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[80.974,147.294],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 11","np":2,"cix":2,"bm":0,"ix":11,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-16.438,28.796],[16.438,28.796],[16.438,-28.796],[-16.438,-28.796]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[111.308,131.72],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 12","np":2,"cix":2,"bm":0,"ix":12,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-2.186,33.652],[27.498,19.522],[2.186,-33.652],[-27.498,-19.522]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[34.499,98.909],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 13","np":2,"cix":2,"bm":0,"ix":13,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-2.618,35.494],[29.201,20.348],[2.617,-35.494],[-29.201,-20.348]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[71.248,97.681],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 14","np":2,"cix":2,"bm":0,"ix":14,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-21.168,-21.287],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[-21.286,21.169]],"v":[[-42.572,54.457],[-40.444,56.704],[63.741,45.943],[-7.805,-56.704],[-42.337,-22.41]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[63.99,56.955],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 15","np":2,"cix":2,"bm":0,"ix":15,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":16,"ty":4,"nm":"Static","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[725.774,638.178,0],"ix":2},"a":{"a":0,"k":[581.438,412.927,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.381,0.026],[0.026,-1.381]],"o":[[0.026,-1.38],[-1.381,-0.026],[0,0]],"v":[[21.55,-9.003],[19.098,-11.55],[16.551,-9.098]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[1.381,0.026],[0.026,-1.38]],"o":[[0.026,-1.381],[-1.379,-0.026],[0,0]],"v":[[-16.35,-9.702],[-18.803,-12.249],[-21.349,-9.798]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[9.115,0.174],[0,0],[-0.227,11.877]],"o":[[-0.174,9.123],[0,0],[11.885,0.226],[0,0]],"v":[[16.551,-9.098],[-0.202,7.051],[-0.298,12.049],[21.55,-9.003]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[-0.174,9.116],[0,0],[-11.876,-0.226]],"o":[[-9.124,-0.174],[0,0],[-0.227,11.884],[0,0]],"v":[[-0.202,7.051],[-16.35,-9.702],[-21.349,-9.798],[-0.298,12.049]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[823.877,79.9],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":6,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.381,0.026],[0.026,-1.381]],"o":[[0.026,-1.38],[-1.381,-0.026],[0,0]],"v":[[21.55,-9.003],[19.098,-11.55],[16.551,-9.098]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[1.381,0.026],[0.026,-1.38]],"o":[[0.026,-1.381],[-1.379,-0.026],[0,0]],"v":[[-16.35,-9.702],[-18.803,-12.249],[-21.349,-9.798]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[9.115,0.174],[0,0],[-0.227,11.877]],"o":[[-0.174,9.123],[0,0],[11.885,0.226],[0,0]],"v":[[16.551,-9.098],[-0.202,7.051],[-0.298,12.049],[21.55,-9.003]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[-0.174,9.116],[0,0],[-11.876,-0.226]],"o":[[-9.124,-0.174],[0,0],[-0.227,11.884],[0,0]],"v":[[-0.202,7.051],[-16.35,-9.702],[-21.349,-9.798],[-0.298,12.049]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[785.976,79.9],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":6,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[3.2,-23.4],[26.701,3.7],[4,1.7],[0,0],[0,0],[0,0]],"o":[[-3.699,26.7],[-4.599,-0.6],[0,0],[0,0],[0,0],[21.5,7.6]],"v":[[112.7,38.1],[57.6,79.8],[44.7,76.2],[-115.9,6],[-76.8,-83.5],[80.6,-14.7]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Light Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[659.826,83.75],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":2,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,-1.38],[-1.381,0]],"o":[[-1.381,0],[0,1.381],[0,0]],"v":[[-557.55,-2.5],[-560.05,0],[-557.55,2.5]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,1.381],[1.38,0]],"o":[[1.38,0],[0,-1.38],[0,0]],"v":[[557.55,2.5],[560.05,0],[557.55,-2.5]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-557.55,2.5],[557.55,2.5],[557.55,-2.5],[-557.55,-2.5]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[602.576,821.749],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":5,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.253,0.581],[0.58,-1.252]],"o":[[0.58,-1.253],[-1.253,-0.58],[0,0]],"v":[[9.919,-15.448],[8.702,-18.768],[5.383,-17.552]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-1.252,-0.58],[-0.581,1.252]],"o":[[-0.58,1.253],[1.253,0.581],[0,0]],"v":[[-9.918,15.448],[-8.702,18.767],[-5.381,17.552]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[5.383,-17.552],[-9.918,15.448],[-5.381,17.552],[9.919,-15.448]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[1031.776,757.85],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 5","np":5,"cix":2,"bm":0,"ix":5,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0]],"v":[[-17.65,26.801],[-18.35,-50.301],[18.35,50.301]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[861.577,450.75],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 6","np":2,"cix":2,"bm":0,"ix":6,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-0.48,-1.294],[-1.295,0.481]],"o":[[-1.295,0.48],[0.481,1.294],[0,0]],"v":[[-32.52,9.406],[-33.994,12.62],[-30.78,14.093]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0.48,1.294],[1.295,-0.48]],"o":[[1.294,-0.481],[-0.481,-1.294],[0,0]],"v":[[32.52,-9.406],[33.994,-12.62],[30.78,-14.094]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-30.78,14.093],[32.52,-9.406],[30.78,-14.094],[-32.52,9.406]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[992.676,547.5],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 7","np":5,"cix":2,"bm":0,"ix":7,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0]],"v":[[-50.3,1.349],[50.3,39.151],[-35.5,-39.151]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[962.026,691.9],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 8","np":2,"cix":2,"bm":0,"ix":8,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.1,-2.1],[0,0]],"o":[[0,0],[0.1,2.1]],"v":[[-0.05,3.15],[-0.05,-3.15]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.889999988032,0.823999980852,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[898.977,175.7],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 9","np":2,"cix":2,"bm":0,"ix":9,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[-25,18.9],[-32.9,-43.6],[-0.699,-19.5],[0,0]],"o":[[0,0],[0,0],[0,0],[0.7,-29.1],[43.601,-32.9],[12.6,16.8],[0,0],[0,0]],"v":[[99.4,142.65],[-98.2,119.55],[-99.4,-33.25],[-99.3,-33.25],[-60.1,-109.75],[78.3,-90.35],[98.2,-34.65],[98.2,-28.35]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.889999988032,0.823999980852,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Pink\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[800.726,207.2],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 10","np":2,"cix":2,"bm":0,"ix":10,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,-1.381],[-1.381,0]],"o":[[-1.381,0],[0,1.381],[0,0]],"v":[[-45.5,-2.5],[-48,0],[-45.5,2.5]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,1.381],[1.381,0]],"o":[[1.381,0],[0,-1.381],[0,0]],"v":[[45.5,2.5],[48,0],[45.5,-2.5]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-45.5,2.5],[45.5,2.5],[45.5,-2.5],[-45.5,-2.5]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Light Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[774.126,799.15],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 11","np":5,"cix":2,"bm":0,"ix":11,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,-6.5],[0,0],[0,0],[0,0],[-2.099,5.301],[-19.399,0],[0,0],[-7,-16.4]],"o":[[0,0],[0,0],[0,0],[0,-6.099],[6.8,-17],[0,0],[19,0],[2.5,5.7]],"v":[[71.95,6.051],[71.95,40.25],[-71.95,40.25],[-71.95,5.95],[-68.651,-11.25],[-25.851,-40.25],[25.75,-40.25],[68.149,-12.349]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[775.777,781.499],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 12","np":2,"cix":2,"bm":0,"ix":12,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0.497,-1.288],[-1.287,-0.497]],"o":[[-1.288,-0.497],[-0.497,1.288],[0,0]],"v":[[-119.802,-27.885],[-123.035,-26.453],[-121.604,-23.221]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-0.286,-0.007]],"o":[[0,0],[0.267,0.104],[0,0]],"v":[[4.596,22.847],[3.696,25.179],[4.532,25.346]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[-0.036,1.38],[1.38,0.036]],"o":[[1.38,0.036],[0.035,-1.381],[0,0]],"v":[[120.932,28.346],[123.496,25.912],[121.061,23.348]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-121.604,-23.221],[3.696,25.179],[5.497,20.515],[-119.802,-27.885]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ind":4,"ty":"sh","ix":5,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[4.532,25.346],[120.932,28.346],[121.061,23.348],[4.661,20.348]],"c":true},"ix":2},"nm":"Path 5","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[1012.229,769.503],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 13","np":7,"cix":2,"bm":0,"ix":13,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,-28.199],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[28.4,0.1]],"v":[[126.5,35],[126.5,64.3],[14.6,64.3],[-126.5,14.2],[-96.9,-64.3],[30.8,-16.2],[75.3,-16.2]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Light Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[1008.526,758.45],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 14","np":2,"cix":2,"bm":0,"ix":14,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,-37.8],[3.8,-8.6],[0,0],[0,0],[0,0],[-29.4,0]],"o":[[0,10],[0,0],[0,0],[0,0],[9.7,-26],[37.8,-0.1]],"v":[[100.1,-71],[94.1,-42.8],[28.499,139.5],[-100.1,92.6],[-32.6,-94.9],[31.6,-139.4]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Light Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[1010.627,606.15],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 15","np":2,"cix":2,"bm":0,"ix":15,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[19,0],[0,0],[6.8,-18.8],[0,0],[0,0]],"o":[[-7.1,-18.2],[0,0],[-19.399,0],[0,0],[0,0],[0,0]],"v":[[70.05,230.55],[27.651,199.55],[-23.95,199.55],[-66.75,231.65],[-70.05,-230.349],[66.851,-231.65]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Light Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[773.976,543.199],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 16","np":2,"cix":2,"bm":0,"ix":16,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-151.881,-24],[75.981,138.5],[151.881,24.6],[-76.981,-138.5]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Light Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[923.045,450.249],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 17","np":2,"cix":2,"bm":0,"ix":17,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,-1.381],[-1.381,0]],"o":[[-1.381,0],[0,1.381],[0,0]],"v":[[-116.902,-2.5],[-119.402,0],[-116.902,2.5]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,1.381],[1.381,0]],"o":[[1.381,0],[0,-1.381],[0,0]],"v":[[116.902,2.5],[119.402,0],[116.902,-2.5]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-116.902,2.5],[116.902,2.5],[116.902,-2.5],[-116.902,-2.5]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[336.52,697.99],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 18","np":5,"cix":2,"bm":0,"ix":18,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-1.195,-0.691],[-0.691,1.195]],"o":[[-0.691,1.195],[1.195,0.69],[0,0]],"v":[[-73.656,60.452],[-72.743,63.868],[-69.328,62.955]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0]],"v":[[-35.746,-0.125],[-33.582,1.127],[-33.581,1.125]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0.893,0],[0.446,-0.773]],"o":[[0,0],[-0.447,-0.773],[-0.893,0],[0,0]],"v":[[0,-62.057],[2.165,-63.307],[0,-64.557],[-2.165,-63.307]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0]],"v":[[35.746,-0.125],[33.581,1.125],[33.582,1.127]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ind":4,"ty":"sh","ix":5,"ks":{"a":0,"k":{"i":[[0,0],[-1.195,0.69],[0.691,1.195]],"o":[[0.691,1.195],[1.196,-0.691],[0,0]],"v":[[69.328,62.955],[72.743,63.868],[73.656,60.452]],"c":true},"ix":2},"nm":"Path 5","mn":"ADBE Vector Shape - Group","hd":false},{"ind":5,"ty":"sh","ix":6,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-69.328,62.955],[-33.582,1.127],[-37.91,-1.376],[-73.656,60.452]],"c":true},"ix":2},"nm":"Path 6","mn":"ADBE Vector Shape - Group","hd":false},{"ind":6,"ty":"sh","ix":7,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-33.581,1.125],[2.165,-60.808],[-2.165,-63.307],[-37.911,-1.375]],"c":true},"ix":2},"nm":"Path 7","mn":"ADBE Vector Shape - Group","hd":false},{"ind":7,"ty":"sh","ix":8,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-2.165,-60.808],[33.581,1.125],[37.911,-1.375],[2.165,-63.307]],"c":true},"ix":2},"nm":"Path 8","mn":"ADBE Vector Shape - Group","hd":false},{"ind":8,"ty":"sh","ix":9,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[33.582,1.127],[69.328,62.955],[73.656,60.452],[37.91,-1.376]],"c":true},"ix":2},"nm":"Path 9","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[336.519,760.047],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 19","np":11,"cix":2,"bm":0,"ix":19,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[60.083,0],[0,0],[0,62.845]],"o":[[0,60.083],[0,0],[62.845,0],[0,0]],"v":[[108.791,-0.001],[0,108.792],[0,113.792],[113.791,-0.001]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,60.083],[0,0],[-62.845,0]],"o":[[-60.084,0],[0,0],[0,62.845],[0,0]],"v":[[0,108.792],[-108.791,-0.001],[-113.791,-0.001],[0,113.792]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[-60.084,0],[0,0],[0,-62.845]],"o":[[0,-60.083],[0,0],[-62.845,0],[0,0]],"v":[[-108.791,-0.001],[0,-108.791],[0,-113.791],[-113.791,-0.001]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,-60.083],[0,0],[62.845,0]],"o":[[60.083,0],[0,0],[0,-62.845],[0,0]],"v":[[0,-108.791],[108.791,-0.001],[113.791,-0.001],[0,-113.791]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[336.519,361.519],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 20","np":6,"cix":2,"bm":0,"ix":20,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[121.491,0],[0,0],[0,124.252]],"o":[[0,121.491],[0,0],[124.252,0],[0,0]],"v":[[219.978,0],[0,219.978],[0,224.978],[224.978,0]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,121.491],[0,0],[-124.252,0]],"o":[[-121.491,0],[0,0],[0,124.252],[0,0]],"v":[[0,219.978],[-219.978,0],[-224.978,0],[0,224.978]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[-121.491,0],[0,0],[0,-124.252]],"o":[[0,-121.491],[0,0],[-124.252,0],[0,0]],"v":[[-219.978,0],[0,-219.978],[0,-224.978],[-224.978,0]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,-121.491],[0,0],[124.252,0]],"o":[[121.491,0],[0,0],[0,-124.252],[0,0]],"v":[[0,-219.978],[219.978,0],[224.978,0],[0,-224.978]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[340.519,361.518],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 21","np":6,"cix":2,"bm":0,"ix":21,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[182.955,0],[0,0],[0,185.716]],"o":[[0,182.955],[0,0],[185.716,0],[0,0]],"v":[[331.269,0],[0,331.269],[0,336.269],[336.269,0]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,182.955],[0,0],[-185.716,0]],"o":[[-182.955,0],[0,0],[0,185.716],[0,0]],"v":[[0,331.269],[-331.269,0],[-336.269,0],[0,336.269]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[-182.955,0],[0,0],[0,-185.716]],"o":[[0,-182.955],[0,0],[-185.716,0],[0,0]],"v":[[-331.269,0],[0,-331.269],[0,-336.269],[-336.269,0]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,-182.955],[0,0],[185.716,0]],"o":[[182.955,0],[0,0],[0,-185.716],[0,0]],"v":[[0,-331.269],[331.269,0],[336.269,0],[0,-336.269]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[340.519,361.518],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 22","np":6,"cix":2,"bm":0,"ix":22,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":17,"ty":4,"nm":"Crease Right","parent":20,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[176.149,147.1,0],"ix":2},"a":{"a":0,"k":[2.5,34.35,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":1,"k":[{"i":{"x":0.5,"y":1},"o":{"x":0.5,"y":0},"t":0,"s":[{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[2.5,2.5],[2.5,66.2]],"c":false}]},{"i":{"x":0.5,"y":1},"o":{"x":0.5,"y":0},"t":60,"s":[{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-13.615,-10.052],[2.5,66.2]],"c":false}]},{"i":{"x":0.5,"y":1},"o":{"x":0.5,"y":0},"t":120,"s":[{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[2.5,2.5],[2.5,66.2]],"c":false}]},{"i":{"x":0.5,"y":1},"o":{"x":0.5,"y":0},"t":180,"s":[{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-13.615,-10.052],[2.5,66.2]],"c":false}]},{"t":240,"s":[{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[2.5,2.5],[2.5,66.2]],"c":false}]}],"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[0.4,0,1,1],"ix":3,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Light Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":5,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":18,"ty":4,"nm":"Hand Right","parent":19,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":-30,"s":[-4.324]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":30,"s":[14.756]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":90,"s":[-4.324]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":150,"s":[14.756]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":210,"s":[-4.324]},{"t":270,"s":[14.756]}],"ix":10},"p":{"a":0,"k":[209.54,31.61,0],"ix":2},"a":{"a":0,"k":[39.241,179.304,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.117,-1.334],[-1.334,-1.117]],"o":[[-1.334,-1.117],[-1.118,1.333],[0,0]],"v":[[-8.057,-10.857],[-12.494,-10.464],[-12.102,-6.027]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-1.117,1.333],[1.334,1.117]],"o":[[1.334,1.117],[1.117,-1.334],[0,0]],"v":[[8.057,10.856],[12.495,10.465],[12.102,6.027]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-12.102,-6.027],[8.057,10.856],[12.102,6.027],[-8.057,-10.857]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[195.92,133.301],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":5,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0.797,-1.546],[-1.546,-0.797]],"o":[[-1.547,-0.797],[-0.797,1.547],[0,0]],"v":[[-12.857,-10.171],[-17.1,-8.814],[-15.745,-4.57]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-0.798,1.546],[1.546,0.797]],"o":[[1.546,0.797],[0.797,-1.546],[0,0]],"v":[[12.858,10.171],[17.1,8.814],[15.744,4.571]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-15.745,-4.57],[12.858,10.171],[15.744,4.571],[-12.857,-10.171]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[166.123,87.124],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":5,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0.434,-1.685],[-1.686,-0.434]],"o":[[-1.684,-0.435],[-0.435,1.684],[0,0]],"v":[[-11.183,-6.137],[-15.019,-3.872],[-12.755,-0.036]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-0.434,1.685],[1.685,0.434]],"o":[[1.685,0.434],[0.435,-1.684],[0,0]],"v":[[11.183,6.138],[15.019,3.874],[12.756,0.038]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-12.755,-0.036],[11.183,6.138],[12.756,0.038],[-11.183,-6.137]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[115.536,44.536],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":5,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.371,-1.07],[-1.07,-1.372]],"o":[[-1.07,-1.372],[-1.372,1.07],[0,0]],"v":[[-4.446,-10.821],[-8.867,-11.366],[-9.413,-6.946]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-1.371,1.07],[1.071,1.371]],"o":[[1.07,1.371],[1.373,-1.07],[0,0]],"v":[[4.447,10.821],[8.867,11.366],[9.412,6.946]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-9.413,-6.946],[4.447,10.821],[9.412,6.946],[-4.446,-10.821]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[171.604,155.539],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":5,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.289,-1.168],[-1.168,-1.289]],"o":[[-1.168,-1.289],[-1.288,1.169],[0,0]],"v":[[-6.235,-11.566],[-10.684,-11.784],[-10.902,-7.334]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-1.289,1.169],[1.169,1.289]],"o":[[1.168,1.289],[1.289,-1.168],[0,0]],"v":[[6.234,11.565],[10.683,11.783],[10.901,7.333]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-10.902,-7.334],[6.234,11.565],[10.901,7.333],[-6.235,-11.566]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[145.271,114.906],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 5","np":5,"cix":2,"bm":0,"ix":5,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.276,-1.183],[-1.183,-1.276]],"o":[[-1.183,-1.276],[-1.276,1.182],[0,0]],"v":[[-27.991,-34.837],[-32.443,-35.005],[-32.612,-30.554]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-1.277,1.182],[1.182,1.275]],"o":[[1.183,1.276],[1.275,-1.182],[0,0]],"v":[[27.992,34.837],[32.444,35.007],[32.613,30.556]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-32.612,-30.554],[27.992,34.837],[32.613,30.556],[-27.991,-34.837]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[113.708,139.285],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 6","np":5,"cix":2,"bm":0,"ix":6,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0.732,-1.579],[-1.58,-0.732]],"o":[[-1.578,-0.731],[-0.73,1.578],[0,0]],"v":[[-8.063,-7.205],[-12.245,-5.67],[-10.71,-1.488]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-0.732,1.579],[1.58,0.731]],"o":[[1.579,0.731],[0.73,-1.578],[0,0]],"v":[[8.063,7.205],[12.246,5.67],[10.71,1.489]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-10.71,-1.488],[8.063,7.205],[10.71,1.489],[-8.063,-7.205]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[101.613,78.304],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 7","np":5,"cix":2,"bm":0,"ix":7,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-1.453,0.956],[0.956,1.453]],"o":[[0.957,1.453],[1.453,-0.957],[0,0]],"v":[[39.686,19.79],[44.048,20.69],[44.948,16.326]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-0.956,-1.453],[-1.453,0.957]],"o":[[-1.454,0.956],[0.957,1.453],[0,0]],"v":[[-44.048,-2.117],[-44.948,2.245],[-40.586,3.144]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[29.665,-19.528],[0,0],[-17.614,-26.759]],"o":[[-19.518,-29.649],[0,0],[26.743,-17.604],[0,0]],"v":[[44.948,16.326],[-44.048,-2.117],[-40.586,3.144],[39.686,19.79]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[80.617,167.009],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 8","np":5,"cix":2,"bm":0,"ix":8,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.057,-1.381],[-1.382,-1.057]],"o":[[-1.382,-1.057],[-1.057,1.383],[0,0]],"v":[[-10.774,7.518],[-15.19,8.106],[-14.601,12.522]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0.711]],"o":[[0,0],[0.442,-0.557],[0,0]],"v":[[1.171,8.257],[3.638,10.215],[4.322,8.257]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,-0.698]],"o":[[0,0],[-0.429,0.552],[0,0]],"v":[[1.297,8.004],[-1.192,6.075],[-1.852,8.004]],"c":true},"ix":2},"nm":"Path 3","mn":"ADBE Vector Shape - Group","hd":false},{"ind":3,"ty":"sh","ix":4,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0.107,0.832],[0.666,0.509]],"o":[[0,0],[0.515,-0.663],[-0.108,-0.831],[0,0]],"v":[[13.015,-7.115],[15.504,-5.186],[16.139,-7.52],[14.93,-9.616]],"c":true},"ix":2},"nm":"Path 4","mn":"ADBE Vector Shape - Group","hd":false},{"ind":4,"ty":"sh","ix":5,"ks":{"a":0,"k":{"i":[[0,0],[1.056,-1.382],[-1.382,-1.058]],"o":[[-1.382,-1.058],[-1.058,1.381],[0,0]],"v":[[6.867,-15.79],[2.451,-15.204],[3.037,-10.788]],"c":true},"ix":2},"nm":"Path 5","mn":"ADBE Vector Shape - Group","hd":false},{"ind":5,"ty":"sh","ix":6,"ks":{"a":0,"k":{"i":[[0,0],[-4.463,5.62],[0,0],[2.912,2.227]],"o":[[5.655,4.325],[0,0],[-2.339,2.947],[0,0]],"v":[[-14.601,12.522],[3.638,10.215],[-1.296,6.298],[-10.774,7.518]],"c":true},"ix":2},"nm":"Path 6","mn":"ADBE Vector Shape - Group","hd":false},{"ind":6,"ty":"sh","ix":7,"ks":{"a":0,"k":{"i":[[0,0],[0.079,-0.282],[0.125,-0.208],[0.077,-0.088],[0.017,-0.019],[-0.007,0.007],[-0.024,0.025],[-0.046,0.052],[-0.133,0.221],[-0.087,0.308],[0,0.284],[0,0],[-0.08,0.282],[-0.125,0.208],[-0.078,0.088],[-0.018,0.019],[0,0],[0.025,-0.025],[0.046,-0.052],[0.132,-0.221],[0.086,-0.308],[0,-0.283]],"o":[[0,0.252],[-0.08,0.284],[-0.121,0.201],[-0.039,0.044],[-0.017,0.017],[0.001,-0.001],[0.026,-0.026],[0.092,-0.105],[0.137,-0.227],[0.086,-0.307],[0,0],[0,-0.252],[0.079,-0.283],[0.121,-0.201],[0.038,-0.044],[0,0],[-0.002,0.001],[-0.025,0.026],[-0.092,0.105],[-0.137,0.228],[-0.086,0.307],[0,0]],"v":[[4.322,8.257],[4.211,9.064],[3.893,9.803],[3.575,10.238],[3.485,10.335],[3.462,10.358],[3.508,10.311],[3.62,10.191],[3.979,9.699],[4.326,8.895],[4.448,8.004],[-1.852,8.004],[-1.741,7.197],[-1.423,6.458],[-1.104,6.022],[-1.016,5.926],[-0.992,5.903],[-1.039,5.95],[-1.151,6.07],[-1.51,6.561],[-1.856,7.366],[-1.977,8.257]],"c":true},"ix":2},"nm":"Path 7","mn":"ADBE Vector Shape - Group","hd":false},{"ind":7,"ty":"sh","ix":8,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[3.787,9.934],[15.504,-5.186],[10.525,-9.045],[-1.192,6.075]],"c":true},"ix":2},"nm":"Path 8","mn":"ADBE Vector Shape - Group","hd":false},{"ind":8,"ty":"sh","ix":9,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[14.93,-9.616],[6.867,-15.79],[3.037,-10.788],[11.101,-4.613]],"c":true},"ix":2},"nm":"Path 9","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[43.428,51.463],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 9","np":11,"cix":2,"bm":0,"ix":9,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[10.458,1.763],[1.764,-10.458]],"o":[[0,0],[0,0],[1.765,-10.583],[-10.584,-1.764],[0,0]],"v":[[-22.049,17.954],[16.001,24.506],[20.284,-0.442],[4.535,-22.742],[-17.766,-6.993]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[123.853,24.756],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 10","np":2,"cix":2,"bm":0,"ix":10,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-24.272,12.61],[12.61,24.272],[24.272,-12.61],[-12.61,-24.272]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[115.423,61.488],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 11","np":2,"cix":2,"bm":0,"ix":11,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-27.51,6.031],[4.456,27.809],[27.51,-6.032],[-4.456,-27.809]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[156.107,101.588],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 12","np":2,"cix":2,"bm":0,"ix":12,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-28.135,2.032],[0.341,28.207],[28.135,-2.032],[-0.341,-28.207]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[184.086,146.344],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 13","np":2,"cix":2,"bm":0,"ix":13,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-39.582,-1.043],[-21.704,33.117],[39.582,1.042],[21.704,-33.117]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[145.278,173.092],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 14","np":2,"cix":2,"bm":0,"ix":14,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[9.323,5.04],[5.04,-9.324]],"o":[[0,0],[0,0],[5.166,-9.324],[-9.325,-5.165],[0,0]],"v":[[-28.475,13.544],[5.418,32.066],[23.309,-0.693],[15.624,-26.9],[-10.583,-19.215]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[206.756,112.449],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 15","np":2,"cix":2,"bm":0,"ix":15,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[10.332,3.024],[3.023,-10.332]],"o":[[0,0],[0,0],[2.898,-10.331],[-10.331,-2.898],[0,0]],"v":[[-25.766,22.931],[11.403,33.515],[22.868,-6.678],[9.512,-30.617],[-14.426,-17.261]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[172.297,62.239],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 16","np":2,"cix":2,"bm":0,"ix":16,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-41.439,11.352],[-15.519,40.065],[41.439,-11.353],[15.519,-40.065]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[120.647,138.824],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 17","np":2,"cix":2,"bm":0,"ix":17,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-32.23,15.064],[0.567,35.574],[32.23,-15.065],[-0.567,-35.574]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[95.469,100.603],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 18","np":2,"cix":2,"bm":0,"ix":18,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[14.867,13.859]],"o":[[0,0],[0,0],[13.734,-14.994],[0,0]],"v":[[-30.302,11.843],[-3.213,36.79],[16.568,15.246],[14.427,-36.79]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[41.766,71.689],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 19","np":2,"cix":2,"bm":0,"ix":19,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-23.756,29.387],[12.494,35.663],[23.756,-29.387],[-12.494,-35.663]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[24.155,119.037],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 20","np":2,"cix":2,"bm":0,"ix":20,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-22.428,14.364],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[14.489,22.427]],"v":[[23.057,52.981],[80.763,18.207],[-7.308,-67.345],[-80.763,-19.466],[-43.594,38.492]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,0.8,0.322000002394,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Yellow\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[81.013,168.013],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 21","np":2,"cix":2,"bm":0,"ix":21,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":19,"ty":4,"nm":"Forearm Right","parent":20,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":0,"s":[0]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":60,"s":[-23.143]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":120,"s":[0]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.5],"y":[0]},"t":180,"s":[-23.143]},{"t":240,"s":[0]}],"ix":10},"p":{"a":0,"k":[165.85,180.5,0],"ix":2},"a":{"a":0,"k":[49.85,136.1,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[10.6,0],[0,27],[-14.6,8.4],[0,0],[0,0]],"o":[[0,0],[-8,5.8],[-27,0],[0,-18.1],[0,0],[0,0],[0,0]],"v":[[111.1,-10.25],[-33.7,83.15],[-62.2,92.35],[-111.1,43.45],[-86.7,1.15],[-86.6,1.05],[58.1,-92.35]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[111.35,92.6],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":20,"ty":4,"nm":"Upper Arm Right","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":-16.375,"ix":10},"p":{"a":0,"k":[1024.763,348.251,0],"ix":2},"a":{"a":0,"k":[48.95,48.7,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,13.4],[-27,0],[-8.899,-10.9]],"o":[[0,0],[0,0],[-8.699,-8.8],[0,-27],[15.199,0],[0,0]],"v":[[100.7,41.6],[27.5,106.2],[-86.601,-23],[-100.7,-57.3],[-51.8,-106.2],[-14.101,-88.4]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.030999998953,0,0.224000010771,1],"ix":4,"x":"var $bm_rt;\\n$bm_rt = thisComp.layer(\'Dark Purple\').effect(\'Fill\')(\'Color\');"},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[100.95,106.45],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240,"st":0,"bm":0},{"ddd":0,"ind":21,"ty":1,"nm":"Background","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[800,600,0],"ix":2},"a":{"a":0,"k":[800,600,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"sw":1600,"sh":1200,"sc":"#ffffff","ip":240,"op":240,"st":0,"bm":0,"hidden":0}],"markers":[]}'
     );
@@ -34629,8 +34641,8 @@
         });
       }
     }
-    var k = __webpack_require__(3401);
-    function v(t) {
+    var v = __webpack_require__(3401);
+    function k(t) {
       let {text: e, className: i, href: r, newTab: a} = t;
       return (0, c.jsx)("div", {
         className: i,
@@ -34645,7 +34657,7 @@
     function b() {
       const {isDark: e} = (0, t.useContext)(l);
       return u.O$.displayGreeting
-        ? (0, c.jsx)(f.zW, {
+        ? (0, c.jsx)(d.zW, {
             bottom: !0,
             duration: 1e3,
             distance: "40px",
@@ -34679,11 +34691,11 @@
                             : "greeting-text-p subTitle",
                           children: u.O$.subTitle
                         }),
-                        (0, c.jsx)(k.A, {}),
+                        (0, c.jsx)(v.A, {}),
                         (0, c.jsxs)("div", {
                           className: "button-greeting-div",
                           children: [
-                            (0, c.jsx)(v, {
+                            (0, c.jsx)(k, {
                               text: "\ud83e\udd1d Hire Me!",
                               href: "#contact"
                             }),
@@ -34692,7 +34704,7 @@
                                 href: "/resume.pdf",
                                 download: "CV_Liant_WebDeveloper.pdf",
                                 className: "download-link-button",
-                                children: (0, c.jsx)(v, {
+                                children: (0, c.jsx)(k, {
                                   text: "\ud83d\udce5 Resume / CV"
                                 })
                               })
@@ -34752,7 +34764,7 @@
             children: (0, c.jsxs)("div", {
               className: "skills-main-div",
               children: [
-                (0, c.jsx)(f.zW, {
+                (0, c.jsx)(d.zW, {
                   left: !0,
                   duration: 1e3,
                   children: (0, c.jsx)("div", {
@@ -34765,7 +34777,7 @@
                         })
                   })
                 }),
-                (0, c.jsx)(f.zW, {
+                (0, c.jsx)(d.zW, {
                   right: !0,
                   duration: 1e3,
                   children: (0, c.jsxs)("div", {
@@ -34809,9 +34821,9 @@
     const S = JSON.parse(
       '{"v":"5.5.7","fr":60,"ip":0,"op":240,"w":1920,"h":1080,"nm":"Pre-comp 1","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":1,"ty":4,"nm":"Sparkle","parent":12,"sr":1,"ks":{"o":{"a":1,"k":[{"t":0,"s":[100],"h":1},{"t":100.1,"s":[0],"h":1},{"t":128,"s":[0],"h":1},{"t":170.17,"s":[0],"h":1},{"t":238.23828125,"s":[100],"h":1}],"ix":11},"r":{"a":1,"k":[{"t":0,"s":[34],"h":1},{"t":4.004,"s":[52],"h":1},{"t":10.01,"s":[-148],"h":1},{"t":16.016,"s":[-218],"h":1},{"t":22.021,"s":[-91],"h":1},{"t":26.025,"s":[136],"h":1},{"t":30.029,"s":[36],"h":1},{"t":34.033,"s":[227],"h":1},{"t":38.037,"s":[34],"h":1},{"t":42.043,"s":[52],"h":1},{"t":48.049,"s":[-148],"h":1},{"t":54.055,"s":[-218],"h":1},{"t":60.061,"s":[-91],"h":1},{"t":64.064,"s":[136],"h":1},{"t":68.068,"s":[36],"h":1},{"t":72.072,"s":[227],"h":1},{"t":76.076,"s":[34],"h":1},{"t":80.08,"s":[52],"h":1},{"t":86.086,"s":[-148],"h":1},{"t":92.092,"s":[-218],"h":1},{"t":98.098,"s":[-91],"h":1},{"t":102.102,"s":[136],"h":1},{"t":106.105,"s":[36],"h":1},{"t":110.109,"s":[227],"h":1},{"t":114.113,"s":[34],"h":1},{"t":118.117,"s":[52],"h":1},{"t":124.125,"s":[-148],"h":1},{"t":130.131,"s":[-218],"h":1},{"t":136.137,"s":[-91],"h":1},{"t":140.141,"s":[136],"h":1},{"t":144.145,"s":[36],"h":1},{"t":148.148,"s":[227],"h":1},{"t":152.152,"s":[34],"h":1},{"t":156.156,"s":[52],"h":1},{"t":162.162,"s":[-148],"h":1},{"t":168.168,"s":[-218],"h":1},{"t":174.174,"s":[-91],"h":1},{"t":178.178,"s":[136],"h":1},{"t":182.182,"s":[36],"h":1},{"t":186.186,"s":[227],"h":1},{"t":190.189,"s":[34],"h":1},{"t":194.193,"s":[52],"h":1},{"t":200.201,"s":[-148],"h":1},{"t":206.207,"s":[-218],"h":1},{"t":212.213,"s":[-91],"h":1},{"t":216.217,"s":[136],"h":1},{"t":220.221,"s":[36],"h":1},{"t":224.225,"s":[227],"h":1},{"t":226.227,"s":[34],"h":1},{"t":230.23,"s":[52],"h":1},{"t":236.236,"s":[-148],"h":1},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":242.242,"s":[-218]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":248.248,"s":[-91]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":252.252,"s":[136]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":256.256,"s":[36]},{"t":260.259765625,"s":[227]}],"ix":10},"p":{"a":0,"k":[110.346,103.19,0],"ix":2},"a":{"a":0,"k":[-642.25,-318.5,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-655,-315.5],[-675.5,-311.5]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":4.004,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":8.008,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":12.012,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":16.016,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":20.02,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":24.023,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":28.027,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":34.033,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":38.037,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":42.043,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":46.047,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":50.051,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":54.055,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":58.059,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":62.063,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":66.066,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":74.074,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":78.078,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":86.086,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":94.094,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":100.1,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":104.104,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":108.107,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":112.111,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":116.115,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":124.125,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":128.129,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":132.133,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":136.137,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":140.141,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":144.145,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":148.148,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":152.152,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":156.156,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160.16,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":166.166,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":170.17,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":174.174,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":178.178,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":182.182,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":186.186,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":190.189,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":194.193,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":198.197,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":202.203,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":206.207,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":214.215,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":218.219,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":222.223,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":226.227,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":232.232,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":236.236,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":240.24,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":244.244,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":248.248,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":252.252,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":256.256,"s":[0]},{"t":260.259765625,"s":[100]}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"gf","o":{"a":0,"k":100,"ix":10},"r":1,"bm":0,"g":{"p":2,"k":{"a":0,"k":[0,1,1,1,1,0,0,0],"ix":9}},"s":{"a":0,"k":[0,0],"ix":5},"e":{"a":0,"k":[100,0],"ix":6},"t":2,"h":{"a":0,"k":0,"ix":7},"a":{"a":0,"k":0,"ix":8},"nm":"Gradient Fill 1","mn":"ADBE Vector Graphic - G-Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 7","np":4,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-634,-321.5],[-610,-338]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"gf","o":{"a":0,"k":100,"ix":10},"r":1,"bm":0,"g":{"p":2,"k":{"a":0,"k":[0,1,1,1,1,0,0,0],"ix":9}},"s":{"a":0,"k":[0,0],"ix":5},"e":{"a":0,"k":[100,0],"ix":6},"t":2,"h":{"a":0,"k":0,"ix":7},"a":{"a":0,"k":0,"ix":8},"nm":"Gradient Fill 1","mn":"ADBE Vector Graphic - G-Fill","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":4.004,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":8.008,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":12.012,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":16.016,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":20.02,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":24.023,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":28.027,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":34.033,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":38.037,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":42.043,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":46.047,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":50.051,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":54.055,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":58.059,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":62.063,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":66.066,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":74.074,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":78.078,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":86.086,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":94.094,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":100.1,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":104.104,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":108.107,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":112.111,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":116.115,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":124.125,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":128.129,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":132.133,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":136.137,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":140.141,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":144.145,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":148.148,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":152.152,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":156.156,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160.16,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":166.166,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":170.17,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":174.174,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":178.178,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":182.182,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":186.186,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":190.189,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":194.193,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":198.197,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":202.203,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":206.207,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":214.215,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":218.219,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":222.223,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":226.227,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":232.232,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":236.236,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":240.24,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":244.244,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":248.248,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":252.252,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":256.256,"s":[0]},{"t":260.259765625,"s":[100]}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":4,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 6","np":4,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-641,-309.5],[-633,-282]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"gf","o":{"a":0,"k":100,"ix":10},"r":1,"bm":0,"g":{"p":2,"k":{"a":0,"k":[0,1,1,1,1,0,0,0],"ix":9}},"s":{"a":0,"k":[0,0],"ix":5},"e":{"a":0,"k":[100,0],"ix":6},"t":2,"h":{"a":0,"k":0,"ix":7},"a":{"a":0,"k":0,"ix":8},"nm":"Gradient Fill 1","mn":"ADBE Vector Graphic - G-Fill","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":4.004,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":8.008,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":12.012,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":16.016,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":20.02,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":24.023,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":28.027,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":34.033,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":38.037,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":42.043,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":46.047,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":50.051,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":54.055,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":58.059,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":62.063,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":66.066,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":74.074,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":78.078,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":86.086,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":94.094,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":100.1,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":104.104,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":108.107,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":112.111,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":116.115,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":124.125,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":128.129,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":132.133,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":136.137,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":140.141,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":144.145,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":148.148,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":152.152,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":156.156,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160.16,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":166.166,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":170.17,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":174.174,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":178.178,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":182.182,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":186.186,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":190.189,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":194.193,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":198.197,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":202.203,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":206.207,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":214.215,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":218.219,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":222.223,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":226.227,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":232.232,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":236.236,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":240.24,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":244.244,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":248.248,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":252.252,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":256.256,"s":[0]},{"t":260.259765625,"s":[100]}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":4,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 5","np":4,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-643.5,-325],[-644,-360]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"gf","o":{"a":0,"k":100,"ix":10},"r":1,"bm":0,"g":{"p":2,"k":{"a":0,"k":[0,1,1,1,1,0,0,0],"ix":9}},"s":{"a":0,"k":[0,0],"ix":5},"e":{"a":0,"k":[100,0],"ix":6},"t":2,"h":{"a":0,"k":0,"ix":7},"a":{"a":0,"k":0,"ix":8},"nm":"Gradient Fill 1","mn":"ADBE Vector Graphic - G-Fill","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":4.004,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":8.008,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":12.012,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":16.016,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":20.02,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":24.023,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":28.027,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":34.033,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":38.037,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":42.043,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":46.047,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":50.051,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":54.055,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":58.059,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":62.063,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":66.066,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":74.074,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":78.078,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":86.086,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":94.094,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":100.1,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":104.104,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":108.107,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":112.111,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":116.115,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":124.125,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":128.129,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":132.133,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":136.137,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":140.141,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":144.145,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":148.148,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":152.152,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":156.156,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160.16,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":166.166,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":170.17,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":174.174,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":178.178,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":182.182,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":186.186,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":190.189,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":194.193,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":198.197,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":202.203,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":206.207,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":214.215,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":218.219,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":222.223,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":226.227,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":232.232,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":236.236,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":240.24,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":244.244,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":248.248,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":252.252,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":256.256,"s":[0]},{"t":260.259765625,"s":[100]}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":4,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 4","np":4,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-654,-321.5],[-679,-337]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"gf","o":{"a":0,"k":100,"ix":10},"r":1,"bm":0,"g":{"p":2,"k":{"a":0,"k":[0,1,1,1,1,0,0,0],"ix":9}},"s":{"a":0,"k":[0,0],"ix":5},"e":{"a":0,"k":[100,0],"ix":6},"t":2,"h":{"a":0,"k":0,"ix":7},"a":{"a":0,"k":0,"ix":8},"nm":"Gradient Fill 1","mn":"ADBE Vector Graphic - G-Fill","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":4.004,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":8.008,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":12.012,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":16.016,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":20.02,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":24.023,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":28.027,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":34.033,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":38.037,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":42.043,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":46.047,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":50.051,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":54.055,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":58.059,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":62.063,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":66.066,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":74.074,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":78.078,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":86.086,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":94.094,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":100.1,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":104.104,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":108.107,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":112.111,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":116.115,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":124.125,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":128.129,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":132.133,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":136.137,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":140.141,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":144.145,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":148.148,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":152.152,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":156.156,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160.16,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":166.166,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":170.17,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":174.174,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":178.178,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":182.182,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":186.186,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":190.189,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":194.193,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":198.197,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":202.203,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":206.207,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":214.215,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":218.219,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":222.223,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":226.227,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":232.232,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":236.236,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":240.24,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":244.244,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":248.248,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":252.252,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":256.256,"s":[0]},{"t":260.259765625,"s":[100]}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":4,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 3","np":4,"cix":2,"bm":0,"ix":5,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-647,-315.5],[-694.5,-274]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"gf","o":{"a":0,"k":100,"ix":10},"r":1,"bm":0,"g":{"p":2,"k":{"a":0,"k":[0,1,1,1,1,0,0,0],"ix":9}},"s":{"a":0,"k":[0,0],"ix":5},"e":{"a":0,"k":[100,0],"ix":6},"t":2,"h":{"a":0,"k":0,"ix":7},"a":{"a":0,"k":0,"ix":8},"nm":"Gradient Fill 1","mn":"ADBE Vector Graphic - G-Fill","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":4.004,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":8.008,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":12.012,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":16.016,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":20.02,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":24.023,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":28.027,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":34.033,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":38.037,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":42.043,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":46.047,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":50.051,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":54.055,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":58.059,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":62.063,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":66.066,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":74.074,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":78.078,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":86.086,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":94.094,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":100.1,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":104.104,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":108.107,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":112.111,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":116.115,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":124.125,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":128.129,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":132.133,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":136.137,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":140.141,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":144.145,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":148.148,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":152.152,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":156.156,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160.16,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":166.166,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":170.17,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":174.174,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":178.178,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":182.182,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":186.186,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":190.189,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":194.193,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":198.197,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":202.203,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":206.207,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":214.215,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":218.219,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":222.223,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":226.227,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":232.232,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":236.236,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":240.24,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":244.244,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":248.248,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":252.252,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":256.256,"s":[0]},{"t":260.259765625,"s":[100]}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":4,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 2","np":4,"cix":2,"bm":0,"ix":6,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-640.5,-318],[-568.5,-285]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"gf","o":{"a":0,"k":100,"ix":10},"r":1,"bm":0,"g":{"p":2,"k":{"a":0,"k":[0,1,1,1,1,0,0,0],"ix":9}},"s":{"a":0,"k":[0,0],"ix":5},"e":{"a":0,"k":[100,0],"ix":6},"t":2,"h":{"a":0,"k":0,"ix":7},"a":{"a":0,"k":0,"ix":8},"nm":"Gradient Fill 1","mn":"ADBE Vector Graphic - G-Fill","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":4.004,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":8.008,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":12.012,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":16.016,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":20.02,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":24.023,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":28.027,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":34.033,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":38.037,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":42.043,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":46.047,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":50.051,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":54.055,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":58.059,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":62.063,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":66.066,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":74.074,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":78.078,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":86.086,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":94.094,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":100.1,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":104.104,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":108.107,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":112.111,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":116.115,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":124.125,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":128.129,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":132.133,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":136.137,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":140.141,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":144.145,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":148.148,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":152.152,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":156.156,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160.16,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":166.166,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":170.17,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":174.174,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":178.178,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":182.182,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":186.186,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":190.189,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":194.193,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":198.197,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":202.203,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":206.207,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":214.215,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":218.219,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":222.223,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":226.227,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":232.232,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":236.236,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":240.24,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":244.244,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":248.248,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":252.252,"s":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":256.256,"s":[0]},{"t":260.259765625,"s":[100]}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":4,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":4,"cix":2,"bm":0,"ix":7,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"d":1,"ty":"el","s":{"a":0,"k":[107,103],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"nm":"Ellipse Path 1","mn":"ADBE Vector Shape - Ellipse","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-644.5,-318.5],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[11.004,11.252],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Ellipse 1","np":2,"cix":2,"bm":0,"ix":8,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Shape Layer 2","parent":12,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":84,"ix":10},"p":{"a":0,"k":[-103.967,335.653,0],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[66.667,66.667,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":1,"k":[{"t":0,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":5.047,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":10.096,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":15.141,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":20.188,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":25.234,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":30.283,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":35.33,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":40.375,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":45.424,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":50.471,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":55.518,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":60.061,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":64.064,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":69.111,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":74.158,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":79.205,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":84.252,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":89.299,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":94.348,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":99.395,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":104.439,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":109.486,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":114.535,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":119.582,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":124.125,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":128.129,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":133.176,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":138.223,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":143.268,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":148.316,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":153.363,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":158.41,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":163.459,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":168.504,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":173.551,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":178.598,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":183.646,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":188.188,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":192.191,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":197.24,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":202.287,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":207.332,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":212.379,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":217.428,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":222.475,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":227.523,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":232.568,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":237.615,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":242.662,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1},{"t":247.711,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-309,-302.75],[-319.75,-312.25],[-308.25,-317.75],[-320.25,-327.75],[-308,-334],[-318.5,-343.5],[-314,-354.75]],"c":false}],"h":1},{"t":252.251953125,"s":[{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-319.25,-291.5],[-324.25,-305.25],[-311.5,-312.25],[-320,-319.5],[-309,-326.5],[-317.25,-335.5],[-309.5,-344],[-314,-354.75]],"c":false}],"h":1}],"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[0.4,0,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":3,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Layer 9 Outlines","parent":6,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"t":40.041015625,"s":[0]}],"ix":10},"p":{"a":0,"k":[6.029,70.119,0],"ix":2},"a":{"a":0,"k":[40.768,6.322,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-2.861,1.56],[0,0],[-1.56,-2.861],[2.862,-1.559],[0,0],[1.558,2.861]],"o":[[0,0],[2.862,-1.56],[1.559,2.862],[0,0],[-2.862,1.56],[-1.56,-2.862]],"v":[[-19.923,4.105],[14.253,-14.512],[22.292,-12.144],[19.923,-4.105],[-14.253,14.512],[-22.291,12.144]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.039000002543,0.039000002543,0.039000002543,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[24.101,16.322],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Layer 8 Outlines","parent":5,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"t":40.041015625,"s":[0]}],"ix":10},"p":{"a":0,"k":[5.991,28.83,0],"ix":2},"a":{"a":0,"k":[17.204,6.264,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.896,3.134],[0,0],[-3.133,-0.896],[0,0],[0.896,-3.134],[0,0],[3.134,0.896],[0,0]],"o":[[0,0],[0.896,-3.134],[0,0],[3.134,0.895],[0,0],[-0.895,3.133],[0,0],[-3.133,-0.896]],"v":[[-11.391,17.702],[-0.316,-21.049],[7.01,-25.118],[7.322,-25.029],[11.391,-17.703],[0.315,21.049],[-7.011,25.118],[-7.322,25.029]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.039000002543,0.039000002543,0.039000002543,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[12.537,26.264],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":4,"nm":"Layer 7 Outlines","parent":8,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[-5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":34.033,"s":[-5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":40.041,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":76.076,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[-7]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":188.188,"s":[-7]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":194.193,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216.217,"s":[-5]},{"t":230.23046875,"s":[-5]}],"ix":10},"p":{"a":0,"k":[10.355,28.15,0],"ix":2},"a":{"a":0,"k":[68.787,7.429,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-3.072,1.087],[0,0],[-1.087,-3.072],[0,0],[3.072,-1.086],[0,0],[1.087,3.072],[0,0]],"o":[[0,0],[3.072,-1.088],[0,0],[1.087,3.072],[0,0],[-3.074,1.086],[0,0],[-1.088,-3.072]],"v":[[-33.173,5.281],[29.113,-16.757],[36.675,-13.148],[36.784,-12.844],[33.175,-5.281],[-29.111,16.76],[-36.675,13.15],[-36.782,12.844]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.039000002543,0.039000002543,0.039000002543,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[38.12,18.096],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"Layer 6 Outlines","parent":8,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[7]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":34.033,"s":[7]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":40.041,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":76.076,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[4]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":188.188,"s":[4]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":194.193,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216.217,"s":[4]},{"t":230.23046875,"s":[7]}],"ix":10},"p":{"a":0,"k":[31.48,42.795,0],"ix":2},"a":{"a":0,"k":[20.776,7.019,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.712,3.181],[0,0],[-3.18,-0.712],[0,0],[0.711,-3.181],[0,0],[3.18,0.711],[0,0]],"o":[[0,0],[0.711,-3.18],[0,0],[3.18,0.71],[0,0],[-0.711,3.181],[0,0],[-3.18,-0.712]],"v":[[-13.147,30.912],[1.266,-33.567],[8.343,-38.057],[8.659,-37.986],[13.148,-30.91],[-1.266,33.568],[-8.341,38.058],[-8.657,37.988]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.039000002543,0.039000002543,0.039000002543,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[14.109,39.019],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":7,"ty":4,"nm":"Layer 1 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"t":40.041015625,"s":[0]}],"ix":10},"p":{"a":0,"k":[960,940.297,0],"ix":2},"a":{"a":0,"k":[402.208,32.508,0],"ix":1},"s":{"a":0,"k":[150,150,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[8.87,0],[0,0],[0,8.87],[0,0],[-8.871,0],[0,0],[0,-8.87],[0,0]],"o":[[0,0],[-8.871,0],[0,0],[0,-8.87],[0,0],[8.87,0],[0,0],[0,8.87]],"v":[[299.593,16.13],[-299.593,16.13],[-315.722,0.001],[-315.722,-0.001],[-299.593,-16.13],[299.593,-16.13],[315.722,-0.001],[315.722,0.001]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.039215686275,0.039215686275,0.039215686275,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[402.209,16.38],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[8.871,0],[0,0],[0,8.871],[-8.871,0],[0,0],[0,-8.871]],"o":[[0,0],[-8.871,0],[0,-8.871],[0,0],[8.871,0],[0,8.871]],"v":[[385.83,16.129],[-385.829,16.129],[-401.958,0],[-385.829,-16.129],[385.83,-16.129],[401.958,0]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.039000002543,0.039000002543,0.039000002543,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[402.208,48.638],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 2","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":8,"ty":4,"nm":"Layer 5 Outlines","parent":9,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[15]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":40.041,"s":[15]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":60.061,"s":[-111]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[14]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":76.076,"s":[18]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[18]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[-46]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":180.18,"s":[-46]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":188.188,"s":[18]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":200.201,"s":[18]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":204.205,"s":[-87.5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[-80.846]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216.217,"s":[-80.846]},{"t":230.23046875,"s":[15]}],"ix":10},"p":{"a":0,"k":[25.54,148.593,0],"ix":2},"a":{"a":0,"k":[27.321,27.321,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-9.937,8.109],[0,0],[-8.109,-9.937],[0,0],[9.937,-8.109],[0,0],[8.11,9.935],[0,0]],"o":[[0,0],[9.937,-8.109],[0,0],[8.109,9.935],[0,0],[-9.937,8.11],[0,0],[-8.11,-9.937]],"v":[[-15.639,-18.157],[-14.654,-18.962],[18.157,-15.639],[18.962,-14.653],[15.639,18.156],[14.654,18.961],[-18.157,15.64],[-18.961,14.654]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.039000002543,0.039000002543,0.039000002543,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[27.321,27.321],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":9,"ty":4,"nm":"Layer 4 Outlines","parent":10,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[25]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":40.041,"s":[25]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":60.061,"s":[29]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[-55]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":76.076,"s":[-30]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[-30]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":86.086,"s":[-13.5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[27]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":180.18,"s":[27]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":184.184,"s":[-13.5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":188.188,"s":[-30]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":200.201,"s":[-30]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[51.5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216.217,"s":[51.5]},{"t":230.23046875,"s":[25]}],"ix":10},"p":{"a":0,"k":[24.817,27.483,0],"ix":2},"a":{"a":0,"k":[94.053,26.395,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-6.12,10.602],[0,0],[-10.602,-6.12],[0,0],[6.12,-10.602],[0,0],[10.602,6.12],[0,0]],"o":[[0,0],[6.122,-10.602],[0,0],[10.601,6.121],[0,0],[-6.121,10.601],[0,0],[-10.601,-6.12]],"v":[[-54.349,49.62],[15.797,-71.877],[46.203,-80.025],[46.203,-80.024],[54.35,-49.619],[-15.796,71.878],[-46.202,80.025],[-46.202,80.024]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.439215686275,0.439215686275,0.439215686275,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[60.719,86.395],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":10,"ty":4,"nm":"Layer 3 Outlines","parent":11,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[43]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":40.041,"s":[43]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[42]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":76.076,"s":[15]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":82.082,"s":[15]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":86.086,"s":[29]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[20]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":180.18,"s":[20]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":184.184,"s":[29]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":188.188,"s":[15]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":200.201,"s":[15]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[51]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216.217,"s":[51]},{"t":230.23046875,"s":[43]}],"ix":10},"p":{"a":0,"k":[67.559,26.279,0],"ix":2},"a":{"a":0,"k":[155.95,68.058,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[11.651,3.758],[0,0],[-3.758,11.65],[-11.651,-3.758],[0,0],[3.757,-11.65]],"o":[[0,0],[-11.65,-3.758],[3.758,-11.651],[0,0],[11.65,3.758],[-3.758,11.651]],"v":[[59.927,42.717],[-73.593,-0.35],[-87.943,-28.366],[-59.927,-42.717],[73.592,0.35],[87.943,28.366]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.439215686275,0.439215686275,0.439215686275,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[91.95,46.725],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":11,"ty":4,"nm":"Layer 2 Outlines","parent":7,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[-31]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":40.041,"s":[-31]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":70.07,"s":[42]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":200.201,"s":[42]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":210.211,"s":[-38.5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216.217,"s":[-38.5]},{"t":230.23046875,"s":[-31]}],"ix":10},"p":{"a":0,"k":[679.269,9.904,0],"ix":2},"a":{"a":0,"k":[23.91,239.124,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[2.616,-11.959],[0,0],[11.959,2.616],[-2.616,11.96],[0,0],[-11.96,-2.616]],"o":[[0,0],[-2.616,11.959],[-11.959,-2.617],[0,0],[2.616,-11.959],[11.959,2.616]],"v":[[45.045,-101.757],[-1.556,111.27],[-28.058,128.257],[-45.045,101.757],[1.556,-111.27],[28.058,-128.257]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.439215686275,0.439215686275,0.439215686275,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[47.91,131.123],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":12,"ty":4,"nm":"Layer 13 Outlines","parent":13,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":40.041,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":96.096,"s":[88.6]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":110,"s":[124.6]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":127,"s":[77.745]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":137,"s":[161]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160,"s":[161]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":167,"s":[119.6]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":200,"s":[118]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216,"s":[118]},{"t":238.23828125,"s":[0]}],"ix":10},"p":{"a":0,"k":[136.075,119.917,0],"ix":2},"a":{"a":0,"k":[23.277,24.057,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[1.15,-1.261],[1.28,1.159],[0,0],[2.81,2.55],[0,0],[0,0],[0.56,-0.421],[-0.03,-0.71],[1.75,-1.93],[0.35,-0.28],[0,0],[-0.34,-0.091],[0,0],[0.44,-1.66],[1.65,0.45],[0,0],[0.18,-0.081],[0.67,1.441],[0,0],[1.96,1.779],[0.11,2.41],[-1.07,1.68],[0.11,2.259],[-0.59,1.56],[0.27,0],[4.16,3.529],[1.3,3.37],[-5.43,6.399],[-6.32,0],[-1.49,-0.311],[-2.93,-2.479],[0,-6.319],[0.01,-0.11],[-3.06,-2.78],[-0.16,-3.071],[2.21,-2.441],[0,0],[0,0],[-0.11,-2.271],[0.46,-1.2],[0,0]],"o":[[-1.15,1.27],[0,0],[-3.2,1.649],[0,0],[0,0],[-0.48,0.531],[0.21,0.68],[0.12,2.42],[-0.32,0.351],[0,0],[0.32,-0.04],[0,0],[1.65,0.439],[-0.45,1.651],[0,0],[-0.15,0.101],[-1.45,0.669],[0,0],[-2.46,0.16],[-1.93,-1.74],[-0.1,-1.911],[-1.37,-1.9],[-0.08,-1.64],[-0.26,0.02],[-5.09,0],[-2.94,-2.49],[-2.81,-7.359],[4.39,-5.17],[1.51,0],[3.54,0.719],[5.17,4.391],[0,0.111],[3.75,-0.939],[2.44,2.21],[0.15,3.059],[0,0],[0,0],[1.82,1.64],[0.06,1.26],[0,0],[1.27,1.16]],"v":[[55.21,51.3],[50.81,51.51],[13.55,17.72],[3.5,16.409],[-11.34,2.949],[-11.95,3.619],[-13.5,5.05],[-13.15,7.15],[-15.58,13.959],[-16.58,14.909],[-3.9,42.43],[-2.91,42.51],[12.61,46.69],[14.81,50.499],[11,52.69],[-3.54,48.789],[-4.02,49.07],[-7.85,47.659],[-21.97,17.02],[-28.92,14.6],[-32,8.07],[-30.55,2.55],[-32.78,-3.85],[-32.02,-8.7],[-32.82,-8.68],[-47.19,-13.94],[-53.55,-22.911],[-49.76,-45.31],[-32.77,-53.14],[-28.26,-52.68],[-18.39,-47.881],[-10.56,-30.881],[-10.57,-30.551],[0.38,-27.82],[4.29,-19.52],[1.21,-10.89],[0.6,-10.221],[15.44,3.239],[18.34,9.39],[17.73,13.119],[54.99,46.9]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.039000002543,0.039000002543,0.039000002543,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[56.61,53.39],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":13,"ty":4,"nm":"Layer 12 Outlines","parent":15,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[27]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":40.041,"s":[27]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[27]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[-57]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160,"s":[-57]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":167,"s":[-57]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":200,"s":[6]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216,"s":[6]},{"t":238.23828125,"s":[27]}],"ix":10},"p":{"a":0,"k":[142.615,27.417,0],"ix":2},"a":{"a":0,"k":[25.965,23.87,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[5.43,-6.4],[6.32,0],[1.49,0.311],[2.93,2.491],[0,0],[-7.92,9.331],[-6.33,0],[-4.17,-3.531],[0,0],[-1.3,-3.38]],"o":[[-4.39,5.17],[-1.51,0],[-3.54,-0.72],[0,0],[-9.33,-7.92],[4.39,-5.169],[5.09,0],[0,0],[2.94,2.489],[2.81,7.36]],"v":[[71.115,59.79],[54.115,67.62],[49.615,67.159],[39.745,62.359],[-67.225,-28.42],[-69.795,-59.791],[-52.795,-67.62],[-38.415,-62.36],[68.545,28.41],[74.905,37.39]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.439215686275,0.439215686275,0.439215686275,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[77.965,67.87],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":14,"ty":4,"nm":"Layer 10 Outlines","parent":7,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[-42]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":40.041,"s":[-42]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[-42]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[43]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160,"s":[43]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":167,"s":[43]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":200,"s":[-38]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216,"s":[-38]},{"t":238.23828125,"s":[-42]}],"ix":10},"p":{"a":0,"k":[126.127,6.818,0],"ix":2},"a":{"a":0,"k":[90.561,232.986,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-3.748,-11.654],[0,0],[11.654,-3.747],[3.747,11.654],[0,0],[-11.654,3.747]],"o":[[0,0],[3.747,11.654],[-11.655,3.747],[0,0],[-3.747,-11.654],[11.654,-3.747]],"v":[[-12.184,-110.612],[54.564,96.986],[40.186,124.989],[12.184,110.612],[-54.564,-96.987],[-40.187,-124.989]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.439215686275,0.439215686275,0.439215686275,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[58.561,128.986],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":15,"ty":4,"nm":"Layer 11 Outlines","parent":14,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[-19]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":40.041,"s":[-19]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":90.09,"s":[-19]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[-58]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160,"s":[-58]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":167,"s":[-58]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":200,"s":[-39]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216,"s":[-39]},{"t":238.23828125,"s":[-19]}],"ix":10},"p":{"a":0,"k":[26.92,26.244,0],"ix":2},"a":{"a":0,"k":[25.204,106.275,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[9.958,-7.12],[0,0],[7.12,9.958],[0,0],[-9.958,7.12],[0,0],[-7.12,-9.958]],"o":[[0,0],[-9.958,7.12],[0,0],[-7.12,-9.958],[0,0],[9.958,-7.12],[7.12,9.959]],"v":[[70.007,-22.694],[-44.115,58.905],[-75.166,53.745],[-75.167,53.745],[-70.007,22.694],[44.115,-58.905],[75.167,-53.745]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.439215686275,0.439215686275,0.439215686275,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[82.537,66.276],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":16,"ty":4,"nm":"Layer 14 Outlines 2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"t":40.041015625,"s":[0]}],"ix":10},"p":{"a":0,"k":[1543.997,151.219,0],"ix":2},"a":{"a":0,"k":[390.205,81.299,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[9.959,-7.12],[0,0],[7.12,9.959],[-9.959,7.12],[0,0],[-7.12,-9.958]],"o":[[0,0],[-9.958,7.12],[-7.12,-9.958],[0,0],[9.958,-7.121],[7.12,9.959]],"v":[[70.007,-22.694],[-44.115,58.905],[-75.167,53.744],[-70.006,22.693],[44.115,-58.905],[75.167,-53.745]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":82.082,"s":[64.021,579.046],"to":[0.5,-36],"ti":[-0.5,36]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":90.09,"s":[67.021,363.046],"to":[0,0],"ti":[0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":180.18,"s":[67.021,363.046],"to":[-0.5,36],"ti":[0.5,-36]},{"t":188.1875,"s":[64.021,579.046]}],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":36.237,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[9.958,-7.12],[0,0],[7.121,9.958],[-9.958,7.12],[0,0],[-7.12,-9.958]],"o":[[0,0],[-9.959,7.12],[-7.12,-9.958],[0,0],[9.958,-7.12],[7.12,9.958]],"v":[[70.007,-22.694],[-44.114,58.905],[-75.167,53.744],[-70.007,22.693],[44.115,-58.906],[75.167,-53.745]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[66.687,622.379],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":35.832,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 6","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":17,"ty":4,"nm":"Layer 14 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"t":40.041015625,"s":[0]}],"ix":10},"p":{"a":0,"k":[1543.997,151.219,0],"ix":2},"a":{"a":0,"k":[390.205,81.299,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-185.979,613.046],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":1,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[9.958,-7.12],[0,0],[7.12,9.959],[-9.958,7.12],[0,0],[-7.12,-9.958]],"o":[[0,0],[-9.958,7.12],[-7.12,-9.958],[0,0],[9.958,-7.121],[7.12,9.959]],"v":[[70.007,-22.694],[-44.116,58.905],[-75.167,53.744],[-70.008,22.693],[44.115,-58.905],[75.166,-53.745]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-447.464,365.046],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":35.515,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 3","np":2,"cix":2,"bm":0,"ix":2,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[9.958,-7.121],[0,0],[7.12,9.958],[0,0],[-9.958,7.121],[0,0],[-7.12,-9.958]],"o":[[0,0],[-9.958,7.12],[0,0],[-7.12,-9.958],[0,0],[9.958,-7.121],[7.12,9.958]],"v":[[70.007,-22.693],[-44.115,58.905],[-75.166,53.745],[-75.167,53.745],[-70.007,22.693],[44.115,-58.905],[75.167,-53.744]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-375.979,505.276],"ix":2},"a":{"a":0,"k":[55.877,-38.765],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":120.121,"s":[35.594]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":126.127,"s":[25.594]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":150.15,"s":[25.594]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":160.16,"s":[-78.406]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":168.168,"s":[-35.406]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":174.174,"s":[-64.406]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":178.178,"s":[-54.406]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":216.217,"s":[-54.406]},{"t":230.23046875,"s":[35.594]}],"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 4","np":2,"cix":2,"bm":0,"ix":3,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[10.414,14.914],[0,0],[-10.003,7.057],[-10.414,-14.915],[0,0],[10.003,-7.057]],"o":[[0,0],[-10.415,-14.915],[10.003,-7.057],[0,0],[10.414,14.915],[-10.003,7.057]],"v":[[212.467,-175.5],[93.116,-346.426],[92.368,-386.376],[129.49,-372.09],[248.841,-201.165],[249.59,-161.215]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-280.126,732.323],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":-54.778,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 5","np":2,"cix":2,"bm":0,"ix":4,"mn":"ADBE Vector Group","hd":false},{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[9.958,-7.12],[0,0],[7.121,9.958],[-9.958,7.12],[0,0],[-7.12,-9.958]],"o":[[0,0],[-9.959,7.12],[-7.12,-9.958],[0,0],[9.958,-7.12],[7.12,9.958]],"v":[[70.007,-22.694],[-44.114,58.905],[-75.167,53.744],[-70.007,22.693],[44.115,-58.906],[75.167,-53.745]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[66.687,664.379],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":35.727,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 6","np":2,"cix":2,"bm":0,"ix":5,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0},{"ddd":0,"ind":18,"ty":4,"nm":"Shape Layer 1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[926,540,0],"ix":2},"a":{"a":0,"k":[0,0,0],"ix":1},"s":{"a":0,"k":[84.211,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"rc","d":1,"s":{"a":0,"k":[980,452],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"r":{"a":0,"k":20,"ix":4},"nm":"Rectangle Path 1","mn":"ADBE Vector Shape - Rect","hd":false},{"ty":"st","c":{"a":0,"k":[0.039215686275,0.039215686275,0.039215686275,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":12,"ix":5},"lc":1,"lj":1,"ml":4,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[34,30],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Rectangle 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":240.24024024024,"st":0,"bm":0}],"markers":[]}'
     );
-    function D() {
+    function P() {
       return u.p7.viewSkillBars
-        ? (0, c.jsx)(f.zW, {
+        ? (0, c.jsx)(d.zW, {
             bottom: !0,
             duration: 1e3,
             distance: "20px",
@@ -34858,7 +34870,7 @@
           })
         : null;
     }
-    var P = function (t, e) {
+    var D = function (t, e) {
         return t < e ? -1 : t > e ? 1 : 0;
       },
       C = function (t) {
@@ -34924,7 +34936,7 @@
         }
         function r() {
           this.vboxes = new e(function (t, e) {
-            return P(
+            return D(
               t.vbox.count() * t.vbox.volume(),
               e.vbox.count() * e.vbox.volume()
             );
@@ -34942,7 +34954,7 @@
               c,
               h = 0,
               u = [],
-              d = [];
+              f = [];
             if (n == r)
               for (o = i.r1; o <= i.r2; o++) {
                 for (c = 0, s = i.g1; s <= i.g2; s++)
@@ -34963,7 +34975,7 @@
               }
             return (
               u.forEach(function (t, e) {
-                d[e] = h - t;
+                f[e] = h - t;
               }),
               (function (t) {
                 var e,
@@ -34973,7 +34985,7 @@
                   s,
                   l = t + "1",
                   c = t + "2",
-                  f = 0;
+                  d = 0;
                 for (o = i[l]; o <= i[c]; o++)
                   if (u[o] > h / 2) {
                     for (
@@ -34987,7 +34999,7 @@
 
                     )
                       s++;
-                    for (f = d[s]; !f && u[s - 1]; ) f = d[--s];
+                    for (d = f[s]; !d && u[s - 1]; ) d = f[--s];
                     return (a[c] = s), (n[l] = a[c] + 1), [a, n];
                   }
               })(n == r ? "r" : n == a ? "g" : "b")
@@ -35103,7 +35115,7 @@
             forcebw: function () {
               var t = this.vboxes;
               t.sort(function (t, e) {
-                return P(C(t.color), C(e.color));
+                return D(C(t.color), C(e.color));
               });
               var e = t[0].color;
               e[0] < 5 && e[1] < 5 && e[2] < 5 && (t[0].color = [0, 0, 0]);
@@ -35129,7 +35141,7 @@
                 l.has(u) || (l.add(u), s.push(h));
               }
               if (s.length <= o) return new _(s);
-              var d = (function (e) {
+              var f = (function (e) {
                 var i,
                   r = new Array(32768);
                 return (
@@ -35140,8 +35152,8 @@
                   r
                 );
               })(n);
-              d.forEach(function () {});
-              var f = (function (t, e) {
+              f.forEach(function () {});
+              var d = (function (t, e) {
                   var r,
                     a,
                     n,
@@ -35159,16 +35171,16 @@
                     }),
                     new i(o, s, l, c, h, u, e)
                   );
-                })(n, d),
+                })(n, f),
                 p = new e(function (t, e) {
-                  return P(t.count(), e.count());
+                  return D(t.count(), e.count());
                 });
               function m(t, e) {
                 for (var i, r = t.size(), n = 0; n < 1e3; ) {
                   if (r >= e) return;
                   if (n++ > 1e3) return;
                   if ((i = t.pop()).count()) {
-                    var o = a(d, i),
+                    var o = a(f, i),
                       s = o[0],
                       l = o[1];
                     if (!s) return;
@@ -35176,10 +35188,10 @@
                   } else t.push(i), n++;
                 }
               }
-              p.push(f), m(p, 0.75 * o);
+              p.push(d), m(p, 0.75 * o);
               for (
                 var y = new e(function (t, e) {
-                  return P(t.count() * t.volume(), e.count() * e.volume());
+                  return D(t.count() * t.volume(), e.count() * e.volume());
                 });
                 p.size();
 
@@ -35290,7 +35302,7 @@
       return u.Ny.display
         ? (0, c.jsx)("div", {
             id: "experience",
-            children: (0, c.jsx)(f.zW, {
+            children: (0, c.jsx)(d.zW, {
               bottom: !0,
               duration: 1e3,
               distance: "20px",
@@ -35301,7 +35313,7 @@
                   children: [
                     (0, c.jsx)("h1", {
                       className: "experience-heading",
-                      children: "Experiences \ud83d\udcbc"
+                      children: u.Ny.title
                     }),
                     (0, c.jsx)("p", {
                       className: e
@@ -35389,7 +35401,7 @@
                       )
                     )
                   }),
-                  (0, c.jsx)(v, {
+                  (0, c.jsx)(k, {
                     text: "More Projects",
                     className: "project-button",
                     href: u.ze.github,
@@ -35403,7 +35415,7 @@
     function I() {
       const {isDark: e} = (0, t.useContext)(l);
       return u.fU.display
-        ? (0, c.jsx)(f.zW, {
+        ? (0, c.jsx)(d.zW, {
             bottom: !0,
             duration: 1e3,
             distance: "20px",
@@ -35550,7 +35562,7 @@
     function O() {
       const {isDark: e} = (0, t.useContext)(l);
       return u.dF.display
-        ? (0, c.jsx)(f.zW, {
+        ? (0, c.jsx)(d.zW, {
             bottom: !0,
             duration: 1e3,
             distance: "20px",
@@ -35669,7 +35681,7 @@
           }
         }, []),
         u.y8.display
-          ? (0, c.jsx)(f.zW, {
+          ? (0, c.jsx)(d.zW, {
               bottom: !0,
               duration: 1e3,
               distance: "20px",
@@ -35750,7 +35762,7 @@
     }
     function R() {
       const {isDark: e} = (0, t.useContext)(l);
-      return (0, c.jsx)(f.zW, {
+      return (0, c.jsx)(d.zW, {
         bottom: !0,
         duration: 1e3,
         distance: "5px",
@@ -35802,10 +35814,10 @@
         })
       });
     }
-    function Z() {
+    function Y() {
       const {isDark: e} = (0, t.useContext)(l);
       return u.u3.display
-        ? (0, c.jsx)(f.zW, {
+        ? (0, c.jsx)(d.zW, {
             bottom: !0,
             duration: 1e3,
             distance: "20px",
@@ -35847,13 +35859,13 @@
           })
         : null;
     }
-    function Y() {
+    function Z() {
       const {isDark: e} = (0, t.useContext)(l);
       return (
         u.UM ||
           console.error("podcastSection object for Podcast section is missing"),
         u.UM.display
-          ? (0, c.jsx)(f.zW, {
+          ? (0, c.jsx)(d.zW, {
               bottom: !0,
               duration: 1e3,
               distance: "20px",
@@ -35922,7 +35934,7 @@
           console.error(`Image of ${i.name} is missing in education section`),
         (0, c.jsxs)("div", {
           children: [
-            (0, c.jsx)(f.zW, {
+            (0, c.jsx)(d.zW, {
               left: !0,
               duration: 1e3,
               children: (0, c.jsxs)("div", {
@@ -35980,7 +35992,7 @@
                 ]
               })
             }),
-            (0, c.jsx)(f.q7, {
+            (0, c.jsx)(d.q7, {
               left: !0,
               duration: 2e3,
               children: (0, c.jsx)("div", {className: "education-card-border"})
@@ -35997,7 +36009,7 @@
             children: [
               (0, c.jsx)("h1", {
                 className: "education-heading",
-                children: "Education \ud83c\udf93"
+                children: u.Vi.title
               }),
               (0, c.jsx)("div", {
                 className: "education-card-container",
@@ -36997,8 +37009,8 @@
         }
       );
     const ut = () => (0, c.jsx)(x, {});
-    var dt = window.screen.width;
-    function ft() {
+    var ft = window.screen.width;
+    function dt() {
       const {isDark: e} = (0, t.useContext)(l);
       return u._7.display
         ? (u._7.userName ||
@@ -37016,7 +37028,7 @@
                       {
                         sourceType: "profile",
                         screenName: u._7.userName,
-                        options: {height: 400, width: {widthScreen: dt}},
+                        options: {height: 400, width: {widthScreen: ft}},
                         placeholder: ut(),
                         autoHeight: !1,
                         borderColor: "#fff",
@@ -37041,11 +37053,2928 @@
     const pt = JSON.parse(
       '{"v":"5.7.1","fr":30,"ip":0,"op":30,"w":1920,"h":1080,"nm":"Lottie Tutorial New","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":1,"ty":4,"nm":"evelope","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.667,"y":1},"o":{"x":0.333,"y":0},"t":0,"s":[959.906,561.464,0],"to":[0,-7.333,0],"ti":[0,0,0]},{"i":{"x":0.667,"y":1},"o":{"x":0.167,"y":0},"t":14,"s":[959.906,517.464,0],"to":[0,0,0],"ti":[0,-7.333,0]},{"t":28.0000011404634,"s":[959.906,561.464,0]}],"ix":2},"a":{"a":0,"k":[210.768,158.138,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[7.26,0],[0,0],[0,7.261],[0,0],[0,0],[-3.071,0],[-2.48,2.146],[0,0],[0,0]],"o":[[0,0],[-7.26,0],[0,0],[0,0],[2.48,2.145],[3.071,0],[0,0],[0,0],[-0.001,7.26]],"v":[[171.045,131.573],[-171.044,131.573],[-184.202,118.415],[-184.202,-102.753],[-8.622,49.417],[0,52.629],[8.622,49.417],[184.203,-102.753],[184.203,118.416]],"c":true},"ix":2},"nm":"Trac\xe9 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[-1.555,-0.647],[0,0],[0,0],[-1.788,0]],"o":[[1.788,0],[0,0],[0,0],[1.554,-0.646],[0,0]],"v":[[171.045,-131.573],[176.088,-130.555],[0,22.061],[-176.088,-130.555],[-171.045,-131.573]],"c":true},"ix":2},"nm":"Trac\xe9 2","mn":"ADBE Vector Shape - Group","hd":false},{"ind":2,"ty":"sh","ix":3,"ks":{"a":0,"k":{"i":[[21.767,0],[0,0],[0,-21.766],[0,0],[-21.767,0],[0,0],[0,21.766],[0,0]],"o":[[0,0],[-21.767,0],[0,0],[0,21.766],[0,0],[21.767,0],[0,0],[0,-21.766]],"v":[[171.045,-157.888],[-171.044,-157.888],[-210.517,-118.416],[-210.517,118.416],[-171.044,157.888],[171.045,157.888],[210.517,118.416],[210.517,-118.416]],"c":true},"ix":2},"nm":"Trac\xe9 3","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Fusionner les trac\xe9s 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[0.4,0,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fond 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[210.767,158.138],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transformer "}],"nm":"Groupe 1","np":5,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":30.0000012219251,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"evelope-shadow","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.667,"y":1},"o":{"x":0.333,"y":0},"t":0,"s":[1043.578,612.154,0],"to":[0,-7.333,0],"ti":[0,0,0]},{"i":{"x":0.667,"y":1},"o":{"x":0.167,"y":0},"t":14,"s":[1043.578,568.154,0],"to":[0,0,0],"ti":[0,-7.333,0]},{"t":28.0000011404634,"s":[1043.578,612.154,0]}],"ix":2},"a":{"a":0,"k":[115.3,100.942,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-6.181,185.983],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[115.05,-100.692],[115.05,77.015],[91.371,100.692],[-115.05,100.692]],"c":true},"ix":2},"nm":"Trac\xe9 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.8862745098039215,0.8235294117647058,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fond 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[115.3,100.942],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transformer "}],"nm":"Groupe 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":30.0000012219251,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"wave","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":0,"s":[775.703,248.429,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":14,"s":[775.703,254.42900000000003,0],"to":[0,0,0],"ti":[0,0,0]},{"t":28.0000011404634,"s":[775.703,248.429,0]}],"ix":2},"a":{"a":0,"k":[76.35,61.296,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-18.541,-18.541],[0,0]],"o":[[0,0],[18.541,18.541],[0,0]],"v":[[-33.595,0],[1.267,0],[33.595,0]],"c":false},"ix":2},"nm":"Trac\xe9 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[0.8862745098039215,0.8235294117647058,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":17.102,"ix":5},"lc":1,"lj":1,"ml":10,"bm":0,"nm":"Contour 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[76.35,61.296],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transformer "}],"nm":"Groupe 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":30.0000012219251,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"circle1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":0,"s":[666.721,728.644,0],"to":[0,2.167,0],"ti":[0,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":14,"s":[666.721,741.644,0],"to":[0,0,0],"ti":[0,2.167,0]},{"t":28.0000011404634,"s":[666.721,728.644,0]}],"ix":2},"a":{"a":0,"k":[57.806,57.806,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,-8.313],[8.313,0],[0,8.313],[-8.312,0]],"o":[[0,8.313],[-8.312,0],[0,-8.313],[8.313,0]],"v":[[15.051,0],[0,15.051],[-15.051,0],[0,-15.051]],"c":true},"ix":2},"nm":"Trac\xe9 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[0.8862745098039215,0.8235294117647058,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":17.102,"ix":5},"lc":1,"lj":1,"ml":10,"bm":0,"nm":"Contour 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[57.806,57.806],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transformer "}],"nm":"Groupe 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":30.0000012219251,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":4,"nm":"plus","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":0,"s":[1257.728,623.464,0],"to":[0,1.589,0],"ti":[0,-0.535,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":14,"s":[1257.728,633,0],"to":[0,0.535,0],"ti":[0,1.054,0]},{"t":28.0000011404634,"s":[1257.728,626.677,0]}],"ix":2},"a":{"a":0,"k":[33.16,8.725,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[32.91,8.475],[-32.91,8.475],[-32.91,-8.475],[32.91,-8.475]],"c":true},"ix":2},"nm":"Trac\xe9 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.8862745098039215,0.8235294117647058,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fond 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[33.16,8.725],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transformer "}],"nm":"Groupe 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":30.0000012219251,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"plus2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":0,"s":[1257.728,623.264,0],"to":[0,1.623,0],"ti":[0,-0.569,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":14,"s":[1257.728,633,0],"to":[0,0.569,0],"ti":[0,1.054,0]},{"t":28.0000011404634,"s":[1257.728,626.677,0]}],"ix":2},"a":{"a":0,"k":[8.724,33.16,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-8.474,-32.91],[8.474,-32.91],[8.474,32.91],[-8.474,32.91]],"c":true},"ix":2},"nm":"Trac\xe9 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.8862745098039215,0.8235294117647058,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fond 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[8.724,33.16],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transformer "}],"nm":"Groupe 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":30.0000012219251,"st":0,"bm":0},{"ddd":0,"ind":7,"ty":4,"nm":"circle2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":0,"s":[1249.252,355.177,0],"to":[0,-1,0],"ti":[0,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"t":14,"s":[1249.252,349.177,0],"to":[0,0,0],"ti":[0,-1,0]},{"t":28.0000011404634,"s":[1249.252,355.177,0]}],"ix":2},"a":{"a":0,"k":[67.097,67.097,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,-13.444],[13.444,0],[0,13.444],[-13.444,0]],"o":[[0,13.444],[-13.444,0],[0,-13.444],[13.444,0]],"v":[[24.343,0],[0,24.342],[-24.343,0],[0,-24.342]],"c":true},"ix":2},"nm":"Trac\xe9 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[0.8862745098039215,0.8235294117647058,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":17.102,"ix":5},"lc":1,"lj":1,"ml":10,"bm":0,"nm":"Contour 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[67.097,67.097],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transformer "}],"nm":"Groupe 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":30.0000012219251,"st":0,"bm":0},{"ddd":0,"ind":8,"ty":4,"nm":"shadow","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[959.905,865.667,0],"ix":2},"a":{"a":0,"k":[153.686,22.08,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":0,"s":[100,100,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"t":14,"s":[81,81,100]},{"t":28.0000011404634,"s":[100,100,100]}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,-12.057],[84.742,0],[0,12.057],[-84.74,0]],"o":[[0,12.057],[-84.74,0],[0,-12.057],[84.742,0]],"v":[[153.436,-0.001],[-0.001,21.831],[-153.436,-0.001],[-0.001,-21.831]],"c":true},"ix":2},"nm":"Trac\xe9 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.8862745098039215,0.8235294117647058,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fond 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[153.686,22.081],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transformer "}],"nm":"Groupe 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":30.0000012219251,"st":0,"bm":0}],"markers":[{"tm":0,"cm":"1","dr":0},{"tm":395.00001608868,"cm":"2","dr":0}]}'
     );
-    function mt() {
+    function mt(t, e, i) {
+      return (
+        (e = (function (t) {
+          var e = (function (t, e) {
+            if ("object" != typeof t || !t) return t;
+            var i = t[Symbol.toPrimitive];
+            if (void 0 !== i) {
+              var r = i.call(t, e || "default");
+              if ("object" != typeof r) return r;
+              throw new TypeError(
+                "@@toPrimitive must return a primitive value."
+              );
+            }
+            return ("string" === e ? String : Number)(t);
+          })(t, "string");
+          return "symbol" == typeof e ? e : e + "";
+        })(e)) in t
+          ? Object.defineProperty(t, e, {
+              value: i,
+              enumerable: !0,
+              configurable: !0,
+              writable: !0
+            })
+          : (t[e] = i),
+        t
+      );
+    }
+    function yt(t, e) {
+      var i = Object.keys(t);
+      if (Object.getOwnPropertySymbols) {
+        var r = Object.getOwnPropertySymbols(t);
+        e &&
+          (r = r.filter(function (e) {
+            return Object.getOwnPropertyDescriptor(t, e).enumerable;
+          })),
+          i.push.apply(i, r);
+      }
+      return i;
+    }
+    function xt(t) {
+      for (var e = 1; e < arguments.length; e++) {
+        var i = null != arguments[e] ? arguments[e] : {};
+        e % 2
+          ? yt(Object(i), !0).forEach(function (e) {
+              mt(t, e, i[e]);
+            })
+          : Object.getOwnPropertyDescriptors
+          ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(i))
+          : yt(Object(i)).forEach(function (e) {
+              Object.defineProperty(
+                t,
+                e,
+                Object.getOwnPropertyDescriptor(i, e)
+              );
+            });
+      }
+      return t;
+    }
+    const gt = () => {};
+    let vt = {},
+      kt = {},
+      bt = null,
+      At = {mark: gt, measure: gt};
+    try {
+      "undefined" !== typeof window && (vt = window),
+        "undefined" !== typeof document && (kt = document),
+        "undefined" !== typeof MutationObserver && (bt = MutationObserver),
+        "undefined" !== typeof performance && (At = performance);
+    } catch (M) {}
+    const {userAgent: Et = ""} = vt.navigator || {},
+      wt = vt,
+      St = kt,
+      Pt = bt,
+      Dt = At,
+      Ct =
+        (wt.document,
+        !!St.documentElement &&
+          !!St.head &&
+          "function" === typeof St.addEventListener &&
+          "function" === typeof St.createElement),
+      _t = ~Et.indexOf("MSIE") || ~Et.indexOf("Trident/");
+    var Bt = {
+        classic: {
+          fa: "solid",
+          fas: "solid",
+          "fa-solid": "solid",
+          far: "regular",
+          "fa-regular": "regular",
+          fal: "light",
+          "fa-light": "light",
+          fat: "thin",
+          "fa-thin": "thin",
+          fab: "brands",
+          "fa-brands": "brands"
+        },
+        duotone: {
+          fa: "solid",
+          fad: "solid",
+          "fa-solid": "solid",
+          "fa-duotone": "solid",
+          fadr: "regular",
+          "fa-regular": "regular",
+          fadl: "light",
+          "fa-light": "light",
+          fadt: "thin",
+          "fa-thin": "thin"
+        },
+        sharp: {
+          fa: "solid",
+          fass: "solid",
+          "fa-solid": "solid",
+          fasr: "regular",
+          "fa-regular": "regular",
+          fasl: "light",
+          "fa-light": "light",
+          fast: "thin",
+          "fa-thin": "thin"
+        },
+        "sharp-duotone": {
+          fa: "solid",
+          fasds: "solid",
+          "fa-solid": "solid",
+          fasdr: "regular",
+          "fa-regular": "regular",
+          fasdl: "light",
+          "fa-light": "light",
+          fasdt: "thin",
+          "fa-thin": "thin"
+        }
+      },
+      Mt = ["fa-classic", "fa-duotone", "fa-sharp", "fa-sharp-duotone"],
+      Tt = "classic",
+      Ft = "duotone",
+      Vt = [Tt, Ft, "sharp", "sharp-duotone"],
+      Gt = new Map([
+        [
+          "classic",
+          {
+            defaultShortPrefixId: "fas",
+            defaultStyleId: "solid",
+            styleIds: ["solid", "regular", "light", "thin", "brands"],
+            futureStyleIds: [],
+            defaultFontWeight: 900
+          }
+        ],
+        [
+          "sharp",
+          {
+            defaultShortPrefixId: "fass",
+            defaultStyleId: "solid",
+            styleIds: ["solid", "regular", "light", "thin"],
+            futureStyleIds: [],
+            defaultFontWeight: 900
+          }
+        ],
+        [
+          "duotone",
+          {
+            defaultShortPrefixId: "fad",
+            defaultStyleId: "solid",
+            styleIds: ["solid", "regular", "light", "thin"],
+            futureStyleIds: [],
+            defaultFontWeight: 900
+          }
+        ],
+        [
+          "sharp-duotone",
+          {
+            defaultShortPrefixId: "fasds",
+            defaultStyleId: "solid",
+            styleIds: ["solid", "regular", "light", "thin"],
+            futureStyleIds: [],
+            defaultFontWeight: 900
+          }
+        ]
+      ]),
+      It = ["fak", "fa-kit", "fakd", "fa-kit-duotone"],
+      Lt = {fak: "kit", "fa-kit": "kit"},
+      Ot = {fakd: "kit-duotone", "fa-kit-duotone": "kit-duotone"},
+      Nt = ["fak", "fakd"],
+      jt = {kit: "fak"},
+      Rt = {"kit-duotone": "fakd"},
+      zt = {
+        GROUP: "duotone-group",
+        SWAP_OPACITY: "swap-opacity",
+        PRIMARY: "primary",
+        SECONDARY: "secondary"
+      },
+      Yt = ["fak", "fa-kit", "fakd", "fa-kit-duotone"],
+      Zt = {
+        classic: {
+          fab: "fa-brands",
+          fad: "fa-duotone",
+          fal: "fa-light",
+          far: "fa-regular",
+          fas: "fa-solid",
+          fat: "fa-thin"
+        },
+        duotone: {fadr: "fa-regular", fadl: "fa-light", fadt: "fa-thin"},
+        sharp: {
+          fass: "fa-solid",
+          fasr: "fa-regular",
+          fasl: "fa-light",
+          fast: "fa-thin"
+        },
+        "sharp-duotone": {
+          fasds: "fa-solid",
+          fasdr: "fa-regular",
+          fasdl: "fa-light",
+          fasdt: "fa-thin"
+        }
+      },
+      Ht = [
+        "fa",
+        "fas",
+        "far",
+        "fal",
+        "fat",
+        "fad",
+        "fadr",
+        "fadl",
+        "fadt",
+        "fab",
+        "fass",
+        "fasr",
+        "fasl",
+        "fast",
+        "fasds",
+        "fasdr",
+        "fasdl",
+        "fasdt",
+        "fa-classic",
+        "fa-duotone",
+        "fa-sharp",
+        "fa-sharp-duotone",
+        "fa-solid",
+        "fa-regular",
+        "fa-light",
+        "fa-thin",
+        "fa-duotone",
+        "fa-brands"
+      ],
+      Wt = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      qt = Wt.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]),
+      $t = [
+        ...Object.keys({
+          classic: ["fas", "far", "fal", "fat", "fad"],
+          duotone: ["fadr", "fadl", "fadt"],
+          sharp: ["fass", "fasr", "fasl", "fast"],
+          "sharp-duotone": ["fasds", "fasdr", "fasdl", "fasdt"]
+        }),
+        "solid",
+        "regular",
+        "light",
+        "thin",
+        "duotone",
+        "brands",
+        "2xs",
+        "xs",
+        "sm",
+        "lg",
+        "xl",
+        "2xl",
+        "beat",
+        "border",
+        "fade",
+        "beat-fade",
+        "bounce",
+        "flip-both",
+        "flip-horizontal",
+        "flip-vertical",
+        "flip",
+        "fw",
+        "inverse",
+        "layers-counter",
+        "layers-text",
+        "layers",
+        "li",
+        "pull-left",
+        "pull-right",
+        "pulse",
+        "rotate-180",
+        "rotate-270",
+        "rotate-90",
+        "rotate-by",
+        "shake",
+        "spin-pulse",
+        "spin-reverse",
+        "spin",
+        "stack-1x",
+        "stack-2x",
+        "stack",
+        "ul",
+        zt.GROUP,
+        zt.SWAP_OPACITY,
+        zt.PRIMARY,
+        zt.SECONDARY
+      ]
+        .concat(Wt.map(t => "".concat(t, "x")))
+        .concat(qt.map(t => "w-".concat(t)));
+    const Qt = "___FONT_AWESOME___",
+      Ut = 16,
+      Jt = "svg-inline--fa",
+      Kt = "data-fa-i2svg",
+      Xt = "data-fa-pseudo-element",
+      te = "data-prefix",
+      ee = "data-icon",
+      ie = "fontawesome-i2svg",
+      re = ["HTML", "HEAD", "STYLE", "SCRIPT"],
+      ae = (() => {
+        try {
+          return !0;
+        } catch (t) {
+          return !1;
+        }
+      })();
+    function ne(t) {
+      return new Proxy(t, {get: (t, e) => (e in t ? t[e] : t[Tt])});
+    }
+    const oe = xt({}, Bt);
+    oe[Tt] = xt(xt(xt(xt({}, {"fa-duotone": "duotone"}), Bt[Tt]), Lt), Ot);
+    const se = ne(oe),
+      le = xt(
+        {},
+        {
+          classic: {
+            solid: "fas",
+            regular: "far",
+            light: "fal",
+            thin: "fat",
+            brands: "fab"
+          },
+          duotone: {solid: "fad", regular: "fadr", light: "fadl", thin: "fadt"},
+          sharp: {solid: "fass", regular: "fasr", light: "fasl", thin: "fast"},
+          "sharp-duotone": {
+            solid: "fasds",
+            regular: "fasdr",
+            light: "fasdl",
+            thin: "fasdt"
+          }
+        }
+      );
+    le[Tt] = xt(xt(xt(xt({}, {duotone: "fad"}), le[Tt]), jt), Rt);
+    const ce = ne(le),
+      he = xt({}, Zt);
+    he[Tt] = xt(xt({}, he[Tt]), {fak: "fa-kit"});
+    const ue = ne(he),
+      fe = xt(
+        {},
+        {
+          classic: {
+            "fa-brands": "fab",
+            "fa-duotone": "fad",
+            "fa-light": "fal",
+            "fa-regular": "far",
+            "fa-solid": "fas",
+            "fa-thin": "fat"
+          },
+          duotone: {
+            "fa-regular": "fadr",
+            "fa-light": "fadl",
+            "fa-thin": "fadt"
+          },
+          sharp: {
+            "fa-solid": "fass",
+            "fa-regular": "fasr",
+            "fa-light": "fasl",
+            "fa-thin": "fast"
+          },
+          "sharp-duotone": {
+            "fa-solid": "fasds",
+            "fa-regular": "fasdr",
+            "fa-light": "fasdl",
+            "fa-thin": "fasdt"
+          }
+        }
+      );
+    fe[Tt] = xt(xt({}, fe[Tt]), {"fa-kit": "fak"});
+    ne(fe);
+    const de =
+        /fa(s|r|l|t|d|dr|dl|dt|b|k|kd|ss|sr|sl|st|sds|sdr|sdl|sdt)?[\-\ ]/,
+      pe = "fa-layers-text",
+      me =
+        /Font ?Awesome ?([56 ]*)(Solid|Regular|Light|Thin|Duotone|Brands|Free|Pro|Sharp Duotone|Sharp|Kit)?.*/i,
+      ye =
+        (ne(
+          xt(
+            {},
+            {
+              classic: {
+                900: "fas",
+                400: "far",
+                normal: "far",
+                300: "fal",
+                100: "fat"
+              },
+              duotone: {900: "fad", 400: "fadr", 300: "fadl", 100: "fadt"},
+              sharp: {900: "fass", 400: "fasr", 300: "fasl", 100: "fast"},
+              "sharp-duotone": {
+                900: "fasds",
+                400: "fasdr",
+                300: "fasdl",
+                100: "fasdt"
+              }
+            }
+          )
+        ),
+        [
+          "class",
+          "data-prefix",
+          "data-icon",
+          "data-fa-transform",
+          "data-fa-mask"
+        ]),
+      xe = {
+        GROUP: "duotone-group",
+        SWAP_OPACITY: "swap-opacity",
+        PRIMARY: "primary",
+        SECONDARY: "secondary"
+      },
+      ge = ["kit", ...$t],
+      ve = wt.FontAwesomeConfig || {};
+    if (St && "function" === typeof St.querySelector) {
+      [
+        ["data-family-prefix", "familyPrefix"],
+        ["data-css-prefix", "cssPrefix"],
+        ["data-family-default", "familyDefault"],
+        ["data-style-default", "styleDefault"],
+        ["data-replacement-class", "replacementClass"],
+        ["data-auto-replace-svg", "autoReplaceSvg"],
+        ["data-auto-add-css", "autoAddCss"],
+        ["data-auto-a11y", "autoA11y"],
+        ["data-search-pseudo-elements", "searchPseudoElements"],
+        ["data-observe-mutations", "observeMutations"],
+        ["data-mutate-approach", "mutateApproach"],
+        ["data-keep-original-source", "keepOriginalSource"],
+        ["data-measure-performance", "measurePerformance"],
+        ["data-show-missing-icons", "showMissingIcons"]
+      ].forEach(t => {
+        let [e, i] = t;
+        const r = (function (t) {
+          return "" === t || ("false" !== t && ("true" === t || t));
+        })(
+          (function (t) {
+            var e = St.querySelector("script[" + t + "]");
+            if (e) return e.getAttribute(t);
+          })(e)
+        );
+        void 0 !== r && null !== r && (ve[i] = r);
+      });
+    }
+    const ke = {
+      styleDefault: "solid",
+      familyDefault: Tt,
+      cssPrefix: "fa",
+      replacementClass: Jt,
+      autoReplaceSvg: !0,
+      autoAddCss: !0,
+      autoA11y: !0,
+      searchPseudoElements: !1,
+      observeMutations: !0,
+      mutateApproach: "async",
+      keepOriginalSource: !0,
+      measurePerformance: !1,
+      showMissingIcons: !0
+    };
+    ve.familyPrefix && (ve.cssPrefix = ve.familyPrefix);
+    const be = xt(xt({}, ke), ve);
+    be.autoReplaceSvg || (be.observeMutations = !1);
+    const Ae = {};
+    Object.keys(ke).forEach(t => {
+      Object.defineProperty(Ae, t, {
+        enumerable: !0,
+        set: function (e) {
+          (be[t] = e), Ee.forEach(t => t(Ae));
+        },
+        get: function () {
+          return be[t];
+        }
+      });
+    }),
+      Object.defineProperty(Ae, "familyPrefix", {
+        enumerable: !0,
+        set: function (t) {
+          (be.cssPrefix = t), Ee.forEach(t => t(Ae));
+        },
+        get: function () {
+          return be.cssPrefix;
+        }
+      }),
+      (wt.FontAwesomeConfig = Ae);
+    const Ee = [];
+    const we = Ut,
+      Se = {size: 16, x: 0, y: 0, rotate: 0, flipX: !1, flipY: !1};
+    function Pe() {
+      let t = 12,
+        e = "";
+      for (; t-- > 0; )
+        e += "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"[
+          (62 * Math.random()) | 0
+        ];
+      return e;
+    }
+    function De(t) {
+      const e = [];
+      for (let i = (t || []).length >>> 0; i--; ) e[i] = t[i];
+      return e;
+    }
+    function Ce(t) {
+      return t.classList
+        ? De(t.classList)
+        : (t.getAttribute("class") || "").split(" ").filter(t => t);
+    }
+    function _e(t) {
+      return ""
+        .concat(t)
+        .replace(/&/g, "&amp;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+    }
+    function Be(t) {
+      return Object.keys(t || {}).reduce(
+        (e, i) => e + "".concat(i, ": ").concat(t[i].trim(), ";"),
+        ""
+      );
+    }
+    function Me(t) {
+      return (
+        t.size !== Se.size ||
+        t.x !== Se.x ||
+        t.y !== Se.y ||
+        t.rotate !== Se.rotate ||
+        t.flipX ||
+        t.flipY
+      );
+    }
+    function Te() {
+      const t = "fa",
+        e = Jt,
+        i = Ae.cssPrefix,
+        r = Ae.replacementClass;
+      let a =
+        ':root, :host {\n  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";\n  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";\n  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Pro";\n  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Pro";\n  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";\n  --fa-font-duotone-regular: normal 400 1em/1 "Font Awesome 6 Duotone";\n  --fa-font-duotone-light: normal 300 1em/1 "Font Awesome 6 Duotone";\n  --fa-font-duotone-thin: normal 100 1em/1 "Font Awesome 6 Duotone";\n  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";\n  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";\n  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";\n  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";\n  --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 6 Sharp";\n  --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 6 Sharp Duotone";\n  --fa-font-sharp-duotone-regular: normal 400 1em/1 "Font Awesome 6 Sharp Duotone";\n  --fa-font-sharp-duotone-light: normal 300 1em/1 "Font Awesome 6 Sharp Duotone";\n  --fa-font-sharp-duotone-thin: normal 100 1em/1 "Font Awesome 6 Sharp Duotone";\n}\n\nsvg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {\n  overflow: visible;\n  box-sizing: content-box;\n}\n\n.svg-inline--fa {\n  display: var(--fa-display, inline-block);\n  height: 1em;\n  overflow: visible;\n  vertical-align: -0.125em;\n}\n.svg-inline--fa.fa-2xs {\n  vertical-align: 0.1em;\n}\n.svg-inline--fa.fa-xs {\n  vertical-align: 0em;\n}\n.svg-inline--fa.fa-sm {\n  vertical-align: -0.0714285705em;\n}\n.svg-inline--fa.fa-lg {\n  vertical-align: -0.2em;\n}\n.svg-inline--fa.fa-xl {\n  vertical-align: -0.25em;\n}\n.svg-inline--fa.fa-2xl {\n  vertical-align: -0.3125em;\n}\n.svg-inline--fa.fa-pull-left {\n  margin-right: var(--fa-pull-margin, 0.3em);\n  width: auto;\n}\n.svg-inline--fa.fa-pull-right {\n  margin-left: var(--fa-pull-margin, 0.3em);\n  width: auto;\n}\n.svg-inline--fa.fa-li {\n  width: var(--fa-li-width, 2em);\n  top: 0.25em;\n}\n.svg-inline--fa.fa-fw {\n  width: var(--fa-fw-width, 1.25em);\n}\n\n.fa-layers svg.svg-inline--fa {\n  bottom: 0;\n  left: 0;\n  margin: auto;\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n\n.fa-layers-counter, .fa-layers-text {\n  display: inline-block;\n  position: absolute;\n  text-align: center;\n}\n\n.fa-layers {\n  display: inline-block;\n  height: 1em;\n  position: relative;\n  text-align: center;\n  vertical-align: -0.125em;\n  width: 1em;\n}\n.fa-layers svg.svg-inline--fa {\n  transform-origin: center center;\n}\n\n.fa-layers-text {\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  transform-origin: center center;\n}\n\n.fa-layers-counter {\n  background-color: var(--fa-counter-background-color, #ff253a);\n  border-radius: var(--fa-counter-border-radius, 1em);\n  box-sizing: border-box;\n  color: var(--fa-inverse, #fff);\n  line-height: var(--fa-counter-line-height, 1);\n  max-width: var(--fa-counter-max-width, 5em);\n  min-width: var(--fa-counter-min-width, 1.5em);\n  overflow: hidden;\n  padding: var(--fa-counter-padding, 0.25em 0.5em);\n  right: var(--fa-right, 0);\n  text-overflow: ellipsis;\n  top: var(--fa-top, 0);\n  transform: scale(var(--fa-counter-scale, 0.25));\n  transform-origin: top right;\n}\n\n.fa-layers-bottom-right {\n  bottom: var(--fa-bottom, 0);\n  right: var(--fa-right, 0);\n  top: auto;\n  transform: scale(var(--fa-layers-scale, 0.25));\n  transform-origin: bottom right;\n}\n\n.fa-layers-bottom-left {\n  bottom: var(--fa-bottom, 0);\n  left: var(--fa-left, 0);\n  right: auto;\n  top: auto;\n  transform: scale(var(--fa-layers-scale, 0.25));\n  transform-origin: bottom left;\n}\n\n.fa-layers-top-right {\n  top: var(--fa-top, 0);\n  right: var(--fa-right, 0);\n  transform: scale(var(--fa-layers-scale, 0.25));\n  transform-origin: top right;\n}\n\n.fa-layers-top-left {\n  left: var(--fa-left, 0);\n  right: auto;\n  top: var(--fa-top, 0);\n  transform: scale(var(--fa-layers-scale, 0.25));\n  transform-origin: top left;\n}\n\n.fa-1x {\n  font-size: 1em;\n}\n\n.fa-2x {\n  font-size: 2em;\n}\n\n.fa-3x {\n  font-size: 3em;\n}\n\n.fa-4x {\n  font-size: 4em;\n}\n\n.fa-5x {\n  font-size: 5em;\n}\n\n.fa-6x {\n  font-size: 6em;\n}\n\n.fa-7x {\n  font-size: 7em;\n}\n\n.fa-8x {\n  font-size: 8em;\n}\n\n.fa-9x {\n  font-size: 9em;\n}\n\n.fa-10x {\n  font-size: 10em;\n}\n\n.fa-2xs {\n  font-size: 0.625em;\n  line-height: 0.1em;\n  vertical-align: 0.225em;\n}\n\n.fa-xs {\n  font-size: 0.75em;\n  line-height: 0.0833333337em;\n  vertical-align: 0.125em;\n}\n\n.fa-sm {\n  font-size: 0.875em;\n  line-height: 0.0714285718em;\n  vertical-align: 0.0535714295em;\n}\n\n.fa-lg {\n  font-size: 1.25em;\n  line-height: 0.05em;\n  vertical-align: -0.075em;\n}\n\n.fa-xl {\n  font-size: 1.5em;\n  line-height: 0.0416666682em;\n  vertical-align: -0.125em;\n}\n\n.fa-2xl {\n  font-size: 2em;\n  line-height: 0.03125em;\n  vertical-align: -0.1875em;\n}\n\n.fa-fw {\n  text-align: center;\n  width: 1.25em;\n}\n\n.fa-ul {\n  list-style-type: none;\n  margin-left: var(--fa-li-margin, 2.5em);\n  padding-left: 0;\n}\n.fa-ul > li {\n  position: relative;\n}\n\n.fa-li {\n  left: calc(-1 * var(--fa-li-width, 2em));\n  position: absolute;\n  text-align: center;\n  width: var(--fa-li-width, 2em);\n  line-height: inherit;\n}\n\n.fa-border {\n  border-color: var(--fa-border-color, #eee);\n  border-radius: var(--fa-border-radius, 0.1em);\n  border-style: var(--fa-border-style, solid);\n  border-width: var(--fa-border-width, 0.08em);\n  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);\n}\n\n.fa-pull-left {\n  float: left;\n  margin-right: var(--fa-pull-margin, 0.3em);\n}\n\n.fa-pull-right {\n  float: right;\n  margin-left: var(--fa-pull-margin, 0.3em);\n}\n\n.fa-beat {\n  animation-name: fa-beat;\n  animation-delay: var(--fa-animation-delay, 0s);\n  animation-direction: var(--fa-animation-direction, normal);\n  animation-duration: var(--fa-animation-duration, 1s);\n  animation-iteration-count: var(--fa-animation-iteration-count, infinite);\n  animation-timing-function: var(--fa-animation-timing, ease-in-out);\n}\n\n.fa-bounce {\n  animation-name: fa-bounce;\n  animation-delay: var(--fa-animation-delay, 0s);\n  animation-direction: var(--fa-animation-direction, normal);\n  animation-duration: var(--fa-animation-duration, 1s);\n  animation-iteration-count: var(--fa-animation-iteration-count, infinite);\n  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));\n}\n\n.fa-fade {\n  animation-name: fa-fade;\n  animation-delay: var(--fa-animation-delay, 0s);\n  animation-direction: var(--fa-animation-direction, normal);\n  animation-duration: var(--fa-animation-duration, 1s);\n  animation-iteration-count: var(--fa-animation-iteration-count, infinite);\n  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));\n}\n\n.fa-beat-fade {\n  animation-name: fa-beat-fade;\n  animation-delay: var(--fa-animation-delay, 0s);\n  animation-direction: var(--fa-animation-direction, normal);\n  animation-duration: var(--fa-animation-duration, 1s);\n  animation-iteration-count: var(--fa-animation-iteration-count, infinite);\n  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));\n}\n\n.fa-flip {\n  animation-name: fa-flip;\n  animation-delay: var(--fa-animation-delay, 0s);\n  animation-direction: var(--fa-animation-direction, normal);\n  animation-duration: var(--fa-animation-duration, 1s);\n  animation-iteration-count: var(--fa-animation-iteration-count, infinite);\n  animation-timing-function: var(--fa-animation-timing, ease-in-out);\n}\n\n.fa-shake {\n  animation-name: fa-shake;\n  animation-delay: var(--fa-animation-delay, 0s);\n  animation-direction: var(--fa-animation-direction, normal);\n  animation-duration: var(--fa-animation-duration, 1s);\n  animation-iteration-count: var(--fa-animation-iteration-count, infinite);\n  animation-timing-function: var(--fa-animation-timing, linear);\n}\n\n.fa-spin {\n  animation-name: fa-spin;\n  animation-delay: var(--fa-animation-delay, 0s);\n  animation-direction: var(--fa-animation-direction, normal);\n  animation-duration: var(--fa-animation-duration, 2s);\n  animation-iteration-count: var(--fa-animation-iteration-count, infinite);\n  animation-timing-function: var(--fa-animation-timing, linear);\n}\n\n.fa-spin-reverse {\n  --fa-animation-direction: reverse;\n}\n\n.fa-pulse,\n.fa-spin-pulse {\n  animation-name: fa-spin;\n  animation-direction: var(--fa-animation-direction, normal);\n  animation-duration: var(--fa-animation-duration, 1s);\n  animation-iteration-count: var(--fa-animation-iteration-count, infinite);\n  animation-timing-function: var(--fa-animation-timing, steps(8));\n}\n\n@media (prefers-reduced-motion: reduce) {\n  .fa-beat,\n.fa-bounce,\n.fa-fade,\n.fa-beat-fade,\n.fa-flip,\n.fa-pulse,\n.fa-shake,\n.fa-spin,\n.fa-spin-pulse {\n    animation-delay: -1ms;\n    animation-duration: 1ms;\n    animation-iteration-count: 1;\n    transition-delay: 0s;\n    transition-duration: 0s;\n  }\n}\n@keyframes fa-beat {\n  0%, 90% {\n    transform: scale(1);\n  }\n  45% {\n    transform: scale(var(--fa-beat-scale, 1.25));\n  }\n}\n@keyframes fa-bounce {\n  0% {\n    transform: scale(1, 1) translateY(0);\n  }\n  10% {\n    transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);\n  }\n  30% {\n    transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));\n  }\n  50% {\n    transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);\n  }\n  57% {\n    transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));\n  }\n  64% {\n    transform: scale(1, 1) translateY(0);\n  }\n  100% {\n    transform: scale(1, 1) translateY(0);\n  }\n}\n@keyframes fa-fade {\n  50% {\n    opacity: var(--fa-fade-opacity, 0.4);\n  }\n}\n@keyframes fa-beat-fade {\n  0%, 100% {\n    opacity: var(--fa-beat-fade-opacity, 0.4);\n    transform: scale(1);\n  }\n  50% {\n    opacity: 1;\n    transform: scale(var(--fa-beat-fade-scale, 1.125));\n  }\n}\n@keyframes fa-flip {\n  50% {\n    transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));\n  }\n}\n@keyframes fa-shake {\n  0% {\n    transform: rotate(-15deg);\n  }\n  4% {\n    transform: rotate(15deg);\n  }\n  8%, 24% {\n    transform: rotate(-18deg);\n  }\n  12%, 28% {\n    transform: rotate(18deg);\n  }\n  16% {\n    transform: rotate(-22deg);\n  }\n  20% {\n    transform: rotate(22deg);\n  }\n  32% {\n    transform: rotate(-12deg);\n  }\n  36% {\n    transform: rotate(12deg);\n  }\n  40%, 100% {\n    transform: rotate(0deg);\n  }\n}\n@keyframes fa-spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n.fa-rotate-90 {\n  transform: rotate(90deg);\n}\n\n.fa-rotate-180 {\n  transform: rotate(180deg);\n}\n\n.fa-rotate-270 {\n  transform: rotate(270deg);\n}\n\n.fa-flip-horizontal {\n  transform: scale(-1, 1);\n}\n\n.fa-flip-vertical {\n  transform: scale(1, -1);\n}\n\n.fa-flip-both,\n.fa-flip-horizontal.fa-flip-vertical {\n  transform: scale(-1, -1);\n}\n\n.fa-rotate-by {\n  transform: rotate(var(--fa-rotate-angle, 0));\n}\n\n.fa-stack {\n  display: inline-block;\n  vertical-align: middle;\n  height: 2em;\n  position: relative;\n  width: 2.5em;\n}\n\n.fa-stack-1x,\n.fa-stack-2x {\n  bottom: 0;\n  left: 0;\n  margin: auto;\n  position: absolute;\n  right: 0;\n  top: 0;\n  z-index: var(--fa-stack-z-index, auto);\n}\n\n.svg-inline--fa.fa-stack-1x {\n  height: 1em;\n  width: 1.25em;\n}\n.svg-inline--fa.fa-stack-2x {\n  height: 2em;\n  width: 2.5em;\n}\n\n.fa-inverse {\n  color: var(--fa-inverse, #fff);\n}\n\n.sr-only,\n.fa-sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border-width: 0;\n}\n\n.sr-only-focusable:not(:focus),\n.fa-sr-only-focusable:not(:focus) {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border-width: 0;\n}\n\n.svg-inline--fa .fa-primary {\n  fill: var(--fa-primary-color, currentColor);\n  opacity: var(--fa-primary-opacity, 1);\n}\n\n.svg-inline--fa .fa-secondary {\n  fill: var(--fa-secondary-color, currentColor);\n  opacity: var(--fa-secondary-opacity, 0.4);\n}\n\n.svg-inline--fa.fa-swap-opacity .fa-primary {\n  opacity: var(--fa-secondary-opacity, 0.4);\n}\n\n.svg-inline--fa.fa-swap-opacity .fa-secondary {\n  opacity: var(--fa-primary-opacity, 1);\n}\n\n.svg-inline--fa mask .fa-primary,\n.svg-inline--fa mask .fa-secondary {\n  fill: black;\n}';
+      if (i !== t || r !== e) {
+        const n = new RegExp("\\.".concat(t, "\\-"), "g"),
+          o = new RegExp("\\--".concat(t, "\\-"), "g"),
+          s = new RegExp("\\.".concat(e), "g");
+        a = a
+          .replace(n, ".".concat(i, "-"))
+          .replace(o, "--".concat(i, "-"))
+          .replace(s, ".".concat(r));
+      }
+      return a;
+    }
+    let Fe = !1;
+    function Ve() {
+      Ae.autoAddCss &&
+        !Fe &&
+        (!(function (t) {
+          if (!t || !Ct) return;
+          const e = St.createElement("style");
+          e.setAttribute("type", "text/css"), (e.innerHTML = t);
+          const i = St.head.childNodes;
+          let r = null;
+          for (let a = i.length - 1; a > -1; a--) {
+            const t = i[a],
+              e = (t.tagName || "").toUpperCase();
+            ["STYLE", "LINK"].indexOf(e) > -1 && (r = t);
+          }
+          St.head.insertBefore(e, r);
+        })(Te()),
+        (Fe = !0));
+    }
+    var Ge = {
+      mixout: () => ({dom: {css: Te, insertCss: Ve}}),
+      hooks: () => ({
+        beforeDOMElementCreation() {
+          Ve();
+        },
+        beforeI2svg() {
+          Ve();
+        }
+      })
+    };
+    const Ie = wt || {};
+    Ie[Qt] || (Ie[Qt] = {}),
+      Ie[Qt].styles || (Ie[Qt].styles = {}),
+      Ie[Qt].hooks || (Ie[Qt].hooks = {}),
+      Ie[Qt].shims || (Ie[Qt].shims = []);
+    var Le = Ie[Qt];
+    const Oe = [],
+      Ne = function () {
+        St.removeEventListener("DOMContentLoaded", Ne),
+          (je = 1),
+          Oe.map(t => t());
+      };
+    let je = !1;
+    function Re(t) {
+      const {tag: e, attributes: i = {}, children: r = []} = t;
+      return "string" === typeof t
+        ? _e(t)
+        : "<"
+            .concat(e, " ")
+            .concat(
+              (function (t) {
+                return Object.keys(t || {})
+                  .reduce(
+                    (e, i) => e + "".concat(i, '="').concat(_e(t[i]), '" '),
+                    ""
+                  )
+                  .trim();
+              })(i),
+              ">"
+            )
+            .concat(r.map(Re).join(""), "</")
+            .concat(e, ">");
+    }
+    function ze(t, e, i) {
+      if (t && t[e] && t[e][i]) return {prefix: e, iconName: i, icon: t[e][i]};
+    }
+    Ct &&
+      ((je = (
+        St.documentElement.doScroll ? /^loaded|^c/ : /^loaded|^i|^c/
+      ).test(St.readyState)),
+      je || St.addEventListener("DOMContentLoaded", Ne));
+    var Ye = function (t, e, i, r) {
+      var a,
+        n,
+        o,
+        s = Object.keys(t),
+        l = s.length,
+        c =
+          void 0 !== r
+            ? (function (t, e) {
+                return function (i, r, a, n) {
+                  return t.call(e, i, r, a, n);
+                };
+              })(e, r)
+            : e;
+      for (
+        void 0 === i ? ((a = 1), (o = t[s[0]])) : ((a = 0), (o = i));
+        a < l;
+        a++
+      )
+        o = c(o, t[(n = s[a])], n, t);
+      return o;
+    };
+    function Ze(t) {
+      const e = (function (t) {
+        const e = [];
+        let i = 0;
+        const r = t.length;
+        for (; i < r; ) {
+          const a = t.charCodeAt(i++);
+          if (a >= 55296 && a <= 56319 && i < r) {
+            const r = t.charCodeAt(i++);
+            56320 == (64512 & r)
+              ? e.push(((1023 & a) << 10) + (1023 & r) + 65536)
+              : (e.push(a), i--);
+          } else e.push(a);
+        }
+        return e;
+      })(t);
+      return 1 === e.length ? e[0].toString(16) : null;
+    }
+    function He(t) {
+      return Object.keys(t).reduce((e, i) => {
+        const r = t[i];
+        return !!r.icon ? (e[r.iconName] = r.icon) : (e[i] = r), e;
+      }, {});
+    }
+    function We(t, e) {
+      let i =
+        arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : {};
+      const {skipHooks: r = !1} = i,
+        a = He(e);
+      "function" !== typeof Le.hooks.addPack || r
+        ? (Le.styles[t] = xt(xt({}, Le.styles[t] || {}), a))
+        : Le.hooks.addPack(t, He(e)),
+        "fas" === t && We("fa", e);
+    }
+    const {styles: qe, shims: $e} = Le,
+      Qe = Object.keys(ue),
+      Ue = Qe.reduce((t, e) => ((t[e] = Object.keys(ue[e])), t), {});
+    let Je = null,
+      Ke = {},
+      Xe = {},
+      ti = {},
+      ei = {},
+      ii = {};
+    function ri(t, e) {
+      const i = e.split("-"),
+        r = i[0],
+        a = i.slice(1).join("-");
+      return r !== t || "" === a || ((n = a), ~ge.indexOf(n)) ? null : a;
+      var n;
+    }
+    const ai = () => {
+      const t = t => Ye(qe, (e, i, r) => ((e[r] = Ye(i, t, {})), e), {});
+      (Ke = t((t, e, i) => {
+        if ((e[3] && (t[e[3]] = i), e[2])) {
+          e[2]
+            .filter(t => "number" === typeof t)
+            .forEach(e => {
+              t[e.toString(16)] = i;
+            });
+        }
+        return t;
+      })),
+        (Xe = t((t, e, i) => {
+          if (((t[i] = i), e[2])) {
+            e[2]
+              .filter(t => "string" === typeof t)
+              .forEach(e => {
+                t[e] = i;
+              });
+          }
+          return t;
+        })),
+        (ii = t((t, e, i) => {
+          const r = e[2];
+          return (
+            (t[i] = i),
+            r.forEach(e => {
+              t[e] = i;
+            }),
+            t
+          );
+        }));
+      const e = "far" in qe || Ae.autoFetchSvg,
+        i = Ye(
+          $e,
+          (t, i) => {
+            const r = i[0];
+            let a = i[1];
+            const n = i[2];
+            return (
+              "far" !== a || e || (a = "fas"),
+              "string" === typeof r && (t.names[r] = {prefix: a, iconName: n}),
+              "number" === typeof r &&
+                (t.unicodes[r.toString(16)] = {prefix: a, iconName: n}),
+              t
+            );
+          },
+          {names: {}, unicodes: {}}
+        );
+      (ti = i.names),
+        (ei = i.unicodes),
+        (Je = hi(Ae.styleDefault, {family: Ae.familyDefault}));
+    };
+    var ni;
+    function oi(t, e) {
+      return (Ke[t] || {})[e];
+    }
+    function si(t, e) {
+      return (ii[t] || {})[e];
+    }
+    function li(t) {
+      return ti[t] || {prefix: null, iconName: null};
+    }
+    function ci() {
+      return Je;
+    }
+    (ni = t => {
+      Je = hi(t.styleDefault, {family: Ae.familyDefault});
+    }),
+      Ee.push(ni),
+      ai();
+    function hi(t) {
+      let e =
+        arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
+      const {family: i = Tt} = e,
+        r = se[i][t];
+      if (i === Ft && !t) return "fad";
+      const a = ce[i][t] || ce[i][r],
+        n = t in Le.styles ? t : null;
+      return a || n || null;
+    }
+    function ui(t) {
+      return t.sort().filter((t, e, i) => i.indexOf(t) === e);
+    }
+    function fi(t) {
+      let e =
+        arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
+      const {skipLookups: i = !1} = e;
+      let r = null;
+      const a = Ht.concat(Yt),
+        n = ui(t.filter(t => a.includes(t))),
+        o = ui(t.filter(t => !Ht.includes(t))),
+        s = n.filter(t => ((r = t), !Mt.includes(t))),
+        [l = null] = s,
+        c = (function (t) {
+          let e = Tt;
+          const i = Qe.reduce(
+            (t, e) => ((t[e] = "".concat(Ae.cssPrefix, "-").concat(e)), t),
+            {}
+          );
+          return (
+            Vt.forEach(r => {
+              (t.includes(i[r]) || t.some(t => Ue[r].includes(t))) && (e = r);
+            }),
+            e
+          );
+        })(n),
+        h = xt(
+          xt(
+            {},
+            (function (t) {
+              let e = [],
+                i = null;
+              return (
+                t.forEach(t => {
+                  const r = ri(Ae.cssPrefix, t);
+                  r ? (i = r) : t && e.push(t);
+                }),
+                {iconName: i, rest: e}
+              );
+            })(o)
+          ),
+          {},
+          {prefix: hi(l, {family: c})}
+        );
+      return xt(
+        xt(
+          xt({}, h),
+          (function (t) {
+            const {
+                values: e,
+                family: i,
+                canonical: r,
+                givenPrefix: a = "",
+                styles: n = {},
+                config: o = {}
+              } = t,
+              s = i === Ft,
+              l = e.includes("fa-duotone") || e.includes("fad"),
+              c = "duotone" === o.familyDefault,
+              h = "fad" === r.prefix || "fa-duotone" === r.prefix;
+            !s && (l || c || h) && (r.prefix = "fad");
+            (e.includes("fa-brands") || e.includes("fab")) &&
+              (r.prefix = "fab");
+            if (!r.prefix && di.includes(i)) {
+              if (Object.keys(n).find(t => pi.includes(t)) || o.autoFetchSvg) {
+                const t = Gt.get(i).defaultShortPrefixId;
+                (r.prefix = t),
+                  (r.iconName = si(r.prefix, r.iconName) || r.iconName);
+              }
+            }
+            ("fa" !== r.prefix && "fa" !== a) || (r.prefix = ci() || "fas");
+            return r;
+          })({
+            values: t,
+            family: c,
+            styles: qe,
+            config: Ae,
+            canonical: h,
+            givenPrefix: r
+          })
+        ),
+        (function (t, e, i) {
+          let {prefix: r, iconName: a} = i;
+          if (t || !r || !a) return {prefix: r, iconName: a};
+          const n = "fa" === e ? li(a) : {},
+            o = si(r, a);
+          (a = n.iconName || o || a),
+            (r = n.prefix || r),
+            "far" !== r || qe.far || !qe.fas || Ae.autoFetchSvg || (r = "fas");
+          return {prefix: r, iconName: a};
+        })(i, r, h)
+      );
+    }
+    const di = Vt.filter(t => t !== Tt || t !== Ft),
+      pi = Object.keys(Zt)
+        .filter(t => t !== Tt)
+        .map(t => Object.keys(Zt[t]))
+        .flat();
+    let mi = [],
+      yi = {};
+    const xi = {},
+      gi = Object.keys(xi);
+    function vi(t, e) {
+      for (
+        var i = arguments.length, r = new Array(i > 2 ? i - 2 : 0), a = 2;
+        a < i;
+        a++
+      )
+        r[a - 2] = arguments[a];
+      return (
+        (yi[t] || []).forEach(t => {
+          e = t.apply(null, [e, ...r]);
+        }),
+        e
+      );
+    }
+    function ki(t) {
+      for (
+        var e = arguments.length, i = new Array(e > 1 ? e - 1 : 0), r = 1;
+        r < e;
+        r++
+      )
+        i[r - 1] = arguments[r];
+      (yi[t] || []).forEach(t => {
+        t.apply(null, i);
+      });
+    }
+    function bi() {
+      const t = arguments[0],
+        e = Array.prototype.slice.call(arguments, 1);
+      return xi[t] ? xi[t].apply(null, e) : void 0;
+    }
+    function Ai(t) {
+      "fa" === t.prefix && (t.prefix = "fas");
+      let {iconName: e} = t;
+      const i = t.prefix || ci();
+      if (e)
+        return (
+          (e = si(i, e) || e), ze(Ei.definitions, i, e) || ze(Le.styles, i, e)
+        );
+    }
+    const Ei = new (class {
+        constructor() {
+          this.definitions = {};
+        }
+        add() {
+          for (var t = arguments.length, e = new Array(t), i = 0; i < t; i++)
+            e[i] = arguments[i];
+          const r = e.reduce(this._pullDefinitions, {});
+          Object.keys(r).forEach(t => {
+            (this.definitions[t] = xt(xt({}, this.definitions[t] || {}), r[t])),
+              We(t, r[t]);
+            const e = ue[Tt][t];
+            e && We(e, r[t]), ai();
+          });
+        }
+        reset() {
+          this.definitions = {};
+        }
+        _pullDefinitions(t, e) {
+          const i = e.prefix && e.iconName && e.icon ? {0: e} : e;
+          return (
+            Object.keys(i).map(e => {
+              const {prefix: r, iconName: a, icon: n} = i[e],
+                o = n[2];
+              t[r] || (t[r] = {}),
+                o.length > 0 &&
+                  o.forEach(e => {
+                    "string" === typeof e && (t[r][e] = n);
+                  }),
+                (t[r][a] = n);
+            }),
+            t
+          );
+        }
+      })(),
+      wi = {
+        i2svg: function () {
+          let t =
+            arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {};
+          return Ct
+            ? (ki("beforeI2svg", t),
+              bi("pseudoElements2svg", t),
+              bi("i2svg", t))
+            : Promise.reject(
+                new Error("Operation requires a DOM of some kind.")
+              );
+        },
+        watch: function () {
+          let t =
+            arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {};
+          const {autoReplaceSvgRoot: e} = t;
+          var i;
+          !1 === Ae.autoReplaceSvg && (Ae.autoReplaceSvg = !0),
+            (Ae.observeMutations = !0),
+            (i = () => {
+              Di({autoReplaceSvgRoot: e}), ki("watch", t);
+            }),
+            Ct && (je ? setTimeout(i, 0) : Oe.push(i));
+        }
+      },
+      Si = {
+        icon: t => {
+          if (null === t) return null;
+          if ("object" === typeof t && t.prefix && t.iconName)
+            return {
+              prefix: t.prefix,
+              iconName: si(t.prefix, t.iconName) || t.iconName
+            };
+          if (Array.isArray(t) && 2 === t.length) {
+            const e = 0 === t[1].indexOf("fa-") ? t[1].slice(3) : t[1],
+              i = hi(t[0]);
+            return {prefix: i, iconName: si(i, e) || e};
+          }
+          if (
+            "string" === typeof t &&
+            (t.indexOf("".concat(Ae.cssPrefix, "-")) > -1 || t.match(de))
+          ) {
+            const e = fi(t.split(" "), {skipLookups: !0});
+            return {
+              prefix: e.prefix || ci(),
+              iconName: si(e.prefix, e.iconName) || e.iconName
+            };
+          }
+          if ("string" === typeof t) {
+            const e = ci();
+            return {prefix: e, iconName: si(e, t) || t};
+          }
+        }
+      },
+      Pi = {
+        noAuto: () => {
+          (Ae.autoReplaceSvg = !1), (Ae.observeMutations = !1), ki("noAuto");
+        },
+        config: Ae,
+        dom: wi,
+        parse: Si,
+        library: Ei,
+        findIconDefinition: Ai,
+        toHtml: Re
+      },
+      Di = function () {
+        let t =
+          arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {};
+        const {autoReplaceSvgRoot: e = St} = t;
+        (Object.keys(Le.styles).length > 0 || Ae.autoFetchSvg) &&
+          Ct &&
+          Ae.autoReplaceSvg &&
+          Pi.dom.i2svg({node: e});
+      };
+    function Ci(t, e) {
+      return (
+        Object.defineProperty(t, "abstract", {get: e}),
+        Object.defineProperty(t, "html", {
+          get: function () {
+            return t.abstract.map(t => Re(t));
+          }
+        }),
+        Object.defineProperty(t, "node", {
+          get: function () {
+            if (!Ct) return;
+            const e = St.createElement("div");
+            return (e.innerHTML = t.html), e.children;
+          }
+        }),
+        t
+      );
+    }
+    function _i(t) {
+      const {
+          icons: {main: e, mask: i},
+          prefix: r,
+          iconName: a,
+          transform: n,
+          symbol: o,
+          title: s,
+          maskId: l,
+          titleId: c,
+          extra: h,
+          watchable: u = !1
+        } = t,
+        {width: f, height: d} = i.found ? i : e,
+        p = Nt.includes(r),
+        m = [
+          Ae.replacementClass,
+          a ? "".concat(Ae.cssPrefix, "-").concat(a) : ""
+        ]
+          .filter(t => -1 === h.classes.indexOf(t))
+          .filter(t => "" !== t || !!t)
+          .concat(h.classes)
+          .join(" ");
+      let y = {
+        children: [],
+        attributes: xt(
+          xt({}, h.attributes),
+          {},
+          {
+            "data-prefix": r,
+            "data-icon": a,
+            class: m,
+            role: h.attributes.role || "img",
+            xmlns: "http://www.w3.org/2000/svg",
+            viewBox: "0 0 ".concat(f, " ").concat(d)
+          }
+        )
+      };
+      const x =
+        p && !~h.classes.indexOf("fa-fw")
+          ? {width: "".concat((f / d) * 16 * 0.0625, "em")}
+          : {};
+      u && (y.attributes[Kt] = ""),
+        s &&
+          (y.children.push({
+            tag: "title",
+            attributes: {
+              id: y.attributes["aria-labelledby"] || "title-".concat(c || Pe())
+            },
+            children: [s]
+          }),
+          delete y.attributes.title);
+      const g = xt(
+          xt({}, y),
+          {},
+          {
+            prefix: r,
+            iconName: a,
+            main: e,
+            mask: i,
+            maskId: l,
+            transform: n,
+            symbol: o,
+            styles: xt(xt({}, x), h.styles)
+          }
+        ),
+        {children: v, attributes: k} =
+          i.found && e.found
+            ? bi("generateAbstractMask", g) || {children: [], attributes: {}}
+            : bi("generateAbstractIcon", g) || {children: [], attributes: {}};
+      return (
+        (g.children = v),
+        (g.attributes = k),
+        o
+          ? (function (t) {
+              let {
+                prefix: e,
+                iconName: i,
+                children: r,
+                attributes: a,
+                symbol: n
+              } = t;
+              const o =
+                !0 === n
+                  ? "".concat(e, "-").concat(Ae.cssPrefix, "-").concat(i)
+                  : n;
+              return [
+                {
+                  tag: "svg",
+                  attributes: {style: "display: none;"},
+                  children: [
+                    {
+                      tag: "symbol",
+                      attributes: xt(xt({}, a), {}, {id: o}),
+                      children: r
+                    }
+                  ]
+                }
+              ];
+            })(g)
+          : (function (t) {
+              let {
+                children: e,
+                main: i,
+                mask: r,
+                attributes: a,
+                styles: n,
+                transform: o
+              } = t;
+              if (Me(o) && i.found && !r.found) {
+                const {width: t, height: e} = i,
+                  r = {x: t / e / 2, y: 0.5};
+                a.style = Be(
+                  xt(
+                    xt({}, n),
+                    {},
+                    {
+                      "transform-origin": ""
+                        .concat(r.x + o.x / 16, "em ")
+                        .concat(r.y + o.y / 16, "em")
+                    }
+                  )
+                );
+              }
+              return [{tag: "svg", attributes: a, children: e}];
+            })(g)
+      );
+    }
+    function Bi(t) {
+      const {
+          content: e,
+          width: i,
+          height: r,
+          transform: a,
+          title: n,
+          extra: o,
+          watchable: s = !1
+        } = t,
+        l = xt(
+          xt(xt({}, o.attributes), n ? {title: n} : {}),
+          {},
+          {class: o.classes.join(" ")}
+        );
+      s && (l[Kt] = "");
+      const c = xt({}, o.styles);
+      Me(a) &&
+        ((c.transform = (function (t) {
+          let {
+              transform: e,
+              width: i = Ut,
+              height: r = Ut,
+              startCentered: a = !1
+            } = t,
+            n = "";
+          return (
+            (n +=
+              a && _t
+                ? "translate("
+                    .concat(e.x / we - i / 2, "em, ")
+                    .concat(e.y / we - r / 2, "em) ")
+                : a
+                ? "translate(calc(-50% + "
+                    .concat(e.x / we, "em), calc(-50% + ")
+                    .concat(e.y / we, "em)) ")
+                : "translate("
+                    .concat(e.x / we, "em, ")
+                    .concat(e.y / we, "em) ")),
+            (n += "scale("
+              .concat((e.size / we) * (e.flipX ? -1 : 1), ", ")
+              .concat((e.size / we) * (e.flipY ? -1 : 1), ") ")),
+            (n += "rotate(".concat(e.rotate, "deg) ")),
+            n
+          );
+        })({transform: a, startCentered: !0, width: i, height: r})),
+        (c["-webkit-transform"] = c.transform));
+      const h = Be(c);
+      h.length > 0 && (l.style = h);
+      const u = [];
+      return (
+        u.push({tag: "span", attributes: l, children: [e]}),
+        n &&
+          u.push({tag: "span", attributes: {class: "sr-only"}, children: [n]}),
+        u
+      );
+    }
+    const {styles: Mi} = Le;
+    function Ti(t) {
+      const e = t[0],
+        i = t[1],
+        [r] = t.slice(4);
+      let a = null;
+      return (
+        (a = Array.isArray(r)
+          ? {
+              tag: "g",
+              attributes: {
+                class: "".concat(Ae.cssPrefix, "-").concat(xe.GROUP)
+              },
+              children: [
+                {
+                  tag: "path",
+                  attributes: {
+                    class: "".concat(Ae.cssPrefix, "-").concat(xe.SECONDARY),
+                    fill: "currentColor",
+                    d: r[0]
+                  }
+                },
+                {
+                  tag: "path",
+                  attributes: {
+                    class: "".concat(Ae.cssPrefix, "-").concat(xe.PRIMARY),
+                    fill: "currentColor",
+                    d: r[1]
+                  }
+                }
+              ]
+            }
+          : {tag: "path", attributes: {fill: "currentColor", d: r}}),
+        {found: !0, width: e, height: i, icon: a}
+      );
+    }
+    const Fi = {found: !1, width: 512, height: 512};
+    function Vi(t, e) {
+      let i = e;
+      return (
+        "fa" === e && null !== Ae.styleDefault && (e = ci()),
+        new Promise((r, a) => {
+          if ("fa" === i) {
+            const i = li(t) || {};
+            (t = i.iconName || t), (e = i.prefix || e);
+          }
+          if (t && e && Mi[e] && Mi[e][t]) {
+            return r(Ti(Mi[e][t]));
+          }
+          !(function (t, e) {
+            ae ||
+              Ae.showMissingIcons ||
+              !t ||
+              console.error(
+                'Icon with name "'
+                  .concat(t, '" and prefix "')
+                  .concat(e, '" is missing.')
+              );
+          })(t, e),
+            r(
+              xt(
+                xt({}, Fi),
+                {},
+                {
+                  icon:
+                    (Ae.showMissingIcons && t && bi("missingIconAbstract")) ||
+                    {}
+                }
+              )
+            );
+        })
+      );
+    }
+    const Gi = () => {},
+      Ii =
+        Ae.measurePerformance && Dt && Dt.mark && Dt.measure
+          ? Dt
+          : {mark: Gi, measure: Gi},
+      Li = 'FA "6.7.2"',
+      Oi = t => {
+        Ii.mark("".concat(Li, " ").concat(t, " ends")),
+          Ii.measure(
+            "".concat(Li, " ").concat(t),
+            "".concat(Li, " ").concat(t, " begins"),
+            "".concat(Li, " ").concat(t, " ends")
+          );
+      };
+    var Ni = t => (
+      Ii.mark("".concat(Li, " ").concat(t, " begins")), () => Oi(t)
+    );
+    const ji = () => {};
+    function Ri(t) {
+      return "string" === typeof (t.getAttribute ? t.getAttribute(Kt) : null);
+    }
+    function zi(t) {
+      return St.createElementNS("http://www.w3.org/2000/svg", t);
+    }
+    function Yi(t) {
+      return St.createElement(t);
+    }
+    function Zi(t) {
+      let e =
+        arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
+      const {ceFn: i = "svg" === t.tag ? zi : Yi} = e;
+      if ("string" === typeof t) return St.createTextNode(t);
+      const r = i(t.tag);
+      Object.keys(t.attributes || []).forEach(function (e) {
+        r.setAttribute(e, t.attributes[e]);
+      });
+      return (
+        (t.children || []).forEach(function (t) {
+          r.appendChild(Zi(t, {ceFn: i}));
+        }),
+        r
+      );
+    }
+    const Hi = {
+      replace: function (t) {
+        const e = t[0];
+        if (e.parentNode)
+          if (
+            (t[1].forEach(t => {
+              e.parentNode.insertBefore(Zi(t), e);
+            }),
+            null === e.getAttribute(Kt) && Ae.keepOriginalSource)
+          ) {
+            let t = St.createComment(
+              (function (t) {
+                let e = " ".concat(t.outerHTML, " ");
+                return (e = "".concat(e, "Font Awesome fontawesome.com ")), e;
+              })(e)
+            );
+            e.parentNode.replaceChild(t, e);
+          } else e.remove();
+      },
+      nest: function (t) {
+        const e = t[0],
+          i = t[1];
+        if (~Ce(e).indexOf(Ae.replacementClass)) return Hi.replace(t);
+        const r = new RegExp("".concat(Ae.cssPrefix, "-.*"));
+        if ((delete i[0].attributes.id, i[0].attributes.class)) {
+          const t = i[0].attributes.class
+            .split(" ")
+            .reduce(
+              (t, e) => (
+                e === Ae.replacementClass || e.match(r)
+                  ? t.toSvg.push(e)
+                  : t.toNode.push(e),
+                t
+              ),
+              {toNode: [], toSvg: []}
+            );
+          (i[0].attributes.class = t.toSvg.join(" ")),
+            0 === t.toNode.length
+              ? e.removeAttribute("class")
+              : e.setAttribute("class", t.toNode.join(" "));
+        }
+        const a = i.map(t => Re(t)).join("\n");
+        e.setAttribute(Kt, ""), (e.innerHTML = a);
+      }
+    };
+    function Wi(t) {
+      t();
+    }
+    function qi(t, e) {
+      const i = "function" === typeof e ? e : ji;
+      if (0 === t.length) i();
+      else {
+        let e = Wi;
+        "async" === Ae.mutateApproach && (e = wt.requestAnimationFrame || Wi),
+          e(() => {
+            const e =
+                !0 === Ae.autoReplaceSvg
+                  ? Hi.replace
+                  : Hi[Ae.autoReplaceSvg] || Hi.replace,
+              r = Ni("mutate");
+            t.map(e), r(), i();
+          });
+      }
+    }
+    let $i = !1;
+    function Qi() {
+      $i = !0;
+    }
+    function Ui() {
+      $i = !1;
+    }
+    let Ji = null;
+    function Ki(t) {
+      if (!Pt) return;
+      if (!Ae.observeMutations) return;
+      const {
+        treeCallback: e = ji,
+        nodeCallback: i = ji,
+        pseudoElementsCallback: r = ji,
+        observeMutationsRoot: a = St
+      } = t;
+      (Ji = new Pt(t => {
+        if ($i) return;
+        const a = ci();
+        De(t).forEach(t => {
+          if (
+            ("childList" === t.type &&
+              t.addedNodes.length > 0 &&
+              !Ri(t.addedNodes[0]) &&
+              (Ae.searchPseudoElements && r(t.target), e(t.target)),
+            "attributes" === t.type &&
+              t.target.parentNode &&
+              Ae.searchPseudoElements &&
+              r(t.target.parentNode),
+            "attributes" === t.type &&
+              Ri(t.target) &&
+              ~ye.indexOf(t.attributeName))
+          )
+            if (
+              "class" === t.attributeName &&
+              (function (t) {
+                const e = t.getAttribute ? t.getAttribute(te) : null,
+                  i = t.getAttribute ? t.getAttribute(ee) : null;
+                return e && i;
+              })(t.target)
+            ) {
+              const {prefix: e, iconName: i} = fi(Ce(t.target));
+              t.target.setAttribute(te, e || a),
+                i && t.target.setAttribute(ee, i);
+            } else
+              (n = t.target) &&
+                n.classList &&
+                n.classList.contains &&
+                n.classList.contains(Ae.replacementClass) &&
+                i(t.target);
+          var n;
+        });
+      })),
+        Ct &&
+          Ji.observe(a, {
+            childList: !0,
+            attributes: !0,
+            characterData: !0,
+            subtree: !0
+          });
+    }
+    function Xi(t) {
+      const e = t.getAttribute("data-prefix"),
+        i = t.getAttribute("data-icon"),
+        r = void 0 !== t.innerText ? t.innerText.trim() : "";
+      let a = fi(Ce(t));
+      return (
+        a.prefix || (a.prefix = ci()),
+        e && i && ((a.prefix = e), (a.iconName = i)),
+        (a.iconName && a.prefix) ||
+          (a.prefix &&
+            r.length > 0 &&
+            (a.iconName =
+              (function (t, e) {
+                return (Xe[t] || {})[e];
+              })(a.prefix, t.innerText) || oi(a.prefix, Ze(t.innerText))),
+          !a.iconName &&
+            Ae.autoFetchSvg &&
+            t.firstChild &&
+            t.firstChild.nodeType === Node.TEXT_NODE &&
+            (a.iconName = t.firstChild.data)),
+        a
+      );
+    }
+    function tr(t) {
+      let e =
+        arguments.length > 1 && void 0 !== arguments[1]
+          ? arguments[1]
+          : {styleParser: !0};
+      const {iconName: i, prefix: r, rest: a} = Xi(t),
+        n = (function (t) {
+          const e = De(t.attributes).reduce(
+              (t, e) => (
+                "class" !== t.name &&
+                  "style" !== t.name &&
+                  (t[e.name] = e.value),
+                t
+              ),
+              {}
+            ),
+            i = t.getAttribute("title"),
+            r = t.getAttribute("data-fa-title-id");
+          return (
+            Ae.autoA11y &&
+              (i
+                ? (e["aria-labelledby"] = ""
+                    .concat(Ae.replacementClass, "-title-")
+                    .concat(r || Pe()))
+                : ((e["aria-hidden"] = "true"), (e.focusable = "false"))),
+            e
+          );
+        })(t),
+        o = vi("parseNodeAttributes", {}, t);
+      let s = e.styleParser
+        ? (function (t) {
+            const e = t.getAttribute("style");
+            let i = [];
+            return (
+              e &&
+                (i = e.split(";").reduce((t, e) => {
+                  const i = e.split(":"),
+                    r = i[0],
+                    a = i.slice(1);
+                  return r && a.length > 0 && (t[r] = a.join(":").trim()), t;
+                }, {})),
+              i
+            );
+          })(t)
+        : [];
+      return xt(
+        {
+          iconName: i,
+          title: t.getAttribute("title"),
+          titleId: t.getAttribute("data-fa-title-id"),
+          prefix: r,
+          transform: Se,
+          mask: {iconName: null, prefix: null, rest: []},
+          maskId: null,
+          symbol: !1,
+          extra: {classes: a, styles: s, attributes: n}
+        },
+        o
+      );
+    }
+    const {styles: er} = Le;
+    function ir(t) {
+      const e = "nest" === Ae.autoReplaceSvg ? tr(t, {styleParser: !1}) : tr(t);
+      return ~e.extra.classes.indexOf(pe)
+        ? bi("generateLayersText", t, e)
+        : bi("generateSvgReplacementMutation", t, e);
+    }
+    function rr(t) {
+      let e =
+        arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : null;
+      if (!Ct) return Promise.resolve();
+      const i = St.documentElement.classList,
+        r = t => i.add("".concat(ie, "-").concat(t)),
+        a = t => i.remove("".concat(ie, "-").concat(t)),
+        n = Ae.autoFetchSvg ? [...It, ...Ht] : Mt.concat(Object.keys(er));
+      n.includes("fa") || n.push("fa");
+      const o = [".".concat(pe, ":not([").concat(Kt, "])")]
+        .concat(n.map(t => ".".concat(t, ":not([").concat(Kt, "])")))
+        .join(", ");
+      if (0 === o.length) return Promise.resolve();
+      let s = [];
+      try {
+        s = De(t.querySelectorAll(o));
+      } catch (h) {}
+      if (!(s.length > 0)) return Promise.resolve();
+      r("pending"), a("complete");
+      const l = Ni("onTree"),
+        c = s.reduce((t, e) => {
+          try {
+            const i = ir(e);
+            i && t.push(i);
+          } catch (h) {
+            ae || ("MissingIcon" === h.name && console.error(h));
+          }
+          return t;
+        }, []);
+      return new Promise((t, i) => {
+        Promise.all(c)
+          .then(i => {
+            qi(i, () => {
+              r("active"),
+                r("complete"),
+                a("pending"),
+                "function" === typeof e && e(),
+                l(),
+                t();
+            });
+          })
+          .catch(t => {
+            l(), i(t);
+          });
+      });
+    }
+    function ar(t) {
+      let e =
+        arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : null;
+      ir(t).then(t => {
+        t && qi([t], e);
+      });
+    }
+    const nr = function (t) {
+      let e =
+        arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
+      const {
+        transform: i = Se,
+        symbol: r = !1,
+        mask: a = null,
+        maskId: n = null,
+        title: o = null,
+        titleId: s = null,
+        classes: l = [],
+        attributes: c = {},
+        styles: h = {}
+      } = e;
+      if (!t) return;
+      const {prefix: u, iconName: f, icon: d} = t;
+      return Ci(
+        xt({type: "icon"}, t),
+        () => (
+          ki("beforeDOMElementCreation", {iconDefinition: t, params: e}),
+          Ae.autoA11y &&
+            (o
+              ? (c["aria-labelledby"] = ""
+                  .concat(Ae.replacementClass, "-title-")
+                  .concat(s || Pe()))
+              : ((c["aria-hidden"] = "true"), (c.focusable = "false"))),
+          _i({
+            icons: {
+              main: Ti(d),
+              mask: a
+                ? Ti(a.icon)
+                : {found: !1, width: null, height: null, icon: {}}
+            },
+            prefix: u,
+            iconName: f,
+            transform: xt(xt({}, Se), i),
+            symbol: r,
+            title: o,
+            maskId: n,
+            titleId: s,
+            extra: {attributes: c, styles: h, classes: l}
+          })
+        )
+      );
+    };
+    var or = {
+        mixout() {
+          return {
+            icon:
+              ((t = nr),
+              function (e) {
+                let i =
+                  arguments.length > 1 && void 0 !== arguments[1]
+                    ? arguments[1]
+                    : {};
+                const r = (e || {}).icon ? e : Ai(e || {});
+                let {mask: a} = i;
+                return (
+                  a && (a = (a || {}).icon ? a : Ai(a || {})),
+                  t(r, xt(xt({}, i), {}, {mask: a}))
+                );
+              })
+          };
+          var t;
+        },
+        hooks: () => ({
+          mutationObserverCallbacks: t => (
+            (t.treeCallback = rr), (t.nodeCallback = ar), t
+          )
+        }),
+        provides(t) {
+          (t.i2svg = function (t) {
+            const {node: e = St, callback: i = () => {}} = t;
+            return rr(e, i);
+          }),
+            (t.generateSvgReplacementMutation = function (t, e) {
+              const {
+                iconName: i,
+                title: r,
+                titleId: a,
+                prefix: n,
+                transform: o,
+                symbol: s,
+                mask: l,
+                maskId: c,
+                extra: h
+              } = e;
+              return new Promise((e, u) => {
+                Promise.all([
+                  Vi(i, n),
+                  l.iconName
+                    ? Vi(l.iconName, l.prefix)
+                    : Promise.resolve({
+                        found: !1,
+                        width: 512,
+                        height: 512,
+                        icon: {}
+                      })
+                ])
+                  .then(l => {
+                    let [u, f] = l;
+                    e([
+                      t,
+                      _i({
+                        icons: {main: u, mask: f},
+                        prefix: n,
+                        iconName: i,
+                        transform: o,
+                        symbol: s,
+                        maskId: c,
+                        title: r,
+                        titleId: a,
+                        extra: h,
+                        watchable: !0
+                      })
+                    ]);
+                  })
+                  .catch(u);
+              });
+            }),
+            (t.generateAbstractIcon = function (t) {
+              let {
+                children: e,
+                attributes: i,
+                main: r,
+                transform: a,
+                styles: n
+              } = t;
+              const o = Be(n);
+              let s;
+              return (
+                o.length > 0 && (i.style = o),
+                Me(a) &&
+                  (s = bi("generateAbstractTransformGrouping", {
+                    main: r,
+                    transform: a,
+                    containerWidth: r.width,
+                    iconWidth: r.width
+                  })),
+                e.push(s || r.icon),
+                {children: e, attributes: i}
+              );
+            });
+        }
+      },
+      sr = {
+        mixout: () => ({
+          layer(t) {
+            let e =
+              arguments.length > 1 && void 0 !== arguments[1]
+                ? arguments[1]
+                : {};
+            const {classes: i = []} = e;
+            return Ci({type: "layer"}, () => {
+              ki("beforeDOMElementCreation", {assembler: t, params: e});
+              let r = [];
+              return (
+                t(t => {
+                  Array.isArray(t)
+                    ? t.map(t => {
+                        r = r.concat(t.abstract);
+                      })
+                    : (r = r.concat(t.abstract));
+                }),
+                [
+                  {
+                    tag: "span",
+                    attributes: {
+                      class: ["".concat(Ae.cssPrefix, "-layers"), ...i].join(
+                        " "
+                      )
+                    },
+                    children: r
+                  }
+                ]
+              );
+            });
+          }
+        })
+      },
+      lr = {
+        mixout: () => ({
+          counter(t) {
+            let e =
+              arguments.length > 1 && void 0 !== arguments[1]
+                ? arguments[1]
+                : {};
+            const {
+              title: i = null,
+              classes: r = [],
+              attributes: a = {},
+              styles: n = {}
+            } = e;
+            return Ci(
+              {type: "counter", content: t},
+              () => (
+                ki("beforeDOMElementCreation", {content: t, params: e}),
+                (function (t) {
+                  const {content: e, title: i, extra: r} = t,
+                    a = xt(
+                      xt(xt({}, r.attributes), i ? {title: i} : {}),
+                      {},
+                      {class: r.classes.join(" ")}
+                    ),
+                    n = Be(r.styles);
+                  n.length > 0 && (a.style = n);
+                  const o = [];
+                  return (
+                    o.push({tag: "span", attributes: a, children: [e]}),
+                    i &&
+                      o.push({
+                        tag: "span",
+                        attributes: {class: "sr-only"},
+                        children: [i]
+                      }),
+                    o
+                  );
+                })({
+                  content: t.toString(),
+                  title: i,
+                  extra: {
+                    attributes: a,
+                    styles: n,
+                    classes: ["".concat(Ae.cssPrefix, "-layers-counter"), ...r]
+                  }
+                })
+              )
+            );
+          }
+        })
+      },
+      cr = {
+        mixout: () => ({
+          text(t) {
+            let e =
+              arguments.length > 1 && void 0 !== arguments[1]
+                ? arguments[1]
+                : {};
+            const {
+              transform: i = Se,
+              title: r = null,
+              classes: a = [],
+              attributes: n = {},
+              styles: o = {}
+            } = e;
+            return Ci(
+              {type: "text", content: t},
+              () => (
+                ki("beforeDOMElementCreation", {content: t, params: e}),
+                Bi({
+                  content: t,
+                  transform: xt(xt({}, Se), i),
+                  title: r,
+                  extra: {
+                    attributes: n,
+                    styles: o,
+                    classes: ["".concat(Ae.cssPrefix, "-layers-text"), ...a]
+                  }
+                })
+              )
+            );
+          }
+        }),
+        provides(t) {
+          t.generateLayersText = function (t, e) {
+            const {title: i, transform: r, extra: a} = e;
+            let n = null,
+              o = null;
+            if (_t) {
+              const e = parseInt(getComputedStyle(t).fontSize, 10),
+                i = t.getBoundingClientRect();
+              (n = i.width / e), (o = i.height / e);
+            }
+            return (
+              Ae.autoA11y && !i && (a.attributes["aria-hidden"] = "true"),
+              Promise.resolve([
+                t,
+                Bi({
+                  content: t.innerHTML,
+                  width: n,
+                  height: o,
+                  transform: r,
+                  title: i,
+                  extra: a,
+                  watchable: !0
+                })
+              ])
+            );
+          };
+        }
+      };
+    const hr = new RegExp('"', "ug"),
+      ur = [1105920, 1112319],
+      fr = xt(
+        xt(
+          xt(xt({}, {FontAwesome: {normal: "fas", 400: "fas"}}), {
+            "Font Awesome 6 Free": {900: "fas", 400: "far"},
+            "Font Awesome 6 Pro": {
+              900: "fas",
+              400: "far",
+              normal: "far",
+              300: "fal",
+              100: "fat"
+            },
+            "Font Awesome 6 Brands": {400: "fab", normal: "fab"},
+            "Font Awesome 6 Duotone": {
+              900: "fad",
+              400: "fadr",
+              normal: "fadr",
+              300: "fadl",
+              100: "fadt"
+            },
+            "Font Awesome 6 Sharp": {
+              900: "fass",
+              400: "fasr",
+              normal: "fasr",
+              300: "fasl",
+              100: "fast"
+            },
+            "Font Awesome 6 Sharp Duotone": {
+              900: "fasds",
+              400: "fasdr",
+              normal: "fasdr",
+              300: "fasdl",
+              100: "fasdt"
+            }
+          }),
+          {
+            "Font Awesome 5 Free": {900: "fas", 400: "far"},
+            "Font Awesome 5 Pro": {
+              900: "fas",
+              400: "far",
+              normal: "far",
+              300: "fal"
+            },
+            "Font Awesome 5 Brands": {400: "fab", normal: "fab"},
+            "Font Awesome 5 Duotone": {900: "fad"}
+          }
+        ),
+        {
+          "Font Awesome Kit": {400: "fak", normal: "fak"},
+          "Font Awesome Kit Duotone": {400: "fakd", normal: "fakd"}
+        }
+      ),
+      dr = Object.keys(fr).reduce(
+        (t, e) => ((t[e.toLowerCase()] = fr[e]), t),
+        {}
+      ),
+      pr = Object.keys(dr).reduce((t, e) => {
+        const i = dr[e];
+        return (t[e] = i[900] || [...Object.entries(i)][0][1]), t;
+      }, {});
+    function mr(t, e) {
+      const i = ""
+        .concat("data-fa-pseudo-element-pending")
+        .concat(e.replace(":", "-"));
+      return new Promise((r, a) => {
+        if (null !== t.getAttribute(i)) return r();
+        const n = De(t.children).filter(t => t.getAttribute(Xt) === e)[0],
+          o = wt.getComputedStyle(t, e),
+          s = o.getPropertyValue("font-family"),
+          l = s.match(me),
+          c = o.getPropertyValue("font-weight"),
+          h = o.getPropertyValue("content");
+        if (n && !l) return t.removeChild(n), r();
+        if (l && "none" !== h && "" !== h) {
+          const h = o.getPropertyValue("content");
+          let u = (function (t, e) {
+            const i = t.replace(/^['"]|['"]$/g, "").toLowerCase(),
+              r = parseInt(e),
+              a = isNaN(r) ? "normal" : r;
+            return (dr[i] || {})[a] || pr[i];
+          })(s, c);
+          const {value: f, isSecondary: d} = (function (t) {
+              const e = t.replace(hr, ""),
+                i = (function (t, e) {
+                  const i = t.length;
+                  let r,
+                    a = t.charCodeAt(e);
+                  return a >= 55296 &&
+                    a <= 56319 &&
+                    i > e + 1 &&
+                    ((r = t.charCodeAt(e + 1)), r >= 56320 && r <= 57343)
+                    ? 1024 * (a - 55296) + r - 56320 + 65536
+                    : a;
+                })(e, 0),
+                r = i >= ur[0] && i <= ur[1],
+                a = 2 === e.length && e[0] === e[1];
+              return {value: Ze(a ? e[0] : e), isSecondary: r || a};
+            })(h),
+            p = l[0].startsWith("FontAwesome");
+          let m = oi(u, f),
+            y = m;
+          if (p) {
+            const t = (function (t) {
+              const e = ei[t],
+                i = oi("fas", t);
+              return (
+                e ||
+                (i ? {prefix: "fas", iconName: i} : null) || {
+                  prefix: null,
+                  iconName: null
+                }
+              );
+            })(f);
+            t.iconName && t.prefix && ((m = t.iconName), (u = t.prefix));
+          }
+          if (
+            !m ||
+            d ||
+            (n && n.getAttribute(te) === u && n.getAttribute(ee) === y)
+          )
+            r();
+          else {
+            t.setAttribute(i, y), n && t.removeChild(n);
+            const o = {
+                iconName: null,
+                title: null,
+                titleId: null,
+                prefix: null,
+                transform: Se,
+                symbol: !1,
+                mask: {iconName: null, prefix: null, rest: []},
+                maskId: null,
+                extra: {classes: [], styles: {}, attributes: {}}
+              },
+              {extra: s} = o;
+            (s.attributes[Xt] = e),
+              Vi(m, u)
+                .then(a => {
+                  const n = _i(
+                      xt(
+                        xt({}, o),
+                        {},
+                        {
+                          icons: {
+                            main: a,
+                            mask: {prefix: null, iconName: null, rest: []}
+                          },
+                          prefix: u,
+                          iconName: y,
+                          extra: s,
+                          watchable: !0
+                        }
+                      )
+                    ),
+                    l = St.createElementNS("http://www.w3.org/2000/svg", "svg");
+                  "::before" === e
+                    ? t.insertBefore(l, t.firstChild)
+                    : t.appendChild(l),
+                    (l.outerHTML = n.map(t => Re(t)).join("\n")),
+                    t.removeAttribute(i),
+                    r();
+                })
+                .catch(a);
+          }
+        } else r();
+      });
+    }
+    function yr(t) {
+      return Promise.all([mr(t, "::before"), mr(t, "::after")]);
+    }
+    function xr(t) {
+      return (
+        t.parentNode !== document.head &&
+        !~re.indexOf(t.tagName.toUpperCase()) &&
+        !t.getAttribute(Xt) &&
+        (!t.parentNode || "svg" !== t.parentNode.tagName)
+      );
+    }
+    function gr(t) {
+      if (Ct)
+        return new Promise((e, i) => {
+          const r = De(t.querySelectorAll("*")).filter(xr).map(yr),
+            a = Ni("searchPseudoElements");
+          Qi(),
+            Promise.all(r)
+              .then(() => {
+                a(), Ui(), e();
+              })
+              .catch(() => {
+                a(), Ui(), i();
+              });
+        });
+    }
+    var vr = {
+      hooks: () => ({
+        mutationObserverCallbacks: t => ((t.pseudoElementsCallback = gr), t)
+      }),
+      provides(t) {
+        t.pseudoElements2svg = function (t) {
+          const {node: e = St} = t;
+          Ae.searchPseudoElements && gr(e);
+        };
+      }
+    };
+    let kr = !1;
+    var br = {
+      mixout: () => ({
+        dom: {
+          unwatch() {
+            Qi(), (kr = !0);
+          }
+        }
+      }),
+      hooks: () => ({
+        bootstrap() {
+          Ki(vi("mutationObserverCallbacks", {}));
+        },
+        noAuto() {
+          Ji && Ji.disconnect();
+        },
+        watch(t) {
+          const {observeMutationsRoot: e} = t;
+          kr
+            ? Ui()
+            : Ki(vi("mutationObserverCallbacks", {observeMutationsRoot: e}));
+        }
+      })
+    };
+    const Ar = t =>
+      t
+        .toLowerCase()
+        .split(" ")
+        .reduce(
+          (t, e) => {
+            const i = e.toLowerCase().split("-"),
+              r = i[0];
+            let a = i.slice(1).join("-");
+            if (r && "h" === a) return (t.flipX = !0), t;
+            if (r && "v" === a) return (t.flipY = !0), t;
+            if (((a = parseFloat(a)), isNaN(a))) return t;
+            switch (r) {
+              case "grow":
+                t.size = t.size + a;
+                break;
+              case "shrink":
+                t.size = t.size - a;
+                break;
+              case "left":
+                t.x = t.x - a;
+                break;
+              case "right":
+                t.x = t.x + a;
+                break;
+              case "up":
+                t.y = t.y - a;
+                break;
+              case "down":
+                t.y = t.y + a;
+                break;
+              case "rotate":
+                t.rotate = t.rotate + a;
+            }
+            return t;
+          },
+          {size: 16, x: 0, y: 0, flipX: !1, flipY: !1, rotate: 0}
+        );
+    var Er = {
+      mixout: () => ({parse: {transform: t => Ar(t)}}),
+      hooks: () => ({
+        parseNodeAttributes(t, e) {
+          const i = e.getAttribute("data-fa-transform");
+          return i && (t.transform = Ar(i)), t;
+        }
+      }),
+      provides(t) {
+        t.generateAbstractTransformGrouping = function (t) {
+          let {main: e, transform: i, containerWidth: r, iconWidth: a} = t;
+          const n = {transform: "translate(".concat(r / 2, " 256)")},
+            o = "translate(".concat(32 * i.x, ", ").concat(32 * i.y, ") "),
+            s = "scale("
+              .concat((i.size / 16) * (i.flipX ? -1 : 1), ", ")
+              .concat((i.size / 16) * (i.flipY ? -1 : 1), ") "),
+            l = "rotate(".concat(i.rotate, " 0 0)"),
+            c = {
+              outer: n,
+              inner: {transform: "".concat(o, " ").concat(s, " ").concat(l)},
+              path: {transform: "translate(".concat((a / 2) * -1, " -256)")}
+            };
+          return {
+            tag: "g",
+            attributes: xt({}, c.outer),
+            children: [
+              {
+                tag: "g",
+                attributes: xt({}, c.inner),
+                children: [
+                  {
+                    tag: e.icon.tag,
+                    children: e.icon.children,
+                    attributes: xt(xt({}, e.icon.attributes), c.path)
+                  }
+                ]
+              }
+            ]
+          };
+        };
+      }
+    };
+    const wr = {x: 0, y: 0, width: "100%", height: "100%"};
+    function Sr(t) {
+      let e =
+        !(arguments.length > 1 && void 0 !== arguments[1]) || arguments[1];
+      return (
+        t.attributes &&
+          (t.attributes.fill || e) &&
+          (t.attributes.fill = "black"),
+        t
+      );
+    }
+    var Pr = {
+        hooks: () => ({
+          parseNodeAttributes(t, e) {
+            const i = e.getAttribute("data-fa-mask"),
+              r = i
+                ? fi(i.split(" ").map(t => t.trim()))
+                : {prefix: null, iconName: null, rest: []};
+            return (
+              r.prefix || (r.prefix = ci()),
+              (t.mask = r),
+              (t.maskId = e.getAttribute("data-fa-mask-id")),
+              t
+            );
+          }
+        }),
+        provides(t) {
+          t.generateAbstractMask = function (t) {
+            let {
+              children: e,
+              attributes: i,
+              main: r,
+              mask: a,
+              maskId: n,
+              transform: o
+            } = t;
+            const {width: s, icon: l} = r,
+              {width: c, icon: h} = a,
+              u = (function (t) {
+                let {transform: e, containerWidth: i, iconWidth: r} = t;
+                const a = {transform: "translate(".concat(i / 2, " 256)")},
+                  n = "translate("
+                    .concat(32 * e.x, ", ")
+                    .concat(32 * e.y, ") "),
+                  o = "scale("
+                    .concat((e.size / 16) * (e.flipX ? -1 : 1), ", ")
+                    .concat((e.size / 16) * (e.flipY ? -1 : 1), ") "),
+                  s = "rotate(".concat(e.rotate, " 0 0)");
+                return {
+                  outer: a,
+                  inner: {
+                    transform: "".concat(n, " ").concat(o, " ").concat(s)
+                  },
+                  path: {transform: "translate(".concat((r / 2) * -1, " -256)")}
+                };
+              })({transform: o, containerWidth: c, iconWidth: s}),
+              f = {
+                tag: "rect",
+                attributes: xt(xt({}, wr), {}, {fill: "white"})
+              },
+              d = l.children ? {children: l.children.map(Sr)} : {},
+              p = {
+                tag: "g",
+                attributes: xt({}, u.inner),
+                children: [
+                  Sr(
+                    xt(
+                      {
+                        tag: l.tag,
+                        attributes: xt(xt({}, l.attributes), u.path)
+                      },
+                      d
+                    )
+                  )
+                ]
+              },
+              m = {tag: "g", attributes: xt({}, u.outer), children: [p]},
+              y = "mask-".concat(n || Pe()),
+              x = "clip-".concat(n || Pe()),
+              g = {
+                tag: "mask",
+                attributes: xt(
+                  xt({}, wr),
+                  {},
+                  {
+                    id: y,
+                    maskUnits: "userSpaceOnUse",
+                    maskContentUnits: "userSpaceOnUse"
+                  }
+                ),
+                children: [f, m]
+              },
+              v = {
+                tag: "defs",
+                children: [
+                  {
+                    tag: "clipPath",
+                    attributes: {id: x},
+                    children: ((k = h), "g" === k.tag ? k.children : [k])
+                  },
+                  g
+                ]
+              };
+            var k;
+            return (
+              e.push(v, {
+                tag: "rect",
+                attributes: xt(
+                  {
+                    fill: "currentColor",
+                    "clip-path": "url(#".concat(x, ")"),
+                    mask: "url(#".concat(y, ")")
+                  },
+                  wr
+                )
+              }),
+              {children: e, attributes: i}
+            );
+          };
+        }
+      },
+      Dr = {
+        provides(t) {
+          let e = !1;
+          wt.matchMedia &&
+            (e = wt.matchMedia("(prefers-reduced-motion: reduce)").matches),
+            (t.missingIconAbstract = function () {
+              const t = [],
+                i = {fill: "currentColor"},
+                r = {
+                  attributeType: "XML",
+                  repeatCount: "indefinite",
+                  dur: "2s"
+                };
+              t.push({
+                tag: "path",
+                attributes: xt(
+                  xt({}, i),
+                  {},
+                  {
+                    d: "M156.5,447.7l-12.6,29.5c-18.7-9.5-35.9-21.2-51.5-34.9l22.7-22.7C127.6,430.5,141.5,440,156.5,447.7z M40.6,272H8.5 c1.4,21.2,5.4,41.7,11.7,61.1L50,321.2C45.1,305.5,41.8,289,40.6,272z M40.6,240c1.4-18.8,5.2-37,11.1-54.1l-29.5-12.6 C14.7,194.3,10,216.7,8.5,240H40.6z M64.3,156.5c7.8-14.9,17.2-28.8,28.1-41.5L69.7,92.3c-13.7,15.6-25.5,32.8-34.9,51.5 L64.3,156.5z M397,419.6c-13.9,12-29.4,22.3-46.1,30.4l11.9,29.8c20.7-9.9,39.8-22.6,56.9-37.6L397,419.6z M115,92.4 c13.9-12,29.4-22.3,46.1-30.4l-11.9-29.8c-20.7,9.9-39.8,22.6-56.8,37.6L115,92.4z M447.7,355.5c-7.8,14.9-17.2,28.8-28.1,41.5 l22.7,22.7c13.7-15.6,25.5-32.9,34.9-51.5L447.7,355.5z M471.4,272c-1.4,18.8-5.2,37-11.1,54.1l29.5,12.6 c7.5-21.1,12.2-43.5,13.6-66.8H471.4z M321.2,462c-15.7,5-32.2,8.2-49.2,9.4v32.1c21.2-1.4,41.7-5.4,61.1-11.7L321.2,462z M240,471.4c-18.8-1.4-37-5.2-54.1-11.1l-12.6,29.5c21.1,7.5,43.5,12.2,66.8,13.6V471.4z M462,190.8c5,15.7,8.2,32.2,9.4,49.2h32.1 c-1.4-21.2-5.4-41.7-11.7-61.1L462,190.8z M92.4,397c-12-13.9-22.3-29.4-30.4-46.1l-29.8,11.9c9.9,20.7,22.6,39.8,37.6,56.9 L92.4,397z M272,40.6c18.8,1.4,36.9,5.2,54.1,11.1l12.6-29.5C317.7,14.7,295.3,10,272,8.5V40.6z M190.8,50 c15.7-5,32.2-8.2,49.2-9.4V8.5c-21.2,1.4-41.7,5.4-61.1,11.7L190.8,50z M442.3,92.3L419.6,115c12,13.9,22.3,29.4,30.5,46.1 l29.8-11.9C470,128.5,457.3,109.4,442.3,92.3z M397,92.4l22.7-22.7c-15.6-13.7-32.8-25.5-51.5-34.9l-12.6,29.5 C370.4,72.1,384.4,81.5,397,92.4z"
+                  }
+                )
+              });
+              const a = xt(xt({}, r), {}, {attributeName: "opacity"}),
+                n = {
+                  tag: "circle",
+                  attributes: xt(
+                    xt({}, i),
+                    {},
+                    {cx: "256", cy: "364", r: "28"}
+                  ),
+                  children: []
+                };
+              return (
+                e ||
+                  n.children.push(
+                    {
+                      tag: "animate",
+                      attributes: xt(
+                        xt({}, r),
+                        {},
+                        {attributeName: "r", values: "28;14;28;28;14;28;"}
+                      )
+                    },
+                    {
+                      tag: "animate",
+                      attributes: xt(xt({}, a), {}, {values: "1;0;1;1;0;1;"})
+                    }
+                  ),
+                t.push(n),
+                t.push({
+                  tag: "path",
+                  attributes: xt(
+                    xt({}, i),
+                    {},
+                    {
+                      opacity: "1",
+                      d: "M263.7,312h-16c-6.6,0-12-5.4-12-12c0-71,77.4-63.9,77.4-107.8c0-20-17.8-40.2-57.4-40.2c-29.1,0-44.3,9.6-59.2,28.7 c-3.9,5-11.1,6-16.2,2.4l-13.1-9.2c-5.6-3.9-6.9-11.8-2.6-17.2c21.2-27.2,46.4-44.7,91.2-44.7c52.3,0,97.4,29.8,97.4,80.2 c0,67.6-77.4,63.5-77.4,107.8C275.7,306.6,270.3,312,263.7,312z"
+                    }
+                  ),
+                  children: e
+                    ? []
+                    : [
+                        {
+                          tag: "animate",
+                          attributes: xt(
+                            xt({}, a),
+                            {},
+                            {values: "1;0;0;0;0;1;"}
+                          )
+                        }
+                      ]
+                }),
+                e ||
+                  t.push({
+                    tag: "path",
+                    attributes: xt(
+                      xt({}, i),
+                      {},
+                      {
+                        opacity: "0",
+                        d: "M232.5,134.5l7,168c0.3,6.4,5.6,11.5,12,11.5h9c6.4,0,11.7-5.1,12-11.5l7-168c0.3-6.8-5.2-12.5-12-12.5h-23 C237.7,122,232.2,127.7,232.5,134.5z"
+                      }
+                    ),
+                    children: [
+                      {
+                        tag: "animate",
+                        attributes: xt(xt({}, a), {}, {values: "0;0;1;1;0;0;"})
+                      }
+                    ]
+                  }),
+                {tag: "g", attributes: {class: "missing"}, children: t}
+              );
+            });
+        }
+      };
+    !(function (t, e) {
+      let {mixoutsTo: i} = e;
+      (mi = t),
+        (yi = {}),
+        Object.keys(xi).forEach(t => {
+          -1 === gi.indexOf(t) && delete xi[t];
+        }),
+        mi.forEach(t => {
+          const e = t.mixout ? t.mixout() : {};
+          if (
+            (Object.keys(e).forEach(t => {
+              "function" === typeof e[t] && (i[t] = e[t]),
+                "object" === typeof e[t] &&
+                  Object.keys(e[t]).forEach(r => {
+                    i[t] || (i[t] = {}), (i[t][r] = e[t][r]);
+                  });
+            }),
+            t.hooks)
+          ) {
+            const e = t.hooks();
+            Object.keys(e).forEach(t => {
+              yi[t] || (yi[t] = []), yi[t].push(e[t]);
+            });
+          }
+          t.provides && t.provides(xi);
+        });
+    })(
+      [
+        Ge,
+        or,
+        sr,
+        lr,
+        cr,
+        vr,
+        br,
+        Er,
+        Pr,
+        Dr,
+        {
+          hooks: () => ({
+            parseNodeAttributes(t, e) {
+              const i = e.getAttribute("data-fa-symbol"),
+                r = null !== i && ("" === i || i);
+              return (t.symbol = r), t;
+            }
+          })
+        }
+      ],
+      {mixoutsTo: Pi}
+    );
+    const Cr = Pi.parse,
+      _r = Pi.icon;
+    function Br(t, e) {
+      var i = Object.keys(t);
+      if (Object.getOwnPropertySymbols) {
+        var r = Object.getOwnPropertySymbols(t);
+        e &&
+          (r = r.filter(function (e) {
+            return Object.getOwnPropertyDescriptor(t, e).enumerable;
+          })),
+          i.push.apply(i, r);
+      }
+      return i;
+    }
+    function Mr(t) {
+      for (var e = 1; e < arguments.length; e++) {
+        var i = null != arguments[e] ? arguments[e] : {};
+        e % 2
+          ? Br(Object(i), !0).forEach(function (e) {
+              Fr(t, e, i[e]);
+            })
+          : Object.getOwnPropertyDescriptors
+          ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(i))
+          : Br(Object(i)).forEach(function (e) {
+              Object.defineProperty(
+                t,
+                e,
+                Object.getOwnPropertyDescriptor(i, e)
+              );
+            });
+      }
+      return t;
+    }
+    function Tr(t) {
+      return (
+        (Tr =
+          "function" == typeof Symbol && "symbol" == typeof Symbol.iterator
+            ? function (t) {
+                return typeof t;
+              }
+            : function (t) {
+                return t &&
+                  "function" == typeof Symbol &&
+                  t.constructor === Symbol &&
+                  t !== Symbol.prototype
+                  ? "symbol"
+                  : typeof t;
+              }),
+        Tr(t)
+      );
+    }
+    function Fr(t, e, i) {
+      return (
+        e in t
+          ? Object.defineProperty(t, e, {
+              value: i,
+              enumerable: !0,
+              configurable: !0,
+              writable: !0
+            })
+          : (t[e] = i),
+        t
+      );
+    }
+    function Vr(t, e) {
+      if (null == t) return {};
+      var i,
+        r,
+        a = (function (t, e) {
+          if (null == t) return {};
+          var i,
+            r,
+            a = {},
+            n = Object.keys(t);
+          for (r = 0; r < n.length; r++)
+            (i = n[r]), e.indexOf(i) >= 0 || (a[i] = t[i]);
+          return a;
+        })(t, e);
+      if (Object.getOwnPropertySymbols) {
+        var n = Object.getOwnPropertySymbols(t);
+        for (r = 0; r < n.length; r++)
+          (i = n[r]),
+            e.indexOf(i) >= 0 ||
+              (Object.prototype.propertyIsEnumerable.call(t, i) &&
+                (a[i] = t[i]));
+      }
+      return a;
+    }
+    function Gr(t) {
+      return (
+        (function (t) {
+          if (Array.isArray(t)) return Ir(t);
+        })(t) ||
+        (function (t) {
+          if (
+            ("undefined" !== typeof Symbol && null != t[Symbol.iterator]) ||
+            null != t["@@iterator"]
+          )
+            return Array.from(t);
+        })(t) ||
+        (function (t, e) {
+          if (!t) return;
+          if ("string" === typeof t) return Ir(t, e);
+          var i = Object.prototype.toString.call(t).slice(8, -1);
+          "Object" === i && t.constructor && (i = t.constructor.name);
+          if ("Map" === i || "Set" === i) return Array.from(t);
+          if (
+            "Arguments" === i ||
+            /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(i)
+          )
+            return Ir(t, e);
+        })(t) ||
+        (function () {
+          throw new TypeError(
+            "Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."
+          );
+        })()
+      );
+    }
+    function Ir(t, e) {
+      (null == e || e > t.length) && (e = t.length);
+      for (var i = 0, r = new Array(e); i < e; i++) r[i] = t[i];
+      return r;
+    }
+    function Lr(t) {
+      return (
+        (e = t),
+        (e -= 0) === e
+          ? t
+          : (t = t.replace(/[\-_\s]+(.)?/g, function (t, e) {
+              return e ? e.toUpperCase() : "";
+            }))
+              .substr(0, 1)
+              .toLowerCase() + t.substr(1)
+      );
+      var e;
+    }
+    var Or = ["style"];
+    var Nr = !1;
+    try {
+      Nr = !0;
+    } catch (M) {}
+    function jr(t) {
+      return t && "object" === Tr(t) && t.prefix && t.iconName && t.icon
+        ? t
+        : Cr.icon
+        ? Cr.icon(t)
+        : null === t
+        ? null
+        : t && "object" === Tr(t) && t.prefix && t.iconName
+        ? t
+        : Array.isArray(t) && 2 === t.length
+        ? {prefix: t[0], iconName: t[1]}
+        : "string" === typeof t
+        ? {prefix: "fas", iconName: t}
+        : void 0;
+    }
+    function Rr(t, e) {
+      return (Array.isArray(e) && e.length > 0) || (!Array.isArray(e) && e)
+        ? Fr({}, t, e)
+        : {};
+    }
+    var zr = {
+        border: !1,
+        className: "",
+        mask: null,
+        maskId: null,
+        fixedWidth: !1,
+        inverse: !1,
+        flip: !1,
+        icon: null,
+        listItem: !1,
+        pull: null,
+        pulse: !1,
+        rotation: null,
+        size: null,
+        spin: !1,
+        spinPulse: !1,
+        spinReverse: !1,
+        beat: !1,
+        fade: !1,
+        beatFade: !1,
+        bounce: !1,
+        shake: !1,
+        symbol: !1,
+        title: "",
+        titleId: null,
+        transform: null,
+        swapOpacity: !1
+      },
+      Yr = t.forwardRef(function (t, e) {
+        var i = Mr(Mr({}, zr), t),
+          r = i.icon,
+          a = i.mask,
+          n = i.symbol,
+          o = i.className,
+          s = i.title,
+          l = i.titleId,
+          c = i.maskId,
+          h = jr(r),
+          u = Rr(
+            "classes",
+            [].concat(
+              Gr(
+                (function (t) {
+                  var e,
+                    i = t.beat,
+                    r = t.fade,
+                    a = t.beatFade,
+                    n = t.bounce,
+                    o = t.shake,
+                    s = t.flash,
+                    l = t.spin,
+                    c = t.spinPulse,
+                    h = t.spinReverse,
+                    u = t.pulse,
+                    f = t.fixedWidth,
+                    d = t.inverse,
+                    p = t.border,
+                    m = t.listItem,
+                    y = t.flip,
+                    x = t.size,
+                    g = t.rotation,
+                    v = t.pull,
+                    k =
+                      (Fr(
+                        (e = {
+                          "fa-beat": i,
+                          "fa-fade": r,
+                          "fa-beat-fade": a,
+                          "fa-bounce": n,
+                          "fa-shake": o,
+                          "fa-flash": s,
+                          "fa-spin": l,
+                          "fa-spin-reverse": h,
+                          "fa-spin-pulse": c,
+                          "fa-pulse": u,
+                          "fa-fw": f,
+                          "fa-inverse": d,
+                          "fa-border": p,
+                          "fa-li": m,
+                          "fa-flip": !0 === y,
+                          "fa-flip-horizontal":
+                            "horizontal" === y || "both" === y,
+                          "fa-flip-vertical": "vertical" === y || "both" === y
+                        }),
+                        "fa-".concat(x),
+                        "undefined" !== typeof x && null !== x
+                      ),
+                      Fr(
+                        e,
+                        "fa-rotate-".concat(g),
+                        "undefined" !== typeof g && null !== g && 0 !== g
+                      ),
+                      Fr(
+                        e,
+                        "fa-pull-".concat(v),
+                        "undefined" !== typeof v && null !== v
+                      ),
+                      Fr(e, "fa-swap-opacity", t.swapOpacity),
+                      e);
+                  return Object.keys(k)
+                    .map(function (t) {
+                      return k[t] ? t : null;
+                    })
+                    .filter(function (t) {
+                      return t;
+                    });
+                })(i)
+              ),
+              Gr((o || "").split(" "))
+            )
+          ),
+          f = Rr(
+            "transform",
+            "string" === typeof i.transform
+              ? Cr.transform(i.transform)
+              : i.transform
+          ),
+          d = Rr("mask", jr(a)),
+          p = _r(
+            h,
+            Mr(
+              Mr(Mr(Mr({}, u), f), d),
+              {},
+              {symbol: n, title: s, titleId: l, maskId: c}
+            )
+          );
+        if (!p)
+          return (
+            (function () {
+              var t;
+              !Nr &&
+                console &&
+                "function" === typeof console.error &&
+                (t = console).error.apply(t, arguments);
+            })("Could not find icon", h),
+            null
+          );
+        var m = p.abstract,
+          y = {ref: e};
+        return (
+          Object.keys(i).forEach(function (t) {
+            zr.hasOwnProperty(t) || (y[t] = i[t]);
+          }),
+          Zr(m[0], y)
+        );
+      });
+    (Yr.displayName = "FontAwesomeIcon"),
+      (Yr.propTypes = {
+        beat: nt().bool,
+        border: nt().bool,
+        beatFade: nt().bool,
+        bounce: nt().bool,
+        className: nt().string,
+        fade: nt().bool,
+        flash: nt().bool,
+        mask: nt().oneOfType([nt().object, nt().array, nt().string]),
+        maskId: nt().string,
+        fixedWidth: nt().bool,
+        inverse: nt().bool,
+        flip: nt().oneOf([!0, !1, "horizontal", "vertical", "both"]),
+        icon: nt().oneOfType([nt().object, nt().array, nt().string]),
+        listItem: nt().bool,
+        pull: nt().oneOf(["right", "left"]),
+        pulse: nt().bool,
+        rotation: nt().oneOf([0, 90, 180, 270]),
+        shake: nt().bool,
+        size: nt().oneOf([
+          "2xs",
+          "xs",
+          "sm",
+          "lg",
+          "xl",
+          "2xl",
+          "1x",
+          "2x",
+          "3x",
+          "4x",
+          "5x",
+          "6x",
+          "7x",
+          "8x",
+          "9x",
+          "10x"
+        ]),
+        spin: nt().bool,
+        spinPulse: nt().bool,
+        spinReverse: nt().bool,
+        symbol: nt().oneOfType([nt().bool, nt().string]),
+        title: nt().string,
+        titleId: nt().string,
+        transform: nt().oneOfType([nt().string, nt().object]),
+        swapOpacity: nt().bool
+      });
+    var Zr = function t(e, i) {
+      var r =
+        arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : {};
+      if ("string" === typeof i) return i;
+      var a = (i.children || []).map(function (i) {
+          return t(e, i);
+        }),
+        n = Object.keys(i.attributes || {}).reduce(
+          function (t, e) {
+            var r = i.attributes[e];
+            switch (e) {
+              case "class":
+                (t.attrs.className = r), delete i.attributes.class;
+                break;
+              case "style":
+                t.attrs.style = r
+                  .split(";")
+                  .map(function (t) {
+                    return t.trim();
+                  })
+                  .filter(function (t) {
+                    return t;
+                  })
+                  .reduce(function (t, e) {
+                    var i,
+                      r = e.indexOf(":"),
+                      a = Lr(e.slice(0, r)),
+                      n = e.slice(r + 1).trim();
+                    return (
+                      a.startsWith("webkit")
+                        ? (t[
+                            ((i = a), i.charAt(0).toUpperCase() + i.slice(1))
+                          ] = n)
+                        : (t[a] = n),
+                      t
+                    );
+                  }, {});
+                break;
+              default:
+                0 === e.indexOf("aria-") || 0 === e.indexOf("data-")
+                  ? (t.attrs[e.toLowerCase()] = r)
+                  : (t.attrs[Lr(e)] = r);
+            }
+            return t;
+          },
+          {attrs: {}}
+        ),
+        o = r.style,
+        s = void 0 === o ? {} : o,
+        l = Vr(r, Or);
+      return (
+        (n.attrs.style = Mr(Mr({}, n.attrs.style), s)),
+        e.apply(void 0, [i.tag, Mr(Mr({}, n.attrs), l)].concat(Gr(a)))
+      );
+    }.bind(null, t.createElement);
+    const Hr = {
+      prefix: "fab",
+      iconName: "square-whatsapp",
+      icon: [
+        448,
+        512,
+        ["whatsapp-square"],
+        "f40c",
+        "M92.1 254.6c0 24.9 7 49.2 20.2 70.1l3.1 5-13.3 48.6L152 365.2l4.8 2.9c20.2 12 43.4 18.4 67.1 18.4h.1c72.6 0 133.3-59.1 133.3-131.8c0-35.2-15.2-68.3-40.1-93.2c-25-25-58-38.7-93.2-38.7c-72.7 0-131.8 59.1-131.9 131.8zM274.8 330c-12.6 1.9-22.4 .9-47.5-9.9c-36.8-15.9-61.8-51.5-66.9-58.7c-.4-.6-.7-.9-.8-1.1c-2-2.6-16.2-21.5-16.2-41c0-18.4 9-27.9 13.2-32.3c.3-.3 .5-.5 .7-.8c3.6-4 7.9-5 10.6-5c2.6 0 5.3 0 7.6 .1c.3 0 .5 0 .8 0c2.3 0 5.2 0 8.1 6.8c1.2 2.9 3 7.3 4.9 11.8c3.3 8 6.7 16.3 7.3 17.6c1 2 1.7 4.3 .3 6.9c-3.4 6.8-6.9 10.4-9.3 13c-3.1 3.2-4.5 4.7-2.3 8.6c15.3 26.3 30.6 35.4 53.9 47.1c4 2 6.3 1.7 8.6-1c2.3-2.6 9.9-11.6 12.5-15.5c2.6-4 5.3-3.3 8.9-2s23.1 10.9 27.1 12.9c.8 .4 1.5 .7 2.1 1c2.8 1.4 4.7 2.3 5.5 3.6c.9 1.9 .9 9.9-2.4 19.1c-3.3 9.3-19.1 17.7-26.7 18.8zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM148.1 393.9L64 416l22.5-82.2c-13.9-24-21.2-51.3-21.2-79.3C65.4 167.1 136.5 96 223.9 96c42.4 0 82.2 16.5 112.2 46.5c29.9 30 47.9 69.8 47.9 112.2c0 87.4-72.7 158.5-160.1 158.5c-26.6 0-52.7-6.7-75.8-19.3z"
+      ]
+    };
+    const Wr = {
+      prefix: "fas",
+      iconName: "square-envelope",
+      icon: [
+        448,
+        512,
+        ["envelope-square"],
+        "f199",
+        "M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM218 271.7L64.2 172.4C66 156.4 79.5 144 96 144l256 0c16.5 0 30 12.4 31.8 28.4L230 271.7c-1.8 1.2-3.9 1.8-6 1.8s-4.2-.6-6-1.8zm29.4 26.9L384 210.4 384 336c0 17.7-14.3 32-32 32L96 368c-17.7 0-32-14.3-32-32l0-125.6 136.6 88.2c7 4.5 15.1 6.9 23.4 6.9s16.4-2.4 23.4-6.9z"
+      ]
+    };
+    function qr() {
       const {isDark: e} = (0, t.useContext)(l),
         i = u.r_.number.replace(/\D/g, ""),
         r = u.r_.email_address.replace(/[+\s\ud83d\udce7]/g, "");
-      return (0, c.jsx)(f.zW, {
+      return (0, c.jsx)(d.zW, {
         bottom: !0,
         duration: 1e3,
         distance: "20px",
@@ -37076,26 +40005,38 @@
                       u.r_.number &&
                         (0, c.jsxs)(c.Fragment, {
                           children: [
-                            (0, c.jsx)("a", {
+                            (0, c.jsxs)("a", {
                               className: "contact-detail",
                               href:
                                 "https://wa.me/" +
                                 i +
-                                "?text=Halo,%20Saya%20ingin%20bertanya%20tentang%20produk%20Anda%20...",
-                              children: u.r_.number
+                                "?text=Halo%20Liant,%20Saya%20tertarik%20untuk%20bekerja%20sama%20terkait%20...",
+                              children: [
+                                (0, c.jsx)(Yr, {
+                                  icon: Hr,
+                                  style: {marginRight: "8px"}
+                                }),
+                                u.r_.number
+                              ]
                             }),
                             (0, c.jsx)("br", {}),
                             (0, c.jsx)("br", {})
                           ]
                         }),
-                      (0, c.jsx)("a", {
+                      (0, c.jsxs)("a", {
                         className: "contact-detail-email",
                         href: "mailto:" + r,
-                        children: u.r_.email_address
+                        children: [
+                          (0, c.jsx)(Yr, {
+                            icon: Wr,
+                            style: {marginRight: "8px"}
+                          }),
+                          u.r_.email_address
+                        ]
                       }),
                       (0, c.jsx)("br", {}),
                       (0, c.jsx)("br", {}),
-                      (0, c.jsx)(k.A, {})
+                      (0, c.jsx)(v.A, {})
                     ]
                   })
                 ]
@@ -37114,12 +40055,12 @@
         })
       });
     }
-    const yt = (0, t.lazy)(() =>
+    const $r = (0, t.lazy)(() =>
       __webpack_require__
         .e(678)
         .then(__webpack_require__.bind(__webpack_require__, 3678))
     );
-    function xt() {
+    function Qr() {
       const [e, i] = (0, t.useState)([]);
       function r(t) {
         i(t);
@@ -37150,12 +40091,12 @@
         !("string" === typeof e || e instanceof String)
           ? (0, c.jsx)(t.Suspense, {
               fallback: (0, c.jsx)(x, {}),
-              children: (0, c.jsx)(yt, {prof: e}, e.id)
+              children: (0, c.jsx)($r, {prof: e}, e.id)
             })
-          : (0, c.jsx)(mt, {})
+          : (0, c.jsx)(qr, {})
       );
     }
-    function gt() {
+    function Ur() {
       const {isDark: e} = (0, t.useContext)(l);
       return (0, c.jsxs)("div", {
         className: e ? "dark-mode splash-container" : "splash-container",
@@ -37178,7 +40119,7 @@
         ]
       });
     }
-    const kt = () => {
+    const Jr = () => {
       const e = window.matchMedia("(prefers-color-scheme: dark)"),
         [i, r] = ((e, i) => {
           const [r, a] = (0, t.useState)(() => {
@@ -37221,23 +40162,23 @@
           },
           children:
             a && u.Qw.enabled
-              ? (0, c.jsx)(gt, {})
+              ? (0, c.jsx)(Ur, {})
               : (0, c.jsxs)(c.Fragment, {
                   children: [
-                    (0, c.jsx)(d, {}),
+                    (0, c.jsx)(f, {}),
                     (0, c.jsx)(b, {}),
                     (0, c.jsx)(w, {}),
-                    (0, c.jsx)(D, {}),
+                    (0, c.jsx)(P, {}),
                     (0, c.jsx)(W, {}),
                     (0, c.jsx)(V, {}),
                     (0, c.jsx)(G, {}),
                     (0, c.jsx)(I, {}),
                     (0, c.jsx)(O, {}),
                     (0, c.jsx)(j, {}),
-                    (0, c.jsx)(Z, {}),
-                    (0, c.jsx)(ft, {}),
                     (0, c.jsx)(Y, {}),
-                    (0, c.jsx)(xt, {}),
+                    (0, c.jsx)(dt, {}),
+                    (0, c.jsx)(Z, {}),
+                    (0, c.jsx)(Qr, {}),
                     (0, c.jsx)(R, {}),
                     (0, c.jsx)(q, {})
                   ]
@@ -37245,8 +40186,8 @@
         })
       });
     };
-    const vt = function () {
-      return (0, c.jsx)("div", {children: (0, c.jsx)(kt, {})});
+    const Kr = function () {
+      return (0, c.jsx)("div", {children: (0, c.jsx)(Jr, {})});
     };
     Boolean(
       "localhost" === window.location.hostname ||
@@ -37255,11 +40196,11 @@
           /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
         )
     );
-    e.render((0, c.jsx)(vt, {}), document.getElementById("root")),
+    e.render((0, c.jsx)(Kr, {}), document.getElementById("root")),
       "serviceWorker" in navigator &&
         navigator.serviceWorker.ready.then(t => {
           t.unregister();
         });
   })();
 })();
-//# sourceMappingURL=main.8e65bafa.js.map
+//# sourceMappingURL=main.4a8148d6.js.map
