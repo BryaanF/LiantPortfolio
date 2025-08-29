@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Brilliant Fikri",
+  username: "Brilliant X Boniface",
   title: "Hello, I'm Liant",
   subTitle: emoji(
     "I am a Full Stack Application Developer 🚀 having an experience of building Web, Mobile, and Desktop Applications with JavaScript (Express, React, React Native) / PHP (Laravel, CodeIgniter) / Java and some other cool libraries and frameworks."
