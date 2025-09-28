@@ -1,4 +1,4 @@
-/*! For license information please see main.27c9a2ce.js.LICENSE.txt */
+/*! For license information please see main.aa6b0955.js.LICENSE.txt */
 (() => {
   var __webpack_modules__ = {
       3401: (t, e, i) => {
@@ -190,10 +190,10 @@
           },
           o = {animated: !0},
           s = {
-            username: "Brilliant Fikri",
+            username: "Brilliant X Boniface",
             title: "Hello, I'm Liant",
             subTitle: a()(
-              "I am a Full Stack Application Developer \ud83d\ude80 having an experience of building Web, Mobile, and Desktop Applications with JavaScript (Express, React, React Native) / PHP (Laravel, CodeIgniter) / Java and some other cool libraries and frameworks."
+              "\ud83d\ude80 I am a Full Stack Application Developer that can help you to build amazing Web, Mobile, and Desktop Applications with JavaScript (Express, React, React Native) / PHP (Laravel, CodeIgniter) / Java and some other cool libraries and frameworks."
             ),
             resumeLink:
               "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link",
@@ -213,7 +213,7 @@
           c = {
             title: "What I do as a professional \ud83d\udcbb",
             subTitle:
-              "I do UI / UX and Full - Stack Applications Development to help companies and individuals to achieve their goals!",
+              "I do end to end software development process from UI / UX to Full - Stack Applications Development until The Application Testing Process and do maintenance and support for the service if needed. All of that to help companies and individuals to achieve their ultimate goals and give the solution for the IT services they need!",
             skills: [
               a()(
                 "\u26a1 Develop responsive and user friendly applications match your needs"
@@ -223,6 +223,9 @@
               ),
               a()(
                 "\u26a1 Setting up and managing SQL or NoSQL databases based on the application's requirements"
+              ),
+              a()(
+                "\u26a1 Give the support of IT infrastructure development and maintenance"
               )
             ],
             softwareSkills: [
@@ -256,12 +259,10 @@
                 Stack: "Website Development (Full-Stack)",
                 progressPercentage: "90%"
               },
-              {
-                Stack: "Network Engineering / IT Support",
-                progressPercentage: "80%"
-              },
+              {Stack: "Network Engineering", progressPercentage: "80%"},
+              {Stack: "IT Support", progressPercentage: "70%"},
               {Stack: "UI / UX Design", progressPercentage: "60%"},
-              {Stack: "Android Development", progressPercentage: "30%"}
+              {Stack: "Android Development", progressPercentage: "50%"}
             ],
             displayCodersrank: !1
           },
@@ -40247,4 +40248,4 @@
         });
   })();
 })();
-//# sourceMappingURL=main.27c9a2ce.js.map
+//# sourceMappingURL=main.aa6b0955.js.map
