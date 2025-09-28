@@ -23,7 +23,7 @@ const greeting = {
   username: "Brilliant X Boniface",
   title: "Hello, I'm Liant",
   subTitle: emoji(
-    "I am a Full Stack Application Developer 🚀 having an experience of building Web, Mobile, and Desktop Applications with JavaScript (Express, React, React Native) / PHP (Laravel, CodeIgniter) / Java and some other cool libraries and frameworks."
+    "🚀 I am a Full Stack Application Developer that can help you to build amazing Web, Mobile, and Desktop Applications with JavaScript (Express, React, React Native) / PHP (Laravel, CodeIgniter) / Java and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link", // Set to empty to hide the button
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do as a professional 💻",
   subTitle:
-    "I do UI / UX and Full - Stack Applications Development to help companies and individuals to achieve their goals!",
+    "I do end to end software development process from UI / UX to Full - Stack Applications Development until The Application Testing Process and do maintenance and support for the service if needed. All of that to help companies and individuals to achieve their ultimate goals and give the solution for the IT services they need!",
   skills: [
     emoji(
       "⚡ Develop responsive and user friendly applications match your needs"
@@ -60,6 +60,9 @@ const skillsSection = {
     ),
     emoji(
       "⚡ Setting up and managing SQL or NoSQL databases based on the application's requirements"
+    ),
+    emoji(
+      "⚡ Give the support of IT infrastructure development and maintenance"
     )
   ],
 
@@ -137,8 +140,12 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Network Engineering / IT Support",
+      Stack: "Network Engineering",
       progressPercentage: "80%"
+    },
+    {
+      Stack: "IT Support",
+      progressPercentage: "70%"
     },
     {
       Stack: "UI / UX Design",
@@ -146,7 +153,7 @@ const techStack = {
     },
     {
       Stack: "Android Development",
-      progressPercentage: "30%"
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
