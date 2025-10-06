@@ -1,4 +1,4 @@
-/*! For license information please see main.aa6b0955.js.LICENSE.txt */
+/*! For license information please see main.bf7cc1a4.js.LICENSE.txt */
 (() => {
   var __webpack_modules__ = {
       3401: (t, e, i) => {
@@ -190,7 +190,7 @@
           },
           o = {animated: !0},
           s = {
-            username: "Brilliant X Boniface",
+            username: "Brilliant Fikri",
             title: "Hello, I'm Liant",
             subTitle: a()(
               "\ud83d\ude80 I am a Full Stack Application Developer that can help you to build amazing Web, Mobile, and Desktop Applications with JavaScript (Express, React, React Native) / PHP (Laravel, CodeIgniter) / Java and some other cool libraries and frameworks."
@@ -40248,4 +40248,4 @@
         });
   })();
 })();
-//# sourceMappingURL=main.aa6b0955.js.map
+//# sourceMappingURL=main.bf7cc1a4.js.map
