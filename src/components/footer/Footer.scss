@@ -2,14 +2,13 @@
 
 .footer-text {
   text-align: center;
-  color: $subTitle !important;
-}
-
-.dark-mode {
-  color: $textColorDark !important;
 }
 
 .footer-div {
   margin-top: 2rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+p {
+  margin: 0;
 }

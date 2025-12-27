@@ -11,7 +11,8 @@ import {
   // blogSection,
   // talkSection,
   achievementSection,
-  resumeSection
+  resumeSection,
+  pricingSection
 } from "../../portfolio";
 // import LanguageSelector from "../languageSelector/LanguageSelector";
 
@@ -24,13 +25,14 @@ function Header() {
   // const viewBlog = blogSection.display;
   // const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+  const viewPricing = pricingSection.display;
 
   return (
     <Headroom>
-      <header className={isDark ? "dark-menu header" : "header"}>
+      <header className={isDark ? "light-mode header" : "dark-menu header"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name notranslate">{greeting.username}</span>
+          <span className={isDark ? "logo-name notranslate" : "logo-name-dark notranslate"}>{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -39,9 +41,9 @@ function Header() {
           htmlFor="menu-btn"
           style={{color: "white"}}
         >
-          <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
+          <span className={isDark ? "navicon" : "navicon navicon-dark"}></span>
         </label>
-        <ul className={isDark ? "dark-menu menu" : "menu"}>
+        <ul className={isDark ? "menu" : "dark-menumenu"}>
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
@@ -65,6 +67,11 @@ function Header() {
           {viewAchievement && (
             <li>
               <a href="#achievements">Certification</a>
+            </li>
+          )}
+          {viewPricing && (
+            <li>
+              <a href="#pricing">Pricing</a>
             </li>
           )}
           <li>

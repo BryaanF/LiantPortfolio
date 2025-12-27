@@ -13,14 +13,13 @@ const splashScreen = {
   duration: 1000 // Set animation duration as per your animation
 };
 
-// Summary And Greeting Section
-
 const illustration = {
   animated: true // Set to false to use static SVG
 };
 
+// Summary And Greeting Section
 const greeting = {
-  username: "Brilliant X Boniface",
+  username: "Brilliant Fikri",
   title: "Hello, I'm Liant",
   subTitle: emoji(
     "🚀 I am a Full Stack Application Developer that can help you to build amazing Web, Mobile, and Desktop Applications with JavaScript (Express, React, React Native) / PHP (Laravel, CodeIgniter) / Java and some other cool libraries and frameworks."
@@ -31,7 +30,6 @@ const greeting = {
 };
 
 // Social Media Links
-
 const socialMediaLinks = {
   github: "https://github.com/BryaanF",
   linkedin: "https://www.linkedin.com/in/brilliantfikri/",
@@ -46,7 +44,6 @@ const socialMediaLinks = {
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do as a professional 💻",
   subTitle:
@@ -68,7 +65,6 @@ const skillsSection = {
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: "HTML5",
@@ -127,9 +123,8 @@ https://fontawesome.com/icons?d=gallery */
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Backend Development", //Insert stack or technology you have experience in
@@ -160,7 +155,6 @@ const techStack = {
 };
 
 // Education Section
-
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   title: emoji("Education 🎓"),
@@ -229,14 +223,12 @@ const workExperiences = {
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-
 const openSource = {
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
-
 const bigProjects = {
   title: emoji("Big Projects 🚀"),
   subtitle: "SOME COMPANIES THAT I HELPED TO BUILD THEIR COOL PROJECTS!",
@@ -284,7 +276,6 @@ const bigProjects = {
 
 // Achievement Section
 // Include certificates, talks etc
-
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
@@ -325,7 +316,6 @@ const achievementSection = {
         }
       ]
     },
-
     {
       title: "Internship at Kejaksaan Tinggi Jawa Timur",
       subtitle:
@@ -348,7 +338,6 @@ const achievementSection = {
 };
 
 // Blogs Section
-
 const blogSection = {
   title: "Blogs",
   subtitle:
@@ -372,7 +361,6 @@ const blogSection = {
 };
 
 // Talks Sections
-
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
@@ -391,7 +379,6 @@ const talkSection = {
 };
 
 // Podcast Section
-
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
@@ -412,6 +399,12 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+// Pricing Section
+const pricingSection = {
+  display: true
+};
+
+// Contact Section
 const contactInfo = {
   title: emoji("📞  Contact Information  ✉️"),
   subtitle:
@@ -421,7 +414,6 @@ const contactInfo = {
 };
 
 // Twitter Section
-
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
@@ -447,5 +439,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  pricingSection
 };

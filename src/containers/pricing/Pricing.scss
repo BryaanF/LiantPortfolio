@@ -1,0 +1,304 @@
+@import "../../_globalColor";
+
+// Local Variables Mapping (Agar mudah diganti jika global berubah)
+$accent-color: $buttonColor; 
+$accent-hover: $buttonHover;
+$transition: all 0.3s ease-in-out;
+$card-radius: 12px;
+
+.pricing-container {
+  padding-bottom: 75px; // Space for sticky footer
+  min-height: 100vh;
+  transition: $transition;
+
+  // --- THEME SPECIFIC STYLES ---
+  &.light-mode {
+    background-color: $lightBackground;
+    color: $textColor;
+    
+    .card {
+      background-color: #fff; // Kartu putih di mode terang
+      border: 1px solid $lightBorder1;
+      box-shadow: $lightBoxShadow;
+      
+      &:hover { box-shadow: $lightBoxShadowDark; }
+    }
+
+    .sub-title, .pkg-desc, .feat-desc { color: $subTitle; }
+  }
+
+  &.dark-mode {
+    background-color: $darkBackground;
+    color: $textColorDark;
+
+    .card {
+      background-color: lighten($darkBackground, 5%); // Sedikit lebih terang dari bg utama
+      border: 1px solid rgba(255,255,255, 0.1);
+      box-shadow: none;
+
+      &:hover { background-color: lighten($darkBackground, 8%); }
+    }
+
+    .sub-title, .pkg-desc, .feat-desc { color: darken($textColorDark, 20%); }
+  }
+}
+
+.pricing-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.pricing-header {
+  text-align: center;
+  padding: 4rem 0 2rem;
+
+  .main-title { font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem; }
+  .sub-title { font-size: 1.1rem; opacity: 0.8; }
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin: 2rem 0 1.5rem;
+  font-weight: 700;
+  border-left: 4px solid $accent-color;
+  padding-left: 1rem;
+}
+
+// --- CARD STYLES ---
+.card {
+  border-radius: $card-radius;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: $transition;
+  position: relative;
+
+  // Active State (Border Kuning)
+  &.active {
+    border-color: $accent-color !important;
+    box-shadow: 0 0 0 1px $accent-color !important; // Outline effect
+
+    .checkbox-custom {
+      background-color: $accent-color;
+      border-color: $accent-color;
+      &::after { display: block; }
+    }
+  }
+}
+
+// Packages Grid
+.grid-packages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.package-card {
+  display: flex;
+  flex-direction: column;
+  
+  &.popular {
+    transform: scale(1.02);
+    border-top: 4px solid $accent-color !important;
+    
+    @media (max-width: 768px) { transform: none; }
+  }
+
+  .popular-badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: $accent-color;
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+
+  .card-top-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    opacity: 0.6;
+    letter-spacing: 1px;
+  }
+
+  .pkg-price {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 5px 0;
+    color: $accent-color;
+  }
+
+  .pkg-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem; }
+  .pkg-desc { font-size: 0.9rem; margin-bottom: 1rem; line-height: 1.5; }
+
+  .divider {
+    height: 1px;
+    background: rgba(150,150,150, 0.2);
+    margin: 1rem 0;
+  }
+
+  .pkg-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      margin-bottom: 0.8rem;
+      padding-left: 1.2rem;
+      position: relative;
+      font-size: 0.95rem;
+
+      &::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: $accent-color;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// Features & Addons
+.grid-features, .grid-addons {
+  display: grid;
+  gap: 1rem;
+}
+.grid-features { grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); }
+.grid-addons { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+
+.feature-card, .addon-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+
+  .card-content { flex: 1; }
+  
+  .feat-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+  
+  .feat-title { font-weight: 600; font-size: 1rem; }
+  .feat-price { font-weight: 700; color: $accent-color; font-size: 0.9rem; }
+  .feat-desc { font-size: 0.85rem; opacity: 0.8; line-height: 1.4; }
+}
+
+// Custom Checkbox
+.checkbox-custom {
+  width: 22px;
+  height: 22px;
+  border: 2px solid rgba(150,150,150,0.5);
+  border-radius: 6px;
+  flex-shrink: 0;
+  position: relative;
+  transition: all 0.2s;
+
+  &::after {
+    content: '';
+    display: none;
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 6px;
+    height: 12px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+}
+
+// Animation Wrapper for Extras
+.extras-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease-out;
+  
+  .extras-inner { overflow: hidden; }
+  
+  &.open { grid-template-rows: 1fr; }
+}
+
+// --- FOOTER & CTA ---
+.consultation-area {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(150,150,150, 0.2);
+
+  p { margin-bottom: 1rem; opacity: 0.8; }
+}
+
+.btn-outline, .btn-primary {
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1rem;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid $accent-color;
+  color: $accent-color;
+  &:hover { background: rgba($accent-color, 0.1); }
+}
+
+.btn-primary {
+  background: $accent-color;
+  color: #000;
+  border: none;
+  &:hover { background: $accent-hover; transform: translateY(-2px); }
+}
+
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 1rem 0;
+  z-index: 1000;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  border-top: 1px solid rgba(255,255,255,0.1);
+
+  &.visible { transform: translateY(0); }
+
+  .footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    span:first-child { font-size: 0.7rem; color: #888; letter-spacing: 1px; }
+    .total-amount { font-size: 1.5rem; font-weight: 700; color: #fff; }
+  }
+}
+
+// Mobile Responsive
+@media (max-width: 600px) {
+  .pricing-header .main-title { font-size: 1.8rem; }
+  .grid-features, .grid-packages { grid-template-columns: 1fr; }
+  
+  .sticky-footer {
+    .footer-content {
+        flex-direction: row; // Tetap row biar tombol di kanan
+        gap: 1rem;
+    }
+    .btn-primary { padding: 10px 20px; font-size: 0.9rem; }
+    .total-amount { font-size: 1.2rem !important; }
+  }
+}

@@ -22,6 +22,7 @@
 
 .header {
   background-color: $lightBackground1;
+
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -66,6 +67,16 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  color: $textColor !important;
+}
+
+.header .logo-name-dark {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
+  color: $textColorDark !important;
 }
 
 /* menu */

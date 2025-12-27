@@ -21,7 +21,7 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
               <h1
-                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
+                className={isDark ? "dark-mode greeting-text" : "light-mode greeting-text"}
               >
                 {" "}
                 {greeting.title}{" "}
@@ -38,9 +38,6 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <span translate="no" className="notranslate">
-                  <Button text="🤝 Build a Project" href="#contact" />
-                </span>
                 {greeting.resumeLink && (
                   <a
                     href="/resume.pdf"
@@ -51,6 +48,12 @@ export default function Greeting() {
                     <Button text="📄 Resume / CV" />
                   </a>
                 )}
+                <span translate="no" className="notranslate">
+                  <Button text="💵 Estimate Project Cost" href="#pricing" />
+                </span>
+                <span translate="no" className="notranslate">
+                  <Button text="🤝 Build a Project" href="#contact" />
+                </span>
               </div>
             </div>
           </div>
