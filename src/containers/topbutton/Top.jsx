@@ -8,18 +8,26 @@ export default function Top() {
   }
   // When the user scrolls down 20px from the top of the document, show the button
   function scrollFunction() {
-    if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-    ) {
-      document.getElementById("topButton").style.visibility = "visible";
-    } else {
-      document.getElementById("topButton").style.visibility = "hidden";
+    const topButton = document.getElementById("topButton");
+    if (topButton) {
+      // TAMBAHKAN CHECK INI
+      if (
+        document.body.scrollTop > 30 ||
+        document.documentElement.scrollTop > 30
+      ) {
+        topButton.style.visibility = "visible";
+        topButton.style.display = "block";
+      } else {
+        topButton.style.visibility = "hidden";
+        topButton.style.display = "none";
+      }
     }
   }
+
   window.onscroll = function () {
     scrollFunction();
   };
+
   window.onload = function () {
     scrollFunction();
   }; //To make sure that this button is not visible at starting.

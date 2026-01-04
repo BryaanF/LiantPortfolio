@@ -1,98 +1,90 @@
-import React, {useState, useEffect, useContext} from "react";
+import React, { useState, useEffect, useContext, useCallback } from "react";
+import { motion } from "framer-motion";
 import "./Blog.scss";
 import BlogCard from "../../components/blogCard/BlogCard";
-import {blogSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { blogSection } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+
 export default function Blogs() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const [mediumBlogs, setMediumBlogs] = useState([]);
-  function setMediumBlogsFunction(array) {
-    setMediumBlogs(array);
-  }
-  //Medium API returns blogs' content in HTML format. Below function extracts blogs' text content within paragraph tags
-  function extractTextContent(html) {
-    return typeof html === "string"
-      ? html
-          .split("p>")
-          .filter(el => !el.includes(">"))
-          .map(el => el.replace("</", ".").replace("<", ""))
-          .join(" ")
-      : NaN;
-  }
-  useEffect(() => {
-    if (blogSection.displayMediumBlogs === "true") {
-      const getProfileData = () => {
-        fetch("/blogs.json")
-          .then(result => {
-            if (result.ok) {
-              return result.json();
-            }
-          })
-          .then(response => {
-            setMediumBlogsFunction(response.items);
-          })
-          .catch(function (error) {
-            console.error(
-              `${error} (because of this error Blogs section could not be displayed. Blogs section has reverted to default)`
-            );
-            setMediumBlogsFunction("Error");
-            blogSection.displayMediumBlogs = "false";
-          });
-      };
-      getProfileData();
+  const [loadingError, setLoadingError] = useState(false);
+
+  // CLEAN CODE: Gunakan DOMParser untuk ekstraksi teks yang lebih akurat & aman
+  const extractTextContent = useCallback((html) => {
+    try {
+      const doc = new DOMParser().parseFromString(html, "text/html");
+      const text = doc.body.textContent || "";
+      return text.slice(0, 150) + "..."; // Batasi karakter agar card rapi
+    } catch (e) {
+      return "";
     }
   }, []);
-  if (!blogSection.display) {
-    return null;
-  }
+
+  useEffect(() => {
+    if (blogSection.displayMediumBlogs === "true") {
+      fetch("/blogs.json")
+        .then((res) => {
+          if (!res.ok) throw new Error("Failed to fetch");
+          return res.json();
+        })
+        .then((response) => setMediumBlogs(response.items))
+        .catch((error) => {
+          console.error("Medium Blogs Error:", error);
+          setLoadingError(true);
+        });
+    }
+  }, []);
+
+  if (!blogSection.display) return null;
+
+  // Variabel animasi untuk grid
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.1 }
+    }
+  };
+
+  // Logika penentuan sumber data blogs
+  const shouldShowDefault = blogSection.displayMediumBlogs !== "true" || loadingError;
+  const blogsData = shouldShowDefault ? blogSection.blogs : mediumBlogs;
+
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="blogs">
-        <div className="blog-header">
-          <h1 className="blog-header-text">{blogSection.title}</h1>
-          <p
-            className={
-              isDark ? "dark-mode blog-subtitle" : "subTitle blog-subtitle"
-            }
-          >
-            {blogSection.subtitle}
-          </p>
-        </div>
-        <div className="blog-main-div">
-          <div className="blog-text-div">
-            {blogSection.displayMediumBlogs !== "true" ||
-            mediumBlogs === "Error"
-              ? blogSection.blogs.map((blog, i) => {
-                  return (
-                    <BlogCard
-                      key={i}
-                      isDark={isDark}
-                      blog={{
-                        url: blog.url,
-                        image: blog.image,
-                        title: blog.title,
-                        description: blog.description
-                      }}
-                    />
-                  );
-                })
-              : mediumBlogs.map((blog, i) => {
-                  return (
-                    <BlogCard
-                      key={i}
-                      isDark={isDark}
-                      blog={{
-                        url: blog.link,
-                        title: blog.title,
-                        description: extractTextContent(blog.content)
-                      }}
-                    />
-                  );
-                })}
-          </div>
-        </div>
+    <motion.section
+      id="blogs"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-100px" }}
+      variants={containerVariants}
+      className="main section-blogs"
+    >
+      <div className="blog-header">
+        <h1 className="blog-header-text">{blogSection.title}</h1>
+        <p className={`blog-subtitle ${isDark ? "dark-mode" : "subTitle"}`}>
+          {blogSection.subtitle}
+        </p>
       </div>
-    </Fade>
+
+      <div className="blog-main-div">
+        <motion.div className="blog-text-div grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {blogsData.map((blog, i) => (
+            <BlogCard
+              key={i}
+              isDark={isDark}
+              blog={{
+                url: shouldShowDefault ? blog.url : blog.link,
+                image: blog.image, // Medium API terkadang butuh penyesuaian untuk image
+                title: blog.title,
+                description: shouldShowDefault 
+                  ? blog.description 
+                  : extractTextContent(blog.content)
+              }}
+            />
+          ))}
+        </motion.div>
+      </div>
+    </motion.section>
   );
 }

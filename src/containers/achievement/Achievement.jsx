@@ -1,34 +1,68 @@
-import React from "react"; // Hapus useContext dan StyleContext karena tidak dipakai lagi di sini
+import React from "react";
+import { motion } from "framer-motion";
 import "./Achievement.scss";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
 import { achievementSection } from "../../portfolio";
-import { Fade } from "react-reveal";
 
 export default function Achievement() {
-  // Pengecekan display section
   if (!achievementSection.display) {
     return null;
   }
 
-  return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="achievements">
-        <div className="achievement-main-div">
-          <div className="achievement-header">
-            <h1 className="heading achievement-heading">
-              {achievementSection.title}
-            </h1>
-            <p className="subTitle achievement-subtitle">
-              {achievementSection.subtitle}
-            </p>
-          </div>
+  // Variabel Animasi untuk Container (Induk)
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15, // Jeda antar kartu
+        delayChildren: 0.2,
+      },
+    },
+  };
 
-          <div className="achievement-cards-container">
-            {achievementSection.achievementsCards.map((card, i) => (
+  // Variabel Animasi untuk Kartu (Anak)
+  const cardVariants = {
+    hidden: { opacity: 0, scale: 0.85, y: 20 },
+    visible: { 
+      opacity: 1, 
+      scale: 1, 
+      y: 0,
+      transition: { type: "spring", stiffness: 260, damping: 20 } 
+    },
+  };
+
+  return (
+    <motion.section
+      className="main py-20 px-4 md:px-10"
+      id="achievements"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-100px" }}
+      variants={containerVariants}
+    >
+      <div className="achievement-main-div max-w-[1400px] mx-auto">
+        {/* Header Section */}
+        <motion.div 
+          className="achievement-header mb-12 text-center md:text-left"
+          variants={{
+            hidden: { opacity: 0, x: -20 },
+            visible: { opacity: 1, x: 0 }
+          }}
+        >
+          <h1 className="heading achievement-heading text-4xl md:text-6xl font-bold text-[var(--text-primary)] mb-4">
+            {achievementSection.title}
+          </h1>
+          <p className="subTitle achievement-subtitle text-[var(--text-secondary)] opacity-80 uppercase tracking-widest font-semibold">
+            {achievementSection.subtitle}
+          </p>
+        </motion.div>
+
+        {/* Cards Container */}
+        <div className="achievement-cards-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {achievementSection.achievementsCards.map((card, i) => (
+            <motion.div key={i} variants={cardVariants} className="h-full">
               <AchievementCard
-                key={i}
-                // BARIS INI DIHAPUS: isDark={isDark} 
-                // Karena variabel isDark tidak ada, dan CSS variables sudah menangani warnanya.
                 cardInfo={{
                   title: card.title,
                   description: card.subtitle,
@@ -37,10 +71,10 @@ export default function Achievement() {
                   footer: card.footerLink
                 }}
               />
-            ))}
-          </div>
+            </motion.div>
+          ))}
         </div>
       </div>
-    </Fade>
+    </motion.section>
   );
 }

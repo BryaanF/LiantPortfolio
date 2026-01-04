@@ -1,14 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
     content: [
-        "./index.html",
-        "./src/**/*.{js,ts,jsx,tsx}",
+        "./src/**/*.{js,jsx,ts,tsx}", // Memindai semua file React di folder src
     ],
     theme: {
         extend: {
             colors: {
-                "brand-gold": "#C5A059", // Sesuaikan dengan warna gold portfolio kamu
-            }
+                // Daftarkan warna brand Anda di sini agar bisa dipanggil seperti 'text-brand-gold'
+                'brand-gold': '#C5A059',
+                'bg-dark': '#0a0a0a',
+                'card-dark': '#151515',
+            },
         },
     },
     plugins: [],

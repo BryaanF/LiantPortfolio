@@ -1,50 +1,56 @@
 import React from "react";
-import "./ExperienceCard.scss";
+import {motion} from "framer-motion";
 
-export default function ExperienceCard({ cardInfo, isDark }) {
-  // Logic ColorThief DIHAPUS agar tidak merusak tema Dark & Gold
-
+export default function ExperienceCard({cardInfo}) {
   return (
-    <div className={`experience-card ${isDark ? "dark-mode" : ""}`}>
-      {/* Banner Section */}
-      <div className="experience-banner">
-        <div className="experience-blurred_div"></div>
-        <div className="experience-div-company">
-          <h5 className="experience-text-company">{cardInfo.company}</h5>
-        </div>
+    <article className="group relative overflow-hidden rounded-xl border border-[var(--border-light)] bg-[var(--bg-card)] transition-all hover:-translate-y-1 hover:shadow-xl">
+      {/* BANNER */}
+      <div className="relative flex h-44 items-end justify-center bg-gradient-to-br from-neutral-200 to-neutral-300 dark:from-neutral-800 dark:to-neutral-900">
+        <span className="absolute top-4 text-center text-lg font-bold text-neutral-800 dark:text-white">
+          {cardInfo.company}
+        </span>
 
         <img
-          crossOrigin={"anonymous"}
-          className="experience-roundedimg"
           src={cardInfo.companylogo}
           alt={cardInfo.company}
+          className="absolute -bottom-10 h-24 w-24 rounded-full border-4 border-[var(--bg-card)] bg-white object-contain shadow-lg"
           loading="lazy"
         />
       </div>
 
-      {/* Text Details Section */}
-      <div className="experience-text-details">
-        <h5 className="experience-text-role">
+      {/* CONTENT */}
+      <div className="px-6 pb-6 pt-14 text-center">
+        {/* ROLE TITLE (ANIMATED) */}
+        <motion.h3
+          initial={{opacity: 0, y: 12}}
+          whileInView={{opacity: 1, y: 0}}
+          transition={{duration: 0.4, ease: "easeOut"}}
+          viewport={{once: true}}
+          className="text-lg font-bold text-[var(--text-primary)]"
+        >
           {cardInfo.role}
-        </h5>
-        <h5 className="experience-text-date">
+        </motion.h3>
+
+        <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-[var(--text-secondary)] opacity-70">
           {cardInfo.date}
-        </h5>
-        <p className="subTitle experience-text-desc">
+        </p>
+
+        <p className="mt-4 text-sm leading-relaxed text-[var(--text-primary)] text-left">
           {cardInfo.desc}
         </p>
 
-        {/* Render Bullets Inline */}
-        {cardInfo.descBullets && cardInfo.descBullets.length > 0 && (
-          <ul className="experience-bullets">
+        {/* BULLETS */}
+        {cardInfo.descBullets?.length > 0 && (
+          <ul className="mt-4 space-y-2 text-left text-sm text-[var(--text-secondary)]">
             {cardInfo.descBullets.map((item, i) => (
-              <li key={i} className="subTitle">
-                {item}
+              <li key={i} className="flex gap-2">
+                <span className="mt-[6px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[var(--btn-primary-bg)]" />
+                <span className="leading-relaxed">{item}</span>
               </li>
             ))}
           </ul>
         )}
       </div>
-    </div>
+    </article>
   );
 }

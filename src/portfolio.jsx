@@ -34,11 +34,11 @@ const greeting = {
   username: "Brilliant Fikri",
   title: "Hello, I'm Liant",
   subTitle: emoji(
-    "🚀 I am a Full Stack Application Developer that can help you to build amazing Web, Mobile, and Desktop Applications with JavaScript (Express, React, React Native) / PHP (Laravel, CodeIgniter) / Java and some other cool libraries and frameworks."
+    "🚀 I help organizations, schools, and small businesses build reliable and maintainable web systems. My focus is not just shipping features, but delivering long-term, scalable solutions that actually solve operational problems."
   ),
   resumeLink:
-    "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link",
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -59,19 +59,19 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do as a professional 💻",
   subTitle:
-    "I do end to end software development process from UI / UX to Full - Stack Applications Development until The Application Testing Process and do maintenance and support for the service if needed. All of that to help companies and individuals to achieve their ultimate goals and give the solution for the IT services they need!",
+    "I design, build, and maintain software systems with a strong focus on reliability, clarity, and long-term maintainability. I work closely with stakeholders to ensure the solution fits real operational needs, not just technical requirements.",
   skills: [
     emoji(
-      "⚡ Develop responsive and user friendly applications match your needs"
+      "Design and develop scalable web applications tailored to real business workflows"
     ),
     emoji(
-      "⚡ Integration of third party services like hosting / API integration / etc"
+      "Build and integrate APIs, third-party services, and internal systems"
     ),
     emoji(
-      "⚡ Setting up and managing SQL or NoSQL databases based on the application's requirements"
+      "Design database structures that are efficient, secure, and easy to maintain"
     ),
     emoji(
-      "⚡ Give the support of IT infrastructure development and maintenance"
+      "Provide long-term system support, documentation, and technical handover"
     )
   ],
 
@@ -169,7 +169,7 @@ const techStack = {
 // Education Section
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
-  title: emoji("Education 🎓"),
+  title: emoji("Education"),
   schools: [
     {
       schoolName: "Telkom Schools Malang",
@@ -198,23 +198,18 @@ const educationInfo = {
   ]
 };
 
-// Work experience section
-
+// Work Experience Section
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
-  title: emoji("Work Experience 💼"),
+  title: emoji("Work Experience"),
   subtitle: "This is my work experience on some great companies / instances!",
   experience: [
     {
-      role: "Website Developer Intern",
-      company: "Lintasarta",
-      companylogo: lintasartaLogo,
-      date: "June 2018 – Agusut 2018",
-      desc: "I build customer database management to handle a network data to be monitor by network engineer team. Build for local network with vanila HTML, CSS, and Javascript with database Mysql.",
-      descBullets: [
-        "Ensure website run well to do CRUD (Create, Read, Update, Delete) for customer network data",
-        "Communicate and collaborate with developer team from same school as me"
-      ]
+      role: "Backend Developer",
+      company: "Peduly",
+      companylogo: pedulyLogo,
+      date: "March 2025 – June 2025",
+      desc: "I work as backend developer for peduly to create a website that can handle message broadcaster which is whatsapp and email to send message effectively for the users. In this project I use Laravel and ExpressJs to create the backend API and use MySQL as the database. I contribute pretty much of my time to maintain the robust documentation of the API so that the frontend developer can use it easily and the project can be maintained well for the next developer to come."
     },
     {
       role: "Website Developer Intern",
@@ -224,11 +219,15 @@ const workExperiences = {
       desc: "I do internship for kejaksaan tinggi jawa timur to create a website (laravel based with jquery to handle the maping) maping availability of personnel in each position in the organization on many location of Kejati office (province level) and kejari office (city or district level)."
     },
     {
-      role: "Backend Developer",
-      company: "Peduly",
-      companylogo: pedulyLogo,
-      date: "March 2025 – June 2025",
-      desc: "I work as backend developer for peduly to create a website that can handle message broadcaster which is whatsapp and email to send message effectively for the users. In this project I use Laravel and ExpressJs to create the backend API and use MySQL as the database. I contribute pretty much of my time to maintain the robust documentation of the API so that the frontend developer can use it easily and the project can be maintained well for the next developer to come."
+      role: "Website Developer Intern",
+      company: "Lintasarta",
+      companylogo: lintasartaLogo,
+      date: "June 2018 – August 2018",
+      desc: "Developed an internal web-based customer network database system used by the network engineering team to monitor and manage network data within a local environment.",
+      descBullets: [
+        "Built a CRUD-based system to manage structured customer network information",
+        "Helped simplify internal monitoring workflows for the network engineering team"
+      ]
     }
   ]
 };
@@ -242,14 +241,14 @@ const openSource = {
 
 // Some big projects you have worked on
 const bigProjects = {
-  title: emoji("Big Projects 🚀"),
+  title: emoji("Big Projects"),
   subtitle: "SOME COMPANIES THAT I HELPED TO BUILD THEIR COOL PROJECTS!",
   projects: [
     {
       image: hrisImage,
       projectName: "Human Resources Information System PT. Indo Global Impex",
       projectDesc:
-        "HRIS IGI is a web based application that can handle the employee data, attendance, and payroll. This project is build with Laravel and Mysql for PT. Indo Global Impex.",
+        "A web-based Human Resources Information System used to manage employee data, attendance, and payroll. This system streamlined HR operations and reduced manual administrative work by centralizing employee information in one platform. Used internally by HR team to manage payroll and attendance efficiently.",
       footerLink: [
         {
           name: "Show Project",
@@ -262,7 +261,7 @@ const bigProjects = {
       image: echelonmapingprojectimage,
       projectName: "Geographic Information System for Echelon Maping",
       projectDesc:
-        "GIS for echelon maping is a web based application that can handle the availability of personnel in each position in the organization on many location of Kejati office (province level) and kejari office (city or district level). This project is build with Laravel and Mysql for Kejaksaan Tinggi Jawa Timur.",
+        "A Geographic Information System used to map personnel availability across provincial and district-level offices. The system helped decision-makers quickly identify staffing distribution and organizational structure across locations. Used by provincial-level decision makers to analyze personnel distribution.",
       footerLink: [
         {
           name: "Show Project",
@@ -274,7 +273,7 @@ const bigProjects = {
       image: contactzainzoprojectimage,
       projectName: "Contact Zainzo for Broadcasting Message",
       projectDesc:
-        "Contact Zainzo is a web based application that can handle broadcasting message to many users using whatsapp and email. This project is build with Laravel, ExpressJS, and Mysql back when I work for Peduly. I ensure the API documentation is well maintained so that the frontend developer and next backend developer can continue the project easily.",
+        "Contact Zainzo is a web based application that can handle broadcasting message to many users using whatsapp and email. This project is build with Laravel, ExpressJS, and Mysql back when I work for Peduly. I ensure the API documentation is well maintained so that the frontend developer and next backend developer can continue the project easily. Used and on going until now and open publicly if you want to try it out yourself.",
       footerLink: [
         {
           name: "Go to Website",
@@ -289,7 +288,7 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications"),
   subtitle:
     "Achievements and Certifications that I have acquired during this recent time !",
 
@@ -392,7 +391,7 @@ const talkSection = {
 
 // Podcast Section
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: emoji("Podcast"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
@@ -411,16 +410,11 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Pricing Section
-const pricingSection = {
-  display: true
-};
-
-// Contact Section
+// Contact Info Section
 const contactInfo = {
-  title: emoji("📞  Contact Information  ✉️"),
+  title: emoji("Contact Information"),
   subtitle:
-    "Want to discuss a project or just want to say hi? My Inbox is open for all!",
+    "Have a project in mind or need help evaluating your system requirements? Let's talk and see what solution fits your needs.",
   number: "+62-813-3148-7753",
   email_address: "briliantfikri@gmail.com"
 };
@@ -429,6 +423,91 @@ const contactInfo = {
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
+};
+
+// Pricing Section
+const pricingSection = {
+  display: true,
+  packages: [
+    {
+      id: "starter",
+      title: "Starter",
+      price: 2500000,
+      shortPrice: "2.5jt",
+      desc: "Starting solution for simple needs and quick delivery.",
+      features: [
+        "Single Page / Landing Page",
+        "Responsive Layout",
+        "WhatsApp Integration",
+        "3 Days Delivery"
+      ]
+    },
+    {
+      id: "business",
+      title: "Business",
+      price: 5000000,
+      shortPrice: "5jt",
+      desc: "Ideal for small businesses that need a structured and maintainable website.",
+      features: [
+        "Up to 8 Pages",
+        "CMS Dashboard",
+        "Basic SEO",
+        "1 Month Maintenance",
+        "7 Days Delivery"
+      ],
+      isPopular: true
+    },
+    {
+      id: "custom",
+      title: "Custom App",
+      price: 10000000,
+      shortPrice: "10jt+",
+      desc: "Custom-built system based on business complexity and long-term needs.",
+      features: [
+        "Web Application",
+        "Database & API",
+        "Auth System",
+        "Complex Logic",
+        "14+ Days Delivery"
+      ]
+    }
+  ],
+
+  featuresList: [
+    {
+      id: "feat_responsive",
+      title: "Mobile Optimized",
+      desc: "Perfect UI for all devices",
+      price: 500000
+    },
+    {
+      id: "feat_darkmode",
+      title: "Dark Mode Toggle",
+      desc: "Switch theme support",
+      price: 800000
+    },
+    {
+      id: "feat_api",
+      title: "3rd Party API",
+      desc: "Maps, Payment Gateway, etc",
+      price: 2000000
+    }
+  ],
+
+  addonsList: [
+    {
+      id: "add_seo",
+      title: "SEO Advanced",
+      desc: "Technical & On-page SEO",
+      price: 500000
+    },
+    {
+      id: "add_source",
+      title: "Source Code Handover",
+      desc: "Get full access to your code",
+      price: 2500000
+    }
+  ]
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

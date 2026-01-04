@@ -1,32 +1,33 @@
 import React from "react";
-import { motion } from "framer-motion"; // Ganti Fade dengan motion
+import { motion } from "framer-motion";
 import { bigProjects } from "../../portfolio";
+import "./BigProject.scss"; // Pastikan di-import
 
 export default function BigProject() {
   if (!bigProjects.display) return null;
 
   return (
-    <section id="projects" className="py-20 px-4 md:px-8 bg-transparent">
-      <div className="max-w-7xl mx-auto">
-        
-        {/* Header Section dengan Framer Motion */}
-        <motion.div 
+    <section id="projects" className="big-projects-section">
+      <div className="projects-main-container">
+
+        {/* Header Section */}
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-16 text-center md:text-left"
+          className="projects-header"
         >
-          <h1 className="text-4xl md:text-6xl font-extrabold text-[var(--text-primary)] mb-4 leading-tight">
+          <h1 className="projects-heading">
             {bigProjects.title} <span className="inline-block animate-bounce">🚀</span>
           </h1>
-          <p className="text-sm tracking-[0.3em] uppercase font-bold text-[var(--text-secondary)] opacity-70">
+          <p className="projects-subtitle">
             {bigProjects.subtitle}
           </p>
         </motion.div>
 
         {/* Grid Container */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="projects-grid-div">
           {bigProjects.projects.map((project, i) => (
             <motion.div
               key={i}
@@ -34,42 +35,42 @@ export default function BigProject() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group flex flex-col h-full bg-[var(--bg-card)] border border-[var(--border-light)] rounded-3xl overflow-hidden transition-all duration-300 hover:shadow-[0_20px_50px_rgba(0,0,0,0.2)] hover:border-brand-gold/50"
+              className="project-card"
             >
               {/* Image Section */}
               {project.image && (
-                <div className="relative aspect-video overflow-hidden">
+                <div className="project-image-container">
                   <img
                     src={project.image}
                     alt={project.projectName}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="card-image"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-300" />
+                  <div className="image-overlay" />
                 </div>
               )}
 
               {/* Detail Section */}
-              <div className="p-8 flex flex-col flex-grow">
-                <div className="flex-grow">
-                  <h5 className="text-2xl font-bold mb-4 text-[var(--text-primary)] group-hover:text-brand-gold transition-colors">
+              <div className="project-content">
+                <div className="project-detail">
+                  <h5 className="card-title">
                     {project.projectName}
                   </h5>
-                  <p className="text-[15px] leading-relaxed text-[var(--text-secondary)] opacity-80 line-clamp-4">
+                  <p className="card-subtitle">
                     {project.projectDesc}
                   </p>
                 </div>
 
                 {/* Footer Link Section */}
                 {project.footerLink && (
-                  <div className="mt-8 flex flex-wrap gap-3">
+                  <div className="project-card-footer">
                     {project.footerLink.map((link, k) => (
                       <a
                         key={k}
                         href={link.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-6 py-2.5 bg-[var(--btn-primary-bg)] text-white text-xs font-bold uppercase tracking-wider rounded-full transition-all hover:bg-white hover:text-black hover:ring-2 hover:ring-brand-gold"
+                        className="project-tag"
                       >
                         {link.name}
                       </a>

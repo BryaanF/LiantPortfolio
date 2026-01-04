@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -13,9 +13,8 @@ import {
 } from "../../portfolio";
 
 function Header() {
-  const { isDark } = useContext(StyleContext);
-  
-  // Logic view section tetap sama
+  const {isDark} = useContext(StyleContext);
+
   const viewExperience = workExperiences.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
@@ -30,56 +29,66 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
-        
+
         <input className="menu-btn" type="checkbox" id="menu-btn" />
-        <label
-          className="menu-icon"
-          htmlFor="menu-btn"
-        >
+        <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
         </label>
-        
-        <ul className="menu">
+
+        <ul className="menu flex items-center">
           {viewSkills && (
             <li>
-              <a href="#skills" className="nav-link">Skills</a>
+              <a href="#skills" className="nav-link">
+                Skills
+              </a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#education" className="nav-link">Education</a>
+              <a href="#education" className="nav-link">
+                Education
+              </a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience" className="nav-link">Work Experiences</a>
+              <a href="#experience" className="nav-link">
+                Work Experiences
+              </a>
             </li>
           )}
           {viewResume && (
             <li>
-              <a href="#projects" className="nav-link">Projects</a>
+              <a href="#projects" className="nav-link">
+                Projects
+              </a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements" className="nav-link">Certification</a>
+              <a href="#achievements" className="nav-link">
+                Certification
+              </a>
             </li>
           )}
           {viewPricing && (
             <li>
-              <a href="#pricing" className="nav-link">Pricing</a>
+              <a href="#pricing" className="nav-link">
+                Pricing
+              </a>
             </li>
           )}
-          
-          {/* PERUBAHAN UTAMA DI SINI:
-              Hapus <a> wrapper. Ganti dengan class khusus container.
-          */}
-          <li className="toggle-container">
-              <ToggleSwitch />
+
+          {/* Grouping Settings: Dark Mode */}
+          <li className="settings-container flex items-center gap-2 ml-4">
+            <div className="border-l border-gray-600 h-5 mx-2 opacity-30"></div>{" "}
+            {/* Garis pemisah tipis */}
+            <ToggleSwitch />
           </li>
         </ul>
       </header>
     </Headroom>
   );
 }
+
 export default Header;

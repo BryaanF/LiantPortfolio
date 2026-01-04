@@ -21,11 +21,6 @@ $img-size: 8rem;
   // --- Dark Mode Specifics ---
   :global(.dark-mode) & {
     border: 1px solid rgba(255, 255, 255, 0.05);
-
-    // Override warna Role menjadi Gold di dark mode
-    .experience-text-role {
-      color: $brand-gold !important;
-    }
   }
 }
 
@@ -110,31 +105,6 @@ $img-size: 8rem;
 }
 
 // --- Content Section ---
-.experience-text-details {
-  padding: 1.5rem;
-  margin-top: 2.5rem;
-  text-align: center;
-}
-
-.experience-text-role {
-  font-size: 22px;
-  font-weight: 700;
-  margin: 0;
-  line-height: 1.2;
-  color: var(--text-primary);
-  margin-bottom: 0.5rem;
-}
-
-.experience-text-date {
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
 .experience-text-desc {
   margin-top: 1rem;
   text-align: justify; // Rata kanan-kiri agar rapi
@@ -143,25 +113,8 @@ $img-size: 8rem;
   line-height: 1.6;
 }
 
-// Bullets Styling
-.experience-bullets {
-  text-align: left;
-  padding-left: 1.2rem;
-  margin-top: 1rem;
-
-  .subTitle {
-    margin-bottom: 0.5rem;
-    color: var(--text-secondary); // Sedikit lebih pudar dari teks utama
-    line-height: 1.5;
-  }
-}
-
 /* --- Responsive Adjustments --- */
 @media (max-width: 1380px) {
-  .experience-text-role {
-    font-size: 20px;
-  }
-
   .experience-text-company {
     font-size: 22px;
   }
@@ -175,10 +128,6 @@ $img-size: 8rem;
 @media (max-width: 768px) {
   .experience-card {
     margin-bottom: 2rem;
-  }
-
-  .experience-text-role {
-    font-size: 18px;
   }
 
   .experience-text-company {
