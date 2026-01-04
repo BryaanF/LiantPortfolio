@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -7,84 +7,76 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  // openSource,
-  // blogSection,
-  // talkSection,
   achievementSection,
   resumeSection,
   pricingSection
 } from "../../portfolio";
-// import LanguageSelector from "../languageSelector/LanguageSelector";
 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
+  
+  // Logic view section tetap sama
   const viewExperience = workExperiences.display;
-  // const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  // const viewBlog = blogSection.display;
-  // const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
   const viewPricing = pricingSection.display;
 
   return (
     <Headroom>
-      <header className={isDark ? "light-mode header" : "dark-menu header"}>
+      <header className={isDark ? "header dark-menu" : "header light-menu"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className={isDark ? "logo-name notranslate" : "logo-name-dark notranslate"}>{greeting.username}</span>
+          <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
+        
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
         >
-          <span className={isDark ? "navicon" : "navicon navicon-dark"}></span>
+          <span className="navicon"></span>
         </label>
-        <ul className={isDark ? "menu" : "dark-menumenu"}>
+        
+        <ul className="menu">
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills" className="nav-link">Skills</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#education">Education</a>
+              <a href="#education" className="nav-link">Education</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience" className="nav-link">Work Experiences</a>
             </li>
           )}
           {viewResume && (
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects" className="nav-link">Projects</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Certification</a>
+              <a href="#achievements" className="nav-link">Certification</a>
             </li>
           )}
           {viewPricing && (
             <li>
-              <a href="#pricing">Pricing</a>
+              <a href="#pricing" className="nav-link">Pricing</a>
             </li>
           )}
-          <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
+          
+          {/* PERUBAHAN UTAMA DI SINI:
+              Hapus <a> wrapper. Ganti dengan class khusus container.
+          */}
+          <li className="toggle-container">
               <ToggleSwitch />
-            </a>
           </li>
-          {/* <li>
-            <a>
-              <LanguageSelector />
-            </a>
-          </li> */}
         </ul>
       </header>
     </Headroom>

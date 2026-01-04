@@ -5,6 +5,18 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
+// IMPORT GAMBAR SECARA MANUAL (Vite Style)
+import telkomLogo from "./assets/images/telkomSchoolsLogo.png";
+import telkomUnivLogo from "./assets/images/telkomUniversityLogo.png";
+import lintasartaLogo from "./assets/images/lintasartaLogo.png";
+import kejatiLogo from "./assets/images/kejatiJatimLogo.png";
+import pedulyLogo from "./assets/images/pedulyLogo.png";
+import hrisImage from "./assets/images/HRISIGIProject.jpg";
+import echelonmapingprojectimage from "./assets/images/echelonMapingProject.png";
+import contactzainzoprojectimage from "./assets/images/contactZainzoProject.png";
+import udemyLogo from "./assets/images/udemyLogo.png";
+import bwaLogo from "./assets/images/bwaLogo.png";
+
 // Splash Screen
 
 const splashScreen = {
@@ -161,7 +173,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Telkom Schools Malang",
-      logo: require("./assets/images/telkomSchoolsLogo.png"),
+      logo: telkomLogo,
       subHeader: "Majoring in computer and network engineering",
       duration: "September 2017 - August 2020",
       desc: "Learn many thing about network like tcp / ip, routing, masking, etc. Non academic activity I do is join for IT club and join flag raiser club to hone my discipline.",
@@ -173,7 +185,7 @@ const educationInfo = {
     },
     {
       schoolName: "Telkom University Surabaya",
-      logo: require("./assets/images/telkomUniversityLogo.png"),
+      logo: telkomUnivLogo,
       subHeader: "Bachelor of Information Systems",
       duration: "September 2020 - November 2024",
       desc: "I learn more about software engineering combine with management skill here. Non academic thing I do besides that is join hackathon, being lab assistant, and being new student introduction (PKKMB) comitee.",
@@ -196,7 +208,7 @@ const workExperiences = {
     {
       role: "Website Developer Intern",
       company: "Lintasarta",
-      companylogo: require("./assets/images/lintasartaLogo.png"),
+      companylogo: lintasartaLogo,
       date: "June 2018 – Agusut 2018",
       desc: "I build customer database management to handle a network data to be monitor by network engineer team. Build for local network with vanila HTML, CSS, and Javascript with database Mysql.",
       descBullets: [
@@ -207,14 +219,14 @@ const workExperiences = {
     {
       role: "Website Developer Intern",
       company: "Kejaksaan Tinggi Jatim",
-      companylogo: require("./assets/images/kejatiJatimLogo.png"),
+      companylogo: kejatiLogo,
       date: "August 2023 – September 2023",
       desc: "I do internship for kejaksaan tinggi jawa timur to create a website (laravel based with jquery to handle the maping) maping availability of personnel in each position in the organization on many location of Kejati office (province level) and kejari office (city or district level)."
     },
     {
       role: "Backend Developer",
       company: "Peduly",
-      companylogo: require("./assets/images/pedulyLogo.png"),
+      companylogo: pedulyLogo,
       date: "March 2025 – June 2025",
       desc: "I work as backend developer for peduly to create a website that can handle message broadcaster which is whatsapp and email to send message effectively for the users. In this project I use Laravel and ExpressJs to create the backend API and use MySQL as the database. I contribute pretty much of my time to maintain the robust documentation of the API so that the frontend developer can use it easily and the project can be maintained well for the next developer to come."
     }
@@ -234,7 +246,7 @@ const bigProjects = {
   subtitle: "SOME COMPANIES THAT I HELPED TO BUILD THEIR COOL PROJECTS!",
   projects: [
     {
-      image: require("./assets/images/logoigi.png"),
+      image: hrisImage,
       projectName: "Human Resources Information System PT. Indo Global Impex",
       projectDesc:
         "HRIS IGI is a web based application that can handle the employee data, attendance, and payroll. This project is build with Laravel and Mysql for PT. Indo Global Impex.",
@@ -247,7 +259,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/kejatiJatimLogo.png"),
+      image: echelonmapingprojectimage,
       projectName: "Geographic Information System for Echelon Maping",
       projectDesc:
         "GIS for echelon maping is a web based application that can handle the availability of personnel in each position in the organization on many location of Kejati office (province level) and kejari office (city or district level). This project is build with Laravel and Mysql for Kejaksaan Tinggi Jawa Timur.",
@@ -259,7 +271,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/contactZainzoLogo.png"),
+      image: contactzainzoprojectimage,
       projectName: "Contact Zainzo for Broadcasting Message",
       projectDesc:
         "Contact Zainzo is a web based application that can handle broadcasting message to many users using whatsapp and email. This project is build with Laravel, ExpressJS, and Mysql back when I work for Peduly. I ensure the API documentation is well maintained so that the frontend developer and next backend developer can continue the project easily.",
@@ -286,7 +298,7 @@ const achievementSection = {
       title: "Figma UI UX Design Essentials",
       subtitle:
         "Figma UI / UX essential is course for beginner in UI / UX to know and grasp about the land of designing an app, the mentor daniel walter scott is capable of teaching the subject very clear and can show the good practice for beginner",
-      image: require("./assets/images/udemyLogo.png"),
+      image: udemyLogo,
       imageAlt: "Udemy Logo",
       footerLink: [
         {
@@ -303,7 +315,7 @@ const achievementSection = {
       title: "Website Development with Laravel",
       subtitle:
         "Developed a website based on laravel that can do transaction inside it.",
-      image: require("./assets/images/bwaLogo.png"),
+      image: bwaLogo,
       imageAlt: "BuildwithAngga Logo",
       footerLink: [
         {
@@ -320,7 +332,7 @@ const achievementSection = {
       title: "Internship at Kejaksaan Tinggi Jawa Timur",
       subtitle:
         "Completed internship at Kejaksaan Tinggi Jawa Timur as website developer to create maping for availability of echelon position in work sub unit of Kejaksaan Tinggi Jawa Timur or known as Kejaksaan Negeri and Kejaksaan Tinggi itself.",
-      image: require("./assets/images/kejatiJatimLogo.png"),
+      image: kejatiLogo,
       imageAlt: "Kejati Jatim Logo",
       footerLink: [
         {

@@ -1,9 +1,9 @@
-import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
+import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import "./Project.scss";
 import Button from "../../components/button/Button";
-import {openSource, socialMediaLinks} from "../../portfolio";
+import { openSource, socialMediaLinks } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
-import Loading from "../../containers/loading/Loading";
+import Loading from "../loading/Loading";
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -12,7 +12,7 @@ export default function Projects() {
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
   // todo: remove useContex because is not supported
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
 
   useEffect(() => {
     const getRepoData = () => {

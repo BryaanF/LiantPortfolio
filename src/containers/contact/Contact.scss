@@ -1,5 +1,3 @@
-@import "../../_globalColor";
-
 .contact-div-main {
   display: flex;
 }
@@ -8,7 +6,7 @@
   color: $textColorDark;
 }
 
-.contact-div-main > * {
+.contact-div-main>* {
   flex: 1;
 }
 
@@ -45,7 +43,7 @@
   margin-top: 0.5rem;
 }
 
-.contact-image-div > img {
+.contact-image-div>img {
   max-width: 100%;
   height: auto;
   margin-left: 1.5rem;
@@ -53,7 +51,8 @@
 }
 
 /* Media Query */
-@media (max-width: 1380px), (max-width: 768px) {
+@media (max-width: 1380px),
+(max-width: 768px) {
   .contact-title {
     font-size: 56px;
     font-weight: 400;

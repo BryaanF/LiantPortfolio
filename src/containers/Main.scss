@@ -1,13 +1,20 @@
-@import "../_globalColor";
+.main-container {
+  // Tambahkan class ini di Main.js nanti (opsional, tapi lebih rapi)
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
 
+// Override style bawaan body/div berdasarkan class
 .dark-mode {
-  background-color: $darkBackground;
-  color: $textColorDark;
-  transition: "0.1s";
+  background-color: var(--bg-body) !important; // Mengambil dari _variables.scss baru
+  color: var(--text-primary) !important;
+
+  // Pastikan semua child element mewarisi warna ini
+  * {
+    border-color: var(--border-light);
+  }
 }
 
 .light-mode {
-  background-color: $lightBackground;
-  color: $textColor;
-  transition: "0.1s";
+  background-color: var(--bg-body) !important;
+  color: var(--text-primary) !important;
 }

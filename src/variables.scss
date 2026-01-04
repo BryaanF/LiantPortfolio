@@ -1,3 +1,61 @@
+@use "sass:color";
+
+/* =========================================
+   1. PRIMITIVE TOKENS
+   ========================================= */
+$brand-gold: #a1902e;
+$brand-gold-hover: color.scale($brand-gold, $lightness: 10%);
+$blue-500: #2196f3;
+$red-500: #ea4335;
+$white: #ffffff;
+$black: #000000;
+
+// Grayscales
+$gray-100: #f4f4f4;
+$gray-200: #e6e6e6;
+$gray-300: #cccccc;
+$gray-700: #586069;
+$gray-800: #333333;
+$gray-900: #24292e;
+$dark-bg: #0a0a0a;
+
+/* =========================================
+   2. SEMANTIC TOKENS
+   ========================================= */
+
+:root,
+.light-mode {
+    --bg-body: #{$gray-100};
+    --bg-card: #{$white};
+    --bg-header: #{$gray-900};
+    --text-primary: #{$black};
+    --text-secondary: #{$gray-700};
+    --text-tertiary: #{$gray-800};
+    --btn-primary-bg: #{$brand-gold};
+    --btn-primary-hover: #{$brand-gold-hover};
+    --border-light: rgba(0, 0, 0, 0.1);
+    --shadow-card: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'],
+.dark-mode {
+    --bg-body: #{$dark-bg};
+    --bg-card: #1f1f1f;
+    --bg-header: #161b22;
+    --text-primary: #{$white};
+    --text-secondary: #b0b0b0;
+    --text-tertiary: #a0a0a0;
+    --btn-primary-bg: #{$brand-gold};
+    --btn-primary-hover: #{$brand-gold-hover}; // Diganti agar konsisten emas
+    --border-light: rgba(255, 255, 255, 0.1);
+    --shadow-card: 0 4px 6px rgba(255, 255, 255, 0.05);
+}
+
+
+// =================================
+// PINDAHAN DARI GLOBAL COLOR SCSS
+// =================================
+
 /* Change colors in this file to style to your needs on a global level. 
 Certain colors are used for different and multiply types of elements. 
 For greater control over colors visit each components .scss file. */
@@ -10,7 +68,7 @@ $topButtonHover: #000;
 // text colors light theme
 $titleColor: #000000;
 $textColor: #000000;
-$subTitle: #383838;
+$subTitle: #686868;
 $cardSubtitle: #333333;
 $talkCardSubTitle: #424242;
 $blogCardTitleColor: #262626;
@@ -50,14 +108,10 @@ $darkBoxShadow: #d9dbdf;
 $darkBoxShadow2: #ffffff;
 
 // linear gradients
-$experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
-);
-$experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
-);
+$experienceCardBlurredDivLG: linear-gradient(rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2));
+$experienceCardBannerLG: linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5));
 
 // borders
 $progressBarBackground: rgb(243, 239, 239);

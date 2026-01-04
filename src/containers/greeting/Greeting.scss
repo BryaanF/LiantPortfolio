@@ -1,20 +1,15 @@
-@import "../../_globalColor";
-
 .main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 4rem;
 }
+
 .greet-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
-}
-
-.greeting-main {
-  display: flex;
 }
 
 .subTitle {
@@ -23,16 +18,61 @@
 
 .greeting-main {
   display: flex;
+  align-items: center;
+  /* Center vertikal agar teks dan foto seimbang */
+  gap: 2rem;
+  /* Memberi jarak aman antara teks dan foto */
 }
 
-.greeting-main > * {
-  flex: 1;
-  margin-bottom: 30px;
+/* Mengatur proporsi layout: Text 60%, Image 40% (agar foto tidak terlalu mendominasi) */
+.greeting-text-div {
+  flex: 6;
 }
+
+.greeting-image-div {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  /* Center foto secara horizontal */
+  align-items: center;
+}
+
+/* --- New Class untuk Avatar --- */
+.profile-avatar {
+  width: 100%;
+  max-width: 400px;
+  /* Batas maksimal ukuran foto di desktop */
+  height: auto;
+  border-radius: 50%;
+  /* Ubah jadi 10px atau 20px jika ingin kotak rounded */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  /* Shadow halus agar terlihat profesional */
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+    /* Efek zoom sedikit saat hover */
+  }
+}
+
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
+  gap: 15px;
+
+  // Default Mobile: Vertikal
+  flex-direction: column;
+  align-items: center;
+
+  // Tablet ke atas
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: flex-start;
+    /* Ubah ke start agar sejajar dengan teks kiri */
+  }
 }
+
 .download-link-button {
   text-decoration: none;
 }
@@ -47,11 +87,6 @@
   line-height: 40px;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
-}
-
 .wave-emoji {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -64,53 +99,82 @@
   0% {
     transform: rotate(0deg);
   }
+
   10% {
     transform: rotate(-10deg);
   }
+
   20% {
     transform: rotate(12deg);
   }
+
   30% {
     transform: rotate(-10deg);
   }
+
   40% {
     transform: rotate(9deg);
   }
+
   50% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
 }
 
-/* Media Query */
+/* --- Media Queries --- */
+
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
   }
+
   .greeting-text-p {
     font-size: 20px;
   }
 }
+
 @media (max-width: 768px) {
-  .button-greeting-div {
-    justify-content: space-around;
-  }
-  .greeting-text {
-    font-size: 30px;
+  .greeting-main {
+    display: flex;
+    flex-direction: column-reverse;
+    /* Foto di atas, Teks di bawah (Opsional, hapus reverse jika ingin teks dulu) */
     text-align: center;
   }
+
+  .greeting-text-div {
+    width: 100%;
+  }
+
+  .button-greeting-div {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .greeting-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
-    text-align: center;
   }
-  .greeting-main {
-    display: block;
-  }
+
   .greeting-image-div {
-    height: 256px;
+    width: 100%;
+    margin-bottom: 20px;
+    /* PENTING: Hapus height fix 256px yang lama agar foto tidak terpotong */
+    height: auto;
+  }
+
+  .profile-avatar {
+    max-width: 200px;
+    /* Ukuran foto lebih kecil di HP */
+    margin-top: 10px;
   }
 }
 

@@ -1,19 +1,21 @@
-import React, {useContext} from "react";
-import {Fade} from "react-reveal";
+import React, { useContext } from "react";
+import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+// Hapus import Lottie yang tidak perlu
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import {illustration, greeting} from "../../portfolio";
+import { greeting } from "../../portfolio"; // illustration tidak lagi dibutuhkan disini jika hardcode gambar
 import StyleContext from "../../contexts/StyleContext";
+import profilePic from "../../assets/images/liant-profile-picture.png";
 
 export default function Greeting() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
+
   if (!greeting.displayGreeting) {
     return null;
   }
+
   return (
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -43,29 +45,24 @@ export default function Greeting() {
                     href="/resume.pdf"
                     download="Liant_Resume.pdf"
                     className="download-link-button notranslate"
-                    translate="no"
                   >
                     <Button text="📄 Resume / CV" />
                   </a>
                 )}
-                <span translate="no" className="notranslate">
-                  <Button text="💵 Estimate Project Cost" href="#pricing" />
-                </span>
-                <span translate="no" className="notranslate">
-                  <Button text="🤝 Build a Project" href="#contact" />
-                </span>
+                <Button text="💵 Estimate Project Cost" href="#pricing" />
+                <Button text="🤝 Build a Project" href="#contact" />
               </div>
             </div>
           </div>
+          
+          {/* Bagian Image Refactor */}
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+             <img
+                alt="Profile Avatar"
+                // Ganti path ini sesuai lokasi foto Anda
+                src={profilePic} 
+                className="profile-avatar"
+             />
           </div>
         </div>
       </div>

@@ -1,34 +1,163 @@
-@import "../../_globalColor";
+// Variables for spacing consistency (Lokal layout vars boleh tetap SCSS)
+$spacing-lg: 60px;
+$spacing-md: 30px;
+$spacing-sm: 15px;
 
-.achievement-heading {
-  font-size: 56px;
-  font-weight: 400;
-  line-height: normal;
-  margin: 0px;
+.achievement-main-div {
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-lg 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.achievement-subtitle {
-  text-transform: uppercase;
-  margin: 0px;
-  margin-bottom: 50px;
+
+.achievement-header {
+  text-align: center;
+  margin-bottom: $spacing-lg;
+
+  .achievement-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    // Ganti hardcoded/SCSS variable dengan CSS Variable
+    color: var(--text-primary);
+  }
+
+  .achievement-subtitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    // Otomatis berubah warna saat dark mode tanpa perlu blok .dark-mode
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
 }
-.subTitle {
-  color: $subTitle;
+
+// THE GRID SYSTEM
+.achievement-cards-container {
+  display: grid;
+  // Auto-fit responsive: minimal 300px, sisanya stretch
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: $spacing-md;
+  width: 100%;
 }
+
+/* CARD STYLING */
+.achievement-card {
+  // Gunakan semantic token untuk background
+  background-color: var(--bg-card);
+
+  // Tambahkan border tipis agar di dark mode batas kartu tetap terlihat jelas
+  border: 1px solid var(--border-light);
+
+  border-radius: 12px;
+  padding: 30px;
+
+  // Gunakan shadow variable yang sudah kita set tipis di dark mode
+  box-shadow: var(--shadow-card);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; // RATA KIRI
+  text-align: left; // RATA KIRI
+  height: 100%; // Equal height
+
+  &:hover {
+    transform: translateY(-5px);
+    // Kita bisa buat variable --shadow-hover jika mau, tapi hardcoded opacity shadow aman
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15);
+  }
+
+  // Logo
+  img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+
+  // Title Card
+  h5,
+  .card-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--text-primary); // Variable text utama
+  }
+
+  // Description Card
+  p,
+  .card-subtitle {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-secondary); // Variable text sekunder
+    margin-bottom: 24px;
+    flex-grow: 1;
+  }
+
+  // Footer / Buttons Area
+  .card-footer {
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+    flex-wrap: wrap; // Jaga-jaga kalau layar sempit
+
+    button,
+    a {
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+
+      &.primary-btn {
+        background-color: var(--btn-primary-bg);
+        color: #fff; // Teks tombol primary biasanya tetap putih
+        border: none;
+
+        &:hover {
+          background-color: var(--btn-primary-hover);
+        }
+      }
+
+      &.secondary-btn {
+        background-color: transparent;
+        border: 1px solid var(--border-light); // Border menyesuaikan tema
+        color: var(--text-secondary); // Text menyesuaikan tema
+
+        &:hover {
+          border-color: var(--text-primary);
+          color: var(--text-primary);
+        }
+      }
+    }
+  }
+}
+
+// TIDAK PERLU LAGI ADA BLOK .dark-mode DI SINI
+// Karena semua properti di atas sudah menggunakan var(--...)
 
 /* Media Query */
-@media (max-width: 1380px) {
-  .achievement-heading {
-    font-size: 40px;
-  }
-}
 @media (max-width: 768px) {
-  .achievement-heading {
-    font-size: 30px;
-    text-align: center;
+  .achievement-header {
+    .achievement-heading {
+      font-size: 32px;
+    }
+
+    .achievement-subtitle {
+      font-size: 14px;
+    }
   }
-  .achievement-subtitle {
-    font-size: 16px;
-    line-height: normal;
-    text-align: center;
+
+  .achievement-cards-container {
+    grid-template-columns: 1fr; // 1 kolom di mobile
   }
 }

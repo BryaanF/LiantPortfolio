@@ -1,139 +1,171 @@
-@import "../../_globalColor";
+// Base settings
+$card-radius: 10px;
+$banner-height: 11rem;
+$img-size: 8rem;
 
 .experience-card {
   position: relative;
-  background-color: $lightBackground2;
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  border-radius: 10px;
-  border: 1px solid $lightBorder1;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: $card-radius;
+  box-shadow: var(--shadow-card);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+
+  // Hover Effect
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+
+  // --- Dark Mode Specifics ---
+  :global(.dark-mode) & {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+
+    // Override warna Role menjadi Gold di dark mode
+    .experience-text-role {
+      color: $brand-gold !important;
+    }
+  }
 }
 
-.experience-card-dark {
-  position: relative;
-  background-color: $darkBackground;
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  border-radius: 10px;
-  border: 1px solid $lightBorder1;
-}
-
-.experience-card:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
-}
-
+// --- Banner Section ---
 .experience-banner {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 150%;
-  background: $experienceCardBannerLG;
-  border-radius: 10px 10px 0px 0px;
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -o-filter: blur(0px);
-  -ms-filter: blur(0px);
-  filter: blur(0px);
-  height: 11rem;
+  height: $banner-height;
+  position: relative;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: $card-radius $card-radius 0 0;
+
+  // DEFAULT (Light Mode): Gradient halus Abu-abu ke Emas tipis
+  background: linear-gradient(135deg, $gray-200 0%, #e0e0e0 100%);
+
+  // DARK MODE BANNER: Gradient Hitam Premium
+  :global(.dark-mode) & {
+    background: linear-gradient(135deg, #1f1f1f 0%, #2c2c2c 100%);
+  }
 }
 
 .experience-blurred_div {
   position: absolute;
-  background: $experienceCardBlurredDivLG;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-  height: 11rem;
   top: 0;
   left: 0;
   width: 100%;
-  border-radius: 10px 10px 0px 0px;
+  height: 100%;
+  // Glassmorphism effect
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: $card-radius $card-radius 0 0;
+  z-index: 1;
 }
 
 .experience-div-company {
   position: absolute;
-  background: transparent;
-  height: 9rem;
   top: 0;
-  left: 0;
   width: 100%;
+  height: 9rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 
 .experience-text-company {
-  text-align: center;
-  padding: 1.5rem;
-  margin: 0;
-  color: $lightBackground1;
+  // Warna teks nama perusahaan di atas banner
+  color: $gray-800; // Gelap di Light Mode
   font-size: 25px;
-  text-align: center;
   font-weight: 700;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  margin: 0;
+  padding: 1.5rem;
+  text-align: center;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90%;
+  z-index: 2;
+
+  // Dark Mode Text Color
+  :global(.dark-mode) & {
+    color: $white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .experience-roundedimg {
   position: absolute;
+  width: $img-size;
+  height: $img-size;
   object-fit: cover;
-  left: 0;
-  right: 0;
-  top: 7rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 8rem;
-  height: 8rem;
-  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+  top: 7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  z-index: 3;
+  // Border lingkaran putih di light mode, gelap di dark mode
+  border: 4px solid var(--bg-card);
+  background-color: #fff; // Background logo tetap putih agar logo terlihat jelas
+}
+
+// --- Content Section ---
+.experience-text-details {
+  padding: 1.5rem;
+  margin-top: 2.5rem;
+  text-align: center;
 }
 
 .experience-text-role {
-  text-align: center;
-  color: $textColor;
+  font-size: 22px;
   font-weight: 700;
-  font-size: 25px;
-  margin: 0px;
-  padding-top: 1.5rem;
-  line-height: normal;
+  margin: 0;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
 }
-.dark-mode-text {
-  color: $textColorDark !important;
-}
+
 .experience-text-date {
-  text-align: center;
-  color: $textColor;
-  font-size: 20px;
-  margin: 0px;
-  padding-top: 1rem;
+  font-size: 16px;
   font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .experience-text-desc {
-  text-align: justify;
+  margin-top: 1rem;
+  text-align: justify; // Rata kanan-kiri agar rapi
+  color: var(--text-primary);
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-.experience-text-details {
-  padding: 1.5rem;
-  margin-top: 2rem;
+// Bullets Styling
+.experience-bullets {
+  text-align: left;
+  padding-left: 1.2rem;
+  margin-top: 1rem;
+
+  .subTitle {
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary); // Sedikit lebih pudar dari teks utama
+    line-height: 1.5;
+  }
 }
 
-/* Media Query */
-
+/* --- Responsive Adjustments --- */
 @media (max-width: 1380px) {
   .experience-text-role {
-    padding-top: 0.5rem;
-    font-size: 22px;
+    font-size: 20px;
   }
+
   .experience-text-company {
     font-size: 22px;
   }
-  .experience-text-date {
-    font-size: 18px;
-  }
+
   .experience-roundedimg {
     width: 6.5rem;
     height: 6.5rem;
@@ -141,16 +173,19 @@
 }
 
 @media (max-width: 768px) {
+  .experience-card {
+    margin-bottom: 2rem;
+  }
+
   .experience-text-role {
-    font-size: 22px;
-  }
-  .experience-text-company {
-    font-size: 22px;
-  }
-  .experience-text-date {
     font-size: 18px;
   }
+
+  .experience-text-company {
+    font-size: 20px;
+  }
+
   .experience-text-desc {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
