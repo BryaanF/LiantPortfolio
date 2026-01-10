@@ -14,7 +14,6 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-
   const viewExperience = workExperiences.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
@@ -35,7 +34,8 @@ function Header() {
           <span className="navicon"></span>
         </label>
 
-        <ul className="menu flex items-center">
+        {/* Hapus class utility tailwind, gunakan class semantik */}
+        <ul className="menu">
           {viewSkills && (
             <li>
               <a href="#skills" className="nav-link">
@@ -79,10 +79,8 @@ function Header() {
             </li>
           )}
 
-          {/* Grouping Settings: Dark Mode */}
-          <li className="settings-container flex items-center gap-2 ml-4">
-            <div className="border-l border-gray-600 h-5 mx-2 opacity-30"></div>{" "}
-            {/* Garis pemisah tipis */}
+          {/* Settings Item: Bersih dari div border manual */}
+          <li className="settings-item">
             <ToggleSwitch />
           </li>
         </ul>

@@ -1,28 +1,38 @@
-/*React-headroom*/
+/* --- Header.scss --- */
+
+/* Asumsi variable warna sudah ada di global scope/import */
+/* $lightBackground1, $textColor, $iconBackground, $headerHoverBG, $darkBackground, $textColorDark, $buttonColor, $subTitle */
+
 .headroom-wrapper {
   max-height: 100px;
+  /* Tambahkan z-index agar header selalu di atas konten lain saat scroll */
+  z-index: 10;
 }
 
 /* Base Header Structure */
 .header {
-  max-width: 100%;
-  padding: 15px 20px;
-  margin: 0px auto;
+  width: 100%;
+  padding: 15px 40px;
+  /* Padding sedikit diperlebar agar lega di desktop */
+  margin: 0 auto;
   display: flex;
-  /* Modern layout */
   align-items: center;
   justify-content: space-between;
-  transition: all 0.3s ease; // Smooth transition tema
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+  /* Penting untuk mobile menu absolute/flow */
 
-  // --- THEME LOGIC (Clean & Nested) ---
+  /* --- THEME LOGIC --- */
   &.light-menu {
-    background-color: $lightBackground1; // atau $lightBackground sesuai selera
+    background-color: $lightBackground1;
     color: $textColor;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); // Opsional: Shadow tipis agar header misah
 
     .logo-name {
       color: $textColor;
     }
 
+    /* Styling Hamburger Icon (Light) */
     .navicon {
       background: $iconBackground;
 
@@ -32,15 +42,17 @@
       }
     }
 
-    // Style khusus Link Navigasi
     .nav-link {
       color: $textColor;
 
       &:hover {
         background-color: $headerHoverBG;
       }
+    }
 
-      // Variable hover light
+    /* Warna border pemisah di mode light */
+    .settings-item {
+      border-color: rgba(0, 0, 0, 0.1);
     }
   }
 
@@ -52,6 +64,7 @@
       color: $textColorDark;
     }
 
+    /* Styling Hamburger Icon (Dark) */
     .navicon {
       background: $textColorDark;
 
@@ -61,31 +74,34 @@
       }
     }
 
-    // Style khusus Link Navigasi
     .nav-link {
       color: $textColorDark;
 
       &:hover {
         background-color: $buttonColor;
       }
+    }
 
-      // Variable hover dark
+    /* Warna border pemisah di mode dark */
+    .settings-item {
+      border-color: rgba(255, 255, 255, 0.2);
     }
   }
 
-  // ------------------------------------
+  /* ------------------- */
 
   .logo {
     font-size: 1.5em;
     text-decoration: none;
     font-weight: bold;
-    // float & flex cleanup
     display: flex;
     align-items: center;
+    z-index: 20;
+    /* Logo harus tetap bisa diklik di atas menu mobile */
   }
 
   .logo-name {
-    font-family: "Agustina Regular";
+    font-family: "Agustina Regular", sans-serif;
     padding: 0 10px;
     font-weight: bold;
   }
@@ -94,101 +110,79 @@
     color: $subTitle;
   }
 
+  /* --- MENU DESKTOP DEFAULT --- */
   ul.menu {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex; // Default desktop: flex row
-    align-items: center; // Vertically center items (termasuk toggle)
+    display: flex;
+    align-items: center;
+    /* KUNCI: Menjajarkan Link dan Toggle vertikal */
+    gap: 15px;
+    /* Menggantikan margin manual antar li */
 
     li {
-      // Style dasar list item
       display: block;
 
-      // Target Class .nav-link yang kita buat di React
       .nav-link {
         display: block;
-        padding: 15px 20px;
+        padding: 10px 15px;
         text-decoration: none;
-        transition: background-color 0.2s;
-        border-radius: 5px; // Opsional: biar hover agak tumpul
+        font-weight: 500;
+        transition: all 0.2s ease-in-out;
+        border-radius: 5px;
+        font-size: 0.95em;
       }
     }
 
-    // TOGGLE CONTAINER SPESIFIK
-    // Karena tidak pakai tag <a>, dia AMAN dari hover background
-    .toggle-container {
-      padding: 0 15px; // Beri jarak kiri kanan
+    /* ITEM KHUSUS: Toggle Switch & Divider */
+    /* Menggantikan logika div border manual di JSX */
+    .settings-item {
       display: flex;
       align-items: center;
+      padding-left: 20px;
+      margin-left: 5px;
+      border-left: 1px solid;
+      /* Warna border diatur di Theme Logic di atas */
+      height: 30px;
+      /* Menjaga tinggi border agar rapi */
     }
   }
 }
 
-/* --- MOBILE RESPONSIVE LOGIC --- */
-/* Menggunakan max-width untuk mobile (Mobile-last override) atau min-width structure kamu */
+/* Hide Checkbox Logic */
 .header .menu-btn {
   display: none;
 }
 
-// Logic Hamburger Menu untuk Layar Kecil
+/* Sembunyikan icon burger di desktop */
+.header .menu-icon {
+  display: none;
+}
+
+
+/* --- MOBILE RESPONSIVE LOGIC (< 768px / 48em) --- */
 @media (max-width: 48em) {
-
-  // < 768px
   .header {
-    // 1. Ganti Layout jadi Flexbox supaya bisa align-center
-    display: flex;
-    flex-wrap: wrap; // Penting: Biar menu dropdown bisa turun ke baris baru
-    justify-content: space-between;
-    align-items: center; // FIX UTAMA: Ini yang bikin Logo & Burger sejajar vertikal
-    position: relative;
+    padding: 15px 20px;
+    /* Perkecil padding sisi di mobile */
+    flex-wrap: wrap;
 
-    // 2. Logic Menu Dropdown
-    ul.menu {
-      width: 100%; // Paksa menu ambil selebar layar (turun ke bawah)
-      display: block;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
-
-      li {
-        float: none;
-
-        .nav-link {
-          padding: 15px;
-          text-align: center; // Opsional: biar teks menu di tengah
-        }
-      }
-
-      .toggle-container {
-        padding: 15px;
-        justify-content: center;
-      }
-    }
-
-    // 3. Perbaikan Posisi Icon Burger
+    /* Tampilkan Icon Burger */
     .menu-icon {
+      display: block;
       cursor: pointer;
-      display: flex; // Gunakan flex biar garis burger di tengah area klik
-      align-items: center;
-
-      /* Hapus position absolute & float yang bikin tidak rapi */
-      position: relative;
-      float: none;
-      top: auto;
-      right: auto;
-
-      /* Sesuaikan padding agar area klik pas, tapi tidak merusak layout */
       padding: 10px;
-      margin-right: -10px; // Kompensasi padding kanan supaya lurus dengan margin layar
+      position: relative;
+      user-select: none;
+      z-index: 20;
+      /* Supaya icon di atas menu yang turun */
 
-      /* --- STRUKTUR ICON (Dari perbaikan sebelumnya) --- */
       .navicon {
         display: block;
         height: 2px;
         width: 24px;
         position: relative;
-        background: transparent; // Default transparent karena di-handle tema parent
         transition: background .2s ease-out;
 
         &:before,
@@ -205,21 +199,70 @@
           top: 6px;
         }
 
-        // Jarak garis atas
         &:after {
           top: -6px;
         }
-
-        // Jarak garis bawah
       }
     }
 
-    // Logic Toggle Hamburger (Menu Terbuka)
-    .menu-btn:checked~.menu {
-      max-height: 500px;
+    /* MENU MOBILE (Hidden by default) */
+    ul.menu {
+      width: 100%;
+      display: block;
+      /* Reset flex row desktop */
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out, opacity 0.3s;
+      opacity: 0;
+
+      /* Styling Container Menu Mobile */
+      flex-direction: column;
+      gap: 0;
+      /* Reset gap desktop */
+      margin-top: 10px;
+      /* Jarak dari header bar */
+
+      li {
+        width: 100%;
+        text-align: center;
+
+        .nav-link {
+          padding: 15px;
+          /* Perbesar area sentuh */
+          width: 100%;
+        }
+      }
+
+      /* REVISI SETTINGS ITEM DI MOBILE */
+      .settings-item {
+        margin: 15px 0 10px 0;
+        /* Jarak atas bawah */
+        padding: 0;
+        border-left: none;
+        /* Hilangkan garis vertikal desktop */
+        border-top: 1px solid;
+        /* Ganti jadi garis horizontal tipis (opsional) */
+        width: 50%;
+        /* Garis tidak full width agar manis */
+        margin-left: auto;
+        margin-right: auto;
+        /* Center horizontal */
+        justify-content: center;
+        /* Center toggle switch */
+        padding-top: 15px;
+        height: auto;
+        /* Reset height fix desktop */
+      }
     }
 
-    // Animasi X (Cross)
+    /* LOGIC SAAT MENU DIBUKA (CHECKED) */
+    .menu-btn:checked~.menu {
+      max-height: 400px;
+      /* Sesuaikan dengan total tinggi konten */
+      opacity: 1;
+    }
+
+    /* ANIMASI ICON BURGER JADI X */
     .menu-btn:checked~.menu-icon .navicon {
       background: transparent !important;
     }
@@ -233,11 +276,5 @@
       transform: rotate(45deg);
       top: 0;
     }
-  }
-}
-
-@media (min-width: 48em) {
-  .header .menu-icon {
-    display: none; // Sembunyikan hamburger di desktop
   }
 }

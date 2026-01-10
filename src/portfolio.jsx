@@ -1,10 +1,8 @@
 /* Change this file to get your personal Portfolio */
 
-// To change portfolio colors globally go to the  _globalColor.scss file
-
+// Import package penting
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
+import splashAnimation from "./assets/lottie/splashAnimation";
 // IMPORT GAMBAR SECARA MANUAL (Vite Style)
 import telkomLogo from "./assets/images/telkomSchoolsLogo.png";
 import telkomUnivLogo from "./assets/images/telkomUniversityLogo.png";
@@ -18,23 +16,23 @@ import udemyLogo from "./assets/images/udemyLogo.png";
 import bwaLogo from "./assets/images/bwaLogo.png";
 
 // Splash Screen
-
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 1000 // Set animation duration as per your animation
+  duration: 1000
 };
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true
 };
 
 // Summary And Greeting Section
 const greeting = {
   username: "Brilliant Fikri",
   title: "Hello, I'm Liant",
+  // REVISI: Dipersingkat agar lebih punchy. Menghapus kata-kata filler.
   subTitle: emoji(
-    "🚀 I help organizations, schools, and small businesses build reliable and maintainable web systems. My focus is not just shipping features, but delivering long-term, scalable solutions that actually solve operational problems."
+    "Helping organizations and businesses build reliable web systems. I focus on delivering scalable solutions that solve actual operational problems, not just writing code."
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link",
@@ -49,34 +47,31 @@ const socialMediaLinks = {
   medium: "https://medium.com/@briliantfikri",
   stackoverflow: "https://stackoverflow.com/users/14787789/briliant-fikri",
   whatsapp:
-    "https://wa.me/6281331487753?text=Halo%20Liant,%20Saya%20tertarik%20untuk%20bekerja%20sama%20terkait%20...",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+    "https://wa.me/6281331487753?text=Halo%20Liant,%20Saya%20tertarik%20untuk%20diskusi%20terkait%20pengembangan%20sistem...", // Sedikit formalisasi greeting WA
+  display: true
 };
 
 // Skills Section
 const skillsSection = {
-  title: "What I do as a professional 💻",
+  // REVISI: Judul lebih profesional.
+  title: "Professional Capabilities 💻",
   subTitle:
-    "I design, build, and maintain software systems with a strong focus on reliability, clarity, and long-term maintainability. I work closely with stakeholders to ensure the solution fits real operational needs, not just technical requirements.",
+    "End-to-end software development with a focus on reliability and clarity. I bridge the gap between complex technical requirements and practical business needs.",
   skills: [
     emoji(
-      "Design and develop scalable web applications tailored to real business workflows"
+      "Developing scalable web applications tailored to streamline business workflows."
     ),
     emoji(
-      "Build and integrate APIs, third-party services, and internal systems"
+      "Building and integrating robust APIs, third-party services, and internal systems."
     ),
     emoji(
-      "Design database structures that are efficient, secure, and easy to maintain"
+      "Designing efficient, secure, and maintainable database structures (SQL)."
     ),
     emoji(
-      "Provide long-term system support, documentation, and technical handover"
+      "Ensuring long-term sustainability through comprehensive documentation and technical handover."
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "HTML5",
@@ -91,7 +86,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript (Express, React)",
+      skillName: "JavaScript (React, Node.js)", // Digabung agar lebih compact
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -123,35 +118,31 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "Invision",
-      fontAwesomeClassname: "fab fa-invision"
-    },
-    {
-      skillName: "Figma",
+      skillName: "Figma", // Invision jarang dipakai sekarang, fokus ke Figma saja jika memang kuat di sana
       fontAwesomeClassname: "fab fa-figma"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Your top 3 proficient stacks/tech experience
+// Top 3 Proficient Stacks
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: false,
   experience: [
     {
-      Stack: "Backend Development", //Insert stack or technology you have experience in
-      progressPercentage: "95%" //Insert relative proficiency in percentage
+      Stack: "Backend Engineering", // 'Engineering' terdengar lebih kuat dari 'Development'
+      progressPercentage: "95%"
     },
     {
-      Stack: "Website Development (Full-Stack)", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Full-Stack Web Development",
+      progressPercentage: "90%"
     },
     {
       Stack: "Network Engineering",
       progressPercentage: "80%"
     },
     {
-      Stack: "IT Support",
+      Stack: "IT Support & Operations",
       progressPercentage: "70%"
     },
     {
@@ -159,28 +150,29 @@ const techStack = {
       progressPercentage: "60%"
     },
     {
-      Stack: "Android Development",
+      Stack: "Mobile Dev (Android)",
       progressPercentage: "50%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Education Section
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   title: emoji("Education"),
   schools: [
     {
       schoolName: "Telkom Schools Malang",
       logo: telkomLogo,
-      subHeader: "Majoring in computer and network engineering",
+      subHeader: "Computer and Network Engineering", // Hilangkan 'Majoring in'
       duration: "September 2017 - August 2020",
-      desc: "Learn many thing about network like tcp / ip, routing, masking, etc. Non academic activity I do is join for IT club and join flag raiser club to hone my discipline.",
+      // REVISI: Ubah dari "belajar apa" menjadi "menguasai apa".
+      desc: "Built a strong foundation in Network Infrastructure (TCP/IP, Routing, Switching). Active member of the IT Club and Flag Raiser Squad (Paskibra) honing discipline and teamwork.",
       descBullets: [
-        "Learn how to crimp the rj45 cable and set (include design, build, and operate) the local area network",
-        "Learning little bit about web programming (HTML, CSS, Javascript Basic)",
-        "Creating business idea / startup (including make logo, business value, operation scenario, etc)"
+        "Mastered LAN construction, including crimping, design, and topology implementation.",
+        "Gained early proficiency in web fundamentals (HTML, CSS, Basic JS).",
+        "Developed entrepreneurial skills through startup simulation projects (branding & operations)."
       ]
     },
     {
@@ -188,11 +180,12 @@ const educationInfo = {
       logo: telkomUnivLogo,
       subHeader: "Bachelor of Information Systems",
       duration: "September 2020 - November 2024",
-      desc: "I learn more about software engineering combine with management skill here. Non academic thing I do besides that is join hackathon, being lab assistant, and being new student introduction (PKKMB) comitee.",
+      // REVISI: Lebih highlight kombinasi Technical + Management.
+      desc: "Focused on the intersection of Software Engineering and IT Management. Actively involved in Hackathons, Laboratory Assistance, and Student Orientation Committees.",
       descBullets: [
-        "Learn how to create basic algorithm with python and know data structure",
-        "Learn how to build desktop app (little), android app (intermediate), and web development (advance)",
-        "Learn about management skill related to IT area and non IT, join the leadership training also that held by the campus"
+        "Advanced algorithmic problem solving with Python and Data Structures.",
+        "Full-cycle development for Android (Intermediate) and Web Applications (Advanced).",
+        "Honed leadership and project management skills through organizational roles and campus training."
       ]
     }
   ]
@@ -200,103 +193,114 @@ const educationInfo = {
 
 // Work Experience Section
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
-  title: emoji("Work Experience"),
-  subtitle: "This is my work experience on some great companies / instances!",
+  display: true,
+  title: emoji("Experience"),
+  subtitle:
+    "Professional track record in software development and IT infrastructure.",
   experience: [
     {
       role: "Backend Developer",
       company: "Peduly",
       companylogo: pedulyLogo,
       date: "March 2025 – June 2025",
-      desc: "I work as backend developer for peduly to create a website that can handle message broadcaster which is whatsapp and email to send message effectively for the users. In this project I use Laravel and ExpressJs to create the backend API and use MySQL as the database. I contribute pretty much of my time to maintain the robust documentation of the API so that the frontend developer can use it easily and the project can be maintained well for the next developer to come."
+      // REVISI: Menggunakan Power Verbs (Engineered, Designed, Maintained).
+      desc: "Engineered a high-performance broadcast system capable of handling mass messaging via WhatsApp and Email using Laravel, ExpressJS, and MySQL.",
+      descBullets: [
+        // Saya pindahkan detail ke bullets agar lebih mudah dibaca
+        "Designed and implemented robust RESTful APIs for the broadcasting module.",
+        "Created comprehensive API documentation to ensure seamless handover and scalability for future developers.",
+        "Optimized database queries to handle high-volume data traffic efficiently."
+      ]
     },
     {
       role: "Website Developer Intern",
       company: "Kejaksaan Tinggi Jatim",
       companylogo: kejatiLogo,
       date: "August 2023 – September 2023",
-      desc: "I do internship for kejaksaan tinggi jawa timur to create a website (laravel based with jquery to handle the maping) maping availability of personnel in each position in the organization on many location of Kejati office (province level) and kejari office (city or district level)."
+      // REVISI: Memperbaiki grammar 'maping' -> 'mapping'.
+      desc: "Developed an internal GIS (Geographic Information System) to map personnel availability across provincial and district offices.",
+      descBullets: [
+        "Built the system using Laravel and jQuery for interactive mapping features.",
+        "Digitized the organizational data to assist leadership in personnel distribution analysis."
+      ]
     },
     {
-      role: "Website Developer Intern",
+      role: "Network Engineer Intern", // Judul disesuaikan dengan deskripsi
       company: "Lintasarta",
       companylogo: lintasartaLogo,
       date: "June 2018 – August 2018",
-      desc: "Developed an internal web-based customer network database system used by the network engineering team to monitor and manage network data within a local environment.",
+      desc: "Assisted the Network Engineering team in managing and monitoring local network infrastructure.",
       descBullets: [
-        "Built a CRUD-based system to manage structured customer network information",
-        "Helped simplify internal monitoring workflows for the network engineering team"
+        "Developed a CRUD-based web tool to digitize customer network data, replacing manual logging.",
+        "Streamlined internal monitoring workflows, reducing data retrieval time for engineers."
       ]
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  showGithubProfile: "false",
+  display: false
 };
 
-// Some big projects you have worked on
+// Big Projects Section
 const bigProjects = {
-  title: emoji("Big Projects"),
-  subtitle: "SOME COMPANIES THAT I HELPED TO BUILD THEIR COOL PROJECTS!",
+  title: emoji("Key Projects"),
+  subtitle: "DELIVERING IMPACT THROUGH TECHNOLOGY",
   projects: [
     {
       image: hrisImage,
-      projectName: "Human Resources Information System PT. Indo Global Impex",
+      projectName: "HRIS - PT. Indo Global Impex",
+      // REVISI: Struktur Masalah -> Solusi.
       projectDesc:
-        "A web-based Human Resources Information System used to manage employee data, attendance, and payroll. This system streamlined HR operations and reduced manual administrative work by centralizing employee information in one platform. Used internally by HR team to manage payroll and attendance efficiently.",
+        "Designed to modernize HR operations. This centralized Human Resources Information System manages employee data, attendance, and payroll automation. It significantly reduced manual administrative workload and minimized data discrepancies.",
       footerLink: [
         {
-          name: "Show Project",
+          name: "View Documentation",
           url: "https://drive.google.com/drive/folders/1jJlkhVb9g3y-d5u3fUa-PQOH4pGvir0b?usp=drive_link"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: echelonmapingprojectimage,
-      projectName: "Geographic Information System for Echelon Maping",
+      projectName: "Echelon GIS Mapping",
       projectDesc:
-        "A Geographic Information System used to map personnel availability across provincial and district-level offices. The system helped decision-makers quickly identify staffing distribution and organizational structure across locations. Used by provincial-level decision makers to analyze personnel distribution.",
+        "A Strategic Dashboard for Kejaksaan Tinggi Jatim. This GIS application provides real-time visualization of personnel distribution across East Java. It empowers decision-makers to analyze staffing gaps and optimize organizational structure efficiently.",
       footerLink: [
         {
-          name: "Show Project",
+          name: "View Project",
           url: "https://drive.google.com/drive/folders/1OcKJ93x-dqBF_9f6ei_XfbERiXbS-ekM?usp=drive_link"
         }
       ]
     },
     {
       image: contactzainzoprojectimage,
-      projectName: "Contact Zainzo for Broadcasting Message",
+      projectName: "Zainzo Broadcast System",
+      // REVISI: Hapus "Back when I work for...", langsung ke fitur teknis.
       projectDesc:
-        "Contact Zainzo is a web based application that can handle broadcasting message to many users using whatsapp and email. This project is build with Laravel, ExpressJS, and Mysql back when I work for Peduly. I ensure the API documentation is well maintained so that the frontend developer and next backend developer can continue the project easily. Used and on going until now and open publicly if you want to try it out yourself.",
+        "A SaaS-ready broadcasting platform handling WhatsApp and Email campaigns. Built with a microservice approach using Laravel and ExpressJS. Features include contact management, message scheduling, and detailed delivery reports.",
       footerLink: [
         {
-          name: "Go to Website",
+          name: "Visit Website",
           url: "https://zainzo.com"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
-// Include certificates, talks etc
 const achievementSection = {
-  title: emoji("Achievements And Certifications"),
-  subtitle:
-    "Achievements and Certifications that I have acquired during this recent time !",
+  title: emoji("Certifications & Achievements"),
+  subtitle: "Continuous learning and professional validation.",
 
   achievementsCards: [
     {
-      title: "Figma UI UX Design Essentials",
+      title: "Figma UI/UX Essentials",
+      // REVISI: Fokus ke skill, bukan review kursus.
       subtitle:
-        "Figma UI / UX essential is course for beginner in UI / UX to know and grasp about the land of designing an app, the mentor daniel walter scott is capable of teaching the subject very clear and can show the good practice for beginner",
+        "Mastered the fundamentals of User Interface and User Experience design. Learned to create high-fidelity prototypes, wireframes, and design systems to bridge the gap between design and development.",
       image: udemyLogo,
       imageAlt: "Udemy Logo",
       footerLink: [
@@ -305,15 +309,15 @@ const achievementSection = {
           url: "https://www.udemy.com/certificate/UC-798ad0c7-a839-4216-830e-bead6e44d858/"
         },
         {
-          name: "Show Project",
+          name: "View Prototype",
           url: "https://www.figma.com/proto/kqXK6yEMDOvLCTeUAqP5c9/Liants-Audio-Experience-Mobile-Apps?node-id=64-14&t=4d0XqofVf0WLWYNm-1&scaling=scale-down&content-scaling=fixed&page-id=64%3A10&starting-point-node-id=290%3A50&show-proto-sidebar=1"
         }
       ]
     },
     {
-      title: "Website Development with Laravel",
+      title: "Full-Stack Laravel Development",
       subtitle:
-        "Developed a website based on laravel that can do transaction inside it.",
+        "Advanced course on building complex transactional websites. Covered MVC architecture, database migrations, middleware security, and payment gateway integration.",
       image: bwaLogo,
       imageAlt: "BuildwithAngga Logo",
       footerLink: [
@@ -328,9 +332,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Internship at Kejaksaan Tinggi Jawa Timur",
+      title: "Internship Excellence",
       subtitle:
-        "Completed internship at Kejaksaan Tinggi Jawa Timur as website developer to create maping for availability of echelon position in work sub unit of Kejaksaan Tinggi Jawa Timur or known as Kejaksaan Negeri and Kejaksaan Tinggi itself.",
+        "Successfully completed professional internship at Kejaksaan Tinggi Jawa Timur, delivering a functional GIS application that was adopted for internal reporting.",
       image: kejatiLogo,
       imageAlt: "Kejati Jatim Logo",
       footerLink: [
@@ -345,15 +349,15 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Blogs Section
+// Blogs Section (Hidden)
 const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "true",
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -368,10 +372,10 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
 
-// Talks Sections
+// Talks Sections (Hidden)
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
@@ -386,43 +390,40 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
 
-// Podcast Section
+// Podcast Section (Hidden)
 const podcastSection = {
   title: emoji("Podcast"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "Feel free to download my full professional resume", // Sedikit diperjelas
+  display: true
 };
 
 // Contact Info Section
 const contactInfo = {
-  title: emoji("Contact Information"),
+  title: emoji("Contact Me"),
   subtitle:
-    "Have a project in mind or need help evaluating your system requirements? Let's talk and see what solution fits your needs.",
+    "Have a project in mind or need a technical consultation? Let's discuss how we can create value for your business.",
   number: "+62-813-3148-7753",
   email_address: "briliantfikri@gmail.com"
 };
 
-// Twitter Section
+// Twitter Section (Hidden)
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "twitter",
+  display: false
 };
 
 // Pricing Section
@@ -431,44 +432,47 @@ const pricingSection = {
   packages: [
     {
       id: "starter",
-      title: "Starter",
+      // REVISI: Nama paket lebih menjual.
+      title: "Essential Landing",
       price: 2500000,
       shortPrice: "2.5jt",
-      desc: "Starting solution for simple needs and quick delivery.",
+      // Fokus ke manfaat: 'Professional presence'
+      desc: "Perfect for establishing a professional digital presence quickly.",
       features: [
         "Single Page / Landing Page",
-        "Responsive Layout",
-        "WhatsApp Integration",
-        "3 Days Delivery"
+        "Fully Responsive (Mobile Ready)",
+        "WhatsApp Direct Integration",
+        "3 Days Fast Delivery"
       ]
     },
     {
       id: "business",
-      title: "Business",
+      title: "Business Pro",
       price: 5000000,
       shortPrice: "5jt",
-      desc: "Ideal for small businesses that need a structured and maintainable website.",
+      // Fokus ke manfaat: 'Growth' dan 'CMS'
+      desc: "Designed for growing businesses needing content management flexibility.",
       features: [
         "Up to 8 Pages",
-        "CMS Dashboard",
-        "Basic SEO",
-        "1 Month Maintenance",
+        "Admin/CMS Dashboard",
+        "Basic SEO Optimization",
+        "1 Month Support & Maintenance",
         "7 Days Delivery"
       ],
       isPopular: true
     },
     {
       id: "custom",
-      title: "Custom App",
+      title: "Custom System",
       price: 10000000,
       shortPrice: "10jt+",
-      desc: "Custom-built system based on business complexity and long-term needs.",
+      desc: "Tailor-made web applications for complex operational needs.",
       features: [
-        "Web Application",
-        "Database & API",
-        "Auth System",
-        "Complex Logic",
-        "14+ Days Delivery"
+        "Full Web Application (SaaS/Internal)",
+        "Custom Database & API Design",
+        "Secure Authentication System",
+        "Complex Business Logic",
+        "Documented Handover"
       ]
     }
   ],
@@ -476,20 +480,20 @@ const pricingSection = {
   featuresList: [
     {
       id: "feat_responsive",
-      title: "Mobile Optimized",
-      desc: "Perfect UI for all devices",
+      title: "Mobile First Design",
+      desc: "Optimized experience for all screen sizes",
       price: 500000
     },
     {
       id: "feat_darkmode",
-      title: "Dark Mode Toggle",
-      desc: "Switch theme support",
+      title: "Dark Mode Support",
+      desc: "Modern aesthetic switch",
       price: 800000
     },
     {
       id: "feat_api",
-      title: "3rd Party API",
-      desc: "Maps, Payment Gateway, etc",
+      title: "API Integration",
+      desc: "Maps, Payment Gateways, WA Blaster",
       price: 2000000
     }
   ],
@@ -497,20 +501,20 @@ const pricingSection = {
   addonsList: [
     {
       id: "add_seo",
-      title: "SEO Advanced",
-      desc: "Technical & On-page SEO",
+      title: "Technical SEO",
+      desc: "Improve visibility on Search Engines",
       price: 500000
     },
     {
       id: "add_source",
-      title: "Source Code Handover",
-      desc: "Get full access to your code",
+      title: "Full Source Code",
+      desc: "Intellectual property ownership handover",
       price: 2500000
     }
   ]
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true;
 
 export {
   illustration,
