@@ -1,13 +1,13 @@
 import React from "react";
-import {Fade} from "react-reveal";
+import {motion} from "framer-motion";
 import {formatFileSizeDisplay} from "../../utils";
 
-// Ekstrak SVG agar kode utama bersih (Clean Code)
+// Ekstrak SVG component
 const Icons = {
   Repo: () => (
     <svg
       aria-hidden="true"
-      className="w-4 h-5 mr-2 opacity-80"
+      className="w-5 h-5 mr-3 opacity-80 shrink-0"
       fill="currentColor"
       viewBox="0 0 12 16"
     >
@@ -46,7 +46,6 @@ const Icons = {
 };
 
 export default function GithubRepoCard({repo, isDark}) {
-  // Destructuring untuk kemudahan akses
   const {
     url,
     name,
@@ -57,61 +56,69 @@ export default function GithubRepoCard({repo, isDark}) {
     diskUsage
   } = repo.node;
 
-  // Logic conditional styling based on 'isDark' prop
-  // Catatan: Jika Tailwind config sudah support 'darkMode: class', logic ini bisa lebih simple.
-  const containerClasses = isDark
-    ? "bg-gray-800 text-gray-100 hover:shadow-gray-700/50 hover:bg-gray-700"
-    : "bg-white text-gray-800 hover:shadow-xl hover:-translate-y-1";
+  // Logic styling
+  const themeClasses = isDark
+    ? "bg-gray-800 text-gray-100 hover:shadow-gray-700/50 hover:bg-gray-750 border-gray-700"
+    : "bg-white text-gray-800 hover:shadow-xl hover:-translate-y-1 border-transparent";
 
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={`
-          block p-8 rounded-lg cursor-pointer shadow-lg 
-          transition-all duration-300 ease-in-out
-          ${containerClasses}
-        `}
-      >
+    <motion.a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      // --- Framer Motion Props ---
+      initial={{y: 20, opacity: 0}}
+      whileInView={{y: 0, opacity: 1}}
+      transition={{duration: 0.5, ease: "easeOut"}}
+      viewport={{once: true, margin: "-50px"}}
+      // ---------------------------
+      className={`
+        block p-6 rounded-lg cursor-pointer shadow-md border
+        transition-colors duration-300 ease-in-out
+        h-full flex flex-col justify-between 
+        ${themeClasses}
+      `}
+    >
+      <div>
         <div className="flex items-center mb-3">
           <Icons.Repo />
-          <h3 className="text-xl font-bold truncate tracking-tight m-0">
+          <h3 className="text-xl font-bold truncate tracking-tight m-0 flex-1">
             {name}
           </h3>
         </div>
 
-        <p className="text-sm opacity-80 mb-6 h-10 overflow-hidden line-clamp-2 leading-relaxed">
+        <p className="text-sm opacity-80 mb-6 h-12 overflow-hidden line-clamp-2 leading-relaxed">
           {description}
         </p>
+      </div>
 
-        <div className="flex justify-between items-center text-xs opacity-90">
-          <div className="flex items-center gap-4">
-            {primaryLanguage && (
-              <div className="flex items-center">
-                <span
-                  className="w-2.5 h-2.5 rounded-full mr-1.5"
-                  style={{backgroundColor: primaryLanguage.color}}
-                />
-                <span>{primaryLanguage.name}</span>
-              </div>
-            )}
-
+      <div className="flex justify-between items-end text-xs opacity-90 mt-auto">
+        <div className="flex items-center gap-4 flex-wrap">
+          {primaryLanguage && (
             <div className="flex items-center">
-              <Icons.Fork />
-              <span>{forkCount}</span>
+              <span
+                className="w-2.5 h-2.5 rounded-full mr-1.5 shadow-sm"
+                style={{backgroundColor: primaryLanguage.color}}
+              />
+              <span className="font-medium">{primaryLanguage.name}</span>
             </div>
+          )}
 
-            <div className="flex items-center">
-              <Icons.Star />
-              <span>{stargazers.totalCount}</span>
-            </div>
+          <div className="flex items-center" title="Forks">
+            <Icons.Fork />
+            <span>{forkCount}</span>
           </div>
 
-          <div className="font-medium">{formatFileSizeDisplay(diskUsage)}</div>
+          <div className="flex items-center" title="Stars">
+            <Icons.Star />
+            <span>{stargazers.totalCount}</span>
+          </div>
         </div>
-      </a>
-    </Fade>
+
+        <div className="font-medium text-right ml-2 whitespace-nowrap">
+          {formatFileSizeDisplay(diskUsage)}
+        </div>
+      </div>
+    </motion.a>
   );
 }
