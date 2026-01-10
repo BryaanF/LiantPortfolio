@@ -13,6 +13,7 @@ export default defineConfig({
         react(),
         svgr()
     ],
+    base: '/LiantPortfolio/',
     resolve: {
         alias: {
             // Menggunakan resolve agar path lebih absolut dan aman
