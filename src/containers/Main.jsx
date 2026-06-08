@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -16,14 +16,17 @@ import ScrollToTopButton from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import Pricing from "./pricing/Pricing";
-import { splashScreen } from "../portfolio";
-import { StyleProvider } from "../contexts/StyleContext";
-import { useLocalStorage } from "../hooks/useLocalStorage";
+import IntroVideo from "./introVideo/IntroVideo";
+import {splashScreen} from "../portfolio";
+import {StyleProvider} from "../contexts/StyleContext";
+import {LanguageProvider} from "../contexts/LanguageContext";
+import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark, setIsDark] = useLocalStorage("isDark", true);
+  const [lang, setLang] = useLocalStorage("lang", "en");
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
@@ -43,31 +46,38 @@ const Main = () => {
     setIsDark(!isDark);
   };
 
+  const changeLang = () => {
+    setLang(prev => (prev === "id" ? "en" : "id"));
+  };
+
   return (
     <div className={isDark ? "dark-mode" : "light-mode"}>
-      <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
-        {isShowingSplashAnimation && splashScreen.enabled ? (
-          <SplashScreen />
-        ) : (
-          <>
-            <Header />
-            <Greeting />
-            <Skills />
-            <StackProgress />
-            <Education />
-            <WorkExperience />
-            <Projects />
-            <BigProject />
-            <Achievement />
-            <Blogs />
-            <Talks />
-            <Podcast />
-            <Pricing />
-            <Profile />
-            <Footer />
-            <ScrollToTopButton />
-          </>
-        )}
+      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+        <LanguageProvider value={{lang: lang, changeLang: changeLang}}>
+          {isShowingSplashAnimation && splashScreen.enabled ? (
+            <SplashScreen />
+          ) : (
+            <>
+              <Header />
+              <Greeting />
+              <IntroVideo />
+              <Skills />
+              <StackProgress />
+              <Education />
+              <WorkExperience />
+              <Projects />
+              <BigProject />
+              <Achievement />
+              <Blogs />
+              <Talks />
+              <Podcast />
+              <Pricing />
+              <Profile />
+              <Footer />
+              <ScrollToTopButton />
+            </>
+          )}
+        </LanguageProvider>
       </StyleProvider>
     </div>
   );

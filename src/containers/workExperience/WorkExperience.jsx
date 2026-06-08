@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useContext} from "react";
 import {motion} from "framer-motion";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import {workExperiences} from "../../portfolio";
+import LanguageContext from "../../contexts/LanguageContext";
+import {getTranslation} from "../../utils/translations";
 
 const container = {
   hidden: {},
@@ -22,6 +24,8 @@ const fadeUp = {
 };
 
 export default function WorkExperience() {
+  const {lang} = useContext(LanguageContext);
+
   if (!workExperiences.display) return null;
 
   return (
@@ -35,7 +39,7 @@ export default function WorkExperience() {
         className="mb-16 text-left"
       >
         <h2 className="flex items-center gap-3 text-4xl font-extrabold tracking-tight text-[var(--text-primary)] md:text-5xl">
-          {workExperiences.title}
+          {getTranslation(workExperiences.title, lang)}
 
           <motion.span
             aria-hidden
@@ -51,7 +55,7 @@ export default function WorkExperience() {
           </motion.span>
         </h2>
         <p className="mt-3 max-w-xl text-xs font-semibold uppercase tracking-widest text-[var(--text-secondary)] opacity-70">
-          {workExperiences.subtitle}
+          {getTranslation(workExperiences.subtitle, lang)}
         </p>
       </motion.div>
 

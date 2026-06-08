@@ -25,16 +25,16 @@ $dark-bg: #0a0a0a;
 
 :root,
 .light-mode {
-    --bg-body: #{$gray-100};
+    --bg-body: #faf8f5;
     --bg-card: #{$white};
-    --bg-header: #{$gray-900};
-    --text-primary: #{$black};
-    --text-secondary: #{$gray-700};
-    --text-tertiary: #{$gray-800};
+    --bg-header: #{$white};
+    --text-primary: #1a1a2e;
+    --text-secondary: #5c5c6e;
+    --text-tertiary: #3a3a4e;
     --btn-primary-bg: #{$brand-gold};
     --btn-primary-hover: #{$brand-gold-hover};
-    --border-light: rgba(0, 0, 0, 0.1);
-    --shadow-card: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --border-light: rgba(0, 0, 0, 0.08);
+    --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.04), 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 [data-theme='dark'],

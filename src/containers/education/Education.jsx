@@ -1,9 +1,13 @@
-import React from "react";
+import React, {useContext} from "react";
 import EducationCard from "../../components/educationCard/EducationCard";
 import {educationInfo} from "../../portfolio";
 import {motion} from "framer-motion";
+import LanguageContext from "../../contexts/LanguageContext";
+import {getTranslation} from "../../utils/translations";
 
 export default function Education() {
+  const {lang} = useContext(LanguageContext);
+
   if (!educationInfo.display) return null;
 
   return (
@@ -23,7 +27,7 @@ export default function Education() {
           <span className="text-4xl md:text-5xl lg:text-6xl mb-2">🎓</span>
 
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[var(--text-primary)] leading-tight text-center">
-            {educationInfo.title}
+            {getTranslation(educationInfo.title, lang)}
           </h1>
 
           {/* Dekorasi Garis bawah yang menempel pada container judul */}

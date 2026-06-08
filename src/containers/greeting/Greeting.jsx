@@ -6,10 +6,13 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
+import {getTranslation} from "../../utils/translations";
 import profilePic from "../../assets/images/liant-profile-picture.png";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const {lang} = useContext(LanguageContext);
 
   if (!greeting.displayGreeting) {
     return null;
@@ -67,7 +70,7 @@ export default function Greeting() {
                 isDark ? "dark-mode" : "light-mode"
               }`}
             >
-              {greeting.title}
+              {getTranslation(greeting.title, lang)}
               <motion.span
                 className="wave-emoji inline-block ml-2"
                 animate={{rotate: [0, 20, 0, 20, 0]}}
@@ -83,7 +86,7 @@ export default function Greeting() {
                 isDark ? "dark-mode" : "subTitle"
               }`}
             >
-              {greeting.subTitle}
+              {getTranslation(greeting.subTitle, lang)}
             </motion.p>
 
             <motion.div variants={itemVariants} className="mt-6">
@@ -101,8 +104,14 @@ export default function Greeting() {
                   newTab={true} // If your component supports it
                 />
               )}
-              <Button text="💵 Estimate Project Cost" href="#pricing" />
-              <Button text="🤝 Build a Project" href="#contact" />
+              <Button
+                text={
+                  lang === "id"
+                    ? "🤝 Bangun Proyek dengan Saya"
+                    : "🤝 Build a Project with Me"
+                }
+                href="#pricing"
+              />
             </motion.div>
           </div>
         </motion.div>

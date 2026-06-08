@@ -5,12 +5,15 @@ import {illustration, contactInfo} from "../../portfolio";
 import emailLottie from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
+import {getTranslation} from "../../utils/translations";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSquareWhatsapp} from "@fortawesome/free-brands-svg-icons";
 import {faSquareEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+  const {lang} = useContext(LanguageContext);
 
   const onlyNumbers = useMemo(() => contactInfo.number.replace(/\D/g, ""), []);
   const onlyEmail = useMemo(() => contactInfo.email_address.trim(), []);
@@ -49,7 +52,7 @@ export default function Contact() {
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-[var(--text-primary)] leading-tight"
             variants={itemVariants}
           >
-            {contactInfo.title}
+            {getTranslation(contactInfo.title, lang)}
           </motion.h1>
 
           <motion.p
@@ -58,7 +61,7 @@ export default function Contact() {
             }`}
             variants={itemVariants}
           >
-            {contactInfo.subtitle}
+            {getTranslation(contactInfo.subtitle, lang)}
           </motion.p>
 
           <motion.div className="mt-8 space-y-4" variants={itemVariants}>
@@ -67,7 +70,9 @@ export default function Contact() {
                 <a
                   className="group flex items-center text-xl md:text-2xl text-[var(--text-secondary)] no-underline transition-all duration-300 hover:text-green-500"
                   href={`https://wa.me/${onlyNumbers}?text=${encodeURIComponent(
-                    "Halo Liant, Saya tertarik untuk bekerja sama terkait ..."
+                    lang === "id"
+                      ? "Halo Liant, Saya tertarik untuk bekerja sama terkait ..."
+                      : "Hi Liant, I'm interested in collaborating on ..."
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"

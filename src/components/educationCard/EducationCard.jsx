@@ -1,9 +1,12 @@
 import React, {useContext} from "react";
 import {motion} from "framer-motion";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
+import {getTranslation} from "../../utils/translations";
 
 export default function EducationCard({school}) {
   const {isDark} = useContext(StyleContext);
+  const {lang} = useContext(LanguageContext);
 
   return (
     <motion.div
@@ -11,16 +14,12 @@ export default function EducationCard({school}) {
       whileInView={{opacity: 1, y: 0}}
       viewport={{once: true, margin: "-50px"}}
       transition={{duration: 0.6}}
-      /* Penting: Gunakan 'isolate' untuk memastikan z-index tidak bocor 
-         dan 'overflow-hidden' untuk memotong residu CSS ::before lama jika masih ada.
-      */
       className="group relative isolate w-full bg-[var(--bg-card)]/30 border border-[var(--border-light)] hover:border-[var(--btn-primary-bg)]/50 p-6 md:p-8 rounded-[2rem] transition-all duration-500 overflow-hidden"
     >
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 relative z-10">
         {/* Logo Section */}
         {school.logo && (
           <div className="shrink-0 relative">
-            {/* Glow Effect saat Hover */}
             <div className="absolute inset-0 bg-[var(--btn-primary-bg)] rounded-full blur-md opacity-0 group-hover:opacity-20 transition-opacity duration-500" />
 
             <img
@@ -44,7 +43,7 @@ export default function EducationCard({school}) {
                 isDark ? "text-gray-300" : "text-gray-700"
               }`}
             >
-              {school.subHeader}
+              {getTranslation(school.subHeader, lang)}
             </h6>
 
             <div className="inline-block px-3 py-1 text-[10px] font-black tracking-[0.2em] text-[var(--btn-primary-bg)] bg-[var(--btn-primary-bg)]/10 rounded-full uppercase">
@@ -52,7 +51,7 @@ export default function EducationCard({school}) {
             </div>
 
             <p className="mt-6 text-sm md:text-base text-[var(--text-secondary)] italic leading-relaxed opacity-90 max-w-4xl mx-auto lg:mx-0">
-              "{school.desc}"
+              "{getTranslation(school.desc, lang)}"
             </p>
 
             {school.descBullets && (
@@ -66,7 +65,7 @@ export default function EducationCard({school}) {
                       ▶
                     </span>
                     <span className="opacity-80 group-hover:opacity-100 transition-opacity">
-                      {item}
+                      {getTranslation(item, lang)}
                     </span>
                   </li>
                 ))}
@@ -76,7 +75,6 @@ export default function EducationCard({school}) {
         </div>
       </div>
 
-      {/* Decorative Gradient Line di bagian bawah kartu */}
       <div className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[var(--btn-primary-bg)] to-transparent opacity-0 group-hover:opacity-40 transition-all duration-700" />
     </motion.div>
   );

@@ -3,13 +3,15 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageToggle from "../LanguageToggle/LanguageToggle";
 import {
   greeting,
   workExperiences,
   skillsSection,
   achievementSection,
   resumeSection,
-  pricingSection
+  pricingSection,
+  introVideo
 } from "../../portfolio";
 
 function Header() {
@@ -19,6 +21,7 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewResume = resumeSection.display;
   const viewPricing = pricingSection.display;
+  const viewIntroVideo = introVideo.display && introVideo.videoUrl;
 
   return (
     <Headroom>
@@ -36,6 +39,13 @@ function Header() {
 
         {/* Hapus class utility tailwind, gunakan class semantik */}
         <ul className="menu">
+          {viewIntroVideo && (
+            <li>
+              <a href="#intro-video" className="nav-link">
+                Intro
+              </a>
+            </li>
+          )}
           {viewSkills && (
             <li>
               <a href="#skills" className="nav-link">
@@ -79,7 +89,11 @@ function Header() {
             </li>
           )}
 
-          {/* Settings Item: Bersih dari div border manual */}
+          <li className="lang-item">
+            <LanguageToggle />
+          </li>
+
+          {/* Settings Item */}
           <li className="settings-item">
             <ToggleSwitch />
           </li>
