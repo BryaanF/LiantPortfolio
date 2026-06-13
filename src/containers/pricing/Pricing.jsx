@@ -4,6 +4,7 @@ import {pricingSection} from "../../portfolio";
 import LanguageContext from "../../contexts/LanguageContext";
 import StyleContext from "../../contexts/StyleContext";
 import {getTranslation} from "../../utils/translations";
+import ImageLightbox from "../../components/imageLightbox/ImageLightbox";
 
 /* Icons (SVG inline) */
 const Icons = {
@@ -80,6 +81,7 @@ const PackageModal = ({pkg, onClose, onSelect, isSelected}) => {
   const {lang} = useContext(LanguageContext);
   const {isDark} = useContext(StyleContext);
   const [activeTab, setActiveTab] = useState("overview");
+  const [lightboxImage, setLightboxImage] = useState(null);
 
   if (!pkg) return null;
 
@@ -285,7 +287,9 @@ const PackageModal = ({pkg, onClose, onSelect, isSelected}) => {
                       src={shot.url}
                       alt={shot.caption || `Screenshot ${i + 1}`}
                       className="w-full h-48 object-cover rounded-xl border border-[var(--border-light)]/20 hover:border-[var(--btn-primary-bg)]/50 transition-colors cursor-pointer"
-                      onClick={() => window.open(shot.url, "_blank")}
+                      onClick={() =>
+                        setLightboxImage({src: shot.url, caption: shot.caption})
+                      }
                       loading="lazy"
                     />
                   ))}
@@ -373,13 +377,22 @@ const PackageModal = ({pkg, onClose, onSelect, isSelected}) => {
             style={
               isSelected
                 ? {backgroundColor: "white", color: "#000"}
-                : {backgroundColor: "var(--btn-primary-bg)", color: "#000"}
+                : {backgroundColor: "var(--btn-primary-bg)", color: "#fff"}
             }
           >
             {isSelected ? labels.selected : labels.select}
           </button>
         </div>
       </motion.div>
+
+      {/* Image Lightbox */}
+      {lightboxImage && (
+        <ImageLightbox
+          src={lightboxImage.src}
+          alt={lightboxImage.caption}
+          onClose={() => setLightboxImage(null)}
+        />
+      )}
     </motion.div>
   );
 };
@@ -596,7 +609,10 @@ export default function PricingCalculator() {
                               backgroundColor: "rgba(239,68,68,0.08)",
                               border: "1px solid rgba(239,68,68,0.2)"
                             }
-                          : {backgroundColor: "var(--btn-primary-bg)"}
+                          : {
+                              backgroundColor: "var(--btn-primary-bg)",
+                              color: "#fff"
+                            }
                       }
                     >
                       {isSelected ? labels.remove : labels.select}
@@ -715,10 +731,24 @@ export default function PricingCalculator() {
                   </div>
                   <button
                     onClick={handleCheckout}
-                    className="w-full text-black font-black py-3 rounded-lg text-xs uppercase tracking-widest hover:brightness-110 active:scale-95 transition-all"
-                    style={{backgroundColor: "var(--btn-primary-bg)"}}
+                    className="w-full text-black font-black py-3 rounded-lg text-xs uppercase tracking-widest hover:brightness-110 active:scale-95 transition-all mb-3"
+                    style={{
+                      backgroundColor: "var(--btn-primary-bg)",
+                      color: "#fff"
+                    }}
                   >
                     {labels.book}
+                  </button>
+                  <button
+                    onClick={() => setSelectedPackageId(null)}
+                    className="w-full py-3 rounded-lg text-xs font-bold uppercase tracking-widest transition-colors hover:brightness-110"
+                    style={{
+                      color: "#f87171",
+                      backgroundColor: "rgba(239,68,68,0.08)",
+                      border: "1px solid rgba(239,68,68,0.25)"
+                    }}
+                  >
+                    {labels.remove}
                   </button>
                 </div>
               </div>

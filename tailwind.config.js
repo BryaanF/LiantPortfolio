@@ -6,8 +6,8 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                // Daftarkan warna brand Anda di sini agar bisa dipanggil seperti 'text-brand-gold'
-                'brand-gold': '#C5A059',
+                /* Brand gold — harus sama dengan $brand-gold di variables.scss (#a1902e) */
+                'brand-gold': '#a1902e',
                 'bg-dark': '#0a0a0a',
                 'card-dark': '#151515',
             },

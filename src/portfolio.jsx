@@ -297,10 +297,21 @@ const bigProjects = {
         en: "Designed to modernize HR operations. This centralized Human Resources Information System manages employee data, attendance, and payroll automation. It significantly reduced manual administrative workload and minimized data discrepancies.",
         id: "Dirancang untuk memodernisasi operasi HR. Sistem Informasi Sumber Daya Manusia terpusat ini mengelola data karyawan, kehadiran, dan otomatisasi penggajian. Secara signifikan mengurangi beban administrasi manual dan meminimalkan ketidaksesuaian data."
       },
+      // Gallery screenshots/videos untuk ProjectShowcase
+      mediaGallery: [
+        {
+          type: "image",
+          url: hrisImage,
+          caption: {
+            en: "HR Dashboard — employee data overview",
+            id: "Dashboard HR — tampilan data karyawan"
+          }
+        }
+      ],
       footerLink: [
         {
-          name: "View Documentation",
-          url: "https://drive.google.com/drive/folders/1jJlkhVb9g3y-d5u3fUa-PQOH4pGvir0b?usp=drive_link"
+          name: "View Showcase",
+          url: "" // Kosongkan, akan pakai modal ProjectShowcase
         }
       ]
     },
@@ -497,8 +508,8 @@ const pricingSection = {
     id: "Paket Investasi"
   },
   description: {
-    en: "Choose a development package that fits your business phase. Transparent, no hidden fees.",
-    id: "Pilih skema pengembangan yang sesuai dengan fase bisnis Anda. Transparan, tanpa biaya tersembunyi."
+    en: "Transparent pricing designed around real business needs. Every package includes professional development, documentation, and direct communication with me — no hidden fees, no sugarcoating, just real solution.",
+    id: "Harga transparan yang dirancang sesuai kebutuhan bisnis nyata. Setiap paket mencakup pengembangan profesional, dokumentasi, dan komunikasi langsung dengan saya — tanpa biaya tersembunyi, tanpa basa-basi, hanya solusi nyata."
   },
 
   packages: [
@@ -586,8 +597,8 @@ const pricingSection = {
           id: "starter_maintain",
           title: "Extended Care (1 Year)",
           desc: {
-            en: "Server maintenance & update guarantee",
-            id: "Jaminan maintenance server & update"
+            en: "Asset & content maintenance",
+            id: "Pemeliharaan aset & konten"
           },
           price: 1500000
         },
@@ -611,7 +622,15 @@ const pricingSection = {
         en: "Company Profile, Agencies, Clinics",
         id: "Company Profile, Agensi, Klinik"
       },
-      screenshots: [],
+      screenshots: [
+        {
+          url: "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw",
+          caption: {
+            en: "Example of a dynamic CMS profile website with custom admin panel.",
+            id: "Contoh website profil CMS dinamis dengan panel admin kustom."
+          }
+        }
+      ],
       desc: {
         en: "Multi-page website with private Admin Panel (CMS) to update news / careers.",
         id: "Website multipage dengan Admin Panel (CMS) privat untuk update berita/karir."
@@ -623,8 +642,8 @@ const pricingSection = {
       specs: {
         duration: "7-14 Days Work",
         revisions: "3 Rounds (Major)",
-        warranty: "1 Month (Bug Fix)",
-        techStack: "Full Stack Laravel",
+        warranty: "2 Weeks (Bug Fix)",
+        techStack: "WordPress Self Hosted / Laravel CMS",
         delivery: "Source Code + Server Setup"
       },
       features: [

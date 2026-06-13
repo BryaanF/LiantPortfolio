@@ -34,6 +34,7 @@
 - **SCSS variables** (prefixed with `$`) are for non-theme values only (e.g., `$brand-gold`, `$buttonHover`, static colors). Do not use SCSS variables for colors that should respond to dark/light mode.
 - **Never hardcode colors** in component JSX or SCSS that should respect the theme. Always go through CSS custom properties.
 - **Brand color:** Gold `#a1902e` (`$brand-gold`). This is the primary accent across buttons, links, and highlights.
+- **IMPORTANT:** The brand-gold in `tailwind.config.js` must match `$brand-gold` in `variables.scss`. Currently both use `#a1902e`. If one changes, update the other.
 
 ## Input and form handling
 
