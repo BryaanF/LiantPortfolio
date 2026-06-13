@@ -21,14 +21,14 @@
 Always use these in JSX via Tailwind arbitrary values — never hardcode colors:
 
 ```jsx
-// LIGHT MODE (.light-mode)
---bg-body: #faf8f5
---bg-card: #ffffff
---bg-header: #ffffff
+// LIGHT MODE (.light-mode) — Neutral cool grey, no warm/pink tint
+--bg-body: #eaeaea
+--bg-card: #f5f5f5
+--bg-header: #f5f5f5
 --text-primary: #1a1a2e
 --text-secondary: #5c5c6e
---border-light: rgba(0, 0, 0, 0.08)
---shadow-card: 0 8px 30px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.06)
+--border-light: rgba(0, 0, 0, 0.1)
+--shadow-card: 0 4px 20px rgba(0,0,0,0.05), 0 1px 6px rgba(0,0,0,0.07)
 
 // DARK MODE (.dark-mode, [data-theme='dark'])
 --bg-body: #0a0a0a
@@ -449,12 +449,15 @@ const title = getTranslation(config.title, lang); // returns string
   title={string}
   description={string}
   media={[{type: "image" | "video", url, caption, thumbnail}]}
-  externalLinks={[{name: string, url: string}]}
+  externalUrl={
+    string
+  } /* Optional — shows "Visit Website" button in top-right header */
   onClose={fn}
 />
 ```
 
-- Full-screen dark overlay with media gallery and external link buttons.
+- Full-screen dark overlay with media gallery.
+- **"Visit Website"** button appears in top-right header ONLY when `externalUrl` is provided.
 - Used by AchievementCard and BigProject containers.
 
 ---

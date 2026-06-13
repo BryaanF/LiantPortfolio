@@ -12,6 +12,19 @@ export default function BigProject() {
 
   if (!bigProjects.display) return null;
 
+  const handleOpenShowcase = project => {
+    const mediaGallery = (project.mediaGallery || []).map(m => ({
+      ...m,
+      caption: getTranslation(m.caption, lang)
+    }));
+    setShowcaseData({
+      title: project.projectName,
+      description: getTranslation(project.projectDesc, lang),
+      media: mediaGallery,
+      externalUrl: project.externalUrl || ""
+    });
+  };
+
   return (
     <>
       <section id="projects" className="big-projects-section">
@@ -33,97 +46,52 @@ export default function BigProject() {
 
           {/* Grid Container */}
           <div className="projects-grid-div">
-            {bigProjects.projects.map((project, i) => {
-              // Resolve media gallery captions
-              const mediaGallery = (project.mediaGallery || []).map(m => ({
-                ...m,
-                caption: getTranslation(m.caption, lang)
-              }));
-              const footerLinks = (project.footerLink || []).map(f => ({
-                ...f,
-                url: f.url || "" // Keep original url
-              }));
-
-              return (
-                <motion.div
-                  key={i}
-                  initial={{opacity: 0, y: 30}}
-                  whileInView={{opacity: 1, y: 0}}
-                  viewport={{once: true}}
-                  transition={{duration: 0.5, delay: i * 0.1}}
-                  className="project-card"
-                >
-                  {/* Image Section */}
-                  {project.image && (
-                    <div
-                      className="project-image-container cursor-pointer"
-                      onClick={() =>
-                        setShowcaseData({
-                          title: project.projectName,
-                          description: getTranslation(
-                            project.projectDesc,
-                            lang
-                          ),
-                          media: mediaGallery,
-                          externalLinks: footerLinks
-                        })
-                      }
-                    >
-                      <img
-                        src={project.image}
-                        alt={project.projectName}
-                        className="card-image"
-                        loading="lazy"
-                      />
-                      <div className="image-overlay" />
-                    </div>
-                  )}
-
-                  {/* Detail Section */}
-                  <div className="project-content">
-                    <div className="project-detail">
-                      <h5 className="card-title">{project.projectName}</h5>
-                      <p className="card-subtitle">
-                        {getTranslation(project.projectDesc, lang)}
-                      </p>
-                    </div>
-
-                    {/* Footer Links — open ProjectShowcase */}
-                    {footerLinks.length > 0 && (
-                      <div className="project-card-footer">
-                        {footerLinks.map((link, k) => (
-                          <button
-                            key={k}
-                            onClick={() =>
-                              setShowcaseData({
-                                title: project.projectName,
-                                description: getTranslation(
-                                  project.projectDesc,
-                                  lang
-                                ),
-                                media: mediaGallery,
-                                externalLinks: footerLinks
-                              })
-                            }
-                            className="project-tag"
-                            style={{
-                              cursor: "pointer",
-                              background: "transparent",
-                              border: "none",
-                              font: "inherit",
-                              color: "inherit",
-                              textTransform: "uppercase"
-                            }}
-                          >
-                            {link.name}
-                          </button>
-                        ))}
-                      </div>
-                    )}
+            {bigProjects.projects.map((project, i) => (
+              <motion.div
+                key={i}
+                initial={{opacity: 0, y: 30}}
+                whileInView={{opacity: 1, y: 0}}
+                viewport={{once: true}}
+                transition={{duration: 0.5, delay: i * 0.1}}
+                className="project-card"
+              >
+                {/* Image Section — click to open showcase */}
+                {project.image && (
+                  <div
+                    className="project-image-container cursor-pointer"
+                    onClick={() => handleOpenShowcase(project)}
+                  >
+                    <img
+                      src={project.image}
+                      alt={project.projectName}
+                      className="card-image"
+                      loading="lazy"
+                    />
+                    <div className="image-overlay" />
                   </div>
-                </motion.div>
-              );
-            })}
+                )}
+
+                {/* Detail Section */}
+                <div className="project-content">
+                  <div className="project-detail">
+                    <h5 className="card-title">{project.projectName}</h5>
+                    <p className="card-subtitle">
+                      {getTranslation(project.projectDesc, lang)}
+                    </p>
+                  </div>
+
+                  {/* Single "View Project" button — always opens ProjectShowcase */}
+                  <div className="project-card-footer">
+                    <button
+                      onClick={() => handleOpenShowcase(project)}
+                      className="project-tag"
+                    >
+                      View Project
+                    </button>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
@@ -133,7 +101,7 @@ export default function BigProject() {
           title={showcaseData.title}
           description={showcaseData.description}
           media={showcaseData.media}
-          externalLinks={showcaseData.externalLinks}
+          externalUrl={showcaseData.externalUrl}
           onClose={() => setShowcaseData(null)}
         />
       )}
