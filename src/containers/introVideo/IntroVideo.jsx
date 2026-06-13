@@ -1,5 +1,6 @@
 import React, {useContext} from "react";
 import {motion} from "framer-motion";
+import SectionHeader from "../../components/sectionHeader/SectionHeader";
 import {introVideo} from "../../portfolio";
 import LanguageContext from "../../contexts/LanguageContext";
 import StyleContext from "../../contexts/StyleContext";
@@ -10,7 +11,7 @@ export default function IntroVideo() {
   const {isDark} = useContext(StyleContext);
 
   if (!introVideo.display || !introVideo.videoUrl) {
-    return null; // Jangan render jika URL belum diisi atau display: false
+    return null;
   }
 
   const title = getTranslation(introVideo.title, lang);
@@ -32,24 +33,7 @@ export default function IntroVideo() {
   return (
     <section id="intro-video" className="relative py-16 md:py-24">
       <div className="max-w-5xl mx-auto px-4 md:px-8">
-        {/* Header */}
-        <motion.div
-          initial={{opacity: 0, y: 20}}
-          whileInView={{opacity: 1, y: 0}}
-          viewport={{once: true}}
-          transition={{duration: 0.6}}
-          className="text-center mb-12"
-        >
-          <h2 className="text-3xl md:text-5xl font-black text-[var(--text-primary)] mb-4">
-            {title}
-          </h2>
-          <p
-            className="text-sm md:text-base max-w-2xl mx-auto"
-            style={{color: "var(--text-secondary)"}}
-          >
-            {subtitle}
-          </p>
-        </motion.div>
+        <SectionHeader title={title} subtitle={subtitle} emoji="🎬" />
 
         {/* Video Player */}
         <motion.div

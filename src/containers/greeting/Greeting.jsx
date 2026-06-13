@@ -82,9 +82,7 @@ export default function Greeting() {
 
             <motion.p
               variants={itemVariants}
-              className={`greeting-text-p text-lg md:text-xl mt-4 ${
-                isDark ? "dark-mode" : "subTitle"
-              }`}
+              className="greeting-text-p text-lg md:text-xl mt-4 text-[var(--text-secondary)]"
             >
               {getTranslation(greeting.subTitle, lang)}
             </motion.p>

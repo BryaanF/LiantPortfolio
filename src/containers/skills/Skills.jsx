@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import {motion} from "framer-motion";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+import SectionHeader from "../../components/sectionHeader/SectionHeader";
 import {illustration, skillsSection} from "../../portfolio";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -26,24 +27,11 @@ export default function Skills() {
       style={{backgroundColor: "var(--bg-body)"}}
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8">
-        {/* Header — centered, compact */}
-        <motion.div
-          initial={{opacity: 0, y: 20}}
-          whileInView={{opacity: 1, y: 0}}
-          viewport={{once: true}}
-          transition={{duration: 0.6}}
-          className="text-center mb-10 md:mb-14"
-        >
-          <h2 className="text-3xl md:text-5xl font-black text-[var(--text-primary)] mb-3">
-            {getTranslation(skillsSection.title, lang)}
-          </h2>
-          <p
-            className="text-sm md:text-base uppercase tracking-[0.2em] font-semibold max-w-xl mx-auto"
-            style={{color: "var(--text-secondary)"}}
-          >
-            {getTranslation(skillsSection.subTitle, lang)}
-          </p>
-        </motion.div>
+        <SectionHeader
+          title={getTranslation(skillsSection.title, lang)}
+          subtitle={getTranslation(skillsSection.subTitle, lang)}
+          emoji="💡"
+        />
 
         {/* Lottie Animation — large, central focal point */}
         <motion.div

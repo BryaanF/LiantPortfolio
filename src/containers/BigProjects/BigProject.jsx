@@ -2,6 +2,7 @@ import React, {useContext, useState} from "react";
 import {motion} from "framer-motion";
 import {bigProjects} from "../../portfolio";
 import "./BigProject.scss";
+import SectionHeader from "../../components/sectionHeader/SectionHeader";
 import LanguageContext from "../../contexts/LanguageContext";
 import {getTranslation} from "../../utils/translations";
 import ProjectShowcase from "../../components/projectShowcase/ProjectShowcase";
@@ -29,20 +30,11 @@ export default function BigProject() {
     <>
       <section id="projects" className="big-projects-section">
         <div className="projects-main-container">
-          {/* Header Section */}
-          <motion.div
-            initial={{opacity: 0, y: 20}}
-            whileInView={{opacity: 1, y: 0}}
-            viewport={{once: true}}
-            transition={{duration: 0.6}}
-            className="projects-header"
-          >
-            <h1 className="projects-heading">
-              {getTranslation(bigProjects.title, lang)}{" "}
-              <span className="inline-block animate-bounce">🚀</span>
-            </h1>
-            <p className="projects-subtitle">{bigProjects.subtitle}</p>
-          </motion.div>
+          <SectionHeader
+            title={getTranslation(bigProjects.title, lang)}
+            subtitle={bigProjects.subtitle}
+            emoji="🚀"
+          />
 
           {/* Grid Container */}
           <div className="projects-grid-div">

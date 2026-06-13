@@ -1,6 +1,7 @@
 import React, {useContext, useMemo} from "react";
 import {motion} from "framer-motion";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
+import SectionHeader from "../../components/sectionHeader/SectionHeader";
 import {illustration, contactInfo} from "../../portfolio";
 import emailLottie from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -37,33 +38,24 @@ export default function Contact() {
   };
 
   return (
-    <motion.section
+    <section
       id="contact"
       className="max-w-7xl mx-auto my-auto py-16 px-6 md:px-10 lg:py-24"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{once: true, margin: "-100px"}}
-      variants={containerVariants}
     >
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <SectionHeader
+        title={getTranslation(contactInfo.title, lang)}
+        subtitle={getTranslation(contactInfo.subtitle, lang)}
+        emoji="✉️"
+      />
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{once: true, margin: "-100px"}}
+        variants={containerVariants}
+        className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+      >
         {/* Konten Teks */}
         <div className="flex flex-col text-center lg:text-left">
-          <motion.h1
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-[var(--text-primary)] leading-tight"
-            variants={itemVariants}
-          >
-            {getTranslation(contactInfo.title, lang)}
-          </motion.h1>
-
-          <motion.p
-            className={`mt-4 text-lg md:text-xl font-medium uppercase tracking-wider ${
-              isDark ? "text-[var(--text-secondary)]" : "text-gray-600"
-            }`}
-            variants={itemVariants}
-          >
-            {getTranslation(contactInfo.subtitle, lang)}
-          </motion.p>
-
           <motion.div className="mt-8 space-y-4" variants={itemVariants}>
             {contactInfo.number && (
               <div className="flex justify-center lg:justify-start">
@@ -128,7 +120,7 @@ export default function Contact() {
             />
           )}
         </motion.div>
-      </div>
-    </motion.section>
+      </motion.div>
+    </section>
   );
 }

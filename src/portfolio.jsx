@@ -10,6 +10,9 @@ import telkomUnivLogo from "./assets/images/telkomUniversityLogo.png";
 import lintasartaLogo from "./assets/images/lintasartaLogo.png";
 import kejatiLogo from "./assets/images/kejatiJatimLogo.png";
 import pedulyLogo from "./assets/images/pedulyLogo.png";
+import pedulyCertificate from "./assets/images/certificate/pedulycertificate.png";
+import summaeduLogo from "./assets/images/summaedu-logo.webp";
+import logoigi from "./assets/images/logoigi.png";
 // HRIS IGI Screenshots
 import hrisDashboard from "./assets/images/hris-igi/hrisigidashboard.png";
 import hrisLogin from "./assets/images/hris-igi/hrisigiloginpage.png";
@@ -229,18 +232,42 @@ const educationInfo = {
   ]
 };
 
-// Work Experience Section
+// Work Experience Section — newest to oldest
 const workExperiences = {
   display: true,
   title: {
-    en: "Experience",
-    id: "Pengalaman"
+    en: "Professional Work Experience",
+    id: "Pengalaman Bekerja Profesional"
   },
   subtitle: {
     en: "Professional track record in software development and IT infrastructure.",
     id: "Rekam jejak profesional dalam pengembangan software dan infrastruktur TI."
   },
   experience: [
+    {
+      role: "IT Developer",
+      company: "Summa Edu",
+      companylogo: summaeduLogo,
+      date: "June 2025 – Present",
+      desc: {
+        en: "Lead end-to-end application development for school management systems covering HR, finance, grading, and automated report cards. Also provides cross-functional IT support including server maintenance, printer repairs, and lab PC upkeep.",
+        id: "Memimpin pengembangan aplikasi end-to-end untuk sistem manajemen sekolah mencakup kebutuhan SDM, keuangan, penilaian, dan pencetakan rapor otomatis. Juga memberikan dukungan TI lintas fungsi termasuk perawatan server, perbaikan printer, dan pemeliharaan PC laboratorium."
+      },
+      descBullets: [
+        {
+          en: "Built full-stack school management applications covering employee data, finance, grading, and automated report card generation.",
+          id: "Membangun aplikasi manajemen sekolah full-stack mencakup data karyawan, keuangan, penilaian, dan pencetakan rapor otomatis."
+        },
+        {
+          en: "Developed various analytical reports to support school operational decision-making.",
+          id: "Mengembangkan berbagai laporan analitis untuk mendukung pengambilan keputusan operasional sekolah."
+        },
+        {
+          en: "Provided IT infrastructure support including server maintenance, printer repair, and PC lab management.",
+          id: "Memberikan dukungan infrastruktur TI termasuk perawatan server, perbaikan printer, dan manajemen lab PC."
+        }
+      ]
+    },
     {
       role: "Backend Developer",
       company: "Peduly",
@@ -262,6 +289,30 @@ const workExperiences = {
         {
           en: "Optimized database queries to handle high-volume data traffic efficiently.",
           id: "Mengoptimalkan query database untuk menangani lalu lintas data volume tinggi secara efisien."
+        }
+      ]
+    },
+    {
+      role: "Full Stack Web Developer",
+      company: "PT. Indo Global Impex",
+      companylogo: logoigi,
+      date: "January 2024 – June 2024",
+      desc: {
+        en: "Developed an end-to-end Human Resources Information System (HRIS) to manage employee data, attendance, leave requests, and payroll automation, streamlining HR operations.",
+        id: "Mengembangkan Sistem Informasi Sumber Daya Manusia (HRIS) end-to-end untuk mengelola data karyawan, absensi, perizinan cuti, dan otomatisasi penggajian, menyederhanakan operasional HR."
+      },
+      descBullets: [
+        {
+          en: "Built a full-stack HRIS application covering employee master data, attendance tracking, and leave management.",
+          id: "Membangun aplikasi HRIS full-stack mencakup data master karyawan, pelacakan absensi, dan manajemen cuti."
+        },
+        {
+          en: "Implemented payroll automation with dynamic salary calculations and integrated reporting.",
+          id: "Mengimplementasikan otomatisasi penggajian dengan perhitungan gaji dinamis dan laporan terintegrasi."
+        },
+        {
+          en: "Designed and developed comprehensive system documentation to ensure long-term maintainability.",
+          id: "Merancang dan mengembangkan dokumentasi sistem komprehensif untuk memastikan maintainability jangka panjang."
         }
       ]
     },
@@ -566,7 +617,7 @@ const achievementSection = {
           url: "https://www.udemy.com/certificate/UC-798ad0c7-a839-4216-830e-bead6e44d858/"
         },
         {
-          name: "View Prototype",
+          name: "Show Project",
           url: "https://www.figma.com/proto/kqXK6yEMDOvLCTeUAqP5c9/Liants-Audio-Experience-Mobile-Apps?node-id=64-14&t=4d0XqofVf0WLWYNm-1&scaling=scale-down&content-scaling=fixed&page-id=64%3A10&starting-point-node-id=290%3A50&show-proto-sidebar=1"
         }
       ]
@@ -586,7 +637,7 @@ const achievementSection = {
         },
         {
           name: "Show Project",
-          url: "https://drive.google.com/drive/folders/11gSoG0N_vbzZ3ZC6Y8U-CnXBX7_WrYlR?usp=drive_link"
+          url: "https://github.com/BryaanF/NomadsByLiant"
         }
       ]
     },
@@ -597,7 +648,7 @@ const achievementSection = {
         id: "Berhasil menyelesaikan magang profesional di Kejaksaan Tinggi Jawa Timur, menghasilkan aplikasi GIS fungsional yang diadopsi untuk pelaporan internal."
       },
       image: kejatiLogo,
-      imageAlt: "Kejati Jatim Logo",
+      imageAlt: "Kejaksaan Tinggi Jawa Timur Logo",
       footerLink: [
         {
           name: "Show Certificate",
@@ -605,7 +656,36 @@ const achievementSection = {
         },
         {
           name: "Show Project",
-          url: "https://drive.google.com/drive/folders/1OcKJ93x-dqBF_9f6ei_XfbERiXbS-ekM?usp=drive_link"
+          url: "https://github.com/BryaanF/hris-igi"
+        }
+      ]
+    },
+    {
+      title: "Backend Developer – Peduly",
+      subtitle: {
+        en: "Served as Backend Developer at Peduly, engineering a high-performance broadcast system capable of handling mass messaging via WhatsApp and Email using Laravel, ExpressJS, and MySQL.",
+        id: "Bekerja sebagai Backend Developer di Peduly, merekayasa sistem broadcast berkinerja tinggi yang mampu menangani pesan massal melalui WhatsApp dan Email menggunakan Laravel, ExpressJS, dan MySQL."
+      },
+      image: pedulyLogo,
+      imageAlt: "Peduly Logo",
+      mediaGallery: [
+        {
+          type: "image",
+          url: pedulyCertificate,
+          caption: {
+            en: "Backend Developer Certificate – Peduly",
+            id: "Sertifikat Backend Developer – Peduly"
+          }
+        }
+      ],
+      footerLink: [
+        {
+          name: "Show Certificate",
+          url: ""
+        },
+        {
+          name: "Show Project",
+          url: "https://zainzo.com/contact"
         }
       ]
     }

@@ -50,8 +50,13 @@ export default defineConfig({
             output: {
                 manualChunks: {
                     vendor: ['react', 'react-dom', 'framer-motion'],
+                    lottie: ['lottie-react', 'lottie-web'],
+                    fontawesome: ['@fortawesome/fontawesome-svg-core', '@fortawesome/free-brands-svg-icons', '@fortawesome/free-solid-svg-icons', '@fortawesome/react-fontawesome'],
                 },
             },
         },
+        // Increase limit — 500 kB is too aggressive for modern apps;
+        // gzipped sizes are what matter for performance
+        chunkSizeWarningLimit: 700,
     },
 });

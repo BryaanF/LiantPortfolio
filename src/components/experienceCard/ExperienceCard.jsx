@@ -7,7 +7,7 @@ export default function ExperienceCard({cardInfo}) {
   const {lang} = useContext(LanguageContext);
 
   return (
-    <article className="group relative overflow-hidden rounded-xl border border-[var(--border-light)] bg-[var(--bg-card)] transition-all hover:-translate-y-1 hover:shadow-xl">
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-xl border border-[var(--border-light)] bg-[var(--bg-card)] transition-all hover:-translate-y-1 hover:shadow-xl">
       {/* BANNER */}
       <div className="relative flex h-44 items-end justify-center bg-gradient-to-br from-neutral-200 to-neutral-300 dark:from-neutral-800 dark:to-neutral-900">
         <span className="absolute top-4 text-center text-lg font-bold text-neutral-800 dark:text-white">
@@ -23,7 +23,7 @@ export default function ExperienceCard({cardInfo}) {
       </div>
 
       {/* CONTENT */}
-      <div className="px-6 pb-6 pt-14 text-center">
+      <div className="flex flex-1 flex-col px-6 pb-6 pt-14 text-center">
         <motion.h3
           initial={{opacity: 0, y: 12}}
           whileInView={{opacity: 1, y: 0}}

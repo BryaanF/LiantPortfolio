@@ -26,7 +26,7 @@ Always use these in JSX via Tailwind arbitrary values — never hardcode colors:
 --bg-card: #f5f5f5
 --bg-header: #f5f5f5
 --text-primary: #1a1a2e
---text-secondary: #5c5c6e
+--text-secondary: #3a3a4e
 --border-light: rgba(0, 0, 0, 0.1)
 --shadow-card: 0 4px 20px rgba(0,0,0,0.05), 0 1px 6px rgba(0,0,0,0.07)
 
@@ -203,37 +203,51 @@ className = "transition-all duration-300 hover:-translate-y-1";
 
 ---
 
-## 5. SECTION HEADER PATTERN
+## 5. SECTION HEADER PATTERN (STANDARDIZED)
 
-Every section should use one of these header patterns consistently:
+All sections must use the shared `SectionHeader` component located at `src/components/sectionHeader/SectionHeader.jsx`. This ensures visual harmony and consistency across the portfolio.
 
-### Pattern A: Text + Underline Accent (used in Education)
-
-```jsx
-<motion.div initial={{opacity: 0, y: -20}} whileInView={{opacity: 1, y: 0}}>
-  <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[var(--text-primary)] text-center">
-    {title}
-  </h1>
-  <motion.div
-    initial={{width: 0}}
-    whileInView={{width: "80px"}}
-    className="h-1 bg-[var(--btn-primary-bg)] mt-4 rounded-full opacity-60 mx-auto"
-  />
-</motion.div>
-```
-
-### Pattern B: Emoji/Icon + Title + Subtitle (used in Skills, IntroVideo, Pricing)
+### Usage
 
 ```jsx
-<motion.div initial={{opacity: 0, y: 20}} whileInView={{opacity: 1, y: 0}}>
-  <h2 className="text-3xl md:text-5xl font-black text-[var(--text-primary)]">
-    {title}
-  </h2>
-  <p className="text-sm md:text-base uppercase tracking-[0.2em] font-semibold text-[var(--text-secondary)]">
-    {subtitle}
-  </p>
-</motion.div>
+import SectionHeader from "../../components/sectionHeader/SectionHeader";
+
+<SectionHeader
+  title="Section Title" // Required
+  subtitle="Optional subtitle" // Optional
+  emoji="🚀" // Optional emoji above title
+  align="center" // "center" (default) | "left"
+/>;
 ```
+
+### Component API
+
+| Prop       | Type                 | Default    | Description                               |
+| ---------- | -------------------- | ---------- | ----------------------------------------- |
+| `title`    | string               | (required) | Section heading text                      |
+| `subtitle` | string               | `""`       | Subtitle shown below gold accent strip    |
+| `emoji`    | string               | `""`       | Optional emoji/icon displayed above title |
+| `align`    | `"center"`\|`"left"` | `"center"` | Text alignment                            |
+
+### Rendered Output
+
+- **Title**: `text-3xl md:text-5xl font-bold text-[var(--text-primary)]`
+- **Emoji** (optional): `text-4xl md:text-5xl` above title
+- **Gold underline accent strip**: Animated `width: 0 → 80px` with `bg-[var(--btn-primary-bg)]`
+- **Subtitle** (optional): `text-sm md:text-base uppercase tracking-[0.2em] font-semibold text-[var(--text-secondary)]`
+
+### Example Usage by Section
+
+| Container      | title                      | subtitle                      | emoji | align  |
+| -------------- | -------------------------- | ----------------------------- | ----- | ------ |
+| Education      | `educationInfo.title`      | —                             | `🎓`  | center |
+| Skills         | `skillsSection.title`      | `skillsSection.subTitle`      | `💡`  | center |
+| IntroVideo     | `introVideo.title`         | `introVideo.subtitle`         | `🎬`  | center |
+| WorkExperience | `workExperiences.title`    | `workExperiences.subtitle`    | `💼`  | center |
+| BigProjects    | `bigProjects.title`        | `bigProjects.subtitle`        | `🚀`  | center |
+| Achievement    | `achievementSection.title` | `achievementSection.subtitle` | `🏆`  | center |
+| Pricing        | `pricingSection.title`     | `pricingSection.description`  | `💰`  | center |
+| Contact        | `contactInfo.title`        | `contactInfo.subtitle`        | `✉️`  | center |
 
 ---
 

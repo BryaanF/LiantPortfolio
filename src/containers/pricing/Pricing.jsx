@@ -1,6 +1,7 @@
 import React, {useState, useMemo, useContext} from "react";
 import {motion, AnimatePresence} from "framer-motion";
 import {pricingSection} from "../../portfolio";
+import SectionHeader from "../../components/sectionHeader/SectionHeader";
 import LanguageContext from "../../contexts/LanguageContext";
 import StyleContext from "../../contexts/StyleContext";
 import {getTranslation} from "../../utils/translations";
@@ -498,17 +499,7 @@ export default function PricingCalculator() {
       </AnimatePresence>
 
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-black mb-4 tracking-tight text-[var(--text-primary)]">
-            {sectionTitle}
-          </h2>
-          <p
-            className="opacity-80 max-w-2xl mx-auto"
-            style={{color: "var(--text-secondary)"}}
-          >
-            {sectionDesc}
-          </p>
-        </div>
+        <SectionHeader title={sectionTitle} subtitle={sectionDesc} emoji="💰" />
 
         {/* Pricing Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-32">

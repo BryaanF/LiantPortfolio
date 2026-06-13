@@ -14,7 +14,7 @@ export default function EducationCard({school}) {
       whileInView={{opacity: 1, y: 0}}
       viewport={{once: true, margin: "-50px"}}
       transition={{duration: 0.6}}
-      className="group relative isolate w-full bg-[var(--bg-card)]/30 border border-[var(--border-light)] hover:border-[var(--btn-primary-bg)]/50 p-6 md:p-8 rounded-[2rem] transition-all duration-500 overflow-hidden"
+      className="group relative isolate w-full bg-[var(--bg-card)] border border-[var(--border-light)] hover:border-[var(--btn-primary-bg)]/50 p-6 md:p-8 rounded-[2rem] transition-all duration-500 overflow-hidden"
     >
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 relative z-10">
         {/* Logo Section */}
@@ -50,7 +50,7 @@ export default function EducationCard({school}) {
               {school.duration}
             </div>
 
-            <p className="mt-6 text-sm md:text-base text-[var(--text-secondary)] italic leading-relaxed opacity-90 max-w-4xl mx-auto lg:mx-0">
+            <p className="mt-6 text-sm md:text-base text-[var(--text-secondary)] italic leading-relaxed max-w-4xl mx-auto lg:mx-0">
               "{getTranslation(school.desc, lang)}"
             </p>
 
@@ -64,9 +64,7 @@ export default function EducationCard({school}) {
                     <span className="text-[var(--btn-primary-bg)] mt-1.5 shrink-0 text-[8px] transform group-hover:scale-125 transition-transform">
                       ▶
                     </span>
-                    <span className="opacity-80 group-hover:opacity-100 transition-opacity">
-                      {getTranslation(item, lang)}
-                    </span>
+                    <span>{getTranslation(item, lang)}</span>
                   </li>
                 ))}
               </ul>

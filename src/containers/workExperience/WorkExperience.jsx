@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import {motion} from "framer-motion";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
+import SectionHeader from "../../components/sectionHeader/SectionHeader";
 import {workExperiences} from "../../portfolio";
 import LanguageContext from "../../contexts/LanguageContext";
 import {getTranslation} from "../../utils/translations";
@@ -30,34 +31,12 @@ export default function WorkExperience() {
 
   return (
     <section id="experience" className="relative mx-auto max-w-7xl px-4 py-24">
-      {/* HEADER */}
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{once: true}}
-        variants={fadeUp}
-        className="mb-16 text-left"
-      >
-        <h2 className="flex items-center gap-3 text-4xl font-extrabold tracking-tight text-[var(--text-primary)] md:text-5xl">
-          {getTranslation(workExperiences.title, lang)}
-
-          <motion.span
-            aria-hidden
-            className="inline-flex"
-            animate={{x: [0, 6, 0]}}
-            transition={{
-              duration: 2.5,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          >
-            💼
-          </motion.span>
-        </h2>
-        <p className="mt-3 max-w-xl text-xs font-semibold uppercase tracking-widest text-[var(--text-secondary)] opacity-70">
-          {getTranslation(workExperiences.subtitle, lang)}
-        </p>
-      </motion.div>
+      <SectionHeader
+        title={getTranslation(workExperiences.title, lang)}
+        subtitle={getTranslation(workExperiences.subtitle, lang)}
+        emoji="💼"
+        align="center"
+      />
 
       {/* CARDS */}
       <motion.div
@@ -68,7 +47,7 @@ export default function WorkExperience() {
         className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
       >
         {workExperiences.experience.map((item, i) => (
-          <motion.div key={i} variants={fadeUp}>
+          <motion.div key={i} variants={fadeUp} className="h-full">
             <ExperienceCard cardInfo={item} />
           </motion.div>
         ))}
