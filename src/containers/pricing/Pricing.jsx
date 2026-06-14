@@ -354,35 +354,72 @@ const PackageModal = ({pkg, onClose, onSelect, isSelected}) => {
               : "var(--bg-body)"
           }}
         >
-          <div className="flex flex-col">
-            <span
-              className="text-[10px] uppercase tracking-wider"
-              style={{color: "var(--text-secondary)"}}
-            >
-              {labels.total}
-            </span>
-            <div className="text-2xl md:text-3xl font-black text-[var(--btn-primary-bg)]">
-              Rp {shortPriceText}
-            </div>
-          </div>
-          <button
-            onClick={() => {
-              onSelect(pkg.id);
-              onClose();
-            }}
-            className={`px-6 md:px-10 py-4 rounded-xl text-xs md:text-sm font-black uppercase tracking-widest transition-all shadow-lg ${
-              isSelected
-                ? "scale-95 ring-2 ring-offset-2 ring-white/20"
-                : "hover:brightness-110 hover:-translate-y-1"
-            }`}
-            style={
-              isSelected
-                ? {backgroundColor: "white", color: "#000"}
-                : {backgroundColor: "var(--btn-primary-bg)", color: "#fff"}
-            }
-          >
-            {isSelected ? labels.selected : labels.select}
-          </button>
+          {pkg.isCustomQuote ? (
+            <>
+              <div className="flex flex-col">
+                <span
+                  className="text-[10px] uppercase tracking-wider"
+                  style={{color: "var(--text-secondary)"}}
+                >
+                  {lang === "id" ? "Mulai Diskusi" : "Start Discussion"}
+                </span>
+                <div
+                  className="text-xs leading-relaxed mt-1"
+                  style={{color: "var(--text-secondary)"}}
+                >
+                  {lang === "id"
+                    ? "Ceritakan kebutuhan Anda, saya akan buatkan penawaran khusus."
+                    : "Tell me your needs, I'll create a custom quote."}
+                </div>
+              </div>
+              <a
+                href="https://wa.me/6281331487753?text=Halo%20Mas%20Liant,%20saya%20ingin%20diskusi%20terkait%20pengembangan%20SaaS%20atau%20Web%20App.%20Mohon%20infonya%20untuk%20konsultasi."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 md:px-10 py-4 rounded-xl text-xs md:text-sm font-black uppercase tracking-widest transition-all shadow-lg hover:brightness-110 hover:-translate-y-1 text-center whitespace-nowrap"
+                style={{
+                  backgroundColor: "var(--btn-primary-bg)",
+                  color: "#fff"
+                }}
+              >
+                {lang === "id"
+                  ? "Diskusi via WhatsApp"
+                  : "Discuss via WhatsApp"}
+              </a>
+            </>
+          ) : (
+            <>
+              <div className="flex flex-col">
+                <span
+                  className="text-[10px] uppercase tracking-wider"
+                  style={{color: "var(--text-secondary)"}}
+                >
+                  {labels.total}
+                </span>
+                <div className="text-2xl md:text-3xl font-black text-[var(--btn-primary-bg)]">
+                  IDR {shortPriceText}
+                </div>
+              </div>
+              <button
+                onClick={() => {
+                  onSelect(pkg.id);
+                  onClose();
+                }}
+                className={`px-6 md:px-10 py-4 rounded-xl text-xs md:text-sm font-black uppercase tracking-widest transition-all shadow-lg ${
+                  isSelected
+                    ? "scale-95 ring-2 ring-offset-2 ring-white/20"
+                    : "hover:brightness-110 hover:-translate-y-1"
+                }`}
+                style={
+                  isSelected
+                    ? {backgroundColor: "white", color: "#000"}
+                    : {backgroundColor: "var(--btn-primary-bg)", color: "#fff"}
+                }
+              >
+                {isSelected ? labels.selected : labels.select}
+              </button>
+            </>
+          )}
         </div>
       </motion.div>
 
@@ -432,6 +469,21 @@ export default function PricingCalculator() {
 
   const handleCheckout = () => {
     const pkg = pricingSection.packages.find(p => p.id === selectedPackageId);
+    if (!pkg) return;
+
+    // Custom quote → direct discussion link
+    if (pkg.isCustomQuote) {
+      const message =
+        lang === "id"
+          ? "Halo Mas Liant, saya tertarik untuk diskusi terkait pengembangan SaaS atau Web App. Mohon infonya untuk konsultasi."
+          : "Hi Liant, I'm interested in discussing SaaS / Web App development. Please let me know for consultation.";
+      window.open(
+        `https://wa.me/6281331487753?text=${encodeURIComponent(message)}`,
+        "_blank"
+      );
+      return;
+    }
+
     const fmt = num => new Intl.NumberFormat("id-ID").format(num);
     const extraItems = [
       ...pricingSection.featuresList,
@@ -441,7 +493,7 @@ export default function PricingCalculator() {
       .filter(item => selectedExtras.includes(item.id))
       .map(
         item =>
-          `   + ${item.title} (Rp ${fmt(item.price)}) - ${getTranslation(item.desc, lang)}`
+          `   + ${item.title} (IDR ${fmt(item.price)}) - ${getTranslation(item.desc, lang)}`
       )
       .join("\n");
 
@@ -449,8 +501,8 @@ export default function PricingCalculator() {
     const pkgIdealFor = getTranslation(pkg?.idealFor, lang);
     const message =
       lang === "id"
-        ? `Halo Mas Liant, saya tertarik untuk deal proyek ini:\n\n📦 *PAKET: ${pkgTitle}*\nHarga Base: Rp ${fmt(pkg?.price)}\nTarget: ${pkgIdealFor}\n\n🛠 *ADD-ONS:*\n${extraItems || "   - Tidak ada"}\n\n💰 *TOTAL ESTIMASI: Rp ${fmt(totalPrice)}*\n\nMohon info untuk jadwal diskusi / briefing selanjutnya. Terima kasih.`
-        : `Hi Liant, I'm interested in this project package:\n\n📦 *PACKAGE: ${pkgTitle}*\nBase Price: Rp ${fmt(pkg?.price)}\nTarget: ${pkgIdealFor}\n\n🛠 *ADD-ONS:*\n${extraItems || "   - None"}\n\n💰 *TOTAL ESTIMATE: Rp ${fmt(totalPrice)}*\n\nPlease let me know about scheduling a discussion / briefing. Thank you.`;
+        ? `Halo Mas Liant, saya tertarik untuk deal proyek ini:\n\n📦 *PAKET: ${pkgTitle}*\nHarga Base: IDR ${fmt(pkg?.price)}\nTarget: ${pkgIdealFor}\n\n🛠 *ADD-ONS:*\n${extraItems || "   - Tidak ada"}\n\n💰 *TOTAL ESTIMASI: IDR ${fmt(totalPrice)}*\n\nMohon info untuk jadwal diskusi / briefing selanjutnya. Terima kasih.`
+        : `Hi Liant, I'm interested in this project package:\n\n📦 *PACKAGE: ${pkgTitle}*\nBase Price: IDR ${fmt(pkg?.price)}\nTarget: ${pkgIdealFor}\n\n🛠 *ADD-ONS:*\n${extraItems || "   - None"}\n\n💰 *TOTAL ESTIMATE: IDR ${fmt(totalPrice)}*\n\nPlease let me know about scheduling a discussion / briefing. Thank you.`;
 
     window.open(
       `https://wa.me/6281331487753?text=${encodeURIComponent(message)}`,
@@ -469,13 +521,14 @@ export default function PricingCalculator() {
       notation: "compact",
       compactDisplay: "short"
     }).format(num);
-    return `Rp ${formatted}`;
+    return `IDR ${formatted}`;
   };
 
   const labels = {
     recommended: lang === "id" ? "Add-ons Rekomendasi" : "Recommended Add-ons",
     totalEst: lang === "id" ? "Total Est." : "Total Est.",
     book: lang === "id" ? "Pesan via WhatsApp" : "Book via WhatsApp",
+    customBook: lang === "id" ? "Diskusi via WhatsApp" : "Discuss via WhatsApp",
     viewDetails: lang === "id" ? "Lihat Detail" : "View Details",
     remove: lang === "id" ? "Hapus" : "Remove",
     select: lang === "id" ? "Pilih" : "Select"
@@ -542,7 +595,9 @@ export default function PricingCalculator() {
                     )}
                   </div>
                   <div className="text-3xl font-black text-[var(--text-primary)] mb-1">
-                    Rp {cardShortPrice}
+                    {pkg.isCustomQuote
+                      ? cardShortPrice
+                      : `IDR ${cardShortPrice}`}
                   </div>
                   <p
                     className="text-xs mb-6 min-h-[40px]"
@@ -562,16 +617,35 @@ export default function PricingCalculator() {
                         : "rgba(0,0,0,0.05)"
                     }}
                   >
-                    <div className="flex items-center gap-2 text-[var(--text-secondary)]">
-                      <Icons.Time />{" "}
-                      <b className="text-[var(--text-primary)]">
-                        {pkg.specs.duration}
-                      </b>
-                    </div>
-                    <div className="flex items-center gap-2 text-[var(--text-secondary)]">
-                      <Icons.Shield />{" "}
-                      <b className="text-green-500">{pkg.specs.warranty}</b>
-                    </div>
+                    {pkg.isCustomQuote ? (
+                      <div
+                        className="col-span-2 p-3 rounded-lg border text-center text-xs font-semibold"
+                        style={{
+                          backgroundColor: isDark
+                            ? "rgba(255,255,255,0.02)"
+                            : "rgba(0,0,0,0.02)",
+                          borderColor: isDark
+                            ? "rgba(255,255,255,0.06)"
+                            : "rgba(0,0,0,0.05)",
+                          color: "var(--text-secondary)"
+                        }}
+                      >
+                        Price varies by scope & complexity — let's discuss!
+                      </div>
+                    ) : (
+                      <>
+                        <div className="flex items-center gap-2 text-[var(--text-secondary)]">
+                          <Icons.Time />{" "}
+                          <b className="text-[var(--text-primary)]">
+                            {pkg.specs.duration}
+                          </b>
+                        </div>
+                        <div className="flex items-center gap-2 text-[var(--text-secondary)]">
+                          <Icons.Shield />{" "}
+                          <b className="text-green-500">{pkg.specs.warranty}</b>
+                        </div>
+                      </>
+                    )}
                   </div>
 
                   <div className="mt-auto grid grid-cols-2 gap-3">
@@ -634,114 +708,177 @@ export default function PricingCalculator() {
                     : "0 -10px 40px rgba(0,0,0,0.08)"
                 }}
               >
-                <div className="flex-1 p-4 md:p-6 overflow-x-auto border-b md:border-b-0 md:border-r border-[var(--border-light)]/20">
-                  <span
-                    className="text-[10px] font-bold uppercase tracking-widest block mb-3"
-                    style={{color: "var(--text-secondary)"}}
-                  >
-                    {labels.recommended}
-                  </span>
-                  <div className="flex gap-3">
-                    {[
-                      ...pricingSection.featuresList,
-                      ...pricingSection.addonsList,
-                      ...(pricingSection.packages.find(
-                        p => p.id === selectedPackageId
-                      )?.addons || [])
-                    ].map(item => {
-                      const isActive = selectedExtras.includes(item.id);
-                      const itemDesc = getTranslation(item.desc, lang);
-                      return (
-                        <div
-                          key={item.id}
-                          onClick={() => toggleExtra(item.id)}
-                          className={`min-w-[160px] p-3 rounded-xl border cursor-pointer transition-all transform ${
-                            isActive
-                              ? "border-[var(--btn-primary-bg)] ring-2 ring-[var(--btn-primary-bg)]/50 shadow-lg scale-105"
-                              : "border-[var(--border-light)] hover:border-[var(--border-light)]/60"
-                          }`}
-                          style={{
-                            backgroundColor: isActive
-                              ? isDark
-                                ? "rgba(161,144,46,0.15)"
-                                : "rgba(161,144,46,0.08)"
-                              : isDark
-                                ? "rgba(255,255,255,0.02)"
-                                : "rgba(0,0,0,0.02)"
-                          }}
+                {(() => {
+                  const selectedPkg = pricingSection.packages.find(
+                    p => p.id === selectedPackageId
+                  );
+                  const isCustom = selectedPkg?.isCustomQuote;
+
+                  return isCustom ? (
+                    <>
+                      <div className="flex-1 p-4 md:p-6 flex items-center justify-center border-b md:border-b-0 md:border-r border-[var(--border-light)]/20">
+                        <span
+                          className="text-xs font-semibold text-center"
+                          style={{color: "var(--text-secondary)"}}
                         >
-                          <div className="flex items-center justify-between gap-2 mb-1">
-                            <div className="text-[10px] font-bold truncate flex-1 text-[var(--text-primary)]">
-                              {item.title}
-                            </div>
-                            {isActive && (
-                              <div className="w-4 h-4 rounded-full bg-[var(--btn-primary-bg)] flex items-center justify-center flex-shrink-0">
-                                <Icons.Check />
-                              </div>
-                            )}
-                          </div>
-                          <div
-                            className={`text-[10px] opacity-80 ${isActive ? "text-[var(--btn-primary-bg)] font-semibold" : ""}`}
-                            style={{
-                              color: isActive
-                                ? undefined
-                                : "var(--text-secondary)"
-                            }}
-                          >
-                            + {fmtPrice(item.price)}
-                          </div>
-                          <div
-                            className="text-[9px] mt-1"
+                          {lang === "id"
+                            ? "Harga menyesuaikan kompleksitas — mari diskusikan kebutuhan Anda!"
+                            : "Price adapts to complexity — let's discuss your needs!"}
+                        </span>
+                      </div>
+                      <div
+                        className="w-full md:w-72 p-4 md:p-6 flex flex-col justify-center"
+                        style={{
+                          backgroundColor: isDark
+                            ? "rgba(255,255,255,0.02)"
+                            : "var(--bg-body)"
+                        }}
+                      >
+                        <div className="flex justify-between items-baseline mb-2">
+                          <span
+                            className="text-xs"
                             style={{color: "var(--text-secondary)"}}
                           >
-                            {itemDesc}
-                          </div>
+                            {lang === "id" ? "Estimasi" : "Estimate"}
+                          </span>
+                          <span className="text-xl font-black text-[var(--btn-primary-bg)]">
+                            {lang === "id" ? "Custom" : "Custom"}
+                          </span>
                         </div>
-                      );
-                    })}
-                  </div>
-                </div>
-                <div
-                  className="w-full md:w-72 p-4 md:p-6 flex flex-col justify-center"
-                  style={{
-                    backgroundColor: isDark
-                      ? "rgba(255,255,255,0.02)"
-                      : "var(--bg-body)"
-                  }}
-                >
-                  <div className="flex justify-between items-baseline mb-2">
-                    <span
-                      className="text-xs"
-                      style={{color: "var(--text-secondary)"}}
-                    >
-                      {labels.totalEst}
-                    </span>
-                    <span className="text-xl font-black text-[var(--text-primary)]">
-                      {fmtPrice(totalPrice)}
-                    </span>
-                  </div>
-                  <button
-                    onClick={handleCheckout}
-                    className="w-full text-black font-black py-3 rounded-lg text-xs uppercase tracking-widest hover:brightness-110 active:scale-95 transition-all mb-3"
-                    style={{
-                      backgroundColor: "var(--btn-primary-bg)",
-                      color: "#fff"
-                    }}
-                  >
-                    {labels.book}
-                  </button>
-                  <button
-                    onClick={() => setSelectedPackageId(null)}
-                    className="w-full py-3 rounded-lg text-xs font-bold uppercase tracking-widest transition-colors hover:brightness-110"
-                    style={{
-                      color: "#f87171",
-                      backgroundColor: "rgba(239,68,68,0.08)",
-                      border: "1px solid rgba(239,68,68,0.25)"
-                    }}
-                  >
-                    {labels.remove}
-                  </button>
-                </div>
+                        <button
+                          onClick={handleCheckout}
+                          className="w-full font-black py-3 rounded-lg text-xs uppercase tracking-widest hover:brightness-110 active:scale-95 transition-all mb-3"
+                          style={{
+                            backgroundColor: "var(--btn-primary-bg)",
+                            color: "#fff"
+                          }}
+                        >
+                          {labels.customBook}
+                        </button>
+                        <button
+                          onClick={() => setSelectedPackageId(null)}
+                          className="w-full py-3 rounded-lg text-xs font-bold uppercase tracking-widest transition-colors hover:brightness-110"
+                          style={{
+                            color: "#f87171",
+                            backgroundColor: "rgba(239,68,68,0.08)",
+                            border: "1px solid rgba(239,68,68,0.25)"
+                          }}
+                        >
+                          {labels.remove}
+                        </button>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="flex-1 p-4 md:p-6 overflow-x-auto border-b md:border-b-0 md:border-r border-[var(--border-light)]/20">
+                        <span
+                          className="text-[10px] font-bold uppercase tracking-widest block mb-3"
+                          style={{color: "var(--text-secondary)"}}
+                        >
+                          {labels.recommended}
+                        </span>
+                        <div className="flex gap-3">
+                          {[
+                            ...pricingSection.featuresList,
+                            ...pricingSection.addonsList,
+                            ...(selectedPkg?.addons || [])
+                          ].map(item => {
+                            const isActive = selectedExtras.includes(item.id);
+                            const itemDesc = getTranslation(item.desc, lang);
+                            return (
+                              <div
+                                key={item.id}
+                                onClick={() => toggleExtra(item.id)}
+                                className={`min-w-[160px] p-3 rounded-xl border cursor-pointer transition-all transform ${
+                                  isActive
+                                    ? "border-[var(--btn-primary-bg)] ring-2 ring-[var(--btn-primary-bg)]/50 shadow-lg scale-105"
+                                    : "border-[var(--border-light)] hover:border-[var(--border-light)]/60"
+                                }`}
+                                style={{
+                                  backgroundColor: isActive
+                                    ? isDark
+                                      ? "rgba(161,144,46,0.15)"
+                                      : "rgba(161,144,46,0.08)"
+                                    : isDark
+                                      ? "rgba(255,255,255,0.02)"
+                                      : "rgba(0,0,0,0.02)"
+                                }}
+                              >
+                                <div className="flex items-center justify-between gap-2 mb-1">
+                                  <div className="text-[10px] font-bold truncate flex-1 text-[var(--text-primary)]">
+                                    {item.title}
+                                  </div>
+                                  {isActive && (
+                                    <div className="w-4 h-4 rounded-full bg-[var(--btn-primary-bg)] flex items-center justify-center flex-shrink-0">
+                                      <Icons.Check />
+                                    </div>
+                                  )}
+                                </div>
+                                <div
+                                  className={`text-[10px] opacity-80 ${isActive ? "text-[var(--btn-primary-bg)] font-semibold" : ""}`}
+                                  style={{
+                                    color: isActive
+                                      ? undefined
+                                      : "var(--text-secondary)"
+                                  }}
+                                >
+                                  + {fmtPrice(item.price)}
+                                </div>
+                                <div
+                                  className="text-[9px] mt-1"
+                                  style={{color: "var(--text-secondary)"}}
+                                >
+                                  {itemDesc}
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                      <div
+                        className="w-full md:w-72 p-4 md:p-6 flex flex-col justify-center"
+                        style={{
+                          backgroundColor: isDark
+                            ? "rgba(255,255,255,0.02)"
+                            : "var(--bg-body)"
+                        }}
+                      >
+                        <div className="flex justify-between items-baseline mb-2">
+                          <span
+                            className="text-xs"
+                            style={{color: "var(--text-secondary)"}}
+                          >
+                            {labels.totalEst}
+                          </span>
+                          <span className="text-xl font-black text-[var(--text-primary)]">
+                            {fmtPrice(totalPrice)}
+                          </span>
+                        </div>
+                        <button
+                          onClick={handleCheckout}
+                          className="w-full font-black py-3 rounded-lg text-xs uppercase tracking-widest hover:brightness-110 active:scale-95 transition-all mb-3"
+                          style={{
+                            backgroundColor: "var(--btn-primary-bg)",
+                            color: "#fff"
+                          }}
+                        >
+                          {labels.book}
+                        </button>
+                        <button
+                          onClick={() => setSelectedPackageId(null)}
+                          className="w-full py-3 rounded-lg text-xs font-bold uppercase tracking-widest transition-colors hover:brightness-110"
+                          style={{
+                            color: "#f87171",
+                            backgroundColor: "rgba(239,68,68,0.08)",
+                            border: "1px solid rgba(239,68,68,0.25)"
+                          }}
+                        >
+                          {labels.remove}
+                        </button>
+                      </div>
+                    </>
+                  );
+                })()}
               </div>
             </motion.div>
           )}

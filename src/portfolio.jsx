@@ -40,6 +40,22 @@ import gisMasterSatuanKerja from "./assets/images/kejati-jatim/mastersatuankerja
 import gisMasterJabatan from "./assets/images/kejati-jatim/masterjabatan.png";
 import gisMasterJumlahPegawai from "./assets/images/kejati-jatim/masterjumlahpegawai.png";
 
+// Nomadsbyliant Screenshots
+import nomadsLanding from "./assets/images/nomadsbyliant/landingpage.png";
+import nomadsProfile from "./assets/images/nomadsbyliant/profilepage.png";
+import nomadsCheckout from "./assets/images/nomadsbyliant/checkoutsuccessmidtrans.png";
+import nomadsAllTicket from "./assets/images/nomadsbyliant/allticket.png";
+import nomadsPrintTicket from "./assets/images/nomadsbyliant/printticket.png";
+import nomadsSuccessCheckout from "./assets/images/nomadsbyliant/succescheckoutpage.png";
+import nomadsAdminDashboard from "./assets/images/nomadsbyliant/admindashboard.png";
+import nomadsAdminPaketTravel from "./assets/images/nomadsbyliant/adminpakettravel.png";
+import nomadsAdminGaleriTravel from "./assets/images/nomadsbyliant/admingaleritravel.png";
+import nomadsAdminTransaksi from "./assets/images/nomadsbyliant/admintransaksi.png";
+import nomadsAdminProfile from "./assets/images/nomadsbyliant/adminprofile.png";
+import nomadsTripDetail from "./assets/images/nomadsbyliant/tripdetail.png";
+import nomadsJoinTrip from "./assets/images/nomadsbyliant/jointrip.png";
+import nomadsPaymentMidtrans from "./assets/images/nomadsbyliant/paymentmidtrans.png";
+
 // Contact Zainzo Screenshots
 import zainzoLanding from "./assets/images/contact-zainzo/landingpage.png";
 import zainzoLogin from "./assets/images/contact-zainzo/loginpage.png";
@@ -775,6 +791,7 @@ const twitterDetails = {
 };
 
 // Pricing Section
+// Pricing Section Configuration
 const pricingSection = {
   display: true,
   title: {
@@ -791,12 +808,27 @@ const pricingSection = {
       id: "starter",
       title: {en: "Static Landing Page", id: "Static Landing Page"},
       price: 2500000,
-      shortPrice: {en: "2.5M", id: "2.5jt"},
+      shortPrice: {en: "IDR 2.5M", id: "2.5jt"},
       idealFor: {
         en: "Personal Brand, Single-Product MSMEs",
         id: "Personal Brand, UMKM Produk Tunggal"
       },
-      screenshots: [],
+      screenshots: [
+        {
+          url: nomadsLanding,
+          caption: {
+            en: "Nomadsbyliant — travel booking landing page",
+            id: "Nomadsbyliant — halaman utama booking travel"
+          }
+        },
+        {
+          url: zainzoLanding,
+          caption: {
+            en: "Zainzo — broadcast SaaS landing page",
+            id: "Zainzo — halaman utama broadcast SaaS"
+          }
+        }
+      ],
       desc: {
         en: "Ultra-fast web page for marketing campaigns. Focused on sales conversion.",
         id: "Halaman web ultra-cepat untuk kampanye marketing. Fokus pada konversi penjualan."
@@ -807,10 +839,10 @@ const pricingSection = {
       },
       specs: {
         duration: "3-5 Days Work",
-        revisions: "2 Rounds (Major)",
+        revisions: "2 Rounds (Major UI)",
         warranty: "1 Week (Asset Fix)",
         techStack: "React / HTML5 + Tailwind",
-        delivery: "Deployed URL / Zip"
+        delivery: "Managed PaaS (Vercel/Netlify)"
       },
       features: [
         "Single Long-Scroll Page (Max 5 Sections)",
@@ -824,7 +856,8 @@ const pricingSection = {
           en: "Copywriting (Client Provides)",
           id: "Copywriting (Teks dari Klien)"
         },
-        {en: "Domain & Hosting Purchase", id: "Domain & Hosting Purchase"}
+        {en: "Domain Name Purchase", id: "Pembelian Nama Domain"},
+        {en: "Custom Visual Assets", id: "Aset Visual Kustom (Ilustrasi/Ikon)"}
       ],
       workflow: [
         {
@@ -851,12 +884,11 @@ const pricingSection = {
         {
           title: {en: "Live", id: "Live"},
           desc: {
-            en: "Upload to server & handover",
-            id: "Upload ke server & serah terima"
+            en: "PaaS Deployment & handover",
+            id: "Deployment PaaS & serah terima"
           }
         }
       ],
-      // Add-ons per paket Starter
       addons: [
         {
           id: "starter_express",
@@ -889,50 +921,131 @@ const pricingSection = {
     },
     {
       id: "business",
-      title: {en: "Dynamic CMS Profile", id: "Dynamic CMS Profile"},
-      price: 5000000,
-      shortPrice: {en: "5M", id: "5jt"},
+      title: {en: "Dynamic CMS Website", id: "Dynamic CMS Website"},
+      price: 7500000,
+      shortPrice: {en: "IDR 7.5M", id: "7.5jt"},
       idealFor: {
-        en: "Company Profile, Agencies, Clinics",
-        id: "Company Profile, Agensi, Klinik"
+        en: "Medium Enterprises, Agencies, Institutions",
+        id: "Perusahaan Menengah, Agensi, Instansi"
       },
       screenshots: [
         {
-          url: "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw",
+          url: nomadsProfile,
           caption: {
-            en: "Example of a dynamic CMS profile website with custom admin panel.",
-            id: "Contoh website profil CMS dinamis dengan panel admin kustom."
+            en: "Frontend profile page — displays travel packages managed via CMS",
+            id: "Halaman profil — menampilkan paket travel yang dikelola via CMS"
+          }
+        },
+        {
+          url: nomadsTripDetail,
+          caption: {
+            en: "Trip detail page — shows full itinerary, price & booking info",
+            id: "Halaman detail trip — menampilkan itinerary, harga & info booking"
+          }
+        },
+        {
+          url: nomadsJoinTrip,
+          caption: {
+            en: "Join trip — multi-traveler form before payment",
+            id: "Ikut trip — form multi-traveler sebelum pembayaran"
+          }
+        },
+        {
+          url: nomadsPaymentMidtrans,
+          caption: {
+            en: "Midtrans payment popup — secure payment gateway integration",
+            id: "Popup pembayaran Midtrans — integrasi payment gateway aman"
+          }
+        },
+        {
+          url: nomadsCheckout,
+          caption: {
+            en: "Checkout page — Midtrans payment gateway integration",
+            id: "Halaman checkout — integrasi payment gateway Midtrans"
+          }
+        },
+        {
+          url: nomadsSuccessCheckout,
+          caption: {
+            en: "Successful checkout confirmation page",
+            id: "Halaman konfirmasi checkout berhasil"
+          }
+        },
+        {
+          url: nomadsAllTicket,
+          caption: {
+            en: "My Tickets page — user's booking history synced from admin",
+            id: "Halaman tiket saya — riwayat booking pengguna sinkron dari admin"
+          }
+        },
+        {
+          url: nomadsPrintTicket,
+          caption: {
+            en: "Print ticket feature — generated from transaction data",
+            id: "Fitur cetak tiket — dihasilkan dari data transaksi"
+          }
+        },
+        {
+          url: nomadsAdminDashboard,
+          caption: {
+            en: "Admin dashboard — manage travel packages & content",
+            id: "Dashboard admin — kelola paket travel & konten"
+          }
+        },
+        {
+          url: nomadsAdminPaketTravel,
+          caption: {
+            en: "Travel package management in admin panel",
+            id: "Manajemen paket travel di panel admin"
+          }
+        },
+        {
+          url: nomadsAdminGaleriTravel,
+          caption: {
+            en: "Gallery management — upload & organize travel photos",
+            id: "Manajemen galeri — upload & atur foto travel"
+          }
+        },
+        {
+          url: nomadsAdminTransaksi,
+          caption: {
+            en: "Transaction management — all bookings visible from admin side",
+            id: "Manajemen transaksi — semua booking terlihat dari sisi admin"
+          }
+        },
+        {
+          url: nomadsAdminProfile,
+          caption: {
+            en: "Admin profile & settings page",
+            id: "Halaman profil & pengaturan admin"
           }
         }
       ],
       desc: {
-        en: "Multi-page website with private Admin Panel (CMS) to update news / careers.",
-        id: "Website multipage dengan Admin Panel (CMS) privat untuk update berita/karir."
+        en: "Multi-page website with private Admin Panel (CMS) to update news, careers, etc.",
+        id: "Website multipage dengan Admin Panel (CMS) privat untuk update berita, karir, dan lainnya."
       },
       longDesc: {
         en: "A professional solution to build credibility. Comes with a lightweight, secure admin panel (not WordPress) so your team can easily update articles, galleries, or job postings.",
         id: "Solusi profesional untuk membangun kredibilitas. Dilengkapi panel admin khusus (bukan WordPress) yang ringan dan aman, memudahkan staf Anda mengupdate artikel, galeri, atau lowongan kerja."
       },
       specs: {
-        duration: "7-14 Days Work",
-        revisions: "3 Rounds (Major)",
+        duration: "14-21 Days Work",
+        revisions: "3 Rounds (UI & Flow)",
         warranty: "2 Weeks (Bug Fix)",
-        techStack: "WordPress Self Hosted / Laravel CMS",
-        delivery: "Source Code + Server Setup"
+        techStack: "Laravel / CodeIgniter + MySQL",
+        delivery: "VPS / Shared Hosting Setup"
       },
       features: [
         "Up to 8 Dynamic Pages",
-        "Secure Admin Dashboard (No Plugins)",
+        "Secure Admin Dashboard (Custom)",
         "Dynamic Blog / News System",
         "SEO On-Page Optimization",
         "Contact Form to Email"
       ],
       notIncluded: [
-        {
-          en: "Cloud VPS Fee (Est. 100k/mo)",
-          id: "Cloud VPS Fee (Est. 100k/mo)"
-        },
-        {en: "Logo Design", id: "Logo Design"}
+        {en: "Cloud VPS / Hosting Fee", id: "Biaya Cloud VPS / Hosting"},
+        {en: "Logo Design", id: "Desain Logo"}
       ],
       workflow: [
         {
@@ -962,7 +1075,6 @@ const pricingSection = {
         }
       ],
       isPopular: true,
-      // Add-ons per paket Business
       addons: [
         {
           id: "biz_express",
@@ -971,7 +1083,7 @@ const pricingSection = {
             en: "Priority delivery (30% Faster)",
             id: "Prioritas pengerjaan (30% Lebih Cepat)"
           },
-          price: 1500000
+          price: 2500000
         },
         {
           id: "biz_maintain",
@@ -980,7 +1092,7 @@ const pricingSection = {
             en: "Server maintenance & update guarantee",
             id: "Jaminan maintenance server & update"
           },
-          price: 2500000
+          price: 3500000
         },
         {
           id: "biz_email",
@@ -995,14 +1107,58 @@ const pricingSection = {
     },
     {
       id: "custom",
-      title: {en: "Custom SaaS / Web App", id: "Custom SaaS / Web App"},
-      price: 10000000,
-      shortPrice: {en: "10M+", id: "10jt+"},
+      title: {en: "Custom Web / SaaS App", id: "Custom Web / SaaS App"},
+      isCustomQuote: true,
+      price: 15000000,
+      shortPrice: {en: "Starts at IDR 15M+", id: "Mulai Rp 15jt+"},
       idealFor: {
-        en: "Startups, School Systems, Inventory",
-        id: "Startups, Sistem Sekolah, Inventory"
+        en: "Startups, Corporate Operations, B2B",
+        id: "Startups, Operasional Korporat, B2B"
       },
-      screenshots: [],
+      screenshots: [
+        {
+          url: hrisDashboard,
+          caption: {
+            en: "HRIS IGI — custom SaaS HR dashboard with multi-role access",
+            id: "HRIS IGI — dashboard HR SaaS kustom dengan akses multi-role"
+          }
+        },
+        {
+          url: hrisDataKaryawan,
+          caption: {
+            en: "Employee master data management module",
+            id: "Modul manajemen data master karyawan"
+          }
+        },
+        {
+          url: hrisPenggajian,
+          caption: {
+            en: "Payroll automation with dynamic calculations",
+            id: "Otomatisasi penggajian dengan perhitungan dinamis"
+          }
+        },
+        {
+          url: hrisRekrutmen,
+          caption: {
+            en: "Recruitment pipeline management",
+            id: "Manajemen pipeline rekrutmen"
+          }
+        },
+        {
+          url: hrisSlipGaji,
+          caption: {
+            en: "Digital payslip and salary history",
+            id: "Slip gaji digital dan riwayat gaji"
+          }
+        },
+        {
+          url: hrisPanduan,
+          caption: {
+            en: "Comprehensive system documentation",
+            id: "Dokumentasi sistem komprehensif"
+          }
+        }
+      ],
       desc: {
         en: "Complex business applications. Custom logic tailored to your SOP (HRIS, SIS, Booking).",
         id: "Aplikasi bisnis kompleks. Logika spesifik sesuai SOP perusahaan (HRIS, SIS, Booking)."
@@ -1012,11 +1168,11 @@ const pricingSection = {
         id: "Bukan sekadar website informasi, tapi alat bantu kerja digital. Kami membangun sistem dengan hak akses bertingkat (Admin/User/Staff), laporan otomatis, dan integrasi API pihak ketiga."
       },
       specs: {
-        duration: "1 Month+",
-        revisions: "Unlimited (Dev Phase)",
-        warranty: "3 Months (Priority)",
-        techStack: "Full Stack Laravel",
-        delivery: "Full IP Rights + Docs"
+        duration: "1-3 Months+",
+        revisions: "SLA Based (Dev Phase)",
+        warranty: "3 Months (Priority Support)",
+        techStack: "Fullstack Laravel / ExpressJS",
+        delivery: "Dockerized VPS Setup + Full IP"
       },
       features: [
         "Complex Database Architecture",
@@ -1026,28 +1182,30 @@ const pricingSection = {
         "Scalable Infrastructure"
       ],
       notIncluded: [
-        {en: "3rd Party API Costs", id: "3rd Party API Costs"},
-        {en: "App Store Fees", id: "App Store Fees"}
+        {en: "3rd Party API Costs", id: "Biaya Layanan API Pihak Ketiga"},
+        {
+          en: "Cloud Infrastructure Fees",
+          id: "Biaya Infrastruktur Cloud (AWS/DO)"
+        }
       ],
-      // Add-ons per paket Custom SaaS
       addons: [
         {
           id: "custom_express",
           title: "Express Delivery",
           desc: {
-            en: "Priority delivery (30% Faster)",
-            id: "Prioritas pengerjaan (30% Lebih Cepat)"
+            en: "Priority development (Weekend coding)",
+            id: "Prioritas pengerjaan (Weekend coding)"
           },
-          price: 2500000
+          price: 5000000
         },
         {
           id: "custom_maintain",
-          title: "Extended Care (1 Year)",
+          title: "SLA Maintenance (1 Year)",
           desc: {
-            en: "Server maintenance & update guarantee",
-            id: "Jaminan maintenance server & update"
+            en: "Server maintenance, backup & bug monitoring",
+            id: "Maintenance server, backup & pantauan bug"
           },
-          price: 4000000
+          price: 8000000
         },
         {
           id: "custom_api",
@@ -1077,8 +1235,11 @@ const pricingSection = {
           }
         },
         {
-          title: {en: "Prototype", id: "Prototype"},
-          desc: {en: "Wireframe of app flow", id: "Wireframe alur aplikasi"}
+          title: {en: "System Design", id: "System Design"},
+          desc: {
+            en: "Database schema & wireframing",
+            id: "Skema database & wireframing UI"
+          }
         },
         {
           title: {en: "Sprint", id: "Sprint"},
@@ -1088,10 +1249,10 @@ const pricingSection = {
           }
         },
         {
-          title: {en: "UAT", id: "UAT"},
+          title: {en: "UAT & Live", id: "UAT & Live"},
           desc: {
-            en: "User Acceptance Test (try it out)",
-            id: "User Acceptance Test (Coba langsung)"
+            en: "User Acceptance Test & Production release",
+            id: "User Acceptance Test & Rilis Produksi"
           }
         }
       ]
@@ -1111,24 +1272,17 @@ const pricingSection = {
     {
       id: "feat_dark",
       title: "Dark Mode System",
-      desc: {
-        en: "Toggle light/dark theme",
-        id: "Opsi ganti tema terang/gelap"
-      },
+      desc: {en: "Toggle light/dark theme", id: "Opsi ganti tema terang/gelap"},
       price: 800000
     },
     {
       id: "feat_lang",
       title: "Multi-Language",
-      desc: {
-        en: "Support EN/ID (2 languages)",
-        id: "Support ID/EN (2 Bahasa)"
-      },
+      desc: {en: "Support EN/ID (2 languages)", id: "Support ID/EN (2 Bahasa)"},
       price: 1500000
     }
   ],
 
-  // addonsList now empty — Express & Extended Care moved to per-package addons
   addonsList: []
 };
 
