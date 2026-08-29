@@ -1,22 +1,24 @@
-import React, {useContext} from "react";
+import {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+import ToggleSwitch from "../toggle-switch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import LanguageToggle from "../LanguageToggle/LanguageToggle";
+import LanguageToggle from "../language-toggle/LanguageToggle";
 import {
   greeting,
   workExperiences,
+  educationInfo,
   skillsSection,
   achievementSection,
   resumeSection,
   pricingSection,
   introVideo
-} from "../../portfolio";
+} from "../../data";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
+  const viewEducation = educationInfo.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewResume = resumeSection.display;
@@ -53,7 +55,7 @@ function Header() {
               </a>
             </li>
           )}
-          {viewExperience && (
+          {viewEducation && (
             <li>
               <a href="#education" className="nav-link">
                 Education

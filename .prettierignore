@@ -1,4 +1,7 @@
-src/serviceWorker.js
+node_modules/
+build/
+dist/
+coverage/
+public/
+*.min.js
 package-lock.json
-src/assets/lottie
-

@@ -1,4 +1,4 @@
-# Liant Portfolio - UI Standards & Component Patterns
+# Liant Portfolio — UI Standards & Component Patterns
 
 > **Purpose:** Ensures all UI code (new and existing) follows consistent visual patterns, animation conventions, and component APIs. Read this before creating or modifying any UI code.
 
@@ -20,37 +20,37 @@
 
 Always use these in JSX via Tailwind arbitrary values — never hardcode colors:
 
-```jsx
-// LIGHT MODE (.light-mode) — Neutral cool grey, no warm/pink tint
---bg-body: #eaeaea
---bg-card: #f5f5f5
---bg-header: #f5f5f5
---text-primary: #1a1a2e
---text-secondary: #3a3a4e
---border-light: rgba(0, 0, 0, 0.1)
---shadow-card: 0 4px 20px rgba(0,0,0,0.05), 0 1px 6px rgba(0,0,0,0.07)
+```css
+/* LIGHT MODE (.light-mode) — Neutral cool grey, no warm/pink tint */
+--bg-body: #eaeaea;
+--bg-card: #f5f5f5;
+--bg-header: #f5f5f5;
+--text-primary: #1a1a2e;
+--text-secondary: #3a3a4e;
+--border-light: rgba(0, 0, 0, 0.1);
+--shadow-card: 0 4px 20px rgba(0, 0, 0, 0.05), 0 1px 6px rgba(0, 0, 0, 0.07);
 
-// DARK MODE (.dark-mode, [data-theme='dark'])
---bg-body: #0a0a0a
---bg-card: #1f1f1f
---bg-header: #161b22
---text-primary: #ffffff
---text-secondary: #b0b0b0
---border-light: rgba(255, 255, 255, 0.1)
---shadow-card: 0 4px 6px rgba(255, 255, 255, 0.05)
+/* DARK MODE (.dark-mode, [data-theme='dark']) */
+--bg-body: #0a0a0a;
+--bg-card: #1f1f1f;
+--bg-header: #161b22;
+--text-primary: #ffffff;
+--text-secondary: #b0b0b0;
+--border-light: rgba(255, 255, 255, 0.1);
+--shadow-card: 0 4px 6px rgba(255, 255, 255, 0.05);
 ```
 
 ### 1.3 Tailwind Arbitrary Value Pattern
 
 ```jsx
-bg-[var(--bg-body)]    // Section backgrounds
-bg-[var(--bg-card)]    // Card backgrounds
-text-[var(--text-primary)]   // Main heading text
+bg-[var(--bg-body)] // Section backgrounds
+bg-[var(--bg-card)] // Card backgrounds
+text-[var(--text-primary)] // Main heading text
 text-[var(--text-secondary)] // Subtitle, metadata, description text
 border-[var(--border-light)] // Subtle borders and dividers
 text-[var(--btn-primary-bg)] // Brand accent text
-bg-[var(--btn-primary-bg)]   // Primary button fill
-hover:text-[var(--btn-primary-bg)]  // Link/button hover accent
+bg-[var(--btn-primary-bg)] // Primary button fill
+hover:text-[var(--btn-primary-bg)] // Link/button hover accent
 hover:border-[var(--btn-primary-bg)] // Card hover border accent
 ```
 
@@ -58,49 +58,23 @@ hover:border-[var(--btn-primary-bg)] // Card hover border accent
 
 ## 2. SECTION LAYOUT PATTERN
 
-Every section follows this exact structure in JSX:
+Every section container (`src/containers/<kebab-name>/`) follows this structure:
 
 ```jsx
-import {motion} from "framer-motion";
-import LanguageContext from "../../contexts/LanguageContext";
-import {getTranslation} from "../../utils/translations";
+import SectionHeader from "../../components/section-header/SectionHeader";
+import {mySectionConfig} from "../../data";
+import {useTranslation} from "../../hooks/useTranslation";
 
 export default function MySection() {
-  const {lang} = useContext(LanguageContext);
-  const {isDark} = useContext(StyleContext); // if theme needed
+  const t = useTranslation();
 
-  if (!config.display) return null;
+  if (!mySectionConfig.display) return null;
 
   return (
-    <section
-      id="my-section"
-      className="relative py-16 md:py-24 overflow-hidden"
-      style={{backgroundColor: "var(--bg-body)"}}
-    >
+    <section id="my-section" className="relative py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
-        {/* Header: centered, animated */}
-        <motion.div
-          initial={{opacity: 0, y: 20}}
-          whileInView={{opacity: 1, y: 0}}
-          viewport={{once: true}}
-          transition={{duration: 0.6}}
-          className="text-center mb-12 md:mb-16"
-        >
-          <h2 className="text-3xl md:text-5xl font-black text-[var(--text-primary)] mb-4">
-            {getTranslation(config.title, lang)}
-          </h2>
-          <p
-            className="text-sm md:text-base uppercase tracking-[0.2em] font-semibold"
-            style={{color: "var(--text-secondary)"}}
-          >
-            {getTranslation(config.subtitle, lang)}
-          </p>
-        </motion.div>
-
-        {/* Content grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* ... cards / content ... */}
-        </div>
+        <SectionHeader title={t(mySectionConfig.title)} subtitle={t(mySectionConfig.subtitle)} emoji="🧩" />
+        {/* content grid */}
       </div>
     </section>
   );
@@ -109,17 +83,17 @@ export default function MySection() {
 
 ### Section IDs (used by header nav anchors)
 
-| id              | Container          |
-| --------------- | ------------------ |
-| `#greeting`     | Greeting.jsx       |
-| `#intro-video`  | IntroVideo.jsx     |
-| `#skills`       | Skills.jsx         |
-| `#education`    | Education.jsx      |
-| `#experience`   | WorkExperience.jsx |
-| `#projects`     | BigProjects.jsx    |
-| `#achievements` | Achievement.jsx    |
-| `#pricing`      | Pricing.jsx        |
-| `#contact`      | Contact.jsx        |
+| id              | Container (src/containers/)   |
+| --------------- | ----------------------------- |
+| `#greeting`     | `greeting/Greeting.jsx`       |
+| `#intro-video`  | `intro-video/IntroVideo.jsx`  |
+| `#skills`       | `skills/Skills.jsx`           |
+| `#education`    | `education/Education.jsx`     |
+| `#experience`   | `work-experience/WorkExperience.jsx` |
+| `#projects`     | `big-projects/BigProject.jsx` |
+| `#achievements` | `achievements/Achievement.jsx`|
+| `#pricing`      | `pricing/Pricing.jsx`         |
+| `#contact`      | `contact/Contact.jsx`         |
 
 ---
 
@@ -143,26 +117,16 @@ Use `whileInView` for all scroll-triggered animations (not `animate`, which runs
 // Staggered children
 const containerVariants = {
   hidden: {opacity: 0},
-  visible: {
-    opacity: 1,
-    transition: {staggerChildren: 0.15, delayChildren: 0.2}
-  }
+  visible: {opacity: 1, transition: {staggerChildren: 0.15, delayChildren: 0.2}}
 };
 const itemVariants = {
   hidden: {opacity: 0, y: 12},
   visible: {opacity: 1, y: 0, transition: {duration: 0.4}}
 };
 
-<motion.div
-  variants={containerVariants}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{once: true}}
->
-  {items.map((item, i) => (
-    <motion.div key={i} variants={itemVariants}>
-      ...
-    </motion.div>
+<motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{once: true}}>
+  {items.map(item => (
+    <motion.div key={item.id} variants={itemVariants}>...</motion.div>
   ))}
 </motion.div>;
 ```
@@ -170,22 +134,16 @@ const itemVariants = {
 ### 3.2 Hover Animations
 
 ```jsx
-// Card lift on hover
 <motion.div whileHover={{y: -5}}>...</motion.div>;
-
-// Button/link with CSS transition
-className = "transition-all duration-300 hover:-translate-y-1";
+// or CSS: className="transition-all duration-300 hover:-translate-y-1"
 ```
 
-### 3.3 Floating/Looping Animation (for decorative elements)
+### 3.3 Floating/Looping Animation (decorative)
 
 ```jsx
-<motion.span
-  animate={{y: [0, -6, 0]}}
-  transition={{duration: 3, repeat: Infinity, ease: "easeInOut"}}
->
+<motion.span animate={{y: [0, -6, 0]}} transition={{duration: 3, repeat: Infinity, ease: "easeInOut"}}>
   🚀
-</motion.span>
+</motion.span>;
 ```
 
 ---
@@ -205,22 +163,18 @@ className = "transition-all duration-300 hover:-translate-y-1";
 
 ## 5. SECTION HEADER PATTERN (STANDARDIZED)
 
-All sections must use the shared `SectionHeader` component located at `src/components/sectionHeader/SectionHeader.jsx`. This ensures visual harmony and consistency across the portfolio.
-
-### Usage
+All sections MUST use the shared `SectionHeader` component at `src/components/section-header/SectionHeader.jsx`.
 
 ```jsx
-import SectionHeader from "../../components/sectionHeader/SectionHeader";
+import SectionHeader from "../../components/section-header/SectionHeader";
 
 <SectionHeader
-  title="Section Title" // Required
+  title="Section Title" // Required (can pass t(obj) result)
   subtitle="Optional subtitle" // Optional
   emoji="🚀" // Optional emoji above title
   align="center" // "center" (default) | "left"
 />;
 ```
-
-### Component API
 
 | Prop       | Type                 | Default    | Description                               |
 | ---------- | -------------------- | ---------- | ----------------------------------------- |
@@ -229,25 +183,7 @@ import SectionHeader from "../../components/sectionHeader/SectionHeader";
 | `emoji`    | string               | `""`       | Optional emoji/icon displayed above title |
 | `align`    | `"center"`\|`"left"` | `"center"` | Text alignment                            |
 
-### Rendered Output
-
-- **Title**: `text-3xl md:text-5xl font-bold text-[var(--text-primary)]`
-- **Emoji** (optional): `text-4xl md:text-5xl` above title
-- **Gold underline accent strip**: Animated `width: 0 → 80px` with `bg-[var(--btn-primary-bg)]`
-- **Subtitle** (optional): `text-sm md:text-base uppercase tracking-[0.2em] font-semibold text-[var(--text-secondary)]`
-
-### Example Usage by Section
-
-| Container      | title                      | subtitle                      | emoji | align  |
-| -------------- | -------------------------- | ----------------------------- | ----- | ------ |
-| Education      | `educationInfo.title`      | —                             | `🎓`  | center |
-| Skills         | `skillsSection.title`      | `skillsSection.subTitle`      | `💡`  | center |
-| IntroVideo     | `introVideo.title`         | `introVideo.subtitle`         | `🎬`  | center |
-| WorkExperience | `workExperiences.title`    | `workExperiences.subtitle`    | `💼`  | center |
-| BigProjects    | `bigProjects.title`        | `bigProjects.subtitle`        | `🚀`  | center |
-| Achievement    | `achievementSection.title` | `achievementSection.subtitle` | `🏆`  | center |
-| Pricing        | `pricingSection.title`     | `pricingSection.description`  | `💰`  | center |
-| Contact        | `contactInfo.title`        | `contactInfo.subtitle`        | `✉️`  | center |
+Rendered output: emoji `text-4xl md:text-5xl`, title `text-3xl md:text-5xl font-bold`, animated gold underline strip (`width 0 → 80px`), optional uppercase subtitle.
 
 ---
 
@@ -256,16 +192,14 @@ import SectionHeader from "../../components/sectionHeader/SectionHeader";
 ### 6.1 Card Container
 
 ```jsx
-<div className="rounded-xl border border-[var(--border-light)] bg-[var(--bg-card)]
-  transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+<div className="rounded-xl border border-[var(--border-light)] bg-[var(--bg-card)] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
 ```
 
 ### 6.2 Card Hover Border Accent
 
 ```jsx
 // Add group class to parent and use:
-className =
-  "group border border-[var(--border-light)] hover:border-[var(--btn-primary-bg)]/50 transition-colors";
+className = "group border border-[var(--border-light)] hover:border-[var(--btn-primary-bg)]/50 transition-colors";
 ```
 
 ### 6.3 Bullet/List Items
@@ -275,27 +209,24 @@ className =
 <li className="flex gap-2">
   <span className="mt-[6px] h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--btn-primary-bg)]" />
   <span className="text-[var(--text-secondary)]">{text}</span>
-</li>
+</li>;
 
 // Gold triangle bullet
 <li className="flex items-start gap-3">
   <span className="text-[var(--btn-primary-bg)] mt-1.5 shrink-0 text-[8px]">▶</span>
   <span className="text-[var(--text-secondary)]">{text}</span>
-</li>
+</li>;
 ```
 
 ### 6.4 Spec/Info Grid (2-column metadata)
 
 ```jsx
 <div
-  className="grid grid-cols-2 gap-2 text-[10px] p-3 rounded-lg border
-  border-[var(--border-light)]"
-  style={{
-    backgroundColor: isDark ? "rgba(255,255,255,0.02)" : "rgba(0,0,0,0.02)"
-  }}
+  className="grid grid-cols-2 gap-2 text-[10px] p-3 rounded-lg border border-[var(--border-light)]"
+  style={{backgroundColor: isDark ? "rgba(255,255,255,0.02)" : "rgba(0,0,0,0.02)"}}
 >
   {/* Items */}
-</div>
+</div>;
 ```
 
 ---
@@ -306,24 +237,22 @@ className =
 
 ```jsx
 <button
-  className="px-6 py-3 rounded-lg text-xs font-black uppercase tracking-widest
-  transition-all hover:brightness-110 active:scale-95"
+  className="px-6 py-3 rounded-lg text-xs font-black uppercase tracking-widest transition-all hover:brightness-110 active:scale-95"
   style={{backgroundColor: "var(--btn-primary-bg)", color: "#fff"}}
 >
   {text}
-</button>
+</button>;
 ```
 
 ### 7.2 Secondary/Outline Button
 
 ```jsx
 <button
-  className="py-3 rounded-lg border border-[var(--border-light)] text-xs
-  font-bold transition-colors"
+  className="py-3 rounded-lg border border-[var(--border-light)] text-xs font-bold transition-colors"
   style={{color: "var(--text-primary)", backgroundColor: "transparent"}}
 >
   {text}
-</button>
+</button>;
 ```
 
 ### 7.3 Danger/Remove Button
@@ -338,158 +267,135 @@ className =
   }}
 >
   {text}
-</button>
+</button>;
 ```
 
-### 7.4 Legacy `.main-button` (used by Button.jsx component)
+### 7.4 Legacy `.main-button` (Button.jsx)
 
-- Defined in `src/components/button/Button.scss`
-- Gold background, white text, rounded, hover lift effect
-- For NEW code, prefer primary button pattern above
+- Defined in `src/components/button/Button.scss`, used by the shared `<Button>` in Greeting.
+- For NEW code prefer the primary pattern above.
 
 ---
 
-## 8. SVG ICON PATTERN
+## 8. ICON PATTERN
 
-Use either approach consistently. For new code, prefer **inline SVG components** (portable, no external dependency).
+Two sanctioned approaches:
 
-### 8.1 Inline SVGs (Recommended for new code)
+### 8.1 Inline SVG components (preferred — portable, no dependency)
 
 ```jsx
 const MyIcon = () => (
-  <svg
-    width="14"
-    height="14"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-  >
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
     <circle cx="12" cy="12" r="10" />
     <path d="M12 6v6l4 2" />
   </svg>
 );
 ```
 
-Usage: `<MyIcon />` — color inherits from `currentColor`.
+Color inherits from `currentColor`. Existing examples: `Pricing.jsx` icons object, `ProjectShowcase.jsx` icons.
 
-### 8.2 FontAwesome (Used in SocialMedia, Contact, header)
+### 8.2 FontAwesome (tree-shaken SVG — for brand/skill icons)
 
-- Import: `import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"`
-- Brand icons: `import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"`
-- Solid icons: `import { faEnvelope } from "@fortawesome/free-solid-svg-icons"`
-- Brand colors defined as SCSS variables in `variables.scss` (e.g., `$linkedin: #0e76a8`)
+```jsx
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faDatabase} from "@fortawesome/free-solid-svg-icons";
 
-### 8.3 React Icons (Installed but unused — avoid if possible)
+<FontAwesomeIcon icon={faGithub} size="lg" />;
+```
 
-- The `react-icons` package is installed but not currently used in any component.
-- Prefer inline SVGs or FontAwesome instead.
+- No CDN, no `<i className="fab fa-...">` — those classes do not exist in this project anymore.
+- Brand colors: SCSS variables in `variables.scss` (`$linkedin`, `$github`, ...).
+
+> ⚠ `react-icons` was REMOVED from dependencies. Do not reintroduce icons via CDN or `<link>` stylesheets.
 
 ---
 
-## 9. FORM BLUEPRINT (WhatsApp/Email Actions)
+## 9. CONTACT / CHECKOUT (WhatsApp/Email Actions)
 
-**Do NOT use `<form>` elements.** All interactions are direct links:
+**Do NOT use `<form>` elements** — static site, no backend. Use direct links:
 
 ```jsx
-// WhatsApp
-<a href={`https://wa.me/6281331487753?text=${encodeURIComponent(message)}`}
-  target="_blank" rel="noopener noreferrer">
+// WhatsApp (URL-encoded message)
+<a href={`https://wa.me/6281331487753?text=${encodeURIComponent(message)}`} target="_blank" rel="noopener noreferrer">
   Contact via WhatsApp
-</a>
+</a>;
 
 // Email
-<a href={`mailto:briliantfikri@gmail.com?subject=${subject}&body=${body}`}>
-  Send Email
-</a>
+<a href={`mailto:briliantfikri@gmail.com?subject=${subject}&body=${body}`}>Send Email</a>;
 ```
 
-For the pricing checkout message, construct the message template inside a `handleCheckout` function and call `window.open()`.
+Pricing checkout builds the message in `handleCheckout` (see `src/containers/pricing/Pricing.jsx`) and calls `window.open(...)`.
 
 ---
 
 ## 10. IMAGE HANDLING (Vite)
 
-- **Always import images statically** (Vite convention):
+- **Always import images statically:**
   ```jsx
   import myImage from "../../assets/images/myImage.png";
-  // Usage: <img src={myImage} alt="..." />
+  <img src={myImage} alt="..." loading="lazy" />;
   ```
-- **Do NOT use `require()`** — that is a CRA/Webpack pattern. The Skills.jsx container is the only file still using `require()` and should be migrated.
-- For images from external URLs, use `src={url}` directly (no import needed).
-- Use `loading="lazy"` on below-the-fold images.
+- **Never use `require()`** (CRA/Webpack pattern — crashes in Vite).
+- External URLs: `src={url}` directly.
+- `loading="lazy"` on all below-the-fold images. Product screenshot imports live in the data files (`src/data/*.js`).
+- **Keep images lean:** compress new screenshots (WebP or ≤ ~400 KB PNG). The bundle is the heaviest part of this site.
 
 ---
 
 ## 11. LANGUAGE / I18N PATTERN
 
-All user-facing text that supports bilingual display uses this pattern:
+User-facing text uses bilingual objects, both languages REQUIRED:
 
-1. In `portfolio.jsx`: define as `{ en: "...", id: "..." }` object.
-2. In component: import `LanguageContext`, get `lang`, call `getTranslation(configField, lang)`.
-3. The helper lives in `src/utils/translations.js`.
+1. In `src/data/*`: define as `{en: "...", id: "..."}`.
+2. In component: `const t = useTranslation()` from `src/hooks/useTranslation.js`, then `t(configField)`.
+3. Cards that receive raw objects translate internally with `getTranslation(...)`.
 
-```jsx
-import LanguageContext from "../../contexts/LanguageContext";
-import {getTranslation} from "../../utils/translations";
+Rules:
 
-const {lang} = useContext(LanguageContext);
-const title = getTranslation(config.title, lang); // returns string
-```
-
-**Rules:**
-
-- `getTranslation()` handles nested objects recursively (e.g., `workflow` steps).
-- Arrays of bilingual objects are resolved element-by-element.
-- Plain strings/numbers pass through unchanged.
+- `getTranslation` resolves `{en, id}` per language, falls back to `en`; handles nested objects and arrays recursively; plain strings/numbers pass through.
+- Never render raw `{en, id}` objects in JSX — always call `t()` / `getTranslation()`.
 
 ---
 
 ## 12. MODAL / OVERLAY PATTERNS
 
-### 12.1 ImageLightbox (`src/components/imageLightbox/ImageLightbox.jsx`)
+### 12.1 ImageLightbox (`src/components/image-lightbox/ImageLightbox.jsx`)
 
 ```jsx
-<ImageLightbox src={url} alt={text} onClose={() => setState(null)} />
+{lightbox && (
+  <ImageLightbox src={url} alt={text} onClose={() => setLightbox(null)} />
+)}
 ```
 
-- Fixed overlay, dark backdrop, centered image, close on backdrop click or ✕ button.
-- Always wrap with `{show && <ImageLightbox ... />}`.
+Fixed overlay, dark backdrop, centered image; close on backdrop click or ✕ button.
 
-### 12.2 ProjectShowcase (`src/components/projectShowcase/ProjectShowcase.jsx`)
+### 12.2 ProjectShowcase (`src/components/project-showcase/ProjectShowcase.jsx`)
 
 ```jsx
 <ProjectShowcase
   title={string}
   description={string}
   media={[{type: "image" | "video", url, caption, thumbnail}]}
-  externalUrl={
-    string
-  } /* Optional — shows "Visit Website" button in top-right header */
+  externalUrl={string} // Optional — shows "Visit Website" button
   onClose={fn}
 />
 ```
 
-- Full-screen dark overlay with media gallery.
-- **"Visit Website"** button appears in top-right header ONLY when `externalUrl` is provided.
-- Used by AchievementCard and BigProject containers.
+Full-screen dark overlay with media gallery. Used by `AchievementCard` and `big-projects/BigProject.jsx` (lazy-loaded there via `React.lazy`).
 
 ---
 
 ## 13. THEME TOGGLE SYSTEM
 
-- Global context: `src/contexts/StyleContext.js` provides `{ isDark, changeTheme }`.
-- Theme is persisted in `localStorage` via `useLocalStorage` hook.
-- Toggle switch: `src/components/ToggleSwitch/ToggleSwitch.jsx` (sun/moon emoji).
-- Theme class: `.light-mode` or `.dark-mode` on root `<div>` in `Main.jsx`.
-- CSS variables defined in `src/variables.scss` respond to these classes.
+- Global context: `src/contexts/StyleContext.js` provides `{isDark, changeTheme}`.
+- Persisted in `localStorage` via `useLocalStorage`; toggle: `src/components/toggle-switch/ToggleSwitch.jsx`.
+- Theme class `.light-mode` / `.dark-mode` on root `<div>` in `src/containers/Main.jsx`.
 
 ```jsx
 import StyleContext from "../../contexts/StyleContext";
-const { isDark } = useContext(StyleContext);
-
-// Use in conditional styling:
-<div style={{ backgroundColor: isDark ? "rgba(0,0,0,0.4)" : "rgba(255,255,255,0.6)" }}>
+const {isDark} = useContext(StyleContext);
+<div style={{backgroundColor: isDark ? "rgba(0,0,0,0.4)" : "rgba(255,255,255,0.6)"}}>
 ```
 
 ---
@@ -497,95 +403,69 @@ const { isDark } = useContext(StyleContext);
 ## 14. LOTTIE ANIMATION PATTERN
 
 ```jsx
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import DisplayLottie from "../../components/display-lottie/DisplayLottie";
 import animationData from "../../assets/lottie/myAnimation";
 
-{
-  illustration.animated ? (
-    <DisplayLottie animationData={animationData} />
-  ) : (
-    <img src={fallbackImage} alt="..." />
-  );
-}
+// Usually behind an "animated" flag from src/data:
+{illustration.animated ? (
+  <DisplayLottie animationData={animationData} />
+) : (
+  <img src={fallbackImage} alt="..." />
+)}
 ```
 
-- All Lottie JSON files live in `src/assets/lottie/`.
-- The `DisplayLottie` component wraps `lottie-react` with `Suspense` + `<Loading>` fallback.
+- JSON files live in `src/assets/lottie/` (import without extension is OK — Vite resolves `.json`).
+- `DisplayLottie` is now a thin wrapper over `lottie-react` (props: `animationData`, `loop`, `autoplay`).
 
 ---
 
 ## 15. FRAMER MOTION IMPORTS
 
-Always import only what's needed from `framer-motion`:
-
 ```jsx
 import {motion, AnimatePresence} from "framer-motion";
 ```
 
-- `motion.div`, `motion.button`, `motion.a`, `motion.span`, `motion.img`, `motion.h1`-`h6` supported.
-- `AnimatePresence` for mounting/unmounting animations (modals, checkout bar).
+- `motion.div/button/a/span/img/h1-h6` supported; `AnimatePresence` for mounting/unmounting (modals, checkout bar).
 
 ---
 
-## 16. KNOWN INCONSISTENCIES & MIGRATION NOTES
+## 16. REMAINING INCONSISTENCIES (awareness only)
 
-These are NOT required to fix immediately, but be aware of them when touching related code:
-
-1. **`Skills.jsx` uses `require()` for static images** — should use `import` like all other containers (Vite pattern).
-2. **`Button.jsx` does not spread `className`** — it wraps in `<div className={className}>` instead of applying directly to `<a>`. New button code should use the inline primary button pattern instead.
-3. **`variables.scss` has legacy SCSS variables** that duplicate CSS custom properties (e.g., `$textColorDark` is `#ffffff` but already covered by `--text-primary` in dark mode). When refactoring, prefer CSS custom properties.
-4. **`Greeting.scss` and `Skills.scss` still contain legacy classes** that are partially overridden by Tailwind. When editing, prefer moving styles to Tailwind and removing SCSS.
-5. **`Header.scss` is partially refactored** — it has both legacy classes and a comment noting Tailwind removal was done. When editing, complete the migration.
-6. **`SplashScreen.jsx` uses `.css` instead of `.scss`** — minor inconsistency.
-7. **`ProjectShowcase.jsx` and `Pricing.jsx` both define duplicate inline SVG icons** (`Close`, `Image`) — consider extracting to `src/utils/icons.jsx` in the future.
+1. **`Button.jsx`** wraps `className` on a `<div>` instead of spreading it onto the `<a>` — new code should use inline button patterns.
+2. **`variables.scss` legacy SCSS vars** (`$titleColor`, `$textColorDark`, github/$blog colors, ...) duplicate CSS custom properties. Refactor towards CSS custom properties when touching related code.
+3. **`Greeting.scss` / `Header.scss` / legacy containers SCSS** partially overlap with Tailwind utilities. Prefer Tailwind for new work; clean up legacy when editing.
+4. **Duplicate inline SVG icons** exist across `ProjectShowcase.jsx`, `Pricing.jsx`, `Top.jsx` — extract to a shared icon module if they grow.
+5. **Fonts** (`Agustina.woff`, `Montserrat-Regular.ttf`) are loaded via `@font-face` in `src/index.css` — keep local, do not switch to Google Fonts CDN without lazy strategy.
+6. **Section order** is defined in `src/containers/Main.jsx` (not sorted by id); `top-button/Top.jsx` uses state-based visibility now (no `window.onscroll` assignment).
 
 ---
 
-## 17. FILE ORGANIZATION SUMMARY
+## 17. FILE ORGANIZATION (current)
 
 ```
 src/
-├── portfolio.jsx                  # Single config file — all content data
-├── App.jsx                        # Root component
-├── Main.jsx                       # Container orchestrator, theme/language providers
-├── variables.scss                 # Design tokens (CSS vars + SCSS vars)
-├── contexts/
-│   ├── StyleContext.js            # Theme state (isDark, changeTheme)
-│   └── LanguageContext.js         # Language state (lang, changeLang)
-├── hooks/
-│   └── useLocalStorage.js         # Persistent state hook
-├── utils/
-│   └── translations.js            # getTranslation() helper
-├── components/                    # Reusable UI components
-│   ├── header/Header.jsx
-│   ├── button/Button.jsx
-│   ├── footer/Footer.jsx
-│   ├── socialMedia/SocialMedia.jsx
-│   ├── ToggleSwitch/ToggleSwitch.jsx
-│   ├── LanguageToggle/LanguageToggle.jsx
-│   ├── displayLottie/DisplayLottie.jsx
-│   ├── imageLightbox/ImageLightbox.jsx
-│   ├── projectShowcase/ProjectShowcase.jsx
-│   ├── achievementCard/AchievementCard.jsx
-│   ├── educationCard/EducationCard.jsx
-│   ├── experienceCard/ExperienceCard.jsx
-│   ├── softwareSkills/SoftwareSkill.jsx
-│   └── ... (other legacy components)
-├── containers/                    # Page sections (one per portfolio section)
-│   ├── greeting/Greeting.jsx
-│   ├── introVideo/IntroVideo.jsx
-│   ├── skills/Skills.jsx
-│   ├── education/Education.jsx
-│   ├── workExperience/WorkExperience.jsx
-│   ├── projects/Projects.jsx
-│   ├── BigProjects/BigProject.jsx
-│   ├── achievement/Achievement.jsx
-│   ├── pricing/Pricing.jsx
-│   ├── contact/Contact.jsx
-│   ├── splashScreen/SplashScreen.jsx
-│   └── ... (others)
-└── assets/
-    ├── images/                    # Static images (imported in portfolio.jsx)
-    ├── lottie/                    # Lottie JSON animations
-    └── fonts/                     # Custom fonts
+├── data/                        # ALL content — edit here, not in components
+│   ├── index.js                 # Barrel re-export (components import "../../data")
+│   ├── profile.js               # greeting, resumeSection, socialMediaLinks, contactInfo
+│   ├── skills.js                # skillsSection (FA icons), techStack
+│   ├── education.js             # educationInfo
+│   ├── experience.js            # workExperiences
+│   ├── projects.js              # bigProjects (media galleries)
+│   ├── achievements.js          # achievementSection
+│   ├── pricing.js               # pricingSection (packages, addons, featuresList)
+│   └── site.js                  # splashScreen, illustration, introVideo
+├── components/                  # Reusable UI (kebab-case folders)
+│   ├── header, footer, button, toggle-switch, language-toggle
+│   ├── social-media, software-skills, display-lottie
+│   ├── section-header, project-showcase, image-lightbox
+│   └── education-card, experience-card, achievement-card
+├── containers/                  # Page sections (one per portfolio section)
+│   ├── greeting, skills, skill-progress, education, work-experience
+│   ├── big-projects, achievements, pricing, contact
+│   ├── intro-video, splash-screen, top-button, Main.jsx
+├── contexts/                    # StyleContext (theme), LanguageContext (lang)
+├── hooks/                       # useLocalStorage, useTranslation
+├── utils/                       # translations.js (getTranslation)
+├── test/setup.js                # Vitest env (matchMedia/IntersectionObserver mocks)
+└── assets/                      # images/ (logos + project screenshots), lottie/, fonts/
 ```

@@ -1,6 +1,6 @@
-import React from "react";
+import {createContext} from "react";
 
-const LanguageContext = React.createContext();
+const LanguageContext = createContext();
 
 export const LanguageProvider = LanguageContext.Provider;
 export const LanguageConsumer = LanguageContext.Consumer;

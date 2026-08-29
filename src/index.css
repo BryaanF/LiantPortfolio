@@ -13,7 +13,7 @@
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
-    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+    url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
   font-display: swap;
 }
 code {
@@ -34,7 +34,7 @@ body {
 @media (max-width: 1380px) {
   html,
   body {
-    font-size: rem;
+    font-size: 1rem;
     line-height: normal;
   }
 }

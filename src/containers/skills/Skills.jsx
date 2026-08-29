@@ -1,24 +1,21 @@
-import React, {useContext} from "react";
 import {motion} from "framer-motion";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import SectionHeader from "../../components/sectionHeader/SectionHeader";
-import {illustration, skillsSection} from "../../portfolio";
+import SoftwareSkill from "../../components/software-skills/SoftwareSkill";
+import SectionHeader from "../../components/section-header/SectionHeader";
+import {skillsSection, illustration} from "../../data";
+import {useTranslation} from "../../hooks/useTranslation";
 import codingPerson from "../../assets/lottie/codingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import StyleContext from "../../contexts/StyleContext";
-import LanguageContext from "../../contexts/LanguageContext";
-import {getTranslation} from "../../utils/translations";
+import developerActivity from "../../assets/images/developerActivity.svg";
+import DisplayLottie from "../../components/display-lottie/DisplayLottie";
+
+const itemVariants = {
+  hidden: {opacity: 0, y: 12},
+  visible: {opacity: 1, y: 0, transition: {duration: 0.4}}
+};
 
 export default function Skills() {
-  const {isDark} = useContext(StyleContext);
-  const {lang} = useContext(LanguageContext);
+  const t = useTranslation();
 
   if (!skillsSection.display) return null;
-
-  const itemVariants = {
-    hidden: {opacity: 0, y: 12},
-    visible: {opacity: 1, y: 0, transition: {duration: 0.4}}
-  };
 
   return (
     <section
@@ -28,12 +25,11 @@ export default function Skills() {
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <SectionHeader
-          title={getTranslation(skillsSection.title, lang)}
-          subtitle={getTranslation(skillsSection.subTitle, lang)}
+          title={t(skillsSection.title)}
+          subtitle={t(skillsSection.subTitle)}
           emoji="💡"
         />
 
-        {/* Lottie Animation — large, central focal point */}
         <motion.div
           initial={{opacity: 0, scale: 0.92}}
           whileInView={{opacity: 1, scale: 1}}
@@ -47,14 +43,13 @@ export default function Skills() {
             ) : (
               <img
                 alt="Developer Activity"
-                src={require("../../assets/images/developerActivity.svg")}
+                src={developerActivity}
                 className="w-full h-auto drop-shadow-xl"
               />
             )}
           </div>
         </motion.div>
 
-        {/* Software Skills Bar */}
         <motion.div
           initial={{opacity: 0, y: 12}}
           whileInView={{opacity: 1, y: 0}}
@@ -65,7 +60,6 @@ export default function Skills() {
           <SoftwareSkill />
         </motion.div>
 
-        {/* Skill Descriptions — compact 2-column grid */}
         <motion.div
           initial={{opacity: 0}}
           whileInView={{opacity: 1}}
@@ -82,7 +76,7 @@ export default function Skills() {
               <span className="text-[var(--btn-primary-bg)] mt-0.5 shrink-0 text-lg leading-none">
                 ▸
               </span>
-              <span>{getTranslation(skill, lang)}</span>
+              <span>{t(skill)}</span>
             </motion.div>
           ))}
         </motion.div>

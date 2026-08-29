@@ -1,30 +1,25 @@
-import React, {useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
+import IntroVideo from "./intro-video/IntroVideo";
 import Skills from "./skills/Skills";
-import StackProgress from "./skillProgress/skillProgress";
-import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
-import BigProject from "./BigProjects/BigProject";
-import Achievement from "./achievement/Achievement";
-import Blogs from "./blogs/Blogs";
-import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
-import Podcast from "./podcast/Podcast";
+import SkillProgress from "./skill-progress/SkillProgress";
 import Education from "./education/Education";
-import ScrollToTopButton from "./topbutton/Top";
-import Profile from "./profile/Profile";
-import SplashScreen from "./splashScreen/SplashScreen";
+import WorkExperience from "./work-experience/WorkExperience";
+import BigProject from "./big-projects/BigProject";
+import Achievement from "./achievements/Achievement";
 import Pricing from "./pricing/Pricing";
-import IntroVideo from "./introVideo/IntroVideo";
-import {splashScreen} from "../portfolio";
+import Contact from "./contact/Contact";
+import Footer from "../components/footer/Footer";
+import ScrollToTopButton from "./top-button/Top";
+import SplashScreen from "./splash-screen/SplashScreen";
+import {splashScreen} from "../data";
 import {StyleProvider} from "../contexts/StyleContext";
 import {LanguageProvider} from "../contexts/LanguageContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", true);
   const [lang, setLang] = useLocalStorage("lang", "en");
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
@@ -62,17 +57,13 @@ const Main = () => {
               <Greeting />
               <IntroVideo />
               <Skills />
-              <StackProgress />
+              <SkillProgress />
               <Education />
               <WorkExperience />
-              <Projects />
               <BigProject />
               <Achievement />
-              <Blogs />
-              <Talks />
-              <Podcast />
               <Pricing />
-              <Profile />
+              <Contact />
               <Footer />
               <ScrollToTopButton />
             </>

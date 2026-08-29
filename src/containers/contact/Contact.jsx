@@ -1,20 +1,18 @@
-import React, {useContext, useMemo} from "react";
+import {useMemo} from "react";
 import {motion} from "framer-motion";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import SectionHeader from "../../components/sectionHeader/SectionHeader";
-import {illustration, contactInfo} from "../../portfolio";
+import SocialMedia from "../../components/social-media/SocialMedia";
+import SectionHeader from "../../components/section-header/SectionHeader";
+import {illustration, contactInfo} from "../../data";
 import emailLottie from "../../assets/lottie/email";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import StyleContext from "../../contexts/StyleContext";
-import LanguageContext from "../../contexts/LanguageContext";
-import {getTranslation} from "../../utils/translations";
+import contactMailDark from "../../assets/images/contactMailDark.svg";
+import DisplayLottie from "../../components/display-lottie/DisplayLottie";
+import {useTranslation} from "../../hooks/useTranslation";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSquareWhatsapp} from "@fortawesome/free-brands-svg-icons";
 import {faSquareEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
-  const {isDark} = useContext(StyleContext);
-  const {lang} = useContext(LanguageContext);
+  const t = useTranslation();
 
   const onlyNumbers = useMemo(() => contactInfo.number.replace(/\D/g, ""), []);
   const onlyEmail = useMemo(() => contactInfo.email_address.trim(), []);
@@ -42,11 +40,7 @@ export default function Contact() {
       id="contact"
       className="max-w-7xl mx-auto my-auto py-16 px-6 md:px-10 lg:py-24"
     >
-      <SectionHeader
-        title={getTranslation(contactInfo.title, lang)}
-        subtitle={getTranslation(contactInfo.subtitle, lang)}
-        emoji="✉️"
-      />
+      <SectionHeader title={t(contactInfo.title)} subtitle={t(contactInfo.subtitle)} emoji="✉️" />
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -62,9 +56,7 @@ export default function Contact() {
                 <a
                   className="group flex items-center text-xl md:text-2xl text-[var(--text-secondary)] no-underline transition-all duration-300 hover:text-green-500"
                   href={`https://wa.me/${onlyNumbers}?text=${encodeURIComponent(
-                    lang === "id"
-                      ? "Halo Liant, Saya tertarik untuk bekerja sama terkait ..."
-                      : "Hi Liant, I'm interested in collaborating on ..."
+                    t({en: "Hi Liant, I'm interested in collaborating on ...", id: "Halo Liant, Saya tertarik untuk bekerja sama terkait ..."})
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -115,7 +107,7 @@ export default function Contact() {
           ) : (
             <img
               alt="Contact Illustration"
-              src={require("../../assets/images/contactMailDark.svg")}
+              src={contactMailDark}
               className="w-full h-auto drop-shadow-2xl"
             />
           )}

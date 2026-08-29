@@ -1,6 +1,4 @@
-import React from "react";
 import {motion} from "framer-motion";
-import emoji from "react-easy-emoji";
 
 const Footer = () => {
   const year = new Date().getFullYear();

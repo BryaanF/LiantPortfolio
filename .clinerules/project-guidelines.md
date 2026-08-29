@@ -1,123 +1,87 @@
-# Liant Portfolio - Project Guidelines
+# Liant Portfolio — Project Guidelines
 
-> **Compatibility Note:** This guideline file is designed to be tool-agnostic and readable by any AI coding assistant (Cline, Copilot, future tools). It supplements the existing [.github/copilot-instructions.md](../.github/copilot-instructions.md) with additional conventions and preferences not covered there.
+> Tool-agnostic rules. Readable by any AI coding assistant: **opencode**, **Claude Code**, or a **DeepSeek API** backend (Cline/Roo Code/etc). The main project index lives in [`AGENTS.md`](../AGENTS.md) — check it first for the quickstart map.
 
-## Brief overview
+## Project overview
 
-- **Project:** A data-driven, single-page portfolio website for Brilliant Fikri (Liant), built with React 18 + Vite + Tailwind CSS + SCSS.
-- **Nature:** Pure frontend — no backend, no database. All content lives in `src/portfolio.jsx` as a single configuration file.
-- **Deployment:** Static site deployed to GitHub Pages (`gh-pages` branch) via GitHub Actions from `master` branch.
-- **Domain:** [brilliantfikri.com](https://brilliantfikri.com)
+- **What:** Data-driven single-page portfolio + service offering (pricing) site for Brilliant Fikri (Liant), full-stack web developer.
+- **Stack:** React 18 + Vite 5, SCSS (design tokens) + Tailwind CSS, Framer Motion, Lottie, FontAwesome (tree-shaken SVG).
+- **Nature:** Pure static frontend — no backend, no database. Content lives in `src/data/*.js`.
+- **Deploy:** Static site on GitHub Pages (`gh-pages` branch) through CI `.github/workflows/ci.yml` on pushes to `main`.
+- **Domain:** https://brilliantfikri.com (CNAME file in `public/`).
 
-## Site language policy
+## Language policy
 
-- **Primary language for all user-facing content is English.** The portfolio targets an international/professional audience.
-- **Pending revision:** `pricingSection` in `src/portfolio.jsx` is currently in Bahasa Indonesia and must be translated to English. This includes all `title`, `description`, `desc`, `longDesc`, `features`, `notIncluded`, `workflow` fields, and the WhatsApp checkout message template in `src/containers/pricing/Pricing.jsx` (`handleCheckout` function).
-- Comments in code may use either English or Bahasa Indonesia — both are acceptable.
-- Communication with the developer (AI or human) may use Bahasa Indonesia.
+- **En is the primary language.** Data objects carry both `en` and `id`: `{en: "...", id: "..."}`. New content MUST be complete in both languages (no half-translated sections).
+- Comments may be English or Bahasa Indonesia. Chat may be in either.
 
 ## Communication style
 
-- **Concise and direct.** Avoid filler words and conversational fluff in code comments, commit messages, and documentation.
-- Code comments should explain the "why," not the "what" — the code itself should be self-documenting for what it does.
-- **SCSS comments** use `/* */` block style for section headers (see existing pattern in `variables.scss`).
-- **JSX comments:** `//` for inline, `/* */` for multi-line explanations.
+- Concise, direct, factual. No filler in comments, commit messages, or docs.
+- Comments explain the "why", not the "what".
+- SCSS block comments for section headers (`/* ... */`); `//` inline in JS/JSX.
+
+## Workflow rules (mandatory)
+
+1. **Before committing anything:** run `npm run lint`, `npm test`, and `npm run build` — all three must pass. Fix failures rather than bypassing them.
+2. Never edit or regenerate `build/` — it is git-ignored build output.
+3. Never commit secrets. No `.env` files. There is no env configuration in this app today; if you must add one, use a real `.env` (git-ignored) and reference it with the `VITE_` prefix.
+4. Static resources must be imported (`import img from "../assets/...")` — `require()` does NOT work in Vite.
+5. Only modify files you understand; when unsure, ask.
 
 ## Styling conventions
 
-- **Tailwind CSS is the primary styling approach** for all new components and sections. Use utility classes directly in JSX (reference `src/containers/pricing/Pricing.jsx` as the canonical example).
-- **SCSS is reserved for reusable custom components** that need encapsulated, complex styles not easily expressed with Tailwind utilities. When creating a new reusable component in `src/components/`, co-locate a `.scss` file in the same folder.
-- **Design tokens:** Always reference CSS custom properties for theme-switchable values:
-  - `var(--bg-body)`, `var(--bg-card)`, `var(--text-primary)`, `var(--text-secondary)`, `var(--btn-primary-bg)`, `var(--border-light)`
-  - These are defined in `src/variables.scss` for both `.light-mode` and `.dark-mode`.
-  - For Tailwind, use arbitrary value syntax when needed: `bg-[var(--bg-card)]`, `text-[var(--text-primary)]`, `border-[var(--border-light)]`.
-- **SCSS variables** (prefixed with `$`) are for non-theme values only (e.g., `$brand-gold`, `$buttonHover`, static colors). Do not use SCSS variables for colors that should respond to dark/light mode.
-- **Never hardcode colors** in component JSX or SCSS that should respect the theme. Always go through CSS custom properties.
-- **Brand color:** Gold `#a1902e` (`$brand-gold`). This is the primary accent across buttons, links, and highlights.
-- **IMPORTANT:** The brand-gold in `tailwind.config.js` must match `$brand-gold` in `variables.scss`. Currently both use `#a1902e`. If one changes, update the other.
+- **Design tokens:** always use CSS custom properties (`var(--bg-body)`, `var(--text-primary)`, `var(--btn-primary-bg)`, `var(--border-light)`, ...) — never hardcode theme-sensitive colors. Tokens live in `src/variables.scss` (light + dark) and mirrored in `tailwind.config.js`.
+- **Brand gold `#a1902e`** is the single accent. If `$brand-gold` in `variables.scss` changes, update `tailwind.config.js` too.
+- Hybrid system: Tailwind utilities for layout/spacing in JSX; SCSS co-located per component only when needed. Full patterns: `.clinerules/ui-standards.md`.
+- Extra SCSS files **must be imported by their component** — orphan `.scss` files are dead weight.
 
-## Input and form handling
+## Data-driven architecture
 
-- **This project has no backend.** There is no server to POST form data to.
-- All "contact" or "checkout" interactions must use **direct action links:**
-  - **WhatsApp:** `https://wa.me/6281331487753?text=...` with a pre-formatted, URL-encoded message.
-  - **Email:** `mailto:briliantfikri@gmail.com` with optional `?subject=...&body=...` parameters.
-- Do NOT create `<form>` elements with submit handlers — there is nothing to handle submissions.
-- Do NOT add any form validation libraries or backend integration code.
+- All content/config lives in `src/data/` (`profile.js`, `skills.js`, `education.js`, `experience.js`, `projects.js`, `achievements.js`, `pricing.js`, `site.js`), re-exported by `src/data/index.js`.
+- Components import from `"../../data"` (barrel) — never re-declare content in components.
+- Editing a section = edit its data module only. Do not hardcode content in JSX.
+- Each section has a `display` flag; containers must early-return `null` when `false`, and header nav links must follow the same flags.
+- To add a section: data module → container in `src/containers/<kebab-name>/` → register in `src/containers/Main.jsx` → optional nav link in `src/components/header/Header.jsx`.
+
+## i18n
+
+- `getTranslation(obj, lang)` (fallback `en`) in `src/utils/translations.js`.
+- Prefer the `useTranslation()` hook (`src/hooks/useTranslation.js`) inside components; pass bilingual objects through cards, let them translate themselves (pattern: `EducationCard`, `ExperienceCard`, `AchievementCard`).
 
 ## State management
 
-- **Context API** is the established pattern for global state (see `src/contexts/StyleContext.js` for theme).
-- **Local state** (`useState` / `useReducer`) is sufficient for component-specific state.
-- **Custom hooks** in `src/hooks/` for reusable state logic (e.g., `useLocalStorage` for persistence).
-- Do NOT introduce Redux, Zustand, or other external state management libraries — they are unnecessary for this project's complexity level.
+- Context API only (`StyleContext` theme, `LanguageContext` lang) + `useState`.
+- `useLocalStorage` for persistence (theme/lang). No Redux/Zustand.
 
-## Commit message conventions
+## Libraries & dependencies
 
-Use structured, prefixed commit messages. The format is: `<type>: <brief description>`
-
-| Prefix      | Use when                                                         |
-| ----------- | ---------------------------------------------------------------- |
-| `feat:`     | Adding a new section, component, or feature                      |
-| `fix:`      | Fixing a bug, broken style, or incorrect behavior                |
-| `refactor:` | Restructuring code without changing functionality                |
-| `style:`    | CSS/SCSS/Tailwind adjustments only (no logic changes)            |
-| `docs:`     | Updating README, comments, or documentation files                |
-| `chore:`    | Dependency updates, config changes, build tweaks                 |
-| `content:`  | Updating portfolio data in `portfolio.jsx` (text, images, links) |
-
-Examples:
-
-- `feat: add pricing calculator with WhatsApp checkout`
-- `fix: dark mode card background not applying on mobile`
-- `content: translate pricing section to English`
-- `chore: update framer-motion to v12`
-
-## Library and dependency policy
-
-- **No hard restrictions** on library usage, but exercise caution:
-  - Avoid packages with known security vulnerabilities or a history of unmaintained releases with CVEs.
-  - Prefer well-maintained, widely-adopted libraries with active GitHub repositories and recent releases.
-  - Before adding a new dependency, ask: "Can this be done with what we already have?" The project already includes React 18, Framer Motion, Lottie React, FontAwesome, and react-icons — which cover most UI needs.
-- **Do not add backend frameworks, ORMs, or database drivers** — this is a static frontend only.
-
-## Section visibility control
-
-- Every major section in `src/portfolio.jsx` has a `display: true/false` flag.
-- Containers in `src/containers/` must check this flag and return `null` when `display` is false.
-- The header navigation in `src/components/header/Header.jsx` should also check these flags to show/hide nav links accordingly.
-- When adding a new section, follow the pattern: config object → container with display check → registration in `Main.jsx` → optional nav link.
-
-## Build and deployment notes
-
-- **Dev server:** `npm run start` → Vite on port 3000, auto-opens browser.
-- **Production build:** `npm run build` → outputs to `build/` directory.
-- **Deployment:** GitHub Actions workflow (`.github/workflows/deploy.yml`) triggers on push to `master`, builds, and deploys to `gh-pages` branch. Also runs weekly on Monday 12:00 UTC.
-- **CI variable:** `CI=false` is set in the workflow to prevent treating warnings as errors during build.
-- **Node version:** 18.x (locked in CI workflow).
+- Existing: React, Framer Motion, Lottie, FontAwesome, react-headroom. That covers the UI needs.
+- Before adding a dependency ask: "can this be done with what's here?" Static frontend — no backend/ORM/database packages ever.
+- `npm audit` must stay clean of critical/high CVEs; prefer maintained packages.
 
 ## Reusable component structure
 
-When creating a new reusable component in `src/components/`:
-
 ```
 src/components/MyComponent/
-├── MyComponent.jsx     # Component logic
-└── MyComponent.scss    # Styles (only if Tailwind is insufficient)
+├── MyComponent.jsx    # default export function, PascalCase file
+└── MyComponent.scss   # only if Tailwind is insufficient
 ```
 
-- Component file uses PascalCase matching the folder name.
-- Accept `className` prop to allow parent styling overrides.
-- Use `export default function ComponentName(...)` pattern (consistent with existing codebase).
+- Folders/components in **kebab-case folders + PascalCase files**. Containers mirror kebab-case too.
+- Accept keys from data — prefer stable keys (`projectName`, `company-role`) over array indexes.
 
-## Accessibility baseline
+## Accessibility & semantics
 
-- Use semantic HTML elements (`<section>`, `<nav>`, `<button>`, `<h1>`-`<h6>`).
-- Ensure header navigation links correspond to section `id` attributes for anchor-based scrolling.
-- Images should include meaningful `alt` text.
-- Interactive elements must be keyboard-accessible (buttons, not divs with onClick).
+- Semantic tags (`section`, `nav`, `button`, h1–h6), meaningful `alt`, keyboard-reachable interactions, `rel="noopener noreferrer"` on external links.
+- Anchor nav links must match section `id`s.
 
-## Internationalization note
+## Commit messages
 
-- The website currently supports a single language (English, with some Indonesian pending revision).
-- No i18n framework is in use. If multi-language support is added in the future, use the `feat_lang` add-on structure already defined in `pricingSection.featuresList` as a starting point (ID/EN, 2 languages).
+Use conventional prefixes: `feat:`, `fix:`, `refactor:`, `style:`, `docs:`, `chore:`, `content:`. Example: `feat: add download resume button`.
+
+## Docker / CI notes
+
+- Dev server: `npm run dev` (Vite, port 3000).
+- CI (`.github/workflows/ci.yml`): lint → test → build on PRs/pushes; deploys `main` to `gh-pages`. Keep the pipeline green.
+- Dockerfile: `node:20-alpine`, dev server only (images stay on GH Pages).

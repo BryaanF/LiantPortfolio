@@ -1,10 +1,9 @@
-import React, {useContext} from "react";
+import {useContext} from "react";
 import {motion} from "framer-motion";
-import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
+import SocialMedia from "../../components/social-media/SocialMedia";
 import Button from "../../components/button/Button";
-import {greeting} from "../../portfolio";
+import {greeting} from "../../data";
 import StyleContext from "../../contexts/StyleContext";
 import LanguageContext from "../../contexts/LanguageContext";
 import {getTranslation} from "../../utils/translations";
@@ -76,7 +75,7 @@ export default function Greeting() {
                 animate={{rotate: [0, 20, 0, 20, 0]}}
                 transition={{repeat: Infinity, duration: 2, delay: 1}}
               >
-                {emoji("👋")}
+                👋
               </motion.span>
             </motion.h1>
 

@@ -1,11 +1,11 @@
-import React, {useState, useMemo, useContext} from "react";
+import {useState, useMemo, useContext} from "react";
 import {motion, AnimatePresence} from "framer-motion";
-import {pricingSection} from "../../portfolio";
-import SectionHeader from "../../components/sectionHeader/SectionHeader";
+import {pricingSection} from "../../data";
+import SectionHeader from "../../components/section-header/SectionHeader";
 import LanguageContext from "../../contexts/LanguageContext";
 import StyleContext from "../../contexts/StyleContext";
 import {getTranslation} from "../../utils/translations";
-import ImageLightbox from "../../components/imageLightbox/ImageLightbox";
+import ImageLightbox from "../../components/image-lightbox/ImageLightbox";
 
 /* Icons (SVG inline) */
 const Icons = {
@@ -630,7 +630,7 @@ export default function PricingCalculator() {
                           color: "var(--text-secondary)"
                         }}
                       >
-                        Price varies by scope & complexity — let's discuss!
+                        Price varies by scope &amp; complexity — let&apos;s discuss!
                       </div>
                     ) : (
                       <>
