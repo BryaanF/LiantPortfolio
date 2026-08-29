@@ -1,6 +1,6 @@
 {
-  "short_name": "LiantPortfolio",
-  "name": "LiantPortfolio",
+  "short_name": "Liant - Portfolio",
+  "name": "Brilliant Fikri (Liant) — Full-Stack Web Developer",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#6c63ff",
-  "background_color": "#ffffff"
+  "theme_color": "#a1902e",
+  "background_color": "#0a0a0a"
 }
