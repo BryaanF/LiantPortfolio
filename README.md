@@ -3,7 +3,7 @@
 Personal portfolio & CV site of Brilliant Fikri (Liant) — full-stack web developer.
 Built with React + Vite, bilingual (EN/ID), deployed to GitHub Pages via CI/CD.
 
-> **New to this repo?** Start with [`AGENTS.md`](./AGENTS.md) — the full project map (structure, commands, content workflow, gotchas). Agent workflows have extra rules in `.clinerules/`.
+> **New to this repo?** Start with [`AGENTS.md`](./AGENTS.md) — the full project map (structure, commands, content workflow, gotchas). It follows the open agents.md convention, so any AI-assisted tooling can read it directly.
 
 ## Tech Stack
 
