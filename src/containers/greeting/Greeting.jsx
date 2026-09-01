@@ -97,7 +97,7 @@ export default function Greeting() {
               {greeting.resumeLink && (
                 <Button
                   text="📄 Resume / CV"
-                  href="/resume.pdf"
+                  href={greeting.resumeLink}
                   newTab={true} // If your component supports it
                 />
               )}
@@ -110,6 +110,24 @@ export default function Greeting() {
                 href="#pricing"
               />
             </motion.div>
+
+            {greeting.stats && greeting.stats.display && (
+              <motion.div
+                variants={itemVariants}
+                className="grid grid-cols-3 gap-6 max-w-md mt-10 pt-6 border-t border-[var(--border-light)]/50"
+              >
+                {greeting.stats.items.map((stat, i) => (
+                  <div key={i}>
+                    <div className="text-2xl md:text-3xl font-black text-[var(--btn-primary-bg)]">
+                      {stat.value}
+                    </div>
+                    <div className="text-[10px] md:text-xs uppercase tracking-widest text-[var(--text-secondary)] mt-1">
+                      {getTranslation(stat.label, lang)}
+                    </div>
+                  </div>
+                ))}
+              </motion.div>
+            )}
           </div>
         </motion.div>
 

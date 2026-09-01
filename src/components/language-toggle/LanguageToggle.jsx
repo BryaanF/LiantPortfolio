@@ -11,7 +11,7 @@ export default function LanguageToggle() {
       aria-label="Toggle language"
       title={lang === "id" ? "Switch to English" : "Ganti ke Bahasa Indonesia"}
     >
-      {lang === "id" ? "🇮🇩 ID" : "🇬🇧 EN"}
+      {lang === "id" ? "🌐 ID" : "🌐 EN"}
     </button>
   );
 }

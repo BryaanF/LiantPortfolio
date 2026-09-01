@@ -31,17 +31,7 @@ const CONTACTS = [
   {key: "medium", href: socialMediaLinks.medium, icon: faMedium},
   {key: "stackoverflow", href: socialMediaLinks.stackoverflow, icon: faStackOverflow},
   {key: "kaggle", href: socialMediaLinks.kaggle, icon: faKaggle},
-  {
-    key: "whatsapp",
-    href: socialMediaLinks.whatsapp,
-    icon: faWhatsapp,
-    style: {
-      backgroundColor: "#25D366",
-      color: "white",
-      borderRadius: "50%",
-      fontSize: "24px"
-    }
-  }
+  {key: "whatsapp", href: socialMediaLinks.whatsapp, icon: faWhatsapp}
 ];
 
 export default function SocialMedia() {
@@ -51,7 +41,7 @@ export default function SocialMedia() {
 
   return (
     <div className="social-media-div">
-      {CONTACTS.map(({key, href, icon, className, style}) =>
+      {CONTACTS.map(({key, href, icon, className}) =>
         href ? (
           <a
             key={key}
@@ -60,8 +50,7 @@ export default function SocialMedia() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={icon} style={style} />
-            <span></span>
+            <FontAwesomeIcon icon={icon} />
           </a>
         ) : null
       )}

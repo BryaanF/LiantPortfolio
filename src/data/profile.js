@@ -5,12 +5,19 @@ export const greeting = {
     en: "Hello, I'm Liant",
     id: "Halo, Saya Liant"
   },
+  stats: {
+    display: true,
+    items: [
+      {value: "3+", label: {en: "Active Systems", id: "Sistem Aktif"}},
+      {value: "3+", label: {en: "Years Experience", id: "Tahun Pengalaman"}},
+      {value: "5+", label: {en: "Projects Delivered", id: "Proyek Selesai"}}
+    ]
+  },
   subTitle: {
     en: "Helping organizations and businesses build reliable web systems. I focus on delivering scalable solutions that solve actual operational problems, not just writing code.",
     id: "Membantu organisasi dan bisnis membangun sistem web yang andal. Saya fokus memberikan solusi skalabel yang menyelesaikan masalah operasional nyata, bukan sekadar menulis kode."
   },
-  resumeLink:
-    "https://drive.google.com/drive/folders/1o7l_AQx5z2AdFUB2mR1EC2FJ99mu5VLF?usp=drive_link",
+  resumeLink: "/resume.pdf",
   displayGreeting: true
 };
 

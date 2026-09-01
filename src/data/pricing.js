@@ -512,5 +512,26 @@ export const pricingSection = {
     }
   ],
 
-  addonsList: []
+  addonsList: [],
+
+  testimonials: {
+    display: true,
+    heading: {
+      en: "Words from businesses I've worked with",
+      id: "Ucapan dari bisnis yang pernah bekerja sama"
+    },
+    items: [
+      {
+        quote: {
+          en: "Liant handled our school management system end-to-end — employee data, finance, grading, and automated report cards. It's now the daily work tool for our staff, and support has been responsive.",
+          id: "Liant mengerjakan sistem manajemen sekolah kami end-to-end — data karyawan, keuangan, penilaian, dan rapor otomatis. Kini jadi alat kerja harian staf kami, dan dukungannya juga responsif."
+        },
+        name: "Stefanus",
+        role: {
+          en: "Project Lead — SummaEdu",
+          id: "Project Lead — SummaEdu"
+        }
+      }
+    ]
+  }
 };

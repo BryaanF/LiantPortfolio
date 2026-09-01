@@ -78,7 +78,15 @@ const Icons = {
 /* ============================================================
    MODAL DETAIL
    ============================================================ */
-const PackageModal = ({pkg, onClose, onSelect, isSelected}) => {
+const PackageModal = ({
+  pkg,
+  onClose,
+  onSelect,
+  isSelected,
+  extras,
+  activeExtras,
+  onToggleExtra
+}) => {
   const {lang} = useContext(LanguageContext);
   const {isDark} = useContext(StyleContext);
   const [activeTab, setActiveTab] = useState("overview");
@@ -116,7 +124,17 @@ const PackageModal = ({pkg, onClose, onSelect, isSelected}) => {
     noScreenshots:
       lang === "id"
         ? "Screenshot contoh proyek akan ditampilkan di sini."
-        : "Project screenshot examples will appear here."
+        : "Project screenshot examples will appear here.",
+    optional: lang === "id" ? "Add-on Opsional" : "Optional Add-ons"
+  };
+
+  const fmtPrice = num => {
+    const locale = lang === "id" ? "id-ID" : "en-US";
+    const formatted = new Intl.NumberFormat(locale, {
+      notation: "compact",
+      compactDisplay: "short"
+    }).format(num);
+    return `IDR ${formatted}`;
   };
 
   return (
@@ -273,6 +291,71 @@ const PackageModal = ({pkg, onClose, onSelect, isSelected}) => {
                   >
                     {notIncludedStr}
                   </p>
+                </div>
+              )}
+
+              {/* Optional Add-ons */}
+              {!pkg.isCustomQuote && extras.length > 0 && (
+                <div>
+                  <h4
+                    className="text-xs font-bold uppercase tracking-widest mb-4 mt-2"
+                    style={{color: "var(--text-secondary)"}}
+                  >
+                    {labels.optional}
+                  </h4>
+                  <ul className="grid grid-cols-1 gap-2">
+                    {extras.map(item => {
+                      const isActive = activeExtras.includes(item.id);
+                      return (
+                        <li key={item.id}>
+                          <button
+                            onClick={() => onToggleExtra(item.id)}
+                            className={`w-full flex items-center justify-between gap-3 text-xs p-3 rounded-lg border transition-all duration-200 text-left ${
+                              isActive
+                                ? "border-[var(--btn-primary-bg)] ring-2 ring-[var(--btn-primary-bg)]/40"
+                                : "border-[var(--border-light)]/30 hover:border-[var(--border-light)]/60"
+                            }`}
+                            style={{
+                              backgroundColor: isActive
+                                ? isDark
+                                  ? "rgba(161,144,46,0.15)"
+                                  : "rgba(161,144,46,0.08)"
+                                : "transparent"
+                            }}
+                          >
+                            <span className="flex-1">
+                              <span className="block font-bold text-[var(--text-primary)]">
+                                {item.title}
+                              </span>
+                              <span
+                                className="block mt-0.5"
+                                style={{color: "var(--text-secondary)"}}
+                              >
+                                {getTranslation(item.desc, lang)}
+                              </span>
+                            </span>
+                            <span className="flex items-center gap-2 shrink-0">
+                              <span
+                                className="font-semibold whitespace-nowrap"
+                                style={{color: "var(--text-secondary)"}}
+                              >
+                                + {fmtPrice(item.price)}
+                              </span>
+                              <span
+                                className={`w-5 h-5 rounded-md border flex items-center justify-center ${
+                                  isActive
+                                    ? "bg-[var(--btn-primary-bg)] border-transparent text-white"
+                                    : "border-[var(--border-light)]"
+                                }`}
+                              >
+                                {isActive && <Icons.Check />}
+                              </span>
+                            </span>
+                          </button>
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </div>
               )}
             </div>
@@ -525,7 +608,7 @@ export default function PricingCalculator() {
   };
 
   const labels = {
-    recommended: lang === "id" ? "Add-ons Rekomendasi" : "Recommended Add-ons",
+    startingFrom: lang === "id" ? "Mulai dari" : "Starting from",
     totalEst: lang === "id" ? "Total Est." : "Total Est.",
     book: lang === "id" ? "Pesan via WhatsApp" : "Book via WhatsApp",
     customBook: lang === "id" ? "Diskusi via WhatsApp" : "Discuss via WhatsApp",
@@ -547,12 +630,73 @@ export default function PricingCalculator() {
             onClose={() => setViewDetailPkg(null)}
             onSelect={setSelectedPackageId}
             isSelected={selectedPackageId === viewDetailPkg.id}
+            extras={[
+              ...pricingSection.featuresList,
+              ...pricingSection.addonsList,
+              ...(viewDetailPkg.addons || [])
+            ]}
+            activeExtras={selectedExtras}
+            onToggleExtra={toggleExtra}
           />
         )}
       </AnimatePresence>
 
       <div className="max-w-7xl mx-auto">
         <SectionHeader title={sectionTitle} subtitle={sectionDesc} emoji="💰" />
+
+        {/* Testimonials */}
+        {pricingSection.testimonials?.display && (
+          <motion.div
+            initial={{opacity: 0, y: 20}}
+            whileInView={{opacity: 1, y: 0}}
+            viewport={{once: true}}
+            transition={{duration: 0.5}}
+            className="max-w-4xl mx-auto mb-16"
+          >
+            <div className="text-center text-xs uppercase tracking-[0.25em] text-[var(--text-secondary)] mb-8 font-bold">
+              {getTranslation(pricingSection.testimonials.heading, lang)}
+            </div>
+            <div
+              className={`grid grid-cols-1 gap-6 ${
+                pricingSection.testimonials.items.length > 1
+                  ? "md:grid-cols-2"
+                  : "max-w-md mx-auto"
+              }`}
+            >
+              {pricingSection.testimonials.items.map((t, i) => (
+                <figure
+                  key={i}
+                  className="rounded-xl border border-[var(--border-light)] bg-[var(--bg-card)] p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                >
+                  <div
+                    className="text-4xl font-black leading-none"
+                    style={{color: "var(--btn-primary-bg)"}}
+                  >
+                    “
+                  </div>
+                  <blockquote
+                    className="text-sm leading-relaxed mt-2"
+                    style={{color: "var(--text-secondary)"}}
+                  >
+                    {getTranslation(t.quote, lang)}
+                  </blockquote>
+                  <figcaption
+                    className="mt-4 text-xs font-bold"
+                    style={{color: "var(--text-primary)"}}
+                  >
+                    {t.name}
+                    <span
+                      className="block font-medium mt-0.5"
+                      style={{color: "var(--text-secondary)"}}
+                    >
+                      {getTranslation(t.role, lang)}
+                    </span>
+                  </figcaption>
+                </figure>
+              ))}
+            </div>
+          </motion.div>
+        )}
 
         {/* Pricing Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-32">
@@ -594,10 +738,17 @@ export default function PricingCalculator() {
                       </span>
                     )}
                   </div>
-                  <div className="text-3xl font-black text-[var(--text-primary)] mb-1">
-                    {pkg.isCustomQuote
-                      ? cardShortPrice
-                      : `IDR ${cardShortPrice}`}
+                  <div className="mb-1">
+                    {!pkg.isCustomQuote && (
+                      <span className="block text-[10px] uppercase tracking-widest text-[var(--text-secondary)] mb-1">
+                        {labels.startingFrom}
+                      </span>
+                    )}
+                    <div className="text-3xl font-black text-[var(--text-primary)]">
+                      {pkg.isCustomQuote
+                        ? cardShortPrice
+                        : `IDR ${cardShortPrice}`}
+                    </div>
                   </div>
                   <p
                     className="text-xs mb-6 min-h-[40px]"
@@ -630,7 +781,9 @@ export default function PricingCalculator() {
                           color: "var(--text-secondary)"
                         }}
                       >
-                        Price varies by scope &amp; complexity — let&apos;s discuss!
+                        {lang === "id"
+                          ? "Harga menyesuaikan scope & kompleksitas — mari diskusikan!"
+                          : "Price varies by scope & complexity — let's discuss!"}
                       </div>
                     ) : (
                       <>
@@ -770,70 +923,26 @@ export default function PricingCalculator() {
                     </>
                   ) : (
                     <>
-                      <div className="flex-1 p-4 md:p-6 overflow-x-auto border-b md:border-b-0 md:border-r border-[var(--border-light)]/20">
+                      <div className="flex-1 p-4 md:p-6 flex items-center border-b md:border-b-0 md:border-r border-[var(--border-light)]/20">
                         <span
-                          className="text-[10px] font-bold uppercase tracking-widest block mb-3"
+                          className="text-[10px] font-bold uppercase tracking-widest block"
                           style={{color: "var(--text-secondary)"}}
                         >
-                          {labels.recommended}
+                          {getTranslation(selectedPkg.title, lang)}
                         </span>
-                        <div className="flex gap-3">
-                          {[
-                            ...pricingSection.featuresList,
-                            ...pricingSection.addonsList,
-                            ...(selectedPkg?.addons || [])
-                          ].map(item => {
-                            const isActive = selectedExtras.includes(item.id);
-                            const itemDesc = getTranslation(item.desc, lang);
-                            return (
-                              <div
-                                key={item.id}
-                                onClick={() => toggleExtra(item.id)}
-                                className={`min-w-[160px] p-3 rounded-xl border cursor-pointer transition-all transform ${
-                                  isActive
-                                    ? "border-[var(--btn-primary-bg)] ring-2 ring-[var(--btn-primary-bg)]/50 shadow-lg scale-105"
-                                    : "border-[var(--border-light)] hover:border-[var(--border-light)]/60"
-                                }`}
-                                style={{
-                                  backgroundColor: isActive
-                                    ? isDark
-                                      ? "rgba(161,144,46,0.15)"
-                                      : "rgba(161,144,46,0.08)"
-                                    : isDark
-                                      ? "rgba(255,255,255,0.02)"
-                                      : "rgba(0,0,0,0.02)"
-                                }}
-                              >
-                                <div className="flex items-center justify-between gap-2 mb-1">
-                                  <div className="text-[10px] font-bold truncate flex-1 text-[var(--text-primary)]">
-                                    {item.title}
-                                  </div>
-                                  {isActive && (
-                                    <div className="w-4 h-4 rounded-full bg-[var(--btn-primary-bg)] flex items-center justify-center flex-shrink-0">
-                                      <Icons.Check />
-                                    </div>
-                                  )}
-                                </div>
-                                <div
-                                  className={`text-[10px] opacity-80 ${isActive ? "text-[var(--btn-primary-bg)] font-semibold" : ""}`}
-                                  style={{
-                                    color: isActive
-                                      ? undefined
-                                      : "var(--text-secondary)"
-                                  }}
-                                >
-                                  + {fmtPrice(item.price)}
-                                </div>
-                                <div
-                                  className="text-[9px] mt-1"
-                                  style={{color: "var(--text-secondary)"}}
-                                >
-                                  {itemDesc}
-                                </div>
-                              </div>
-                            );
-                          })}
-                        </div>
+                        <span
+                          className="text-sm mx-3 opacity-60"
+                          style={{color: "var(--text-secondary)"}}
+                        >
+                          •
+                        </span>
+                        <span
+                          className="text-sm font-semibold"
+                          style={{color: "var(--text-primary)"}}
+                        >
+                          {labels.startingFrom}{" "}
+                          {getTranslation(selectedPkg.shortPrice, lang)}
+                        </span>
                       </div>
                       <div
                         className="w-full md:w-72 p-4 md:p-6 flex flex-col justify-center"

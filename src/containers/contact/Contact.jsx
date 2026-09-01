@@ -56,7 +56,7 @@ export default function Contact() {
                 <a
                   className="group flex items-center text-xl md:text-2xl text-[var(--text-secondary)] no-underline transition-all duration-300 hover:text-green-500"
                   href={`https://wa.me/${onlyNumbers}?text=${encodeURIComponent(
-                    t({en: "Hi Liant, I'm interested in collaborating on ...", id: "Halo Liant, Saya tertarik untuk bekerja sama terkait ..."})
+                    t({en: "Hi Liant, I'm interested in collaborating on a project.", id: "Halo Liant, Saya tertarik untuk bekerja sama dalam sebuah proyek."})
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"

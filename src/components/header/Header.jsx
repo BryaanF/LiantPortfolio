@@ -3,6 +3,7 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../toggle-switch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 import LanguageToggle from "../language-toggle/LanguageToggle";
 import {
   greeting,
@@ -17,6 +18,7 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const {lang} = useContext(LanguageContext);
   const viewExperience = workExperiences.display;
   const viewEducation = educationInfo.display;
   const viewSkills = skillsSection.display;
@@ -44,49 +46,49 @@ function Header() {
           {viewIntroVideo && (
             <li>
               <a href="#intro-video" className="nav-link">
-                Intro
+                {lang === "id" ? "Perkenalan" : "Intro"}
               </a>
             </li>
           )}
           {viewSkills && (
             <li>
               <a href="#skills" className="nav-link">
-                Skills
+                {lang === "id" ? "Kemampuan" : "Skills"}
               </a>
             </li>
           )}
           {viewEducation && (
             <li>
               <a href="#education" className="nav-link">
-                Education
+                {lang === "id" ? "Pendidikan" : "Education"}
               </a>
             </li>
           )}
           {viewExperience && (
             <li>
               <a href="#experience" className="nav-link">
-                Work Experiences
+                {lang === "id" ? "Pengalaman" : "Work Experience"}
               </a>
             </li>
           )}
           {viewResume && (
             <li>
               <a href="#projects" className="nav-link">
-                Projects
+                {lang === "id" ? "Proyek" : "Projects"}
               </a>
             </li>
           )}
           {viewAchievement && (
             <li>
               <a href="#achievements" className="nav-link">
-                Certification
+                {lang === "id" ? "Sertifikasi" : "Certification"}
               </a>
             </li>
           )}
           {viewPricing && (
             <li>
               <a href="#pricing" className="nav-link">
-                Pricing
+                {lang === "id" ? "Harga" : "Pricing"}
               </a>
             </li>
           )}

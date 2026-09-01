@@ -17,7 +17,7 @@ export const workExperiences = {
   },
   experience: [
     {
-      role: "IT Developer",
+      role: "Programmer",
       company: "Summa Edu",
       companylogo: summaeduLogo,
       date: "June 2025 – Present",
@@ -109,13 +109,13 @@ export const workExperiences = {
       ]
     },
     {
-      role: "Network Engineer Intern",
+      role: "Website Developer Intern",
       company: "Lintasarta",
       companylogo: lintasartaLogo,
       date: "June 2018 – August 2018",
       desc: {
-        en: "Assisted the Network Engineering team in managing and monitoring local network infrastructure.",
-        id: "Membantu tim Network Engineering dalam mengelola dan memonitor infrastruktur jaringan lokal."
+        en: "Developed a CRUD-based web tool to digitize customer network data, supporting the Network Engineering team's monitoring and management workflows.",
+        id: "Mengembangkan web tool berbasis CRUD untuk digitalisasi data jaringan pelanggan, mendukung alur monitoring dan manajemen tim Network Engineering."
       },
       descBullets: [
         {
