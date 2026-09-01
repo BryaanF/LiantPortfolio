@@ -1,13 +1,26 @@
-import {useContext} from "react";
+import {useContext, useEffect} from "react";
+import {createPortal} from "react-dom";
 import {motion, AnimatePresence} from "framer-motion";
 import LanguageContext from "../../contexts/LanguageContext";
 
 export default function ImageLightbox({src, alt, onClose, externalUrl}) {
   const {lang} = useContext(LanguageContext);
 
+  useEffect(() => {
+    const onKeyDown = event => {
+      if (event.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", onKeyDown);
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [onClose]);
+
   if (!src) return null;
 
-  return (
+  return createPortal(
     <AnimatePresence>
       <motion.div
         initial={{opacity: 0}}
@@ -25,7 +38,7 @@ export default function ImageLightbox({src, alt, onClose, externalUrl}) {
         <button
           onClick={onClose}
           className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
-          aria-label="Close"
+          aria-label={lang === "id" ? "Tutup" : "Close"}
         >
           <svg
             width="20"
@@ -68,6 +81,7 @@ export default function ImageLightbox({src, alt, onClose, externalUrl}) {
           </motion.a>
         )}
       </motion.div>
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 }

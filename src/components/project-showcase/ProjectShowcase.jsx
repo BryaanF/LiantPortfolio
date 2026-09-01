@@ -1,4 +1,5 @@
-import {useContext} from "react";
+import {useContext, useEffect} from "react";
+import {createPortal} from "react-dom";
 import {motion, AnimatePresence} from "framer-motion";
 import StyleContext from "../../contexts/StyleContext";
 import LanguageContext from "../../contexts/LanguageContext";
@@ -80,12 +81,24 @@ export default function ProjectShowcase({
         : "Use the links above to view external resources."
   };
 
+  useEffect(() => {
+    const onKeyDown = event => {
+      if (event.key === "Escape" && onClose) onClose();
+    };
+    window.addEventListener("keydown", onKeyDown);
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [onClose]);
+
   if (!media.length && !externalUrl) {
     if (onClose) onClose();
     return null;
   }
 
-  return (
+  return createPortal(
     <AnimatePresence>
       <motion.div
         initial={{opacity: 0}}
@@ -273,6 +286,7 @@ export default function ProjectShowcase({
           </div>
         </motion.div>
       </motion.div>
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 }
