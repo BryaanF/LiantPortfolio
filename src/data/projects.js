@@ -35,7 +35,10 @@ export const bigProjects = {
     en: "Professional Projects",
     id: "Proyek Profesional"
   },
-  subtitle: "DELIVERING IMPACT THROUGH TECHNOLOGY",
+  subtitle: {
+    en: "DELIVERING IMPACT THROUGH TECHNOLOGY",
+    id: "MENGHADIRKAN DAMPAK MELALUI TEKNOLOGI"
+  },
   projects: [
     {
       image: hrisDashboard,

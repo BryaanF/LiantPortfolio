@@ -15,7 +15,7 @@ export default function AchievementCard({cardInfo}) {
     caption: getTranslation(m.caption || "", lang)
   }));
   const footerLinks = (cardInfo.footer || []).map(f => ({
-    name: f.name,
+    name: getTranslation(f.name, lang),
     url: f.url
   }));
 
@@ -24,7 +24,7 @@ export default function AchievementCard({cardInfo}) {
   const openShowcase = () => {
     if (mediaGallery.length > 0) {
       setShowcaseData({
-        title: cardInfo.title,
+        title: getTranslation(cardInfo.title, lang),
         description: getTranslation(cardInfo.description, lang),
         media: mediaGallery,
         externalUrl: firstExternalUrl
@@ -51,7 +51,7 @@ export default function AchievementCard({cardInfo}) {
 
       {/* Title */}
       <h5 className="mb-2.5 text-xl font-bold text-[var(--text-primary)]">
-        {cardInfo.title}
+        {getTranslation(cardInfo.title, lang)}
       </h5>
 
       {/* Description */}

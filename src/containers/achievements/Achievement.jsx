@@ -34,7 +34,7 @@ export default function Achievement() {
         <div className="achievement-cards-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {achievementSection.achievementsCards.map(card => (
             <motion.div
-              key={card.title}
+              key={card.title.en || card.title}
               variants={cardVariants}
               className="h-full"
             >

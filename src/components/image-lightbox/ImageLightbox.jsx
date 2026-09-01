@@ -1,6 +1,10 @@
+import {useContext} from "react";
 import {motion, AnimatePresence} from "framer-motion";
+import LanguageContext from "../../contexts/LanguageContext";
 
 export default function ImageLightbox({src, alt, onClose, externalUrl}) {
+  const {lang} = useContext(LanguageContext);
+
   if (!src) return null;
 
   return (
@@ -60,7 +64,7 @@ export default function ImageLightbox({src, alt, onClose, externalUrl}) {
             className="mt-4 px-5 py-2 rounded-full bg-white/10 hover:bg-white/20 text-white text-xs font-bold uppercase tracking-wider transition-colors"
             onClick={e => e.stopPropagation()}
           >
-            Open Full Size ↗
+            {lang === "id" ? "Buka Full Size ↗" : "Open Full Size ↗"}
           </motion.a>
         )}
       </motion.div>

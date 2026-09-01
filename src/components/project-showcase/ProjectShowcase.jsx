@@ -1,6 +1,7 @@
 import {useContext} from "react";
 import {motion, AnimatePresence} from "framer-motion";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 
 /* Icons (SVG inline, portable) — color inherits from currentColor via CSS vars */
 const CloseIcon = () => (
@@ -66,6 +67,18 @@ export default function ProjectShowcase({
   onClose
 }) {
   const {isDark} = useContext(StyleContext);
+  const {lang} = useContext(LanguageContext);
+  const labels = {
+    visit: lang === "id" ? "Kunjungi Website" : "Visit Website",
+    noMedia:
+      lang === "id"
+        ? "Tidak ada media untuk item ini."
+        : "No media available for this item.",
+    useLinks:
+      lang === "id"
+        ? "Gunakan tautan di atas untuk melihat sumber daya eksternal."
+        : "Use the links above to view external resources."
+  };
 
   if (!media.length && !externalUrl) {
     if (onClose) onClose();
@@ -151,7 +164,7 @@ export default function ProjectShowcase({
                   }}
                   onClick={e => e.stopPropagation()}
                 >
-                  <ExternalIcon /> Visit Website
+                  <ExternalIcon /> {labels.visit}
                 </a>
               )}
               <button
@@ -253,10 +266,8 @@ export default function ProjectShowcase({
                     : "var(--text-secondary)"
                 }}
               >
-                <p className="text-sm">No media available for this item.</p>
-                <p className="text-xs mt-2">
-                  Use the links above to view external resources.
-                </p>
+                <p className="text-sm">{labels.noMedia}</p>
+                <p className="text-xs mt-2">{labels.useLinks}</p>
               </div>
             )}
           </div>

@@ -1,9 +1,10 @@
-import {useState, lazy, Suspense} from "react";
+import {useState, lazy, Suspense, useContext} from "react";
 import {motion} from "framer-motion";
 import {bigProjects} from "../../data";
 import "./BigProject.scss";
 import SectionHeader from "../../components/section-header/SectionHeader";
 import {useTranslation} from "../../hooks/useTranslation";
+import LanguageContext from "../../contexts/LanguageContext";
 
 const ProjectShowcase = lazy(() =>
   import("../../components/project-showcase/ProjectShowcase")
@@ -11,6 +12,7 @@ const ProjectShowcase = lazy(() =>
 
 export default function BigProject() {
   const t = useTranslation();
+  const {lang} = useContext(LanguageContext);
   const [showcaseData, setShowcaseData] = useState(null);
 
   if (!bigProjects.display) return null;
@@ -34,7 +36,7 @@ export default function BigProject() {
         <div className="projects-main-container">
           <SectionHeader
             title={t(bigProjects.title)}
-            subtitle={bigProjects.subtitle}
+            subtitle={t(bigProjects.subtitle)}
             emoji="🚀"
           />
 
@@ -74,7 +76,7 @@ export default function BigProject() {
                       onClick={() => handleOpenShowcase(project)}
                       className="project-tag"
                     >
-                      View Project
+                      View {lang === "id" ? "Proyek" : "Project"}
                     </button>
                   </div>
                 </div>

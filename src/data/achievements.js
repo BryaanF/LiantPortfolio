@@ -16,7 +16,10 @@ export const achievementSection = {
   },
   achievementsCards: [
     {
-      title: "Figma UI/UX Essentials",
+      title: {
+        en: "Figma UI/UX Essentials",
+        id: "Esensial Figma UI/UX"
+      },
       subtitle: {
         en: "Mastered the fundamentals of User Interface and User Experience design. Learned to create high-fidelity prototypes, wireframes, and design systems to bridge the gap between design and development.",
         id: "Menguasai fundamental desain User Interface dan User Experience. Belajar membuat prototipe high-fidelity, wireframe, dan sistem desain untuk menjembatani kesenjangan antara desain dan pengembangan."
@@ -25,17 +28,20 @@ export const achievementSection = {
       imageAlt: "Udemy Logo",
       footerLink: [
         {
-          name: "Show Certificate",
+          name: {en: "Show Certificate", id: "Lihat Sertifikat"},
           url: "https://www.udemy.com/certificate/UC-798ad0c7-a839-4216-830e-bead6e44d858/"
         },
         {
-          name: "Show Project",
+          name: {en: "Show Project", id: "Lihat Proyek"},
           url: "https://www.figma.com/proto/kqXK6yEMDOvLCTeUAqP5c9/Liants-Audio-Experience-Mobile-Apps?node-id=64-14&t=4d0XqofVf0WLWYNm-1&scaling=scale-down&content-scaling=fixed&page-id=64%3A10&starting-point-node-id=290%3A50&show-proto-sidebar=1"
         }
       ]
     },
     {
-      title: "Full-Stack Laravel Development",
+      title: {
+        en: "Full-Stack Laravel Development",
+        id: "Pengembangan Full-Stack Laravel"
+      },
       subtitle: {
         en: "Advanced course on building complex transactional websites. Covered MVC architecture, database migrations, middleware security, and payment gateway integration.",
         id: "Kursus lanjutan membangun website transaksional kompleks. Mencakup arsitektur MVC, migrasi database, keamanan middleware, dan integrasi payment gateway."
@@ -44,17 +50,20 @@ export const achievementSection = {
       imageAlt: "BuildwithAngga Logo",
       footerLink: [
         {
-          name: "Show Certificate",
+          name: {en: "Show Certificate", id: "Lihat Sertifikat"},
           url: "https://drive.google.com/file/d/1zbuLFEeMzO_2d0-Kc777-mKIqQRCPlXf/view?usp=sharing"
         },
         {
-          name: "Show Project",
+          name: {en: "Show Project", id: "Lihat Proyek"},
           url: "https://github.com/BryaanF/NomadsByLiant"
         }
       ]
     },
     {
-      title: "Internship Excellence",
+      title: {
+        en: "Internship Excellence",
+        id: "Magang Berprestasi"
+      },
       subtitle: {
         en: "Successfully completed professional internship at Kejaksaan Tinggi Jawa Timur, delivering a functional GIS application that was adopted for internal reporting.",
         id: "Berhasil menyelesaikan magang profesional di Kejaksaan Tinggi Jawa Timur, menghasilkan aplikasi GIS fungsional yang diadopsi untuk pelaporan internal."
@@ -63,17 +72,20 @@ export const achievementSection = {
       imageAlt: "Kejaksaan Tinggi Jawa Timur Logo",
       footerLink: [
         {
-          name: "Show Certificate",
+          name: {en: "Show Certificate", id: "Lihat Sertifikat"},
           url: "https://drive.google.com/file/d/1ZE-ye8t4ea-8fGL5btvS92pV_vhJD_Kt/view?usp=sharing"
         },
         {
-          name: "Show Project",
+          name: {en: "Show Project", id: "Lihat Proyek"},
           url: "https://github.com/BryaanF/hris-igi"
         }
       ]
     },
     {
-      title: "Backend Developer – Peduly",
+      title: {
+        en: "Backend Developer – Peduly",
+        id: "Backend Developer – Peduly"
+      },
       subtitle: {
         en: "Served as Backend Developer at Peduly, engineering a high-performance broadcast system capable of handling mass messaging via WhatsApp and Email using Laravel, ExpressJS, and MySQL.",
         id: "Bekerja sebagai Backend Developer di Peduly, merekayasa sistem broadcast berkinerja tinggi yang mampu menangani pesan massal melalui WhatsApp dan Email menggunakan Laravel, ExpressJS, dan MySQL."
@@ -92,11 +104,11 @@ export const achievementSection = {
       ],
       footerLink: [
         {
-          name: "Show Certificate",
+          name: {en: "Show Certificate", id: "Lihat Sertifikat"},
           url: ""
         },
         {
-          name: "Show Project",
+          name: {en: "Show Project", id: "Lihat Proyek"},
           url: "https://zainzo.com/contact"
         }
       ]

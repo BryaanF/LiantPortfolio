@@ -1,7 +1,9 @@
-import {useEffect, useState} from "react";
+import {useEffect, useState, useContext} from "react";
 import "./Top.scss";
+import LanguageContext from "../../contexts/LanguageContext";
 
 export default function Top() {
+  const {lang} = useContext(LanguageContext);
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -22,10 +24,10 @@ export default function Top() {
   return (
     <button
       id="topButton"
-      title="Go to top"
+      title={lang === "id" ? "Kembali ke atas" : "Go to top"}
       onClick={scrollToTop}
       style={{display: visible ? "block" : "none"}}
-      aria-label="Back to top"
+      aria-label={lang === "id" ? "Kembali ke atas" : "Back to top"}
     >
       <svg
         width="20"
