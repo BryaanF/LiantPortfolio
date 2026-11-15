@@ -5,7 +5,7 @@ Project index, onboarding guide & working rules. **Tool-agnostic**: follows the 
 ## TL;DR
 
 - **Project:** A single-page bilingual (EN/ID) portfolio + service pricing site for Brilliant Fikri (Liant), full-stack web developer. Static, no backend.
-- **Stack:** React 18 · Vite 5 · Tailwind CSS (standard) · Framer Motion · Lottie · FontAwesome (tree-shaken).
+- **Stack:** React 18 · Vite 7 · Tailwind CSS (standard) · Framer Motion · Lottie · FontAwesome (tree-shaken).
 - **Live:** https://brilliantfikri.com — deployed from `main` via GitHub Actions to the `gh-pages` branch.
 - **You edit data, not components.** All content lives in `src/data/*.js`.
 
@@ -111,5 +111,5 @@ src/
 - `vite.config.js` auto-injects `variables.scss` into every SCSS compile — don't `@import` it manually.
 - Images are the bundle's biggest weight (some screenshots are >2 MB). Compress new screenshots (WebP or ≤ ~400 KB) and add `loading="lazy"` below the fold.
 - `build/` is generated + git-ignored — never edit it.
-- Node 18+ required (Vite 5). Dockerfile mirrors dev setup only.
+- Node 18+ required (Vite 7). Dockerfile mirrors dev setup only.
 - CI (`.github/workflows/ci.yml`): lint + test + build on PRs; deploys `main` → `gh-pages` branch. Keep the pipeline green; local commands are the same as CI.
