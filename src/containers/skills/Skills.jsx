@@ -20,8 +20,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="w-full py-20 lg:py-28 overflow-hidden"
-      style={{backgroundColor: "var(--bg-body)"}}
+      className="w-full py-20 lg:py-28 overflow-hidden bg-[var(--bg-body)]"
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <SectionHeader

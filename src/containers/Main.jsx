@@ -17,7 +17,6 @@ import {splashScreen} from "../data";
 import {StyleProvider} from "../contexts/StyleContext";
 import {LanguageProvider} from "../contexts/LanguageContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
-import "./Main.scss";
 
 const Main = () => {
   const [isDark, setIsDark] = useLocalStorage("isDark", true);
@@ -37,6 +36,22 @@ const Main = () => {
     }
   }, []);
 
+  useEffect(() => {
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+      document.documentElement.classList.add("dark-mode");
+      document.documentElement.classList.remove("light-mode");
+      document.body.classList.add("dark-mode");
+      document.body.classList.remove("light-mode");
+    } else {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.add("light-mode");
+      document.documentElement.classList.remove("dark-mode");
+      document.body.classList.add("light-mode");
+      document.body.classList.remove("dark-mode");
+    }
+  }, [isDark]);
+
   const changeTheme = () => {
     setIsDark(!isDark);
   };
@@ -46,7 +61,11 @@ const Main = () => {
   };
 
   return (
-    <div className={isDark ? "dark-mode" : "light-mode"}>
+    <div
+      className={`${
+        isDark ? "dark-mode" : "light-mode"
+      } min-h-screen bg-[var(--bg-body)] text-[var(--text-primary)] transition-colors duration-300`}
+    >
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         <LanguageProvider value={{lang: lang, changeLang: changeLang}}>
           {isShowingSplashAnimation && splashScreen.enabled ? (

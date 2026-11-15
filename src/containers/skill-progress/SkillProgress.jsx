@@ -1,5 +1,4 @@
 import {motion} from "framer-motion";
-import "./Progress.scss";
 import {illustration, techStack} from "../../data";
 import Build from "../../assets/lottie/build";
 import skillSvg from "../../assets/images/skill.svg";
@@ -20,27 +19,34 @@ export default function SkillProgress() {
 
   return (
     <motion.section
-      className="skills-container"
+      className="w-[90%] max-w-7xl mx-auto my-8 py-5 px-4 md:px-8 flex flex-col md:flex-row items-center gap-8 md:gap-12"
       initial="hidden"
       whileInView="visible"
       viewport={{once: true, amount: 0.3}}
       variants={containerVariants}
     >
-      <div className="skills-bar">
-        <h1 className="skills-heading">Proficiency 🎯</h1>
+      <div className="w-full md:w-1/2">
+        <h1 className="text-3xl md:text-4xl font-bold mb-8 text-[var(--text-primary)]">
+          Proficiency 🎯
+        </h1>
 
         {techStack.experience.map((exp, i) => (
-          <div key={exp.Stack || i} className="skill">
-            <p className="skill-name">{exp.Stack}</p>
-            <div className="meter">
-              <motion.span variants={progressVariants(exp.progressPercentage)} />
+          <div key={exp.Stack || i} className="mb-5">
+            <p className="text-sm md:text-base font-semibold text-[var(--text-primary)] mb-2">
+              {exp.Stack}
+            </p>
+            <div className="h-4 relative bg-[var(--border-light)] rounded-full overflow-hidden">
+              <motion.span
+                className="h-full rounded-full bg-[#aaa5ff] block"
+                variants={progressVariants(exp.progressPercentage)}
+              />
             </div>
           </div>
         ))}
       </div>
 
       <motion.div
-        className="skills-image"
+        className="hidden md:flex flex-1 justify-center items-center"
         initial={{opacity: 0, scale: 0.8}}
         whileInView={{opacity: 1, scale: 1}}
         transition={{duration: 0.8}}
@@ -48,7 +54,11 @@ export default function SkillProgress() {
         {illustration.animated ? (
           <DisplayLottie animationData={Build} />
         ) : (
-          <img alt="Skills" src={skillSvg} />
+          <img
+            alt="Skills"
+            src={skillSvg}
+            className="ml-10 max-w-[90%] h-auto"
+          />
         )}
       </motion.div>
     </motion.section>

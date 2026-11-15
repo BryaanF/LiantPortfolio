@@ -1,16 +1,13 @@
 import {useContext} from "react";
 import {motion} from "framer-motion";
-import "./Greeting.scss";
 import SocialMedia from "../../components/social-media/SocialMedia";
 import Button from "../../components/button/Button";
 import {greeting} from "../../data";
-import StyleContext from "../../contexts/StyleContext";
 import LanguageContext from "../../contexts/LanguageContext";
 import {getTranslation} from "../../utils/translations";
 import profilePic from "../../assets/images/liant-profile-picture.png";
 
 export default function Greeting() {
-  const {isDark} = useContext(StyleContext);
   const {lang} = useContext(LanguageContext);
 
   if (!greeting.displayGreeting) {
@@ -51,27 +48,25 @@ export default function Greeting() {
 
   return (
     <motion.section
-      className="greet-main px-4 md:px-10"
+      className="w-[90%] max-w-7xl mx-auto py-8 md:py-16 px-4 md:px-8 mt-4 md:mt-8"
       id="greeting"
       initial="hidden"
       animate="visible"
     >
-      <div className="greeting-main flex flex-col md:flex-row items-center justify-between">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-12">
         {/* Kolom Teks */}
         <motion.div
-          className="greeting-text-div w-full md:w-3/5"
+          className="w-full md:w-3/5 text-center md:text-left"
           variants={containerVariants}
         >
           <div>
             <motion.h1
               variants={itemVariants}
-              className={`greeting-text text-4xl md:text-6xl font-bold ${
-                isDark ? "dark-mode" : "light-mode"
-              }`}
+              className="text-4xl md:text-6xl font-bold leading-tight text-[var(--text-primary)]"
             >
               {getTranslation(greeting.title, lang)}
               <motion.span
-                className="wave-emoji inline-block ml-2"
+                className="inline-block ml-2 select-none"
                 animate={{rotate: [0, 20, 0, 20, 0]}}
                 transition={{repeat: Infinity, duration: 2, delay: 1}}
               >
@@ -81,24 +76,27 @@ export default function Greeting() {
 
             <motion.p
               variants={itemVariants}
-              className="greeting-text-p text-lg md:text-xl mt-4 text-[var(--text-secondary)]"
+              className="text-lg md:text-xl mt-4 text-[var(--text-secondary)] leading-relaxed"
             >
               {getTranslation(greeting.subTitle, lang)}
             </motion.p>
 
-            <motion.div variants={itemVariants} className="mt-6">
+            <motion.div
+              variants={itemVariants}
+              className="mt-6 flex justify-center md:justify-start"
+            >
               <SocialMedia />
             </motion.div>
 
             <motion.div
               variants={itemVariants}
-              className="button-greeting-div flex flex-wrap gap-4 mt-8"
+              className="flex flex-wrap justify-center md:justify-start gap-4 mt-8"
             >
               {greeting.resumeLink && (
                 <Button
                   text="📄 Resume / CV"
                   href={greeting.resumeLink}
-                  newTab={true} // If your component supports it
+                  newTab={true}
                 />
               )}
               <Button
@@ -114,7 +112,7 @@ export default function Greeting() {
             {greeting.stats && greeting.stats.display && (
               <motion.div
                 variants={itemVariants}
-                className="grid grid-cols-3 gap-6 max-w-md mt-10 pt-6 border-t border-[var(--border-light)]/50"
+                className="grid grid-cols-3 gap-6 max-w-md mx-auto md:mx-0 mt-10 pt-6 border-t border-[var(--border-light)]/50"
               >
                 {greeting.stats.items.map((stat, i) => (
                   <div key={i}>
@@ -133,7 +131,7 @@ export default function Greeting() {
 
         {/* Kolom Image dengan Animasi Floating */}
         <motion.div
-          className="greeting-image-div w-full md:w-2/5 flex justify-center mt-12 md:mt-0"
+          className="w-full md:w-2/5 flex justify-center mt-6 md:mt-0"
           variants={imageVariants}
         >
           <motion.div
@@ -144,10 +142,10 @@ export default function Greeting() {
             <img
               alt="Profile Avatar"
               src={profilePic}
-              className="profile-avatar w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-[var(--brand-gold)] shadow-2xl"
+              className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-brand-gold shadow-2xl transition-transform duration-300 hover:scale-[1.02]"
             />
-            {/* Dekorasi Abstract (Opsional) */}
-            <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-[var(--brand-gold)] rounded-full -z-10 opacity-20 blur-xl"></div>
+            {/* Dekorasi Abstract */}
+            <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-brand-gold rounded-full -z-10 opacity-20 blur-xl"></div>
           </motion.div>
         </motion.div>
       </div>

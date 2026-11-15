@@ -5,7 +5,7 @@ Project index, onboarding guide & working rules. **Tool-agnostic**: follows the 
 ## TL;DR
 
 - **Project:** A single-page bilingual (EN/ID) portfolio + service pricing site for Brilliant Fikri (Liant), full-stack web developer. Static, no backend.
-- **Stack:** React 18 · Vite 5 · Tailwind CSS + SCSS · Framer Motion · Lottie · FontAwesome (tree-shaken).
+- **Stack:** React 18 · Vite 5 · Tailwind CSS (standard) · Framer Motion · Lottie · FontAwesome (tree-shaken).
 - **Live:** https://brilliantfikri.com — deployed from `main` via GitHub Actions to the `gh-pages` branch.
 - **You edit data, not components.** All content lives in `src/data/*.js`.
 
@@ -70,7 +70,7 @@ src/
 
 - **Data-driven:** all content/config lives in `src/data/`; components never re-declare content in JSX.
 - **Section gating:** every section has a `display` flag; container early-returns `null`; header nav links follow the same flags.
-- **Organization:** folders/components kebab-case folders + PascalCase files; co-locate `.scss` only when Tailwind utilities are insufficient; orphan `.scss` files are dead weight — delete them.
+- **Organization & Styling Standard:** folders/components kebab-case folders + PascalCase files. **Tailwind CSS is the standard styling solution repo-wide.** All components must use Tailwind utility classes directly in JSX. Do NOT create component-level `.scss` or `.css` files. Theme custom properties (`:root`, `.dark-mode`, `.light-mode`) live in `src/index.css` (`@layer base`).
 
 ## i18n & language policy
 
@@ -81,10 +81,10 @@ src/
 
 ## Design system (must-follow)
 
-- **Theme tokens — never hardcode theme-sensitive colors** (defined in `src/variables.scss`):
+- **Theme tokens — never hardcode theme-sensitive colors** (defined in `src/index.css` via `@layer base`):
   `var(--bg-body)`, `var(--bg-card)`, `var(--bg-header)`, `var(--text-primary)`, `var(--text-secondary)`, `var(--btn-primary-bg)`, `var(--btn-primary-hover)`, `var(--border-light)`.
-  Tailwind arbitrary form: `bg-[var(--bg-card)]`, `text-[var(--text-primary)]`, etc. SCSS `$`-vars (`$brand-gold`, brand colors) are for non-theme values only.
-- **Brand gold `#a1902e`** is the single accent; `$brand-gold` in `variables.scss` must stay in sync with `tailwind.config.js`.
+  Tailwind arbitrary form: `bg-[var(--bg-card)]`, `text-[var(--text-primary)]`, `border-[var(--border-light)]`, etc.
+- **Brand gold `#a1902e`** is the single accent; configured as `brand-gold` in `tailwind.config.js`.
 - **Sections:** use `components/section-header/SectionHeader` with `{title, subtitle, emoji, align}`; anchor `id` must match header nav.
 - **Cards:** `rounded-xl border border-[var(--border-light)] bg-[var(--bg-card)] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl`; hover accent `hover:border-[var(--btn-primary-bg)]/50`.
 - **Buttons:** primary = gold fill `var(--btn-primary-bg)` + white text + `hover:brightness-110 active:scale-95`; secondary = outline; danger = soft red `rgba(239,68,68,0.08)` bg.
@@ -101,7 +101,9 @@ src/
 
 ## Commit conventions
 
-Conventional prefixes: `feat:` `fix:` `refactor:` `style:` `docs:` `chore:` `content:`. Example: `feat: add resume download button`. Body lists the "why" only when non-obvious.
+- **Format:** Conventional prefixes: `feat:` `fix:` `refactor:` `style:` `docs:` `chore:` `content:`.
+- **Summary (Subject):** Maximum **50 characters** (`<= 50 chars`). Imperative mood, lowercase after prefix, no trailing period. Example: `feat: add resume download button` (33 chars).
+- **Description (Body):** Detail and explain the "what" and "why" in bullet points below the subject line, separated by an empty line.
 
 ## Gotchas
 

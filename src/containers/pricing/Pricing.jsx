@@ -619,9 +619,8 @@ export default function PricingCalculator() {
 
   return (
     <section
-      className="py-24 px-4 relative"
+      className="py-24 px-4 relative bg-[var(--bg-body)] text-[var(--text-primary)]"
       id="pricing"
-      style={{backgroundColor: "var(--bg-body)", color: "var(--text-primary)"}}
     >
       <AnimatePresence>
         {viewDetailPkg && (
@@ -643,60 +642,6 @@ export default function PricingCalculator() {
 
       <div className="max-w-7xl mx-auto">
         <SectionHeader title={sectionTitle} subtitle={sectionDesc} emoji="💰" />
-
-        {/* Testimonials */}
-        {pricingSection.testimonials?.display && (
-          <motion.div
-            initial={{opacity: 0, y: 20}}
-            whileInView={{opacity: 1, y: 0}}
-            viewport={{once: true}}
-            transition={{duration: 0.5}}
-            className="max-w-4xl mx-auto mb-16"
-          >
-            <div className="text-center text-xs uppercase tracking-[0.25em] text-[var(--text-secondary)] mb-8 font-bold">
-              {getTranslation(pricingSection.testimonials.heading, lang)}
-            </div>
-            <div
-              className={`grid grid-cols-1 gap-6 ${
-                pricingSection.testimonials.items.length > 1
-                  ? "md:grid-cols-2"
-                  : "max-w-md mx-auto"
-              }`}
-            >
-              {pricingSection.testimonials.items.map((t, i) => (
-                <figure
-                  key={i}
-                  className="rounded-xl border border-[var(--border-light)] bg-[var(--bg-card)] p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
-                >
-                  <div
-                    className="text-4xl font-black leading-none"
-                    style={{color: "var(--btn-primary-bg)"}}
-                  >
-                    “
-                  </div>
-                  <blockquote
-                    className="text-sm leading-relaxed mt-2"
-                    style={{color: "var(--text-secondary)"}}
-                  >
-                    {getTranslation(t.quote, lang)}
-                  </blockquote>
-                  <figcaption
-                    className="mt-4 text-xs font-bold"
-                    style={{color: "var(--text-primary)"}}
-                  >
-                    {t.name}
-                    <span
-                      className="block font-medium mt-0.5"
-                      style={{color: "var(--text-secondary)"}}
-                    >
-                      {getTranslation(t.role, lang)}
-                    </span>
-                  </figcaption>
-                </figure>
-              ))}
-            </div>
-          </motion.div>
-        )}
 
         {/* Pricing Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-32">

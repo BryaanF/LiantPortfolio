@@ -1,5 +1,4 @@
 import {motion} from "framer-motion";
-import "./Achievement.scss";
 import AchievementCard from "../../components/achievement-card/AchievementCard";
 import SectionHeader from "../../components/section-header/SectionHeader";
 import {achievementSection} from "../../data";
@@ -23,15 +22,18 @@ export default function Achievement() {
   }
 
   return (
-    <section className="main py-20 px-4 md:px-10" id="achievements">
-      <div className="achievement-main-div max-w-[1400px] mx-auto">
+    <section
+      className="w-full max-w-7xl mx-auto py-16 px-4 md:px-8 lg:py-24"
+      id="achievements"
+    >
+      <div className="w-full">
         <SectionHeader
           title={t(achievementSection.title)}
           subtitle={t(achievementSection.subtitle)}
           emoji="🏆"
         />
 
-        <div className="achievement-cards-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {achievementSection.achievementsCards.map(card => (
             <motion.div
               key={card.title.en || card.title}
